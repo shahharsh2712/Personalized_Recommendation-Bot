@@ -1,0 +1,41 @@
+2025-05-11 20:51:18,162 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2025-05-11 20:51:18,276 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2025-05-11 20:51:18,317 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2025-05-11 20:51:18,483 - INFO - Retrieved 4 active users
+2025-05-11 20:51:18,484 - INFO - Found 4 active users
+2025-05-11 20:51:18,484 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-11 20:51:18,676 - INFO - Found 5 similar products from today's collection
+2025-05-11 20:51:18,695 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-11
+2025-05-11 20:51:18,696 - INFO - Generated 5 recommendations for shahharsh2712@gmail.com
+2025-05-11 20:51:18,697 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-11 20:51:18,732 - INFO - Found 5 similar products from today's collection
+2025-05-11 20:51:18,735 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-11
+2025-05-11 20:51:18,736 - INFO - Generated 5 recommendations for coolhs821@gmail.com
+2025-05-11 20:51:18,736 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-11 20:51:18,774 - INFO - Found 5 similar products from today's collection
+2025-05-11 20:51:18,776 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-11
+2025-05-11 20:51:18,776 - INFO - Generated 5 recommendations for shahsmith375@gmail.com
+2025-05-11 20:51:18,777 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-11 20:51:18,808 - INFO - Found 5 similar products from today's collection
+2025-05-11 20:51:18,809 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-11
+2025-05-11 20:51:18,810 - INFO - Generated 5 recommendations for shahharsh0227@gmail.com
+2025-05-11 20:51:18,810 - INFO - Successfully generated recommendations for 4/4 users
+2025-05-11 20:51:18,812 - INFO - Database connection closed
+2025-05-11 20:51:18,813 - INFO - Database connection closed
+2025-05-11 20:51:18,813 - INFO - Database connection closed
+2025-05-11 20:51:40,640 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2025-05-11 20:51:40,652 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2025-05-11 20:51:40,684 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2025-05-11 20:51:40,702 - INFO - Retrieved 4 active users
+2025-05-11 20:51:40,702 - INFO - Found 4 active users for email delivery
+2025-05-11 20:51:43,448 - INFO - Email sent successfully to shahharsh2712@gmail.com (status code: 202)
+2025-05-11 20:51:43,477 - ERROR - Error logging email delivery to shahharsh2712@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe0ce85fce03cf360e667b", date: "2025-05-11" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe0ce85fce03cf360e667b", date: "2025-05-11" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '67fe0ce85fce03cf360e667b', 'date': '2025-05-11'}}
+2025-05-11 20:51:44,619 - INFO - Email sent successfully to coolhs821@gmail.com (status code: 202)
+2025-05-11 20:51:44,620 - ERROR - Error logging email delivery to coolhs821@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe81955fce03cf360e6691", date: "2025-05-11" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe81955fce03cf360e6691", date: "2025-05-11" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '67fe81955fce03cf360e6691', 'date': '2025-05-11'}}
+2025-05-11 20:51:45,629 - INFO - Email sent successfully to shahsmith375@gmail.com (status code: 202)
+2025-05-11 20:51:45,631 - ERROR - Error logging email delivery to shahsmith375@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "680c9f2277e1a17528fa4035", date: "2025-05-11" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "680c9f2277e1a17528fa4035", date: "2025-05-11" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '680c9f2277e1a17528fa4035', 'date': '2025-05-11'}}
+2025-05-11 20:51:46,684 - INFO - Email sent successfully to shahharsh0227@gmail.com (status code: 202)
+2025-05-11 20:51:46,686 - ERROR - Error logging email delivery to shahharsh0227@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "681da52e77e1a17528fa4036", date: "2025-05-11" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "681da52e77e1a17528fa4036", date: "2025-05-11" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '681da52e77e1a17528fa4036', 'date': '2025-05-11'}}
+2025-05-11 20:51:46,687 - INFO - Successfully sent recommendation emails to 4/4 users
+2025-05-11 20:51:46,688 - INFO - Database connection closed
+2025-05-11 20:51:46,688 - INFO - Database connection closed

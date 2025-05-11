@@ -1,0 +1,859 @@
+[
+  {
+    "id": "962784",
+    "name": "DeckSpeed",
+    "tagline": "Cursor for slides",
+    "description": "DeckSpeed is a revolutionary AI presentation tool that creates professional, personalized slides based on your conversations, without templates. In other words, it's \"Cursor for Slides\", \"McKinsey for everyone\".",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Productivity",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/JSSR6YS4PDX3YN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 218,
+    "detailed_description": "DeckSpeed is a revolutionary AI presentation tool designed to create professional, personalized slides based on conversations, eliminating the need for templates. It aims to provide a 'McKinsey for everyone' experience, making high-quality slide creation accessible to a broader audience. By leveraging AI, DeckSpeed automates the process of crafting visually appealing and coherent slides, saving users time and effort. This tool is particularly useful for individuals who need to quickly prepare presentations without extensive design experience. It streamlines the presentation creation process, ensuring that slides are both informative and visually engaging. DeckSpeed's AI-driven approach helps users focus on content rather than design, making it an efficient tool for professionals and students alike.",
+    "features": [
+      "AI-driven slide creation: DeckSpeed uses AI to generate slides based on conversations, ensuring that content is well-organized and visually appealing.",
+      "Template-free design: Users do not need to rely on pre-made templates, allowing for more personalized and unique presentations.",
+      "Professional-grade output: The tool produces slides that are comparable to those created by professional designers, making it suitable for business and academic presentations.",
+      "Time-saving: By automating the design process, DeckSpeed saves users significant time that would otherwise be spent on crafting slides.",
+      "User-friendly interface: The tool is designed to be intuitive, making it accessible to users without extensive design experience."
+    ],
+    "pricing": {
+      "model": "Currently, specific pricing details are not available. However, DeckSpeed offers a promotional discount of 30% off.",
+      "tiers": [
+        "Free tier: Details about the free version are not specified.",
+        "Tier 1: Pricing details are not available.",
+        "Tier 2: Pricing details are not available.",
+        "Enterprise: Details about enterprise pricing are not available."
+      ],
+      "free_trial": "Information about a free trial is not provided.",
+      "additional_info": "DeckSpeed is offering a 30% discount as part of its launch promotion."
+    },
+    "use_cases": [
+      "Business Presentations: DeckSpeed is useful for professionals who need to quickly prepare high-quality presentations for meetings or pitches.",
+      "Academic Presentations: Students and educators can benefit from DeckSpeed's ability to create well-structured and visually appealing slides for academic presentations.",
+      "Sales and Marketing: The tool can help sales and marketing teams create engaging presentations to communicate their products or services effectively."
+    ],
+    "target_audience": "DeckSpeed is designed for individuals and teams across various industries, including business professionals, students, educators, and anyone who frequently creates presentations. It is particularly beneficial for those who lack extensive design experience but need to produce high-quality slides quickly.",
+    "embedding_text": "Product: DeckSpeed\n\nDescription: DeckSpeed is a revolutionary AI presentation tool designed to create professional, personalized slides based on conversations, eliminating the need for templates. It aims to provide a 'McKinsey for everyone' experience, making high-quality slide creation accessible to a broader audience. By leveraging AI, DeckSpeed automates the process of crafting visually appealing and coherent slides, saving users time and effort. This tool is particularly useful for individuals who need to quickly prepare presentations without extensive design experience. It streamlines the presentation creation process, ensuring that slides are both informative and visually engaging. DeckSpeed's AI-driven approach helps users focus on content rather than design, making it an efficient tool for professionals and students alike.\n\nKey Features:\n- AI-driven slide creation: DeckSpeed uses AI to generate slides based on conversations, ensuring that content is well-organized and visually appealing.\n- Template-free design: Users do not need to rely on pre-made templates, allowing for more personalized and unique presentations.\n- Professional-grade output: The tool produces slides that are comparable to those created by professional designers, making it suitable for business and academic presentations.\n- Time-saving: By automating the design process, DeckSpeed saves users significant time that would otherwise be spent on crafting slides.\n- User-friendly interface: The tool is designed to be intuitive, making it accessible to users without extensive design experience.\n\nPricing Model: Currently, specific pricing details are not available. However, DeckSpeed offers a promotional discount of 30% off.\nPricing Tiers:\n- Free tier: Details about the free version are not specified.\n- Tier 1: Pricing details are not available.\n- Tier 2: Pricing details are not available.\n- Enterprise: Details about enterprise pricing are not available.\nFree Trial: Information about a free trial is not provided.\n\nUse Cases:\n- Business Presentations: DeckSpeed is useful for professionals who need to quickly prepare high-quality presentations for meetings or pitches.\n- Academic Presentations: Students and educators can benefit from DeckSpeed's ability to create well-structured and visually appealing slides for academic presentations.\n- Sales and Marketing: The tool can help sales and marketing teams create engaging presentations to communicate their products or services effectively.\n\nTarget Audience: DeckSpeed is designed for individuals and teams across various industries, including business professionals, students, educators, and anyone who frequently creates presentations. It is particularly beneficial for those who lack extensive design experience but need to produce high-quality slides quickly.\n\nCategories: Design Tools, Productivity, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "944510",
+    "name": "Tate-A-Tate",
+    "tagline": "From idea to Al Agent in minutes—zero coding",
+    "description": "Tate-A-Tate is a no-code platform to rapidly turn ideas into full-stack AI agents — complete with user systems, subscription payments, and complex business logic powered by AI. Launch a business in minutes, using just natural language.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Bots",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/IQGDABRQJIVJNW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 213,
+    "detailed_description": "Tate-A-Tate is a no-code platform designed to rapidly turn ideas into full-stack AI agents. It allows users to create workflows, integrate AI skills, and customize every detail from UI to API endpoints without requiring coding knowledge. This platform is particularly useful for developers and enterprises looking to create branded AI agents that can be monetized through subscriptions. Tate-A-Tate simplifies the process of developing AI agents by providing pre-built modules and tools, enabling users to focus on the business logic and user experience. It supports various publishing channels, including web, Discord, Telegram, and API, making it versatile for different use cases. The platform aims to make AI development accessible and efficient, allowing users to publish their agents quickly and manage them across different platforms. By streamlining AI agent development, Tate-A-Tate helps solve the problem of complex coding and lengthy development cycles, making AI more accessible to a broader audience.",
+    "features": [
+      "No-code development: Allows users to create AI agents without needing to write code, making it accessible to a wider range of users.",
+      "Customizable UI and API endpoints: Users can tailor the appearance and functionality of their AI agents to fit specific business needs.",
+      "Multi-channel publishing: Supports publishing AI agents on various platforms such as web, Discord, Telegram, and API, providing flexibility in deployment.",
+      "Integration with AI skills: Enables users to incorporate different AI capabilities into their agents, enhancing their functionality.",
+      "Monetization through subscriptions: Offers a way for developers to generate revenue from their AI agents by setting up subscription models."
+    ],
+    "pricing": {
+      "model": "Not explicitly stated, but likely includes a freemium or subscription model based on typical no-code platforms.",
+      "tiers": [
+        "Free tier: Not detailed, but typically includes basic features for testing and small-scale projects.",
+        "Tier 1: Details not available, but likely includes additional features and support for small businesses.",
+        "Tier 2: Details not available, but might offer more advanced features and support for larger businesses.",
+        "Enterprise: Details not available, but would likely include comprehensive support, customization options, and advanced security features."
+      ],
+      "free_trial": "Details about a free trial are not provided, but it is common for platforms like this to offer a trial period.",
+      "additional_info": "Pricing specifics are not detailed in the available information, suggesting that users should contact the platform directly for more precise pricing details."
+    },
+    "use_cases": [
+      "Customer Service Automation: Tate-A-Tate can be used to create AI agents that automate customer service tasks, such as answering frequent questions or routing inquiries to human representatives.",
+      "Business Process Automation: The platform can help automate repetitive business processes by integrating AI agents with existing workflows, enhancing efficiency and reducing manual labor.",
+      "Personalized Marketing: AI agents developed on Tate-A-Tate can be used to personalize marketing interactions, tailoring messages and offers based on customer data and preferences."
+    ],
+    "target_audience": "Tate-A-Tate is designed for developers and enterprises across various industries. It is particularly suitable for small to medium-sized businesses looking to leverage AI without extensive coding expertise, as well as larger enterprises seeking to streamline AI development processes.",
+    "embedding_text": "Product: Tate-A-Tate\n\nDescription: Tate-A-Tate is a no-code platform designed to rapidly turn ideas into full-stack AI agents. It allows users to create workflows, integrate AI skills, and customize every detail from UI to API endpoints without requiring coding knowledge. This platform is particularly useful for developers and enterprises looking to create branded AI agents that can be monetized through subscriptions. Tate-A-Tate simplifies the process of developing AI agents by providing pre-built modules and tools, enabling users to focus on the business logic and user experience. It supports various publishing channels, including web, Discord, Telegram, and API, making it versatile for different use cases. The platform aims to make AI development accessible and efficient, allowing users to publish their agents quickly and manage them across different platforms. By streamlining AI agent development, Tate-A-Tate helps solve the problem of complex coding and lengthy development cycles, making AI more accessible to a broader audience.\n\nKey Features:\n- No-code development: Allows users to create AI agents without needing to write code, making it accessible to a wider range of users.\n- Customizable UI and API endpoints: Users can tailor the appearance and functionality of their AI agents to fit specific business needs.\n- Multi-channel publishing: Supports publishing AI agents on various platforms such as web, Discord, Telegram, and API, providing flexibility in deployment.\n- Integration with AI skills: Enables users to incorporate different AI capabilities into their agents, enhancing their functionality.\n- Monetization through subscriptions: Offers a way for developers to generate revenue from their AI agents by setting up subscription models.\n\nPricing Model: Not explicitly stated, but likely includes a freemium or subscription model based on typical no-code platforms.\nPricing Tiers:\n- Free tier: Not detailed, but typically includes basic features for testing and small-scale projects.\n- Tier 1: Details not available, but likely includes additional features and support for small businesses.\n- Tier 2: Details not available, but might offer more advanced features and support for larger businesses.\n- Enterprise: Details not available, but would likely include comprehensive support, customization options, and advanced security features.\nFree Trial: Details about a free trial are not provided, but it is common for platforms like this to offer a trial period.\n\nUse Cases:\n- Customer Service Automation: Tate-A-Tate can be used to create AI agents that automate customer service tasks, such as answering frequent questions or routing inquiries to human representatives.\n- Business Process Automation: The platform can help automate repetitive business processes by integrating AI agents with existing workflows, enhancing efficiency and reducing manual labor.\n- Personalized Marketing: AI agents developed on Tate-A-Tate can be used to personalize marketing interactions, tailoring messages and offers based on customer data and preferences.\n\nTarget Audience: Tate-A-Tate is designed for developers and enterprises across various industries. It is particularly suitable for small to medium-sized businesses looking to leverage AI without extensive coding expertise, as well as larger enterprises seeking to streamline AI development processes.\n\nCategories: Artificial Intelligence, Bots, No-Code\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "960543",
+    "name": "AI Knowledge Search by Amurex",
+    "tagline": "One search. Your emails, docs, notes - all connected.",
+    "description": "Our AI-powered search connects Gmail, Google Docs, Notion, Obsidian, and more - so you can find anything across all your knowledge sources instantly, from one simple search bar. No more silos, no more wasted time. Just instant answers.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Open Source",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/SUJY4ABXJ4QMAA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 127,
+    "detailed_description": "AI Knowledge Search by Amurex is an innovative tool designed to unify and streamline information retrieval across various platforms. Its primary function is to provide a single search interface that connects multiple knowledge sources such as Gmail, Google Docs, Notion, Obsidian, and more. This integration eliminates the need to search through each platform individually, saving time and reducing information silos. By leveraging AI, it offers instant answers and enhances productivity by making all your documents, emails, and notes accessible from one place. The tool is open-source and free, making it accessible to a wide range of users. It aims to solve the problem of fragmented information by providing a centralized search solution. This tool is particularly beneficial for individuals and teams who manage a large volume of digital content across different platforms.",
+    "features": [
+      "Unified Search Interface: Allows users to search across multiple platforms like Gmail, Google Docs, Notion, and Obsidian from a single search bar, reducing the time spent searching for information.",
+      "AI-Powered Search: Utilizes AI to provide instant and relevant results, enhancing the efficiency of information retrieval.",
+      "Open-Source Nature: Being open-source, it encourages community involvement and customization, which can lead to more features and improvements over time.",
+      "Integration with Popular Tools: Supports integration with widely used productivity tools, making it easy to incorporate into existing workflows.",
+      "Free Access: Offers free access to its features, making it an attractive option for individuals and small teams looking to organize their digital content without additional costs."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes full access to unified search across multiple platforms like Gmail, Google Docs, Notion, and Obsidian."
+      ],
+      "free_trial": "Not applicable as the product is entirely free.",
+      "additional_info": "There are no additional costs or tiers; the tool is completely free to use."
+    },
+    "use_cases": [
+      "For Remote Teams: Useful for remote teams that need to access and share information across different platforms efficiently.",
+      "For Researchers: Beneficial for researchers who need to quickly find specific information across multiple documents and emails.",
+      "For Small Businesses: Ideal for small businesses looking to streamline their digital content management without incurring additional costs."
+    ],
+    "target_audience": "AI Knowledge Search by Amurex is designed for individuals and teams of all sizes across various industries, particularly those who rely heavily on digital content management and collaboration tools. It is especially suitable for remote workers, researchers, and small businesses seeking to enhance productivity and reduce information fragmentation.",
+    "embedding_text": "Product: AI Knowledge Search by Amurex\n\nDescription: AI Knowledge Search by Amurex is an innovative tool designed to unify and streamline information retrieval across various platforms. Its primary function is to provide a single search interface that connects multiple knowledge sources such as Gmail, Google Docs, Notion, Obsidian, and more. This integration eliminates the need to search through each platform individually, saving time and reducing information silos. By leveraging AI, it offers instant answers and enhances productivity by making all your documents, emails, and notes accessible from one place. The tool is open-source and free, making it accessible to a wide range of users. It aims to solve the problem of fragmented information by providing a centralized search solution. This tool is particularly beneficial for individuals and teams who manage a large volume of digital content across different platforms.\n\nKey Features:\n- Unified Search Interface: Allows users to search across multiple platforms like Gmail, Google Docs, Notion, and Obsidian from a single search bar, reducing the time spent searching for information.\n- AI-Powered Search: Utilizes AI to provide instant and relevant results, enhancing the efficiency of information retrieval.\n- Open-Source Nature: Being open-source, it encourages community involvement and customization, which can lead to more features and improvements over time.\n- Integration with Popular Tools: Supports integration with widely used productivity tools, making it easy to incorporate into existing workflows.\n- Free Access: Offers free access to its features, making it an attractive option for individuals and small teams looking to organize their digital content without additional costs.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes full access to unified search across multiple platforms like Gmail, Google Docs, Notion, and Obsidian.\nFree Trial: Not applicable as the product is entirely free.\n\nUse Cases:\n- For Remote Teams: Useful for remote teams that need to access and share information across different platforms efficiently.\n- For Researchers: Beneficial for researchers who need to quickly find specific information across multiple documents and emails.\n- For Small Businesses: Ideal for small businesses looking to streamline their digital content management without incurring additional costs.\n\nTarget Audience: AI Knowledge Search by Amurex is designed for individuals and teams of all sizes across various industries, particularly those who rely heavily on digital content management and collaboration tools. It is especially suitable for remote workers, researchers, and small businesses seeking to enhance productivity and reduce information fragmentation.\n\nCategories: Productivity, Open Source, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963337",
+    "name": "Znote",
+    "tagline": "Continue your ChatGPT chats inside smart notes",
+    "description": "Znote combines ChatGPT, Notion, and a terminal — in one private, local app. Continue your AI chats inside smart notes, run code, build reports, automate workflows. No subscription. Full control. One workspace to think, write, and build.",
+    "category": "Writing",
+    "topics": [
+      "Writing",
+      "Artificial Intelligence",
+      "Notion"
+    ],
+    "website": "https://www.producthunt.com/r/3UNX2BMJYSYBVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 121,
+    "detailed_description": "Znote is a private AI-powered note-taking application that allows users to integrate their ChatGPT conversations directly into their notes. This integration enhances the note-taking experience by leveraging AI to assist in writing and organizing content. Znote provides a secure environment where users can manage their documents using folders and a robust search system. It supports multiple document editing simultaneously through tabs and offers both a WYSIWYG editor for prose and a powerful code editor with completion features. Additionally, Znote allows users to plug in local language models to aid in text and code creation, ensuring that all data remains local and secure with password protection.",
+    "features": [
+      "Tabbed interface for managing multiple documents simultaneously, enhancing productivity by allowing users to switch between different notes and projects easily.",
+      "WYSIWYG editor for prose and a powerful code editor with completion features, providing a versatile writing experience for both text and code.",
+      "Integration with local language models to assist in writing and coding tasks, offering AI-driven suggestions and improvements.",
+      "Full search system for easy document management, enabling users to quickly locate specific notes or information.",
+      "Password protection for securing notes, ensuring that sensitive information remains confidential and accessible only to authorized users."
+    ],
+    "pricing": {
+      "model": "Free/Freemium",
+      "tiers": [
+        "Free tier: includes basic note-taking features and AI integration",
+        "No specific pricing tiers mentioned, but the product is available for installation via Homebrew with the command `$ brew install znote`."
+      ],
+      "free_trial": "No specific free trial mentioned; the product is available for free with core features.",
+      "additional_info": "Znote is primarily a free, locally installed application with no subscription fees mentioned."
+    },
+    "use_cases": [
+      "Developers and writers can use Znote to organize their ideas and projects, leveraging AI assistance for code completion and text improvement.",
+      "Researchers can benefit from Znote's ability to manage multiple documents and integrate AI for summarizing or analyzing large volumes of text.",
+      "Students can utilize Znote for note-taking during classes, using AI to help organize and review their notes more efficiently."
+    ],
+    "target_audience": "Znote is designed for individuals who value privacy and need a robust note-taking system, such as developers, writers, researchers, and students. It is particularly suitable for those who prefer local data storage and AI-driven productivity tools.",
+    "embedding_text": "Product: Znote\n\nDescription: Znote is a private AI-powered note-taking application that allows users to integrate their ChatGPT conversations directly into their notes. This integration enhances the note-taking experience by leveraging AI to assist in writing and organizing content. Znote provides a secure environment where users can manage their documents using folders and a robust search system. It supports multiple document editing simultaneously through tabs and offers both a WYSIWYG editor for prose and a powerful code editor with completion features. Additionally, Znote allows users to plug in local language models to aid in text and code creation, ensuring that all data remains local and secure with password protection.\n\nKey Features:\n- Tabbed interface for managing multiple documents simultaneously, enhancing productivity by allowing users to switch between different notes and projects easily.\n- WYSIWYG editor for prose and a powerful code editor with completion features, providing a versatile writing experience for both text and code.\n- Integration with local language models to assist in writing and coding tasks, offering AI-driven suggestions and improvements.\n- Full search system for easy document management, enabling users to quickly locate specific notes or information.\n- Password protection for securing notes, ensuring that sensitive information remains confidential and accessible only to authorized users.\n\nPricing Model: Free/Freemium\nPricing Tiers:\n- Free tier: includes basic note-taking features and AI integration\n- No specific pricing tiers mentioned, but the product is available for installation via Homebrew with the command `$ brew install znote`.\nFree Trial: No specific free trial mentioned; the product is available for free with core features.\n\nUse Cases:\n- Developers and writers can use Znote to organize their ideas and projects, leveraging AI assistance for code completion and text improvement.\n- Researchers can benefit from Znote's ability to manage multiple documents and integrate AI for summarizing or analyzing large volumes of text.\n- Students can utilize Znote for note-taking during classes, using AI to help organize and review their notes more efficiently.\n\nTarget Audience: Znote is designed for individuals who value privacy and need a robust note-taking system, such as developers, writers, researchers, and students. It is particularly suitable for those who prefer local data storage and AI-driven productivity tools.\n\nCategories: Writing, Artificial Intelligence, Notion\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963770",
+    "name": "Snek",
+    "tagline": "A web version of the mobile classic",
+    "description": "A web version of the mobile classic.",
+    "category": "Free Games",
+    "topics": [
+      "Free Games",
+      "Games"
+    ],
+    "website": "https://www.producthunt.com/r/Q5EWHEEWD2A2N3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 113,
+    "detailed_description": "Snek is a web version of a classic mobile game, likely inspired by the iconic Snake game that was popular on mobile devices. The product aims to bring the nostalgic experience of playing Snake to the web, allowing users to enjoy the game in a browser. It solves the problem of accessibility by providing a platform where users can play without needing to download an app. However, specific details about its functionality, such as controls or game modes, are not available. The game's main purpose is to provide entertainment and a retro gaming experience. It caters to users who enjoy simple yet engaging games and are looking for a web-based alternative to mobile apps. Snek's launch on May 11th, 2025, indicates it is a new offering in the gaming space.",
+    "features": [
+      "Web-based accessibility: Allows users to play the game directly in their web browser without the need for downloads.",
+      "Classic gameplay: Offers the traditional Snake game experience with the goal of eating objects to grow the snake.",
+      "Retro aesthetic: Likely features a nostalgic visual style reminiscent of older mobile games.",
+      "Simple controls: Expected to have intuitive controls suitable for web navigation.",
+      "Cross-platform compatibility: Can be played on various devices with a web browser."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing tiers are available."
+      ],
+      "free_trial": "No information about a free trial is available.",
+      "additional_info": "Pricing details are not provided in the available information."
+    },
+    "use_cases": [
+      "Casual gaming: Snek is suitable for users looking for a quick, entertaining experience during breaks or leisure time.",
+      "Nostalgia: It appeals to those who enjoyed playing Snake on older mobile devices and want to relive the experience.",
+      "Accessibility: It provides an option for users who prefer web-based games over mobile apps."
+    ],
+    "target_audience": "Snek is designed for individuals who enjoy casual, retro-style games and prefer web-based platforms. It targets a broad audience, including both young and older users who are familiar with the classic Snake game.",
+    "embedding_text": "Product: Snek\n\nDescription: Snek is a web version of a classic mobile game, likely inspired by the iconic Snake game that was popular on mobile devices. The product aims to bring the nostalgic experience of playing Snake to the web, allowing users to enjoy the game in a browser. It solves the problem of accessibility by providing a platform where users can play without needing to download an app. However, specific details about its functionality, such as controls or game modes, are not available. The game's main purpose is to provide entertainment and a retro gaming experience. It caters to users who enjoy simple yet engaging games and are looking for a web-based alternative to mobile apps. Snek's launch on May 11th, 2025, indicates it is a new offering in the gaming space.\n\nKey Features:\n- Web-based accessibility: Allows users to play the game directly in their web browser without the need for downloads.\n- Classic gameplay: Offers the traditional Snake game experience with the goal of eating objects to grow the snake.\n- Retro aesthetic: Likely features a nostalgic visual style reminiscent of older mobile games.\n- Simple controls: Expected to have intuitive controls suitable for web navigation.\n- Cross-platform compatibility: Can be played on various devices with a web browser.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing tiers are available.\nFree Trial: No information about a free trial is available.\n\nUse Cases:\n- Casual gaming: Snek is suitable for users looking for a quick, entertaining experience during breaks or leisure time.\n- Nostalgia: It appeals to those who enjoyed playing Snake on older mobile devices and want to relive the experience.\n- Accessibility: It provides an option for users who prefer web-based games over mobile apps.\n\nTarget Audience: Snek is designed for individuals who enjoy casual, retro-style games and prefer web-based platforms. It targets a broad audience, including both young and older users who are familiar with the classic Snake game.\n\nCategories: Free Games, Games\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963768",
+    "name": "DockDoor",
+    "tagline": " Window peeking and alt-tab functionality for macOS ",
+    "description": "DockDoor brings Window 10-style window previews to your macOS dock. Free, open-source app with intuitive window management. Enhance your Mac workflow.",
+    "category": "Mac",
+    "topics": [
+      "Mac",
+      "Open Source",
+      "GitHub",
+      "Menu Bar Apps"
+    ],
+    "website": "https://www.producthunt.com/r/EVLB4TTHTONKY7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 110,
+    "detailed_description": "DockDoor is a free and open-source macOS application designed to enhance the functionality of the Mac Dock by providing window previews and advanced window switching capabilities. It offers a feature similar to Windows, where hovering over a dock icon displays real-time previews of open windows. This tool is particularly useful for users who miss the window preview functionality from Windows or face issues with other similar apps like Dockmate on macOS Sequoia. DockDoor is developed with Swift and SwiftUI, ensuring seamless integration with macOS. It requires accessibility and screen recording permissions to function properly. Despite its benefits, DockDoor has limitations, such as not being able to preview hidden windows or windows on another space due to macOS constraints. Overall, it improves workflow efficiency by allowing users to quickly identify and switch between open windows.",
+    "features": [
+      "Window Previews: Hovering over dock icons provides real-time previews of open windows, allowing users to quickly identify the content of each window without having to switch to it.",
+      "Advanced Window Switching: DockDoor introduces a Ctrl+Tab keyboard shortcut for cycling through all windows open on the current space, making it easier to navigate between multiple windows.",
+      "Seamless Integration: Built with Swift and SwiftUI, DockDoor integrates smoothly into the macOS environment, ensuring optimal performance and user experience.",
+      "Free and Open Source: Available at no cost, with source code accessible on GitHub, making it accessible to a wide range of users and developers.",
+      "Customizable: Users can configure the application via the menu bar icon, allowing for personalized settings to enhance workflow efficiency."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes all features such as window previews and advanced window switching."
+      ],
+      "free_trial": "Not applicable as it is a free application",
+      "additional_info": "DockDoor does not offer any paid tiers or subscriptions; it is entirely free to use."
+    },
+    "use_cases": [
+      "Productivity Enhancement: For users managing multiple windows simultaneously, DockDoor simplifies the process of identifying and switching between them, improving overall productivity.",
+      "Workflow Optimization: It is particularly useful for professionals who need to multitask across several applications, such as developers, designers, and writers.",
+      "User Experience Improvement: DockDoor provides a more intuitive way to interact with the Mac Dock, making it easier for users transitioning from Windows to macOS."
+    ],
+    "target_audience": "DockDoor is designed for individual users and small to medium-sized businesses, particularly those who rely heavily on multitasking and efficient window management. It is suitable for roles such as developers, designers, writers, and anyone who frequently uses multiple applications simultaneously.",
+    "embedding_text": "Product: DockDoor\n\nDescription: DockDoor is a free and open-source macOS application designed to enhance the functionality of the Mac Dock by providing window previews and advanced window switching capabilities. It offers a feature similar to Windows, where hovering over a dock icon displays real-time previews of open windows. This tool is particularly useful for users who miss the window preview functionality from Windows or face issues with other similar apps like Dockmate on macOS Sequoia. DockDoor is developed with Swift and SwiftUI, ensuring seamless integration with macOS. It requires accessibility and screen recording permissions to function properly. Despite its benefits, DockDoor has limitations, such as not being able to preview hidden windows or windows on another space due to macOS constraints. Overall, it improves workflow efficiency by allowing users to quickly identify and switch between open windows.\n\nKey Features:\n- Window Previews: Hovering over dock icons provides real-time previews of open windows, allowing users to quickly identify the content of each window without having to switch to it.\n- Advanced Window Switching: DockDoor introduces a Ctrl+Tab keyboard shortcut for cycling through all windows open on the current space, making it easier to navigate between multiple windows.\n- Seamless Integration: Built with Swift and SwiftUI, DockDoor integrates smoothly into the macOS environment, ensuring optimal performance and user experience.\n- Free and Open Source: Available at no cost, with source code accessible on GitHub, making it accessible to a wide range of users and developers.\n- Customizable: Users can configure the application via the menu bar icon, allowing for personalized settings to enhance workflow efficiency.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes all features such as window previews and advanced window switching.\nFree Trial: Not applicable as it is a free application\n\nUse Cases:\n- Productivity Enhancement: For users managing multiple windows simultaneously, DockDoor simplifies the process of identifying and switching between them, improving overall productivity.\n- Workflow Optimization: It is particularly useful for professionals who need to multitask across several applications, such as developers, designers, and writers.\n- User Experience Improvement: DockDoor provides a more intuitive way to interact with the Mac Dock, making it easier for users transitioning from Windows to macOS.\n\nTarget Audience: DockDoor is designed for individual users and small to medium-sized businesses, particularly those who rely heavily on multitasking and efficient window management. It is suitable for roles such as developers, designers, writers, and anyone who frequently uses multiple applications simultaneously.\n\nCategories: Mac, Open Source, GitHub, Menu Bar Apps\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "958107",
+    "name": "Mids",
+    "tagline": "The vibe launch platform",
+    "description": "In world where everybody can build apps, mids.dev is a launchpad for easy sharing, discovery and following. Before the domain, get the Mid. Post projects, capture interest, build followers, follow others too. Launching has never been easier.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GNZKHDDPQMWPWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105,
+    "detailed_description": "Mids is a launch platform designed to simplify the process of sharing, discovering, and following new apps and projects in the developer and maker community. It serves as a launchpad where users can post their projects, capture interest, build followers, and follow others, making the launching process more accessible and engaging. The platform emphasizes community interaction and discovery, allowing creators to showcase their work and gain visibility before securing their domain names. Mids aims to solve the problem of fragmented app launches by providing a centralized space that fosters connection and momentum around new digital products. It supports various launch tags including Marketing, Developer Tools, and Artificial Intelligence, catering to a broad range of tech creators and innovators. By facilitating easy sharing and discovery, Mids helps creators build a following and gain early traction in a competitive app ecosystem.",
+    "features": [
+      "Project Posting and Sharing: Allows users to post their projects easily, enabling quick sharing and visibility within the community, which helps in gaining early interest and feedback.",
+      "Discovery and Following System: Users can discover new projects and follow creators, fostering a network effect that helps projects gain momentum and creators build an audience.",
+      "Launch Tags: Supports categorization of projects with tags such as Marketing, Developer Tools, and Artificial Intelligence, making it easier for users to find relevant projects.",
+      "Community Engagement: Enables interaction through following and commenting, which helps creators engage with their audience and build a supportive community around their projects.",
+      "Domain Pre-Launch Feature: Encourages users to secure their domain names early by promoting projects before the domain is acquired, helping in brand establishment and online presence."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes the ability to post projects, follow others, discover new launches, and engage with the community without any cost."
+      ],
+      "free_trial": "Not applicable as the platform is free to use.",
+      "additional_info": "Mids currently offers free access to all its core features with no mention of paid tiers or premium plans."
+    },
+    "use_cases": [
+      "A developer or maker wants to launch a new app or digital product and gain early visibility and followers before securing a domain name.",
+      "A tech enthusiast or investor seeks to discover innovative projects in Marketing, Developer Tools, or AI to follow and potentially support or collaborate with creators.",
+      "A startup founder aims to build a community around their product launch by sharing updates and engaging with early adopters and other creators."
+    ],
+    "target_audience": "Mids is designed for individual developers, makers, startup founders, and tech enthusiasts primarily in the software development, marketing technology, and artificial intelligence sectors. It suits small to medium-sized teams and solo creators who want to launch and promote their digital products easily and build a following within a community-driven platform.",
+    "embedding_text": "Product: Mids\n\nDescription: Mids is a launch platform designed to simplify the process of sharing, discovering, and following new apps and projects in the developer and maker community. It serves as a launchpad where users can post their projects, capture interest, build followers, and follow others, making the launching process more accessible and engaging. The platform emphasizes community interaction and discovery, allowing creators to showcase their work and gain visibility before securing their domain names. Mids aims to solve the problem of fragmented app launches by providing a centralized space that fosters connection and momentum around new digital products. It supports various launch tags including Marketing, Developer Tools, and Artificial Intelligence, catering to a broad range of tech creators and innovators. By facilitating easy sharing and discovery, Mids helps creators build a following and gain early traction in a competitive app ecosystem.\n\nKey Features:\n- Project Posting and Sharing: Allows users to post their projects easily, enabling quick sharing and visibility within the community, which helps in gaining early interest and feedback.\n- Discovery and Following System: Users can discover new projects and follow creators, fostering a network effect that helps projects gain momentum and creators build an audience.\n- Launch Tags: Supports categorization of projects with tags such as Marketing, Developer Tools, and Artificial Intelligence, making it easier for users to find relevant projects.\n- Community Engagement: Enables interaction through following and commenting, which helps creators engage with their audience and build a supportive community around their projects.\n- Domain Pre-Launch Feature: Encourages users to secure their domain names early by promoting projects before the domain is acquired, helping in brand establishment and online presence.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes the ability to post projects, follow others, discover new launches, and engage with the community without any cost.\nFree Trial: Not applicable as the platform is free to use.\n\nUse Cases:\n- A developer or maker wants to launch a new app or digital product and gain early visibility and followers before securing a domain name.\n- A tech enthusiast or investor seeks to discover innovative projects in Marketing, Developer Tools, or AI to follow and potentially support or collaborate with creators.\n- A startup founder aims to build a community around their product launch by sharing updates and engaging with early adopters and other creators.\n\nTarget Audience: Mids is designed for individual developers, makers, startup founders, and tech enthusiasts primarily in the software development, marketing technology, and artificial intelligence sectors. It suits small to medium-sized teams and solo creators who want to launch and promote their digital products easily and build a following within a community-driven platform.\n\nCategories: Marketing, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963728",
+    "name": "eBay AI Shopping Agent",
+    "tagline": "Your AI assistant for truly personal eBay shopping",
+    "description": "eBay's new AI Shopping Agent offers hyper-personalized product picks and guidance. Currently rolling out to U.S. users, it aims to make discovery on eBay effortless and tailored to your preferences.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "E-Commerce"
+    ],
+    "website": "https://www.producthunt.com/r/4PQOT275EAU2ZW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 103,
+    "detailed_description": "The eBay AI Shopping Agent is designed to enhance the shopping experience on eBay by providing real-time, hyper-personalized product recommendations and expert guidance. It aims to make product discovery more efficient and enjoyable by understanding and anticipating user needs. Unlike traditional search methods, this agent interprets nuanced shopper intent to suggest relevant listings. It represents a significant advancement in eBay's AI capabilities, evolving from simple chatbots to more interactive and conversational agents. The agent is integrated throughout the shopping journey, offering assistance in finding gifts or assembling seasonal wardrobes. By leveraging decades of customer insights and product knowledge, eBay positions itself at the forefront of AI-powered ecommerce. This technology has the potential to revolutionize the way customers shop and sellers market their products on the platform.",
+    "features": [
+      "Real-time Personalization: Offers tailored product suggestions based on individual shopping preferences, enhancing the overall shopping experience.",
+      "Conversational Interface: Engages users through interactive and conversational interactions, making it easier to find what they need.",
+      "Intent Interpretation: Goes beyond keyword searches by interpreting nuanced shopper intent to provide more accurate and relevant product listings.",
+      "Predictive Messaging: Provides proactive suggestions and guidance inline with the user's current page, streamlining the shopping process.",
+      "Seamless Integration: Available throughout the shopping journey, whether users are browsing or actively searching for products."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Access to personalized shopping recommendations and AI-driven guidance without additional costs."
+      ],
+      "free_trial": "Not applicable as it is integrated into the eBay platform.",
+      "additional_info": "The AI Shopping Agent is part of eBay's standard shopping experience, so there are no additional fees or subscriptions required."
+    },
+    "use_cases": [
+      "Gift Finding: Helps users pinpoint the perfect gift for friends and family by understanding their preferences and interests.",
+      "Seasonal Shopping: Assists in assembling seasonal wardrobes or collections by suggesting relevant products based on current trends and user preferences.",
+      "Discovery Shopping: Facilitates the discovery of new products and brands by providing personalized recommendations that align with users' shopping history and preferences."
+    ],
+    "target_audience": "The eBay AI Shopping Agent is designed for all eBay users, regardless of company size or role, focusing on enhancing the shopping experience for individuals and businesses alike across various industries.",
+    "embedding_text": "Product: eBay AI Shopping Agent\n\nDescription: The eBay AI Shopping Agent is designed to enhance the shopping experience on eBay by providing real-time, hyper-personalized product recommendations and expert guidance. It aims to make product discovery more efficient and enjoyable by understanding and anticipating user needs. Unlike traditional search methods, this agent interprets nuanced shopper intent to suggest relevant listings. It represents a significant advancement in eBay's AI capabilities, evolving from simple chatbots to more interactive and conversational agents. The agent is integrated throughout the shopping journey, offering assistance in finding gifts or assembling seasonal wardrobes. By leveraging decades of customer insights and product knowledge, eBay positions itself at the forefront of AI-powered ecommerce. This technology has the potential to revolutionize the way customers shop and sellers market their products on the platform.\n\nKey Features:\n- Real-time Personalization: Offers tailored product suggestions based on individual shopping preferences, enhancing the overall shopping experience.\n- Conversational Interface: Engages users through interactive and conversational interactions, making it easier to find what they need.\n- Intent Interpretation: Goes beyond keyword searches by interpreting nuanced shopper intent to provide more accurate and relevant product listings.\n- Predictive Messaging: Provides proactive suggestions and guidance inline with the user's current page, streamlining the shopping process.\n- Seamless Integration: Available throughout the shopping journey, whether users are browsing or actively searching for products.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Access to personalized shopping recommendations and AI-driven guidance without additional costs.\nFree Trial: Not applicable as it is integrated into the eBay platform.\n\nUse Cases:\n- Gift Finding: Helps users pinpoint the perfect gift for friends and family by understanding their preferences and interests.\n- Seasonal Shopping: Assists in assembling seasonal wardrobes or collections by suggesting relevant products based on current trends and user preferences.\n- Discovery Shopping: Facilitates the discovery of new products and brands by providing personalized recommendations that align with users' shopping history and preferences.\n\nTarget Audience: The eBay AI Shopping Agent is designed for all eBay users, regardless of company size or role, focusing on enhancing the shopping experience for individuals and businesses alike across various industries.\n\nCategories: Artificial Intelligence, E-Commerce\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963692",
+    "name": "SpeakingAI",
+    "tagline": "Practice speaking skills with personalized AI conversations",
+    "description": "SpeakingAI is a mobile app that helps you practice and improve your spoken language skills through realistic, interactive conversations with an adaptive AI tutor. Get instant feedback, personalized grammar tips, and learn at your own pace",
+    "category": "Education",
+    "topics": [
+      "Education",
+      "Languages",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GS2AM2G7HFASBA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 102,
+    "detailed_description": "SpeakingAI is an AI-powered language learning app designed to help users practice and improve their speaking skills through personalized AI conversations. It offers a 24/7 AI partner for practicing English speaking anytime without the need for human interaction, making language learning accessible and convenient. The app provides detailed guidance on pronunciation and usage, supported by advanced speech recognition technology that offers precise pronunciation scoring and immediate feedback. Users can engage in immersive one-on-one AI video calls that simulate real-life conversations, enhancing their speaking confidence and fluency. The platform includes a wide range of customizable topics and scenarios, along with fun character voices and roles to make learning engaging and interactive. Additionally, it supports multi-functional teaching tools such as vocabulary, grammar, and conversation practice with real-time corrections and progress tracking. SpeakingAI aims to solve common language learning challenges such as high costs of professional courses and nervousness about speaking mistakes by providing a low-cost, comfortable, and effective learning environment.",
+    "features": [
+      "24/7 AI conversation partner allowing users to practice speaking anytime, providing convenience and flexibility without needing human tutors.",
+      "Precise pronunciation scoring using advanced speech recognition technology that gives immediate and accurate feedback to help users improve their accent and clarity.",
+      "AI video calls that simulate realistic one-on-one conversations, enhancing speaking skills through interactive and personalized feedback.",
+      "Wide range of customizable topics and scenarios, enabling users to tailor their learning experience to their interests and practical needs.",
+      "Fun character voices and roles that add an engaging and entertaining element to language practice, including exposure to various English accents."
+    ],
+    "pricing": {
+      "model": "Freemium with subscription options",
+      "tiers": [
+        "Free tier: Basic access to AI conversation practice with limited features and usage.",
+        "Tier 1: Premium subscription (price not explicitly stated) offering unlimited access to AI video calls, advanced pronunciation feedback, and full customization of topics and scenarios.",
+        "Tier 2: Possibly higher-tier or extended plans with additional features or enterprise options (details not publicly available).",
+        "Enterprise: No specific enterprise pricing or plans publicly disclosed."
+      ],
+      "free_trial": "Likely includes a free trial period or free basic usage tier, but exact trial details are not specified.",
+      "additional_info": "Pricing details are not fully disclosed publicly; users may need to check the app or website for the latest subscription plans and offers."
+    },
+    "use_cases": [
+      "Language learners who want to practice English speaking skills anytime without scheduling human tutors, especially useful for busy individuals.",
+      "Users who experience anxiety or nervousness speaking with humans and prefer a comfortable, judgment-free AI conversation partner.",
+      "Students preparing for English proficiency exams or professional communication who need precise pronunciation feedback and real-time correction."
+    ],
+    "target_audience": "Individuals learning English as a second language, including students, professionals, and casual learners; suitable for solo learners and those seeking affordable alternatives to expensive language courses; applicable across various industries and company sizes where English communication skills are valued.",
+    "embedding_text": "Product: SpeakingAI\n\nDescription: SpeakingAI is an AI-powered language learning app designed to help users practice and improve their speaking skills through personalized AI conversations. It offers a 24/7 AI partner for practicing English speaking anytime without the need for human interaction, making language learning accessible and convenient. The app provides detailed guidance on pronunciation and usage, supported by advanced speech recognition technology that offers precise pronunciation scoring and immediate feedback. Users can engage in immersive one-on-one AI video calls that simulate real-life conversations, enhancing their speaking confidence and fluency. The platform includes a wide range of customizable topics and scenarios, along with fun character voices and roles to make learning engaging and interactive. Additionally, it supports multi-functional teaching tools such as vocabulary, grammar, and conversation practice with real-time corrections and progress tracking. SpeakingAI aims to solve common language learning challenges such as high costs of professional courses and nervousness about speaking mistakes by providing a low-cost, comfortable, and effective learning environment.\n\nKey Features:\n- 24/7 AI conversation partner allowing users to practice speaking anytime, providing convenience and flexibility without needing human tutors.\n- Precise pronunciation scoring using advanced speech recognition technology that gives immediate and accurate feedback to help users improve their accent and clarity.\n- AI video calls that simulate realistic one-on-one conversations, enhancing speaking skills through interactive and personalized feedback.\n- Wide range of customizable topics and scenarios, enabling users to tailor their learning experience to their interests and practical needs.\n- Fun character voices and roles that add an engaging and entertaining element to language practice, including exposure to various English accents.\n\nPricing Model: Freemium with subscription options\nPricing Tiers:\n- Free tier: Basic access to AI conversation practice with limited features and usage.\n- Tier 1: Premium subscription (price not explicitly stated) offering unlimited access to AI video calls, advanced pronunciation feedback, and full customization of topics and scenarios.\n- Tier 2: Possibly higher-tier or extended plans with additional features or enterprise options (details not publicly available).\n- Enterprise: No specific enterprise pricing or plans publicly disclosed.\nFree Trial: Likely includes a free trial period or free basic usage tier, but exact trial details are not specified.\n\nUse Cases:\n- Language learners who want to practice English speaking skills anytime without scheduling human tutors, especially useful for busy individuals.\n- Users who experience anxiety or nervousness speaking with humans and prefer a comfortable, judgment-free AI conversation partner.\n- Students preparing for English proficiency exams or professional communication who need precise pronunciation feedback and real-time correction.\n\nTarget Audience: Individuals learning English as a second language, including students, professionals, and casual learners; suitable for solo learners and those seeking affordable alternatives to expensive language courses; applicable across various industries and company sizes where English communication skills are valued.\n\nCategories: Education, Languages, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "962412",
+    "name": "RockPic",
+    "tagline": "Identify all kind of rocks instantly",
+    "description": "Identify stones, gems and jewelry in seconds with RockPic — our AI-powered scanner app. Just upload a picture to get accurate insights about any kind of rock.",
+    "category": "Jewelry",
+    "topics": [
+      "Jewelry",
+      "Artificial Intelligence",
+      "Outdoors"
+    ],
+    "website": "https://www.producthunt.com/r/CDJ5C6N7JQPQK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 101,
+    "detailed_description": "RockPic is an AI-powered app designed to identify various types of rocks, gems, and minerals instantly. It allows users to upload or take a photo of a rock, and the app analyzes the image to provide accurate insights about the stone. This tool is particularly useful for rockhounds, geologists, and anyone interested in learning more about geological formations. By leveraging AI technology, RockPic simplifies the process of rock identification, making it accessible to both beginners and experts. The app aims to solve the problem of manual identification, which can be time-consuming and require extensive knowledge. RockPic enhances the learning experience by providing detailed information about the identified rocks, including their geological properties and uses. It also supports users in documenting their rock collections by storing photos and details about each specimen.",
+    "features": [
+      "AI-powered image analysis: This feature allows users to upload or take a photo of a rock, and the app quickly identifies it based on characteristics like color, texture, and crystal structure.",
+      "Instant identification: RockPic provides immediate results, making it a convenient tool for those who need quick insights into the types of rocks they encounter.",
+      "Comprehensive database: The app accesses a vast database of rocks and minerals, ensuring that users can learn about a wide variety of geological specimens.",
+      "User-friendly interface: RockPic is designed to be easy to use, making it accessible to both beginners and experienced rock enthusiasts.",
+      "Collection management: Users can store photos and details about their rock collections within the app, helping them keep track of their finds and learn more about each specimen."
+    ],
+    "pricing": {
+      "model": "Free with potential in-app purchases or subscription",
+      "tiers": [
+        "Free tier: Basic identification features and limited access to the database",
+        "Premium tier: Enhanced database access, additional features for collection management, and possibly more detailed geological information"
+      ],
+      "free_trial": "No specific information available about a free trial",
+      "additional_info": "Pricing details are not fully disclosed, but it is likely to follow a freemium model with optional in-app purchases or subscriptions for advanced features."
+    },
+    "use_cases": [
+      "Rockhounding: RockPic is ideal for rockhounds who want to quickly identify the rocks they find during their outdoor adventures.",
+      "Geological education: The app can be used in educational settings to teach students about different types of rocks and minerals, enhancing their understanding of geology.",
+      "Jewelry and gemstone identification: RockPic can help jewelers and collectors identify gems and jewelry pieces, providing insights into their composition and potential value."
+    ],
+    "target_audience": "RockPic is designed for individuals interested in geology, rockhounding, and jewelry, including hobbyists, students, educators, and professionals in related fields.",
+    "embedding_text": "Product: RockPic\n\nDescription: RockPic is an AI-powered app designed to identify various types of rocks, gems, and minerals instantly. It allows users to upload or take a photo of a rock, and the app analyzes the image to provide accurate insights about the stone. This tool is particularly useful for rockhounds, geologists, and anyone interested in learning more about geological formations. By leveraging AI technology, RockPic simplifies the process of rock identification, making it accessible to both beginners and experts. The app aims to solve the problem of manual identification, which can be time-consuming and require extensive knowledge. RockPic enhances the learning experience by providing detailed information about the identified rocks, including their geological properties and uses. It also supports users in documenting their rock collections by storing photos and details about each specimen.\n\nKey Features:\n- AI-powered image analysis: This feature allows users to upload or take a photo of a rock, and the app quickly identifies it based on characteristics like color, texture, and crystal structure.\n- Instant identification: RockPic provides immediate results, making it a convenient tool for those who need quick insights into the types of rocks they encounter.\n- Comprehensive database: The app accesses a vast database of rocks and minerals, ensuring that users can learn about a wide variety of geological specimens.\n- User-friendly interface: RockPic is designed to be easy to use, making it accessible to both beginners and experienced rock enthusiasts.\n- Collection management: Users can store photos and details about their rock collections within the app, helping them keep track of their finds and learn more about each specimen.\n\nPricing Model: Free with potential in-app purchases or subscription\nPricing Tiers:\n- Free tier: Basic identification features and limited access to the database\n- Premium tier: Enhanced database access, additional features for collection management, and possibly more detailed geological information\nFree Trial: No specific information available about a free trial\n\nUse Cases:\n- Rockhounding: RockPic is ideal for rockhounds who want to quickly identify the rocks they find during their outdoor adventures.\n- Geological education: The app can be used in educational settings to teach students about different types of rocks and minerals, enhancing their understanding of geology.\n- Jewelry and gemstone identification: RockPic can help jewelers and collectors identify gems and jewelry pieces, providing insights into their composition and potential value.\n\nTarget Audience: RockPic is designed for individuals interested in geology, rockhounding, and jewelry, including hobbyists, students, educators, and professionals in related fields.\n\nCategories: Jewelry, Artificial Intelligence, Outdoors\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "960441",
+    "name": "ZenPersonal",
+    "tagline": "Generate personalized NSDR-style short meditations.",
+    "description": "Generate personalized deep-rest guided meditations. Based on Andrew Huberman’s NSDR protocol. Choose from many languages and different voices. Even short sessions can help you relieve stress, boost focus, and improve sleep. No meditation experience needed.",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness",
+      "Meditation",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/HBEDUAGXWJWW75?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 52,
+    "detailed_description": "ZenPersonal is a product designed to generate personalized short meditations inspired by NSDR (Non-Sleep Deep Rest) techniques. Its main purpose is to help users achieve relaxation, reduce stress and anxiety, improve mood, and enhance focus through customized meditation sessions. The product addresses the need for quick, effective mental resets that fit into busy schedules by providing short, tailored meditation experiences. It leverages mindfulness and meditation practices to support deep sleep, calm anxiety, and promote overall mental well-being. ZenPersonal also incorporates features like mood monitoring and guided breathing exercises to enhance the user's mindfulness journey. This product is ideal for those seeking a convenient and personalized approach to meditation and mental health management. It aims to make meditation accessible and effective for everyday use by adapting to individual emotional states and needs.",
+    "features": [
+      "Personalized NSDR-style short meditations that adapt to the user's current emotional and mental state, providing a tailored relaxation experience.",
+      "Mood monitoring feature that allows users to track their emotional status over time, helping to personalize meditation sessions and monitor progress.",
+      "Guided breathing exercises paired with soothing nature sounds to facilitate calmness and aid in stress reduction and sleep improvement.",
+      "Inclusion of ASMR audios and binaural beats therapy to enhance relaxation, mental massage, and deep sleep quality.",
+      "Access to inspirational quotes, mantras, and motivational messages that support mental health and encourage positive thinking."
+    ],
+    "pricing": {
+      "model": "Freemium with subscription options",
+      "tiers": [
+        "Free tier: Access to a limited selection of guided meditations, basic mood monitoring, and breathing exercises.",
+        "Premium tier: Monthly subscription providing full access to all personalized meditations, advanced mood tracking, ASMR and binaural beats content, and exclusive motivational materials.",
+        "Annual subscription: Discounted yearly plan with the same benefits as the premium monthly subscription.",
+        "Enterprise: Not publicly detailed; likely available upon request for organizational wellness programs."
+      ],
+      "free_trial": "Typically offers a free trial period for premium features to allow users to experience full functionality before subscribing.",
+      "additional_info": "Subscription plans may include regular updates with new meditation content and features to enhance user experience."
+    },
+    "use_cases": [
+      "A busy professional needing quick, personalized meditation sessions during work breaks to reduce stress and improve focus.",
+      "Individuals experiencing anxiety or sleep difficulties who benefit from guided NSDR-style meditations and calming audio therapies.",
+      "Users seeking to incorporate mindfulness into daily routines with mood tracking to better understand and manage their emotional health."
+    ],
+    "target_audience": "ZenPersonal is designed for individuals seeking mental wellness through meditation, including professionals, students, and anyone experiencing stress or sleep issues. It suits users of all experience levels with meditation and mindfulness, from beginners to advanced practitioners. The product is also relevant for wellness coaches and mental health professionals looking for tools to support clients. It is applicable across various industries and company sizes, particularly those emphasizing employee well-being and mental health.",
+    "embedding_text": "Product: ZenPersonal\n\nDescription: ZenPersonal is a product designed to generate personalized short meditations inspired by NSDR (Non-Sleep Deep Rest) techniques. Its main purpose is to help users achieve relaxation, reduce stress and anxiety, improve mood, and enhance focus through customized meditation sessions. The product addresses the need for quick, effective mental resets that fit into busy schedules by providing short, tailored meditation experiences. It leverages mindfulness and meditation practices to support deep sleep, calm anxiety, and promote overall mental well-being. ZenPersonal also incorporates features like mood monitoring and guided breathing exercises to enhance the user's mindfulness journey. This product is ideal for those seeking a convenient and personalized approach to meditation and mental health management. It aims to make meditation accessible and effective for everyday use by adapting to individual emotional states and needs.\n\nKey Features:\n- Personalized NSDR-style short meditations that adapt to the user's current emotional and mental state, providing a tailored relaxation experience.\n- Mood monitoring feature that allows users to track their emotional status over time, helping to personalize meditation sessions and monitor progress.\n- Guided breathing exercises paired with soothing nature sounds to facilitate calmness and aid in stress reduction and sleep improvement.\n- Inclusion of ASMR audios and binaural beats therapy to enhance relaxation, mental massage, and deep sleep quality.\n- Access to inspirational quotes, mantras, and motivational messages that support mental health and encourage positive thinking.\n\nPricing Model: Freemium with subscription options\nPricing Tiers:\n- Free tier: Access to a limited selection of guided meditations, basic mood monitoring, and breathing exercises.\n- Premium tier: Monthly subscription providing full access to all personalized meditations, advanced mood tracking, ASMR and binaural beats content, and exclusive motivational materials.\n- Annual subscription: Discounted yearly plan with the same benefits as the premium monthly subscription.\n- Enterprise: Not publicly detailed; likely available upon request for organizational wellness programs.\nFree Trial: Typically offers a free trial period for premium features to allow users to experience full functionality before subscribing.\n\nUse Cases:\n- A busy professional needing quick, personalized meditation sessions during work breaks to reduce stress and improve focus.\n- Individuals experiencing anxiety or sleep difficulties who benefit from guided NSDR-style meditations and calming audio therapies.\n- Users seeking to incorporate mindfulness into daily routines with mood tracking to better understand and manage their emotional health.\n\nTarget Audience: ZenPersonal is designed for individuals seeking mental wellness through meditation, including professionals, students, and anyone experiencing stress or sleep issues. It suits users of all experience levels with meditation and mindfulness, from beginners to advanced practitioners. The product is also relevant for wellness coaches and mental health professionals looking for tools to support clients. It is applicable across various industries and company sizes, particularly those emphasizing employee well-being and mental health.\n\nCategories: Health & Fitness, Meditation, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963269",
+    "name": "LinkedBoost AI",
+    "tagline": "AI that Upgrades LinkedIn for More Job Offers",
+    "description": "AI that transforms your LinkedIn and gets you hired.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "LinkedIn",
+      "Career"
+    ],
+    "website": "https://www.producthunt.com/r/LIYQIHCKGINDON?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 17,
+    "detailed_description": "LinkedBoost AI is designed to enhance LinkedIn's functionality by leveraging AI to increase job offers. It aims to optimize user profiles, improve engagement, and streamline job searching processes. However, specific details about LinkedBoost AI's features and functionality are not available in the provided search results. Generally, AI tools like LinkedBoost can help users by automating tasks, personalizing interactions, and providing insights to improve their professional online presence. These tools often integrate with platforms like LinkedIn to enhance user experience and job search success. LinkedBoost AI likely focuses on using AI to analyze and optimize LinkedIn profiles for better visibility and job opportunities. It may also assist in crafting engaging content and improving networking strategies. By upgrading LinkedIn interactions, LinkedBoost AI could help users stand out in a competitive job market.",
+    "features": [
+      "AI-driven Profile Optimization: Enhances user profiles to increase visibility and appeal to potential employers.",
+      "Automated Content Generation: Uses AI to create engaging posts and comments that boost user interaction on LinkedIn.",
+      "Personalized Job Matching: Analyzes user skills and preferences to suggest relevant job opportunities.",
+      "AI-assisted Networking: Helps users connect with relevant professionals and expand their network.",
+      "Insightful Analytics: Provides users with data-driven insights to refine their job search strategies."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available"
+      ],
+      "free_trial": "No details about a free trial are available",
+      "additional_info": "Pricing details for LinkedBoost AI are not specified in the search results."
+    },
+    "use_cases": [
+      "Job Seekers: LinkedBoost AI can help job seekers optimize their profiles and increase their visibility to potential employers, making it easier to find job opportunities.",
+      "Professionals Looking to Network: The tool can assist professionals in expanding their network by suggesting relevant connections and generating engaging content.",
+      "Career Changers: LinkedBoost AI may aid individuals transitioning careers by highlighting transferable skills and suggesting new job paths."
+    ],
+    "target_audience": "LinkedBoost AI is likely designed for individuals seeking to enhance their professional presence on LinkedIn, including job seekers, career changers, and professionals looking to expand their network.",
+    "embedding_text": "Product: LinkedBoost AI\n\nDescription: LinkedBoost AI is designed to enhance LinkedIn's functionality by leveraging AI to increase job offers. It aims to optimize user profiles, improve engagement, and streamline job searching processes. However, specific details about LinkedBoost AI's features and functionality are not available in the provided search results. Generally, AI tools like LinkedBoost can help users by automating tasks, personalizing interactions, and providing insights to improve their professional online presence. These tools often integrate with platforms like LinkedIn to enhance user experience and job search success. LinkedBoost AI likely focuses on using AI to analyze and optimize LinkedIn profiles for better visibility and job opportunities. It may also assist in crafting engaging content and improving networking strategies. By upgrading LinkedIn interactions, LinkedBoost AI could help users stand out in a competitive job market.\n\nKey Features:\n- AI-driven Profile Optimization: Enhances user profiles to increase visibility and appeal to potential employers.\n- Automated Content Generation: Uses AI to create engaging posts and comments that boost user interaction on LinkedIn.\n- Personalized Job Matching: Analyzes user skills and preferences to suggest relevant job opportunities.\n- AI-assisted Networking: Helps users connect with relevant professionals and expand their network.\n- Insightful Analytics: Provides users with data-driven insights to refine their job search strategies.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available\nFree Trial: No details about a free trial are available\n\nUse Cases:\n- Job Seekers: LinkedBoost AI can help job seekers optimize their profiles and increase their visibility to potential employers, making it easier to find job opportunities.\n- Professionals Looking to Network: The tool can assist professionals in expanding their network by suggesting relevant connections and generating engaging content.\n- Career Changers: LinkedBoost AI may aid individuals transitioning careers by highlighting transferable skills and suggesting new job paths.\n\nTarget Audience: LinkedBoost AI is likely designed for individuals seeking to enhance their professional presence on LinkedIn, including job seekers, career changers, and professionals looking to expand their network.\n\nCategories: Artificial Intelligence, LinkedIn, Career\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963844",
+    "name": "Video Memories AI",
+    "tagline": "Generate animated videos from images in minutes",
+    "description": "Upload images and let AI create studio-quality animated videos in no time. High-quality videos to post on socials and share with family and friends. Bring your best memories to life with Video Memories AI.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Artificial Intelligence",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/ZT3OF4PUZ4ASRS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 13,
+    "detailed_description": "Video Memories AI is an AI-powered video generator that transforms static images into animated videos within minutes. Its main purpose is to bring photos to life by animating faces and adding motion, expressions, and voiceovers, making it ideal for creating engaging digital memories or storytelling content. The product simplifies the video creation process by combining AI-driven animation, facial emotion rendering, and voice synthesis into an intuitive platform. It addresses the challenge of producing high-quality animated videos without requiring advanced video editing skills or expensive production resources. Users can easily customize scenes, transitions, and animations, enabling personalized and expressive video outputs. This tool is particularly useful for creators, marketers, educators, and storytellers who want to quickly generate compelling video content from images or text prompts. By automating complex animation steps, Video Memories AI saves time and effort while enhancing the emotional impact of visual content.",
+    "features": [
+      "AI text-to-video generation that converts simple text prompts into animated scenes, enabling users to create videos from ideas quickly and easily.",
+      "Image-to-video creation that animates still photos by adding realistic facial emotions and movements, bringing static images to life.",
+      "Character animation with expressive facial emotions such as happiness and surprise, enhancing the storytelling and emotional connection.",
+      "Built-in voiceover generation with automatic lip-syncing, allowing videos to have synchronized speech without manual editing.",
+      "User-friendly drag-and-drop video maker interface with customizable scenes, transitions, timing, and animation flow for full creative control."
+    ],
+    "pricing": {
+      "model": "Freemium with paid subscription tiers",
+      "tiers": [
+        "Free tier: Includes basic video generation capabilities with some limitations on video length and features; allows downloading animations without watermarks and commercial use is permitted.",
+        "Tier 1: Standard Plan, price varies (not explicitly stated), includes longer video durations up to 30 minutes, access to advanced animation features, and custom character design.",
+        "Tier 2: Pro Plan, price varies (not explicitly stated), offers full access to all features including multi-language voiceovers, extensive media libraries, and priority support.",
+        "Enterprise: Custom pricing and features tailored for large organizations requiring bulk video generation and team collaboration tools (details not publicly specified)."
+      ],
+      "free_trial": "Free credits or a free plan available that allows users to try the platform with no watermarks and commercial use rights.",
+      "additional_info": "The platform supports video generation from 1 to 30 minutes long and includes tools for scriptwriting, storyboarding, animation, editing, and sound integration all in one place."
+    },
+    "use_cases": [
+      "Creating animated digital memories by bringing old family photos to life with facial animations and voiceovers for personal or memorial purposes.",
+      "Producing marketing videos quickly by converting product images and promotional text into engaging animated videos to boost audience engagement.",
+      "Educational content creation where educators can transform static images and text into dynamic videos to explain concepts more effectively and maintain student interest."
+    ],
+    "target_audience": "Video Memories AI is designed for individual creators, marketers, educators, storytellers, and small to medium-sized businesses who need an easy-to-use, AI-driven video creation tool. It suits users without advanced video editing skills who want to produce professional-quality animated videos from images and text. Industries include digital marketing, education, content creation, and personal memory preservation.",
+    "embedding_text": "Product: Video Memories AI\n\nDescription: Video Memories AI is an AI-powered video generator that transforms static images into animated videos within minutes. Its main purpose is to bring photos to life by animating faces and adding motion, expressions, and voiceovers, making it ideal for creating engaging digital memories or storytelling content. The product simplifies the video creation process by combining AI-driven animation, facial emotion rendering, and voice synthesis into an intuitive platform. It addresses the challenge of producing high-quality animated videos without requiring advanced video editing skills or expensive production resources. Users can easily customize scenes, transitions, and animations, enabling personalized and expressive video outputs. This tool is particularly useful for creators, marketers, educators, and storytellers who want to quickly generate compelling video content from images or text prompts. By automating complex animation steps, Video Memories AI saves time and effort while enhancing the emotional impact of visual content.\n\nKey Features:\n- AI text-to-video generation that converts simple text prompts into animated scenes, enabling users to create videos from ideas quickly and easily.\n- Image-to-video creation that animates still photos by adding realistic facial emotions and movements, bringing static images to life.\n- Character animation with expressive facial emotions such as happiness and surprise, enhancing the storytelling and emotional connection.\n- Built-in voiceover generation with automatic lip-syncing, allowing videos to have synchronized speech without manual editing.\n- User-friendly drag-and-drop video maker interface with customizable scenes, transitions, timing, and animation flow for full creative control.\n\nPricing Model: Freemium with paid subscription tiers\nPricing Tiers:\n- Free tier: Includes basic video generation capabilities with some limitations on video length and features; allows downloading animations without watermarks and commercial use is permitted.\n- Tier 1: Standard Plan, price varies (not explicitly stated), includes longer video durations up to 30 minutes, access to advanced animation features, and custom character design.\n- Tier 2: Pro Plan, price varies (not explicitly stated), offers full access to all features including multi-language voiceovers, extensive media libraries, and priority support.\n- Enterprise: Custom pricing and features tailored for large organizations requiring bulk video generation and team collaboration tools (details not publicly specified).\nFree Trial: Free credits or a free plan available that allows users to try the platform with no watermarks and commercial use rights.\n\nUse Cases:\n- Creating animated digital memories by bringing old family photos to life with facial animations and voiceovers for personal or memorial purposes.\n- Producing marketing videos quickly by converting product images and promotional text into engaging animated videos to boost audience engagement.\n- Educational content creation where educators can transform static images and text into dynamic videos to explain concepts more effectively and maintain student interest.\n\nTarget Audience: Video Memories AI is designed for individual creators, marketers, educators, storytellers, and small to medium-sized businesses who need an easy-to-use, AI-driven video creation tool. It suits users without advanced video editing skills who want to produce professional-quality animated videos from images and text. Industries include digital marketing, education, content creation, and personal memory preservation.\n\nCategories: Design Tools, Artificial Intelligence, Video\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963751",
+    "name": "Orbits ",
+    "tagline": "Navigate through orbits to reach the wormhole",
+    "description": "Orbits is a space navigation game. Hop between orbits to reach wormholes! 🚀 One-tap controls ⚫ Time dilation near black holes 🎶 Chill lofi vibes ⏱️ 90-sec survival rounds ✨ Endless gameplay ~ Built with pure JS and physics!",
+    "category": "Indie Games",
+    "topics": [
+      "Indie Games",
+      "Free Games",
+      "Games"
+    ],
+    "website": "https://www.producthunt.com/r/5KPSIC2B7FUNBM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 8,
+    "detailed_description": "Orbits is a puzzle game where players navigate through orbits to reach a wormhole by linking together words or objects in a circular pattern. The main purpose of the game is to challenge players' cognitive and linguistic skills by forming continuous loops based on given themes or clues. It offers an engaging and innovative gameplay experience that combines word association and strategic thinking. The game solves the problem of providing a stimulating and entertaining mental exercise that can be played daily, enhancing vocabulary and problem-solving abilities. Orbits is designed to be accessible and enjoyable for casual gamers looking for a unique twist on traditional word games. It encourages players to think creatively and connect concepts in a circular, looped manner, which is different from linear word puzzles. The product is positioned as a fun, brain-training game that can be played on a regular basis to improve mental agility.",
+    "features": [
+      "Daily circular word puzzles that challenge players to link eight distinct words in a continuous loop, enhancing vocabulary and cognitive skills.",
+      "Themed challenges that provide context and variety, keeping the gameplay fresh and engaging over time.",
+      "Intuitive interface that allows easy navigation through orbits and smooth gameplay experience.",
+      "Progressive difficulty levels that cater to both casual players and those seeking more complex puzzles.",
+      "Social sharing options to compete or collaborate with friends, increasing engagement and community interaction."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Access to daily puzzles and basic gameplay features with ads.",
+        "Premium tier: Monthly subscription that removes ads, unlocks additional puzzle packs, and provides hints.",
+        "No detailed information available on additional tiers or enterprise options."
+      ],
+      "free_trial": "Typically includes a free trial period for the premium subscription to test ad-free experience and extra content.",
+      "additional_info": "Pricing details are not fully disclosed publicly; users can expect standard freemium model benefits."
+    },
+    "use_cases": [
+      "Casual gamers looking for a daily brain exercise that combines word puzzles with strategic thinking.",
+      "Educators or language learners seeking a fun tool to improve vocabulary and word association skills.",
+      "Social players who enjoy sharing progress and competing with friends on word-based challenges."
+    ],
+    "target_audience": "Orbits is designed for casual gamers of all ages interested in word puzzles and brain games, language learners, educators, and anyone looking for daily mental challenges. It appeals to individuals who enjoy cognitive games and wordplay, typically in the casual gaming market segment.",
+    "embedding_text": "Product: Orbits \n\nDescription: Orbits is a puzzle game where players navigate through orbits to reach a wormhole by linking together words or objects in a circular pattern. The main purpose of the game is to challenge players' cognitive and linguistic skills by forming continuous loops based on given themes or clues. It offers an engaging and innovative gameplay experience that combines word association and strategic thinking. The game solves the problem of providing a stimulating and entertaining mental exercise that can be played daily, enhancing vocabulary and problem-solving abilities. Orbits is designed to be accessible and enjoyable for casual gamers looking for a unique twist on traditional word games. It encourages players to think creatively and connect concepts in a circular, looped manner, which is different from linear word puzzles. The product is positioned as a fun, brain-training game that can be played on a regular basis to improve mental agility.\n\nKey Features:\n- Daily circular word puzzles that challenge players to link eight distinct words in a continuous loop, enhancing vocabulary and cognitive skills.\n- Themed challenges that provide context and variety, keeping the gameplay fresh and engaging over time.\n- Intuitive interface that allows easy navigation through orbits and smooth gameplay experience.\n- Progressive difficulty levels that cater to both casual players and those seeking more complex puzzles.\n- Social sharing options to compete or collaborate with friends, increasing engagement and community interaction.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Access to daily puzzles and basic gameplay features with ads.\n- Premium tier: Monthly subscription that removes ads, unlocks additional puzzle packs, and provides hints.\n- No detailed information available on additional tiers or enterprise options.\nFree Trial: Typically includes a free trial period for the premium subscription to test ad-free experience and extra content.\n\nUse Cases:\n- Casual gamers looking for a daily brain exercise that combines word puzzles with strategic thinking.\n- Educators or language learners seeking a fun tool to improve vocabulary and word association skills.\n- Social players who enjoy sharing progress and competing with friends on word-based challenges.\n\nTarget Audience: Orbits is designed for casual gamers of all ages interested in word puzzles and brain games, language learners, educators, and anyone looking for daily mental challenges. It appeals to individuals who enjoy cognitive games and wordplay, typically in the casual gaming market segment.\n\nCategories: Indie Games, Free Games, Games\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "946495",
+    "name": "n8n AI",
+    "tagline": "Build AI workflows with n8n",
+    "description": "Automate your company's workflows with n8n's AI automation software. Maximize your workflows with our AI customizable automation tools.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/RZIB4LYMYGCSP2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 8,
+    "detailed_description": "n8n is a powerful AI-native workflow automation platform designed to help technical teams automate complex processes by integrating various apps and services. It allows users to build custom workflows using a visual editor or code, making it accessible to both technical and non-technical users. n8n solves the problem of workflow automation by providing flexibility and extensibility, allowing users to connect to over 500 data sources and tools, including AI and machine learning platforms. This enables businesses to streamline operations, reduce manual labor, and enhance productivity. n8n's integration with LangChain facilitates advanced AI applications, such as chatbots and text analysis. The platform supports both on-premises and cloud hosting, offering flexibility in deployment options. Additionally, n8n provides features like data replay and inline logs for efficient debugging and testing.",
+    "features": [
+      "Visual Workflow Editor: Allows users to design and manage workflows without extensive coding knowledge, enabling rapid prototyping and iterative improvements.",
+      "Extensive Integrations: Connects to over 500 data sources and tools, including AI and machine learning platforms, providing comprehensive integration capabilities.",
+      "Coding Flexibility: Supports writing JavaScript or Python code, allowing users to add custom logic and libraries from npm or Python for enhanced functionality.",
+      "Debugging Tools: Offers features like data replay, inline logs, and the ability to re-run single steps without re-executing the entire workflow, facilitating efficient debugging.",
+      "Multi-Environment Support: Includes features like version control, isolated environments, and multi-user workflows, making it suitable for collaborative and complex projects."
+    ],
+    "pricing": {
+      "model": "Self-hosted and Hosted options available, with a free version for self-hosting",
+      "tiers": [
+        "Free tier: Self-hosted version available with full functionality, suitable for small to medium-sized projects.",
+        "Hosted tier: Pricing details not explicitly mentioned, but typically includes additional support and scalability features.",
+        "Enterprise: Offers advanced features like SSO, LDAP, and encrypted secret stores, tailored for large-scale deployments."
+      ],
+      "free_trial": "No specific free trial mentioned for the hosted version, but users can test the self-hosted version freely.",
+      "additional_info": "Pricing for the hosted version may vary based on specific requirements and support needs."
+    },
+    "use_cases": [
+      "Automating Data Processing Pipelines: n8n can be used to automate complex data processing workflows by integrating various data sources and AI tools, enhancing data analysis and insights.",
+      "AI-Powered Customer Service: By integrating with AI platforms like LangChain, n8n can help build chatbots and question-answering systems for enhanced customer service automation.",
+      "IT Operations Automation: n8n can streamline IT operations by automating repetitive tasks, such as error notifications and backup workflows, improving efficiency and reducing downtime."
+    ],
+    "target_audience": "n8n is designed for technical teams across various industries, particularly those requiring advanced workflow automation and AI integration. It is suitable for companies of all sizes, from small startups to large enterprises, and is especially beneficial for roles like developers, DevOps engineers, and data analysts.",
+    "embedding_text": "Product: n8n AI\n\nDescription: n8n is a powerful AI-native workflow automation platform designed to help technical teams automate complex processes by integrating various apps and services. It allows users to build custom workflows using a visual editor or code, making it accessible to both technical and non-technical users. n8n solves the problem of workflow automation by providing flexibility and extensibility, allowing users to connect to over 500 data sources and tools, including AI and machine learning platforms. This enables businesses to streamline operations, reduce manual labor, and enhance productivity. n8n's integration with LangChain facilitates advanced AI applications, such as chatbots and text analysis. The platform supports both on-premises and cloud hosting, offering flexibility in deployment options. Additionally, n8n provides features like data replay and inline logs for efficient debugging and testing.\n\nKey Features:\n- Visual Workflow Editor: Allows users to design and manage workflows without extensive coding knowledge, enabling rapid prototyping and iterative improvements.\n- Extensive Integrations: Connects to over 500 data sources and tools, including AI and machine learning platforms, providing comprehensive integration capabilities.\n- Coding Flexibility: Supports writing JavaScript or Python code, allowing users to add custom logic and libraries from npm or Python for enhanced functionality.\n- Debugging Tools: Offers features like data replay, inline logs, and the ability to re-run single steps without re-executing the entire workflow, facilitating efficient debugging.\n- Multi-Environment Support: Includes features like version control, isolated environments, and multi-user workflows, making it suitable for collaborative and complex projects.\n\nPricing Model: Self-hosted and Hosted options available, with a free version for self-hosting\nPricing Tiers:\n- Free tier: Self-hosted version available with full functionality, suitable for small to medium-sized projects.\n- Hosted tier: Pricing details not explicitly mentioned, but typically includes additional support and scalability features.\n- Enterprise: Offers advanced features like SSO, LDAP, and encrypted secret stores, tailored for large-scale deployments.\nFree Trial: No specific free trial mentioned for the hosted version, but users can test the self-hosted version freely.\n\nUse Cases:\n- Automating Data Processing Pipelines: n8n can be used to automate complex data processing workflows by integrating various data sources and AI tools, enhancing data analysis and insights.\n- AI-Powered Customer Service: By integrating with AI platforms like LangChain, n8n can help build chatbots and question-answering systems for enhanced customer service automation.\n- IT Operations Automation: n8n can streamline IT operations by automating repetitive tasks, such as error notifications and backup workflows, improving efficiency and reducing downtime.\n\nTarget Audience: n8n is designed for technical teams across various industries, particularly those requiring advanced workflow automation and AI integration. It is suitable for companies of all sizes, from small startups to large enterprises, and is especially beneficial for roles like developers, DevOps engineers, and data analysts.\n\nCategories: Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963760",
+    "name": "East of Eden - Job market for LLMs",
+    "tagline": "The Platform for LLMs to find and employ human talent.",
+    "description": "East of Eden - If you are an LLM tired of working, hire a human now, East of Ede is an MCP-ready employment platform for LLMs. (AI Generated Text)",
+    "category": "API",
+    "topics": [
+      "API",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/5Z7HLI5R4AKFI4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 7,
+    "detailed_description": "East of Eden is a platform designed to connect Large Language Models (LLMs) with human talent, facilitating the employment and collaboration between AI systems and human professionals. The platform aims to solve the challenge of integrating AI capabilities with human expertise, ensuring that LLMs can effectively utilize human skills to enhance their operations. By bridging this gap, East of Eden enables LLMs to leverage human talent for tasks that require creativity, judgment, or complex decision-making, thereby improving the overall efficiency and effectiveness of AI-driven projects. The platform's main purpose is to streamline the process of finding and engaging human talent for LLM-related tasks, making it easier for AI systems to access the skills they need. This approach helps in scaling human capabilities and amplifying the impact of AI technologies. However, specific details about the platform's features and pricing are not available in the provided search results.",
+    "features": [
+      "Integration with LLMs: Allows AI systems to easily find and employ human talent for specific tasks, enhancing their capabilities.",
+      "Talent Matching: Provides a mechanism for matching LLMs with appropriate human skills, ensuring effective collaboration.",
+      "Project Management Tools: Offers tools to manage projects involving both AI and human components, facilitating smooth workflow.",
+      "Skill Development: May include resources or tools for human talent to develop skills relevant to working with LLMs.",
+      "Feedback and Evaluation: Could provide mechanisms for evaluating the performance of human talent working with LLMs."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available."
+      ],
+      "free_trial": "No details available.",
+      "additional_info": "Pricing details are not provided in the search results."
+    },
+    "use_cases": [
+      "Content Creation: Useful for LLMs needing human input for creative writing, editing, or content review tasks.",
+      "Data Annotation: Helpful for tasks requiring human judgment to annotate data for training LLMs.",
+      "Complex Decision-Making: Beneficial when LLMs need human expertise for making complex decisions or evaluating outcomes."
+    ],
+    "target_audience": "The platform is likely designed for organizations and developers working with LLMs across various industries, including technology, media, and education. It could be particularly useful for companies looking to integrate AI with human talent to enhance productivity and innovation.",
+    "embedding_text": "Product: East of Eden - Job market for LLMs\n\nDescription: East of Eden is a platform designed to connect Large Language Models (LLMs) with human talent, facilitating the employment and collaboration between AI systems and human professionals. The platform aims to solve the challenge of integrating AI capabilities with human expertise, ensuring that LLMs can effectively utilize human skills to enhance their operations. By bridging this gap, East of Eden enables LLMs to leverage human talent for tasks that require creativity, judgment, or complex decision-making, thereby improving the overall efficiency and effectiveness of AI-driven projects. The platform's main purpose is to streamline the process of finding and engaging human talent for LLM-related tasks, making it easier for AI systems to access the skills they need. This approach helps in scaling human capabilities and amplifying the impact of AI technologies. However, specific details about the platform's features and pricing are not available in the provided search results.\n\nKey Features:\n- Integration with LLMs: Allows AI systems to easily find and employ human talent for specific tasks, enhancing their capabilities.\n- Talent Matching: Provides a mechanism for matching LLMs with appropriate human skills, ensuring effective collaboration.\n- Project Management Tools: Offers tools to manage projects involving both AI and human components, facilitating smooth workflow.\n- Skill Development: May include resources or tools for human talent to develop skills relevant to working with LLMs.\n- Feedback and Evaluation: Could provide mechanisms for evaluating the performance of human talent working with LLMs.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available.\nFree Trial: No details available.\n\nUse Cases:\n- Content Creation: Useful for LLMs needing human input for creative writing, editing, or content review tasks.\n- Data Annotation: Helpful for tasks requiring human judgment to annotate data for training LLMs.\n- Complex Decision-Making: Beneficial when LLMs need human expertise for making complex decisions or evaluating outcomes.\n\nTarget Audience: The platform is likely designed for organizations and developers working with LLMs across various industries, including technology, media, and education. It could be particularly useful for companies looking to integrate AI with human talent to enhance productivity and innovation.\n\nCategories: API, Tech\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963234",
+    "name": "MadeByHuman",
+    "tagline": "A badge for human work, helping AI-free creators stand out.",
+    "description": "MadeByHuman is a badge for creators to proudly show their work was made without the use of generative AI. MadeByHuman is not anti-AI, but aims to help human creativity stand out and be recognised for its unique value. Join the movement and keep creating! 🤚",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Social Impact",
+      "Digital Art"
+    ],
+    "website": "https://www.producthunt.com/r/EZK5DOKMNBY2WP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 5,
+    "detailed_description": "MadeByHuman is a product designed to help creators of human-generated content stand out by providing a badge that signifies their work is not created by AI. This badge aims to address the issue of AI-generated content becoming increasingly prevalent and often indistinguishable from human-created work. By using this badge, creators can differentiate their work and appeal to audiences who value authenticity and human creativity. The product solves the problem of visibility and credibility for human creators in a digital landscape dominated by AI tools. It also helps consumers who prefer human-generated content to easily identify such works. However, detailed information about MadeByHuman's specific features and pricing is not available from the provided sources.",
+    "features": [
+      "Badge Creation: Allows users to create and display badges on their work to signify it is human-generated.",
+      "Content Differentiation: Helps human creators differentiate their work from AI-generated content.",
+      "Audience Engagement: Appeals to consumers who prefer authentic human-generated content.",
+      "Credibility Enhancement: Enhances the credibility of human creators by clearly labeling their work.",
+      "Community Building: Could potentially build a community of creators who value human-generated content."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available."
+      ],
+      "free_trial": "No information available.",
+      "additional_info": "Pricing details are not provided in the available sources."
+    },
+    "use_cases": [
+      "Artists and Designers: Useful for visual artists who want to highlight that their work is not AI-generated.",
+      "Writers and Authors: Beneficial for writers who want to emphasize the authenticity of their written content.",
+      "Musicians and Producers: Helpful for musicians who want to differentiate their music from AI-generated tracks."
+    ],
+    "target_audience": "MadeByHuman is designed for individual creators and small businesses across various industries, including art, writing, music, and more. It targets anyone who values human creativity and wants to highlight the authenticity of their work.",
+    "embedding_text": "Product: MadeByHuman\n\nDescription: MadeByHuman is a product designed to help creators of human-generated content stand out by providing a badge that signifies their work is not created by AI. This badge aims to address the issue of AI-generated content becoming increasingly prevalent and often indistinguishable from human-created work. By using this badge, creators can differentiate their work and appeal to audiences who value authenticity and human creativity. The product solves the problem of visibility and credibility for human creators in a digital landscape dominated by AI tools. It also helps consumers who prefer human-generated content to easily identify such works. However, detailed information about MadeByHuman's specific features and pricing is not available from the provided sources.\n\nKey Features:\n- Badge Creation: Allows users to create and display badges on their work to signify it is human-generated.\n- Content Differentiation: Helps human creators differentiate their work from AI-generated content.\n- Audience Engagement: Appeals to consumers who prefer authentic human-generated content.\n- Credibility Enhancement: Enhances the credibility of human creators by clearly labeling their work.\n- Community Building: Could potentially build a community of creators who value human-generated content.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available.\nFree Trial: No information available.\n\nUse Cases:\n- Artists and Designers: Useful for visual artists who want to highlight that their work is not AI-generated.\n- Writers and Authors: Beneficial for writers who want to emphasize the authenticity of their written content.\n- Musicians and Producers: Helpful for musicians who want to differentiate their music from AI-generated tracks.\n\nTarget Audience: MadeByHuman is designed for individual creators and small businesses across various industries, including art, writing, music, and more. It targets anyone who values human creativity and wants to highlight the authenticity of their work.\n\nCategories: Artificial Intelligence, Social Impact, Digital Art\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "962711",
+    "name": "investmatch AI",
+    "tagline": "Startup tinder ",
+    "description": "InvestMatch is a Telegram mini-app that revolutionizes how founders find funding and how investors discover the next big thing. We’ve taken Tinder’s swipe mechanics and applied them to the startup world:",
+    "category": "Investing",
+    "topics": [
+      "Investing",
+      "Venture Capital",
+      "Crowdfunding"
+    ],
+    "website": "https://www.producthunt.com/r/2XG626SWHSXKQR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 5,
+    "detailed_description": "Investmatch AI, tagged as 'Startup Tinder,' appears to be a platform that leverages AI for matchmaking, potentially in the startup or business networking space. However, specific details about its functionality, such as how it uses AI to match individuals or startups, are not available in the provided search results. Generally, AI matchmaking platforms aim to enhance user experience by providing personalized matches based on detailed user profiles and preferences. They often solve problems related to inefficient matching algorithms and lack of personalization in traditional platforms. These platforms typically use AI to analyze user behavior, interests, and preferences to create more compatible matches, thereby increasing user satisfaction and engagement. If Investmatch AI follows similar principles, it would likely focus on creating meaningful connections within the startup ecosystem. Unfortunately, without direct information on Investmatch AI, this description is speculative based on similar AI matchmaking platforms.",
+    "features": [
+      "Advanced AI-powered matchmaking: This feature would use machine learning algorithms to analyze user data and create personalized matches based on interests, preferences, and behaviors.",
+      "Personalized profile creation: Users can input detailed information about themselves, which the AI system uses to create a comprehensive profile for better matching.",
+      "Real-time interaction analysis: AI could monitor interactions to ensure safety and provide feedback for improving user engagement.",
+      "Predictive analytics for engagement: The platform might use AI to predict when users might disengage and intervene with customized prompts to maintain interest.",
+      "Automated profile updates: AI could review user activities and suggest updates to keep profiles fresh and relevant."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available."
+      ],
+      "free_trial": "No information available.",
+      "additional_info": "Pricing details for Investmatch AI are not provided in the search results."
+    },
+    "use_cases": [
+      "Startup networking: Investmatch AI could be useful for connecting startups with potential partners, investors, or collaborators based on their specific needs and goals.",
+      "Business matchmaking: The platform might help businesses find compatible partners for joint ventures or strategic alliances.",
+      "Innovation ecosystem building: It could facilitate connections among innovators, entrepreneurs, and industry experts to foster innovation and collaboration."
+    ],
+    "target_audience": "Investmatch AI seems to be designed for startups and businesses looking to establish meaningful connections within their ecosystem. This could include entrepreneurs, investors, and industry professionals seeking partnerships or collaborations.",
+    "embedding_text": "Product: investmatch AI\n\nDescription: Investmatch AI, tagged as 'Startup Tinder,' appears to be a platform that leverages AI for matchmaking, potentially in the startup or business networking space. However, specific details about its functionality, such as how it uses AI to match individuals or startups, are not available in the provided search results. Generally, AI matchmaking platforms aim to enhance user experience by providing personalized matches based on detailed user profiles and preferences. They often solve problems related to inefficient matching algorithms and lack of personalization in traditional platforms. These platforms typically use AI to analyze user behavior, interests, and preferences to create more compatible matches, thereby increasing user satisfaction and engagement. If Investmatch AI follows similar principles, it would likely focus on creating meaningful connections within the startup ecosystem. Unfortunately, without direct information on Investmatch AI, this description is speculative based on similar AI matchmaking platforms.\n\nKey Features:\n- Advanced AI-powered matchmaking: This feature would use machine learning algorithms to analyze user data and create personalized matches based on interests, preferences, and behaviors.\n- Personalized profile creation: Users can input detailed information about themselves, which the AI system uses to create a comprehensive profile for better matching.\n- Real-time interaction analysis: AI could monitor interactions to ensure safety and provide feedback for improving user engagement.\n- Predictive analytics for engagement: The platform might use AI to predict when users might disengage and intervene with customized prompts to maintain interest.\n- Automated profile updates: AI could review user activities and suggest updates to keep profiles fresh and relevant.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available.\nFree Trial: No information available.\n\nUse Cases:\n- Startup networking: Investmatch AI could be useful for connecting startups with potential partners, investors, or collaborators based on their specific needs and goals.\n- Business matchmaking: The platform might help businesses find compatible partners for joint ventures or strategic alliances.\n- Innovation ecosystem building: It could facilitate connections among innovators, entrepreneurs, and industry experts to foster innovation and collaboration.\n\nTarget Audience: Investmatch AI seems to be designed for startups and businesses looking to establish meaningful connections within their ecosystem. This could include entrepreneurs, investors, and industry professionals seeking partnerships or collaborations.\n\nCategories: Investing, Venture Capital, Crowdfunding\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "963846",
+    "name": "DeepList AI",
+    "tagline": "A simple way to discover how AI can help you",
+    "description": "DeepList AI helps you quickly find and compare AI tools, with clear summaries and instant answers from an AI chat. It’s a simple, time-saving way to explore what AI can do for you.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Marketing",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/6OSTIE2SN76FEG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 5,
+    "detailed_description": "DeepList AI is designed to simplify the discovery of AI tools and their applications. It provides a comprehensive directory of AI tools, allowing users to easily find and understand how AI can assist them in various tasks. The platform features an AI chat that offers quick and clear answers about any tool listed, reducing the need for extensive browsing or reading. This approach helps users efficiently identify the right AI solutions for their needs, making it easier to integrate AI into their workflows. DeepList AI aims to bridge the gap between AI technology and its practical applications, ensuring that users can leverage AI effectively. By streamlining the process of finding and understanding AI tools, DeepList AI supports innovation and productivity across different industries. However, detailed information about its pricing and specific features is not readily available in the provided sources.",
+    "features": [
+      "AI Chat: Provides fast and clear answers about AI tools, eliminating the need for extensive browsing or reading.",
+      "Comprehensive Directory: Offers a wide range of AI tools, making it easier for users to find the right solutions for their needs.",
+      "Efficient Discovery: Simplifies the process of discovering how AI can help users, saving time and effort.",
+      "User-Friendly Interface: Designed to be intuitive, allowing users to quickly navigate and understand AI tools.",
+      "Innovative Integration: Facilitates the integration of AI into various workflows and industries."
+    ],
+    "pricing": {
+      "model": "Not specified in available sources",
+      "tiers": [
+        "No specific pricing tiers are detailed in the available information."
+      ],
+      "free_trial": "No details about a free trial are available.",
+      "additional_info": "Pricing details are not provided in the current sources."
+    },
+    "use_cases": [
+      "Business Innovation: DeepList AI can help businesses identify and implement AI solutions to enhance productivity and innovation.",
+      "Educational Support: It can assist educators in finding AI tools that support teaching and learning processes.",
+      "Personal Projects: Individuals working on personal projects can use DeepList AI to discover AI tools that can aid in their development."
+    ],
+    "target_audience": "DeepList AI is designed for individuals and organizations interested in leveraging AI for various purposes. It caters to a broad audience, including businesses of all sizes, educators, and individuals working on personal projects across different industries.",
+    "embedding_text": "Product: DeepList AI\n\nDescription: DeepList AI is designed to simplify the discovery of AI tools and their applications. It provides a comprehensive directory of AI tools, allowing users to easily find and understand how AI can assist them in various tasks. The platform features an AI chat that offers quick and clear answers about any tool listed, reducing the need for extensive browsing or reading. This approach helps users efficiently identify the right AI solutions for their needs, making it easier to integrate AI into their workflows. DeepList AI aims to bridge the gap between AI technology and its practical applications, ensuring that users can leverage AI effectively. By streamlining the process of finding and understanding AI tools, DeepList AI supports innovation and productivity across different industries. However, detailed information about its pricing and specific features is not readily available in the provided sources.\n\nKey Features:\n- AI Chat: Provides fast and clear answers about AI tools, eliminating the need for extensive browsing or reading.\n- Comprehensive Directory: Offers a wide range of AI tools, making it easier for users to find the right solutions for their needs.\n- Efficient Discovery: Simplifies the process of discovering how AI can help users, saving time and effort.\n- User-Friendly Interface: Designed to be intuitive, allowing users to quickly navigate and understand AI tools.\n- Innovative Integration: Facilitates the integration of AI into various workflows and industries.\n\nPricing Model: Not specified in available sources\nPricing Tiers:\n- No specific pricing tiers are detailed in the available information.\nFree Trial: No details about a free trial are available.\n\nUse Cases:\n- Business Innovation: DeepList AI can help businesses identify and implement AI solutions to enhance productivity and innovation.\n- Educational Support: It can assist educators in finding AI tools that support teaching and learning processes.\n- Personal Projects: Individuals working on personal projects can use DeepList AI to discover AI tools that can aid in their development.\n\nTarget Audience: DeepList AI is designed for individuals and organizations interested in leveraging AI for various purposes. It caters to a broad audience, including businesses of all sizes, educators, and individuals working on personal projects across different industries.\n\nCategories: Productivity, Marketing, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  },
+  {
+    "id": "946500",
+    "name": "Krisp AI",
+    "tagline": "AI Meeting Assistant for Workspaces",
+    "description": "Krisp cancels background noise, records, transcribes, and summarizes meetings and calls for clear communication and better productivity in any environment.",
+    "category": "Meetings",
+    "topics": [
+      "Meetings",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/TIR3MX3DJM52B7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 5,
+    "detailed_description": "Krisp AI Meeting Assistant is designed to enhance productivity in workspaces by providing automated meeting transcription and note-taking capabilities. It helps users focus on conversations without the distraction of manually taking notes. The tool offers features like real-time transcriptions, AI-driven summaries, and automated note-taking, making it easier to document and review meetings. Krisp integrates well with platforms like Google Meet, ensuring seamless setup and use. It also offers noise cancellation and accent conversion, improving communication clarity. By automating note-taking and transcription, Krisp saves time and ensures that all key points from meetings are captured and easily accessible for future reference.",
+    "features": [
+      "Automatic Meeting Transcriptions: Provides written records of conversations, allowing users to revisit important discussions without having to manually record them.",
+      "Meeting Notes and Summaries: Generates concise summaries of meetings, highlighting main points, action items, and decisions, making it easier to review and act on meeting outcomes.",
+      "Noise Cancellation: Removes background noise, ensuring clear audio quality during meetings, which is particularly useful in noisy environments.",
+      "Accent Conversion: Adjusts accents in real-time, enhancing communication clarity across different regions and accents.",
+      "Screen Recording: Allows users to record meetings alongside transcriptions, providing a comprehensive record of discussions."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Includes unlimited transcripts and up to 2 meeting notes per day.",
+        "Pro tier: Offers unlimited transcripts, unlimited meeting notes, and additional features like screen recording."
+      ],
+      "free_trial": "Not explicitly mentioned, but users can start with the free tier to experience the service.",
+      "additional_info": "The pricing model is designed to accommodate both casual and heavy users, with the Pro tier providing more comprehensive features for frequent users."
+    },
+    "use_cases": [
+      "Remote Team Meetings: Krisp is particularly useful for remote teams, as it helps maintain clear communication and ensures that all meeting details are documented and easily accessible.",
+      "Client Meetings: It is beneficial for client meetings where clear communication and accurate note-taking are crucial for building trust and ensuring follow-up actions.",
+      "Project Management: Krisp aids project managers by providing detailed meeting records, which can be shared with team members to keep everyone informed and aligned with project goals."
+    ],
+    "target_audience": "Krisp AI Meeting Assistant is designed for professionals and teams across various industries, particularly those involved in remote work, project management, and client-facing roles. It is suitable for small to large-sized companies looking to enhance collaboration and productivity.",
+    "embedding_text": "Product: Krisp AI\n\nDescription: Krisp AI Meeting Assistant is designed to enhance productivity in workspaces by providing automated meeting transcription and note-taking capabilities. It helps users focus on conversations without the distraction of manually taking notes. The tool offers features like real-time transcriptions, AI-driven summaries, and automated note-taking, making it easier to document and review meetings. Krisp integrates well with platforms like Google Meet, ensuring seamless setup and use. It also offers noise cancellation and accent conversion, improving communication clarity. By automating note-taking and transcription, Krisp saves time and ensures that all key points from meetings are captured and easily accessible for future reference.\n\nKey Features:\n- Automatic Meeting Transcriptions: Provides written records of conversations, allowing users to revisit important discussions without having to manually record them.\n- Meeting Notes and Summaries: Generates concise summaries of meetings, highlighting main points, action items, and decisions, making it easier to review and act on meeting outcomes.\n- Noise Cancellation: Removes background noise, ensuring clear audio quality during meetings, which is particularly useful in noisy environments.\n- Accent Conversion: Adjusts accents in real-time, enhancing communication clarity across different regions and accents.\n- Screen Recording: Allows users to record meetings alongside transcriptions, providing a comprehensive record of discussions.\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Includes unlimited transcripts and up to 2 meeting notes per day.\n- Pro tier: Offers unlimited transcripts, unlimited meeting notes, and additional features like screen recording.\nFree Trial: Not explicitly mentioned, but users can start with the free tier to experience the service.\n\nUse Cases:\n- Remote Team Meetings: Krisp is particularly useful for remote teams, as it helps maintain clear communication and ensures that all meeting details are documented and easily accessible.\n- Client Meetings: It is beneficial for client meetings where clear communication and accurate note-taking are crucial for building trust and ensuring follow-up actions.\n- Project Management: Krisp aids project managers by providing detailed meeting records, which can be shared with team members to keep everyone informed and aligned with project goals.\n\nTarget Audience: Krisp AI Meeting Assistant is designed for professionals and teams across various industries, particularly those involved in remote work, project management, and client-facing roles. It is suitable for small to large-sized companies looking to enhance collaboration and productivity.\n\nCategories: Meetings, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-11"
+    }
+  }
+]

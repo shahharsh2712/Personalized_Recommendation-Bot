@@ -1,0 +1,281 @@
+[
+  {
+    "id": "943801",
+    "name": "Scrimba Fullstack",
+    "tagline": "Helping devs learn by merging the IDE and video into one",
+    "description": "Scrimba Fullstack blends video tutorials with live coding, making it feel like you're pair programming with the teacher. Watch the teacher code, jump into the IDE to practice instantly, and get AI feedback to sharpen your fullstack skills, all in your browser.",
+    "category": "Education",
+    "topics": [
+      "Education",
+      "Developer Tools",
+      "Online Learning"
+    ],
+    "website": "https://www.producthunt.com/r/JFB2LACOH6FMUJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 724
+  },
+  {
+    "id": "947982",
+    "name": "Whatting",
+    "tagline": "The iPad diary, just for you",
+    "description": "Still using PDF templates in Goodnotes? It's time to stop wandering from one PDF to another—come to Whatting! With Whatting, you can create your own custom diary layout by combining widgets just the way you like. Start for free today!",
+    "category": "iPad",
+    "topics": [
+      "iPad",
+      "Productivity",
+      "Notes"
+    ],
+    "website": "https://www.producthunt.com/r/7YXRWBSUL5DCXJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 723
+  },
+  {
+    "id": "862894",
+    "name": "Nily AI",
+    "tagline": "Your AI crew for all things marketing",
+    "description": "Nily is an all-in-one AI assistant for marketers, with 20+ AI models, LLM response comparison and mixture AI for delivering the most optimal answer. Nily supports AI design tools, sidebar, content creation, email assistant, and dynamic social media features!",
+    "category": "Social Media",
+    "topics": [
+      "Social Media",
+      "Marketing",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/7ID2OF5HXYCSWL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 520
+  },
+  {
+    "id": "945527",
+    "name": "SpreadSimple 2.0",
+    "tagline": "The fastest way to build a website without code",
+    "description": "Now with AI-powered website creation, more templates for any business, and advanced e-commerce tools. Build in minutes, update from Google Sheets, and stay in control—no code needed.",
+    "category": "Spreadsheets",
+    "topics": [
+      "Spreadsheets",
+      "Website Builder",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/AUBCFAUCZ47Y43?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 339
+  },
+  {
+    "id": "951976",
+    "name": "Appsmith Agents",
+    "tagline": "Scale with secure, embedded agents all powered by your data",
+    "description": "AI agents that work where you work! Running as a Chrome extension, agents unlock productivity for your teams within the tools they use daily. - Embed AI agents anywhere you work - Access real-time company knowledge - Enable human-in-the-loop workflows",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/NZBTRSAY2DHIS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 284
+  },
+  {
+    "id": "953097",
+    "name": "PRISM by Block Convey",
+    "tagline": "Monitor models, explain decisions, & future-proof models.",
+    "description": "Built for AI startups and developers who move fast — PRISM is your open, plug-and-play layer for model audits, bias checks, and explainability reports. Ship models you can trust — with compliance, fairness, and transparency baked in from day one.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Artificial Intelligence",
+      "Data & Analytics"
+    ],
+    "website": "https://www.producthunt.com/r/CEWISHHZEOFITH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 269
+  },
+  {
+    "id": "952705",
+    "name": "Educato for Students",
+    "tagline": "AI tutor prep for 10.000+ university exams",
+    "description": "Ace your exams with Educato! Our AI-driven platform offers personalized learning and top-notch exam prep resources. Join now and unlock your full potential!",
+    "category": "Education",
+    "topics": [
+      "Education",
+      "Artificial Intelligence",
+      "School"
+    ],
+    "website": "https://www.producthunt.com/r/S7QS35FAHPQGDY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 257
+  },
+  {
+    "id": "951008",
+    "name": "Cloudflare Agents",
+    "tagline": "The platform for building stateful AI",
+    "description": "Cloudflare Agents is the platform for building scalable, stateful AI agents. Leverages Durable Objects for state, Workers for compute, plus real-time comms.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Development",
+      "SDK"
+    ],
+    "website": "https://www.producthunt.com/r/RNJPROPIVZVKVV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 201
+  },
+  {
+    "id": "951290",
+    "name": "Brick 1100",
+    "tagline": "Transform your smartphone into a classic brick phone",
+    "description": "Do you miss your old Nokia cellphone? Miss the pixelated screen, the retro sounds, the simple yet addictive features? Brick 1100 is for you, a fun throwback that fits right in your pocket.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "iOS",
+      "Retro Games"
+    ],
+    "website": "https://www.producthunt.com/r/WWZFIF2FNLTSG7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 198
+  },
+  {
+    "id": "953020",
+    "name": "Klik Email",
+    "tagline": "Turn designs into clickable email signatures instantly",
+    "description": "Transform your designs into interactive, pixel-perfect HTML email signatures in minutes. No coding or templates required. Just upload your design, add clickable hotspots, and paste into your email. Download HTML files anytime with unlimited revisions.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Email Marketing",
+      "Developer Tools"
+    ],
+    "website": "https://www.producthunt.com/r/DUSMTF3ITE22II?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 167
+  },
+  {
+    "id": "950581",
+    "name": "Augment Agent",
+    "tagline": "AI pair programmer that understands your codebase",
+    "description": "Augment Agent is the AI pair programmer that deeply understands your codebase. Uses Memory, Tools (MCP & Native), 200K context. #1 SWE-bench approach open-sourced. Available for VS Code and JetBrains.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Artificial Intelligence",
+      "GitHub",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/U46KKISOH64IDT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 155
+  },
+  {
+    "id": "953108",
+    "name": "Apple Dev Docs Translation & Enhancer",
+    "tagline": "Apple dev docs translation & enhancer",
+    "description": "This extension for Apple dev docs, It's: 1. Instant translation 2. bilingual display mode 3. link previews just by hovering over them 4. customize the font size, and color of the bilingual content display. More features are in the works, stay tuned",
+    "category": "Chrome Extensions",
+    "topics": [
+      "Chrome Extensions",
+      "Apple",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/PPZ7YFINN73FD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 130
+  },
+  {
+    "id": "952821",
+    "name": "Blobfish AI",
+    "tagline": "AI Dialer that Talks, Qualifies Leads, and Books Meetings",
+    "description": "Blobfish is a human-like AI Dialer that engages in back-and-forth conversations with your prospects. It can call thousands of numbers in minutes, filter out bad numbers or voicemails, and ask lead qualifying questions - 10x your junior SDR’s outbound work.",
+    "category": "Sales",
+    "topics": [
+      "Sales",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/QSCGJZFAQZEL6P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 109
+  },
+  {
+    "id": "942363",
+    "name": "FRISPEECH",
+    "tagline": "Comment and rate every webpage on the internet",
+    "description": "FRISPEECH lets you comment on any website — even if comments are turned off. An anonymous, censorship-free browser extension & web app. No tracking, no algorithms. Swiss made. One login. Every voice matters.",
+    "category": "News",
+    "topics": [
+      "News",
+      "Social Networking",
+      "Community"
+    ],
+    "website": "https://www.producthunt.com/r/TKSQBOKWVC4HWO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 55
+  },
+  {
+    "id": "952303",
+    "name": "Endel for ADHD 2.0",
+    "tagline": "Sonic support tuned for ADHD brains",
+    "description": "Explore a complete collection of trusted tools for versatile attention needs—all in one app 🧡 Co-created with the ADHD community",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness",
+      "Productivity",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/JJ3JIT2EFALXK6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 50
+  },
+  {
+    "id": "953069",
+    "name": "DexToro",
+    "tagline": "The easiest way to discover, buy, and sell memecoins",
+    "description": "The all-in-one DeFi super-app for the masses. Meet DexToro. The easiest way to discover, buy, and sell vetted memecoins & altcoins on Solana with one swipe, gas-free, and Apple Pay enabled. At DexToro, our mission is to onboard the masses to DeFi.",
+    "category": "Crypto",
+    "topics": [
+      "Crypto",
+      "Web3",
+      "DeFi"
+    ],
+    "website": "https://www.producthunt.com/r/GTKU54F4TLWWLR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 47
+  },
+  {
+    "id": "811887",
+    "name": "Mezzoic - Alpha Launch",
+    "tagline": "Software Project Estimation & Budget Tracking Solution",
+    "description": "MEZZOIC is Software Project Estimation and Budget Tracking Solution. It is AI driven tool designed to provide quick estimation of the software project in resources and budgets, track the budget evolution, align stakeholders of different seniority level.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/RPBAZELHBCAISL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 38
+  },
+  {
+    "id": "668414",
+    "name": "Recallify",
+    "tagline": "AI powered memory & learning companion app",
+    "description": "Recallify is your AI-powered memory & learning companion, helping you capture, recall, and enhance memories with cutting-edge AI. Seamlessly record text, audio, and video, and transform them into learning experiences while practising and improving recall.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Education",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/V7XIYE5YANTRAD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 35
+  },
+  {
+    "id": "953041",
+    "name": "launch.css",
+    "tagline": "Launch Your Ideas Faster",
+    "description": "A classless CSS framework built for speed. Style your website later—build it now.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/SLLYNHXCSXFAKW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 30
+  },
+  {
+    "id": "953109",
+    "name": "Zapfolio",
+    "tagline": "Paste Your LinkedIn. Get a Portfolio Website. That’s It.",
+    "description": "Paste your LinkedIn. Get a clean portfolio website in seconds. No code, no setup, just your profile turned into a personal site you can proudly share. Perfect for students, freelancers, job seekers, and creators.",
+    "category": "Education",
+    "topics": [
+      "Education",
+      "LinkedIn",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/VUSA6EBOQY437J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 25
+  }
+]

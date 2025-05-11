@@ -1,0 +1,283 @@
+[
+  {
+    "id": "951512",
+    "name": "Extrovert",
+    "tagline": "Warm-up and nurture prospects at scale on linkedin",
+    "description": "Track your customers' posts, spot key conversations with AI, and help your team build trust with thoughtful comments - in minutes a day.",
+    "category": "Sales",
+    "topics": [
+      "Sales",
+      "Artificial Intelligence",
+      "LinkedIn"
+    ],
+    "website": "https://www.producthunt.com/r/MV4AJZIFTFNGMM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 512
+  },
+  {
+    "id": "952304",
+    "name": "Aqua Voice",
+    "tagline": "Incredibly fast voice input for Mac and Windows",
+    "description": "Aqua is super fast AI dictation that lets you talk into any text field -- Cursor, Gmail, Slack, even your terminal. It starts up in under 50ms, inserts text as fast as 450ms, and has state-of-the-art accuracy. Write 4x faster anywhere with Aqua. 🌊",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GVHSM4L6WHKATO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 414
+  },
+  {
+    "id": "953615",
+    "name": "Potpie AI",
+    "tagline": "Create custom AI agents for your code",
+    "description": "Build task-oriented custom agents for your codebase that perform engineering tasks with high precision powered by intelligence and context from your data. Build agents for use cases like system design, debugging, integration testing, onboarding etc.",
+    "category": "Developer Tools",
+    "topics": [
+      "Developer Tools",
+      "Artificial Intelligence",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/F5F5MKKIPLIVQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 320
+  },
+  {
+    "id": "953456",
+    "name": "GPT-4.1 in the API",
+    "tagline": "Announcing GPT-4.1, GPT-4.1 mini, & GPT-4.1 nano in the API",
+    "description": "A new series of GPT models featuring major improvements on coding, instruction following, and long context—plus our first-ever nano model.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/TFCKFGWGH2ZPDK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 292
+  },
+  {
+    "id": "952440",
+    "name": "Notion Mail",
+    "tagline": "The first inbox that thinks like you",
+    "description": "Introducing Notion Mail: it organizes itself, drafts emails, and schedules meetings any way you’d like. Connect your Gmail—it’s free to get started.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Productivity",
+      "Notion"
+    ],
+    "website": "https://www.producthunt.com/r/NSY7HHYIGYKGN5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 266
+  },
+  {
+    "id": "953617",
+    "name": "ServiceAgent",
+    "tagline": "AI voice agent for home services",
+    "description": "ServiceAgent is a Call Answering AI Agent built specifically for home service businesses. Trained on industry-specific data, conversations to book appointments, handle customer inquiries, and capturing every lead 24/7 while your team focuses on customers.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "Productivity",
+      "Sales",
+      "Customer Communication"
+    ],
+    "website": "https://www.producthunt.com/r/VIYLCZ3ZC4QSFA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 239
+  },
+  {
+    "id": "951131",
+    "name": "Bilanc",
+    "tagline": "Measure the impact of AI on engineering productivity",
+    "description": "Bilanc is an AI-powered Engineering Management Platform. We help companies measure and improve developer productivity using AI. We use LLM’s to estimate the effort put into every merged PR, and we measure the boost that AI has on engineering productivity.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/3YLCJGONUZJODL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 233
+  },
+  {
+    "id": "952420",
+    "name": "n8nChat",
+    "tagline": "Create automations in seconds by generating n8n workflows",
+    "description": "n8nChat brings AI directly into your n8n workflow editor. Describe what you want to automate in plain English, and watch as it instantly generates complete nodes and workflows. Like Cursor but for n8n, it can create, edit, debug, and optimize your workflows.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/WFAZYIW3RXEHE5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 208
+  },
+  {
+    "id": "953215",
+    "name": "DocsHound",
+    "tagline": "AI turns demos into instant docs, chatbots & user insights",
+    "description": "DocsHound turns product demos into full documentation, chatbots, and product education. Capture your UI once—get docs, support bots, and marketing content auto-generated. Perfect for onboarding, support, customer-facing teams, and internal operations.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/OISUGUY44T2DAY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 192
+  },
+  {
+    "id": "953353",
+    "name": "Tiptap Editor Template and UI Components",
+    "tagline": "Build rich editor UIs faster with React components",
+    "description": "We released a free simple editor template and a library of MIT-licensed React UI components for Tiptap. Drop in pre-built toolbars, menus, and more, or customize every detail. Includes a CLI to scaffold your editor UI in seconds.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "GitHub",
+      "Design templates"
+    ],
+    "website": "https://www.producthunt.com/r/O4M6V2JGQKH6TA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 177
+  },
+  {
+    "id": "945007",
+    "name": "Whyser",
+    "tagline": "Conduct and analyze user interviews at scale",
+    "description": "Whyser is a qualitative research platform that conducts AI-moderated user interviews on your behalf—so you can uncover actionable customer insights at scale in hours instead of weeks. Whyser makes research happen when it otherwise wouldn’t.",
+    "category": "User Experience",
+    "topics": [
+      "User Experience",
+      "Artificial Intelligence",
+      "UX Design"
+    ],
+    "website": "https://www.producthunt.com/r/EOYXSYLWKKBLQP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 163
+  },
+  {
+    "id": "953387",
+    "name": "AutoMCP",
+    "tagline": "Easily deploy your existing AI agent projects as MCP servers",
+    "description": "A library and platform to easily convert and deploy your existing agent and multi-agent projects as MCP servers for use with MCP clients like Cursor and Claude Desktop.",
+    "category": "Developer Tools",
+    "topics": [
+      "Developer Tools",
+      "Artificial Intelligence",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/ZQXN5UW7APL6PS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 147
+  },
+  {
+    "id": "952196",
+    "name": "BeRoomie",
+    "tagline": "Roommate matching app to find compatible roommates",
+    "description": "BeRoomie is like Tinder, but for finding roommates. Swipe through potential roomies based on lifestyle, habits, and vibe. Match with people who share your preferences and chat instantly. It’s a fun, intuitive way to find someone you actually want to live with.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "iOS",
+      "Home",
+      "Lifestyle"
+    ],
+    "website": "https://www.producthunt.com/r/FABGYARMRW5R6W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 139
+  },
+  {
+    "id": "946182",
+    "name": "Qibble",
+    "tagline": "The world's poll repository where you discover who's right",
+    "description": "Qibble is the place to find out who’s right—it’s the world’s largest poll repository, where you can create, vote and get insights on your polls. Help us achieve global consensus!",
+    "category": "Messaging",
+    "topics": [
+      "Messaging",
+      "Social Media",
+      "Community"
+    ],
+    "website": "https://www.producthunt.com/r/7KPH24GVQ4JDQ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 139
+  },
+  {
+    "id": "953330",
+    "name": "Img2Sheet",
+    "tagline": "AI that reads your receipts and fills your Google Sheet",
+    "description": "Upload an image and instantly get structured data in your Google Sheet™. Img2Sheet automates data entry using AI, with secure, pay-per-use pricing and zero manual work.",
+    "category": "Spreadsheets",
+    "topics": [
+      "Spreadsheets",
+      "Accounting",
+      "Data"
+    ],
+    "website": "https://www.producthunt.com/r/GVTJN7WEUGNZXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 138
+  },
+  {
+    "id": "946719",
+    "name": "Subly AI Video Accessibility Checker",
+    "tagline": "AI Agent that detects issues and shows you where to fix them",
+    "description": "An AI agent that auto-detects accessibility issues and identifies whether WCAG standards are met in pre-recorded video and audio. Scans every file frame by frame, flags issues, and delivers a clear, structured, time-coded report for faster, confident fixes.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Video",
+      "Inclusivity"
+    ],
+    "website": "https://www.producthunt.com/r/PVNXD5FT326LAH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 133
+  },
+  {
+    "id": "952044",
+    "name": "Iterato",
+    "tagline": "AI-powered product manager to collect feedback",
+    "description": "Iterato doesn’t just collect feedback — it talks to your users, understands their pain points, and turns every response into actionable insights, just like your best Product Manager would.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/JXVESAAFU5BW6C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 123
+  },
+  {
+    "id": "953461",
+    "name": "Blueprint",
+    "tagline": "Keep your design and engineering team in-sync",
+    "description": "Blueprint is designed to make UX documentation faster and more intuitive. Simply import your Figma designs and create UX flows on the grid-based canvas. With Blueprint, organizing UI designs and mapping user flows feels hassle-free.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Productivity",
+      "UX Design"
+    ],
+    "website": "https://www.producthunt.com/r/7DPKHFR32HMJP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 113
+  },
+  {
+    "id": "949453",
+    "name": "Gblock",
+    "tagline": "Block email tracking in Gmail",
+    "description": "Gblock is a Chrome extension that protects your privacy in Gmail by blocking email senders from tracking you. Gblock provides you with full protection against email tracking, shielding you from tracking links, spy pixels, and anonymize you via our proxy.",
+    "category": "Chrome Extensions",
+    "topics": [
+      "Chrome Extensions",
+      "Email",
+      "Privacy"
+    ],
+    "website": "https://www.producthunt.com/r/DHLCYZK4IT3JWQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 112
+  },
+  {
+    "id": "953414",
+    "name": "Badge",
+    "tagline": "Build faster in mobile wallets",
+    "description": "Create interactive experiences in Apple, Google, & Samsung Wallets using Badge's no-code UI, APIs, and the first wallet embed for SaaS platforms.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Marketing",
+      "Developer Tools"
+    ],
+    "website": "https://www.producthunt.com/r/HK3M3RWBI67QEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 109
+  }
+]

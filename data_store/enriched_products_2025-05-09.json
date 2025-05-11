@@ -1,0 +1,872 @@
+[
+  {
+    "id": "962955",
+    "name": "PulpMiner",
+    "tagline": "Converts Any Webpage Into Realtime JSON API 🟢",
+    "description": "Turn any webpage into a clean, structured realtime JSON API in seconds with PulpMiner. No scraping code required—just enter a URL and your desired JSON format. Get real-time, AI-powered APIs with flexible pricing and instant setup.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Developer Tools",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/Q7P2JPRF6FVH7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 215,
+    "detailed_description": "PulpMiner is a web tool designed to convert any webpage into a real-time JSON API effortlessly. Its main purpose is to enable users to extract structured data from websites without the need for complex coding or manual scraping. By transforming webpages into APIs, PulpMiner solves the problem of accessing and integrating web data into applications, dashboards, or workflows in a standardized JSON format. This facilitates automation, data analysis, and integration with other software systems. It is particularly useful for developers, data analysts, and businesses that require up-to-date web data for decision-making or product development. The tool operates in real-time, ensuring that the JSON data reflects the latest content from the source webpage. Overall, PulpMiner streamlines the process of web data extraction and API creation, saving time and technical effort.",
+    "features": [
+      "Real-time conversion of any webpage into a JSON API, ensuring data is always current and accurate.",
+      "No coding required, making it accessible for users without programming skills to extract web data easily.",
+      "Supports structured data extraction, allowing users to get clean, organized JSON outputs suitable for integration.",
+      "API endpoints generated can be used directly in applications, enabling seamless automation and data workflows.",
+      "User-friendly interface that simplifies the setup process and management of multiple webpage-to-API conversions."
+    ],
+    "pricing": {
+      "model": "Freemium with subscription tiers",
+      "tiers": [
+        "Free tier: Limited number of API conversions and requests, suitable for basic or trial use.",
+        "Pro tier: Paid subscription offering higher limits on API conversions, requests, and additional features such as faster update intervals and priority support.",
+        "Business tier: Higher-priced plan with extended API usage, advanced customization options, and dedicated support.",
+        "Enterprise: Custom pricing with tailored features, SLAs, and integration support for large organizations."
+      ],
+      "free_trial": "Free tier available with basic features and limited usage to test the service before upgrading.",
+      "additional_info": "Pricing details and exact limits vary; users can upgrade plans based on their data extraction needs and API usage volume."
+    },
+    "use_cases": [
+      "E-commerce businesses extracting product data from competitor websites to monitor pricing and inventory in real-time.",
+      "Market researchers gathering structured data from news sites, blogs, or social media pages for sentiment analysis and trend tracking.",
+      "Developers integrating live web data into applications or dashboards without building custom scrapers or APIs."
+    ],
+    "target_audience": "PulpMiner is designed for developers, data analysts, marketers, and businesses of all sizes who need to extract and integrate web data efficiently. It serves industries such as e-commerce, market research, finance, and software development, particularly those seeking to automate data workflows without extensive coding.",
+    "embedding_text": "Product: PulpMiner\n\nDescription: PulpMiner is a web tool designed to convert any webpage into a real-time JSON API effortlessly. Its main purpose is to enable users to extract structured data from websites without the need for complex coding or manual scraping. By transforming webpages into APIs, PulpMiner solves the problem of accessing and integrating web data into applications, dashboards, or workflows in a standardized JSON format. This facilitates automation, data analysis, and integration with other software systems. It is particularly useful for developers, data analysts, and businesses that require up-to-date web data for decision-making or product development. The tool operates in real-time, ensuring that the JSON data reflects the latest content from the source webpage. Overall, PulpMiner streamlines the process of web data extraction and API creation, saving time and technical effort.\n\nKey Features:\n- Real-time conversion of any webpage into a JSON API, ensuring data is always current and accurate.\n- No coding required, making it accessible for users without programming skills to extract web data easily.\n- Supports structured data extraction, allowing users to get clean, organized JSON outputs suitable for integration.\n- API endpoints generated can be used directly in applications, enabling seamless automation and data workflows.\n- User-friendly interface that simplifies the setup process and management of multiple webpage-to-API conversions.\n\nPricing Model: Freemium with subscription tiers\nPricing Tiers:\n- Free tier: Limited number of API conversions and requests, suitable for basic or trial use.\n- Pro tier: Paid subscription offering higher limits on API conversions, requests, and additional features such as faster update intervals and priority support.\n- Business tier: Higher-priced plan with extended API usage, advanced customization options, and dedicated support.\n- Enterprise: Custom pricing with tailored features, SLAs, and integration support for large organizations.\nFree Trial: Free tier available with basic features and limited usage to test the service before upgrading.\n\nUse Cases:\n- E-commerce businesses extracting product data from competitor websites to monitor pricing and inventory in real-time.\n- Market researchers gathering structured data from news sites, blogs, or social media pages for sentiment analysis and trend tracking.\n- Developers integrating live web data into applications or dashboards without building custom scrapers or APIs.\n\nTarget Audience: PulpMiner is designed for developers, data analysts, marketers, and businesses of all sizes who need to extract and integrate web data efficiently. It serves industries such as e-commerce, market research, finance, and software development, particularly those seeking to automate data workflows without extensive coding.\n\nCategories: SaaS, Developer Tools, No-Code\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "950931",
+    "name": "Antispace",
+    "tagline": "Artificially Intelligent Operating System (AIOS)",
+    "description": "WORLD'S FIRST AIOS TO KILL BORING WORK. The Intelligent Sidekick that gives you too much power. Claim yours.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Productivity",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/IEMOGEZRKOS4OE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 213,
+    "detailed_description": "Antispace is the world's first Artificially Intelligent Operating System (AIOS) designed to revolutionize productivity by unifying all your digital tools into a single, evolving Heads-Up Display (HUD). It dynamically selects the most suitable AI model for each task, enabling seamless task execution such as writing emails, scheduling meetings, and managing to-dos without switching between apps. Antispace acts as an intelligent sidekick that automates routine work, reduces context switching, and enhances focus by managing background tasks. Its gamified workspace makes work engaging, turning productivity into a rewarding experience. The system emphasizes data security and privacy, using industry-standard encryption to protect user information. Overall, Antispace reimagines digital interaction by integrating AI-driven automation and customization to boost efficiency and creativity in daily workflows.",
+    "features": [
+      "Unified HUD: Provides a single interface to access and manage all your existing tools, eliminating the need to switch between multiple applications and improving workflow efficiency.",
+      "Work Co-pilot: A personal AI assistant that not only communicates but also takes actions on your behalf, such as scheduling, email drafting, and task automation, saving time and effort.",
+      "Gamified Workspace: Incorporates game-like elements to make work more engaging and motivating, enhancing user productivity and satisfaction.",
+      "Customization: Allows users to tailor their workspace, memories, and AI actions to fit their personal style and work preferences, increasing usability and comfort.",
+      "Memories and Actions: Enables quick recall of past activities and automates repetitive tasks, streamlining work processes and reducing cognitive load."
+    ],
+    "pricing": {
+      "model": "Freemium with potential subscription tiers",
+      "tiers": [
+        "Free tier: Basic access to the unified HUD and essential AI features to manage daily tasks and tools integration.",
+        "Tier 1: Details not explicitly available; likely includes enhanced AI capabilities, more customization options, and additional integrations.",
+        "Tier 2: Details not explicitly available; possibly offers advanced automation, priority support, and enterprise-level features.",
+        "Enterprise: Not specifically detailed, but likely includes tailored solutions, dedicated support, and enhanced security features."
+      ],
+      "free_trial": "Not explicitly mentioned, but the freemium model suggests free access to core features with optional upgrades.",
+      "additional_info": "Pricing details beyond the free tier are not publicly disclosed; interested users may need to contact Antispace for customized plans."
+    },
+    "use_cases": [
+      "A knowledge worker who needs to manage emails, meetings, and task lists efficiently without switching between multiple apps, benefiting from Antispace's unified HUD and AI automation.",
+      "A project manager who wants to automate routine scheduling and task delegation while maintaining focus on strategic decisions, using the AI co-pilot to handle operational tasks.",
+      "A creative professional seeking an engaging and distraction-free workspace that adapts to their workflow, leveraging the gamified environment and customization features to enhance productivity."
+    ],
+    "target_audience": "Antispace is designed for professionals and teams of all sizes, particularly knowledge workers, project managers, and creatives across industries who require enhanced productivity and workflow automation. It suits companies looking to reduce context switching and improve operational efficiency through AI-driven tools.",
+    "embedding_text": "Product: Antispace\n\nDescription: Antispace is the world's first Artificially Intelligent Operating System (AIOS) designed to revolutionize productivity by unifying all your digital tools into a single, evolving Heads-Up Display (HUD). It dynamically selects the most suitable AI model for each task, enabling seamless task execution such as writing emails, scheduling meetings, and managing to-dos without switching between apps. Antispace acts as an intelligent sidekick that automates routine work, reduces context switching, and enhances focus by managing background tasks. Its gamified workspace makes work engaging, turning productivity into a rewarding experience. The system emphasizes data security and privacy, using industry-standard encryption to protect user information. Overall, Antispace reimagines digital interaction by integrating AI-driven automation and customization to boost efficiency and creativity in daily workflows.\n\nKey Features:\n- Unified HUD: Provides a single interface to access and manage all your existing tools, eliminating the need to switch between multiple applications and improving workflow efficiency.\n- Work Co-pilot: A personal AI assistant that not only communicates but also takes actions on your behalf, such as scheduling, email drafting, and task automation, saving time and effort.\n- Gamified Workspace: Incorporates game-like elements to make work more engaging and motivating, enhancing user productivity and satisfaction.\n- Customization: Allows users to tailor their workspace, memories, and AI actions to fit their personal style and work preferences, increasing usability and comfort.\n- Memories and Actions: Enables quick recall of past activities and automates repetitive tasks, streamlining work processes and reducing cognitive load.\n\nPricing Model: Freemium with potential subscription tiers\nPricing Tiers:\n- Free tier: Basic access to the unified HUD and essential AI features to manage daily tasks and tools integration.\n- Tier 1: Details not explicitly available; likely includes enhanced AI capabilities, more customization options, and additional integrations.\n- Tier 2: Details not explicitly available; possibly offers advanced automation, priority support, and enterprise-level features.\n- Enterprise: Not specifically detailed, but likely includes tailored solutions, dedicated support, and enhanced security features.\nFree Trial: Not explicitly mentioned, but the freemium model suggests free access to core features with optional upgrades.\n\nUse Cases:\n- A knowledge worker who needs to manage emails, meetings, and task lists efficiently without switching between multiple apps, benefiting from Antispace's unified HUD and AI automation.\n- A project manager who wants to automate routine scheduling and task delegation while maintaining focus on strategic decisions, using the AI co-pilot to handle operational tasks.\n- A creative professional seeking an engaging and distraction-free workspace that adapts to their workflow, leveraging the gamified environment and customization features to enhance productivity.\n\nTarget Audience: Antispace is designed for professionals and teams of all sizes, particularly knowledge workers, project managers, and creatives across industries who require enhanced productivity and workflow automation. It suits companies looking to reduce context switching and improve operational efficiency through AI-driven tools.\n\nCategories: Email, Productivity, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "963007",
+    "name": "pfp.fm",
+    "tagline": "Upgrade Your Profile Picture",
+    "description": "Transform your photo into stunning avatars in a variety of artistic styles. High quality results with transparent backgrounds so you can use the avatars however you want!",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/63GCK7JOJZXNEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 209,
+    "detailed_description": "pfp.fm is a platform designed to help users create and enhance their profile pictures across various social media platforms. The main purpose is to provide users with high-resolution images that can be easily shared. This product solves the problem of having low-quality or inconsistent profile pictures by offering a simple and affordable way to generate professional-looking images. It aims to improve users' online presence by providing visually appealing and consistent branding. However, specific details about its functionality and features are not extensively documented in the available sources. The platform likely focuses on ease of use and accessibility for users looking to upgrade their online profiles.",
+    "features": [
+      "High-resolution image generation: Allows users to create professional-looking profile pictures.",
+      "Cross-platform compatibility: Enables users to share their profile pictures across multiple social media platforms.",
+      "Simple and affordable pricing: Offers users a cost-effective solution for enhancing their online presence.",
+      "Customization options: May include features to personalize profile pictures, though specific details are not available.",
+      "Ease of use: Designed to be user-friendly, allowing users to quickly generate and share their profile pictures."
+    ],
+    "pricing": {
+      "model": "Simple, Affordable Pricing",
+      "tiers": [
+        "Free tier: Not explicitly mentioned, but the platform is described as 'simple, affordable pricing'.",
+        "Tier 1: Details about specific pricing tiers are not available.",
+        "Tier 2: Details about additional tiers are not available.",
+        "Enterprise: No specific information available for enterprise plans."
+      ],
+      "free_trial": "No information available about a free trial.",
+      "additional_info": "The pricing model is described as simple and affordable, but specific details are not provided."
+    },
+    "use_cases": [
+      "Personal branding: Useful for individuals looking to enhance their professional online presence across social media platforms.",
+      "Business branding: Can be used by small businesses or entrepreneurs to maintain consistent branding across different platforms.",
+      "Social media management: Helpful for social media managers who need to ensure consistent and high-quality profile pictures for their clients."
+    ],
+    "target_audience": "pfp.fm is designed for individuals and small businesses looking to improve their online presence. It is likely targeted at anyone needing professional-looking profile pictures, including freelancers, entrepreneurs, and small business owners.",
+    "embedding_text": "Product: pfp.fm\n\nDescription: pfp.fm is a platform designed to help users create and enhance their profile pictures across various social media platforms. The main purpose is to provide users with high-resolution images that can be easily shared. This product solves the problem of having low-quality or inconsistent profile pictures by offering a simple and affordable way to generate professional-looking images. It aims to improve users' online presence by providing visually appealing and consistent branding. However, specific details about its functionality and features are not extensively documented in the available sources. The platform likely focuses on ease of use and accessibility for users looking to upgrade their online profiles.\n\nKey Features:\n- High-resolution image generation: Allows users to create professional-looking profile pictures.\n- Cross-platform compatibility: Enables users to share their profile pictures across multiple social media platforms.\n- Simple and affordable pricing: Offers users a cost-effective solution for enhancing their online presence.\n- Customization options: May include features to personalize profile pictures, though specific details are not available.\n- Ease of use: Designed to be user-friendly, allowing users to quickly generate and share their profile pictures.\n\nPricing Model: Simple, Affordable Pricing\nPricing Tiers:\n- Free tier: Not explicitly mentioned, but the platform is described as 'simple, affordable pricing'.\n- Tier 1: Details about specific pricing tiers are not available.\n- Tier 2: Details about additional tiers are not available.\n- Enterprise: No specific information available for enterprise plans.\nFree Trial: No information available about a free trial.\n\nUse Cases:\n- Personal branding: Useful for individuals looking to enhance their professional online presence across social media platforms.\n- Business branding: Can be used by small businesses or entrepreneurs to maintain consistent branding across different platforms.\n- Social media management: Helpful for social media managers who need to ensure consistent and high-quality profile pictures for their clients.\n\nTarget Audience: pfp.fm is designed for individuals and small businesses looking to improve their online presence. It is likely targeted at anyone needing professional-looking profile pictures, including freelancers, entrepreneurs, and small business owners.\n\nCategories: Design Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "960094",
+    "name": "Pipedream MCP",
+    "tagline": "2,500+ APIs and 10,000+ tools for your AI assistant",
+    "description": "Pipedream has launched mcp.pipedream.com with dedicated MCP (Model Context Protocol) servers for 2,500+ integrated apps. These servers enable AI assistants like Claude and Cursor to securely access and interact with 1000s of APIs through a standard protocol.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/3NM3DF7L2TZAF5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 199,
+    "detailed_description": "Pipedream MCP is a platform designed to enhance AI assistants by providing access to over 2,500 APIs and 10,000 tools. It enables AI assistants like Claude and Cursor to interact with a vast array of applications through a standardized protocol, allowing for seamless integration and automation of tasks. The platform is built on the Model Context Protocol (MCP), which facilitates secure and efficient communication between AI tools and external services. This integration empowers developers to build more powerful applications by leveraging the capabilities of various APIs without extensive coding. Pipedream MCP aims to simplify the process of connecting AI assistants with diverse services, thereby boosting productivity and reducing development time. It is particularly useful for developers seeking to integrate AI functionalities into their applications without the complexity of managing multiple APIs. The platform is free, making it accessible to a wide range of users.",
+    "features": [
+      "Extensive App Integration: Pipedream MCP offers access to a vast array of applications and APIs, allowing AI assistants to perform diverse operations such as data processing, automation, and more.",
+      "Standardized Protocol: The use of the Model Context Protocol (MCP) ensures that interactions between AI tools and external services are standardized, secure, and efficient.",
+      "Code-Level Control: Developers have the flexibility to control integrations at a code level when needed, providing a high degree of customization and control.",
+      "No-Code Option: For simpler integrations, Pipedream MCP also supports no-code interactions, making it accessible to users without extensive coding knowledge.",
+      "Security and Scalability: The platform is designed to handle large volumes of interactions securely, ensuring that data is protected and applications can scale as needed."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Access to 2,500+ APIs and 10,000+ tools for AI assistants, with no cost involved."
+      ],
+      "free_trial": "Not applicable as the service is free.",
+      "additional_info": "Pipedream MCP is entirely free, with no additional tiers or costs for users."
+    },
+    "use_cases": [
+      "Automation of Business Processes: Pipedream MCP can be used to automate repetitive tasks by integrating AI assistants with various business applications, enhancing productivity and efficiency.",
+      "AI-Powered Customer Service: By connecting AI assistants with customer service tools, businesses can create more personalized and responsive customer experiences.",
+      "Data Analysis and Integration: Developers can leverage Pipedream MCP to integrate AI tools with data analytics services, facilitating complex data processing and insights generation."
+    ],
+    "target_audience": "Pipedream MCP is designed for developers and organizations of all sizes, from startups to Fortune 500 companies, who seek to integrate AI functionalities into their applications and automate tasks efficiently.",
+    "embedding_text": "Product: Pipedream MCP\n\nDescription: Pipedream MCP is a platform designed to enhance AI assistants by providing access to over 2,500 APIs and 10,000 tools. It enables AI assistants like Claude and Cursor to interact with a vast array of applications through a standardized protocol, allowing for seamless integration and automation of tasks. The platform is built on the Model Context Protocol (MCP), which facilitates secure and efficient communication between AI tools and external services. This integration empowers developers to build more powerful applications by leveraging the capabilities of various APIs without extensive coding. Pipedream MCP aims to simplify the process of connecting AI assistants with diverse services, thereby boosting productivity and reducing development time. It is particularly useful for developers seeking to integrate AI functionalities into their applications without the complexity of managing multiple APIs. The platform is free, making it accessible to a wide range of users.\n\nKey Features:\n- Extensive App Integration: Pipedream MCP offers access to a vast array of applications and APIs, allowing AI assistants to perform diverse operations such as data processing, automation, and more.\n- Standardized Protocol: The use of the Model Context Protocol (MCP) ensures that interactions between AI tools and external services are standardized, secure, and efficient.\n- Code-Level Control: Developers have the flexibility to control integrations at a code level when needed, providing a high degree of customization and control.\n- No-Code Option: For simpler integrations, Pipedream MCP also supports no-code interactions, making it accessible to users without extensive coding knowledge.\n- Security and Scalability: The platform is designed to handle large volumes of interactions securely, ensuring that data is protected and applications can scale as needed.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Access to 2,500+ APIs and 10,000+ tools for AI assistants, with no cost involved.\nFree Trial: Not applicable as the service is free.\n\nUse Cases:\n- Automation of Business Processes: Pipedream MCP can be used to automate repetitive tasks by integrating AI assistants with various business applications, enhancing productivity and efficiency.\n- AI-Powered Customer Service: By connecting AI assistants with customer service tools, businesses can create more personalized and responsive customer experiences.\n- Data Analysis and Integration: Developers can leverage Pipedream MCP to integrate AI tools with data analytics services, facilitating complex data processing and insights generation.\n\nTarget Audience: Pipedream MCP is designed for developers and organizations of all sizes, from startups to Fortune 500 companies, who seek to integrate AI functionalities into their applications and automate tasks efficiently.\n\nCategories: API, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "962616",
+    "name": "Le Chat Enterprise",
+    "tagline": "Customizable agent-powered AI assistant for business",
+    "description": "Secure, customizable, agent-powered AI assistant for business. Integrates company knowledge (Drive, etc.), build custom agents. Deploy cloud or on-prem.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/UWD3KX2IQJPP35?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 172,
+    "detailed_description": "Le Chat Enterprise is a customizable agent-powered AI assistant designed for businesses. It is powered by Mistral AI's advanced models, such as the Mistral Medium 3 model, which provides robust AI capabilities. The main purpose of Le Chat Enterprise is to assist businesses in automating tasks, enhancing customer service, and improving operational efficiency. It solves problems related to customer engagement, data analysis, and workflow optimization by offering a tailored AI solution that can be integrated into various business processes. Le Chat Enterprise is part of Mistral AI's broader mission to democratize AI access for businesses. It offers a flexible framework that can be customized to meet specific business needs, making it suitable for a wide range of industries and company sizes. By leveraging AI, businesses can streamline operations and focus on strategic growth initiatives.",
+    "features": [
+      "Customizable AI Models: Le Chat Enterprise allows businesses to tailor AI models to their specific needs, enabling them to address unique challenges and opportunities.",
+      "Advanced Automation: It provides advanced automation capabilities to streamline business processes, reducing manual labor and increasing productivity.",
+      "Enhanced Customer Service: Le Chat Enterprise can be integrated into customer service systems to provide 24/7 support, improving customer satisfaction and reducing response times.",
+      "Data Analysis and Insights: The platform offers advanced data analysis tools, helping businesses gain valuable insights into customer behavior and market trends.",
+      "Integration Capabilities: It supports integration with existing business systems, allowing seamless incorporation into current workflows and infrastructure."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Offers limited features and is primarily aimed at personal use.",
+        "Pro tier: $14.99 per month, includes additional features like unlimited web browsing and messages.",
+        "Team tier: $24.99 per month, designed for small teams with more advanced collaboration features.",
+        "Enterprise tier: Custom pricing with tailored solutions for businesses, offering comprehensive support and customization options."
+      ],
+      "free_trial": "No free trial is available for Le Chat Enterprise.",
+      "additional_info": "Pricing details for the Enterprise tier are custom and require direct consultation with Mistral AI."
+    },
+    "use_cases": [
+      "Customer Service Automation: Le Chat Enterprise can be used to automate customer service operations, providing instant responses to common queries and freeing human agents to focus on complex issues.",
+      "Data-Driven Decision Making: Businesses can utilize Le Chat Enterprise to analyze large datasets, providing insights that inform strategic decisions and improve operational efficiency.",
+      "Process Optimization: It can be integrated into various business processes to identify bottlenecks and optimize workflows, leading to increased productivity and reduced costs."
+    ],
+    "target_audience": "Le Chat Enterprise is designed for businesses of all sizes, particularly those seeking to leverage AI for process automation, customer service enhancement, and data analysis. It is suitable for industries such as retail, healthcare, finance, and technology, where AI can significantly impact operational efficiency and customer engagement.",
+    "embedding_text": "Product: Le Chat Enterprise\n\nDescription: Le Chat Enterprise is a customizable agent-powered AI assistant designed for businesses. It is powered by Mistral AI's advanced models, such as the Mistral Medium 3 model, which provides robust AI capabilities. The main purpose of Le Chat Enterprise is to assist businesses in automating tasks, enhancing customer service, and improving operational efficiency. It solves problems related to customer engagement, data analysis, and workflow optimization by offering a tailored AI solution that can be integrated into various business processes. Le Chat Enterprise is part of Mistral AI's broader mission to democratize AI access for businesses. It offers a flexible framework that can be customized to meet specific business needs, making it suitable for a wide range of industries and company sizes. By leveraging AI, businesses can streamline operations and focus on strategic growth initiatives.\n\nKey Features:\n- Customizable AI Models: Le Chat Enterprise allows businesses to tailor AI models to their specific needs, enabling them to address unique challenges and opportunities.\n- Advanced Automation: It provides advanced automation capabilities to streamline business processes, reducing manual labor and increasing productivity.\n- Enhanced Customer Service: Le Chat Enterprise can be integrated into customer service systems to provide 24/7 support, improving customer satisfaction and reducing response times.\n- Data Analysis and Insights: The platform offers advanced data analysis tools, helping businesses gain valuable insights into customer behavior and market trends.\n- Integration Capabilities: It supports integration with existing business systems, allowing seamless incorporation into current workflows and infrastructure.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Offers limited features and is primarily aimed at personal use.\n- Pro tier: $14.99 per month, includes additional features like unlimited web browsing and messages.\n- Team tier: $24.99 per month, designed for small teams with more advanced collaboration features.\n- Enterprise tier: Custom pricing with tailored solutions for businesses, offering comprehensive support and customization options.\nFree Trial: No free trial is available for Le Chat Enterprise.\n\nUse Cases:\n- Customer Service Automation: Le Chat Enterprise can be used to automate customer service operations, providing instant responses to common queries and freeing human agents to focus on complex issues.\n- Data-Driven Decision Making: Businesses can utilize Le Chat Enterprise to analyze large datasets, providing insights that inform strategic decisions and improve operational efficiency.\n- Process Optimization: It can be integrated into various business processes to identify bottlenecks and optimize workflows, leading to increased productivity and reduced costs.\n\nTarget Audience: Le Chat Enterprise is designed for businesses of all sizes, particularly those seeking to leverage AI for process automation, customer service enhancement, and data analysis. It is suitable for industries such as retail, healthcare, finance, and technology, where AI can significantly impact operational efficiency and customer engagement.\n\nCategories: Productivity, SaaS, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "958045",
+    "name": "HyperArc",
+    "tagline": "AI Native Business Intelligence",
+    "description": "HyperArc is the first AI-native BI platform that learns from your team. Ask questions in plain English, get trusted insights instantly. Built by Tableau and Einstein Analytics veterans. Fast, secure, auditable insights—no SQL skills needed.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "No-Code",
+      "Data & Analytics"
+    ],
+    "website": "https://www.producthunt.com/r/A53K5CYWFTXBP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 144,
+    "detailed_description": "HyperArc is an AI-native business intelligence platform designed to learn from its users and provide instant insights. It integrates AI deeply into its operations, allowing it to adapt and improve continuously. HyperArc's AI capabilities enable analysts to interact with data in a more intuitive way, using natural language to ask questions and receive accurate, data-driven responses. This approach helps streamline data analysis processes, making it easier for businesses to make informed decisions. By leveraging AI to understand how analysts work, HyperArc creates a personalized experience that enhances data analysis efficiency. It ensures that all insights are linked to verifiable queries, reducing the risk of inaccurate or 'hallucinated' results. HyperArc's AI-native design means it can learn from user interactions and adapt to changing business conditions, providing a scalable and efficient solution for business intelligence needs.",
+    "features": [
+      "AI Learning and Adaptation: HyperArc's AI learns from user interactions, adapting to improve analysis efficiency and accuracy over time.",
+      "Natural Language Queries: Users can ask questions in plain English to receive instant, trusted insights, simplifying complex data analysis.",
+      "Verifiable Queries: All insights are grounded in verifiable data queries, ensuring accuracy and reducing the risk of 'hallucinated' results.",
+      "Global/Local Q&A: Provides both global and local query capabilities, allowing users to explore data from different perspectives.",
+      "Extend Feature: Allows users to suggest next steps in natural language, though it lacks a cohesive chat interface history."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "No specific pricing tiers are detailed in the available information.",
+        "Enterprise: Customized solutions likely available for large-scale businesses."
+      ],
+      "free_trial": "No specific details about a free trial are available.",
+      "additional_info": "Pricing details are not explicitly mentioned in the provided sources."
+    },
+    "use_cases": [
+      "Data Analysis for Business Decisions: HyperArc can help businesses analyze complex data sets to make informed strategic decisions.",
+      "Operational Efficiency: By automating data analysis processes, HyperArc can improve operational efficiency and reduce manual workloads.",
+      "Adaptive Insights: Its AI-native design allows it to adapt to changing business conditions, providing real-time insights that support agile decision-making."
+    ],
+    "target_audience": "HyperArc is designed for businesses of various sizes, particularly those seeking to enhance their data analysis capabilities with AI. It is suitable for roles such as data analysts, business intelligence professionals, and decision-makers across industries.",
+    "embedding_text": "Product: HyperArc\n\nDescription: HyperArc is an AI-native business intelligence platform designed to learn from its users and provide instant insights. It integrates AI deeply into its operations, allowing it to adapt and improve continuously. HyperArc's AI capabilities enable analysts to interact with data in a more intuitive way, using natural language to ask questions and receive accurate, data-driven responses. This approach helps streamline data analysis processes, making it easier for businesses to make informed decisions. By leveraging AI to understand how analysts work, HyperArc creates a personalized experience that enhances data analysis efficiency. It ensures that all insights are linked to verifiable queries, reducing the risk of inaccurate or 'hallucinated' results. HyperArc's AI-native design means it can learn from user interactions and adapt to changing business conditions, providing a scalable and efficient solution for business intelligence needs.\n\nKey Features:\n- AI Learning and Adaptation: HyperArc's AI learns from user interactions, adapting to improve analysis efficiency and accuracy over time.\n- Natural Language Queries: Users can ask questions in plain English to receive instant, trusted insights, simplifying complex data analysis.\n- Verifiable Queries: All insights are grounded in verifiable data queries, ensuring accuracy and reducing the risk of 'hallucinated' results.\n- Global/Local Q&A: Provides both global and local query capabilities, allowing users to explore data from different perspectives.\n- Extend Feature: Allows users to suggest next steps in natural language, though it lacks a cohesive chat interface history.\n\nPricing Model: Subscription\nPricing Tiers:\n- No specific pricing tiers are detailed in the available information.\n- Enterprise: Customized solutions likely available for large-scale businesses.\nFree Trial: No specific details about a free trial are available.\n\nUse Cases:\n- Data Analysis for Business Decisions: HyperArc can help businesses analyze complex data sets to make informed strategic decisions.\n- Operational Efficiency: By automating data analysis processes, HyperArc can improve operational efficiency and reduce manual workloads.\n- Adaptive Insights: Its AI-native design allows it to adapt to changing business conditions, providing real-time insights that support agile decision-making.\n\nTarget Audience: HyperArc is designed for businesses of various sizes, particularly those seeking to enhance their data analysis capabilities with AI. It is suitable for roles such as data analysts, business intelligence professionals, and decision-makers across industries.\n\nCategories: Artificial Intelligence, No-Code, Data & Analytics\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "963041",
+    "name": "FineTuner",
+    "tagline": "Fine-tune AI models on your data — in minutes, not days.",
+    "description": "FineTuner trains your own AI on your content (PDF, YouTube videos, websites...) without writing a single line of code. Generate a high-quality dataset, fine-tune your model (GPT or Claude), and deploy it via API ready to use in minutes.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/U5CAX62H6EE6U5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 137,
+    "detailed_description": "FineTuner is a platform designed to enable users to fine-tune AI models on their own data quickly and efficiently, reducing the time required from days or weeks to just minutes. It allows users to train custom large language models (LLMs) using various types of content such as PDFs, YouTube videos, and websites without needing to write any code. The platform automates the process of generating high-quality datasets, fine-tuning models like GPT or Claude, and deploying them via API for immediate use. FineTuner handles the complexity and infrastructure in the cloud, streamlining the AI fine-tuning workflow. Its main purpose is to help organizations and developers create AI models that perform better on their specific tasks at a lower cost and with less technical overhead. This solves the problem of lengthy, complex, and expensive AI model customization processes, making advanced AI accessible to a broader audience.",
+    "features": [
+      "No-code fine-tuning: Users can fine-tune AI models on their own data without writing any code, making the process accessible to non-technical users.",
+      "Multi-format data support: FineTuner supports training on diverse content types including PDFs, YouTube videos, and websites, enabling versatile dataset creation.",
+      "Rapid model training and deployment: The platform enables training and deploying fine-tuned models in minutes, significantly accelerating AI project timelines.",
+      "API-ready models: Once fine-tuned, models are immediately deployable via API, facilitating easy integration into applications and workflows.",
+      "Cloud-based infrastructure management: FineTuner handles all backend complexity and infrastructure in the cloud, removing the need for users to manage hardware or software environments."
+    ],
+    "pricing": {
+      "model": "Not explicitly detailed; likely subscription or usage-based",
+      "tiers": [
+        "Free tier: Not specified in available information",
+        "Tier 1: Not specified",
+        "Tier 2: Not specified",
+        "Enterprise: Not specified"
+      ],
+      "free_trial": "No explicit information about a free trial is available from the sources.",
+      "additional_info": "Pricing details are not publicly disclosed in the provided sources; users may need to contact FineTuner directly or visit their website for detailed pricing plans."
+    },
+    "use_cases": [
+      "Customizing AI models for specific organizational documents and knowledge bases to improve internal search and automation.",
+      "Creating specialized AI assistants trained on multimedia content such as instructional videos and web resources for enhanced customer support.",
+      "Rapidly developing domain-specific AI applications where quick turnaround on model fine-tuning is critical, such as in startups or agile teams."
+    ],
+    "target_audience": "FineTuner is designed for businesses and developers of all sizes who want to create custom AI models tailored to their unique data without deep AI expertise. This includes product teams, data scientists, AI researchers, and companies in industries like technology, education, customer service, and content management that require specialized AI capabilities quickly and cost-effectively.",
+    "embedding_text": "Product: FineTuner\n\nDescription: FineTuner is a platform designed to enable users to fine-tune AI models on their own data quickly and efficiently, reducing the time required from days or weeks to just minutes. It allows users to train custom large language models (LLMs) using various types of content such as PDFs, YouTube videos, and websites without needing to write any code. The platform automates the process of generating high-quality datasets, fine-tuning models like GPT or Claude, and deploying them via API for immediate use. FineTuner handles the complexity and infrastructure in the cloud, streamlining the AI fine-tuning workflow. Its main purpose is to help organizations and developers create AI models that perform better on their specific tasks at a lower cost and with less technical overhead. This solves the problem of lengthy, complex, and expensive AI model customization processes, making advanced AI accessible to a broader audience.\n\nKey Features:\n- No-code fine-tuning: Users can fine-tune AI models on their own data without writing any code, making the process accessible to non-technical users.\n- Multi-format data support: FineTuner supports training on diverse content types including PDFs, YouTube videos, and websites, enabling versatile dataset creation.\n- Rapid model training and deployment: The platform enables training and deploying fine-tuned models in minutes, significantly accelerating AI project timelines.\n- API-ready models: Once fine-tuned, models are immediately deployable via API, facilitating easy integration into applications and workflows.\n- Cloud-based infrastructure management: FineTuner handles all backend complexity and infrastructure in the cloud, removing the need for users to manage hardware or software environments.\n\nPricing Model: Not explicitly detailed; likely subscription or usage-based\nPricing Tiers:\n- Free tier: Not specified in available information\n- Tier 1: Not specified\n- Tier 2: Not specified\n- Enterprise: Not specified\nFree Trial: No explicit information about a free trial is available from the sources.\n\nUse Cases:\n- Customizing AI models for specific organizational documents and knowledge bases to improve internal search and automation.\n- Creating specialized AI assistants trained on multimedia content such as instructional videos and web resources for enhanced customer support.\n- Rapidly developing domain-specific AI applications where quick turnaround on model fine-tuning is critical, such as in startups or agile teams.\n\nTarget Audience: FineTuner is designed for businesses and developers of all sizes who want to create custom AI models tailored to their unique data without deep AI expertise. This includes product teams, data scientists, AI researchers, and companies in industries like technology, education, customer service, and content management that require specialized AI capabilities quickly and cost-effectively.\n\nCategories: API, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "962800",
+    "name": "EchoPod",
+    "tagline": " Transform written content into captivating AI podcasts",
+    "description": "Amplify your reach and engage your audience with professional-quality podcasts. Harness the power of AI to convert your articles, blogs, and stories into studio-quality audio experiences complete with music—no recording studio needed.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "Artificial Intelligence",
+      "Audio"
+    ],
+    "website": "https://www.producthunt.com/r/F53LWUU6U5GG3Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 133,
+    "detailed_description": "EchoPod is a cutting-edge tool designed to transform written content into engaging AI podcasts. It optimizes content for listening by creating a script, allowing users to choose from various options. The platform utilizes Amazon Bedrock (Claude Sonnet 3.5) to generate well-structured chapters, each with intros, examples, and takeaways. These chapters are then converted into audio using Amazon Polly, ensuring fast output. EchoPod serves as a learning assistant, narrator, and podcast host, providing features like synced transcripts, chapter navigation, and speech-to-text support. It solves the problem of converting complex written content into an easily consumable audio format, making it ideal for educational and informational content creators. EchoPod's automation and customization options make it a versatile tool for various content types.",
+    "features": [
+      "Fully Automated Workflow: EchoPod automates the process of converting written content into podcasts, saving time and effort for creators.",
+      "Professional-Grade Quality: The platform ensures high-quality audio output, making it suitable for professional use.",
+      "Customizable Voice Options: Users can select from various voice options to match their brand or style, enhancing the listening experience.",
+      "Podcast Modes: EchoPod offers different modes for creating podcasts, allowing users to tailor the content to their audience.",
+      "Speech-to-Text Support: This feature allows users to input new topics hands-free, making it convenient for quick content creation."
+    ],
+    "pricing": {
+      "model": "Not specified in available data",
+      "tiers": "Not available",
+      "free_trial": "No information available",
+      "additional_info": "Pricing details are not provided in the current data."
+    },
+    "use_cases": [
+      "Educational Content Creation: EchoPod can be used to convert educational texts into engaging podcasts for students, making complex topics more accessible.",
+      "Corporate Training: Companies can utilize EchoPod to transform training materials into audio formats, enhancing employee engagement and learning.",
+      "Personal Learning: Individuals can use EchoPod to create personalized podcasts on topics they are interested in, such as science or history, making learning more enjoyable."
+    ],
+    "target_audience": "EchoPod is designed for content creators, educators, and businesses looking to transform written content into engaging audio formats. It is suitable for individuals and organizations across various industries, including education, corporate training, and media production.",
+    "embedding_text": "Product: EchoPod\n\nDescription: EchoPod is a cutting-edge tool designed to transform written content into engaging AI podcasts. It optimizes content for listening by creating a script, allowing users to choose from various options. The platform utilizes Amazon Bedrock (Claude Sonnet 3.5) to generate well-structured chapters, each with intros, examples, and takeaways. These chapters are then converted into audio using Amazon Polly, ensuring fast output. EchoPod serves as a learning assistant, narrator, and podcast host, providing features like synced transcripts, chapter navigation, and speech-to-text support. It solves the problem of converting complex written content into an easily consumable audio format, making it ideal for educational and informational content creators. EchoPod's automation and customization options make it a versatile tool for various content types.\n\nKey Features:\n- Fully Automated Workflow: EchoPod automates the process of converting written content into podcasts, saving time and effort for creators.\n- Professional-Grade Quality: The platform ensures high-quality audio output, making it suitable for professional use.\n- Customizable Voice Options: Users can select from various voice options to match their brand or style, enhancing the listening experience.\n- Podcast Modes: EchoPod offers different modes for creating podcasts, allowing users to tailor the content to their audience.\n- Speech-to-Text Support: This feature allows users to input new topics hands-free, making it convenient for quick content creation.\n\nPricing Model: Not specified in available data\nPricing Tiers:\n- N\n- o\n- t\n-  \n- a\n- v\n- a\n- i\n- l\n- a\n- b\n- l\n- e\nFree Trial: No information available\n\nUse Cases:\n- Educational Content Creation: EchoPod can be used to convert educational texts into engaging podcasts for students, making complex topics more accessible.\n- Corporate Training: Companies can utilize EchoPod to transform training materials into audio formats, enhancing employee engagement and learning.\n- Personal Learning: Individuals can use EchoPod to create personalized podcasts on topics they are interested in, such as science or history, making learning more enjoyable.\n\nTarget Audience: EchoPod is designed for content creators, educators, and businesses looking to transform written content into engaging audio formats. It is suitable for individuals and organizations across various industries, including education, corporate training, and media production.\n\nCategories: Marketing, Artificial Intelligence, Audio\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "962978",
+    "name": "Qagent",
+    "tagline": "Skip manual testing your web application. Let AI do the work",
+    "description": "AI agents for automated end-to-end testing. No scripts, no manual effort — just describe what you want to test and let our agents do the work.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Artificial Intelligence",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/5Y3OUFQLM4VZDN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 129,
+    "detailed_description": "Qagent is an AI-powered testing tool designed to automate the manual testing of web applications, significantly reducing the time and effort required by QA teams. It leverages artificial intelligence to create, execute, and maintain test cases by understanding natural language prompts and adapting to UI changes automatically. This product addresses common challenges in software testing such as fragile test scripts, repetitive test case creation, and the need for extensive test data generation. By using AI, Qagent can perform various types of testing including end-to-end, visual, exploratory, and regression testing, improving test coverage and reliability. It also provides detailed insights into test runs, helping developers quickly identify and fix issues. Overall, Qagent streamlines the testing workflow, enabling faster releases and higher software quality.",
+    "features": [
+      "AI-driven test case creation from plain English prompts, enabling rapid development of complex end-to-end tests without manual scripting.",
+      "Self-healing test scripts that automatically adapt to UI changes such as CSS or XPath updates, reducing maintenance overhead and test failures.",
+      "Automated generation of realistic test data, including personal information and authentication codes, to enhance test scenarios and coverage.",
+      "Comprehensive support for multiple testing types including unit, integration, visual, exploratory, and AI feature testing, providing versatile testing capabilities.",
+      "Detailed test run analytics with step-by-step action breakdowns, screenshots, and success criteria validation to facilitate debugging and quality assurance."
+    ],
+    "pricing": {
+      "model": "Subscription-based with potential free tier or trial",
+      "tiers": [
+        "Free tier: Likely includes basic AI test creation and limited test runs (specific details not publicly available).",
+        "Tier 1: Standard subscription with expanded test runs, advanced AI features, and integration support (pricing details not disclosed).",
+        "Tier 2: Premium subscription offering full feature access, priority support, and enterprise-grade capabilities (pricing details not disclosed).",
+        "Enterprise: Custom plans tailored for large organizations with dedicated support, SLAs, and on-premise deployment options."
+      ],
+      "free_trial": "Possibly offers a free trial or freemium access to test core functionalities before committing to a paid plan, though exact terms are not specified.",
+      "additional_info": "Pricing and tier details are not explicitly published; interested users should contact Qagent directly for precise information."
+    },
+    "use_cases": [
+      "Automating regression testing for web applications to quickly identify bugs after code changes without manual intervention.",
+      "Creating and maintaining complex end-to-end test scenarios for apps with frequently changing user interfaces, reducing manual test script updates.",
+      "Generating large volumes of realistic test data for scenarios requiring diverse user inputs, such as authentication flows and personalized content delivery."
+    ],
+    "target_audience": "Qagent is designed for software development and QA teams of all sizes, particularly those in web application development. It suits companies seeking to accelerate their testing cycles, reduce manual testing effort, and improve software quality. Industries include technology, e-commerce, finance, and any sector with complex web applications requiring robust automated testing.",
+    "embedding_text": "Product: Qagent\n\nDescription: Qagent is an AI-powered testing tool designed to automate the manual testing of web applications, significantly reducing the time and effort required by QA teams. It leverages artificial intelligence to create, execute, and maintain test cases by understanding natural language prompts and adapting to UI changes automatically. This product addresses common challenges in software testing such as fragile test scripts, repetitive test case creation, and the need for extensive test data generation. By using AI, Qagent can perform various types of testing including end-to-end, visual, exploratory, and regression testing, improving test coverage and reliability. It also provides detailed insights into test runs, helping developers quickly identify and fix issues. Overall, Qagent streamlines the testing workflow, enabling faster releases and higher software quality.\n\nKey Features:\n- AI-driven test case creation from plain English prompts, enabling rapid development of complex end-to-end tests without manual scripting.\n- Self-healing test scripts that automatically adapt to UI changes such as CSS or XPath updates, reducing maintenance overhead and test failures.\n- Automated generation of realistic test data, including personal information and authentication codes, to enhance test scenarios and coverage.\n- Comprehensive support for multiple testing types including unit, integration, visual, exploratory, and AI feature testing, providing versatile testing capabilities.\n- Detailed test run analytics with step-by-step action breakdowns, screenshots, and success criteria validation to facilitate debugging and quality assurance.\n\nPricing Model: Subscription-based with potential free tier or trial\nPricing Tiers:\n- Free tier: Likely includes basic AI test creation and limited test runs (specific details not publicly available).\n- Tier 1: Standard subscription with expanded test runs, advanced AI features, and integration support (pricing details not disclosed).\n- Tier 2: Premium subscription offering full feature access, priority support, and enterprise-grade capabilities (pricing details not disclosed).\n- Enterprise: Custom plans tailored for large organizations with dedicated support, SLAs, and on-premise deployment options.\nFree Trial: Possibly offers a free trial or freemium access to test core functionalities before committing to a paid plan, though exact terms are not specified.\n\nUse Cases:\n- Automating regression testing for web applications to quickly identify bugs after code changes without manual intervention.\n- Creating and maintaining complex end-to-end test scenarios for apps with frequently changing user interfaces, reducing manual test script updates.\n- Generating large volumes of realistic test data for scenarios requiring diverse user inputs, such as authentication flows and personalized content delivery.\n\nTarget Audience: Qagent is designed for software development and QA teams of all sizes, particularly those in web application development. It suits companies seeking to accelerate their testing cycles, reduce manual testing effort, and improve software quality. Industries include technology, e-commerce, finance, and any sector with complex web applications requiring robust automated testing.\n\nCategories: SaaS, Artificial Intelligence, No-Code\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "962967",
+    "name": "Seveum",
+    "tagline": "Find your dream job in record time",
+    "description": "Discover your next job with Seveum, your AI-powered job search assistant. Instantly find top-matching roles tailored to your profile. Get match insights, keyword highlights, and smart analytics to boost your chances of landing interviews.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Career"
+    ],
+    "website": "https://www.producthunt.com/r/426P3NWIBXV7NA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 128,
+    "detailed_description": "Seveum is an AI-powered job search assistant designed to help individuals find their dream job quickly. It uses advanced algorithms to match job seekers with top-matching roles tailored to their profiles. The platform provides insights into job matches, highlights relevant keywords, and offers smart analytics to enhance the chances of landing interviews. By streamlining the job search process, Seveum aims to reduce the time and effort required for job seekers to find suitable positions. It is particularly useful for those looking to transition into new roles or industries efficiently. Seveum's AI-driven approach ensures that job seekers are presented with opportunities that align closely with their skills and interests. Overall, Seveum simplifies the job search experience by leveraging technology to connect job seekers with the most relevant job opportunities.",
+    "features": [
+      "AI-powered job matching: This feature uses advanced algorithms to match job seekers with job openings that best fit their skills and experience, ensuring a more efficient job search process.",
+      "Match insights and keyword highlights: Provides detailed insights into why certain jobs are recommended, helping job seekers understand how their skills align with the job requirements.",
+      "Smart analytics: Offers data-driven insights to help job seekers optimize their job search strategies and increase their chances of securing interviews.",
+      "Personalized job recommendations: Tailors job suggestions based on the individual's profile, ensuring that job seekers are presented with opportunities that align with their career goals.",
+      "Streamlined job search process: Reduces the time and effort required to find suitable job openings by automating the search process and providing relevant job matches."
+    ],
+    "pricing": {
+      "model": "Currently, specific pricing details are not available, but Seveum offers a free option and a 70% discount on its launch.",
+      "tiers": [
+        "Free tier: Includes basic job matching and insights.",
+        "No detailed pricing tiers available at this time."
+      ],
+      "free_trial": "No specific information about a free trial is available.",
+      "additional_info": "Seveum is offering a 70% discount during its launch phase, indicating potential for future pricing adjustments."
+    },
+    "use_cases": [
+      "Career transition: Seveum is particularly useful for individuals looking to transition into new roles or industries, as it provides personalized job recommendations based on their skills and experience.",
+      "New graduates: Recent graduates can benefit from Seveum's AI-powered job matching to find entry-level positions that align with their skills and interests.",
+      "Job seekers in competitive markets: In highly competitive job markets, Seveum's smart analytics and match insights can help job seekers stand out and increase their chances of securing interviews."
+    ],
+    "target_audience": "Seveum is designed for individual job seekers across various industries and roles, particularly those looking to streamline their job search process and find suitable positions quickly.",
+    "embedding_text": "Product: Seveum\n\nDescription: Seveum is an AI-powered job search assistant designed to help individuals find their dream job quickly. It uses advanced algorithms to match job seekers with top-matching roles tailored to their profiles. The platform provides insights into job matches, highlights relevant keywords, and offers smart analytics to enhance the chances of landing interviews. By streamlining the job search process, Seveum aims to reduce the time and effort required for job seekers to find suitable positions. It is particularly useful for those looking to transition into new roles or industries efficiently. Seveum's AI-driven approach ensures that job seekers are presented with opportunities that align closely with their skills and interests. Overall, Seveum simplifies the job search experience by leveraging technology to connect job seekers with the most relevant job opportunities.\n\nKey Features:\n- AI-powered job matching: This feature uses advanced algorithms to match job seekers with job openings that best fit their skills and experience, ensuring a more efficient job search process.\n- Match insights and keyword highlights: Provides detailed insights into why certain jobs are recommended, helping job seekers understand how their skills align with the job requirements.\n- Smart analytics: Offers data-driven insights to help job seekers optimize their job search strategies and increase their chances of securing interviews.\n- Personalized job recommendations: Tailors job suggestions based on the individual's profile, ensuring that job seekers are presented with opportunities that align with their career goals.\n- Streamlined job search process: Reduces the time and effort required to find suitable job openings by automating the search process and providing relevant job matches.\n\nPricing Model: Currently, specific pricing details are not available, but Seveum offers a free option and a 70% discount on its launch.\nPricing Tiers:\n- Free tier: Includes basic job matching and insights.\n- No detailed pricing tiers available at this time.\nFree Trial: No specific information about a free trial is available.\n\nUse Cases:\n- Career transition: Seveum is particularly useful for individuals looking to transition into new roles or industries, as it provides personalized job recommendations based on their skills and experience.\n- New graduates: Recent graduates can benefit from Seveum's AI-powered job matching to find entry-level positions that align with their skills and interests.\n- Job seekers in competitive markets: In highly competitive job markets, Seveum's smart analytics and match insights can help job seekers stand out and increase their chances of securing interviews.\n\nTarget Audience: Seveum is designed for individual job seekers across various industries and roles, particularly those looking to streamline their job search process and find suitable positions quickly.\n\nCategories: Productivity, Artificial Intelligence, Career\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "961373",
+    "name": "Zoho WorkDrive 5.0",
+    "tagline": "Intelligent content management platform",
+    "description": "Centralize your files, collaborate in real time, and automate workflows—all in one secure, AI-powered platform.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Artificial Intelligence",
+      "Business Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/WMR44DFPF53MOD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 121,
+    "detailed_description": "Zoho WorkDrive 5.0 is an intelligent content management platform designed to streamline content collaboration and workflow automation across teams. It integrates AI to enhance productivity and security, making it easier for businesses to manage their content efficiently. WorkDrive allows teams to store, share, and manage files while automating routine tasks and improving collaboration. It solves problems related to content duplication, inefficient workflows, and lack of integration with other business tools. By centralizing content and automating workflows, WorkDrive helps reduce errors and increase team productivity. It also supports integrations with other Zoho tools like CRM and Projects Plus, as well as external apps like Outlook. This integration capability helps businesses manage customer documents and project tasks more effectively.",
+    "features": [
+      "Custom Workflows: WorkDrive 5.0 offers a sophisticated workflow builder that allows users to automate routine tasks by configuring states, transitions, and actions. This feature helps in reducing human errors and improving operational efficiency.",
+      "AI Integration: The platform integrates AI to generate text and images using Open AI API keys, enhancing creativity and productivity within the team.",
+      "Chunk Uploads: This feature allows users to upload large files in smaller chunks, ensuring that uploads can be resumed from where they were interrupted, reducing the hassle of restarting from scratch.",
+      "Web Hooks: WorkDrive supports web hooks for real-time notifications in external apps, keeping teams updated on file, folder, and team events.",
+      "Centralized Content Management: WorkDrive enables teams to centralize their content, reducing file duplication and improving access efficiency."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Limited features and storage, suitable for small teams or personal use.",
+        "Tier 1: Standard Plan, includes more storage and features, priced at $3 per user/month (billed annually), suitable for small to medium-sized businesses.",
+        "Tier 2: Premium Plan, offers additional features like advanced security and more storage, priced at $7 per user/month (billed annually), suitable for larger businesses.",
+        "Enterprise: Custom pricing for large enterprises with specific needs, including advanced security features and dedicated support."
+      ],
+      "free_trial": "15-day free trial available with no credit card required.",
+      "additional_info": "Pricing may vary based on the number of users and specific requirements."
+    },
+    "use_cases": [
+      "Project Management: WorkDrive is useful for managing project files and automating workflows related to project tasks, especially when integrated with Zoho Projects Plus.",
+      "Customer Document Management: It helps businesses manage customer-related documents efficiently through its integration with Zoho CRM, reducing the need for context switching.",
+      "Collaborative Content Creation: WorkDrive supports collaborative content creation by allowing teams to work together on files while leveraging AI tools for generating ideas and drafts."
+    ],
+    "target_audience": "Zoho WorkDrive 5.0 is designed for businesses of all sizes, particularly those looking to enhance team collaboration and automate content workflows. It is suitable for roles such as project managers, marketing teams, and customer service teams across various industries.",
+    "embedding_text": "Product: Zoho WorkDrive 5.0\n\nDescription: Zoho WorkDrive 5.0 is an intelligent content management platform designed to streamline content collaboration and workflow automation across teams. It integrates AI to enhance productivity and security, making it easier for businesses to manage their content efficiently. WorkDrive allows teams to store, share, and manage files while automating routine tasks and improving collaboration. It solves problems related to content duplication, inefficient workflows, and lack of integration with other business tools. By centralizing content and automating workflows, WorkDrive helps reduce errors and increase team productivity. It also supports integrations with other Zoho tools like CRM and Projects Plus, as well as external apps like Outlook. This integration capability helps businesses manage customer documents and project tasks more effectively.\n\nKey Features:\n- Custom Workflows: WorkDrive 5.0 offers a sophisticated workflow builder that allows users to automate routine tasks by configuring states, transitions, and actions. This feature helps in reducing human errors and improving operational efficiency.\n- AI Integration: The platform integrates AI to generate text and images using Open AI API keys, enhancing creativity and productivity within the team.\n- Chunk Uploads: This feature allows users to upload large files in smaller chunks, ensuring that uploads can be resumed from where they were interrupted, reducing the hassle of restarting from scratch.\n- Web Hooks: WorkDrive supports web hooks for real-time notifications in external apps, keeping teams updated on file, folder, and team events.\n- Centralized Content Management: WorkDrive enables teams to centralize their content, reducing file duplication and improving access efficiency.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Limited features and storage, suitable for small teams or personal use.\n- Tier 1: Standard Plan, includes more storage and features, priced at $3 per user/month (billed annually), suitable for small to medium-sized businesses.\n- Tier 2: Premium Plan, offers additional features like advanced security and more storage, priced at $7 per user/month (billed annually), suitable for larger businesses.\n- Enterprise: Custom pricing for large enterprises with specific needs, including advanced security features and dedicated support.\nFree Trial: 15-day free trial available with no credit card required.\n\nUse Cases:\n- Project Management: WorkDrive is useful for managing project files and automating workflows related to project tasks, especially when integrated with Zoho Projects Plus.\n- Customer Document Management: It helps businesses manage customer-related documents efficiently through its integration with Zoho CRM, reducing the need for context switching.\n- Collaborative Content Creation: WorkDrive supports collaborative content creation by allowing teams to work together on files while leveraging AI tools for generating ideas and drafts.\n\nTarget Audience: Zoho WorkDrive 5.0 is designed for businesses of all sizes, particularly those looking to enhance team collaboration and automate content workflows. It is suitable for roles such as project managers, marketing teams, and customer service teams across various industries.\n\nCategories: SaaS, Artificial Intelligence, Business Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "963032",
+    "name": "Shayr: Family and Finances",
+    "tagline": "Family finances & management in one place",
+    "description": "Shayr simplifies family finances and management in one place. Unify accounts, track spending, and monitor net worth as well as easily track family events, to-dos, and chore management. Keep track of your family together in one app.",
+    "category": "Fintech",
+    "topics": [
+      "Fintech",
+      "Personal Finance",
+      "Family"
+    ],
+    "website": "https://www.producthunt.com/r/FSBU2MZUY3CTVR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 109,
+    "detailed_description": "Shayr is a financial app designed to help families and individuals manage their finances effectively. It serves as a central hub where users can track spending, monitor net worth, and receive smart alerts for better financial control. The app allows collaborative access for the whole family, enabling them to work together on financial goals. Shayr simplifies financial management by integrating all financial accounts into one secure place, providing a comprehensive overview of financial health. It helps solve problems related to financial disorganization and lack of transparency within families. By offering features like unlimited connected bank accounts and spending insights, Shayr empowers users to make informed financial decisions. The app is currently free, making it accessible to a wide range of users.",
+    "features": [
+      "Collaborative Access: Allows multiple family members to access and manage financial information together, promoting transparency and cooperation.",
+      "Unlimited Connected Bank Accounts: Users can link multiple bank accounts to get a complete picture of their financial situation.",
+      "Spending Insights: Provides detailed insights into spending habits, helping users identify areas for improvement.",
+      "Smart Alerts: Offers notifications to keep users informed about their financial activities and potential issues.",
+      "Central View: Consolidates all financial information into one place, making it easier to track and manage finances."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes collaborative access, unlimited connected bank accounts, spending insights, and smart alerts."
+      ],
+      "free_trial": "Not applicable as the app is currently free.",
+      "additional_info": "Shayr is free at the moment, with potential premium features in development."
+    },
+    "use_cases": [
+      "Family Budgeting: Shayr is useful for families looking to manage their finances collaboratively, ensuring everyone is on the same page regarding spending and savings.",
+      "Individual Financial Tracking: The app is also beneficial for individuals seeking to monitor their net worth and track spending without needing to switch between multiple financial platforms.",
+      "Financial Planning: Shayr can help families plan for future financial goals by providing a clear overview of their current financial situation."
+    ],
+    "target_audience": "Shayr is designed for families and individuals seeking to manage their finances effectively. It is suitable for households of any size, from small families to larger ones, and can be used by anyone looking to streamline their financial management.",
+    "embedding_text": "Product: Shayr: Family and Finances\n\nDescription: Shayr is a financial app designed to help families and individuals manage their finances effectively. It serves as a central hub where users can track spending, monitor net worth, and receive smart alerts for better financial control. The app allows collaborative access for the whole family, enabling them to work together on financial goals. Shayr simplifies financial management by integrating all financial accounts into one secure place, providing a comprehensive overview of financial health. It helps solve problems related to financial disorganization and lack of transparency within families. By offering features like unlimited connected bank accounts and spending insights, Shayr empowers users to make informed financial decisions. The app is currently free, making it accessible to a wide range of users.\n\nKey Features:\n- Collaborative Access: Allows multiple family members to access and manage financial information together, promoting transparency and cooperation.\n- Unlimited Connected Bank Accounts: Users can link multiple bank accounts to get a complete picture of their financial situation.\n- Spending Insights: Provides detailed insights into spending habits, helping users identify areas for improvement.\n- Smart Alerts: Offers notifications to keep users informed about their financial activities and potential issues.\n- Central View: Consolidates all financial information into one place, making it easier to track and manage finances.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes collaborative access, unlimited connected bank accounts, spending insights, and smart alerts.\nFree Trial: Not applicable as the app is currently free.\n\nUse Cases:\n- Family Budgeting: Shayr is useful for families looking to manage their finances collaboratively, ensuring everyone is on the same page regarding spending and savings.\n- Individual Financial Tracking: The app is also beneficial for individuals seeking to monitor their net worth and track spending without needing to switch between multiple financial platforms.\n- Financial Planning: Shayr can help families plan for future financial goals by providing a clear overview of their current financial situation.\n\nTarget Audience: Shayr is designed for families and individuals seeking to manage their finances effectively. It is suitable for households of any size, from small families to larger ones, and can be used by anyone looking to streamline their financial management.\n\nCategories: Fintech, Personal Finance, Family\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "958386",
+    "name": "StreaMetrics",
+    "tagline": "Real-time Twitch analytics graphs, right below the stream",
+    "description": "StreaMetrics is an open-source Chrome extension that adds a real-time graph under Twitch streams, showing live viewer counts and chat activity. Understand stream engagement instantly without leaving the page!",
+    "category": "Chrome Extensions",
+    "topics": [
+      "Chrome Extensions",
+      "Video Streaming",
+      "Open Source"
+    ],
+    "website": "https://www.producthunt.com/r/OMR4EOOIUKQSLU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 107,
+    "detailed_description": "StreaMetrics is an open-source Chrome extension designed to provide real-time Twitch analytics directly under live streams. It offers live viewer counts and chat activity graphs, allowing users to instantly assess stream engagement without leaving the page. This tool is particularly useful for streamers and viewers alike who want immediate insights into how a stream is performing. By integrating analytics directly into the Twitch viewing experience, StreaMetrics simplifies the process of monitoring stream performance and audience engagement. It helps streamers understand their audience better and make data-driven decisions to improve their content. The real-time nature of the analytics allows for quick adjustments during streams, enhancing overall engagement and viewer experience. StreaMetrics is free and open-source, making it accessible to anyone interested in Twitch analytics.",
+    "features": [
+      "Real-time viewer count graphs: Provides immediate insights into how many viewers are currently watching a stream, helping streamers gauge their audience size and engagement.",
+      "Real-time chat activity graphs: Offers a visual representation of chat activity, allowing streamers to see how engaged their audience is and adjust their content accordingly.",
+      "Integration with Twitch streams: Seamlessly integrates analytics directly below the stream, eliminating the need to navigate away from the content.",
+      "Open-source nature: Allows developers to contribute and customize the extension, potentially leading to more features and improvements.",
+      "Free access: Available at no cost, making it accessible to all users interested in Twitch analytics."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes all features, such as real-time viewer and chat activity graphs."
+      ],
+      "free_trial": "Not applicable, as the product is entirely free.",
+      "additional_info": "There are no additional costs or subscriptions required to use StreaMetrics."
+    },
+    "use_cases": [
+      "For streamers looking to optimize their content in real-time: StreaMetrics helps streamers quickly identify trends in viewer engagement and adjust their content to maximize audience interaction.",
+      "For viewers interested in stream performance: Provides viewers with a deeper understanding of how popular a stream is and how engaged the audience is, which can influence their decision to watch or participate.",
+      "For content creators seeking audience insights: Offers valuable data on audience size and engagement, helping creators refine their streaming strategies and improve future content."
+    ],
+    "target_audience": "StreaMetrics is designed for Twitch streamers and viewers who want real-time insights into stream performance and audience engagement. It is particularly useful for small to medium-sized streamers who may not have access to extensive analytics tools but still want to understand their audience better.",
+    "embedding_text": "Product: StreaMetrics\n\nDescription: StreaMetrics is an open-source Chrome extension designed to provide real-time Twitch analytics directly under live streams. It offers live viewer counts and chat activity graphs, allowing users to instantly assess stream engagement without leaving the page. This tool is particularly useful for streamers and viewers alike who want immediate insights into how a stream is performing. By integrating analytics directly into the Twitch viewing experience, StreaMetrics simplifies the process of monitoring stream performance and audience engagement. It helps streamers understand their audience better and make data-driven decisions to improve their content. The real-time nature of the analytics allows for quick adjustments during streams, enhancing overall engagement and viewer experience. StreaMetrics is free and open-source, making it accessible to anyone interested in Twitch analytics.\n\nKey Features:\n- Real-time viewer count graphs: Provides immediate insights into how many viewers are currently watching a stream, helping streamers gauge their audience size and engagement.\n- Real-time chat activity graphs: Offers a visual representation of chat activity, allowing streamers to see how engaged their audience is and adjust their content accordingly.\n- Integration with Twitch streams: Seamlessly integrates analytics directly below the stream, eliminating the need to navigate away from the content.\n- Open-source nature: Allows developers to contribute and customize the extension, potentially leading to more features and improvements.\n- Free access: Available at no cost, making it accessible to all users interested in Twitch analytics.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes all features, such as real-time viewer and chat activity graphs.\nFree Trial: Not applicable, as the product is entirely free.\n\nUse Cases:\n- For streamers looking to optimize their content in real-time: StreaMetrics helps streamers quickly identify trends in viewer engagement and adjust their content to maximize audience interaction.\n- For viewers interested in stream performance: Provides viewers with a deeper understanding of how popular a stream is and how engaged the audience is, which can influence their decision to watch or participate.\n- For content creators seeking audience insights: Offers valuable data on audience size and engagement, helping creators refine their streaming strategies and improve future content.\n\nTarget Audience: StreaMetrics is designed for Twitch streamers and viewers who want real-time insights into stream performance and audience engagement. It is particularly useful for small to medium-sized streamers who may not have access to extensive analytics tools but still want to understand their audience better.\n\nCategories: Chrome Extensions, Video Streaming, Open Source\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "961428",
+    "name": "Alpaca Chat",
+    "tagline": "Agentic Workspace for Business",
+    "description": "Create AI agents with tools, chat multi-LLM, generate images. Alpaca Chat offers team workspaces & central billing for businesses to streamline AI tasks.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Virtual Assistants",
+      "Business Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/H6ISWJVOFGM7XG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 107,
+    "detailed_description": "Alpaca Chat is an agentic workspace designed for businesses, offering a comprehensive platform to create AI agents, integrate various tools, and streamline AI tasks. It allows users to create agents and provide them with access to necessary tools, such as Google Search Console, Gmail, and Slack, to perform specific tasks. The platform supports multi-LLM (Large Language Model) interactions, enabling users to chat with agents and task them efficiently. Alpaca Chat aims to solve the problem of managing multiple AI tools and workflows by centralizing them in a single workspace. This simplifies collaboration and task management for teams, making it easier to automate and optimize business processes. Additionally, Alpaca Chat provides team workspaces and central billing, which helps businesses manage their AI resources more effectively.",
+    "features": [
+      "Create AI Agents: Users can create custom AI agents tailored to their specific business needs, allowing for personalized automation and task management.",
+      "Multi-LLM Support: Alpaca Chat supports interactions with multiple large language models, enhancing the versatility and capabilities of the AI agents.",
+      "Tool Integration: The platform allows agents to access various tools like Google Search Console, Gmail, and Slack, enabling them to perform a wide range of tasks.",
+      "Chat Interface: Users can interact with AI agents through a chat interface, making it easy to task and manage them.",
+      "Image Generation: Alpaca Chat also offers image generation capabilities, which can be useful for creative tasks and presentations."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Includes basic features for creating and managing AI agents, though specific details are not provided.",
+        "Tier 1: Details about the first paid tier are not available.",
+        "Tier 2: Details about the second paid tier are not available.",
+        "Enterprise: Specific details about enterprise pricing are not provided, but it likely includes additional features and support tailored to large businesses."
+      ],
+      "free_trial": "Information about a free trial is not available.",
+      "additional_info": "Pricing details are limited, but Alpaca Chat offers central billing for businesses, which suggests a structured payment model for organizations."
+    },
+    "use_cases": [
+      "Automating Customer Support: Businesses can use Alpaca Chat to create AI agents that handle customer inquiries, freeing human resources for more complex tasks.",
+      "Marketing Automation: Alpaca Chat can be used to automate marketing tasks such as keyword analysis and email campaigns by integrating with tools like Google Search Console and Gmail.",
+      "Project Management: The platform can help streamline project workflows by automating routine tasks and providing real-time updates through integrated tools like Slack."
+    ],
+    "target_audience": "Alpaca Chat is designed for businesses of various sizes, particularly those looking to streamline AI tasks and automate workflows. It is suitable for roles such as IT managers, project managers, and marketing teams across industries that heavily rely on AI and automation.",
+    "embedding_text": "Product: Alpaca Chat\n\nDescription: Alpaca Chat is an agentic workspace designed for businesses, offering a comprehensive platform to create AI agents, integrate various tools, and streamline AI tasks. It allows users to create agents and provide them with access to necessary tools, such as Google Search Console, Gmail, and Slack, to perform specific tasks. The platform supports multi-LLM (Large Language Model) interactions, enabling users to chat with agents and task them efficiently. Alpaca Chat aims to solve the problem of managing multiple AI tools and workflows by centralizing them in a single workspace. This simplifies collaboration and task management for teams, making it easier to automate and optimize business processes. Additionally, Alpaca Chat provides team workspaces and central billing, which helps businesses manage their AI resources more effectively.\n\nKey Features:\n- Create AI Agents: Users can create custom AI agents tailored to their specific business needs, allowing for personalized automation and task management.\n- Multi-LLM Support: Alpaca Chat supports interactions with multiple large language models, enhancing the versatility and capabilities of the AI agents.\n- Tool Integration: The platform allows agents to access various tools like Google Search Console, Gmail, and Slack, enabling them to perform a wide range of tasks.\n- Chat Interface: Users can interact with AI agents through a chat interface, making it easy to task and manage them.\n- Image Generation: Alpaca Chat also offers image generation capabilities, which can be useful for creative tasks and presentations.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Includes basic features for creating and managing AI agents, though specific details are not provided.\n- Tier 1: Details about the first paid tier are not available.\n- Tier 2: Details about the second paid tier are not available.\n- Enterprise: Specific details about enterprise pricing are not provided, but it likely includes additional features and support tailored to large businesses.\nFree Trial: Information about a free trial is not available.\n\nUse Cases:\n- Automating Customer Support: Businesses can use Alpaca Chat to create AI agents that handle customer inquiries, freeing human resources for more complex tasks.\n- Marketing Automation: Alpaca Chat can be used to automate marketing tasks such as keyword analysis and email campaigns by integrating with tools like Google Search Console and Gmail.\n- Project Management: The platform can help streamline project workflows by automating routine tasks and providing real-time updates through integrated tools like Slack.\n\nTarget Audience: Alpaca Chat is designed for businesses of various sizes, particularly those looking to streamline AI tasks and automate workflows. It is suitable for roles such as IT managers, project managers, and marketing teams across industries that heavily rely on AI and automation.\n\nCategories: Artificial Intelligence, Virtual Assistants, Business Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "962744",
+    "name": "Black Screen Video Camera ",
+    "tagline": "Record video or take a photo while iPhone screen appears off",
+    "description": "A privacy-focused iOS app that lets you record video while your screen appears off. Recording discreetly or with fewer distractions can be useful—whether you’re capturing something sensitive or trying to avoid screen glow in dark environments.",
+    "category": "iOS",
+    "topics": [
+      "iOS",
+      "Anonymous",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/MGUFALXYTOUEML?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105,
+    "detailed_description": "The Black Screen Video Camera is a privacy-focused iOS app designed to allow users to record video or take photos while their iPhone screen appears off. This feature is particularly useful in situations where discretion is required, such as capturing sensitive moments without drawing attention. However, due to Apple's strict privacy policies, no app can completely turn off the screen while recording. Instead, apps like Discreet - Black Screen Camera use a workaround by turning off all screen pixels, creating a completely black display that makes it seem like the screen is off. This technology helps users capture high-quality content without disturbing others. The app is ideal for concerts, live events, or any scenario where subtlety is preferred. It emphasizes privacy by storing captured media in a private gallery. The app is not intended for violating privacy laws and users are advised to follow local regulations regarding discreet image capturing.",
+    "features": [
+      "Black Screen Technology: Allows users to record video or take photos with the screen appearing completely off by turning off all pixels, reducing distractions and maintaining privacy.",
+      "Advanced Camera Features: Includes autofocus, image stabilization, and scene recognition to ensure sharp and well-composed shots even in challenging lighting conditions.",
+      "Private Gallery: Stores captured photos and videos securely, keeping them safe from unauthorized access.",
+      "Discreet Recording: Enables users to capture moments without drawing attention, making it suitable for sensitive or public settings.",
+      "Legal Compliance: Emphasizes adherence to local laws regarding discreet image capturing, ensuring users are aware of legal responsibilities."
+    ],
+    "pricing": {
+      "model": "Freemium or One-time purchase (specific details not available)",
+      "tiers": [
+        "Free tier: Basic features may be included, but specific details are not available",
+        "Tier 1: Details not available",
+        "Tier 2: Details not available",
+        "Enterprise: Details not available"
+      ],
+      "free_trial": "Details not available",
+      "additional_info": "Pricing details for the Black Screen Video Camera app are not explicitly mentioned in available sources."
+    },
+    "use_cases": [
+      "Concerts and Live Events: Useful for capturing performances without disturbing others with screen glow.",
+      "Sensitive Situations: Ideal for recording or taking photos in situations where discretion is crucial.",
+      "Dark Environments: Helps avoid screen glow in dark settings, making it easier to capture content without being noticed."
+    ],
+    "target_audience": "The Black Screen Video Camera app is designed for individuals who require discretion while capturing photos or videos, particularly in public settings or sensitive situations. It is suitable for anyone needing to minimize distractions or maintain privacy during recording.",
+    "embedding_text": "Product: Black Screen Video Camera \n\nDescription: The Black Screen Video Camera is a privacy-focused iOS app designed to allow users to record video or take photos while their iPhone screen appears off. This feature is particularly useful in situations where discretion is required, such as capturing sensitive moments without drawing attention. However, due to Apple's strict privacy policies, no app can completely turn off the screen while recording. Instead, apps like Discreet - Black Screen Camera use a workaround by turning off all screen pixels, creating a completely black display that makes it seem like the screen is off. This technology helps users capture high-quality content without disturbing others. The app is ideal for concerts, live events, or any scenario where subtlety is preferred. It emphasizes privacy by storing captured media in a private gallery. The app is not intended for violating privacy laws and users are advised to follow local regulations regarding discreet image capturing.\n\nKey Features:\n- Black Screen Technology: Allows users to record video or take photos with the screen appearing completely off by turning off all pixels, reducing distractions and maintaining privacy.\n- Advanced Camera Features: Includes autofocus, image stabilization, and scene recognition to ensure sharp and well-composed shots even in challenging lighting conditions.\n- Private Gallery: Stores captured photos and videos securely, keeping them safe from unauthorized access.\n- Discreet Recording: Enables users to capture moments without drawing attention, making it suitable for sensitive or public settings.\n- Legal Compliance: Emphasizes adherence to local laws regarding discreet image capturing, ensuring users are aware of legal responsibilities.\n\nPricing Model: Freemium or One-time purchase (specific details not available)\nPricing Tiers:\n- Free tier: Basic features may be included, but specific details are not available\n- Tier 1: Details not available\n- Tier 2: Details not available\n- Enterprise: Details not available\nFree Trial: Details not available\n\nUse Cases:\n- Concerts and Live Events: Useful for capturing performances without disturbing others with screen glow.\n- Sensitive Situations: Ideal for recording or taking photos in situations where discretion is crucial.\n- Dark Environments: Helps avoid screen glow in dark settings, making it easier to capture content without being noticed.\n\nTarget Audience: The Black Screen Video Camera app is designed for individuals who require discretion while capturing photos or videos, particularly in public settings or sensitive situations. It is suitable for anyone needing to minimize distractions or maintain privacy during recording.\n\nCategories: iOS, Anonymous, Video\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "962965",
+    "name": "Pep",
+    "tagline": "Your AI Puppy Coach -- Making Physical Therapy Stick",
+    "description": "Transform your home workouts with an adorable AI companion who motivates, guides, and celebrates your wellness journey. Buddy adapts to your pace and makes exercise fun!",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness"
+    ],
+    "website": "https://www.producthunt.com/r/FF7ZKAUEUE2QOQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105,
+    "detailed_description": "Pep is an AI-powered companion designed to make physical therapy more engaging and accessible. It aims to address the common issue of patients failing to adhere to their prescribed exercises by providing a fun and interactive experience. Pep uses gamification to motivate users, offers timely reminders, and provides real-time feedback during exercises. This approach helps users stay committed to their physical therapy routines. By leveraging AI, Pep personalizes interactions, making each session fresh and engaging. It also logs symptoms and improvements, celebrating progress toward therapy goals. Overall, Pep seeks to transform home workouts into enjoyable experiences that foster consistent progress in physical therapy.",
+    "features": [
+      "Pep sends endearing reminders at the right time to ensure users stay on track with their physical therapy exercises, helping maintain consistency.",
+      "Gamification elements are integrated to spark motivation for each micro-exercise, making the therapy process more engaging and fun.",
+      "One-tap start minimizes friction, allowing users to easily begin their exercises without unnecessary delays.",
+      "In-exercise voice feedback provides companionship and guidance throughout the therapy sessions, enhancing the user experience.",
+      "Pep proactively logs symptoms and improvements, offering real-time honesty about progress and helping users understand their journey."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes access to Pep's core features such as reminders, gamification, and voice feedback."
+      ],
+      "free_trial": "No specific information about a free trial beyond the free access to core features.",
+      "additional_info": "Currently, Pep is not rated and is in its first launch phase, so detailed pricing tiers may evolve."
+    },
+    "use_cases": [
+      "Pep is particularly useful for individuals undergoing physical therapy at home who struggle with motivation or consistency. It provides a supportive companion that makes exercises more enjoyable.",
+      "For physical therapists, Pep can be a valuable tool to recommend to patients, helping them stay engaged with their therapy routines outside of clinical settings.",
+      "Pep can also be beneficial for those who prefer personalized and interactive approaches to physical therapy, offering a more engaging alternative to traditional methods."
+    ],
+    "target_audience": "Pep is designed for individuals undergoing physical therapy, particularly those who require motivation and engagement to stick to their prescribed exercises. It is suitable for both patients and physical therapists looking for innovative tools to enhance therapy adherence.",
+    "embedding_text": "Product: Pep\n\nDescription: Pep is an AI-powered companion designed to make physical therapy more engaging and accessible. It aims to address the common issue of patients failing to adhere to their prescribed exercises by providing a fun and interactive experience. Pep uses gamification to motivate users, offers timely reminders, and provides real-time feedback during exercises. This approach helps users stay committed to their physical therapy routines. By leveraging AI, Pep personalizes interactions, making each session fresh and engaging. It also logs symptoms and improvements, celebrating progress toward therapy goals. Overall, Pep seeks to transform home workouts into enjoyable experiences that foster consistent progress in physical therapy.\n\nKey Features:\n- Pep sends endearing reminders at the right time to ensure users stay on track with their physical therapy exercises, helping maintain consistency.\n- Gamification elements are integrated to spark motivation for each micro-exercise, making the therapy process more engaging and fun.\n- One-tap start minimizes friction, allowing users to easily begin their exercises without unnecessary delays.\n- In-exercise voice feedback provides companionship and guidance throughout the therapy sessions, enhancing the user experience.\n- Pep proactively logs symptoms and improvements, offering real-time honesty about progress and helping users understand their journey.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes access to Pep's core features such as reminders, gamification, and voice feedback.\nFree Trial: No specific information about a free trial beyond the free access to core features.\n\nUse Cases:\n- Pep is particularly useful for individuals undergoing physical therapy at home who struggle with motivation or consistency. It provides a supportive companion that makes exercises more enjoyable.\n- For physical therapists, Pep can be a valuable tool to recommend to patients, helping them stay engaged with their therapy routines outside of clinical settings.\n- Pep can also be beneficial for those who prefer personalized and interactive approaches to physical therapy, offering a more engaging alternative to traditional methods.\n\nTarget Audience: Pep is designed for individuals undergoing physical therapy, particularly those who require motivation and engagement to stick to their prescribed exercises. It is suitable for both patients and physical therapists looking for innovative tools to enhance therapy adherence.\n\nCategories: Health & Fitness\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "938601",
+    "name": "Yahini",
+    "tagline": "Your expert-level AI content strategist",
+    "description": "Yahini is a content strategy tool that replaces AI fluff with expert logic (~90% human accuracy). It performs deep SERP and business context analysis to generate funnel-mapped keyword plans and customized briefs, delivering an actionable strategy in minutes.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "SEO",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/HT4IL22JR6YVZ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 59,
+    "detailed_description": "Yahini is an AI-powered content strategy platform designed to streamline the content creation process by automating tasks such as keyword research, workbook creation, and competitor analysis. It helps users develop effective, data-driven content strategies that align with their business goals. Yahini's main purpose is to provide expert-level insights and strategic briefs, allowing users to focus on high-impact content execution rather than getting bogged down in manual research. By leveraging real-time data and proprietary scoring, Yahini delivers actionable keyword lists and structured content workbooks. This approach enables users to shortcut tedious manual processes and generate expert-level content strategies quickly. Yahini is particularly beneficial for those seeking to elevate their content strategy beyond generic AI outputs, offering a more strategic and impactful approach to content creation.",
+    "features": [
+      "Automated Keyword Research: Yahini uses real-time data and proprietary scoring to generate a prioritized list of actionable keywords, eliminating the need for manual filtering and saving time.",
+      "Content Workbook Generation: The tool creates structured content workbooks that map out keyword strategies and content briefs, aligning content with the target audience's journey.",
+      "Competitor Analysis: Yahini analyzes competitors and market trends to provide strategic insights that empower users to craft relevant and competitive content.",
+      "Expert-Trained AI: With an advanced language model refined through expert insights and real-world data, Yahini delivers content briefs that go beyond surface-level AI outputs.",
+      "Funnel-Mapped Recommendations: The tool aligns keyword and content suggestions with different stages of the marketing funnel, ensuring strategies are tailored for maximum impact."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "No specific details on free tiers or pricing tiers are available in the provided sources. However, Yahini is described as offering an affordable solution for content strategy needs.",
+        "For precise pricing information, users should visit Yahini's official website or contact their support team."
+      ],
+      "free_trial": "No specific information on free trials is available in the provided sources.",
+      "additional_info": "Yahini is positioned as an affordable solution, but exact pricing details are not specified in the available information."
+    },
+    "use_cases": [
+      "Content Marketers: Yahini helps content marketers plan and create strategic briefs instantly, freeing them to focus on high-impact content execution.",
+      "Marketing Agencies: The tool automates keyword analysis and expert brief generation, helping agencies scale efficiently by spending less time on manual research.",
+      "SEO Specialists: Yahini enables SEO specialists to become strategic partners for clients by crafting briefs that help clients stand out, not just match search engine results pages (SERPs)."
+    ],
+    "target_audience": "Yahini is designed for content marketers, marketing agencies, SEO specialists, and SaaS founders who demand real strategy and expert input in their content creation processes. It is suitable for businesses looking to streamline their content strategy development and execution.",
+    "embedding_text": "Product: Yahini\n\nDescription: Yahini is an AI-powered content strategy platform designed to streamline the content creation process by automating tasks such as keyword research, workbook creation, and competitor analysis. It helps users develop effective, data-driven content strategies that align with their business goals. Yahini's main purpose is to provide expert-level insights and strategic briefs, allowing users to focus on high-impact content execution rather than getting bogged down in manual research. By leveraging real-time data and proprietary scoring, Yahini delivers actionable keyword lists and structured content workbooks. This approach enables users to shortcut tedious manual processes and generate expert-level content strategies quickly. Yahini is particularly beneficial for those seeking to elevate their content strategy beyond generic AI outputs, offering a more strategic and impactful approach to content creation.\n\nKey Features:\n- Automated Keyword Research: Yahini uses real-time data and proprietary scoring to generate a prioritized list of actionable keywords, eliminating the need for manual filtering and saving time.\n- Content Workbook Generation: The tool creates structured content workbooks that map out keyword strategies and content briefs, aligning content with the target audience's journey.\n- Competitor Analysis: Yahini analyzes competitors and market trends to provide strategic insights that empower users to craft relevant and competitive content.\n- Expert-Trained AI: With an advanced language model refined through expert insights and real-world data, Yahini delivers content briefs that go beyond surface-level AI outputs.\n- Funnel-Mapped Recommendations: The tool aligns keyword and content suggestions with different stages of the marketing funnel, ensuring strategies are tailored for maximum impact.\n\nPricing Model: Subscription\nPricing Tiers:\n- No specific details on free tiers or pricing tiers are available in the provided sources. However, Yahini is described as offering an affordable solution for content strategy needs.\n- For precise pricing information, users should visit Yahini's official website or contact their support team.\nFree Trial: No specific information on free trials is available in the provided sources.\n\nUse Cases:\n- Content Marketers: Yahini helps content marketers plan and create strategic briefs instantly, freeing them to focus on high-impact content execution.\n- Marketing Agencies: The tool automates keyword analysis and expert brief generation, helping agencies scale efficiently by spending less time on manual research.\n- SEO Specialists: Yahini enables SEO specialists to become strategic partners for clients by crafting briefs that help clients stand out, not just match search engine results pages (SERPs).\n\nTarget Audience: Yahini is designed for content marketers, marketing agencies, SEO specialists, and SaaS founders who demand real strategy and expert input in their content creation processes. It is suitable for businesses looking to streamline their content strategy development and execution.\n\nCategories: Marketing, SEO, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "959585",
+    "name": "Eiren AI",
+    "tagline": "Your AI App for To-Do, Planning, Meditation & Journaling",
+    "description": "Eiren AI: The #1 AI-powered app for personal growth, mindfulness, and goal setting. Explore our Meditation Generator, AI Vision Creator, journaling templates, mood tracking, and more—all in one place. Available for download on the App Store and Google Play.",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness",
+      "Productivity",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/Y3PXAFGFT4SUEL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 53,
+    "detailed_description": "Eiren AI is a comprehensive app designed to integrate multiple functionalities such as to-do lists, planning, meditation, and journaling. It aims to provide users with a holistic approach to managing their tasks and mental well-being. By combining these features, Eiren AI helps users streamline their productivity while also focusing on mindfulness and personal growth. The app likely uses AI to offer personalized suggestions and insights based on user behavior and goals. This integration can help users stay organized and motivated, addressing common issues like procrastination and stress. Eiren AI's approach to combining productivity tools with mindfulness practices sets it apart in the market, offering a unique solution for individuals seeking a balanced lifestyle.",
+    "features": [
+      "To-Do List Management: Allows users to create and manage tasks efficiently, helping them stay organized and focused on their goals.",
+      "Planning Tools: Provides features to plan and schedule tasks, ensuring users can prioritize and manage their time effectively.",
+      "Meditation Features: Offers guided meditations to help users relax and improve their mental clarity, contributing to better productivity and well-being.",
+      "Journaling Functionality: Enables users to record their thoughts and reflections, aiding in personal growth and self-awareness.",
+      "AI-driven Insights: Uses AI to analyze user behavior and provide personalized recommendations for improvement in both productivity and mindfulness practices."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Basic to-do list management and limited meditation sessions",
+        "Premium tier: Full access to planning tools, advanced meditation features, and AI insights; price not specified",
+        "Pro tier: Additional features like advanced journaling analytics and priority support; price not specified"
+      ],
+      "free_trial": "Details about a free trial are not available",
+      "additional_info": "Pricing details are not fully disclosed, but it follows a freemium model with optional subscription upgrades."
+    },
+    "use_cases": [
+      "For individuals seeking to improve their productivity while maintaining mental well-being, Eiren AI offers a comprehensive toolset to manage tasks and practice mindfulness.",
+      "In a professional setting, Eiren AI can help employees manage stress and stay organized, potentially leading to increased job satisfaction and performance.",
+      "For students, the app can be particularly useful in balancing academic responsibilities with personal well-being, helping them stay focused and motivated."
+    ],
+    "target_audience": "Eiren AI is designed for individuals across various industries and roles who are interested in improving their productivity and mental health. It is suitable for both personal and professional use, targeting individuals who value a balanced lifestyle.",
+    "embedding_text": "Product: Eiren AI\n\nDescription: Eiren AI is a comprehensive app designed to integrate multiple functionalities such as to-do lists, planning, meditation, and journaling. It aims to provide users with a holistic approach to managing their tasks and mental well-being. By combining these features, Eiren AI helps users streamline their productivity while also focusing on mindfulness and personal growth. The app likely uses AI to offer personalized suggestions and insights based on user behavior and goals. This integration can help users stay organized and motivated, addressing common issues like procrastination and stress. Eiren AI's approach to combining productivity tools with mindfulness practices sets it apart in the market, offering a unique solution for individuals seeking a balanced lifestyle.\n\nKey Features:\n- To-Do List Management: Allows users to create and manage tasks efficiently, helping them stay organized and focused on their goals.\n- Planning Tools: Provides features to plan and schedule tasks, ensuring users can prioritize and manage their time effectively.\n- Meditation Features: Offers guided meditations to help users relax and improve their mental clarity, contributing to better productivity and well-being.\n- Journaling Functionality: Enables users to record their thoughts and reflections, aiding in personal growth and self-awareness.\n- AI-driven Insights: Uses AI to analyze user behavior and provide personalized recommendations for improvement in both productivity and mindfulness practices.\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Basic to-do list management and limited meditation sessions\n- Premium tier: Full access to planning tools, advanced meditation features, and AI insights; price not specified\n- Pro tier: Additional features like advanced journaling analytics and priority support; price not specified\nFree Trial: Details about a free trial are not available\n\nUse Cases:\n- For individuals seeking to improve their productivity while maintaining mental well-being, Eiren AI offers a comprehensive toolset to manage tasks and practice mindfulness.\n- In a professional setting, Eiren AI can help employees manage stress and stay organized, potentially leading to increased job satisfaction and performance.\n- For students, the app can be particularly useful in balancing academic responsibilities with personal well-being, helping them stay focused and motivated.\n\nTarget Audience: Eiren AI is designed for individuals across various industries and roles who are interested in improving their productivity and mental health. It is suitable for both personal and professional use, targeting individuals who value a balanced lifestyle.\n\nCategories: Health & Fitness, Productivity, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "963044",
+    "name": "CargoBrain",
+    "tagline": "AI Agents for Air Cargo",
+    "description": "Optimize air cargo operations with AI-powered agents designed for Airlines, GSAs, and Forwarders. Scale bookings, pricing, and logistics effortlessly.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/TBSQZBJ5ZIQIIJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 49,
+    "detailed_description": "CargoBrain is an innovative platform designed to optimize air cargo operations using AI-powered agents. It is specifically tailored for airlines, General Sales Agents (GSAs), and freight forwarders. The main purpose of CargoBrain is to streamline bookings, pricing, and logistics processes, making them more efficient and scalable. By leveraging AI, CargoBrain aims to reduce manual errors and enhance decision-making through data-driven insights. This platform addresses common challenges in the air cargo industry, such as complex booking processes and inefficient pricing strategies. By automating these tasks, CargoBrain helps its users to focus on strategic growth and customer satisfaction. Overall, CargoBrain is positioned to revolutionize the air cargo sector by providing a cutting-edge digital solution for operational optimization.",
+    "features": [
+      "AI-driven Booking Optimization: This feature allows for automated and efficient booking processes, reducing the time and effort required to manage cargo bookings.",
+      "Dynamic Pricing: CargoBrain uses AI to analyze market trends and adjust pricing strategies in real-time, ensuring that users can offer competitive rates while maximizing revenue.",
+      "Logistics Automation: The platform automates various logistics tasks, such as tracking and monitoring shipments, which helps in maintaining high service standards.",
+      "Data Analytics: CargoBrain provides detailed analytics and insights that help users make informed decisions about their operations and strategies.",
+      "Scalability and Integration: The platform is designed to scale with the user's business, integrating seamlessly with existing systems to minimize disruption."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "No specific pricing tiers are detailed in the available information.",
+        "It is likely that CargoBrain offers customized plans for different business sizes and needs, but exact details are not provided."
+      ],
+      "free_trial": "No information is available about a free trial.",
+      "additional_info": "Pricing details may be available upon contacting the company directly."
+    },
+    "use_cases": [
+      "Scenario 1: A small airline looking to expand its cargo operations can use CargoBrain to automate booking processes and optimize pricing strategies, allowing it to compete more effectively in the market.",
+      "Scenario 2: A freight forwarder dealing with high volumes of cargo can leverage CargoBrain's logistics automation features to streamline tracking and monitoring, ensuring timely delivery and high customer satisfaction.",
+      "Scenario 3: A large logistics company seeking to enhance its operational efficiency can utilize CargoBrain's data analytics to identify bottlenecks and optimize its overall supply chain."
+    ],
+    "target_audience": "CargoBrain is designed for airlines, General Sales Agents (GSAs), and freight forwarders of all sizes. It is particularly beneficial for companies looking to enhance operational efficiency, scale their operations, and leverage AI-driven insights to improve decision-making.",
+    "embedding_text": "Product: CargoBrain\n\nDescription: CargoBrain is an innovative platform designed to optimize air cargo operations using AI-powered agents. It is specifically tailored for airlines, General Sales Agents (GSAs), and freight forwarders. The main purpose of CargoBrain is to streamline bookings, pricing, and logistics processes, making them more efficient and scalable. By leveraging AI, CargoBrain aims to reduce manual errors and enhance decision-making through data-driven insights. This platform addresses common challenges in the air cargo industry, such as complex booking processes and inefficient pricing strategies. By automating these tasks, CargoBrain helps its users to focus on strategic growth and customer satisfaction. Overall, CargoBrain is positioned to revolutionize the air cargo sector by providing a cutting-edge digital solution for operational optimization.\n\nKey Features:\n- AI-driven Booking Optimization: This feature allows for automated and efficient booking processes, reducing the time and effort required to manage cargo bookings.\n- Dynamic Pricing: CargoBrain uses AI to analyze market trends and adjust pricing strategies in real-time, ensuring that users can offer competitive rates while maximizing revenue.\n- Logistics Automation: The platform automates various logistics tasks, such as tracking and monitoring shipments, which helps in maintaining high service standards.\n- Data Analytics: CargoBrain provides detailed analytics and insights that help users make informed decisions about their operations and strategies.\n- Scalability and Integration: The platform is designed to scale with the user's business, integrating seamlessly with existing systems to minimize disruption.\n\nPricing Model: Subscription\nPricing Tiers:\n- No specific pricing tiers are detailed in the available information.\n- It is likely that CargoBrain offers customized plans for different business sizes and needs, but exact details are not provided.\nFree Trial: No information is available about a free trial.\n\nUse Cases:\n- Scenario 1: A small airline looking to expand its cargo operations can use CargoBrain to automate booking processes and optimize pricing strategies, allowing it to compete more effectively in the market.\n- Scenario 2: A freight forwarder dealing with high volumes of cargo can leverage CargoBrain's logistics automation features to streamline tracking and monitoring, ensuring timely delivery and high customer satisfaction.\n- Scenario 3: A large logistics company seeking to enhance its operational efficiency can utilize CargoBrain's data analytics to identify bottlenecks and optimize its overall supply chain.\n\nTarget Audience: CargoBrain is designed for airlines, General Sales Agents (GSAs), and freight forwarders of all sizes. It is particularly beneficial for companies looking to enhance operational efficiency, scale their operations, and leverage AI-driven insights to improve decision-making.\n\nCategories: Artificial Intelligence, Tech\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  },
+  {
+    "id": "960072",
+    "name": "NaitivAI",
+    "tagline": "AI-Powered multilingual solutions for business communication",
+    "description": "NaitivAI is an AI-powered multilingual interpretation tool that enables real-time, personalized conversations across languages in high-stakes meetings. It lets you write or speak any language in your own voice, in real time, via web and in person conversations",
+    "category": "Languages",
+    "topics": [
+      "Languages",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/4VEMPPEZNGELIE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 37,
+    "detailed_description": "NaitivAI is an AI-powered multilingual solution designed to enhance business communication across languages. It aims to bridge the gap in global communication by providing real-time translation and interpretation services, enabling businesses to interact seamlessly with clients and partners worldwide. This technology can automate routine communication tasks, personalize interactions based on language preferences, and improve customer service by offering support in multiple languages. NaitivAI solves the problem of language barriers in business communication, facilitating smoother interactions and expanding market reach. By leveraging AI, it can analyze communication patterns and provide insights to improve communication effectiveness. The platform is designed to be user-friendly, allowing businesses to integrate AI-driven solutions into their existing communication systems. Overall, NaitivAI enhances global connectivity and efficiency in business operations.",
+    "features": [
+      "AI-Powered Translation: Offers real-time translation services to facilitate communication across different languages, ensuring accuracy and speed.",
+      "Multilingual Support: Provides customer support in multiple languages, enhancing customer satisfaction and loyalty.",
+      "Personalized Communication: Analyzes customer data to tailor messages and recommendations based on language preferences and behaviors.",
+      "Automated Content Creation: Generates reports and drafts emails in various languages, reducing the workload for employees.",
+      "Advanced Analytics: Offers insights into communication patterns and effectiveness, helping businesses refine their strategies."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Limited features, suitable for small-scale testing.",
+        "Tier 1: Basic, includes essential translation and support features.",
+        "Tier 2: Premium, offers advanced analytics and personalized communication tools.",
+        "Enterprise: Customized solutions with dedicated support and additional features tailored to large businesses."
+      ],
+      "free_trial": "Available for a limited period to test core features.",
+      "additional_info": "Pricing may vary based on the number of users and languages supported."
+    },
+    "use_cases": [
+      "Global Customer Support: Useful for companies operating in multiple regions, providing customer support in local languages to enhance customer experience.",
+      "International Marketing: Helps businesses tailor marketing campaigns to different languages and cultural preferences, increasing engagement and conversion rates.",
+      "Cross-Border Collaboration: Facilitates communication among teams located in different countries, improving collaboration and productivity."
+    ],
+    "target_audience": "NaitivAI is designed for businesses of all sizes, particularly those operating globally or planning to expand into international markets. It is beneficial for roles such as customer support managers, marketing directors, and international business development teams across various industries.",
+    "embedding_text": "Product: NaitivAI\n\nDescription: NaitivAI is an AI-powered multilingual solution designed to enhance business communication across languages. It aims to bridge the gap in global communication by providing real-time translation and interpretation services, enabling businesses to interact seamlessly with clients and partners worldwide. This technology can automate routine communication tasks, personalize interactions based on language preferences, and improve customer service by offering support in multiple languages. NaitivAI solves the problem of language barriers in business communication, facilitating smoother interactions and expanding market reach. By leveraging AI, it can analyze communication patterns and provide insights to improve communication effectiveness. The platform is designed to be user-friendly, allowing businesses to integrate AI-driven solutions into their existing communication systems. Overall, NaitivAI enhances global connectivity and efficiency in business operations.\n\nKey Features:\n- AI-Powered Translation: Offers real-time translation services to facilitate communication across different languages, ensuring accuracy and speed.\n- Multilingual Support: Provides customer support in multiple languages, enhancing customer satisfaction and loyalty.\n- Personalized Communication: Analyzes customer data to tailor messages and recommendations based on language preferences and behaviors.\n- Automated Content Creation: Generates reports and drafts emails in various languages, reducing the workload for employees.\n- Advanced Analytics: Offers insights into communication patterns and effectiveness, helping businesses refine their strategies.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Limited features, suitable for small-scale testing.\n- Tier 1: Basic, includes essential translation and support features.\n- Tier 2: Premium, offers advanced analytics and personalized communication tools.\n- Enterprise: Customized solutions with dedicated support and additional features tailored to large businesses.\nFree Trial: Available for a limited period to test core features.\n\nUse Cases:\n- Global Customer Support: Useful for companies operating in multiple regions, providing customer support in local languages to enhance customer experience.\n- International Marketing: Helps businesses tailor marketing campaigns to different languages and cultural preferences, increasing engagement and conversion rates.\n- Cross-Border Collaboration: Facilitates communication among teams located in different countries, improving collaboration and productivity.\n\nTarget Audience: NaitivAI is designed for businesses of all sizes, particularly those operating globally or planning to expand into international markets. It is beneficial for roles such as customer support managers, marketing directors, and international business development teams across various industries.\n\nCategories: Languages, SaaS, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-09"
+    }
+  }
+]

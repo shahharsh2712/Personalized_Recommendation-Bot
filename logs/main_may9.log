@@ -1,0 +1,1010 @@
+2025-05-09 11:59:35,334 - INFO - Database connection closed
+2025-05-09 12:36:35,057 - ERROR - Error in main: No module named 'schedule'
+2025-05-09 12:39:54,369 - ERROR - Error in main: No module named 'requests'
+2025-05-09 12:41:00,552 - ERROR - Error in main: No module named 'openai'
+2025-05-09 12:45:09,946 - ERROR - Error in main: No module named 'openai'
+2025-05-09 12:45:45,724 - INFO - Starting recommendation system scheduler
+2025-05-09 12:45:45,724 - INFO - Scheduler running. Press Ctrl+C to exit.
+2025-05-09 12:48:10,521 - INFO - Starting daily workflow
+2025-05-09 12:48:10,521 - INFO - Starting product collection job
+2025-05-09 12:48:10,522 - INFO - Starting daily product pipeline
+2025-05-09 12:48:10,522 - INFO - Starting daily product collection...
+2025-05-09 12:48:10,523 - INFO - Fetching batch of products (current count: 0)
+2025-05-09 12:48:13,362 - INFO - Collected 20 products for 2025-05-09
+2025-05-09 12:48:13,363 - INFO - Enriching product 1/20: HyperArc
+2025-05-09 12:48:20,783 - INFO - Waiting for rate limits...
+2025-05-09 12:48:23,784 - INFO - Enriching product 2/20: Zoho WorkDrive 5.0
+2025-05-09 12:48:32,951 - INFO - Waiting for rate limits...
+2025-05-09 12:48:35,952 - INFO - Enriching product 3/20: Pipedream MCP
+2025-05-09 12:48:52,596 - INFO - Waiting for rate limits...
+2025-05-09 12:48:55,598 - INFO - Enriching product 4/20: Qagent
+2025-05-09 12:49:04,555 - INFO - Waiting for rate limits...
+2025-05-09 12:49:07,556 - INFO - Enriching product 5/20: PulpMiner
+2025-05-09 12:49:15,916 - INFO - Waiting for rate limits...
+2025-05-09 12:49:18,917 - INFO - Enriching product 6/20: Antispace
+2025-05-09 12:49:25,189 - INFO - Waiting for rate limits...
+2025-05-09 12:49:28,190 - INFO - Enriching product 7/20: pfp.fm
+2025-05-09 12:49:34,901 - INFO - Waiting for rate limits...
+2025-05-09 12:49:37,901 - INFO - Enriching product 8/20: FineTuner
+2025-05-09 12:49:44,669 - INFO - Waiting for rate limits...
+2025-05-09 12:49:47,670 - INFO - Enriching product 9/20: Le Chat Enterprise
+2025-05-09 12:49:54,666 - INFO - Waiting for rate limits...
+2025-05-09 12:49:57,668 - INFO - Enriching product 10/20: EchoPod
+2025-05-09 12:50:05,786 - INFO - Waiting for rate limits...
+2025-05-09 12:50:08,788 - INFO - Enriching product 11/20: Black Screen Video Camera 
+2025-05-09 12:50:25,039 - INFO - Waiting for rate limits...
+2025-05-09 12:50:28,040 - INFO - Enriching product 12/20: CargoBrain
+2025-05-09 12:50:33,979 - INFO - Waiting for rate limits...
+2025-05-09 12:50:36,981 - INFO - Enriching product 13/20: Alpaca Chat
+2025-05-09 12:50:44,339 - INFO - Waiting for rate limits...
+2025-05-09 12:50:47,340 - INFO - Enriching product 14/20: Shayr: Family and Finances
+2025-05-09 12:50:53,778 - INFO - Waiting for rate limits...
+2025-05-09 12:50:56,779 - INFO - Enriching product 15/20: StreaMetrics
+2025-05-09 12:51:04,048 - INFO - Waiting for rate limits...
+2025-05-09 12:51:07,050 - INFO - Enriching product 16/20: Pep
+2025-05-09 12:51:14,775 - INFO - Waiting for rate limits...
+2025-05-09 12:51:17,776 - INFO - Enriching product 17/20: Seveum
+2025-05-09 12:51:23,963 - INFO - Waiting for rate limits...
+2025-05-09 12:51:26,964 - INFO - Enriching product 18/20: Yahini
+2025-05-09 12:51:35,288 - INFO - Waiting for rate limits...
+2025-05-09 12:51:38,290 - INFO - Enriching product 19/20: InstantAiAds
+2025-05-09 12:51:43,589 - INFO - Waiting for rate limits...
+2025-05-09 12:51:46,590 - INFO - Enriching product 20/20: Graphthem
+2025-05-09 12:51:53,013 - INFO - Waiting for rate limits...
+2025-05-09 12:51:56,016 - INFO - Saved 20 enriched products
+2025-05-09 12:51:56,017 - INFO - Generating embedding for product 1/20: HyperArc
+2025-05-09 12:51:57,476 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:51:57,980 - INFO - Generating embedding for product 2/20: Zoho WorkDrive 5.0
+2025-05-09 12:51:58,683 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:51:59,185 - INFO - Generating embedding for product 3/20: Pipedream MCP
+2025-05-09 12:51:59,880 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:00,382 - INFO - Generating embedding for product 4/20: Qagent
+2025-05-09 12:52:01,043 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:01,545 - INFO - Generating embedding for product 5/20: PulpMiner
+2025-05-09 12:52:01,984 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:02,486 - INFO - Generating embedding for product 6/20: Antispace
+2025-05-09 12:52:02,948 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:03,450 - INFO - Generating embedding for product 7/20: pfp.fm
+2025-05-09 12:52:04,355 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:04,858 - INFO - Generating embedding for product 8/20: FineTuner
+2025-05-09 12:52:05,306 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:05,808 - INFO - Generating embedding for product 9/20: Le Chat Enterprise
+2025-05-09 12:52:06,257 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:06,759 - INFO - Generating embedding for product 10/20: EchoPod
+2025-05-09 12:52:07,204 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:07,706 - INFO - Generating embedding for product 11/20: Black Screen Video Camera 
+2025-05-09 12:52:08,388 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:08,890 - INFO - Generating embedding for product 12/20: CargoBrain
+2025-05-09 12:52:09,686 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:10,189 - INFO - Generating embedding for product 13/20: Alpaca Chat
+2025-05-09 12:52:10,997 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:11,498 - INFO - Generating embedding for product 14/20: Shayr: Family and Finances
+2025-05-09 12:52:11,910 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:12,413 - INFO - Generating embedding for product 15/20: StreaMetrics
+2025-05-09 12:52:13,203 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:13,705 - INFO - Generating embedding for product 16/20: Pep
+2025-05-09 12:52:14,479 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:14,981 - INFO - Generating embedding for product 17/20: Seveum
+2025-05-09 12:52:15,807 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:16,309 - INFO - Generating embedding for product 18/20: Yahini
+2025-05-09 12:52:16,766 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:17,270 - INFO - Generating embedding for product 19/20: InstantAiAds
+2025-05-09 12:52:18,121 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:18,853 - INFO - Generating embedding for product 20/20: Graphthem
+2025-05-09 12:52:19,322 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 12:52:19,871 - INFO - Saved 20 products with embeddings
+2025-05-09 12:52:19,871 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-09 12:52:19,873 - INFO - Product collection completed in 249.35 seconds
+2025-05-09 12:52:19,873 - INFO - Collected and processed 20 products
+2025-05-09 12:52:19,873 - INFO - Starting recommendation generation job
+2025-05-09 12:52:20,004 - INFO - Retrieved 4 active users
+2025-05-09 12:52:20,005 - INFO - Found 4 active users
+2025-05-09 12:52:20,005 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-09 12:52:20,210 - INFO - Found 5 similar products
+2025-05-09 12:52:20,242 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-09
+2025-05-09 12:52:20,243 - INFO - Generated 5 recommendations for shahharsh2712@gmail.com
+2025-05-09 12:52:20,243 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-09 12:52:20,279 - INFO - Found 5 similar products
+2025-05-09 12:52:20,281 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-09
+2025-05-09 12:52:20,282 - INFO - Generated 5 recommendations for coolhs821@gmail.com
+2025-05-09 12:52:20,283 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-09 12:52:20,314 - INFO - Found 5 similar products
+2025-05-09 12:52:20,315 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-09
+2025-05-09 12:52:20,316 - INFO - Generated 5 recommendations for shahsmith375@gmail.com
+2025-05-09 12:52:20,316 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-09 12:52:20,350 - INFO - Found 5 similar products
+2025-05-09 12:52:20,351 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-09
+2025-05-09 12:52:20,352 - INFO - Generated 5 recommendations for shahharsh0227@gmail.com
+2025-05-09 12:52:20,352 - INFO - Successfully generated recommendations for 4/4 users
+2025-05-09 12:52:20,355 - INFO - Database connection closed
+2025-05-09 12:52:20,355 - INFO - Database connection closed
+2025-05-09 12:52:20,356 - INFO - Database connection closed
+2025-05-09 12:52:20,356 - INFO - Recommendation generation completed in 0.48 seconds
+2025-05-09 12:52:20,356 - INFO - Generated recommendations for 4 users
+2025-05-09 12:52:20,358 - INFO - Starting email delivery job
+2025-05-09 12:52:20,423 - INFO - Retrieved 4 active users
+2025-05-09 12:52:20,424 - INFO - Found 4 active users for email delivery
+2025-05-09 12:52:21,885 - INFO - Email sent successfully to shahharsh2712@gmail.com (status code: 202)
+2025-05-09 12:52:21,899 - INFO - Logged email delivery to shahharsh2712@gmail.com on 2025-05-09
+2025-05-09 12:52:22,512 - INFO - Email sent successfully to coolhs821@gmail.com (status code: 202)
+2025-05-09 12:52:22,514 - INFO - Logged email delivery to coolhs821@gmail.com on 2025-05-09
+2025-05-09 12:52:23,097 - INFO - Email sent successfully to shahsmith375@gmail.com (status code: 202)
+2025-05-09 12:52:23,098 - INFO - Logged email delivery to shahsmith375@gmail.com on 2025-05-09
+2025-05-09 12:52:23,676 - INFO - Email sent successfully to shahharsh0227@gmail.com (status code: 202)
+2025-05-09 12:52:23,677 - INFO - Logged email delivery to shahharsh0227@gmail.com on 2025-05-09
+2025-05-09 12:52:23,677 - INFO - Successfully sent recommendation emails to 4/4 users
+2025-05-09 12:52:23,679 - INFO - Database connection closed
+2025-05-09 12:52:23,679 - INFO - Database connection closed
+2025-05-09 12:52:23,680 - INFO - Email delivery completed in 3.32 seconds
+2025-05-09 12:52:23,680 - INFO - Sent emails to 4 users
+2025-05-09 12:52:23,680 - INFO - Daily workflow complete: 20 products collected, recommendations for 4 users, emails sent to 4 users
+2025-05-09 13:06:48,033 - INFO - Retrieved 4 active users
+2025-05-09 13:06:48,033 - INFO - Found 4 active users
+2025-05-09 13:06:48,033 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-09 13:06:48,053 - INFO - Found 0 similar products from the last day
+2025-05-09 13:06:48,061 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-09
+2025-05-09 13:06:48,061 - WARNING - No recommendations generated for shahharsh2712@gmail.com
+2025-05-09 13:06:48,062 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-09 13:06:48,064 - INFO - Found 0 similar products from the last day
+2025-05-09 13:06:48,066 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-09
+2025-05-09 13:06:48,066 - WARNING - No recommendations generated for coolhs821@gmail.com
+2025-05-09 13:06:48,066 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-09 13:06:48,068 - INFO - Found 0 similar products from the last day
+2025-05-09 13:06:48,070 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-09
+2025-05-09 13:06:48,070 - WARNING - No recommendations generated for shahsmith375@gmail.com
+2025-05-09 13:06:48,070 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-09 13:06:48,072 - INFO - Found 0 similar products from the last day
+2025-05-09 13:06:48,073 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-09
+2025-05-09 13:06:48,073 - WARNING - No recommendations generated for shahharsh0227@gmail.com
+2025-05-09 13:06:48,073 - INFO - Successfully generated recommendations for 0/4 users
+2025-05-09 13:06:48,074 - INFO - Database connection closed
+2025-05-09 13:06:48,074 - INFO - Database connection closed
+2025-05-09 13:06:48,075 - INFO - Database connection closed
+2025-05-09 13:07:19,941 - INFO - Retrieved 4 active users
+2025-05-09 13:07:19,941 - INFO - Found 4 active users
+2025-05-09 13:07:19,941 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-09 13:07:19,980 - INFO - Found 5 similar products
+2025-05-09 13:07:19,982 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-09
+2025-05-09 13:07:19,983 - INFO - Generated 5 recommendations for shahharsh2712@gmail.com
+2025-05-09 13:07:19,983 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-09 13:07:20,021 - INFO - Found 5 similar products
+2025-05-09 13:07:20,022 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-09
+2025-05-09 13:07:20,023 - INFO - Generated 5 recommendations for coolhs821@gmail.com
+2025-05-09 13:07:20,023 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-09 13:07:20,056 - INFO - Found 5 similar products
+2025-05-09 13:07:20,058 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-09
+2025-05-09 13:07:20,058 - INFO - Generated 5 recommendations for shahsmith375@gmail.com
+2025-05-09 13:07:20,058 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-09 13:07:20,093 - INFO - Found 5 similar products
+2025-05-09 13:07:20,094 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-09
+2025-05-09 13:07:20,095 - INFO - Generated 5 recommendations for shahharsh0227@gmail.com
+2025-05-09 13:07:20,095 - INFO - Successfully generated recommendations for 4/4 users
+2025-05-09 13:07:20,096 - INFO - Database connection closed
+2025-05-09 13:07:20,096 - INFO - Database connection closed
+2025-05-09 13:07:20,097 - INFO - Database connection closed
+2025-05-09 13:08:03,114 - INFO - Retrieved 4 active users
+2025-05-09 13:08:03,114 - INFO - Found 4 active users for email delivery
+2025-05-09 13:08:04,270 - INFO - Email sent successfully to shahharsh2712@gmail.com (status code: 202)
+2025-05-09 13:08:04,278 - ERROR - Error logging email delivery to shahharsh2712@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe0ce85fce03cf360e667b", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe0ce85fce03cf360e667b", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '67fe0ce85fce03cf360e667b', 'date': '2025-05-09'}}
+2025-05-09 13:08:04,861 - INFO - Email sent successfully to coolhs821@gmail.com (status code: 202)
+2025-05-09 13:08:04,862 - ERROR - Error logging email delivery to coolhs821@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe81955fce03cf360e6691", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe81955fce03cf360e6691", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '67fe81955fce03cf360e6691', 'date': '2025-05-09'}}
+2025-05-09 13:08:05,525 - INFO - Email sent successfully to shahsmith375@gmail.com (status code: 202)
+2025-05-09 13:08:05,526 - ERROR - Error logging email delivery to shahsmith375@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "680c9f2277e1a17528fa4035", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "680c9f2277e1a17528fa4035", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '680c9f2277e1a17528fa4035', 'date': '2025-05-09'}}
+2025-05-09 13:08:06,137 - INFO - Email sent successfully to shahharsh0227@gmail.com (status code: 202)
+2025-05-09 13:08:06,139 - ERROR - Error logging email delivery to shahharsh0227@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "681da52e77e1a17528fa4036", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "681da52e77e1a17528fa4036", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '681da52e77e1a17528fa4036', 'date': '2025-05-09'}}
+2025-05-09 13:08:06,139 - INFO - Successfully sent recommendation emails to 4/4 users
+2025-05-09 13:08:06,140 - INFO - Database connection closed
+2025-05-09 13:08:06,141 - INFO - Database connection closed
+2025-05-09 13:17:21,700 - INFO - Retrieved 4 active users
+2025-05-09 13:17:21,701 - INFO - Found 4 active users
+2025-05-09 13:17:21,701 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-09 13:17:21,704 - INFO - Found 0 similar products from today's collection
+2025-05-09 13:17:21,705 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-09
+2025-05-09 13:17:21,705 - WARNING - No recommendations generated for shahharsh2712@gmail.com
+2025-05-09 13:17:21,706 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-09 13:17:21,708 - INFO - Found 0 similar products from today's collection
+2025-05-09 13:17:21,708 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-09
+2025-05-09 13:17:21,708 - WARNING - No recommendations generated for coolhs821@gmail.com
+2025-05-09 13:17:21,709 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-09 13:17:21,711 - INFO - Found 0 similar products from today's collection
+2025-05-09 13:17:21,711 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-09
+2025-05-09 13:17:21,712 - WARNING - No recommendations generated for shahsmith375@gmail.com
+2025-05-09 13:17:21,712 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-09 13:17:21,713 - INFO - Found 0 similar products from today's collection
+2025-05-09 13:17:21,715 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-09
+2025-05-09 13:17:21,715 - WARNING - No recommendations generated for shahharsh0227@gmail.com
+2025-05-09 13:17:21,715 - INFO - Successfully generated recommendations for 0/4 users
+2025-05-09 13:17:21,716 - INFO - Database connection closed
+2025-05-09 13:17:21,716 - INFO - Database connection closed
+2025-05-09 13:17:21,717 - INFO - Database connection closed
+2025-05-09 13:18:40,127 - INFO - Retrieved 4 active users
+2025-05-09 13:18:40,127 - INFO - Found 4 active users
+2025-05-09 13:18:40,127 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-09 13:18:40,164 - INFO - Found 5 similar products from today's collection
+2025-05-09 13:18:40,165 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-09
+2025-05-09 13:18:40,166 - INFO - Generated 5 recommendations for shahharsh2712@gmail.com
+2025-05-09 13:18:40,166 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-09 13:18:40,203 - INFO - Found 5 similar products from today's collection
+2025-05-09 13:18:40,205 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-09
+2025-05-09 13:18:40,205 - INFO - Generated 5 recommendations for coolhs821@gmail.com
+2025-05-09 13:18:40,205 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-09 13:18:40,237 - INFO - Found 5 similar products from today's collection
+2025-05-09 13:18:40,238 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-09
+2025-05-09 13:18:40,238 - INFO - Generated 5 recommendations for shahsmith375@gmail.com
+2025-05-09 13:18:40,239 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-09 13:18:40,270 - INFO - Found 5 similar products from today's collection
+2025-05-09 13:18:40,271 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-09
+2025-05-09 13:18:40,271 - INFO - Generated 5 recommendations for shahharsh0227@gmail.com
+2025-05-09 13:18:40,272 - INFO - Successfully generated recommendations for 4/4 users
+2025-05-09 13:18:40,272 - INFO - Database connection closed
+2025-05-09 13:18:40,273 - INFO - Database connection closed
+2025-05-09 13:18:40,273 - INFO - Database connection closed
+2025-05-09 13:18:46,022 - INFO - Retrieved 4 active users
+2025-05-09 13:18:46,022 - INFO - Found 4 active users for email delivery
+2025-05-09 13:18:47,491 - INFO - Email sent successfully to shahharsh2712@gmail.com (status code: 202)
+2025-05-09 13:18:47,491 - ERROR - Error logging email delivery to shahharsh2712@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe0ce85fce03cf360e667b", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe0ce85fce03cf360e667b", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '67fe0ce85fce03cf360e667b', 'date': '2025-05-09'}}
+2025-05-09 13:18:47,798 - INFO - Email sent successfully to coolhs821@gmail.com (status code: 202)
+2025-05-09 13:18:47,800 - ERROR - Error logging email delivery to coolhs821@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe81955fce03cf360e6691", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "67fe81955fce03cf360e6691", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '67fe81955fce03cf360e6691', 'date': '2025-05-09'}}
+2025-05-09 13:18:48,097 - INFO - Email sent successfully to shahsmith375@gmail.com (status code: 202)
+2025-05-09 13:18:48,098 - ERROR - Error logging email delivery to shahsmith375@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "680c9f2277e1a17528fa4035", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "680c9f2277e1a17528fa4035", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '680c9f2277e1a17528fa4035', 'date': '2025-05-09'}}
+2025-05-09 13:18:48,385 - INFO - Email sent successfully to shahharsh0227@gmail.com (status code: 202)
+2025-05-09 13:18:48,387 - ERROR - Error logging email delivery to shahharsh0227@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "681da52e77e1a17528fa4036", date: "2025-05-09" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "681da52e77e1a17528fa4036", date: "2025-05-09" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '681da52e77e1a17528fa4036', 'date': '2025-05-09'}}
+2025-05-09 13:18:48,387 - INFO - Successfully sent recommendation emails to 4/4 users
+2025-05-09 13:18:48,388 - INFO - Database connection closed
+2025-05-09 13:18:48,389 - INFO - Database connection closed
+2025-05-09 18:38:29,657 - INFO - Starting daily product pipeline
+2025-05-09 18:38:29,657 - INFO - Starting daily product collection...
+2025-05-09 18:38:29,658 - INFO - Fetching batch of products (current count: 0)
+2025-05-09 18:38:31,488 - INFO - Collected 20 products for 2025-05-09
+2025-05-09 18:38:31,489 - INFO - Enriching product 1/20: PulpMiner
+2025-05-09 18:38:37,306 - INFO - Waiting for rate limits...
+2025-05-09 18:38:40,308 - INFO - Enriching product 2/20: Antispace
+2025-05-09 18:38:57,091 - INFO - Waiting for rate limits...
+2025-05-09 18:39:00,092 - INFO - Enriching product 3/20: pfp.fm
+2025-05-09 18:39:07,730 - INFO - Waiting for rate limits...
+2025-05-09 18:39:10,731 - INFO - Enriching product 4/20: Pipedream MCP
+2025-05-09 18:39:17,214 - INFO - Waiting for rate limits...
+2025-05-09 18:39:20,215 - INFO - Enriching product 5/20: Le Chat Enterprise
+2025-05-09 18:39:27,048 - INFO - Waiting for rate limits...
+2025-05-09 18:39:30,049 - INFO - Enriching product 6/20: FineTuner
+2025-05-09 18:39:35,848 - INFO - Waiting for rate limits...
+2025-05-09 18:39:38,849 - INFO - Enriching product 7/20: EchoPod
+2025-05-09 18:39:44,079 - INFO - Waiting for rate limits...
+2025-05-09 18:39:47,080 - INFO - Enriching product 8/20: HyperArc
+2025-05-09 18:39:53,158 - INFO - Waiting for rate limits...
+2025-05-09 18:39:56,159 - INFO - Enriching product 9/20: Qagent
+2025-05-09 18:40:13,598 - INFO - Waiting for rate limits...
+2025-05-09 18:40:16,599 - INFO - Enriching product 10/20: Seveum
+2025-05-09 18:40:28,663 - INFO - Waiting for rate limits...
+2025-05-09 18:40:31,664 - INFO - Enriching product 11/20: Zoho WorkDrive 5.0
+2025-05-09 18:40:45,217 - INFO - Waiting for rate limits...
+2025-05-09 18:40:48,218 - INFO - Enriching product 12/20: Shayr: Family and Finances
+2025-05-09 18:40:54,294 - INFO - Waiting for rate limits...
+2025-05-09 18:40:57,295 - INFO - Enriching product 13/20: Black Screen Video Camera 
+2025-05-09 18:41:03,544 - INFO - Waiting for rate limits...
+2025-05-09 18:41:06,545 - INFO - Enriching product 14/20: Alpaca Chat
+2025-05-09 18:41:13,015 - INFO - Waiting for rate limits...
+2025-05-09 18:41:16,017 - INFO - Enriching product 15/20: CargoBrain
+2025-05-09 18:41:26,672 - INFO - Waiting for rate limits...
+2025-05-09 18:41:29,673 - INFO - Enriching product 16/20: Pep
+2025-05-09 18:41:41,790 - INFO - Waiting for rate limits...
+2025-05-09 18:41:44,791 - INFO - Enriching product 17/20: StreaMetrics
+2025-05-09 18:41:56,370 - INFO - Waiting for rate limits...
+2025-05-09 18:41:59,372 - INFO - Enriching product 18/20: Yahini
+2025-05-09 18:42:13,452 - INFO - Waiting for rate limits...
+2025-05-09 18:42:16,454 - INFO - Enriching product 19/20: Eiren AI
+2025-05-09 18:42:22,667 - INFO - Waiting for rate limits...
+2025-05-09 18:42:25,668 - INFO - Enriching product 20/20: NaitivAI
+2025-05-09 18:42:32,342 - INFO - Waiting for rate limits...
+2025-05-09 18:42:35,346 - INFO - Saved 20 enriched products
+2025-05-09 18:42:35,347 - INFO - Generating embedding for product 1/20: PulpMiner
+2025-05-09 18:42:37,032 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:37,604 - INFO - Generating embedding for product 2/20: Antispace
+2025-05-09 18:42:38,240 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:38,742 - INFO - Generating embedding for product 3/20: pfp.fm
+2025-05-09 18:42:39,814 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:40,316 - INFO - Generating embedding for product 4/20: Pipedream MCP
+2025-05-09 18:42:40,653 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:41,155 - INFO - Generating embedding for product 5/20: Le Chat Enterprise
+2025-05-09 18:42:41,939 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:42,442 - INFO - Generating embedding for product 6/20: FineTuner
+2025-05-09 18:42:43,828 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:44,331 - INFO - Generating embedding for product 7/20: EchoPod
+2025-05-09 18:42:44,977 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:45,479 - INFO - Generating embedding for product 8/20: HyperArc
+2025-05-09 18:42:45,910 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:46,411 - INFO - Generating embedding for product 9/20: Qagent
+2025-05-09 18:42:47,205 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:47,707 - INFO - Generating embedding for product 10/20: Seveum
+2025-05-09 18:42:48,129 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:48,631 - INFO - Generating embedding for product 11/20: Zoho WorkDrive 5.0
+2025-05-09 18:42:49,360 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:49,861 - INFO - Generating embedding for product 12/20: Shayr: Family and Finances
+2025-05-09 18:42:50,436 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:50,939 - INFO - Generating embedding for product 13/20: Black Screen Video Camera 
+2025-05-09 18:42:51,782 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:52,285 - INFO - Generating embedding for product 14/20: Alpaca Chat
+2025-05-09 18:42:52,680 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:53,181 - INFO - Generating embedding for product 15/20: CargoBrain
+2025-05-09 18:42:53,566 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:54,067 - INFO - Generating embedding for product 16/20: Pep
+2025-05-09 18:42:54,449 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:54,951 - INFO - Generating embedding for product 17/20: StreaMetrics
+2025-05-09 18:42:55,393 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:55,895 - INFO - Generating embedding for product 18/20: Yahini
+2025-05-09 18:42:56,302 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:56,804 - INFO - Generating embedding for product 19/20: Eiren AI
+2025-05-09 18:42:57,367 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:57,869 - INFO - Generating embedding for product 20/20: NaitivAI
+2025-05-09 18:42:58,586 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 18:42:59,124 - INFO - Saved 20 products with embeddings
+2025-05-09 18:42:59,125 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-09 19:34:31,774 - INFO - Starting daily product pipeline
+2025-05-09 19:34:31,774 - INFO - Starting daily product collection...
+2025-05-09 19:34:31,775 - INFO - Fetching batch of products (current count: 0)
+2025-05-09 19:34:33,695 - INFO - Collected 20 products for 2025-05-09
+2025-05-09 19:34:33,696 - INFO - Enriching product 1/20: PulpMiner
+2025-05-09 19:34:44,599 - INFO - Waiting for rate limits...
+2025-05-09 19:34:47,600 - INFO - Enriching product 2/20: Antispace
+2025-05-09 19:34:53,545 - INFO - Waiting for rate limits...
+2025-05-09 19:34:56,546 - INFO - Enriching product 3/20: pfp.fm
+2025-05-09 19:35:03,340 - INFO - Waiting for rate limits...
+2025-05-09 19:35:06,341 - INFO - Enriching product 4/20: Pipedream MCP
+2025-05-09 19:35:15,400 - INFO - Waiting for rate limits...
+2025-05-09 19:35:18,401 - INFO - Enriching product 5/20: Le Chat Enterprise
+2025-05-09 19:35:29,238 - INFO - Waiting for rate limits...
+2025-05-09 19:35:32,240 - INFO - Enriching product 6/20: HyperArc
+2025-05-09 19:35:40,015 - INFO - Waiting for rate limits...
+2025-05-09 19:35:43,015 - INFO - Enriching product 7/20: FineTuner
+2025-05-09 19:35:49,645 - INFO - Waiting for rate limits...
+2025-05-09 19:35:52,646 - INFO - Enriching product 8/20: EchoPod
+2025-05-09 19:35:57,563 - INFO - Waiting for rate limits...
+2025-05-09 19:36:00,565 - INFO - Enriching product 9/20: Qagent
+2025-05-09 19:36:10,261 - INFO - Waiting for rate limits...
+2025-05-09 19:36:13,261 - INFO - Enriching product 10/20: Seveum
+2025-05-09 19:36:19,441 - INFO - Waiting for rate limits...
+2025-05-09 19:36:22,442 - INFO - Enriching product 11/20: Zoho WorkDrive 5.0
+2025-05-09 19:36:29,168 - INFO - Waiting for rate limits...
+2025-05-09 19:36:32,169 - INFO - Enriching product 12/20: Black Screen Video Camera 
+2025-05-09 19:36:42,121 - INFO - Waiting for rate limits...
+2025-05-09 19:36:45,122 - INFO - Enriching product 13/20: Shayr: Family and Finances
+2025-05-09 19:36:55,529 - INFO - Waiting for rate limits...
+2025-05-09 19:36:58,530 - INFO - Enriching product 14/20: Alpaca Chat
+2025-05-09 20:32:57,144 - INFO - Starting daily product pipeline
+2025-05-09 20:32:57,144 - INFO - Starting daily product collection...
+2025-05-09 20:32:57,144 - INFO - Fetching batch of products (current count: 0)
+2025-05-09 20:32:58,899 - INFO - Collected 20 products for 2025-05-09
+2025-05-09 20:32:58,904 - INFO - Enriching product 1/20: Antispace
+2025-05-09 20:33:40,924 - INFO - Starting daily product pipeline
+2025-05-09 20:33:40,924 - INFO - Starting daily product collection...
+2025-05-09 20:33:40,925 - INFO - Fetching batch of products (current count: 0)
+2025-05-09 20:33:42,801 - INFO - Collected 20 products for 2025-05-09
+2025-05-09 20:33:42,806 - INFO - Enriching product 1/20: Antispace
+2025-05-09 20:33:50,280 - INFO - Waiting for rate limits...
+2025-05-09 20:33:53,282 - INFO - Enriching product 2/20: PulpMiner
+2025-05-09 20:34:03,990 - INFO - Waiting for rate limits...
+2025-05-09 20:34:06,992 - INFO - Enriching product 3/20: pfp.fm
+2025-05-09 20:34:19,684 - INFO - Waiting for rate limits...
+2025-05-09 20:34:22,685 - INFO - Enriching product 4/20: Pipedream MCP
+2025-05-09 20:34:31,487 - INFO - Waiting for rate limits...
+2025-05-09 20:34:34,488 - INFO - Enriching product 5/20: Le Chat Enterprise
+2025-05-09 20:34:44,718 - INFO - Waiting for rate limits...
+2025-05-09 20:34:47,720 - INFO - Enriching product 6/20: HyperArc
+2025-05-09 20:35:02,840 - INFO - Waiting for rate limits...
+2025-05-09 20:35:05,841 - INFO - Enriching product 7/20: FineTuner
+2025-05-09 20:35:15,421 - INFO - Waiting for rate limits...
+2025-05-09 20:35:18,422 - INFO - Enriching product 8/20: Qagent
+2025-05-09 20:35:27,299 - INFO - Waiting for rate limits...
+2025-05-09 20:35:30,300 - INFO - Enriching product 9/20: Seveum
+2025-05-09 20:35:49,620 - INFO - Waiting for rate limits...
+2025-05-09 20:35:52,620 - INFO - Enriching product 10/20: EchoPod
+2025-05-09 20:36:00,206 - INFO - Waiting for rate limits...
+2025-05-09 20:36:03,207 - INFO - Enriching product 11/20: Zoho WorkDrive 5.0
+2025-05-09 20:36:12,312 - INFO - Waiting for rate limits...
+2025-05-09 20:36:15,313 - INFO - Enriching product 12/20: StreaMetrics
+2025-05-09 20:36:23,761 - INFO - Waiting for rate limits...
+2025-05-09 20:36:26,763 - INFO - Enriching product 13/20: Alpaca Chat
+2025-05-09 20:36:38,421 - INFO - Waiting for rate limits...
+2025-05-09 20:36:41,422 - INFO - Enriching product 14/20: Shayr: Family and Finances
+2025-05-09 20:36:51,747 - INFO - Waiting for rate limits...
+2025-05-09 20:36:54,747 - INFO - Enriching product 15/20: Black Screen Video Camera 
+2025-05-09 20:37:00,636 - INFO - Waiting for rate limits...
+2025-05-09 20:37:03,637 - INFO - Enriching product 16/20: Pep
+2025-05-09 20:37:12,657 - INFO - Waiting for rate limits...
+2025-05-09 20:37:15,659 - INFO - Enriching product 17/20: Yahini
+2025-05-09 20:37:28,925 - INFO - Waiting for rate limits...
+2025-05-09 20:37:31,927 - INFO - Enriching product 18/20: Eiren AI
+2025-05-09 20:37:40,797 - INFO - Waiting for rate limits...
+2025-05-09 20:37:43,798 - INFO - Enriching product 19/20: CargoBrain
+2025-05-09 20:37:53,702 - INFO - Waiting for rate limits...
+2025-05-09 20:37:56,703 - INFO - Enriching product 20/20: NaitivAI
+2025-05-09 20:38:04,841 - INFO - Waiting for rate limits...
+2025-05-09 20:38:07,847 - INFO - Saved 20 enriched products
+2025-05-09 20:38:07,847 - INFO - Generating embedding for product 1/20: Antispace
+2025-05-09 20:38:10,733 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:12,057 - INFO - Generating embedding for product 2/20: PulpMiner
+2025-05-09 20:38:12,513 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:13,015 - INFO - Generating embedding for product 3/20: pfp.fm
+2025-05-09 20:38:15,422 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:15,924 - INFO - Generating embedding for product 4/20: Pipedream MCP
+2025-05-09 20:38:16,889 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:17,393 - INFO - Generating embedding for product 5/20: Le Chat Enterprise
+2025-05-09 20:38:18,485 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:18,987 - INFO - Generating embedding for product 6/20: HyperArc
+2025-05-09 20:38:20,604 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:21,108 - INFO - Generating embedding for product 7/20: FineTuner
+2025-05-09 20:38:21,896 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:22,400 - INFO - Generating embedding for product 8/20: Qagent
+2025-05-09 20:38:23,469 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:23,971 - INFO - Generating embedding for product 9/20: Seveum
+2025-05-09 20:38:24,448 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:24,953 - INFO - Generating embedding for product 10/20: EchoPod
+2025-05-09 20:38:25,581 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:26,086 - INFO - Generating embedding for product 11/20: Zoho WorkDrive 5.0
+2025-05-09 20:38:26,467 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:26,969 - INFO - Generating embedding for product 12/20: StreaMetrics
+2025-05-09 20:38:27,660 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:28,163 - INFO - Generating embedding for product 13/20: Alpaca Chat
+2025-05-09 20:38:28,595 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:29,096 - INFO - Generating embedding for product 14/20: Shayr: Family and Finances
+2025-05-09 20:38:29,564 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:30,066 - INFO - Generating embedding for product 15/20: Black Screen Video Camera 
+2025-05-09 20:38:30,459 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:31,047 - INFO - Generating embedding for product 16/20: Pep
+2025-05-09 20:38:32,049 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:32,551 - INFO - Generating embedding for product 17/20: Yahini
+2025-05-09 20:38:33,044 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:33,546 - INFO - Generating embedding for product 18/20: Eiren AI
+2025-05-09 20:38:34,010 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:34,512 - INFO - Generating embedding for product 19/20: CargoBrain
+2025-05-09 20:38:35,407 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:35,912 - INFO - Generating embedding for product 20/20: NaitivAI
+2025-05-09 20:38:36,691 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 20:38:37,230 - INFO - Saved 20 products with embeddings
+2025-05-09 20:38:37,231 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-09 21:11:54,000 - INFO - Starting daily product pipeline
+2025-05-09 21:11:54,000 - INFO - Starting daily product collection...
+2025-05-09 21:11:54,001 - INFO - Fetching batch of products (current count: 0)
+2025-05-09 21:11:55,884 - INFO - Collected 20 products for 2025-05-09
+2025-05-09 21:11:55,885 - INFO - Enriching product 1/20: PulpMiner
+2025-05-09 21:12:08,609 - INFO - Waiting for rate limits...
+2025-05-09 21:12:11,611 - INFO - Enriching product 2/20: Antispace
+2025-05-09 21:12:20,375 - INFO - Waiting for rate limits...
+2025-05-09 21:12:23,377 - INFO - Enriching product 3/20: pfp.fm
+2025-05-09 21:13:23,625 - INFO - Waiting for rate limits...
+2025-05-09 21:13:26,627 - INFO - Enriching product 4/20: Pipedream MCP
+2025-05-09 21:13:32,934 - INFO - Waiting for rate limits...
+2025-05-09 21:13:35,936 - INFO - Enriching product 5/20: Le Chat Enterprise
+2025-05-09 21:13:44,812 - INFO - Waiting for rate limits...
+2025-05-09 21:13:47,813 - INFO - Enriching product 6/20: HyperArc
+2025-05-09 21:13:54,891 - INFO - Waiting for rate limits...
+2025-05-09 21:13:57,892 - INFO - Enriching product 7/20: FineTuner
+2025-05-09 21:14:04,553 - INFO - Waiting for rate limits...
+2025-05-09 21:14:07,555 - INFO - Enriching product 8/20: Seveum
+2025-05-09 21:14:17,707 - INFO - Waiting for rate limits...
+2025-05-09 21:14:20,708 - INFO - Enriching product 9/20: Qagent
+2025-05-09 21:14:28,587 - INFO - Waiting for rate limits...
+2025-05-09 21:14:31,588 - INFO - Enriching product 10/20: EchoPod
+2025-05-09 21:14:39,560 - INFO - Waiting for rate limits...
+2025-05-09 21:14:42,561 - INFO - Enriching product 11/20: Zoho WorkDrive 5.0
+2025-05-09 21:14:50,536 - INFO - Waiting for rate limits...
+2025-05-09 21:14:53,537 - INFO - Enriching product 12/20: Alpaca Chat
+2025-05-09 21:15:06,634 - INFO - Waiting for rate limits...
+2025-05-09 21:15:09,637 - INFO - Enriching product 13/20: StreaMetrics
+2025-05-09 21:15:21,845 - INFO - Waiting for rate limits...
+2025-05-09 21:15:24,846 - INFO - Enriching product 14/20: Shayr: Family and Finances
+2025-05-09 21:15:34,794 - INFO - Waiting for rate limits...
+2025-05-09 21:15:37,796 - INFO - Enriching product 15/20: Black Screen Video Camera 
+2025-05-09 21:15:52,504 - INFO - Waiting for rate limits...
+2025-05-09 21:15:55,505 - INFO - Enriching product 16/20: Pep
+2025-05-09 21:16:04,310 - INFO - Waiting for rate limits...
+2025-05-09 21:16:07,311 - INFO - Enriching product 17/20: Yahini
+2025-05-09 21:16:22,916 - INFO - Waiting for rate limits...
+2025-05-09 21:16:25,917 - INFO - Enriching product 18/20: Eiren AI
+2025-05-09 21:16:34,328 - INFO - Waiting for rate limits...
+2025-05-09 21:16:37,330 - INFO - Enriching product 19/20: CargoBrain
+2025-05-09 21:16:45,103 - INFO - Waiting for rate limits...
+2025-05-09 21:16:48,105 - INFO - Enriching product 20/20: NaitivAI
+2025-05-09 21:16:55,163 - INFO - Waiting for rate limits...
+2025-05-09 21:16:58,167 - INFO - Saved 20 enriched products
+2025-05-09 21:16:58,168 - INFO - Generating embedding for product 1/20: PulpMiner
+2025-05-09 21:16:59,139 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:00,613 - INFO - Generating embedding for product 2/20: Antispace
+2025-05-09 21:17:01,315 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:01,817 - INFO - Generating embedding for product 3/20: pfp.fm
+2025-05-09 21:17:03,215 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:03,721 - INFO - Generating embedding for product 4/20: Pipedream MCP
+2025-05-09 21:17:04,525 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:05,027 - INFO - Generating embedding for product 5/20: Le Chat Enterprise
+2025-05-09 21:17:05,793 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:06,296 - INFO - Generating embedding for product 6/20: HyperArc
+2025-05-09 21:17:07,513 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:08,014 - INFO - Generating embedding for product 7/20: FineTuner
+2025-05-09 21:17:08,629 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:09,131 - INFO - Generating embedding for product 8/20: Seveum
+2025-05-09 21:17:09,831 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:10,336 - INFO - Generating embedding for product 9/20: Qagent
+2025-05-09 21:17:10,741 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:11,245 - INFO - Generating embedding for product 10/20: EchoPod
+2025-05-09 21:17:11,722 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:12,226 - INFO - Generating embedding for product 11/20: Zoho WorkDrive 5.0
+2025-05-09 21:17:13,141 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:13,645 - INFO - Generating embedding for product 12/20: Alpaca Chat
+2025-05-09 21:17:14,099 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:14,603 - INFO - Generating embedding for product 13/20: StreaMetrics
+2025-05-09 21:17:15,155 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:15,658 - INFO - Generating embedding for product 14/20: Shayr: Family and Finances
+2025-05-09 21:17:16,482 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:16,984 - INFO - Generating embedding for product 15/20: Black Screen Video Camera 
+2025-05-09 21:17:17,947 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:18,451 - INFO - Generating embedding for product 16/20: Pep
+2025-05-09 21:17:18,840 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:19,345 - INFO - Generating embedding for product 17/20: Yahini
+2025-05-09 21:17:20,032 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:20,535 - INFO - Generating embedding for product 18/20: Eiren AI
+2025-05-09 21:17:21,304 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:21,809 - INFO - Generating embedding for product 19/20: CargoBrain
+2025-05-09 21:17:22,489 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:22,993 - INFO - Generating embedding for product 20/20: NaitivAI
+2025-05-09 21:17:23,511 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:17:24,062 - INFO - Saved 20 products with embeddings
+2025-05-09 21:17:24,062 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-09 21:37:55,892 - INFO - Starting daily product pipeline
+2025-05-09 21:37:55,892 - INFO - Starting daily product collection...
+2025-05-09 21:37:55,892 - INFO - Fetching batch of products (current count: 0)
+2025-05-09 21:37:57,864 - INFO - Collected 20 products for 2025-05-09
+2025-05-09 21:37:57,869 - INFO - Enriching product 1/20: PulpMiner
+2025-05-09 21:38:06,028 - INFO - Waiting for rate limits...
+2025-05-09 21:38:09,029 - INFO - Enriching product 2/20: Antispace
+2025-05-09 21:38:18,896 - INFO - Waiting for rate limits...
+2025-05-09 21:38:21,898 - INFO - Enriching product 3/20: pfp.fm
+2025-05-09 21:38:30,169 - INFO - Waiting for rate limits...
+2025-05-09 21:38:33,170 - INFO - Enriching product 4/20: Pipedream MCP
+2025-05-09 21:38:38,813 - INFO - Waiting for rate limits...
+2025-05-09 21:38:41,814 - INFO - Enriching product 5/20: Le Chat Enterprise
+2025-05-09 21:38:51,007 - INFO - Waiting for rate limits...
+2025-05-09 21:38:54,008 - INFO - Enriching product 6/20: HyperArc
+2025-05-09 21:39:01,134 - INFO - Waiting for rate limits...
+2025-05-09 21:39:04,136 - INFO - Enriching product 7/20: FineTuner
+2025-05-09 21:39:13,089 - INFO - Waiting for rate limits...
+2025-05-09 21:39:16,090 - INFO - Enriching product 8/20: EchoPod
+2025-05-09 21:39:23,058 - INFO - Waiting for rate limits...
+2025-05-09 21:39:26,060 - INFO - Enriching product 9/20: Qagent
+2025-05-09 21:39:36,128 - INFO - Waiting for rate limits...
+2025-05-09 21:39:39,130 - INFO - Enriching product 10/20: Seveum
+2025-05-09 21:39:48,427 - INFO - Waiting for rate limits...
+2025-05-09 21:39:51,429 - INFO - Enriching product 11/20: Zoho WorkDrive 5.0
+2025-05-09 21:40:01,157 - INFO - Waiting for rate limits...
+2025-05-09 21:40:04,158 - INFO - Enriching product 12/20: Shayr: Family and Finances
+2025-05-09 21:40:12,425 - INFO - Waiting for rate limits...
+2025-05-09 21:40:15,427 - INFO - Enriching product 13/20: StreaMetrics
+2025-05-09 21:40:22,570 - INFO - Waiting for rate limits...
+2025-05-09 21:40:25,572 - INFO - Enriching product 14/20: Alpaca Chat
+2025-05-09 21:40:33,547 - INFO - Waiting for rate limits...
+2025-05-09 21:40:36,549 - INFO - Enriching product 15/20: Black Screen Video Camera 
+2025-05-09 21:40:44,841 - INFO - Waiting for rate limits...
+2025-05-09 21:40:47,843 - INFO - Enriching product 16/20: Pep
+2025-05-09 21:40:55,405 - INFO - Waiting for rate limits...
+2025-05-09 21:40:58,406 - INFO - Enriching product 17/20: Yahini
+2025-05-09 21:41:04,678 - INFO - Waiting for rate limits...
+2025-05-09 21:41:07,679 - INFO - Enriching product 18/20: Eiren AI
+2025-05-09 21:41:16,014 - INFO - Waiting for rate limits...
+2025-05-09 21:41:19,016 - INFO - Enriching product 19/20: CargoBrain
+2025-05-09 21:41:27,365 - INFO - Waiting for rate limits...
+2025-05-09 21:41:30,368 - INFO - Enriching product 20/20: NaitivAI
+2025-05-09 21:41:39,406 - INFO - Waiting for rate limits...
+2025-05-09 21:41:42,424 - INFO - Saved 20 enriched products
+2025-05-09 21:41:42,425 - INFO - Generating embedding for product 1/20: PulpMiner
+2025-05-09 21:41:43,632 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:44,318 - INFO - Generating embedding for product 2/20: Antispace
+2025-05-09 21:41:45,483 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:45,988 - INFO - Generating embedding for product 3/20: pfp.fm
+2025-05-09 21:41:46,384 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:46,886 - INFO - Generating embedding for product 4/20: Pipedream MCP
+2025-05-09 21:41:48,079 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:48,582 - INFO - Generating embedding for product 5/20: Le Chat Enterprise
+2025-05-09 21:41:50,006 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:50,508 - INFO - Generating embedding for product 6/20: HyperArc
+2025-05-09 21:41:50,908 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:51,409 - INFO - Generating embedding for product 7/20: FineTuner
+2025-05-09 21:41:52,165 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:52,667 - INFO - Generating embedding for product 8/20: EchoPod
+2025-05-09 21:41:53,257 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:53,759 - INFO - Generating embedding for product 9/20: Qagent
+2025-05-09 21:41:54,587 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:55,089 - INFO - Generating embedding for product 10/20: Seveum
+2025-05-09 21:41:55,720 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:56,226 - INFO - Generating embedding for product 11/20: Zoho WorkDrive 5.0
+2025-05-09 21:41:56,670 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:57,172 - INFO - Generating embedding for product 12/20: Shayr: Family and Finances
+2025-05-09 21:41:58,090 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:58,618 - INFO - Generating embedding for product 13/20: StreaMetrics
+2025-05-09 21:41:59,229 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:41:59,731 - INFO - Generating embedding for product 14/20: Alpaca Chat
+2025-05-09 21:42:00,117 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:42:00,619 - INFO - Generating embedding for product 15/20: Black Screen Video Camera 
+2025-05-09 21:42:01,363 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:42:01,868 - INFO - Generating embedding for product 16/20: Pep
+2025-05-09 21:42:02,661 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:42:03,162 - INFO - Generating embedding for product 17/20: Yahini
+2025-05-09 21:42:03,667 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:42:04,172 - INFO - Generating embedding for product 18/20: Eiren AI
+2025-05-09 21:42:04,668 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:42:05,171 - INFO - Generating embedding for product 19/20: CargoBrain
+2025-05-09 21:42:05,570 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:42:06,072 - INFO - Generating embedding for product 20/20: NaitivAI
+2025-05-09 21:42:06,473 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 21:42:07,011 - INFO - Saved 20 products with embeddings
+2025-05-09 21:42:07,012 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-10 09:45:58,499 - INFO - Starting product collection job
+2025-05-10 09:45:58,530 - INFO - Starting daily product pipeline
+2025-05-10 09:45:58,532 - INFO - Starting daily product collection...
+2025-05-10 09:45:58,537 - INFO - Fetching batch of products (current count: 0)
+2025-05-10 09:46:01,194 - INFO - Collected 20 products for 2025-05-10
+2025-05-10 09:46:01,197 - INFO - Enriching product 1/20: PulpMiner
+2025-05-10 09:46:09,365 - INFO - Waiting for rate limits...
+2025-05-10 09:46:12,366 - INFO - Enriching product 2/20: pfp.fm
+2025-05-10 09:46:19,887 - INFO - Waiting for rate limits...
+2025-05-10 09:46:22,887 - INFO - Enriching product 3/20: Antispace
+2025-05-10 09:46:36,552 - INFO - Waiting for rate limits...
+2025-05-10 09:46:39,555 - INFO - Enriching product 4/20: HyperArc
+2025-05-10 09:46:52,196 - INFO - Waiting for rate limits...
+2025-05-10 09:46:55,198 - INFO - Enriching product 5/20: Pipedream MCP
+2025-05-10 09:47:02,229 - INFO - Waiting for rate limits...
+2025-05-10 09:47:05,230 - INFO - Enriching product 6/20: Le Chat Enterprise
+2025-05-10 09:47:15,257 - INFO - Waiting for rate limits...
+2025-05-10 09:47:18,258 - INFO - Enriching product 7/20: FineTuner
+2025-05-10 09:47:25,299 - INFO - Waiting for rate limits...
+2025-05-10 09:47:28,300 - INFO - Enriching product 8/20: Seveum
+2025-05-10 09:47:34,716 - INFO - Waiting for rate limits...
+2025-05-10 09:47:37,718 - INFO - Enriching product 9/20: EchoPod
+2025-05-10 09:47:52,661 - INFO - Waiting for rate limits...
+2025-05-10 09:47:55,663 - INFO - Enriching product 10/20: Qagent
+2025-05-10 09:48:10,067 - INFO - Waiting for rate limits...
+2025-05-10 09:48:13,069 - INFO - Enriching product 11/20: Zoho WorkDrive 5.0
+2025-05-10 09:48:29,217 - INFO - Waiting for rate limits...
+2025-05-10 09:48:32,219 - INFO - Enriching product 12/20: Shayr: Family and Finances
+2025-05-10 09:48:40,151 - INFO - Waiting for rate limits...
+2025-05-10 09:48:43,153 - INFO - Enriching product 13/20: Black Screen Video Camera 
+2025-05-10 09:48:49,024 - INFO - Waiting for rate limits...
+2025-05-10 09:48:52,026 - INFO - Enriching product 14/20: Alpaca Chat
+2025-05-10 09:48:59,046 - INFO - Waiting for rate limits...
+2025-05-10 09:49:02,048 - INFO - Enriching product 15/20: Pep
+2025-05-10 09:49:13,734 - INFO - Waiting for rate limits...
+2025-05-10 09:49:16,734 - INFO - Enriching product 16/20: StreaMetrics
+2025-05-10 09:49:22,879 - INFO - Waiting for rate limits...
+2025-05-10 09:49:25,881 - INFO - Enriching product 17/20: Yahini
+2025-05-10 09:49:31,621 - INFO - Waiting for rate limits...
+2025-05-10 09:49:34,623 - INFO - Enriching product 18/20: dapps.co
+2025-05-10 09:49:48,617 - INFO - Waiting for rate limits...
+2025-05-10 09:49:51,619 - INFO - Enriching product 19/20: Eiren AI
+2025-05-10 09:50:00,389 - INFO - Waiting for rate limits...
+2025-05-10 09:50:03,389 - INFO - Enriching product 20/20: CargoBrain
+2025-05-10 09:50:09,945 - INFO - Waiting for rate limits...
+2025-05-10 09:50:12,951 - INFO - Saved 20 enriched products
+2025-05-10 09:50:12,951 - INFO - Generating embedding for product 1/20: PulpMiner
+2025-05-10 09:50:14,379 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:14,887 - INFO - Generating embedding for product 2/20: pfp.fm
+2025-05-10 09:50:15,739 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:16,241 - INFO - Generating embedding for product 3/20: Antispace
+2025-05-10 09:50:16,971 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:17,473 - INFO - Generating embedding for product 4/20: HyperArc
+2025-05-10 09:50:18,208 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:18,709 - INFO - Generating embedding for product 5/20: Pipedream MCP
+2025-05-10 09:50:19,440 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:19,942 - INFO - Generating embedding for product 6/20: Le Chat Enterprise
+2025-05-10 09:50:20,423 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:20,925 - INFO - Generating embedding for product 7/20: FineTuner
+2025-05-10 09:50:22,002 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:22,504 - INFO - Generating embedding for product 8/20: Seveum
+2025-05-10 09:50:23,496 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:24,040 - INFO - Generating embedding for product 9/20: EchoPod
+2025-05-10 09:50:24,730 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:25,232 - INFO - Generating embedding for product 10/20: Qagent
+2025-05-10 09:50:25,976 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:26,478 - INFO - Generating embedding for product 11/20: Zoho WorkDrive 5.0
+2025-05-10 09:50:26,903 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:27,406 - INFO - Generating embedding for product 12/20: Shayr: Family and Finances
+2025-05-10 09:50:27,917 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:28,420 - INFO - Generating embedding for product 13/20: Black Screen Video Camera 
+2025-05-10 09:50:28,830 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:29,332 - INFO - Generating embedding for product 14/20: Alpaca Chat
+2025-05-10 09:50:29,738 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:30,240 - INFO - Generating embedding for product 15/20: Pep
+2025-05-10 09:50:33,111 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:33,613 - INFO - Generating embedding for product 16/20: StreaMetrics
+2025-05-10 09:50:34,300 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:34,802 - INFO - Generating embedding for product 17/20: Yahini
+2025-05-10 09:50:35,568 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:36,070 - INFO - Generating embedding for product 18/20: dapps.co
+2025-05-10 09:50:36,634 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:37,135 - INFO - Generating embedding for product 19/20: Eiren AI
+2025-05-10 09:50:37,994 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:38,496 - INFO - Generating embedding for product 20/20: CargoBrain
+2025-05-10 09:50:38,924 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 09:50:39,462 - INFO - Saved 20 products with embeddings
+2025-05-10 09:50:39,463 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-10 09:50:39,464 - INFO - Product collection completed in 280.94 seconds
+2025-05-10 09:50:39,464 - INFO - Collected and processed 20 products
+2025-05-10 09:50:39,465 - INFO - Starting recommendation generation job
+2025-05-10 09:50:39,653 - INFO - Retrieved 4 active users
+2025-05-10 09:50:39,653 - INFO - Found 4 active users
+2025-05-10 09:50:39,653 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-10 09:50:39,805 - INFO - Found 1 similar products
+2025-05-10 09:50:39,836 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-10
+2025-05-10 09:50:39,837 - INFO - Generated 1 recommendations for shahharsh2712@gmail.com
+2025-05-10 09:50:39,837 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-10 09:50:39,861 - INFO - Found 1 similar products
+2025-05-10 09:50:39,863 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-10
+2025-05-10 09:50:39,863 - INFO - Generated 1 recommendations for coolhs821@gmail.com
+2025-05-10 09:50:39,864 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-10 09:50:39,889 - INFO - Found 1 similar products
+2025-05-10 09:50:39,890 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-10
+2025-05-10 09:50:39,891 - INFO - Generated 1 recommendations for shahsmith375@gmail.com
+2025-05-10 09:50:39,891 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-10 09:50:39,910 - INFO - Found 1 similar products
+2025-05-10 09:50:39,912 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-10
+2025-05-10 09:50:39,912 - INFO - Generated 1 recommendations for shahharsh0227@gmail.com
+2025-05-10 09:50:39,912 - INFO - Successfully generated recommendations for 4/4 users
+2025-05-10 09:50:39,914 - INFO - Database connection closed
+2025-05-10 09:50:39,915 - INFO - Database connection closed
+2025-05-10 09:50:39,915 - INFO - Database connection closed
+2025-05-10 09:50:39,915 - INFO - Recommendation generation completed in 0.45 seconds
+2025-05-10 09:50:39,915 - INFO - Generated recommendations for 4 users
+2025-05-10 09:50:39,917 - INFO - Starting email delivery job
+2025-05-10 09:50:39,991 - INFO - Retrieved 4 active users
+2025-05-10 09:50:39,991 - INFO - Found 4 active users for email delivery
+2025-05-10 09:50:41,224 - INFO - Email sent successfully to shahharsh2712@gmail.com (status code: 202)
+2025-05-10 09:50:41,227 - INFO - Logged email delivery to shahharsh2712@gmail.com on 2025-05-10
+2025-05-10 09:50:41,537 - INFO - Email sent successfully to coolhs821@gmail.com (status code: 202)
+2025-05-10 09:50:41,538 - INFO - Logged email delivery to coolhs821@gmail.com on 2025-05-10
+2025-05-10 09:50:41,829 - INFO - Email sent successfully to shahsmith375@gmail.com (status code: 202)
+2025-05-10 09:50:41,830 - INFO - Logged email delivery to shahsmith375@gmail.com on 2025-05-10
+2025-05-10 09:50:42,137 - INFO - Email sent successfully to shahharsh0227@gmail.com (status code: 202)
+2025-05-10 09:50:42,138 - INFO - Logged email delivery to shahharsh0227@gmail.com on 2025-05-10
+2025-05-10 09:50:42,139 - INFO - Successfully sent recommendation emails to 4/4 users
+2025-05-10 09:50:42,139 - INFO - Database connection closed
+2025-05-10 09:50:42,140 - INFO - Database connection closed
+2025-05-10 09:50:42,141 - INFO - Email delivery completed in 2.22 seconds
+2025-05-10 09:50:42,141 - INFO - Sent emails to 4 users
+2025-05-10 13:29:18,948 - INFO - Starting daily product pipeline
+2025-05-10 13:29:18,948 - INFO - Starting daily product collection...
+2025-05-10 13:29:18,948 - INFO - Fetching batch of products (current count: 0)
+2025-05-10 13:29:20,924 - INFO - Collected 20 products for 2025-05-10
+2025-05-10 13:29:20,937 - INFO - Enriching product 1/20: SeeMuseums
+2025-05-10 13:29:21,298 - INFO - Waiting for rate limits...
+2025-05-10 13:29:24,299 - INFO - Enriching product 2/20: Rubber Duck Armada
+2025-05-10 13:29:24,647 - INFO - Waiting for rate limits...
+2025-05-10 13:29:27,648 - INFO - Enriching product 3/20: Aladin
+2025-05-10 13:29:27,970 - INFO - Waiting for rate limits...
+2025-05-10 13:29:30,971 - INFO - Enriching product 4/20: Aurascope
+2025-05-10 13:29:31,289 - INFO - Waiting for rate limits...
+2025-05-10 13:29:34,290 - INFO - Enriching product 5/20: QU3
+2025-05-10 13:29:34,607 - INFO - Waiting for rate limits...
+2025-05-10 13:29:37,609 - INFO - Enriching product 6/20: Photo AI 4
+2025-05-10 13:29:37,911 - INFO - Waiting for rate limits...
+2025-05-10 13:29:40,912 - INFO - Enriching product 7/20: Voila
+2025-05-10 13:29:41,235 - INFO - Waiting for rate limits...
+2025-05-10 13:29:44,236 - INFO - Enriching product 8/20: AI Voice Cloning
+2025-05-10 13:29:44,547 - INFO - Waiting for rate limits...
+2025-05-10 13:29:47,548 - INFO - Enriching product 9/20: Autograph Fair Offer
+2025-05-10 13:29:47,878 - INFO - Waiting for rate limits...
+2025-05-10 13:29:50,879 - INFO - Enriching product 10/20: AI Chat
+2025-05-10 13:29:51,542 - INFO - Waiting for rate limits...
+2025-05-10 13:29:54,543 - INFO - Enriching product 11/20: VProPle Interview Bites 
+2025-05-10 13:29:54,831 - INFO - Waiting for rate limits...
+2025-05-10 13:29:57,832 - INFO - Enriching product 12/20: RabbitGUI
+2025-05-10 13:29:58,219 - INFO - Waiting for rate limits...
+2025-05-10 13:30:01,220 - INFO - Enriching product 13/20: AI API Pricing Calculator
+2025-05-10 13:30:01,534 - INFO - Waiting for rate limits...
+2025-05-10 13:30:04,535 - INFO - Enriching product 14/20: SmartPDFs
+2025-05-10 13:30:04,886 - INFO - Waiting for rate limits...
+2025-05-10 13:30:07,887 - INFO - Enriching product 15/20: Asphalt Calculator
+2025-05-10 13:30:08,168 - INFO - Waiting for rate limits...
+2025-05-10 13:30:11,169 - INFO - Enriching product 16/20: OSHIStamp: YouTube Timestamps
+2025-05-10 13:30:11,833 - INFO - Waiting for rate limits...
+2025-05-10 13:30:14,834 - INFO - Enriching product 17/20: Action Figure AI
+2025-05-10 13:30:15,116 - INFO - Waiting for rate limits...
+2025-05-10 13:30:18,117 - INFO - Enriching product 18/20: Food Devlivery App Development
+2025-05-10 13:30:18,424 - INFO - Waiting for rate limits...
+2025-05-10 13:30:21,425 - INFO - Enriching product 19/20: Sindoor.News
+2025-05-10 13:30:21,724 - INFO - Waiting for rate limits...
+2025-05-10 13:30:24,725 - INFO - Enriching product 20/20: Seosaurus
+2025-05-10 13:30:25,444 - INFO - Waiting for rate limits...
+2025-05-10 13:30:28,445 - INFO - Saved 20 enriched products
+2025-05-10 13:30:28,446 - INFO - Generating embedding for product 1/20: SeeMuseums
+2025-05-10 13:30:29,769 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:30,445 - INFO - Generating embedding for product 2/20: Rubber Duck Armada
+2025-05-10 13:30:31,119 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:31,623 - INFO - Generating embedding for product 3/20: Aladin
+2025-05-10 13:30:32,196 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:32,780 - INFO - Generating embedding for product 4/20: Aurascope
+2025-05-10 13:30:33,404 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:33,909 - INFO - Generating embedding for product 5/20: QU3
+2025-05-10 13:30:34,653 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:35,208 - INFO - Generating embedding for product 6/20: Photo AI 4
+2025-05-10 13:30:35,572 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:36,074 - INFO - Generating embedding for product 7/20: Voila
+2025-05-10 13:30:36,481 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:36,983 - INFO - Generating embedding for product 8/20: AI Voice Cloning
+2025-05-10 13:30:37,666 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:38,170 - INFO - Generating embedding for product 9/20: Autograph Fair Offer
+2025-05-10 13:30:38,823 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:39,326 - INFO - Generating embedding for product 10/20: AI Chat
+2025-05-10 13:30:39,725 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:40,229 - INFO - Generating embedding for product 11/20: VProPle Interview Bites 
+2025-05-10 13:30:40,977 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:41,479 - INFO - Generating embedding for product 12/20: RabbitGUI
+2025-05-10 13:30:42,020 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:42,523 - INFO - Generating embedding for product 13/20: AI API Pricing Calculator
+2025-05-10 13:30:42,925 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:43,427 - INFO - Generating embedding for product 14/20: SmartPDFs
+2025-05-10 13:30:43,805 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:44,307 - INFO - Generating embedding for product 15/20: Asphalt Calculator
+2025-05-10 13:30:44,704 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:45,205 - INFO - Generating embedding for product 16/20: OSHIStamp: YouTube Timestamps
+2025-05-10 13:30:45,830 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:46,332 - INFO - Generating embedding for product 17/20: Action Figure AI
+2025-05-10 13:30:46,960 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:47,462 - INFO - Generating embedding for product 18/20: Food Devlivery App Development
+2025-05-10 13:30:47,925 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:48,428 - INFO - Generating embedding for product 19/20: Sindoor.News
+2025-05-10 13:30:48,815 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:49,317 - INFO - Generating embedding for product 20/20: Seosaurus
+2025-05-10 13:30:49,667 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 13:30:50,360 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2025-05-10 13:30:50,448 - INFO - Inserted new product: SeeMuseums
+2025-05-10 13:30:50,451 - INFO - Inserted new product: Rubber Duck Armada
+2025-05-10 13:30:50,452 - INFO - Inserted new product: Aladin
+2025-05-10 13:30:50,453 - INFO - Inserted new product: Aurascope
+2025-05-10 13:30:50,454 - INFO - Inserted new product: QU3
+2025-05-10 13:30:50,455 - INFO - Inserted new product: Photo AI 4
+2025-05-10 13:30:50,456 - INFO - Inserted new product: Voila
+2025-05-10 13:30:50,457 - INFO - Inserted new product: AI Voice Cloning
+2025-05-10 13:30:50,458 - INFO - Inserted new product: Autograph Fair Offer
+2025-05-10 13:30:50,460 - INFO - Inserted new product: AI Chat
+2025-05-10 13:30:50,461 - INFO - Inserted new product: VProPle Interview Bites 
+2025-05-10 13:30:50,462 - INFO - Inserted new product: RabbitGUI
+2025-05-10 13:30:50,464 - INFO - Inserted new product: AI API Pricing Calculator
+2025-05-10 13:30:50,465 - INFO - Inserted new product: SmartPDFs
+2025-05-10 13:30:50,466 - INFO - Inserted new product: Asphalt Calculator
+2025-05-10 13:30:50,467 - INFO - Inserted new product: OSHIStamp: YouTube Timestamps
+2025-05-10 13:30:50,468 - INFO - Inserted new product: Action Figure AI
+2025-05-10 13:30:50,469 - INFO - Inserted new product: Food Devlivery App Development
+2025-05-10 13:30:50,470 - INFO - Inserted new product: Sindoor.News
+2025-05-10 13:30:50,471 - INFO - Inserted new product: Seosaurus
+2025-05-10 13:30:50,471 - INFO - Saved 20/20 products
+2025-05-10 13:30:50,473 - INFO - Database connection closed
+2025-05-10 13:30:50,473 - INFO - Saved 20 products with embeddings and stored in MongoDB
+2025-05-10 13:30:50,473 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-11 08:00:55,060 - INFO - Starting product collection job
+2025-05-11 08:00:55,198 - INFO - Starting daily product pipeline
+2025-05-11 08:00:55,205 - INFO - Starting daily product collection...
+2025-05-11 08:00:55,213 - INFO - Fetching batch of products (current count: 0)
+2025-05-11 08:00:57,374 - INFO - Collected 20 products for 2025-05-11
+2025-05-11 08:00:57,385 - INFO - Enriching product 1/20: SeeMuseums
+2025-05-11 08:00:57,701 - INFO - Waiting for rate limits...
+2025-05-11 08:01:00,702 - INFO - Enriching product 2/20: Rubber Duck Armada
+2025-05-11 08:01:01,084 - INFO - Waiting for rate limits...
+2025-05-11 08:01:04,084 - INFO - Enriching product 3/20: Aladin
+2025-05-11 08:01:04,530 - INFO - Waiting for rate limits...
+2025-05-11 08:01:07,531 - INFO - Enriching product 4/20: Photo AI 4
+2025-05-11 08:01:07,811 - INFO - Waiting for rate limits...
+2025-05-11 08:01:10,812 - INFO - Enriching product 5/20: Aurascope
+2025-05-11 08:01:11,089 - INFO - Waiting for rate limits...
+2025-05-11 08:01:14,090 - INFO - Enriching product 6/20: AI Voice Cloning
+2025-05-11 08:01:14,831 - INFO - Waiting for rate limits...
+2025-05-11 08:01:17,832 - INFO - Enriching product 7/20: AI Chat
+2025-05-11 08:01:18,497 - INFO - Waiting for rate limits...
+2025-05-11 08:01:21,498 - INFO - Enriching product 8/20: QU3
+2025-05-11 08:01:21,773 - INFO - Waiting for rate limits...
+2025-05-11 08:01:24,775 - INFO - Enriching product 9/20: Voila
+2025-05-11 08:01:25,058 - INFO - Waiting for rate limits...
+2025-05-11 08:01:28,060 - INFO - Enriching product 10/20: Autograph Fair Offer
+2025-05-11 08:01:28,579 - INFO - Waiting for rate limits...
+2025-05-11 08:01:31,580 - INFO - Enriching product 11/20: Hautedrop
+2025-05-11 08:01:31,862 - INFO - Waiting for rate limits...
+2025-05-11 08:01:34,864 - INFO - Enriching product 12/20: RabbitGUI
+2025-05-11 08:01:35,263 - INFO - Waiting for rate limits...
+2025-05-11 08:01:38,265 - INFO - Enriching product 13/20: duration.ai
+2025-05-11 08:01:39,295 - INFO - Waiting for rate limits...
+2025-05-11 08:01:42,296 - INFO - Enriching product 14/20: VProPle Interview Bites 
+2025-05-11 08:01:42,591 - INFO - Waiting for rate limits...
+2025-05-11 08:01:45,592 - INFO - Enriching product 15/20: Action Figure AI
+2025-05-11 08:01:45,862 - INFO - Waiting for rate limits...
+2025-05-11 08:01:48,863 - INFO - Enriching product 16/20: AI API Pricing Calculator
+2025-05-11 08:01:49,129 - INFO - Waiting for rate limits...
+2025-05-11 08:01:52,130 - INFO - Enriching product 17/20: Law Online | Law AI
+2025-05-11 08:01:52,811 - INFO - Waiting for rate limits...
+2025-05-11 08:01:55,812 - INFO - Enriching product 18/20: Avatoz
+2025-05-11 08:01:56,209 - INFO - Waiting for rate limits...
+2025-05-11 08:01:59,210 - INFO - Enriching product 19/20: Sindoor.News
+2025-05-11 08:01:59,633 - INFO - Waiting for rate limits...
+2025-05-11 08:02:02,635 - INFO - Enriching product 20/20: Seosaurus
+2025-05-11 08:02:02,910 - INFO - Waiting for rate limits...
+2025-05-11 08:02:05,916 - INFO - Saved 20 enriched products
+2025-05-11 08:02:05,917 - INFO - Generating embedding for product 1/20: SeeMuseums
+2025-05-11 08:02:07,266 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:07,793 - INFO - Generating embedding for product 2/20: Rubber Duck Armada
+2025-05-11 08:02:08,568 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:09,072 - INFO - Generating embedding for product 3/20: Aladin
+2025-05-11 08:02:09,923 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:10,427 - INFO - Generating embedding for product 4/20: Photo AI 4
+2025-05-11 08:02:10,987 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:11,490 - INFO - Generating embedding for product 5/20: Aurascope
+2025-05-11 08:02:12,171 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:12,681 - INFO - Generating embedding for product 6/20: AI Voice Cloning
+2025-05-11 08:02:13,316 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:13,819 - INFO - Generating embedding for product 7/20: AI Chat
+2025-05-11 08:02:14,236 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:14,744 - INFO - Generating embedding for product 8/20: QU3
+2025-05-11 08:02:15,679 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:16,184 - INFO - Generating embedding for product 9/20: Voila
+2025-05-11 08:02:16,897 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:17,402 - INFO - Generating embedding for product 10/20: Autograph Fair Offer
+2025-05-11 08:02:18,218 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:18,725 - INFO - Generating embedding for product 11/20: Hautedrop
+2025-05-11 08:02:20,060 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:20,564 - INFO - Generating embedding for product 12/20: RabbitGUI
+2025-05-11 08:02:20,993 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:21,495 - INFO - Generating embedding for product 13/20: duration.ai
+2025-05-11 08:02:22,227 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:22,733 - INFO - Generating embedding for product 14/20: VProPle Interview Bites 
+2025-05-11 08:02:23,104 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:23,608 - INFO - Generating embedding for product 15/20: Action Figure AI
+2025-05-11 08:02:23,999 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:24,502 - INFO - Generating embedding for product 16/20: AI API Pricing Calculator
+2025-05-11 08:02:25,184 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:25,756 - INFO - Generating embedding for product 17/20: Law Online | Law AI
+2025-05-11 08:02:26,420 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:26,927 - INFO - Generating embedding for product 18/20: Avatoz
+2025-05-11 08:02:27,751 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:28,260 - INFO - Generating embedding for product 19/20: Sindoor.News
+2025-05-11 08:02:28,696 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:29,201 - INFO - Generating embedding for product 20/20: Seosaurus
+2025-05-11 08:02:29,654 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-11 08:02:30,257 - INFO - Saved 20 products with embeddings
+2025-05-11 08:02:30,258 - INFO - Pipeline complete: 20 collected, 20 enriched, 20 with embeddings
+2025-05-11 08:02:30,259 - INFO - Product collection completed in 95.11 seconds
+2025-05-11 08:02:30,259 - INFO - Collected and processed 20 products
+2025-05-11 08:02:30,261 - INFO - Starting recommendation generation job
+2025-05-11 08:02:30,547 - INFO - Retrieved 4 active users
+2025-05-11 08:02:30,547 - INFO - Found 4 active users
+2025-05-11 08:02:30,548 - INFO - Generating recommendations for shahharsh2712@gmail.com
+2025-05-11 08:02:30,915 - INFO - Found 5 similar products
+2025-05-11 08:02:30,959 - INFO - Saved recommendations for user 67fe0ce85fce03cf360e667b on 2025-05-11
+2025-05-11 08:02:30,960 - INFO - Generated 5 recommendations for shahharsh2712@gmail.com
+2025-05-11 08:02:30,960 - INFO - Generating recommendations for coolhs821@gmail.com
+2025-05-11 08:02:31,109 - INFO - Found 5 similar products
+2025-05-11 08:02:31,112 - INFO - Saved recommendations for user 67fe81955fce03cf360e6691 on 2025-05-11
+2025-05-11 08:02:31,112 - INFO - Generated 5 recommendations for coolhs821@gmail.com
+2025-05-11 08:02:31,113 - INFO - Generating recommendations for shahsmith375@gmail.com
+2025-05-11 08:02:31,249 - INFO - Found 5 similar products
+2025-05-11 08:02:31,253 - INFO - Saved recommendations for user 680c9f2277e1a17528fa4035 on 2025-05-11
+2025-05-11 08:02:31,255 - INFO - Generated 5 recommendations for shahsmith375@gmail.com
+2025-05-11 08:02:31,255 - INFO - Generating recommendations for shahharsh0227@gmail.com
+2025-05-11 08:02:31,381 - INFO - Found 5 similar products
+2025-05-11 08:02:31,384 - INFO - Saved recommendations for user 681da52e77e1a17528fa4036 on 2025-05-11
+2025-05-11 08:02:31,385 - INFO - Generated 5 recommendations for shahharsh0227@gmail.com
+2025-05-11 08:02:31,385 - INFO - Successfully generated recommendations for 4/4 users
+2025-05-11 08:02:31,387 - INFO - Database connection closed
+2025-05-11 08:02:31,389 - INFO - Database connection closed
+2025-05-11 08:02:31,390 - INFO - Database connection closed
+2025-05-11 08:02:31,390 - INFO - Recommendation generation completed in 1.13 seconds
+2025-05-11 08:02:31,391 - INFO - Generated recommendations for 4 users
+2025-05-11 08:02:31,394 - INFO - Starting email delivery job
+2025-05-11 08:02:31,493 - INFO - Retrieved 4 active users
+2025-05-11 08:02:31,494 - INFO - Found 4 active users for email delivery
+2025-05-11 08:02:33,175 - INFO - Email sent successfully to shahharsh2712@gmail.com (status code: 202)
+2025-05-11 08:02:33,179 - INFO - Logged email delivery to shahharsh2712@gmail.com on 2025-05-11
+2025-05-11 08:02:33,506 - INFO - Email sent successfully to coolhs821@gmail.com (status code: 202)
+2025-05-11 08:02:33,508 - INFO - Logged email delivery to coolhs821@gmail.com on 2025-05-11
+2025-05-11 08:02:33,816 - INFO - Email sent successfully to shahsmith375@gmail.com (status code: 202)
+2025-05-11 08:02:33,819 - INFO - Logged email delivery to shahsmith375@gmail.com on 2025-05-11
+2025-05-11 08:02:34,164 - INFO - Email sent successfully to shahharsh0227@gmail.com (status code: 202)
+2025-05-11 08:02:34,167 - INFO - Logged email delivery to shahharsh0227@gmail.com on 2025-05-11
+2025-05-11 08:02:34,169 - INFO - Successfully sent recommendation emails to 4/4 users
+2025-05-11 08:02:34,171 - INFO - Database connection closed
+2025-05-11 08:02:34,173 - INFO - Database connection closed
+2025-05-11 08:02:34,174 - INFO - Email delivery completed in 2.78 seconds
+2025-05-11 08:02:34,175 - INFO - Sent emails to 4 users

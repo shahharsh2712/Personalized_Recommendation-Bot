@@ -1,0 +1,278 @@
+[
+  {
+    "id": "962955",
+    "name": "PulpMiner",
+    "tagline": "Converts Any Webpage Into Realtime JSON API 🟢",
+    "description": "Turn any webpage into a clean, structured realtime JSON API in seconds with PulpMiner. No scraping code required—just enter a URL and your desired JSON format. Get real-time, AI-powered APIs with flexible pricing and instant setup.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Developer Tools",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/Q7P2JPRF6FVH7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 215
+  },
+  {
+    "id": "950931",
+    "name": "Antispace",
+    "tagline": "Artificially Intelligent Operating System (AIOS)",
+    "description": "WORLD'S FIRST AIOS TO KILL BORING WORK. The Intelligent Sidekick that gives you too much power. Claim yours.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Productivity",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/IEMOGEZRKOS4OE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 213
+  },
+  {
+    "id": "963007",
+    "name": "pfp.fm",
+    "tagline": "Upgrade Your Profile Picture",
+    "description": "Transform your photo into stunning avatars in a variety of artistic styles. High quality results with transparent backgrounds so you can use the avatars however you want!",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/63GCK7JOJZXNEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 209
+  },
+  {
+    "id": "960094",
+    "name": "Pipedream MCP",
+    "tagline": "2,500+ APIs and 10,000+ tools for your AI assistant",
+    "description": "Pipedream has launched mcp.pipedream.com with dedicated MCP (Model Context Protocol) servers for 2,500+ integrated apps. These servers enable AI assistants like Claude and Cursor to securely access and interact with 1000s of APIs through a standard protocol.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/3NM3DF7L2TZAF5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 199
+  },
+  {
+    "id": "962616",
+    "name": "Le Chat Enterprise",
+    "tagline": "Customizable agent-powered AI assistant for business",
+    "description": "Secure, customizable, agent-powered AI assistant for business. Integrates company knowledge (Drive, etc.), build custom agents. Deploy cloud or on-prem.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/UWD3KX2IQJPP35?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 172
+  },
+  {
+    "id": "958045",
+    "name": "HyperArc",
+    "tagline": "AI Native Business Intelligence",
+    "description": "HyperArc is the first AI-native BI platform that learns from your team. Ask questions in plain English, get trusted insights instantly. Built by Tableau and Einstein Analytics veterans. Fast, secure, auditable insights—no SQL skills needed.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "No-Code",
+      "Data & Analytics"
+    ],
+    "website": "https://www.producthunt.com/r/A53K5CYWFTXBP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 144
+  },
+  {
+    "id": "963041",
+    "name": "FineTuner",
+    "tagline": "Fine-tune AI models on your data — in minutes, not days.",
+    "description": "FineTuner trains your own AI on your content (PDF, YouTube videos, websites...) without writing a single line of code. Generate a high-quality dataset, fine-tune your model (GPT or Claude), and deploy it via API ready to use in minutes.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/U5CAX62H6EE6U5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 137
+  },
+  {
+    "id": "962800",
+    "name": "EchoPod",
+    "tagline": " Transform written content into captivating AI podcasts",
+    "description": "Amplify your reach and engage your audience with professional-quality podcasts. Harness the power of AI to convert your articles, blogs, and stories into studio-quality audio experiences complete with music—no recording studio needed.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "Artificial Intelligence",
+      "Audio"
+    ],
+    "website": "https://www.producthunt.com/r/F53LWUU6U5GG3Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 133
+  },
+  {
+    "id": "962978",
+    "name": "Qagent",
+    "tagline": "Skip manual testing your web application. Let AI do the work",
+    "description": "AI agents for automated end-to-end testing. No scripts, no manual effort — just describe what you want to test and let our agents do the work.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Artificial Intelligence",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/5Y3OUFQLM4VZDN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 129
+  },
+  {
+    "id": "962967",
+    "name": "Seveum",
+    "tagline": "Find your dream job in record time",
+    "description": "Discover your next job with Seveum, your AI-powered job search assistant. Instantly find top-matching roles tailored to your profile. Get match insights, keyword highlights, and smart analytics to boost your chances of landing interviews.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Career"
+    ],
+    "website": "https://www.producthunt.com/r/426P3NWIBXV7NA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 128
+  },
+  {
+    "id": "961373",
+    "name": "Zoho WorkDrive 5.0",
+    "tagline": "Intelligent content management platform",
+    "description": "Centralize your files, collaborate in real time, and automate workflows—all in one secure, AI-powered platform.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Artificial Intelligence",
+      "Business Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/WMR44DFPF53MOD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 121
+  },
+  {
+    "id": "963032",
+    "name": "Shayr: Family and Finances",
+    "tagline": "Family finances & management in one place",
+    "description": "Shayr simplifies family finances and management in one place. Unify accounts, track spending, and monitor net worth as well as easily track family events, to-dos, and chore management. Keep track of your family together in one app.",
+    "category": "Fintech",
+    "topics": [
+      "Fintech",
+      "Personal Finance",
+      "Family"
+    ],
+    "website": "https://www.producthunt.com/r/FSBU2MZUY3CTVR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 109
+  },
+  {
+    "id": "958386",
+    "name": "StreaMetrics",
+    "tagline": "Real-time Twitch analytics graphs, right below the stream",
+    "description": "StreaMetrics is an open-source Chrome extension that adds a real-time graph under Twitch streams, showing live viewer counts and chat activity. Understand stream engagement instantly without leaving the page!",
+    "category": "Chrome Extensions",
+    "topics": [
+      "Chrome Extensions",
+      "Video Streaming",
+      "Open Source"
+    ],
+    "website": "https://www.producthunt.com/r/OMR4EOOIUKQSLU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 107
+  },
+  {
+    "id": "961428",
+    "name": "Alpaca Chat",
+    "tagline": "Agentic Workspace for Business",
+    "description": "Create AI agents with tools, chat multi-LLM, generate images. Alpaca Chat offers team workspaces & central billing for businesses to streamline AI tasks.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Virtual Assistants",
+      "Business Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/H6ISWJVOFGM7XG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 107
+  },
+  {
+    "id": "962744",
+    "name": "Black Screen Video Camera ",
+    "tagline": "Record video or take a photo while iPhone screen appears off",
+    "description": "A privacy-focused iOS app that lets you record video while your screen appears off. Recording discreetly or with fewer distractions can be useful—whether you’re capturing something sensitive or trying to avoid screen glow in dark environments.",
+    "category": "iOS",
+    "topics": [
+      "iOS",
+      "Anonymous",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/MGUFALXYTOUEML?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105
+  },
+  {
+    "id": "962965",
+    "name": "Pep",
+    "tagline": "Your AI Puppy Coach -- Making Physical Therapy Stick",
+    "description": "Transform your home workouts with an adorable AI companion who motivates, guides, and celebrates your wellness journey. Buddy adapts to your pace and makes exercise fun!",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness"
+    ],
+    "website": "https://www.producthunt.com/r/FF7ZKAUEUE2QOQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105
+  },
+  {
+    "id": "938601",
+    "name": "Yahini",
+    "tagline": "Your expert-level AI content strategist",
+    "description": "Yahini is a content strategy tool that replaces AI fluff with expert logic (~90% human accuracy). It performs deep SERP and business context analysis to generate funnel-mapped keyword plans and customized briefs, delivering an actionable strategy in minutes.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "SEO",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/HT4IL22JR6YVZ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 59
+  },
+  {
+    "id": "959585",
+    "name": "Eiren AI",
+    "tagline": "Your AI App for To-Do, Planning, Meditation & Journaling",
+    "description": "Eiren AI: The #1 AI-powered app for personal growth, mindfulness, and goal setting. Explore our Meditation Generator, AI Vision Creator, journaling templates, mood tracking, and more—all in one place. Available for download on the App Store and Google Play.",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness",
+      "Productivity",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/Y3PXAFGFT4SUEL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 53
+  },
+  {
+    "id": "963044",
+    "name": "CargoBrain",
+    "tagline": "AI Agents for Air Cargo",
+    "description": "Optimize air cargo operations with AI-powered agents designed for Airlines, GSAs, and Forwarders. Scale bookings, pricing, and logistics effortlessly.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/TBSQZBJ5ZIQIIJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 49
+  },
+  {
+    "id": "960072",
+    "name": "NaitivAI",
+    "tagline": "AI-Powered multilingual solutions for business communication",
+    "description": "NaitivAI is an AI-powered multilingual interpretation tool that enables real-time, personalized conversations across languages in high-stakes meetings. It lets you write or speak any language in your own voice, in real time, via web and in person conversations",
+    "category": "Languages",
+    "topics": [
+      "Languages",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/4VEMPPEZNGELIE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 37
+  }
+]

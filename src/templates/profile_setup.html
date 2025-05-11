@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete Your Profile - Product Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .form-section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .helper-text {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        select[multiple] {
+            height: auto;
+            min-height: 100px;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .checkbox-option {
+            background: #f5f5f5;
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Complete Your Profile</h1>
+    <p>Help us tailor recommendations just for you. The more you share, the better we can match you with products!</p>
+    
+    <div class="form-container">
+        <form method="post" action="/profile/setup">
+            <div class="form-section">
+                <h2>About You</h2>
+                <div class="form-group">
+                    <label for="job_role">Job Role:</label>
+                    <input type="text" id="job_role" name="job_role" placeholder="e.g., Marketing Manager, Developer">
+                </div>
+                <div class="form-group">
+                    <label for="industry">Industry:</label>
+                    <select id="industry" name="industry">
+                        <option value="">Select Industry</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Healthcare">Healthcare</option>
+                        <option value="Education">Education</option>
+                        <option value="E-commerce">E-commerce</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="company_size">Company Size:</label>
+                    <select id="company_size" name="company_size">
+                        <option value="">Select Size</option>
+                        <option value="1">Just me</option>
+                        <option value="2-10">2-10 employees</option>
+                        <option value="11-50">11-50 employees</option>
+                        <option value="51-200">51-200 employees</option>
+                        <option value="201-1000">201-1000 employees</option>
+                        <option value="1000+">1000+ employees</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- New detailed work tasks section -->
+            <div class="form-section">
+                <h2>Your Work</h2>
+                <div class="form-group">
+                    <label for="common_tasks">What tasks do you spend most time on? (select all that apply)</label>
+                    <p class="helper-text">This helps us find tools that match your daily activities</p>
+                    <select multiple id="common_tasks" name="common_tasks">
+                        <option value="data_analysis">Data Analysis</option>
+                        <option value="content_creation">Content Creation</option>
+                        <option value="project_management">Project Management</option>
+                        <option value="communication">Team Communication</option>
+                        <option value="customer_support">Customer Support</option>
+                        <option value="development">Software Development</option>
+                        <option value="design">Design Work</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="sales">Sales</option>
+                        <option value="research">Research</option>
+                        <option value="meetings">Meetings & Calls</option>
+                        <option value="email">Email Management</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="improvement_areas">Which areas are you looking to improve? (select all that apply)</label>
+                    <p class="helper-text">This helps us prioritize tools that solve your specific problems</p>
+                    <select multiple id="improvement_areas" name="improvement_areas">
+                        <option value="efficiency">Work Efficiency</option>
+                        <option value="collaboration">Team Collaboration</option>
+                        <option value="automation">Automating Tasks</option>
+                        <option value="learning">Learning New Skills</option>
+                        <option value="organization">Better Organization</option>
+                        <option value="communication">Communication</option>
+                        <option value="analytics">Better Analytics</option>
+                        <option value="customer_experience">Customer Experience</option>
+                        <option value="productivity">Personal Productivity</option>
+                        <option value="focus">Focus & Concentration</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <h2>Your Interests</h2>
+                <div class="form-group">
+                    <label for="interests">What are you interested in? (comma separated)</label>
+                    <input type="text" id="interests" name="interests" placeholder="e.g., productivity, automation, design">
+                </div>
+                <div class="form-group">
+                    <label for="tools_used">Tools you already use: (comma separated)</label>
+                    <input type="text" id="tools_used" name="tools_used" placeholder="e.g., Slack, Trello, Mailchimp">
+                </div>
+                <div class="form-group">
+                    <label for="challenges">Challenges you're facing: (comma separated)</label>
+                    <input type="text" id="challenges" name="challenges" placeholder="e.g., time management, customer support">
+                </div>
+            </div>
+            
+            <!-- New free text section -->
+            <div class="form-section">
+                <h2>Tell us more (optional)</h2>
+                <div class="form-group">
+                    <label for="workflow_description">Describe your current workflow and challenges:</label>
+                    <textarea id="workflow_description" name="workflow_description" rows="4" placeholder="Example: I manage a team of 5 designers and we struggle with file versioning and feedback collection..."></textarea>
+                    <p class="helper-text">The more details you provide, the better we can tailor recommendations</p>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ideal_solution">What would your ideal solution help you accomplish?</label>
+                    <textarea id="ideal_solution" name="ideal_solution" rows="4" placeholder="Example: I need a tool that would help me automate social media posting while analyzing which content performs best..."></textarea>
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <h2>Preferences</h2>
+                <div class="form-group">
+                    <label for="budget_preference">Budget Preference:</label>
+                    <select id="budget_preference" name="budget_preference">
+                        <option value="">Select Preference</option>
+                        <option value="free">Free tools only</option>
+                        <option value="freemium">Freemium (free tier available)</option>
+                        <option value="paid">Paid tools (with trials)</option>
+                        <option value="enterprise">Enterprise-level solutions</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button type="submit">Save Profile</button>
+                <a href="/dashboard" style="text-decoration: none;">
+                    <button type="button" class="secondary">Skip for Now</button>
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
