@@ -1,0 +1,282 @@
+[
+  {
+    "id": "490699",
+    "name": "Tolt",
+    "tagline": "All-in-one affiliate marketing software for SaaS startups",
+    "description": "Tolt helps SaaS startups launch and grow affiliate programs. Get automated payouts, fraud protection, seamless integrations (Stripe, Paddle, Chargebee), and a branded affiliate portal. Track performance with detailed reports and drive extra revenue! 🚀",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "SaaS",
+      "Affiliate marketing"
+    ],
+    "website": "https://www.producthunt.com/r/SZXJGFACIHGBFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 180
+  },
+  {
+    "id": "941021",
+    "name": "Bolto",
+    "tagline": "Find, interview, and hire engineers with AI",
+    "description": "Bolto is an all in one recruiting and HR platform. It uses AI to source, interview, and match software engineers to startups, then enables startups to pay and manage those engineers in the same place.",
+    "category": "Hiring",
+    "topics": [
+      "Hiring",
+      "Artificial Intelligence",
+      "Human Resources"
+    ],
+    "website": "https://www.producthunt.com/r/LATEAGNIMVRGAV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 162
+  },
+  {
+    "id": "962548",
+    "name": "Plakar",
+    "tagline": "Effortless Open Source Backup Platform",
+    "description": "Plakar is an open-source backup and restore solution designed to simplify data protection for businesses of all sizes. It protects anything—from local files to multi-cloud AI pipelines—while keeping every snapshot lean, encrypted, and instantly recoverable.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "GitHub",
+      "Encryption",
+      "Security"
+    ],
+    "website": "https://www.producthunt.com/r/IH5K5WTRMZRKJA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 157
+  },
+  {
+    "id": "965535",
+    "name": "Granola 2.0",
+    "tagline": "A second brain for your team",
+    "description": "Introducing the next chapter for Granola: bringing all your team's conversations into one place, and unlocking them with AI",
+    "category": "Notes",
+    "topics": [
+      "Notes",
+      "Meetings",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/VDYTTPTMUOR7V2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 144
+  },
+  {
+    "id": "964762",
+    "name": "Flowise",
+    "tagline": "Build AI Agents, Visually",
+    "description": "Open source Generative AI development platform for building AI agents & LLM workflows.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "Artificial Intelligence",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/4GTRSGU44VRGNR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 142
+  },
+  {
+    "id": "965334",
+    "name": "OpenMemory MCP",
+    "tagline": "Your private, local memory layer for all AI tools",
+    "description": "OpenMemory MCP is a private, local-first memory layer with a built-in UI, compatible with all MCP-clients. It ensures all memory stays local, structured, and under your control with no cloud sync or external storage.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Artificial Intelligence",
+      "GitHub",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/Q3HJVUSINRU47R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 121
+  },
+  {
+    "id": "965345",
+    "name": "HubSpot Meeting Scheduler in Email",
+    "tagline": "More meetings. Less drop-offs.",
+    "description": "Mailmodo presents the Hubspot meeting widget in interactive emails, which allows - 📅 Prospects to book meetings inside the email 📈 Removes all redirects, landing pages, or drop-offs 💌 10X demos, onboarding sessions, support calls.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Email Marketing",
+      "SaaS"
+    ],
+    "website": "https://www.producthunt.com/r/2LLB2JAH2GLEOJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 119
+  },
+  {
+    "id": "965528",
+    "name": "Mukh.1",
+    "tagline": "Automate work with AI Agents",
+    "description": "Mukh.1 is a no‑code visual builder that lets you drag‑drop AI agents, RAG, tools and multi‑agent workflows. Launch in minutes, monitor and scale across 2,500+ integrations, enterprise‑ready, MENA‑first. Click. Create. Automate. Join us - Start for Free Today.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/MVYOCHYSK6R7KN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 118
+  },
+  {
+    "id": "962798",
+    "name": "Files Magic AI ",
+    "tagline": "AI based Files Organization for macOS",
+    "description": "Don't have time to organize ? Introducing Files Magic AI - Your AI File Organizer for mac.Files Magic AI is your AI file assistant that instantly Organizes all your files with AI and removes clutter and automatically keeps your selected folders organized.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/TUZPV77QULODL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 118
+  },
+  {
+    "id": "964508",
+    "name": "1Stroke",
+    "tagline": "Right click and reply with AI",
+    "description": "Right-click any text field, select \"Reply with AI\" and 1Stroke generates context-aware responses for emails, chats, social media, or reviews. 100% customizable to match your tone and brand. Try it free—works everywhere you type online.",
+    "category": "Chrome Extensions",
+    "topics": [
+      "Chrome Extensions",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/MC3WKBI2ZS36W4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 115
+  },
+  {
+    "id": "965516",
+    "name": "PhraseClip",
+    "tagline": "Improve your vocabulary as you browse the web",
+    "description": "Browsing the web in a non-native language? PhraseClip lets you highlight any word or phrase and see an instant translation right on the page. Every lookup is automatically saved to your personal dictionary with an example sentence and audio pronunciation.",
+    "category": "Education",
+    "topics": [
+      "Education",
+      "Languages",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/LOIQYJ3NEIWGUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 108
+  },
+  {
+    "id": "965344",
+    "name": "PixVerse V4.5",
+    "tagline": "Cinematic AI video with pro camera controls & fusion",
+    "description": "PixVerse V4.5 elevates AI video creation with 20+ cinematic camera controls, multi-element reference & fusion, and smoother handling of complex movements for more cinematic results.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Video Art",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/WTZDLBSZNZV2GG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105
+  },
+  {
+    "id": "965471",
+    "name": "Friendzone",
+    "tagline": "Privacy-first second brain for relationships",
+    "description": "Friendzone is your personal CRM, crafted to deepen relationships with those who matter most. Don't let busy schedules weaken your bonds. With timely reminders and organized conversation tracking, Friendzone acts as your second brain for relationships.",
+    "category": "iOS",
+    "topics": [
+      "iOS",
+      "Productivity",
+      "CRM"
+    ],
+    "website": "https://www.producthunt.com/r/SLAAMVIZGYLWSB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 103
+  },
+  {
+    "id": "965281",
+    "name": "RustScan",
+    "tagline": "Fast and developer-friendly Rust contract security scanner",
+    "description": "Introducing RustScan by CredShields — go to security scanner for smart contracts built on Rust. The framework designed for speed, precision and deep threat analysis. Start securing your Rust-based contracts with confidence.",
+    "category": "Crypto",
+    "topics": [
+      "Crypto",
+      "Developer Tools",
+      "Blockchain"
+    ],
+    "website": "https://www.producthunt.com/r/QVM55Z2LV7C6XR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 101
+  },
+  {
+    "id": "965531",
+    "name": "Museboard",
+    "tagline": "Moodboarding made simple—for creators, by a creator",
+    "description": "Museboard is a fast, no-login moodboard tool built for visual creators. Drag, drop, and share your ideas instantly no clutter, just clarity. Whether you're planning a shoot, a brand, or a vibe, Museboard turns inspiration into execution, effortlessly.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Productivity"
+    ],
+    "website": "https://www.producthunt.com/r/6P3NG75AXK5VV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 98
+  },
+  {
+    "id": "964623",
+    "name": "Joyn",
+    "tagline": "Align product teams with the people closest to customers",
+    "description": "Real-time customer signals for product. Automated progress updates for the field. All within your existing tools.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Maker Tools"
+    ],
+    "website": "https://www.producthunt.com/r/Z5JMBZWWZT52GF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 94
+  },
+  {
+    "id": "965089",
+    "name": "Phala Cloud",
+    "tagline": "Zero-trust cloud for safe AGI",
+    "description": "Build and run safe AGI on Phala Cloud— a zero-trust confidential compute platform for AI teams. Spin up TEE CPU & GPUs in seconds, keep AI encrypted end-to-end. Get 30 days of free credits on launch.",
+    "category": "Developer Tools",
+    "topics": [
+      "Developer Tools",
+      "Artificial Intelligence",
+      "GitHub",
+      "SDK"
+    ],
+    "website": "https://www.producthunt.com/r/XKFPYOAZGSZHZ7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 92
+  },
+  {
+    "id": "965231",
+    "name": "Material 3 Expressive",
+    "tagline": "Build more engaging, easy-to-use products",
+    "description": "Start building with Material 3 Expressive. Material’s latest evolution helps you make products even more engaging and easier to use.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "SaaS"
+    ],
+    "website": "https://www.producthunt.com/r/KJ2AXGEVKVXH6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 88
+  },
+  {
+    "id": "965484",
+    "name": "Macrodata Refinement Application",
+    "tagline": "Uncover hidden emotions with Macrodata Refinement",
+    "description": "Users navigate a retro interface to categorize numbers into Woe, Frolic, Dread, and Malice, blending analysis with intuition in a unique, immersive experience.",
+    "category": "Work In Progress ",
+    "topics": [
+      "Work In Progress "
+    ],
+    "website": "https://www.producthunt.com/r/JTA4YGWUSACR47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 87
+  },
+  {
+    "id": "940218",
+    "name": "LilysAI",
+    "tagline": "Cursor for Information Addicts",
+    "description": "Drowning in information, you're likely missing valuable insights. LilysAI instantly extracts key takeaways from YouTube, PDFs, and articles—letting you dive deeper with one-click tools like mind maps and more. Reading alone just isn't enough anymore.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GHJSTYYU6776KD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 201
+  }
+]

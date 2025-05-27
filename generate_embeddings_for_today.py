@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 
 import json
-from data.collector import ProductCollector
+from personalized_recommendations.data.collector import ProductCollector
 
 date_string = "2025-05-11"
 enriched_file = f"data_store/enriched_products_{date_string}.json"
@@ -16,7 +16,7 @@ with open(enriched_file, "r", encoding="utf-8") as f:
     enriched_products = json.load(f)
 
 # Patch ProductCollector to save embeddings in the correct data_store directory
-from data.collector import ProductCollector
+from personalized_recommendations.data.collector import ProductCollector
 
 
 class PatchedProductCollector(ProductCollector):
@@ -54,7 +54,7 @@ class PatchedProductCollector(ProductCollector):
         output_file = f"data_store/products_with_embeddings_{date_string}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(products_with_embeddings, f, indent=2, ensure_ascii=False)
-        from storage.models import ProductStore
+        from personalized_recommendations.storage.models import ProductStore
 
         store = ProductStore()
         store.save_batch(products_with_embeddings)

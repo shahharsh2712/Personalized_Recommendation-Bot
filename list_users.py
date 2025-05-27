@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Add the parent directory to the path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from storage.models import UserProfileStore
+from personalized_recommendations.storage.models import UserProfileStore
 
 
 def list_all_users():

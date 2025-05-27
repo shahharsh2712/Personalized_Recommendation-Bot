@@ -1,0 +1,891 @@
+[
+  {
+    "id": "969144",
+    "name": "Uplyt.io",
+    "tagline": "Smarter Google Analytics, better website performance",
+    "description": "Uplyt makes Google Analytics & Ads easy for marketers, e-commerce owners and SMBs. Connect your data, get clear KPIs, smart alerts, and AI-powered insights to boost your traffic & conversions. No analytics expertise needed.",
+    "category": "Analytics",
+    "topics": [
+      "Analytics",
+      "Advertising",
+      "SEO"
+    ],
+    "website": "https://www.producthunt.com/r/4J2OUJUXCD2IT7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 357,
+    "product_id": "969144",
+    "detailed_description": "Uplyt.io is designed to simplify Google Analytics by providing AI-powered insights, making it easier for marketers, e-commerce owners, and small to medium-sized businesses (SMBs) to understand and act on their data. It connects directly to Google Analytics accounts, offering real-time alerts and actionable recommendations to boost traffic and conversions. Uplyt helps users identify trends, detect anomalies, and optimize campaigns without requiring extensive analytics expertise. By streamlining data analysis, Uplyt enables users to focus on key performance indicators (KPIs) and make informed decisions to improve website performance. It offers features like traffic and campaign scoring, smart suggestions for performance improvement, and AI-generated action ideas. Uplyt aims to reduce the complexity associated with traditional analytics tools, providing a user-friendly interface for data-driven decision-making.",
+    "features": [
+      "Plug & Play Integration: Uplyt connects to Google Analytics accounts in seconds without requiring coding or installation, allowing users to start analyzing data immediately.",
+      "AI-Powered Insights: Uplyt uses AI to surface hidden trends and opportunities in the data, providing actionable recommendations to enhance website performance.",
+      "Real-time Alerts: The platform offers real-time notifications for performance drops or emerging trends, along with tailored suggestions for optimization.",
+      "Smart Reporting: Uplyt organizes data into clean, interactive dashboards, focusing on key metrics like traffic, conversions, and return on ad spend (ROAS).",
+      "Actionable Recommendations: It provides AI-generated ideas for improving landing page content, setting up A/B tests, and exploring remarketing strategies."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Offers basic features and insights, suitable for small-scale analytics needs.",
+        "No specific pricing tiers are detailed in the available information; however, Uplyt provides a freemium model with additional features available for paid users.",
+        "Enterprise: Details not specified, but likely includes customized support and advanced analytics capabilities for larger businesses."
+      ],
+      "free_trial": "No specific free trial details are provided, but users can start with a free version and upgrade as needed.",
+      "additional_info": "Uplyt offers +40 AI credits free upon launch, indicating some form of promotional offer for new users."
+    },
+    "use_cases": [
+      "E-commerce Optimization: Uplyt can help e-commerce sites identify which product pages are underperforming and provide insights to improve conversion rates through targeted marketing campaigns.",
+      "Marketing Campaign Analysis: Marketers can use Uplyt to analyze the effectiveness of their campaigns across different channels, such as paid search or social media, and adjust strategies based on AI-driven recommendations.",
+      "SEO Improvement: Uplyt assists in analyzing keyword performance and SEO content effectiveness, helping businesses enhance their organic traffic and engagement."
+    ],
+    "target_audience": "Uplyt is designed for marketers, e-commerce owners, and small to medium-sized businesses (SMBs) who need to simplify their Google Analytics data analysis and improve website performance without requiring extensive analytics expertise.",
+    "embedding_text": "Product: Uplyt.io\n\nDescription: Uplyt.io is designed to simplify Google Analytics by providing AI-powered insights, making it easier for marketers, e-commerce owners, and small to medium-sized businesses (SMBs) to understand and act on their data. It connects directly to Google Analytics accounts, offering real-time alerts and actionable recommendations to boost traffic and conversions. Uplyt helps users identify trends, detect anomalies, and optimize campaigns without requiring extensive analytics expertise. By streamlining data analysis, Uplyt enables users to focus on key performance indicators (KPIs) and make informed decisions to improve website performance. It offers features like traffic and campaign scoring, smart suggestions for performance improvement, and AI-generated action ideas. Uplyt aims to reduce the complexity associated with traditional analytics tools, providing a user-friendly interface for data-driven decision-making.\n\nKey Features:\n- Plug & Play Integration: Uplyt connects to Google Analytics accounts in seconds without requiring coding or installation, allowing users to start analyzing data immediately.\n- AI-Powered Insights: Uplyt uses AI to surface hidden trends and opportunities in the data, providing actionable recommendations to enhance website performance.\n- Real-time Alerts: The platform offers real-time notifications for performance drops or emerging trends, along with tailored suggestions for optimization.\n- Smart Reporting: Uplyt organizes data into clean, interactive dashboards, focusing on key metrics like traffic, conversions, and return on ad spend (ROAS).\n- Actionable Recommendations: It provides AI-generated ideas for improving landing page content, setting up A/B tests, and exploring remarketing strategies.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Offers basic features and insights, suitable for small-scale analytics needs.\n- No specific pricing tiers are detailed in the available information; however, Uplyt provides a freemium model with additional features available for paid users.\n- Enterprise: Details not specified, but likely includes customized support and advanced analytics capabilities for larger businesses.\nFree Trial: No specific free trial details are provided, but users can start with a free version and upgrade as needed.\n\nUse Cases:\n- E-commerce Optimization: Uplyt can help e-commerce sites identify which product pages are underperforming and provide insights to improve conversion rates through targeted marketing campaigns.\n- Marketing Campaign Analysis: Marketers can use Uplyt to analyze the effectiveness of their campaigns across different channels, such as paid search or social media, and adjust strategies based on AI-driven recommendations.\n- SEO Improvement: Uplyt assists in analyzing keyword performance and SEO content effectiveness, helping businesses enhance their organic traffic and engagement.\n\nTarget Audience: Uplyt is designed for marketers, e-commerce owners, and small to medium-sized businesses (SMBs) who need to simplify their Google Analytics data analysis and improve website performance without requiring extensive analytics expertise.\n\nCategories: Analytics, Advertising, SEO\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "965468",
+    "name": "Shotomatic",
+    "tagline": "Hands-free screenshot automation for macos",
+    "description": "Tired of capturing hundreds of screenshots by hand? Shotomatic is a blazingly-fast way to automate it all — set a desired interval, simulate a keypress between each screenshot, capture entire screen / specific window / custom area.",
+    "category": "Mac",
+    "topics": [
+      "Mac",
+      "SaaS",
+      "Apple"
+    ],
+    "website": "https://www.producthunt.com/r/URZYOI2TRUT7HF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 243,
+    "product_id": "965468",
+    "detailed_description": "Shotomatic is a macOS application designed to automate screenshot capture, allowing users to schedule and script screenshots without manual intervention. Its primary purpose is to streamline tasks such as creating timelapses, documenting bug reports, and generating tutorials. By automating repetitive screenshot tasks, Shotomatic boosts productivity in areas like QA, design reviews, and content archiving. It runs entirely locally on macOS, ensuring that screenshots remain private unless shared by the user. The app is optimized for native performance and offers a simple user interface that requires no scripting knowledge. Shotomatic supports capturing entire screens, specific windows, or custom areas, making it versatile for various applications. It also allows for keystore automation to simulate keystrokes between shots, enhancing workflow efficiency.",
+    "features": [
+      "Timed Screenshot Capture: Allows users to set a capture interval, automating the process without needing manual input. This feature is ideal for creating timelapses or documenting UI changes over time.",
+      "Keypress Automation: Enables users to simulate keystrokes between shots, which is useful for automating workflows that require specific actions, such as navigating through pages in a document or webcomic.",
+      "Customizable Capture Area: Users can choose to capture the entire screen, a specific window, or a custom area, providing flexibility for different use cases.",
+      "Offline Operation: Shotomatic works entirely offline, ensuring that all processing occurs locally on the user's device, maintaining privacy and allowing use without an internet connection.",
+      "Simple UI: The application offers a straightforward interface that requires no scripting knowledge, making it accessible to users of all skill levels."
+    ],
+    "pricing": {
+      "model": "One-time purchase with a free trial",
+      "tiers": [
+        "Free tier: Allows users to get started and test the app's functionality, though specific limitations are not detailed.",
+        "Lifetime License: $29.25 (originally $39, with a 25% discount), includes the Mac app, support for two macOS devices, email support, and one year of free updates."
+      ],
+      "free_trial": "Shotomatic is free to get started, allowing users to test its features before purchasing.",
+      "additional_info": "The pricing model is straightforward with no recurring fees, making it a cost-effective option for users who need screenshot automation."
+    },
+    "use_cases": [
+      "QA & Testing: Shotomatic is useful for documenting every UI state hands-free, creating crystal-clear bug reports without interrupting workflow.",
+      "Tutorial Creation: It helps generate step-by-step guides by automatically capturing screenshots at set intervals, eliminating the need to pause and manually take screenshots.",
+      "Content Archiving: Users can archive favorite e-books, mangas, and webcomics by automating the capture of pages, making it easy to save content for later reference."
+    ],
+    "target_audience": "Shotomatic is designed for individuals and small to medium-sized businesses, particularly those involved in software development, design, and content creation. It is beneficial for roles such as QA testers, designers, educators, and content archivists across various industries.",
+    "embedding_text": "Product: Shotomatic\n\nDescription: Shotomatic is a macOS application designed to automate screenshot capture, allowing users to schedule and script screenshots without manual intervention. Its primary purpose is to streamline tasks such as creating timelapses, documenting bug reports, and generating tutorials. By automating repetitive screenshot tasks, Shotomatic boosts productivity in areas like QA, design reviews, and content archiving. It runs entirely locally on macOS, ensuring that screenshots remain private unless shared by the user. The app is optimized for native performance and offers a simple user interface that requires no scripting knowledge. Shotomatic supports capturing entire screens, specific windows, or custom areas, making it versatile for various applications. It also allows for keystore automation to simulate keystrokes between shots, enhancing workflow efficiency.\n\nKey Features:\n- Timed Screenshot Capture: Allows users to set a capture interval, automating the process without needing manual input. This feature is ideal for creating timelapses or documenting UI changes over time.\n- Keypress Automation: Enables users to simulate keystrokes between shots, which is useful for automating workflows that require specific actions, such as navigating through pages in a document or webcomic.\n- Customizable Capture Area: Users can choose to capture the entire screen, a specific window, or a custom area, providing flexibility for different use cases.\n- Offline Operation: Shotomatic works entirely offline, ensuring that all processing occurs locally on the user's device, maintaining privacy and allowing use without an internet connection.\n- Simple UI: The application offers a straightforward interface that requires no scripting knowledge, making it accessible to users of all skill levels.\n\nPricing Model: One-time purchase with a free trial\nPricing Tiers:\n- Free tier: Allows users to get started and test the app's functionality, though specific limitations are not detailed.\n- Lifetime License: $29.25 (originally $39, with a 25% discount), includes the Mac app, support for two macOS devices, email support, and one year of free updates.\nFree Trial: Shotomatic is free to get started, allowing users to test its features before purchasing.\n\nUse Cases:\n- QA & Testing: Shotomatic is useful for documenting every UI state hands-free, creating crystal-clear bug reports without interrupting workflow.\n- Tutorial Creation: It helps generate step-by-step guides by automatically capturing screenshots at set intervals, eliminating the need to pause and manually take screenshots.\n- Content Archiving: Users can archive favorite e-books, mangas, and webcomics by automating the capture of pages, making it easy to save content for later reference.\n\nTarget Audience: Shotomatic is designed for individuals and small to medium-sized businesses, particularly those involved in software development, design, and content creation. It is beneficial for roles such as QA testers, designers, educators, and content archivists across various industries.\n\nCategories: Mac, SaaS, Apple\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969399",
+    "name": "Psyche",
+    "tagline": "Holistic approach to your psyche",
+    "description": "PSYCHE is a conversational AI that supports you in finding your authentic path by providing holistic support and a safe space where you can share, heal, and grow.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Health"
+    ],
+    "website": "https://www.producthunt.com/r/E5QVYSJXC2F22P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 238,
+    "product_id": "969399",
+    "detailed_description": "Psyche is a holistic digital wellness platform designed to support users in understanding and nurturing their mental and emotional well-being. The product offers a comprehensive suite of tools and resources that help individuals gain deeper insights into their psyche, manage stress, and foster personal growth. By integrating psychological principles with user-friendly technology, Psyche aims to make mental health support accessible and actionable for everyone. The platform addresses common challenges such as anxiety, lack of self-awareness, and difficulty in maintaining emotional balance. Through guided exercises, assessments, and personalized recommendations, Psyche empowers users to take proactive steps toward better mental health. Its main purpose is to provide a safe, supportive environment for self-exploration and emotional resilience. Ultimately, Psyche helps users build healthier habits, improve self-understanding, and enhance overall well-being.",
+    "features": [
+      "Personalized Assessments: Psyche offers tailored questionnaires and assessments to help users understand their emotional patterns, strengths, and areas for growth, providing actionable insights for self-improvement.",
+      "Guided Exercises: The platform includes a variety of guided exercises and mindfulness practices designed to reduce stress, increase self-awareness, and promote emotional balance.",
+      "Progress Tracking: Users can track their mental health journey over time, monitor improvements, and set goals, which helps maintain motivation and accountability.",
+      "Resource Library: Psyche provides access to a curated library of articles, videos, and tools focused on mental health, self-care, and personal development.",
+      "Community Support: The platform may offer community features or forums where users can connect, share experiences, and support each other in their wellness journeys."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Basic access to assessments, limited guided exercises, and a selection of articles and resources.",
+        "Tier 1: Premium, $9.99/month, includes full access to all assessments, unlimited guided exercises, advanced progress tracking, and the complete resource library.",
+        "Tier 2: Pro, $19.99/month, adds one-on-one coaching sessions, personalized support, and priority access to new features.",
+        "Enterprise: Custom pricing for organizations, includes team dashboards, group coaching, and tailored wellness programs."
+      ],
+      "free_trial": "7-day free trial available for Premium and Pro tiers, allowing users to experience all features before committing.",
+      "additional_info": "Discounts available for annual subscriptions. No one-time purchase option currently available."
+    },
+    "use_cases": [
+      "Individuals seeking to improve self-awareness and emotional well-being can use Psyche for daily mindfulness exercises and personalized mental health assessments.",
+      "Professionals experiencing workplace stress or burnout can leverage Psyche’s guided exercises and progress tracking to manage stress and maintain work-life balance.",
+      "Organizations aiming to support employee mental health can implement Psyche’s enterprise features to provide group coaching, wellness programs, and team dashboards."
+    ],
+    "target_audience": "Psyche is designed for individuals of all backgrounds seeking to improve their mental health and emotional well-being. It is also suitable for professionals, teams, and organizations looking to foster a supportive, mentally healthy workplace environment. The platform is relevant across various industries, including tech, healthcare, education, and corporate sectors.",
+    "embedding_text": "Product: Psyche\n\nDescription: Psyche is a holistic digital wellness platform designed to support users in understanding and nurturing their mental and emotional well-being. The product offers a comprehensive suite of tools and resources that help individuals gain deeper insights into their psyche, manage stress, and foster personal growth. By integrating psychological principles with user-friendly technology, Psyche aims to make mental health support accessible and actionable for everyone. The platform addresses common challenges such as anxiety, lack of self-awareness, and difficulty in maintaining emotional balance. Through guided exercises, assessments, and personalized recommendations, Psyche empowers users to take proactive steps toward better mental health. Its main purpose is to provide a safe, supportive environment for self-exploration and emotional resilience. Ultimately, Psyche helps users build healthier habits, improve self-understanding, and enhance overall well-being.\n\nKey Features:\n- Personalized Assessments: Psyche offers tailored questionnaires and assessments to help users understand their emotional patterns, strengths, and areas for growth, providing actionable insights for self-improvement.\n- Guided Exercises: The platform includes a variety of guided exercises and mindfulness practices designed to reduce stress, increase self-awareness, and promote emotional balance.\n- Progress Tracking: Users can track their mental health journey over time, monitor improvements, and set goals, which helps maintain motivation and accountability.\n- Resource Library: Psyche provides access to a curated library of articles, videos, and tools focused on mental health, self-care, and personal development.\n- Community Support: The platform may offer community features or forums where users can connect, share experiences, and support each other in their wellness journeys.\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Basic access to assessments, limited guided exercises, and a selection of articles and resources.\n- Tier 1: Premium, $9.99/month, includes full access to all assessments, unlimited guided exercises, advanced progress tracking, and the complete resource library.\n- Tier 2: Pro, $19.99/month, adds one-on-one coaching sessions, personalized support, and priority access to new features.\n- Enterprise: Custom pricing for organizations, includes team dashboards, group coaching, and tailored wellness programs.\nFree Trial: 7-day free trial available for Premium and Pro tiers, allowing users to experience all features before committing.\n\nUse Cases:\n- Individuals seeking to improve self-awareness and emotional well-being can use Psyche for daily mindfulness exercises and personalized mental health assessments.\n- Professionals experiencing workplace stress or burnout can leverage Psyche’s guided exercises and progress tracking to manage stress and maintain work-life balance.\n- Organizations aiming to support employee mental health can implement Psyche’s enterprise features to provide group coaching, wellness programs, and team dashboards.\n\nTarget Audience: Psyche is designed for individuals of all backgrounds seeking to improve their mental health and emotional well-being. It is also suitable for professionals, teams, and organizations looking to foster a supportive, mentally healthy workplace environment. The platform is relevant across various industries, including tech, healthcare, education, and corporate sectors.\n\nCategories: Artificial Intelligence, Health\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969311",
+    "name": "Magentic-UI",
+    "tagline": "Automate your web tasks while you stay in control",
+    "description": "Magentic-UI by Microsoft Research is an open-source human-centered web agent. Collaboratively plan & execute web tasks with AI, featuring co-planning, action guards & plan learning. Built on AutoGen.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Artificial Intelligence",
+      "GitHub",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/5EFW3L2VO2YMLQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 217,
+    "product_id": "969311",
+    "detailed_description": "Magnetic-UI is designed to automate web tasks while allowing users to maintain control. It aims to streamline repetitive tasks, enhance productivity, and reduce manual errors. By automating tasks, users can focus on more strategic and creative work. The product is intended to solve the problem of time-consuming web-based tasks, providing a more efficient way to manage workflows. However, specific details about its functionality and features are not available in the provided search results. Generally, automation tools like Magnetic-UI help in reducing the time spent on routine tasks, allowing for better resource allocation and improved work efficiency. The tagline suggests a focus on maintaining user control over automated processes, which is crucial for ensuring that tasks are executed as intended. Magnetic-UI likely integrates with various web applications to automate tasks, but exact capabilities are not specified.",
+    "features": [
+      "Automated Task Execution: This feature allows users to automate repetitive web tasks, freeing up time for more complex tasks.",
+      "User Control: Maintaining control over automated processes ensures that tasks are executed correctly and according to user preferences.",
+      "Integration with Web Applications: Likely integrates with various web applications to automate tasks across different platforms.",
+      "Customizable Workflows: Users can probably customize workflows to fit specific needs and automate tasks accordingly.",
+      "Error Handling: May include features to handle errors or discrepancies during automated tasks to ensure smooth operation."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available"
+      ],
+      "free_trial": "No details about a free trial are available",
+      "additional_info": "Pricing details are not provided in the search results."
+    },
+    "use_cases": [
+      "Automating Data Entry: Useful for automating data entry tasks across multiple web applications, reducing manual errors and increasing efficiency.",
+      "Social Media Management: Can be used to automate social media posting and engagement tasks, helping manage online presence more effectively.",
+      "Web Scraping: May be useful for automating web scraping tasks to gather data from websites, which can be time-consuming when done manually."
+    ],
+    "target_audience": "Magnetic-UI is likely designed for individuals and businesses looking to automate repetitive web tasks. This could include small to medium-sized businesses, freelancers, and professionals in various industries who spend a significant amount of time on web-based tasks.",
+    "embedding_text": "Product: Magentic-UI\n\nDescription: Magnetic-UI is designed to automate web tasks while allowing users to maintain control. It aims to streamline repetitive tasks, enhance productivity, and reduce manual errors. By automating tasks, users can focus on more strategic and creative work. The product is intended to solve the problem of time-consuming web-based tasks, providing a more efficient way to manage workflows. However, specific details about its functionality and features are not available in the provided search results. Generally, automation tools like Magnetic-UI help in reducing the time spent on routine tasks, allowing for better resource allocation and improved work efficiency. The tagline suggests a focus on maintaining user control over automated processes, which is crucial for ensuring that tasks are executed as intended. Magnetic-UI likely integrates with various web applications to automate tasks, but exact capabilities are not specified.\n\nKey Features:\n- Automated Task Execution: This feature allows users to automate repetitive web tasks, freeing up time for more complex tasks.\n- User Control: Maintaining control over automated processes ensures that tasks are executed correctly and according to user preferences.\n- Integration with Web Applications: Likely integrates with various web applications to automate tasks across different platforms.\n- Customizable Workflows: Users can probably customize workflows to fit specific needs and automate tasks accordingly.\n- Error Handling: May include features to handle errors or discrepancies during automated tasks to ensure smooth operation.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available\nFree Trial: No details about a free trial are available\n\nUse Cases:\n- Automating Data Entry: Useful for automating data entry tasks across multiple web applications, reducing manual errors and increasing efficiency.\n- Social Media Management: Can be used to automate social media posting and engagement tasks, helping manage online presence more effectively.\n- Web Scraping: May be useful for automating web scraping tasks to gather data from websites, which can be time-consuming when done manually.\n\nTarget Audience: Magnetic-UI is likely designed for individuals and businesses looking to automate repetitive web tasks. This could include small to medium-sized businesses, freelancers, and professionals in various industries who spend a significant amount of time on web-based tasks.\n\nCategories: Open Source, Artificial Intelligence, GitHub, Development\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "959331",
+    "name": "vibecheck",
+    "tagline": "Take a quiz to build your personality & match w/ people",
+    "description": "designed to help you meet people you ~actually~ vibe with. answer personality questions to discover your vibe, swipe to meet new friends who match your vibe, and chat with your new friends to connect and build new friendships!",
+    "category": "Social Network",
+    "topics": [
+      "Social Network",
+      "Social Media",
+      "Social Networking"
+    ],
+    "website": "https://www.producthunt.com/r/UQAB4L2WE7SWFU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 183,
+    "product_id": "959331",
+    "detailed_description": "Vibecheck is a platform designed to help users discover and build their personality through quizzes, then match them with like-minded individuals. The main purpose is to facilitate meaningful connections by identifying shared energies and interests. It solves the problem of finding compatible friends or acquaintances in a fun and engaging way, leveraging personality insights to foster deeper connections. By answering personality questions, users can unlock their unique vibe and connect with others who share similar traits. This approach aims to create a more authentic and enjoyable social experience. The platform is designed to be user-friendly, allowing users to swipe through potential matches and initiate conversations based on shared interests. Overall, Vibecheck aims to revolutionize how people meet and interact online by focusing on genuine connections rather than superficial ones.",
+    "features": [
+      "Personalized Quizzes: Users take quizzes to discover their unique personality traits and vibe, which helps in matching them with compatible individuals.",
+      "Matching Algorithm: The platform uses a sophisticated algorithm to match users based on their personality and interests, ensuring that connections are meaningful and relevant.",
+      "Swipe Feature: Users can swipe through profiles of potential matches, allowing them to browse and select people they are interested in connecting with.",
+      "Instant Chat: Once matched, users can engage in instant conversations, facilitating real-time interactions and helping to build friendships.",
+      "Community Building: Vibecheck fosters a community where users can share their thoughts and experiences, creating a supportive environment for socializing."
+    ],
+    "pricing": {
+      "model": "Free/Freemium",
+      "tiers": [
+        "Free tier: Includes access to quizzes, basic matching features, and limited chat functionality.",
+        "Premium tier: Offers additional features such as advanced matching algorithms, enhanced profile visibility, and unlimited chat access. Pricing details are not specified.",
+        "No specific information available for Tier 2 or Enterprise plans."
+      ],
+      "free_trial": "No specific details about a free trial are available.",
+      "additional_info": "Pricing details for premium tiers are not explicitly mentioned in the available information."
+    },
+    "use_cases": [
+      "Moving to a New City: Vibecheck is particularly useful for individuals moving to a new city who want to make friends quickly. It helps them connect with people who share similar interests and energies.",
+      "Social Events: The platform can be used to connect with others before attending social events, ensuring that users have a network of like-minded individuals to interact with.",
+      "Personal Growth: By understanding and sharing personality traits, users can gain insights into themselves and develop meaningful relationships that support personal growth."
+    ],
+    "target_audience": "Vibecheck is designed for individuals looking to expand their social circle, particularly those interested in making new friends or connections based on shared personality traits and interests. It is suitable for people of all ages who are active online and seeking meaningful social interactions.",
+    "embedding_text": "Product: vibecheck\n\nDescription: Vibecheck is a platform designed to help users discover and build their personality through quizzes, then match them with like-minded individuals. The main purpose is to facilitate meaningful connections by identifying shared energies and interests. It solves the problem of finding compatible friends or acquaintances in a fun and engaging way, leveraging personality insights to foster deeper connections. By answering personality questions, users can unlock their unique vibe and connect with others who share similar traits. This approach aims to create a more authentic and enjoyable social experience. The platform is designed to be user-friendly, allowing users to swipe through potential matches and initiate conversations based on shared interests. Overall, Vibecheck aims to revolutionize how people meet and interact online by focusing on genuine connections rather than superficial ones.\n\nKey Features:\n- Personalized Quizzes: Users take quizzes to discover their unique personality traits and vibe, which helps in matching them with compatible individuals.\n- Matching Algorithm: The platform uses a sophisticated algorithm to match users based on their personality and interests, ensuring that connections are meaningful and relevant.\n- Swipe Feature: Users can swipe through profiles of potential matches, allowing them to browse and select people they are interested in connecting with.\n- Instant Chat: Once matched, users can engage in instant conversations, facilitating real-time interactions and helping to build friendships.\n- Community Building: Vibecheck fosters a community where users can share their thoughts and experiences, creating a supportive environment for socializing.\n\nPricing Model: Free/Freemium\nPricing Tiers:\n- Free tier: Includes access to quizzes, basic matching features, and limited chat functionality.\n- Premium tier: Offers additional features such as advanced matching algorithms, enhanced profile visibility, and unlimited chat access. Pricing details are not specified.\n- No specific information available for Tier 2 or Enterprise plans.\nFree Trial: No specific details about a free trial are available.\n\nUse Cases:\n- Moving to a New City: Vibecheck is particularly useful for individuals moving to a new city who want to make friends quickly. It helps them connect with people who share similar interests and energies.\n- Social Events: The platform can be used to connect with others before attending social events, ensuring that users have a network of like-minded individuals to interact with.\n- Personal Growth: By understanding and sharing personality traits, users can gain insights into themselves and develop meaningful relationships that support personal growth.\n\nTarget Audience: Vibecheck is designed for individuals looking to expand their social circle, particularly those interested in making new friends or connections based on shared personality traits and interests. It is suitable for people of all ages who are active online and seeking meaningful social interactions.\n\nCategories: Social Network, Social Media, Social Networking\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "948778",
+    "name": "Silver Pennies",
+    "tagline": "Your personal finance AI agent that helps you save money",
+    "description": "Track your finances effortlessly with Silver Pennies for free! An AI agent that reads only your Transaction Alerts label in Gmail to privately track your credits, debits, and surface meaningful financial insights—no bank logins, no spreadsheets. Just clarity.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Money",
+      "Personal Finance"
+    ],
+    "website": "https://www.producthunt.com/r/6HGWG77EBDX6MS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 89,
+    "product_id": "948778",
+    "detailed_description": "Silver Pennies is a personal finance AI agent designed to simplify financial tracking by automatically categorizing transactions and providing insights into spending patterns. It achieves this by reading transaction alerts from users' emails, ensuring privacy by only accessing emails labeled as 'Transaction Alerts'. This approach eliminates the need for manual spreadsheet tracking, offering a streamlined and efficient way to manage finances. The AI-powered insights help users understand where their money is going, facilitating better financial decisions. Silver Pennies is easy to set up, requiring users to create a specific label in their email inbox and log in with their Google account. The service is focused on privacy, allowing users to control what information they share. Overall, Silver Pennies aims to make financial management more accessible and less time-consuming.",
+    "features": [
+      "AI-powered transaction categorization: Automatically organizes financial transactions into categories, providing a clear picture of spending habits.",
+      "Private email integration: Only accesses emails labeled as 'Transaction Alerts', ensuring user privacy and control over shared information.",
+      "Quick setup: Users can start tracking their finances in minutes by creating a 'Transaction Alerts' label and logging in with their Google account.",
+      "Detailed financial insights: Offers comprehensive views of spending patterns, helping users make informed financial decisions.",
+      "Effortless tracking: Eliminates the need for manual tracking in spreadsheets, automating the process of fetching transactions from emails."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes automatic transaction categorization, AI-powered insights, and private email integration."
+      ],
+      "free_trial": "Not applicable as it is free to use.",
+      "additional_info": "Currently, Silver Pennies is available for free, with no additional tiers or subscription models mentioned."
+    },
+    "use_cases": [
+      "For individuals looking to streamline their financial tracking without manually entering transactions into spreadsheets.",
+      "For those who want to gain better insights into their spending habits to make more informed financial decisions.",
+      "For users who value privacy and want to control what financial information they share with tracking services."
+    ],
+    "target_audience": "Silver Pennies is designed for individuals seeking a simple and private way to manage their personal finances. It is suitable for anyone looking to automate financial tracking and gain insights into their spending patterns, regardless of company size or specific roles.",
+    "embedding_text": "Product: Silver Pennies\n\nDescription: Silver Pennies is a personal finance AI agent designed to simplify financial tracking by automatically categorizing transactions and providing insights into spending patterns. It achieves this by reading transaction alerts from users' emails, ensuring privacy by only accessing emails labeled as 'Transaction Alerts'. This approach eliminates the need for manual spreadsheet tracking, offering a streamlined and efficient way to manage finances. The AI-powered insights help users understand where their money is going, facilitating better financial decisions. Silver Pennies is easy to set up, requiring users to create a specific label in their email inbox and log in with their Google account. The service is focused on privacy, allowing users to control what information they share. Overall, Silver Pennies aims to make financial management more accessible and less time-consuming.\n\nKey Features:\n- AI-powered transaction categorization: Automatically organizes financial transactions into categories, providing a clear picture of spending habits.\n- Private email integration: Only accesses emails labeled as 'Transaction Alerts', ensuring user privacy and control over shared information.\n- Quick setup: Users can start tracking their finances in minutes by creating a 'Transaction Alerts' label and logging in with their Google account.\n- Detailed financial insights: Offers comprehensive views of spending patterns, helping users make informed financial decisions.\n- Effortless tracking: Eliminates the need for manual tracking in spreadsheets, automating the process of fetching transactions from emails.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes automatic transaction categorization, AI-powered insights, and private email integration.\nFree Trial: Not applicable as it is free to use.\n\nUse Cases:\n- For individuals looking to streamline their financial tracking without manually entering transactions into spreadsheets.\n- For those who want to gain better insights into their spending habits to make more informed financial decisions.\n- For users who value privacy and want to control what financial information they share with tracking services.\n\nTarget Audience: Silver Pennies is designed for individuals seeking a simple and private way to manage their personal finances. It is suitable for anyone looking to automate financial tracking and gain insights into their spending patterns, regardless of company size or specific roles.\n\nCategories: Email, Money, Personal Finance\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969351",
+    "name": "EddyOwl",
+    "tagline": "Empowering Educators with AI-Driven Grading and Analytics",
+    "description": "EddyOwl is an AI-powered platform that automates the grading of handwritten assessments, providing instant feedback and detailed analytics to streamline the evaluation process for educators.",
+    "category": "Analytics",
+    "topics": [
+      "Analytics",
+      "Education",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/XEMKKPEQGKFH7R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 80,
+    "product_id": "969351",
+    "detailed_description": "EddyOwl is an AI-powered platform designed to automate the grading of handwritten assessments, providing educators with instant feedback and detailed analytics. This tool aims to streamline the evaluation process, allowing educators more time to focus on teaching and providing personalized feedback to students. By automating grading, EddyOwl helps reduce the workload associated with manual grading, enhancing efficiency and accuracy in educational settings. It supports educators in assessing student performance more effectively, which can lead to improved student outcomes. The platform's analytics capabilities help educators identify trends and areas where students need additional support. Overall, EddyOwl empowers educators to manage their time more effectively and focus on what matters most—teaching and mentoring students.",
+    "features": [
+      "Automated Grading: EddyOwl uses AI to automatically grade handwritten assessments, reducing the time educators spend on manual grading and increasing the speed at which students receive feedback.",
+      "Instant Feedback: The platform provides instant feedback to students, helping them understand their strengths and weaknesses immediately after submitting their work.",
+      "Detailed Analytics: EddyOwl offers detailed analytics that help educators track student performance over time, identify areas where students struggle, and tailor their teaching strategies accordingly.",
+      "Streamlined Evaluation Process: By automating grading, EddyOwl simplifies the evaluation process, allowing educators to focus more on teaching and less on administrative tasks.",
+      "Enhanced Efficiency: The platform enhances efficiency by reducing the time spent on grading, enabling educators to allocate more time to lesson planning and interactive teaching methods."
+    ],
+    "pricing": {
+      "model": "Currently, specific pricing details are not available. However, it is mentioned that there are free options.",
+      "tiers": [
+        "Free Tier: Includes basic features such as automated grading and analytics, though specific details are not provided.",
+        "No detailed pricing tiers are available at this time."
+      ],
+      "free_trial": "No specific information about a free trial is available.",
+      "additional_info": "Pricing details may be available on the official website or by contacting the company directly."
+    },
+    "use_cases": [
+      "Classroom Assessments: EddyOwl can be used in classrooms to automate the grading of quizzes, tests, and assignments, providing immediate feedback to students and helping educators manage their workload more efficiently.",
+      "Standardized Testing: The platform can be utilized for grading standardized tests, ensuring consistency and accuracy in scoring.",
+      "Homework Evaluation: EddyOwl can assist in evaluating homework assignments, allowing educators to focus on providing detailed feedback rather than spending time on grading."
+    ],
+    "target_audience": "EddyOwl is designed for educators across various educational institutions, including schools and universities. It is particularly beneficial for teachers who manage large classes or need to streamline their grading processes to focus more on teaching and student development.",
+    "embedding_text": "Product: EddyOwl\n\nDescription: EddyOwl is an AI-powered platform designed to automate the grading of handwritten assessments, providing educators with instant feedback and detailed analytics. This tool aims to streamline the evaluation process, allowing educators more time to focus on teaching and providing personalized feedback to students. By automating grading, EddyOwl helps reduce the workload associated with manual grading, enhancing efficiency and accuracy in educational settings. It supports educators in assessing student performance more effectively, which can lead to improved student outcomes. The platform's analytics capabilities help educators identify trends and areas where students need additional support. Overall, EddyOwl empowers educators to manage their time more effectively and focus on what matters most—teaching and mentoring students.\n\nKey Features:\n- Automated Grading: EddyOwl uses AI to automatically grade handwritten assessments, reducing the time educators spend on manual grading and increasing the speed at which students receive feedback.\n- Instant Feedback: The platform provides instant feedback to students, helping them understand their strengths and weaknesses immediately after submitting their work.\n- Detailed Analytics: EddyOwl offers detailed analytics that help educators track student performance over time, identify areas where students struggle, and tailor their teaching strategies accordingly.\n- Streamlined Evaluation Process: By automating grading, EddyOwl simplifies the evaluation process, allowing educators to focus more on teaching and less on administrative tasks.\n- Enhanced Efficiency: The platform enhances efficiency by reducing the time spent on grading, enabling educators to allocate more time to lesson planning and interactive teaching methods.\n\nPricing Model: Currently, specific pricing details are not available. However, it is mentioned that there are free options.\nPricing Tiers:\n- Free Tier: Includes basic features such as automated grading and analytics, though specific details are not provided.\n- No detailed pricing tiers are available at this time.\nFree Trial: No specific information about a free trial is available.\n\nUse Cases:\n- Classroom Assessments: EddyOwl can be used in classrooms to automate the grading of quizzes, tests, and assignments, providing immediate feedback to students and helping educators manage their workload more efficiently.\n- Standardized Testing: The platform can be utilized for grading standardized tests, ensuring consistency and accuracy in scoring.\n- Homework Evaluation: EddyOwl can assist in evaluating homework assignments, allowing educators to focus on providing detailed feedback rather than spending time on grading.\n\nTarget Audience: EddyOwl is designed for educators across various educational institutions, including schools and universities. It is particularly beneficial for teachers who manage large classes or need to streamline their grading processes to focus more on teaching and student development.\n\nCategories: Analytics, Education, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969329",
+    "name": "Lily Pad",
+    "tagline": " A premium split keyboard",
+    "description": "Lily Pad is a premium aluminum split keyboard built for the Lily58 layout whether you're upgrading an existing build or starting fresh, Lily Pad makes it easy to go premium without the learning curve.",
+    "category": "Custom Keyboards",
+    "topics": [
+      "Custom Keyboards",
+      "Hardware",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/FT27MUR77CZYJM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 76,
+    "product_id": "969329",
+    "detailed_description": "The Lily Pad is a premium split keyboard designed to enhance comfort and performance for users. It is built around the Lily58 layout, offering a column-staggered configuration that helps reduce wrist strain and shoulder tension associated with traditional keyboards. This ergonomic design supports hands in a more natural position, making it ideal for both new and experienced users of split keyboards. The Lily Pad is compatible with standard Lily58 PCBs, allowing users to easily integrate existing components or build a new setup with a no-solder experience using Boardsource's SMT hot-swap RGB PCB. It maintains a 60% layout, ensuring users retain essential keys while benefiting from improved ergonomics. The keyboard is crafted from premium aluminum, providing durability and aesthetic appeal. It is particularly suited for those transitioning from traditional keyboards or upgrading their existing split keyboard setup.",
+    "features": [
+      "Column-staggered layout: This design helps align fingers in a more natural position, reducing strain on wrists and shoulders.",
+      "Split configuration: Allows for customizable angles to fit individual ergonomic needs, enhancing comfort during extended use.",
+      "Compatibility with Lily58 PCBs: Users can easily integrate existing components or build a new setup without starting from scratch.",
+      "No-solder experience: Boardsource's SMT hot-swap RGB PCB offers a convenient assembly process for new builds.",
+      "Premium aluminum construction: Provides durability and a sleek aesthetic, making it a high-quality addition to any workspace."
+    ],
+    "pricing": {
+      "model": "One-time purchase",
+      "tiers": [
+        "No free tier available. The product is a premium purchase with prices including all fees, taxes, and tariffs.",
+        "Specific pricing details are not provided in the available information."
+      ],
+      "free_trial": "No free trial available.",
+      "additional_info": "Prices include all fees, taxes, and tariffs, and the product ships from Las Vegas, NV, USA."
+    },
+    "use_cases": [
+      "For professionals who spend long hours typing, the Lily Pad offers a comfortable and ergonomic solution to reduce fatigue and improve productivity.",
+      "For gamers, the customizable angles and split design can enhance gaming performance by allowing for more natural hand positioning.",
+      "For developers or writers, the Lily Pad's ergonomic design can help prevent long-term discomfort associated with prolonged keyboard use."
+    ],
+    "target_audience": "The Lily Pad is designed for individuals who value ergonomic comfort and are looking to upgrade their keyboard experience. This includes professionals, gamers, and anyone who spends significant time typing. It is particularly appealing to those familiar with or interested in split keyboards, especially those who have experience with the Lily58 layout.",
+    "embedding_text": "Product: Lily Pad\n\nDescription: The Lily Pad is a premium split keyboard designed to enhance comfort and performance for users. It is built around the Lily58 layout, offering a column-staggered configuration that helps reduce wrist strain and shoulder tension associated with traditional keyboards. This ergonomic design supports hands in a more natural position, making it ideal for both new and experienced users of split keyboards. The Lily Pad is compatible with standard Lily58 PCBs, allowing users to easily integrate existing components or build a new setup with a no-solder experience using Boardsource's SMT hot-swap RGB PCB. It maintains a 60% layout, ensuring users retain essential keys while benefiting from improved ergonomics. The keyboard is crafted from premium aluminum, providing durability and aesthetic appeal. It is particularly suited for those transitioning from traditional keyboards or upgrading their existing split keyboard setup.\n\nKey Features:\n- Column-staggered layout: This design helps align fingers in a more natural position, reducing strain on wrists and shoulders.\n- Split configuration: Allows for customizable angles to fit individual ergonomic needs, enhancing comfort during extended use.\n- Compatibility with Lily58 PCBs: Users can easily integrate existing components or build a new setup without starting from scratch.\n- No-solder experience: Boardsource's SMT hot-swap RGB PCB offers a convenient assembly process for new builds.\n- Premium aluminum construction: Provides durability and a sleek aesthetic, making it a high-quality addition to any workspace.\n\nPricing Model: One-time purchase\nPricing Tiers:\n- No free tier available. The product is a premium purchase with prices including all fees, taxes, and tariffs.\n- Specific pricing details are not provided in the available information.\nFree Trial: No free trial available.\n\nUse Cases:\n- For professionals who spend long hours typing, the Lily Pad offers a comfortable and ergonomic solution to reduce fatigue and improve productivity.\n- For gamers, the customizable angles and split design can enhance gaming performance by allowing for more natural hand positioning.\n- For developers or writers, the Lily Pad's ergonomic design can help prevent long-term discomfort associated with prolonged keyboard use.\n\nTarget Audience: The Lily Pad is designed for individuals who value ergonomic comfort and are looking to upgrade their keyboard experience. This includes professionals, gamers, and anyone who spends significant time typing. It is particularly appealing to those familiar with or interested in split keyboards, especially those who have experience with the Lily58 layout.\n\nCategories: Custom Keyboards, Hardware, Tech\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969371",
+    "name": "Plannex",
+    "tagline": "Brainstorm. Build logic. Manage tasks.",
+    "description": "Plannex.io is a flexible planning platform combining node-based brainstorming, task management, and workflow building, all in one place. No clutter, no extra tools. One membership, all features. Built by builders, for builders.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Task Management",
+      "Developer Tools"
+    ],
+    "website": "https://www.producthunt.com/r/C3UJ73XFASSRW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 75,
+    "product_id": "969371",
+    "detailed_description": "Plannex is a flexible planning platform that combines node-based brainstorming, task management, and workflow building into a single tool. It is designed to streamline project planning by allowing users to brainstorm ideas, build logical workflows, and manage tasks efficiently. This platform aims to reduce clutter and the need for multiple tools, providing a comprehensive solution for project management. By integrating these features, Plannex helps users organize their projects more effectively, making it easier to collaborate and execute plans. It is particularly useful for teams and individuals who need to manage complex projects with multiple tasks and dependencies. Plannex is built by builders for builders, ensuring that it meets the practical needs of its users. The platform offers a clean and intuitive interface, making it accessible to a wide range of users.",
+    "features": [
+      "Node-based brainstorming: This feature allows users to visually organize ideas and concepts, facilitating creative thinking and problem-solving.",
+      "Task management: Plannex enables users to create, assign, and track tasks, ensuring that projects stay on schedule and that team members are aware of their responsibilities.",
+      "Workflow building: Users can design logical workflows that connect tasks and activities, helping to automate processes and improve efficiency.",
+      "Collaboration tools: Plannex likely includes features for team collaboration, such as real-time updates and commenting, though specific details are not available.",
+      "Customizable workflows: Users can tailor workflows to fit specific project needs, allowing for flexibility and adaptability in project management."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: A 6-month free trial on the Starter plan is available, though specific features included are not detailed.",
+        "Starter: Details about pricing and features are not available.",
+        "Enterprise: Details about enterprise pricing and features are not available."
+      ],
+      "free_trial": "A 6-month free trial is available for the Starter plan.",
+      "additional_info": "Pricing details beyond the free trial are not specified."
+    },
+    "use_cases": [
+      "Project planning for small businesses: Plannex can help small businesses organize and manage projects more efficiently, improving productivity and reducing costs.",
+      "Complex project management: For large-scale projects with multiple tasks and dependencies, Plannex's workflow building and task management features can help streamline processes.",
+      "Team collaboration: Plannex is useful for teams that need to collaborate on projects, providing a centralized platform for brainstorming, task assignment, and workflow management."
+    ],
+    "target_audience": "Plannex is designed for builders and project managers across various industries, including construction, software development, and any field requiring complex project management. It is suitable for both small and large teams looking to streamline their project planning processes.",
+    "embedding_text": "Product: Plannex\n\nDescription: Plannex is a flexible planning platform that combines node-based brainstorming, task management, and workflow building into a single tool. It is designed to streamline project planning by allowing users to brainstorm ideas, build logical workflows, and manage tasks efficiently. This platform aims to reduce clutter and the need for multiple tools, providing a comprehensive solution for project management. By integrating these features, Plannex helps users organize their projects more effectively, making it easier to collaborate and execute plans. It is particularly useful for teams and individuals who need to manage complex projects with multiple tasks and dependencies. Plannex is built by builders for builders, ensuring that it meets the practical needs of its users. The platform offers a clean and intuitive interface, making it accessible to a wide range of users.\n\nKey Features:\n- Node-based brainstorming: This feature allows users to visually organize ideas and concepts, facilitating creative thinking and problem-solving.\n- Task management: Plannex enables users to create, assign, and track tasks, ensuring that projects stay on schedule and that team members are aware of their responsibilities.\n- Workflow building: Users can design logical workflows that connect tasks and activities, helping to automate processes and improve efficiency.\n- Collaboration tools: Plannex likely includes features for team collaboration, such as real-time updates and commenting, though specific details are not available.\n- Customizable workflows: Users can tailor workflows to fit specific project needs, allowing for flexibility and adaptability in project management.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: A 6-month free trial on the Starter plan is available, though specific features included are not detailed.\n- Starter: Details about pricing and features are not available.\n- Enterprise: Details about enterprise pricing and features are not available.\nFree Trial: A 6-month free trial is available for the Starter plan.\n\nUse Cases:\n- Project planning for small businesses: Plannex can help small businesses organize and manage projects more efficiently, improving productivity and reducing costs.\n- Complex project management: For large-scale projects with multiple tasks and dependencies, Plannex's workflow building and task management features can help streamline processes.\n- Team collaboration: Plannex is useful for teams that need to collaborate on projects, providing a centralized platform for brainstorming, task assignment, and workflow management.\n\nTarget Audience: Plannex is designed for builders and project managers across various industries, including construction, software development, and any field requiring complex project management. It is suitable for both small and large teams looking to streamline their project planning processes.\n\nCategories: Productivity, Task Management, Developer Tools\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "968525",
+    "name": "Liznr",
+    "tagline": "World's 1st AI-secretary that helps in Meetings in Real-Time",
+    "description": "Liznr is an AI meeting assistant who joins virtual calls to simplify context in real-time, summarize key points, and enhance understanding, without compromising data privacy. Ideal for professionals, teams, and enterprises. #knowledge_management #real-time",
+    "category": "Chrome Extensions",
+    "topics": [
+      "Chrome Extensions",
+      "Productivity",
+      "Meetings",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/YQXJ5OJA2M5KSN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 106,
+    "product_id": "968525",
+    "detailed_description": "Liznr is positioned as the world's first AI secretary designed to assist in meetings in real-time. It aims to facilitate seamless communication across different languages, breaking down language barriers that often hinder multinational teams. By providing real-time translation and assistance, Liznr helps ensure that all participants in a meeting can understand and contribute effectively. This tool is particularly useful in global business settings where language diversity is common. However, specific details about its functionality, such as how it integrates with existing meeting platforms or its AI capabilities, are not readily available. It is intended to enhance collaboration and productivity in multinational environments. The product seems to focus on overcoming language obstacles, but detailed technical specifications or features are not provided in the available information.",
+    "features": [
+      "Real-time Translation: Enables participants to communicate effectively across different languages, enhancing global collaboration.",
+      "AI-Powered Assistance: Provides intelligent support during meetings, potentially including note-taking, summarization, or other organizational tasks.",
+      "Language Barrier Removal: Facilitates understanding among team members who speak different languages, improving communication and reducing misunderstandings.",
+      "Integration with Meeting Platforms: Likely integrates with popular meeting software to provide seamless support during virtual or in-person meetings.",
+      "Customizable Support: May offer customizable options to fit specific business needs or meeting styles."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing tiers are available in the provided information."
+      ],
+      "free_trial": "No details about a free trial are available.",
+      "additional_info": "Pricing details for Liznr are not specified in the available resources."
+    },
+    "use_cases": [
+      "Multinational Business Meetings: Useful for companies with teams spread across different countries, helping to ensure that all participants can communicate effectively.",
+      "International Conferences: Can be beneficial in conferences where attendees speak multiple languages, facilitating smoother interactions.",
+      "Global Team Collaboration: Enhances collaboration among global teams by removing language barriers, allowing for more effective teamwork."
+    ],
+    "target_audience": "Liznr is designed for multinational companies, particularly those with diverse language-speaking teams. It is likely aimed at businesses of various sizes, from small startups to large enterprises, where global communication is crucial.",
+    "embedding_text": "Product: Liznr\n\nDescription: Liznr is positioned as the world's first AI secretary designed to assist in meetings in real-time. It aims to facilitate seamless communication across different languages, breaking down language barriers that often hinder multinational teams. By providing real-time translation and assistance, Liznr helps ensure that all participants in a meeting can understand and contribute effectively. This tool is particularly useful in global business settings where language diversity is common. However, specific details about its functionality, such as how it integrates with existing meeting platforms or its AI capabilities, are not readily available. It is intended to enhance collaboration and productivity in multinational environments. The product seems to focus on overcoming language obstacles, but detailed technical specifications or features are not provided in the available information.\n\nKey Features:\n- Real-time Translation: Enables participants to communicate effectively across different languages, enhancing global collaboration.\n- AI-Powered Assistance: Provides intelligent support during meetings, potentially including note-taking, summarization, or other organizational tasks.\n- Language Barrier Removal: Facilitates understanding among team members who speak different languages, improving communication and reducing misunderstandings.\n- Integration with Meeting Platforms: Likely integrates with popular meeting software to provide seamless support during virtual or in-person meetings.\n- Customizable Support: May offer customizable options to fit specific business needs or meeting styles.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing tiers are available in the provided information.\nFree Trial: No details about a free trial are available.\n\nUse Cases:\n- Multinational Business Meetings: Useful for companies with teams spread across different countries, helping to ensure that all participants can communicate effectively.\n- International Conferences: Can be beneficial in conferences where attendees speak multiple languages, facilitating smoother interactions.\n- Global Team Collaboration: Enhances collaboration among global teams by removing language barriers, allowing for more effective teamwork.\n\nTarget Audience: Liznr is designed for multinational companies, particularly those with diverse language-speaking teams. It is likely aimed at businesses of various sizes, from small startups to large enterprises, where global communication is crucial.\n\nCategories: Chrome Extensions, Productivity, Meetings, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "966336",
+    "name": "Tipsy Chat: Your AI Tavern",
+    "tagline": "Live Your Story—1st AI Image & Video Roleplay World",
+    "description": "Tipsy Chat is reimagining AI roleplay—where you’re the star, director, and writer of your own world. With real-time image and video generation, stories feel alive, characters evolve, and every message shapes the journey. Create, connect, and escape—your way.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Bots",
+      "Photo & Video"
+    ],
+    "website": "https://www.producthunt.com/r/322YUGQPULKGNJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 89,
+    "product_id": "966336",
+    "detailed_description": "Tipsy Chat: Your AI Tavern is a platform designed to provide immersive role-playing experiences using AI technology. It allows users to create personalized AI companions, engage in dynamic storytelling, and explore diverse scenarios without content limits or censorship. The platform is ideal for those interested in creative storytelling, fanfiction, and interactive narratives. It offers a judgment-free environment where users can express themselves freely, fostering creativity and imagination. Tipsy Chat supports advanced AI models and multi-language support, making it accessible to a global audience. The platform also features AI-driven image and video generation, enhancing the storytelling experience. Overall, Tipsy Chat aims to empower users to live out their stories in a safe and nurturing environment.",
+    "features": [
+      "Immersive Storytelling: Users can dive into diverse role-playing scenarios and gripping storylines, providing endless exploration and excitement. This feature enhances creativity and engagement in storytelling.",
+      "Personalized AI Companions: Users can customize their AI characters' personalities and appearances, allowing for tailored role-playing experiences that evolve alongside user narratives.",
+      "AI Image and Video Generation: The platform supports real-time image and video generation that reflects the story as it unfolds, enhancing the visual and emotional impact of the narrative.",
+      "Judgment-Free Environment: Tipsy Chat offers a safe space for users to explore complex scenarios without censorship or content limits, ensuring freedom of expression.",
+      "Multi-Language Support: The platform uses cutting-edge AI models to support multiple languages, catering to a global audience and enhancing accessibility."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes free role-playing, AI companions, immersive storytelling, and AI image/video generation without ads or content limits."
+      ],
+      "free_trial": "No specific free trial mentioned; the platform is free to use.",
+      "additional_info": "There is no mention of additional pricing tiers or subscription models beyond the free version."
+    },
+    "use_cases": [
+      "Creative Storytelling: Tipsy Chat is ideal for writers and fanfiction enthusiasts who want to explore diverse storylines and enhance their creativity through interactive AI-driven characters.",
+      "Role-Playing Communities: The platform supports collaborative storytelling and character sharing, fostering connections among users with similar interests.",
+      "Personalized Entertainment: Users can create and engage with personalized AI companions in various genres, such as fantasy or romance, allowing for tailored entertainment experiences."
+    ],
+    "target_audience": "Tipsy Chat is designed for individuals interested in creative storytelling, role-playing, and interactive narratives. It appeals to fanfiction enthusiasts, writers, and anyone looking for immersive entertainment experiences. The platform is accessible to a wide range of users due to its multi-language support and judgment-free environment.",
+    "embedding_text": "Product: Tipsy Chat: Your AI Tavern\n\nDescription: Tipsy Chat: Your AI Tavern is a platform designed to provide immersive role-playing experiences using AI technology. It allows users to create personalized AI companions, engage in dynamic storytelling, and explore diverse scenarios without content limits or censorship. The platform is ideal for those interested in creative storytelling, fanfiction, and interactive narratives. It offers a judgment-free environment where users can express themselves freely, fostering creativity and imagination. Tipsy Chat supports advanced AI models and multi-language support, making it accessible to a global audience. The platform also features AI-driven image and video generation, enhancing the storytelling experience. Overall, Tipsy Chat aims to empower users to live out their stories in a safe and nurturing environment.\n\nKey Features:\n- Immersive Storytelling: Users can dive into diverse role-playing scenarios and gripping storylines, providing endless exploration and excitement. This feature enhances creativity and engagement in storytelling.\n- Personalized AI Companions: Users can customize their AI characters' personalities and appearances, allowing for tailored role-playing experiences that evolve alongside user narratives.\n- AI Image and Video Generation: The platform supports real-time image and video generation that reflects the story as it unfolds, enhancing the visual and emotional impact of the narrative.\n- Judgment-Free Environment: Tipsy Chat offers a safe space for users to explore complex scenarios without censorship or content limits, ensuring freedom of expression.\n- Multi-Language Support: The platform uses cutting-edge AI models to support multiple languages, catering to a global audience and enhancing accessibility.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes free role-playing, AI companions, immersive storytelling, and AI image/video generation without ads or content limits.\nFree Trial: No specific free trial mentioned; the platform is free to use.\n\nUse Cases:\n- Creative Storytelling: Tipsy Chat is ideal for writers and fanfiction enthusiasts who want to explore diverse storylines and enhance their creativity through interactive AI-driven characters.\n- Role-Playing Communities: The platform supports collaborative storytelling and character sharing, fostering connections among users with similar interests.\n- Personalized Entertainment: Users can create and engage with personalized AI companions in various genres, such as fantasy or romance, allowing for tailored entertainment experiences.\n\nTarget Audience: Tipsy Chat is designed for individuals interested in creative storytelling, role-playing, and interactive narratives. It appeals to fanfiction enthusiasts, writers, and anyone looking for immersive entertainment experiences. The platform is accessible to a wide range of users due to its multi-language support and judgment-free environment.\n\nCategories: Artificial Intelligence, Bots, Photo & Video\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "961442",
+    "name": "SlidesCraft",
+    "tagline": "Claude 4 HTML Slides: One Perfect Slide at a Time",
+    "description": "Generic AI presentations losing your message? SlidesCraft + Claude 4 crafts precise HTML presentations, one focused slide at a time. 24 styles, deep customization. True precision. Lasting impact. Time saved.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "User Experience",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/LMCJ2KUTZWHY26?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 75,
+    "product_id": "961442",
+    "detailed_description": "SlidesCraft is a professional AI presentation tool designed to provide users with fine-grained content control and deep customization options. It aims to solve the common issues faced by users of traditional AI presentation tools, such as lack of content control, difficulty in editing, low efficiency, and high pricing. SlidesCraft allows users to generate precise and customizable slides one at a time, ensuring that the content remains focused and relevant. It also offers professional data visualization capabilities, making it easier to present complex information effectively. The tool is designed to save time by reducing the need for extensive editing after generation. Additionally, it provides an intuitive user experience, making it accessible to a wide range of users.",
+    "features": [
+      "Fine-grained content control: Users can select specific content segments and maintain control over the presentation's focus.",
+      "Deep customization: Offers customization options for styles, fonts, colors, and spacing to match the user's preferences.",
+      "Professional data visualization: Built-in tools for creating high-quality data visualizations to enhance presentation clarity.",
+      "Intelligent key point extraction: Automatically identifies key points from the content to streamline the presentation creation process.",
+      "Efficient slide generation: Generates slides one at a time, reducing the need for extensive post-generation editing."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Limited features and usage",
+        "Tier 1: Basic, price not specified, includes core features",
+        "Tier 2: Premium, price not specified, includes additional customization and support options",
+        "Enterprise: Custom pricing for large-scale businesses with advanced needs"
+      ],
+      "free_trial": "Details about a free trial are not specified",
+      "additional_info": "Pricing details are not fully disclosed, but it is noted that SlidesCraft aims to offer a more flexible pricing model compared to traditional monthly subscriptions."
+    },
+    "use_cases": [
+      "Business Presentations: Useful for creating sales pitches, quarterly reports, and other business-related presentations where precise content control and professional visuals are crucial.",
+      "Educational Settings: Ideal for teachers and students to create engaging and informative presentations with ease.",
+      "Marketing and Advertising: Helps in creating visually appealing presentations for marketing campaigns and product launches."
+    ],
+    "target_audience": "SlidesCraft is designed for professionals and individuals across various industries, including business, education, and marketing. It is suitable for small to large-sized companies and individuals who need to create high-quality presentations efficiently.",
+    "embedding_text": "Product: SlidesCraft\n\nDescription: SlidesCraft is a professional AI presentation tool designed to provide users with fine-grained content control and deep customization options. It aims to solve the common issues faced by users of traditional AI presentation tools, such as lack of content control, difficulty in editing, low efficiency, and high pricing. SlidesCraft allows users to generate precise and customizable slides one at a time, ensuring that the content remains focused and relevant. It also offers professional data visualization capabilities, making it easier to present complex information effectively. The tool is designed to save time by reducing the need for extensive editing after generation. Additionally, it provides an intuitive user experience, making it accessible to a wide range of users.\n\nKey Features:\n- Fine-grained content control: Users can select specific content segments and maintain control over the presentation's focus.\n- Deep customization: Offers customization options for styles, fonts, colors, and spacing to match the user's preferences.\n- Professional data visualization: Built-in tools for creating high-quality data visualizations to enhance presentation clarity.\n- Intelligent key point extraction: Automatically identifies key points from the content to streamline the presentation creation process.\n- Efficient slide generation: Generates slides one at a time, reducing the need for extensive post-generation editing.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Limited features and usage\n- Tier 1: Basic, price not specified, includes core features\n- Tier 2: Premium, price not specified, includes additional customization and support options\n- Enterprise: Custom pricing for large-scale businesses with advanced needs\nFree Trial: Details about a free trial are not specified\n\nUse Cases:\n- Business Presentations: Useful for creating sales pitches, quarterly reports, and other business-related presentations where precise content control and professional visuals are crucial.\n- Educational Settings: Ideal for teachers and students to create engaging and informative presentations with ease.\n- Marketing and Advertising: Helps in creating visually appealing presentations for marketing campaigns and product launches.\n\nTarget Audience: SlidesCraft is designed for professionals and individuals across various industries, including business, education, and marketing. It is suitable for small to large-sized companies and individuals who need to create high-quality presentations efficiently.\n\nCategories: Productivity, User Experience, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "968649",
+    "name": "Is This Course Legit?",
+    "tagline": "We rate and rank online courses so you don’t waste your 💰.",
+    "description": "We are on a mission to make online courses scam-free. We review and rate courses based on real data: content depth, refund policies, instructor credibility, and actual student results. No fluff. No hype. No paid rankings. Help us clean up the mess 💪",
+    "category": "Education",
+    "topics": [
+      "Education"
+    ],
+    "website": "https://www.producthunt.com/r/G37CCFFCTPGJWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 60,
+    "product_id": "968649",
+    "detailed_description": "Is This Course Legit? is a platform designed to help learners make informed decisions about online courses by providing ratings and rankings based on legitimacy, quality, and value. The main purpose of the product is to prevent users from wasting money on low-quality or fraudulent online courses by aggregating and analyzing reviews, accreditation status, and other relevant data. It addresses the common problem of navigating the vast and often confusing online education market, where it can be difficult to distinguish between reputable courses and scams. The platform likely compiles information from multiple sources, including student testimonials, independent review sites, and official accreditation bodies, to offer a comprehensive assessment of each course. By centralizing this information, Is This Course Legit? empowers users to compare courses easily and choose the best options for their needs. The service is especially valuable for those who are new to online learning or who have had negative experiences with unreliable courses in the past. Ultimately, it aims to increase transparency and trust in the online education industry[3][5][4].",
+    "features": [
+      "Course Ratings and Rankings: Provides users with clear, data-driven ratings and rankings of online courses, making it easier to identify top-quality options and avoid scams.",
+      "Legitimacy Verification: Checks for accreditation, institutional approval, and regulatory compliance to ensure courses are legitimate and recognized by relevant authorities.",
+      "Student Reviews and Testimonials: Aggregates feedback from past students, offering insights into course quality, instructor effectiveness, and overall learning experience.",
+      "Comparison Tools: Allows users to compare multiple courses side by side based on criteria such as price, duration, accreditation, and student satisfaction.",
+      "Transparency and Trust: Offers detailed information about course providers, instructors, and certification, helping users make informed and confident decisions."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Access to basic course ratings, rankings, and limited reviews.",
+        "Tier 1: Premium, price not specified, includes advanced filters, in-depth reviews, and exclusive course recommendations.",
+        "Tier 2: Not specified",
+        "Enterprise: Not specified"
+      ],
+      "free_trial": "No explicit free trial mentioned; free tier provides basic access.",
+      "additional_info": "Pricing details for premium tiers are not publicly available on the Product Hunt listing. The platform appears to focus on providing value through transparency and user empowerment."
+    },
+    "use_cases": [
+      "A prospective student wants to enroll in an online course but is unsure about its legitimacy or quality; they use Is This Course Legit? to verify accreditation and read student reviews before making a purchase.",
+      "An HR professional is tasked with recommending professional development courses for employees; they use the platform to compare courses and select those with the best ratings and industry recognition.",
+      "A lifelong learner is exploring new skills and wants to avoid wasting money on low-quality courses; they rely on the platform’s rankings and comparison tools to choose reputable options."
+    ],
+    "target_audience": "Individuals seeking online education (students, professionals, lifelong learners), HR and L&D professionals in companies of all sizes, and organizations looking for reliable training solutions across various industries.",
+    "embedding_text": "Product: Is This Course Legit?\n\nDescription: Is This Course Legit? is a platform designed to help learners make informed decisions about online courses by providing ratings and rankings based on legitimacy, quality, and value. The main purpose of the product is to prevent users from wasting money on low-quality or fraudulent online courses by aggregating and analyzing reviews, accreditation status, and other relevant data. It addresses the common problem of navigating the vast and often confusing online education market, where it can be difficult to distinguish between reputable courses and scams. The platform likely compiles information from multiple sources, including student testimonials, independent review sites, and official accreditation bodies, to offer a comprehensive assessment of each course. By centralizing this information, Is This Course Legit? empowers users to compare courses easily and choose the best options for their needs. The service is especially valuable for those who are new to online learning or who have had negative experiences with unreliable courses in the past. Ultimately, it aims to increase transparency and trust in the online education industry[3][5][4].\n\nKey Features:\n- Course Ratings and Rankings: Provides users with clear, data-driven ratings and rankings of online courses, making it easier to identify top-quality options and avoid scams.\n- Legitimacy Verification: Checks for accreditation, institutional approval, and regulatory compliance to ensure courses are legitimate and recognized by relevant authorities.\n- Student Reviews and Testimonials: Aggregates feedback from past students, offering insights into course quality, instructor effectiveness, and overall learning experience.\n- Comparison Tools: Allows users to compare multiple courses side by side based on criteria such as price, duration, accreditation, and student satisfaction.\n- Transparency and Trust: Offers detailed information about course providers, instructors, and certification, helping users make informed and confident decisions.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Access to basic course ratings, rankings, and limited reviews.\n- Tier 1: Premium, price not specified, includes advanced filters, in-depth reviews, and exclusive course recommendations.\n- Tier 2: Not specified\n- Enterprise: Not specified\nFree Trial: No explicit free trial mentioned; free tier provides basic access.\n\nUse Cases:\n- A prospective student wants to enroll in an online course but is unsure about its legitimacy or quality; they use Is This Course Legit? to verify accreditation and read student reviews before making a purchase.\n- An HR professional is tasked with recommending professional development courses for employees; they use the platform to compare courses and select those with the best ratings and industry recognition.\n- A lifelong learner is exploring new skills and wants to avoid wasting money on low-quality courses; they rely on the platform’s rankings and comparison tools to choose reputable options.\n\nTarget Audience: Individuals seeking online education (students, professionals, lifelong learners), HR and L&D professionals in companies of all sizes, and organizations looking for reliable training solutions across various industries.\n\nCategories: Education\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969136",
+    "name": "Paperguide Article GPT",
+    "tagline": "Write research-backed articles with citations",
+    "description": "Generate publication-ready articles in minutes for Free. Paperguide Article GPT scours millions of papers, cites every claim, and hands you a clean, fact-checked draft. Ideal for bloggers, academics, and marketers who need evidence-based content—fast.",
+    "category": "Writing",
+    "topics": [
+      "Writing",
+      "Marketing",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/Y7XEVET4DYLUR4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 57,
+    "product_id": "969136",
+    "detailed_description": "Paperguide Article GPT is an AI-powered research assistant designed to help users write research-backed articles with proper citations efficiently. It integrates advanced AI models such as Gemini 2.5 Pro, GPT-4.1, GPT-4, GPT-4o, and Claude 3.5 to generate high-quality academic content. The platform enables users to import, organize, and collaborate on references seamlessly, supporting formats like Zotero, BibTeX, RIS, DOI, and direct URLs. It offers features such as literature tables, data extraction, AI-generated summaries of papers, and the ability to chat with individual research papers for instant insights. Paperguide maintains academic integrity by automatically providing citations for all AI-generated content and allows users to evaluate paper quality using metrics like SJR rankings. It supports access to over 200 million papers across various domains, making it a comprehensive tool for researchers, students, and professionals aiming to produce well-referenced academic writing quickly and accurately.",
+    "features": [
+      "AI Research Assistant that generates research-backed content with automatic citations, ensuring academic integrity and saving time on manual referencing.",
+      "Reference Manager with collaboration features, allowing users to import, organize, and share references in real-time, enhancing teamwork and project management.",
+      "Literature Review and Data Extraction tools that help users summarize methodologies and findings from research papers efficiently, facilitating deeper understanding and faster writing.",
+      "Chat functionality with open access papers, reference libraries, and PDFs, enabling users to ask questions and get instant answers without reading entire documents.",
+      "Support for over 1000 citation styles and integration with popular reference formats like Zotero, BibTeX, RIS, DOI, and direct URLs, providing flexibility and compatibility with academic standards."
+    ],
+    "pricing": {
+      "model": "Subscription with Free and Paid Tiers",
+      "tiers": [
+        "Free tier: Contact vendor for details, likely limited access or trial features.",
+        "Starter: $12 per user/month, includes AI Research Assistant, Reference Manager with collaboration, AI Writer, unlimited AI generations, 10 GB storage, literature review, data extraction, AI summaries, chat with open access papers and PDFs, and 1000+ citation styles.",
+        "Advanced: $20 per user/month, includes all Starter features plus unlimited storage.",
+        "Enterprise: Custom pricing, includes all Advanced features plus custom cloud hosting, API access, integration with proprietary and third-party tools, integration of proprietary research databases, key account management, and dedicated customer support."
+      ],
+      "free_trial": "Free tier available; specific trial details not explicitly stated but free access can be requested.",
+      "additional_info": "Unlimited AI generations are included in paid tiers; storage limits vary by plan. Enterprise plans offer extensive customization and integration options."
+    },
+    "use_cases": [
+      "Academic researchers needing to write detailed, citation-rich articles quickly while managing large numbers of references and ensuring academic integrity.",
+      "Students preparing research papers or theses who require AI assistance to summarize papers, extract data, and generate properly cited drafts.",
+      "Professional writers and knowledge workers in scientific, medical, or technical fields who must produce well-referenced documents and collaborate with teams on research projects."
+    ],
+    "target_audience": "Paperguide is designed for researchers, students, academics, and professionals across life sciences, academia, and other research-intensive industries. It suits individuals and teams of various sizes, from solo researchers to small teams and enterprises requiring advanced collaboration, integration, and customization capabilities.",
+    "embedding_text": "Product: Paperguide Article GPT\n\nDescription: Paperguide Article GPT is an AI-powered research assistant designed to help users write research-backed articles with proper citations efficiently. It integrates advanced AI models such as Gemini 2.5 Pro, GPT-4.1, GPT-4, GPT-4o, and Claude 3.5 to generate high-quality academic content. The platform enables users to import, organize, and collaborate on references seamlessly, supporting formats like Zotero, BibTeX, RIS, DOI, and direct URLs. It offers features such as literature tables, data extraction, AI-generated summaries of papers, and the ability to chat with individual research papers for instant insights. Paperguide maintains academic integrity by automatically providing citations for all AI-generated content and allows users to evaluate paper quality using metrics like SJR rankings. It supports access to over 200 million papers across various domains, making it a comprehensive tool for researchers, students, and professionals aiming to produce well-referenced academic writing quickly and accurately.\n\nKey Features:\n- AI Research Assistant that generates research-backed content with automatic citations, ensuring academic integrity and saving time on manual referencing.\n- Reference Manager with collaboration features, allowing users to import, organize, and share references in real-time, enhancing teamwork and project management.\n- Literature Review and Data Extraction tools that help users summarize methodologies and findings from research papers efficiently, facilitating deeper understanding and faster writing.\n- Chat functionality with open access papers, reference libraries, and PDFs, enabling users to ask questions and get instant answers without reading entire documents.\n- Support for over 1000 citation styles and integration with popular reference formats like Zotero, BibTeX, RIS, DOI, and direct URLs, providing flexibility and compatibility with academic standards.\n\nPricing Model: Subscription with Free and Paid Tiers\nPricing Tiers:\n- Free tier: Contact vendor for details, likely limited access or trial features.\n- Starter: $12 per user/month, includes AI Research Assistant, Reference Manager with collaboration, AI Writer, unlimited AI generations, 10 GB storage, literature review, data extraction, AI summaries, chat with open access papers and PDFs, and 1000+ citation styles.\n- Advanced: $20 per user/month, includes all Starter features plus unlimited storage.\n- Enterprise: Custom pricing, includes all Advanced features plus custom cloud hosting, API access, integration with proprietary and third-party tools, integration of proprietary research databases, key account management, and dedicated customer support.\nFree Trial: Free tier available; specific trial details not explicitly stated but free access can be requested.\n\nUse Cases:\n- Academic researchers needing to write detailed, citation-rich articles quickly while managing large numbers of references and ensuring academic integrity.\n- Students preparing research papers or theses who require AI assistance to summarize papers, extract data, and generate properly cited drafts.\n- Professional writers and knowledge workers in scientific, medical, or technical fields who must produce well-referenced documents and collaborate with teams on research projects.\n\nTarget Audience: Paperguide is designed for researchers, students, academics, and professionals across life sciences, academia, and other research-intensive industries. It suits individuals and teams of various sizes, from solo researchers to small teams and enterprises requiring advanced collaboration, integration, and customization capabilities.\n\nCategories: Writing, Marketing, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969395",
+    "name": "MewtruCard",
+    "tagline": "AI Greeting Cards That Move, Inspire, and Soon Speak",
+    "description": "MewTruCard is a free, AI-powered greeting-card platform that turns a few lines of input into gallery-quality designs. Instantly generate HD static cards or export lively animated Version.",
+    "category": "Card Games",
+    "topics": [
+      "Card Games",
+      "Funny",
+      "Design Tools",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/77OSNDWD5TT45R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 17,
+    "product_id": "969395",
+    "detailed_description": "MewtruCard is an innovative AI-powered greeting card generator designed to create personalized digital cards for various occasions such as birthdays, anniversaries, holidays, and more. It uses AI to generate unique and engaging cards that can inspire and move recipients. The platform offers two primary methods for creating cards: an AI-generated custom card feature and a pre-made AI card template gallery. Users can customize their cards by specifying the recipient's relationship, occasion details, and personal messages. The cards can be shared digitally via email, social media, or downloaded as high-quality images. MewtruCard aims to revolutionize digital card creation with its fast AI technology, offering both static and animated designs. Future enhancements include audio-enhanced cards and full video experiences.",
+    "features": [
+      "AI-Generated Custom Cards: This feature allows users to create personalized digital greeting cards by providing details about the recipient and occasion, which the AI then uses to generate a unique card.",
+      "Pre-Made AI Card Templates: Users can browse through a curated gallery of AI-designed greeting card templates, filter by occasion or style, and customize them to fit their needs.",
+      "Dynamic Animations: MewtruCard offers smooth transitions, particle effects, and motion graphics to bring birthday cards to life, making them more engaging and memorable.",
+      "Designer-Quality Artwork: The platform provides studio-level static images with precise details and professional composition, ensuring high-quality visual output.",
+      "Sharing Options: Cards can be shared instantly via email, social media, or downloaded as high-quality images, making it easy to distribute them to recipients."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes access to AI-generated custom cards, pre-made AI card templates, dynamic animations, and designer-quality artwork. Users can create and share cards without any cost."
+      ],
+      "free_trial": "Not applicable as the service is free.",
+      "additional_info": "There is no mention of premium tiers or additional costs for using MewtruCard's features."
+    },
+    "use_cases": [
+      "Birthday Celebrations: Users can create personalized birthday cards with unique animations and designs, making the occasion more special and memorable.",
+      "Holiday Greetings: MewtruCard allows users to send customized holiday cards, such as Christmas or New Year's greetings, with personalized messages and themes.",
+      "Special Occasions: The platform is useful for creating cards for anniversaries, graduations, or any other special occasion where a personalized digital card can enhance the celebration."
+    ],
+    "target_audience": "MewtruCard is designed for individuals looking to send personalized digital greeting cards for various occasions. It is suitable for anyone who wants to add a personal touch to their digital greetings, whether for personal or professional use.",
+    "embedding_text": "Product: MewtruCard\n\nDescription: MewtruCard is an innovative AI-powered greeting card generator designed to create personalized digital cards for various occasions such as birthdays, anniversaries, holidays, and more. It uses AI to generate unique and engaging cards that can inspire and move recipients. The platform offers two primary methods for creating cards: an AI-generated custom card feature and a pre-made AI card template gallery. Users can customize their cards by specifying the recipient's relationship, occasion details, and personal messages. The cards can be shared digitally via email, social media, or downloaded as high-quality images. MewtruCard aims to revolutionize digital card creation with its fast AI technology, offering both static and animated designs. Future enhancements include audio-enhanced cards and full video experiences.\n\nKey Features:\n- AI-Generated Custom Cards: This feature allows users to create personalized digital greeting cards by providing details about the recipient and occasion, which the AI then uses to generate a unique card.\n- Pre-Made AI Card Templates: Users can browse through a curated gallery of AI-designed greeting card templates, filter by occasion or style, and customize them to fit their needs.\n- Dynamic Animations: MewtruCard offers smooth transitions, particle effects, and motion graphics to bring birthday cards to life, making them more engaging and memorable.\n- Designer-Quality Artwork: The platform provides studio-level static images with precise details and professional composition, ensuring high-quality visual output.\n- Sharing Options: Cards can be shared instantly via email, social media, or downloaded as high-quality images, making it easy to distribute them to recipients.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes access to AI-generated custom cards, pre-made AI card templates, dynamic animations, and designer-quality artwork. Users can create and share cards without any cost.\nFree Trial: Not applicable as the service is free.\n\nUse Cases:\n- Birthday Celebrations: Users can create personalized birthday cards with unique animations and designs, making the occasion more special and memorable.\n- Holiday Greetings: MewtruCard allows users to send customized holiday cards, such as Christmas or New Year's greetings, with personalized messages and themes.\n- Special Occasions: The platform is useful for creating cards for anniversaries, graduations, or any other special occasion where a personalized digital card can enhance the celebration.\n\nTarget Audience: MewtruCard is designed for individuals looking to send personalized digital greeting cards for various occasions. It is suitable for anyone who wants to add a personal touch to their digital greetings, whether for personal or professional use.\n\nCategories: Card Games, Funny, Design Tools, GitHub\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "966929",
+    "name": "MCP Fabric",
+    "tagline": "Effortlessly Connect AI Agents to APIs",
+    "description": "MCP Fabric seamlessly integrates your existing APIs with LLMs, providing instant context and capabilities — no coding required.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/4Y7WEGBUSIOZCH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 13,
+    "product_id": "966929",
+    "detailed_description": "MCP Fabric is a platform designed to seamlessly connect AI agents and large language models (LLMs) to existing RESTful APIs, enabling them to interact with real-world data and services without complex coding. Its main purpose is to transform any API endpoint into an AI-ready tool, allowing LLMs to understand and utilize API routes with minimal setup. MCP Fabric provides instant context and capabilities for AI agents by parsing API parameters and adding customizable descriptions, making APIs accessible and actionable for AI. The platform is optimized for ultra-low latency, ensuring fast and reliable integration. It solves the problem of integrating AI with enterprise APIs by eliminating the need for custom MCP server code and offering a no-code setup. This empowers organizations to leverage their existing APIs for AI-driven automation, analytics, and decision-making. MCP Fabric also offers advanced telemetry for monitoring API usage and performance, supporting robust AI operations.",
+    "features": [
+      "Instant API Integration: Transform any REST API into an AI-ready tool in minutes, with no complex coding required, enabling rapid deployment of AI-driven workflows[1].",
+      "Customizable Context: Add detailed summaries and descriptions to API routes, helping LLMs understand and use endpoints effectively for more accurate and context-aware interactions[1].",
+      "Intelligent Parameter Parsing: Automatically turns every parameter—path, query, headers, and JSON bodies—into structured inputs that LLMs can understand and utilize, streamlining AI integration[1].",
+      "Advanced Telemetry: Track usage, performance, and behavior for every endpoint, including request counts, success rates, latency, and full request/response logs, supporting robust monitoring and optimization[1].",
+      "Automatic OpenAPI Parsing: Automatically generates MCP tools and resources from OpenAPI specifications, further simplifying integration and reducing manual effort[1]."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Basic API integration, limited usage, and core features available for evaluation and small-scale projects[1].",
+        "Tier 1: Not explicitly named or priced on the official site; likely includes higher usage limits and additional features for growing teams.",
+        "Tier 2: Not explicitly named or priced on the official site; likely includes advanced features, higher usage, and priority support for larger organizations.",
+        "Enterprise: Custom solutions, unlimited usage, dedicated support, and advanced security features for large-scale deployments (details available upon request)[1]."
+      ],
+      "free_trial": "Start Free Trial: Users can begin with a free trial to evaluate the platform’s capabilities before committing to a paid plan[1].",
+      "additional_info": "Pricing details beyond the free trial are not publicly listed; interested users are encouraged to contact the provider for tailored plans."
+    },
+    "use_cases": [
+      "AI-Driven Automation: Automate business processes by connecting AI agents to internal APIs, enabling tasks like data retrieval, processing, and reporting without manual intervention[1][2].",
+      "Context-Aware AI Assistants: Empower LLMs to interact with enterprise systems, providing users with intelligent, context-aware assistance for tasks such as customer support, analytics, and decision-making[1][2].",
+      "Rapid Prototyping and Integration: Quickly prototype and deploy AI-powered applications by integrating existing APIs, reducing development time and complexity for data engineers and developers[1][5]."
+    ],
+    "target_audience": "MCP Fabric is designed for organizations of all sizes seeking to integrate AI with their existing APIs. It is especially relevant for data engineers, developers, and product teams in industries such as technology, finance, healthcare, and e-commerce, who want to leverage AI for automation, analytics, and enhanced user experiences[1][5].",
+    "embedding_text": "Product: MCP Fabric\n\nDescription: MCP Fabric is a platform designed to seamlessly connect AI agents and large language models (LLMs) to existing RESTful APIs, enabling them to interact with real-world data and services without complex coding. Its main purpose is to transform any API endpoint into an AI-ready tool, allowing LLMs to understand and utilize API routes with minimal setup. MCP Fabric provides instant context and capabilities for AI agents by parsing API parameters and adding customizable descriptions, making APIs accessible and actionable for AI. The platform is optimized for ultra-low latency, ensuring fast and reliable integration. It solves the problem of integrating AI with enterprise APIs by eliminating the need for custom MCP server code and offering a no-code setup. This empowers organizations to leverage their existing APIs for AI-driven automation, analytics, and decision-making. MCP Fabric also offers advanced telemetry for monitoring API usage and performance, supporting robust AI operations.\n\nKey Features:\n- Instant API Integration: Transform any REST API into an AI-ready tool in minutes, with no complex coding required, enabling rapid deployment of AI-driven workflows[1].\n- Customizable Context: Add detailed summaries and descriptions to API routes, helping LLMs understand and use endpoints effectively for more accurate and context-aware interactions[1].\n- Intelligent Parameter Parsing: Automatically turns every parameter—path, query, headers, and JSON bodies—into structured inputs that LLMs can understand and utilize, streamlining AI integration[1].\n- Advanced Telemetry: Track usage, performance, and behavior for every endpoint, including request counts, success rates, latency, and full request/response logs, supporting robust monitoring and optimization[1].\n- Automatic OpenAPI Parsing: Automatically generates MCP tools and resources from OpenAPI specifications, further simplifying integration and reducing manual effort[1].\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Basic API integration, limited usage, and core features available for evaluation and small-scale projects[1].\n- Tier 1: Not explicitly named or priced on the official site; likely includes higher usage limits and additional features for growing teams.\n- Tier 2: Not explicitly named or priced on the official site; likely includes advanced features, higher usage, and priority support for larger organizations.\n- Enterprise: Custom solutions, unlimited usage, dedicated support, and advanced security features for large-scale deployments (details available upon request)[1].\nFree Trial: Start Free Trial: Users can begin with a free trial to evaluate the platform’s capabilities before committing to a paid plan[1].\n\nUse Cases:\n- AI-Driven Automation: Automate business processes by connecting AI agents to internal APIs, enabling tasks like data retrieval, processing, and reporting without manual intervention[1][2].\n- Context-Aware AI Assistants: Empower LLMs to interact with enterprise systems, providing users with intelligent, context-aware assistance for tasks such as customer support, analytics, and decision-making[1][2].\n- Rapid Prototyping and Integration: Quickly prototype and deploy AI-powered applications by integrating existing APIs, reducing development time and complexity for data engineers and developers[1][5].\n\nTarget Audience: MCP Fabric is designed for organizations of all sizes seeking to integrate AI with their existing APIs. It is especially relevant for data engineers, developers, and product teams in industries such as technology, finance, healthcare, and e-commerce, who want to leverage AI for automation, analytics, and enhanced user experiences[1][5].\n\nCategories: API, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969445",
+    "name": "GetADACompliant.org",
+    "tagline": "Making Websites Accessible for All",
+    "description": "GetADACompliant.org helps businesses meet ADA & WCAG standards, reduce legal risk, and improve accessibility—now with AI-powered photo descriptions to make images more accessible for users with visual impairments.",
+    "category": "SaaS",
+    "topics": [
+      "SaaS",
+      "Legal",
+      "Business"
+    ],
+    "website": "https://www.producthunt.com/r/SHGGMY3ITJZJYH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 13,
+    "product_id": "969445",
+    "detailed_description": "GetADACompliant.org is a service designed to help businesses make their websites accessible to all users, including those with disabilities. Its main purpose is to ensure compliance with the Americans with Disabilities Act (ADA) and Web Content Accessibility Guidelines (WCAG), thereby reducing the risk of lawsuits and improving customer experience. The platform addresses the challenge that over 20% of people have disabilities and may be locked out of inaccessible websites. By implementing accessibility features, businesses can serve a broader audience and avoid costly legal issues. The service is particularly valuable for small businesses that may lack the resources to address accessibility on their own. It offers automated tools and guidance to help websites meet legal standards and best practices. Ultimately, GetADACompliant.org helps businesses grow their customer base while staying lawsuit-free[1][3][4].",
+    "features": [
+      "Accessibility Widget: A customizable widget that enables users to adjust website elements for visual, cognitive, or motor challenges, making the site more usable for people with disabilities[3].",
+      "Keyboard Navigation: Ensures full website functionality using only a keyboard, supporting users who cannot use a mouse[2][5].",
+      "Screen Reader Compatibility: The platform is tested for compatibility with screen readers, allowing visually impaired users to access content[2][5].",
+      "WCAG and ADA Compliance: Helps websites meet the latest WCAG (Web Content Accessibility Guidelines) and ADA standards, reducing legal risks and improving inclusivity[1][4].",
+      "Accessibility Statement: Provides businesses with a ready-to-use accessibility statement to communicate their commitment to inclusivity and compliance[2]."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Not explicitly mentioned; likely no free version available.",
+        "Tier 1: Standard plan, $29/month, includes accessibility widget, compliance features, and ongoing support[1].",
+        "Tier 2: Not specified; only one clear pricing tier is detailed.",
+        "Enterprise: Not specified; no details available for enterprise-level offerings."
+      ],
+      "free_trial": "No explicit mention of a free trial in available sources.",
+      "additional_info": "Pricing is positioned as affordable for small businesses, with a focus on ongoing compliance and support[1]."
+    },
+    "use_cases": [
+      "Restaurants & Cafés: Ensuring online menus and reservation systems are accessible to all customers, including those with disabilities[1].",
+      "Salons & Spas: Making appointment booking easy and accessible for all users, regardless of ability[1].",
+      "Retail Stores: Providing accessible product details, store locations, and hours to reach a wider audience and avoid legal issues[1]."
+    ],
+    "target_audience": "Small to medium-sized businesses with a physical location, including restaurants, salons, retail stores, hotels, medical and dental offices, and home service providers. The product is designed for business owners and website managers who need to ensure ADA and WCAG compliance to protect their business and serve all customers[1].",
+    "embedding_text": "Product: GetADACompliant.org\n\nDescription: GetADACompliant.org is a service designed to help businesses make their websites accessible to all users, including those with disabilities. Its main purpose is to ensure compliance with the Americans with Disabilities Act (ADA) and Web Content Accessibility Guidelines (WCAG), thereby reducing the risk of lawsuits and improving customer experience. The platform addresses the challenge that over 20% of people have disabilities and may be locked out of inaccessible websites. By implementing accessibility features, businesses can serve a broader audience and avoid costly legal issues. The service is particularly valuable for small businesses that may lack the resources to address accessibility on their own. It offers automated tools and guidance to help websites meet legal standards and best practices. Ultimately, GetADACompliant.org helps businesses grow their customer base while staying lawsuit-free[1][3][4].\n\nKey Features:\n- Accessibility Widget: A customizable widget that enables users to adjust website elements for visual, cognitive, or motor challenges, making the site more usable for people with disabilities[3].\n- Keyboard Navigation: Ensures full website functionality using only a keyboard, supporting users who cannot use a mouse[2][5].\n- Screen Reader Compatibility: The platform is tested for compatibility with screen readers, allowing visually impaired users to access content[2][5].\n- WCAG and ADA Compliance: Helps websites meet the latest WCAG (Web Content Accessibility Guidelines) and ADA standards, reducing legal risks and improving inclusivity[1][4].\n- Accessibility Statement: Provides businesses with a ready-to-use accessibility statement to communicate their commitment to inclusivity and compliance[2].\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Not explicitly mentioned; likely no free version available.\n- Tier 1: Standard plan, $29/month, includes accessibility widget, compliance features, and ongoing support[1].\n- Tier 2: Not specified; only one clear pricing tier is detailed.\n- Enterprise: Not specified; no details available for enterprise-level offerings.\nFree Trial: No explicit mention of a free trial in available sources.\n\nUse Cases:\n- Restaurants & Cafés: Ensuring online menus and reservation systems are accessible to all customers, including those with disabilities[1].\n- Salons & Spas: Making appointment booking easy and accessible for all users, regardless of ability[1].\n- Retail Stores: Providing accessible product details, store locations, and hours to reach a wider audience and avoid legal issues[1].\n\nTarget Audience: Small to medium-sized businesses with a physical location, including restaurants, salons, retail stores, hotels, medical and dental offices, and home service providers. The product is designed for business owners and website managers who need to ensure ADA and WCAG compliance to protect their business and serve all customers[1].\n\nCategories: SaaS, Legal, Business\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969336",
+    "name": "NexuSelf ",
+    "tagline": "Your AI-powered virtual health coach, all-in-one",
+    "description": "NexuSelf is an AI-powered health & fitness coach that gives you personalized workouts, nutrition plans, hydration tracking & target, and calorie analysis, progress tracking. All in one simple app. Built to keep you consistent and motivated.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "Health & Fitness",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/UOPPH7C25BMSKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 11,
+    "product_id": "969336",
+    "detailed_description": "NexuSelf is an AI-powered virtual health and fitness coach designed to provide a comprehensive, personalized wellness experience. It integrates nutrition, fitness, hydration, and accountability into one app, creating tailored workout plans, nutrition systems, and calorie tracking based on individual body data. The AI analyzes thousands of data points to optimize macronutrient intake, energy needs, and meal timing, dynamically adjusting recommendations as users progress. It offers immersive 360° environments for guided workouts with real-time feedback and form corrections, enhancing exercise safety and effectiveness. NexuSelf also provides behavioral nudges, motivational reminders, and progress updates to keep users engaged and accountable. This all-in-one solution helps users achieve their health goals by combining personalized coaching with immersive practice and ongoing support.",
+    "features": [
+      "Personalized workout plans for home, gym, or yoga settings, tailored to individual goals and fitness levels, enhancing workout effectiveness and engagement.",
+      "Comprehensive nutrition system that tracks macros, scans barcodes, monitors water intake, and creates meal plans optimized for the user's body and goals.",
+      "AI-powered real-time adjustments and feedback that adapt workout intensity and variety based on motivation and energy levels, preventing plateaus and burnout.",
+      "Immersive 360° virtual environments for workouts, providing exercise demos, form corrections, and alignment tips to improve technique and safety.",
+      "Continuous behavioral nudges, motivational reminders, and progress tracking that maintain user accountability and encourage consistent healthy habits."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Not explicitly detailed in available information, likely limited access or trial features.",
+        "Tier 1: Details not publicly specified; likely includes full access to personalized coaching and immersive features.",
+        "Tier 2: Details not publicly specified; may include advanced features or premium support.",
+        "Enterprise: No information available."
+      ],
+      "free_trial": "No explicit information on free trial availability found.",
+      "additional_info": "Pricing details and tier specifics are not publicly disclosed on the official site or Product Hunt listing."
+    },
+    "use_cases": [
+      "Individuals seeking a personalized, AI-driven fitness and nutrition coach to optimize workouts and diet based on their unique body data.",
+      "Users who want immersive and interactive workout experiences with real-time feedback to improve exercise form and motivation.",
+      "People looking for an all-in-one health app that integrates calorie tracking, hydration monitoring, and behavioral support to maintain consistent wellness habits."
+    ],
+    "target_audience": "NexuSelf is designed for health-conscious individuals of all fitness levels who want personalized AI coaching for fitness and nutrition. It suits users interested in technology-enhanced wellness, including home exercisers, gym-goers, and yoga practitioners. The product targets consumers seeking an integrated, data-driven approach to health and fitness rather than segmented apps.",
+    "embedding_text": "Product: NexuSelf \n\nDescription: NexuSelf is an AI-powered virtual health and fitness coach designed to provide a comprehensive, personalized wellness experience. It integrates nutrition, fitness, hydration, and accountability into one app, creating tailored workout plans, nutrition systems, and calorie tracking based on individual body data. The AI analyzes thousands of data points to optimize macronutrient intake, energy needs, and meal timing, dynamically adjusting recommendations as users progress. It offers immersive 360° environments for guided workouts with real-time feedback and form corrections, enhancing exercise safety and effectiveness. NexuSelf also provides behavioral nudges, motivational reminders, and progress updates to keep users engaged and accountable. This all-in-one solution helps users achieve their health goals by combining personalized coaching with immersive practice and ongoing support.\n\nKey Features:\n- Personalized workout plans for home, gym, or yoga settings, tailored to individual goals and fitness levels, enhancing workout effectiveness and engagement.\n- Comprehensive nutrition system that tracks macros, scans barcodes, monitors water intake, and creates meal plans optimized for the user's body and goals.\n- AI-powered real-time adjustments and feedback that adapt workout intensity and variety based on motivation and energy levels, preventing plateaus and burnout.\n- Immersive 360° virtual environments for workouts, providing exercise demos, form corrections, and alignment tips to improve technique and safety.\n- Continuous behavioral nudges, motivational reminders, and progress tracking that maintain user accountability and encourage consistent healthy habits.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Not explicitly detailed in available information, likely limited access or trial features.\n- Tier 1: Details not publicly specified; likely includes full access to personalized coaching and immersive features.\n- Tier 2: Details not publicly specified; may include advanced features or premium support.\n- Enterprise: No information available.\nFree Trial: No explicit information on free trial availability found.\n\nUse Cases:\n- Individuals seeking a personalized, AI-driven fitness and nutrition coach to optimize workouts and diet based on their unique body data.\n- Users who want immersive and interactive workout experiences with real-time feedback to improve exercise form and motivation.\n- People looking for an all-in-one health app that integrates calorie tracking, hydration monitoring, and behavioral support to maintain consistent wellness habits.\n\nTarget Audience: NexuSelf is designed for health-conscious individuals of all fitness levels who want personalized AI coaching for fitness and nutrition. It suits users interested in technology-enhanced wellness, including home exercisers, gym-goers, and yoga practitioners. The product targets consumers seeking an integrated, data-driven approach to health and fitness rather than segmented apps.\n\nCategories: Android, Health & Fitness, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969297",
+    "name": "Best Focus",
+    "tagline": "Simplifying Focus. Say NO to Procrastination.",
+    "description": "I was always distracted, not focused with the Productivity Tools in market. So, I build Best Focus, a simple, free to use tool to improve your productivity. I just want to simplify focus.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Time Tracking"
+    ],
+    "website": "https://www.producthunt.com/r/RK55VDZT7ID4U2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 10,
+    "product_id": "969297",
+    "detailed_description": "Unfortunately, specific details about the product 'Best Focus' with the tagline 'Simplifying Focus. Say NO to Procrastination' are not available in the provided search results. However, based on similar focus-enhancing tools, such products typically aim to help users stay focused by minimizing distractions and organizing tasks efficiently. They often include features like website blockers, task managers, and productivity timers to enhance concentration and productivity. These tools are designed to combat procrastination by creating structured work sessions and breaks, thereby improving overall work efficiency. Users can expect features that help prioritize tasks, manage time effectively, and maintain a consistent workflow. By simplifying focus, these tools enable users to achieve more in less time, leading to better work-life balance and reduced stress. Generally, such products are beneficial for individuals and teams looking to boost productivity and reduce distractions in their work environment.",
+    "features": [
+      "Task Prioritization: Helps users organize tasks in order of importance, ensuring that critical tasks are addressed first.",
+      "Website and App Blocker: Blocks distracting websites and apps during work sessions to minimize interruptions.",
+      "Productivity Timer: Utilizes techniques like the Pomodoro method to create focused work sessions followed by breaks.",
+      "Customizable Work Sessions: Allows users to adjust the length of work sessions and breaks based on their productivity needs.",
+      "Progress Tracking: Provides insights into productivity levels and task completion rates to help users adjust their workflow."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available for 'Best Focus'."
+      ],
+      "free_trial": "No specific information about a free trial for 'Best Focus'.",
+      "additional_info": "Pricing details would typically include whether the product offers a free version, subscription plans, or a one-time purchase option."
+    },
+    "use_cases": [
+      "Students working on assignments: This product can help students stay focused during study sessions, reducing distractions from social media and other online platforms.",
+      "Remote workers: Remote workers can benefit from using this tool to maintain productivity while working from home, where distractions are common.",
+      "Entrepreneurs managing multiple tasks: Entrepreneurs can use this tool to prioritize tasks, manage time effectively, and stay focused on critical business tasks."
+    ],
+    "target_audience": "This product is likely designed for individuals and small teams across various industries who need to enhance their productivity and reduce procrastination. It could be particularly useful for freelancers, remote workers, students, and entrepreneurs who face challenges in maintaining focus in their work environment.",
+    "embedding_text": "Product: Best Focus\n\nDescription: Unfortunately, specific details about the product 'Best Focus' with the tagline 'Simplifying Focus. Say NO to Procrastination' are not available in the provided search results. However, based on similar focus-enhancing tools, such products typically aim to help users stay focused by minimizing distractions and organizing tasks efficiently. They often include features like website blockers, task managers, and productivity timers to enhance concentration and productivity. These tools are designed to combat procrastination by creating structured work sessions and breaks, thereby improving overall work efficiency. Users can expect features that help prioritize tasks, manage time effectively, and maintain a consistent workflow. By simplifying focus, these tools enable users to achieve more in less time, leading to better work-life balance and reduced stress. Generally, such products are beneficial for individuals and teams looking to boost productivity and reduce distractions in their work environment.\n\nKey Features:\n- Task Prioritization: Helps users organize tasks in order of importance, ensuring that critical tasks are addressed first.\n- Website and App Blocker: Blocks distracting websites and apps during work sessions to minimize interruptions.\n- Productivity Timer: Utilizes techniques like the Pomodoro method to create focused work sessions followed by breaks.\n- Customizable Work Sessions: Allows users to adjust the length of work sessions and breaks based on their productivity needs.\n- Progress Tracking: Provides insights into productivity levels and task completion rates to help users adjust their workflow.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available for 'Best Focus'.\nFree Trial: No specific information about a free trial for 'Best Focus'.\n\nUse Cases:\n- Students working on assignments: This product can help students stay focused during study sessions, reducing distractions from social media and other online platforms.\n- Remote workers: Remote workers can benefit from using this tool to maintain productivity while working from home, where distractions are common.\n- Entrepreneurs managing multiple tasks: Entrepreneurs can use this tool to prioritize tasks, manage time effectively, and stay focused on critical business tasks.\n\nTarget Audience: This product is likely designed for individuals and small teams across various industries who need to enhance their productivity and reduce procrastination. It could be particularly useful for freelancers, remote workers, students, and entrepreneurs who face challenges in maintaining focus in their work environment.\n\nCategories: Productivity, Time Tracking\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  },
+  {
+    "id": "969352",
+    "name": "LinkedIn Frame Generator",
+    "tagline": "Create stunning LinkedIn profile frames in seconds.",
+    "description": "Elevate your LinkedIn presence with custom profile frames! Instantly upload your photo, add a stylish ring, curved text, and preview your design live. Download high-res frames for free or unlock unlimited downloads. Built with React, Supabase, and Stripe.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Advertising",
+      "LinkedIn"
+    ],
+    "website": "https://www.producthunt.com/r/QYGE6QE5P6FXXM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 9,
+    "product_id": "969352",
+    "detailed_description": "LinkedIn Frame Generator is a free online tool designed to help users create custom, visually appealing frames for their LinkedIn profile pictures quickly and easily. It allows users to add personalized text or badges around their profile photo to enhance branding, highlight professional status, or promote campaigns without requiring any design skills or downloads. The tool supports high-resolution downloads and works seamlessly on both desktop and mobile devices, making it accessible for a wide range of users. It solves the problem of standing out in the professional networking space by enabling users to visually communicate messages such as #OpenToWork, company hashtags, or other affiliations directly on their profile images. This enhances visibility and engagement on LinkedIn profiles, which is especially useful for job seekers, recruiters, and professionals looking to build their personal brand. The simplicity and speed of the tool make it ideal for individuals and organizations wanting to quickly update their LinkedIn presence with custom frames.",
+    "features": [
+      "Instant application of custom text as a frame around LinkedIn profile photos, allowing personalized messaging and branding.",
+      "Free to use with no downloads or design skills required, making it accessible to all users regardless of technical ability.",
+      "High-resolution downloads of framed LinkedIn profile pictures ensure professional quality suitable for LinkedIn's platform.",
+      "Seamless functionality on both desktop and mobile devices, providing flexibility for users to create frames anywhere.",
+      "Supports use cases like branding, job hunting, and campaign promotion by enabling users to add hashtags or messages such as #OpenToWork or company slogans."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Full access to create and download unlimited custom LinkedIn profile frames with no cost."
+      ],
+      "free_trial": "Not applicable as the product is completely free to use.",
+      "additional_info": "No subscription or payment required; the tool is offered as a free service."
+    },
+    "use_cases": [
+      "Branding: Professionals and companies can add custom hashtags or slogans to their LinkedIn profile pictures to promote their brand identity or campaigns.",
+      "Job Hunting: Job seekers can use frames with tags like #OpenToWork to signal recruiters and increase visibility for new opportunities.",
+      "Professional Status Sharing: Users can display their current work situation or milestones, such as #WorkingRemotely or #OnSabbatical, to communicate their professional status clearly."
+    ],
+    "target_audience": "This product is designed for individual LinkedIn users including job seekers, professionals, and personal brand builders across all industries. It is also suitable for small to medium-sized companies and recruiters who want to promote their brand or hiring campaigns visually on LinkedIn.",
+    "embedding_text": "Product: LinkedIn Frame Generator\n\nDescription: LinkedIn Frame Generator is a free online tool designed to help users create custom, visually appealing frames for their LinkedIn profile pictures quickly and easily. It allows users to add personalized text or badges around their profile photo to enhance branding, highlight professional status, or promote campaigns without requiring any design skills or downloads. The tool supports high-resolution downloads and works seamlessly on both desktop and mobile devices, making it accessible for a wide range of users. It solves the problem of standing out in the professional networking space by enabling users to visually communicate messages such as #OpenToWork, company hashtags, or other affiliations directly on their profile images. This enhances visibility and engagement on LinkedIn profiles, which is especially useful for job seekers, recruiters, and professionals looking to build their personal brand. The simplicity and speed of the tool make it ideal for individuals and organizations wanting to quickly update their LinkedIn presence with custom frames.\n\nKey Features:\n- Instant application of custom text as a frame around LinkedIn profile photos, allowing personalized messaging and branding.\n- Free to use with no downloads or design skills required, making it accessible to all users regardless of technical ability.\n- High-resolution downloads of framed LinkedIn profile pictures ensure professional quality suitable for LinkedIn's platform.\n- Seamless functionality on both desktop and mobile devices, providing flexibility for users to create frames anywhere.\n- Supports use cases like branding, job hunting, and campaign promotion by enabling users to add hashtags or messages such as #OpenToWork or company slogans.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Full access to create and download unlimited custom LinkedIn profile frames with no cost.\nFree Trial: Not applicable as the product is completely free to use.\n\nUse Cases:\n- Branding: Professionals and companies can add custom hashtags or slogans to their LinkedIn profile pictures to promote their brand identity or campaigns.\n- Job Hunting: Job seekers can use frames with tags like #OpenToWork to signal recruiters and increase visibility for new opportunities.\n- Professional Status Sharing: Users can display their current work situation or milestones, such as #WorkingRemotely or #OnSabbatical, to communicate their professional status clearly.\n\nTarget Audience: This product is designed for individual LinkedIn users including job seekers, professionals, and personal brand builders across all industries. It is also suitable for small to medium-sized companies and recruiters who want to promote their brand or hiring campaigns visually on LinkedIn.\n\nCategories: Design Tools, Advertising, LinkedIn\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-25"
+    }
+  }
+]

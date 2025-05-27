@@ -9,7 +9,10 @@ from sendgrid.helpers.mail import Mail, Email, To, Content, Personalization, Htm
 
 # Import from our modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from storage.models import UserProfileStore, RecommendationStore
+from personalized_recommendations.storage.models import (
+    UserProfileStore,
+    RecommendationStore,
+)
 
 # Load environment variables
 load_dotenv()

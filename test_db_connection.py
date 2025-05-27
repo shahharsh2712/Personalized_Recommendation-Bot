@@ -1,4 +1,4 @@
-from storage.database import Database
+from personalized_recommendations.storage.database import Database
 
 
 def main():

@@ -1,11 +1,25 @@
-import json
 import os
+import json
+import logging
 import time
-from openai import OpenAI
+from datetime import datetime
 from dotenv import load_dotenv
+from personalized_recommendations.storage.models import ProductStore
+from openai import OpenAI
 
 # Load environment variables
 load_dotenv()
+
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("personalized_recommendations/logs/embeddings.log"),
+        logging.StreamHandler(),
+    ],
+)
+logger = logging.getLogger(__name__)
 
 # Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -17,46 +31,68 @@ def generate_embedding(text):
         response = client.embeddings.create(model="text-embedding-3-small", input=text)
         return response.data[0].embedding
     except Exception as e:
-        print(f"Error generating embedding: {e}")
+        logger.error(f"Error generating embedding: {e}")
         return None
 
 
-def main():
-    # Load enriched products
-    with open("data/enriched_products.json", "r", encoding="utf-8") as f:
-        products = json.load(f)
+def generate_embeddings(products):
+    """Generate embeddings for a list of products and save to MongoDB"""
+    logger.info("Starting embeddings generation")
+    start_time = datetime.now()
 
-    print(f"Loaded {len(products)} enriched products")
-    print("Generating embeddings...")
+    if not products:
+        logger.warning("No products provided for embedding generation")
+        return []
 
+    store = ProductStore()
     products_with_embeddings = []
-    for i, product in enumerate(products):
-        print(
-            f"Generating embedding for product {i + 1}/{len(products)}: {product['name']}"
-        )
-
-        # Generate embedding using the optimized embedding text
-        if "embedding_text" in product:
-            embedding = generate_embedding(product["embedding_text"])
+    for product in products:
+        try:
+            embedding_text = (
+                product.get("embedding_text")
+                or product.get("description")
+                or product.get("name")
+            )
+            if not embedding_text:
+                logger.warning(
+                    f"No text found for embedding for product {product.get('name', 'unknown')}"
+                )
+                continue
+            embedding = generate_embedding(embedding_text)
             if embedding:
                 product["embedding"] = embedding
+                product["embedding_generated_at"] = datetime.now().isoformat()
                 products_with_embeddings.append(product)
             else:
-                print(f"Failed to generate embedding for {product['name']}")
-        else:
-            print(f"No embedding_text found for {product['name']}")
+                logger.warning(
+                    f"Failed to generate embedding for {product.get('name', 'unknown')}"
+                )
+                continue
+            # Respect API rate limits
+            time.sleep(0.5)
+        except Exception as e:
+            logger.error(
+                f"Error generating embedding for product {product.get('id', 'unknown')}: {e}"
+            )
+            continue
 
-        # Respect API rate limits
-        time.sleep(0.5)
+    if not products_with_embeddings:
+        logger.warning("No embeddings were successfully generated")
+        return []
 
-    # Save products with embeddings
-    with open("data/products_with_embeddings.json", "w", encoding="utf-8") as f:
-        json.dump(products_with_embeddings, f, indent=2, ensure_ascii=False)
+    # Save products with embeddings to MongoDB
+    success_count = store.save_batch(products_with_embeddings)
 
-    print(
-        f"Saved {len(products_with_embeddings)} products with embeddings to data/products_with_embeddings.json"
+    end_time = datetime.now()
+    duration = (end_time - start_time).total_seconds()
+    logger.info(f"Embeddings generation completed in {duration:.2f} seconds")
+    logger.info(
+        f"Successfully generated and saved embeddings for {success_count} products to MongoDB"
     )
+
+    store.close()
+    return products_with_embeddings
 
 
 if __name__ == "__main__":
-    main()
+    generate_embeddings()

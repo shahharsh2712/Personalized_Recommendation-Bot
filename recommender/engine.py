@@ -1,6 +1,7 @@
 import os
 import logging
 import numpy as np
+import re
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
@@ -8,8 +9,9 @@ from dotenv import load_dotenv
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from storage.models import ProductStore, UserProfileStore
+from personalized_recommendations.storage.models import ProductStore, UserProfileStore
 from users.profile import UserProfileManager
+from personalized_recommendations.recommender.explainer import RecommendationExplainer
 
 # Load environment variables
 load_dotenv()
@@ -21,6 +23,96 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+def extract_platforms(product):
+    """Extract platform information from various product fields"""
+    platforms = set()
+
+    # Check explicit platforms field
+    if "platforms" in product:
+        platforms.update(product["platforms"])
+
+    # Check category
+    if "category" in product:
+        category = product["category"].lower()
+        if "mac" in category or "apple" in category:
+            platforms.add("macos")
+        elif "windows" in category:
+            platforms.add("windows")
+        elif "ios" in category or "iphone" in category:
+            platforms.add("ios")
+        elif "android" in category:
+            platforms.add("android")
+        elif "web" in category:
+            platforms.add("web")
+
+    # Check topics
+    if "topics" in product:
+        for topic in product["topics"]:
+            topic = topic.lower()
+            if "mac" in topic or "apple" in topic:
+                platforms.add("macos")
+            elif "windows" in topic:
+                platforms.add("windows")
+            elif "ios" in topic or "iphone" in topic:
+                platforms.add("ios")
+            elif "android" in topic:
+                platforms.add("android")
+            elif "web" in topic:
+                platforms.add("web")
+
+    # Check description and embedding text
+    text_fields = ["embedding_text", "detailed_description", "description"]
+    for field in text_fields:
+        if field in product:
+            text = product[field].lower()
+            if "macos" in text or "mac os" in text:
+                platforms.add("macos")
+            if "windows" in text:
+                platforms.add("windows")
+            if "ios" in text or "iphone" in text:
+                platforms.add("ios")
+            if "android" in text:
+                platforms.add("android")
+            if "web" in text or "browser" in text:
+                platforms.add("web")
+
+    return list(platforms)
+
+
+def extract_price_info(product):
+    """Extract price information from product pricing object"""
+    if "pricing" not in product:
+        return None, None
+
+    pricing = product["pricing"]
+    min_price = float("inf")
+    max_price = 0
+
+    # Extract prices from tiers
+    if "tiers" in pricing:
+        for tier in pricing["tiers"]:
+            # Look for price patterns like $X.XX, $X/month, etc.
+            price_matches = re.findall(r"\$(\d+(?:\.\d+)?)(?:/month)?", tier.lower())
+            for price_str in price_matches:
+                try:
+                    price = float(price_str)
+                    min_price = min(min_price, price)
+                    max_price = max(max_price, price)
+                except ValueError:
+                    continue
+
+    # Handle special cases
+    if "free" in str(pricing).lower():
+        min_price = 0
+
+    if min_price == float("inf"):
+        min_price = None
+    if max_price == 0:
+        max_price = None
+
+    return min_price, max_price
+
+
 class RecommendationEngine:
     """Engine for generating personalized app recommendations"""
 
@@ -28,35 +120,115 @@ class RecommendationEngine:
         self.product_store = ProductStore()
         self.user_store = UserProfileStore()
         self.user_manager = UserProfileManager()
+        self.explainer = RecommendationExplainer()
 
     def generate_recommendations_for_user(self, user_email, top_k=5, days=1):
-        """Generate recommendations for a specific user"""
-        # Get user profile
+        """Generate recommendations for a specific user using hybrid approach"""
         user = self.user_manager.get_user(user_email)
         if not user:
             logger.error(f"User not found: {user_email}")
             return []
-
-        # Check if user has embedding
         if "embedding" not in user:
             logger.error(f"User {user_email} has no embedding")
             return []
-
         user_embedding = user["embedding"]
+        preferences = user.get("preferences", {})
 
-        # Find similar products
-        similar_products = self.product_store.find_similar_products(
-            user_embedding, limit=top_k
+        # Determine product pool based on cadence
+        cadence = preferences.get("cadence", "daily")
+        today = datetime.now().strftime("%Y-%m-%d")
+        if cadence == "daily":
+            # Only use today's products
+            candidate_products = list(
+                self.product_store.products.find(
+                    {
+                        "collection_date": today,
+                        "embedding": {"$exists": True, "$ne": []},
+                    }
+                )
+            )
+            logger.info(
+                f"Using only today's products ({len(candidate_products)}) for daily cadence user {user_email}"
+            )
+        else:
+            # Use previous logic (e.g., last 7 days)
+            candidate_products = self.product_store.find_similar_products(
+                user_embedding, limit=10
+            )
+            logger.info(
+                f"Using recent products ({len(candidate_products)}) for non-daily cadence user {user_email}"
+            )
+
+        # 2. Flexible hard filters with fallback
+        filtered_candidates = []
+        user_platforms = set(preferences.get("platforms", []))
+        user_budget = preferences.get("budget_pref", None)
+
+        # First pass: strict filtering
+        for product in candidate_products:
+            # Platform filter
+            product_platforms = set(extract_platforms(product))
+            platform_match = not user_platforms or (user_platforms & product_platforms)
+
+            # Budget filter
+            min_price, max_price = extract_price_info(product)
+            budget_match = True
+            if user_budget == "free-only":
+                budget_match = min_price == 0 or min_price is None
+            elif user_budget == "freemium-ok":
+                budget_match = (
+                    min_price == 0
+                    or min_price is None
+                    or (min_price and min_price <= 10)
+                )
+
+            if platform_match and budget_match:
+                filtered_candidates.append(product)
+
+        # If no candidates after strict filtering, try relaxed filtering
+        if not filtered_candidates:
+            for product in candidate_products:
+                # Relaxed platform matching
+                product_platforms = set(extract_platforms(product))
+                platform_match = not user_platforms or any(
+                    any(p in up for p in product_platforms) for up in user_platforms
+                )
+
+                # Relaxed budget matching
+                min_price, max_price = extract_price_info(product)
+                budget_match = True
+                if user_budget == "free-only":
+                    budget_match = min_price is None or min_price <= 5
+                elif user_budget == "freemium-ok":
+                    budget_match = min_price is None or min_price <= 15
+
+                if platform_match and budget_match:
+                    filtered_candidates.append(product)
+
+        # If still no candidates, use original semantic search results
+        if not filtered_candidates:
+            filtered_candidates = candidate_products[:top_k]
+            logger.info(
+                "Using unfiltered semantic search results due to no matches after filtering"
+            )
+
+        logger.info(
+            f"Filtered candidates for {user_email}: {[p['name'] for p in filtered_candidates]}"
         )
+        logger.info(f"Passing {len(filtered_candidates)} candidates to LLM for rerank.")
 
-        # Format recommendations
-        recommendations = self._format_recommendations(user, similar_products)
+        # 3. LLM rerank and reason generation
+        recommendations = self.explainer.batch_llm_rerank_and_reason(
+            user, filtered_candidates, top_k=top_k
+        )
+        logger.info(
+            f"LLM/final recommendations for {user_email}: {[r['name'] for r in recommendations]}"
+        )
 
         # Save recommendations
         user_id = str(user["_id"])
         today = datetime.now().strftime("%Y-%m-%d")
         self.user_store.save_recommendation(user_id, recommendations, today)
-
         return recommendations
 
     def _format_recommendations(self, user, products):

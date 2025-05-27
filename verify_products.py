@@ -1,4 +1,4 @@
-from storage.models import ProductStore
+from personalized_recommendations.storage.models import ProductStore
 from datetime import datetime
 import numpy as np
 

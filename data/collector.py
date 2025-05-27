@@ -1,20 +1,22 @@
 import os
-import sys
 import json
 import logging
 import time
 from datetime import datetime
+import uuid
 
-# Add the src directory to path so we can import existing modules
-sys.path.append(
-    os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "src")
+# Import from new codebase structure
+from personalized_recommendations.src.fetch_products import (
+    fetch_products,
+    process_products,
 )
-
-# Import from existing codebase
-from fetch_products import fetch_products, process_products
-from perplexity_enrich_products import enrich_with_perplexity, create_embedding_text
-from generate_embeddings import generate_embedding
-from categorize_all_products import categorize_product
+from personalized_recommendations.src.perplexity_enrich_products import (
+    enrich_with_perplexity,
+    create_embedding_text,
+)
+from personalized_recommendations.src.generate_embeddings import generate_embeddings
+from personalized_recommendations.src.categorize_all_products import categorize_product
+from personalized_recommendations.storage.models import ProductStore
 
 # Setup logging
 logging.basicConfig(
@@ -95,6 +97,16 @@ class ProductCollector:
             logger.info(f"Enriching product {i + 1}/{len(products)}: {product['name']}")
 
             try:
+                # Ensure product_id is present
+                product_id = product.get("product_id") or product.get("id")
+                if not product_id:
+                    # Generate a unique product_id if missing
+                    product_id = str(uuid.uuid4())
+                    product["product_id"] = product_id
+                else:
+                    product["product_id"] = str(product_id)
+                product["id"] = product["product_id"]  # for backward compatibility
+
                 # Enrich with Perplexity using existing function
                 enriched_product = enrich_with_perplexity(product)
 
@@ -126,7 +138,14 @@ class ProductCollector:
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(enriched_products, f, indent=2, ensure_ascii=False)
 
-        logger.info(f"Saved {len(enriched_products)} enriched products")
+        # Save to MongoDB
+        store = ProductStore()
+        store.save_batch(enriched_products)
+        store.close()
+
+        logger.info(
+            f"Saved {len(enriched_products)} enriched products (JSON + MongoDB)"
+        )
         return enriched_products
 
     def generate_embeddings(self, products):
@@ -135,45 +154,8 @@ class ProductCollector:
             logger.info("No products to embed")
             return []
 
-        products_with_embeddings = []
-        for i, product in enumerate(products):
-            logger.info(
-                f"Generating embedding for product {i + 1}/{len(products)}: {product['name']}"
-            )
-
-            try:
-                # Generate embedding using existing function
-                if "embedding_text" in product:
-                    embedding = generate_embedding(product["embedding_text"])
-                    if embedding:
-                        product["embedding"] = embedding
-                        products_with_embeddings.append(product)
-                    else:
-                        logger.error(
-                            f"Failed to generate embedding for {product['name']}"
-                        )
-                else:
-                    logger.error(f"No embedding_text found for {product['name']}")
-
-                # Respect API rate limits
-                time.sleep(0.5)
-
-            except Exception as e:
-                logger.error(f"Error generating embedding for {product['name']}: {e}")
-
-        # Save products with embeddings
-        date_string = datetime.now().strftime("%Y-%m-%d")
-        output_file = f"personalized_recommendations/data_store/products_with_embeddings_{date_string}.json"
-
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(products_with_embeddings, f, indent=2, ensure_ascii=False)
-
-        # Save to MongoDB
-        from storage.models import ProductStore
-
-        store = ProductStore()
-        store.save_batch(products_with_embeddings)
-        store.close()
+        # Use the new generate_embeddings function
+        products_with_embeddings = generate_embeddings(products)
 
         logger.info(
             f"Saved {len(products_with_embeddings)} products with embeddings and stored in MongoDB"

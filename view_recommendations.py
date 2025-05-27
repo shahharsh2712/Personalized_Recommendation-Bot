@@ -5,7 +5,10 @@ from datetime import datetime
 
 # Import from our modules
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from storage.models import UserProfileStore, RecommendationStore
+from personalized_recommendations.storage.models import (
+    UserProfileStore,
+    RecommendationStore,
+)
 
 # Setup logging
 logging.basicConfig(

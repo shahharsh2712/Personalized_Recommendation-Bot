@@ -3,6 +3,8 @@ import logging
 import random
 from dotenv import load_dotenv
 from openai import OpenAI
+import json
+import re
 
 # Load environment variables
 load_dotenv()
@@ -167,6 +169,124 @@ class RecommendationExplainer:
             explained_recommendations.append(rec_copy)
 
         return explained_recommendations
+
+    def batch_llm_rerank_and_reason(self, user, candidates, top_k=5):
+        """Use LLM to rerank and generate reasons for candidate apps based on chip-based preferences."""
+        preferences = user.get("preferences", {})
+        pain_points = preferences.get("pain_points", [])
+        platforms = preferences.get("platforms", [])
+        budget = preferences.get("budget_pref", None)
+        cadence = preferences.get("cadence", None)
+        user_name = user.get("name", "User")
+
+        # Prepare JSON for LLM
+        candidate_json = [
+            {
+                "name": app["name"],
+                "tagline": app.get("tagline", ""),
+                "description": app.get("description", ""),
+                "platforms": app.get("platforms", []),
+                "pricing": app.get("pricing", ""),
+            }
+            for app in candidates
+        ]
+
+        prompt = f"""
+You are an app recommendation assistant.
+User: {user_name}
+Pain points: {", ".join(pain_points) if pain_points else "None"}
+Preferred platforms: {", ".join(platforms) if platforms else "Any"}
+Budget: {budget or "Any"}
+Cadence: {cadence or "Any"}
+Below are {len(candidate_json)} candidate apps (in JSON).
+Pick the {top_k} most relevant and, for each, write one sentence (<30 words) explaining why it helps the user.
+Respond in JSON: [{{name, reason}}].
+
+Candidate apps:
+{candidate_json}
+"""
+        if self.use_ai:
+            try:
+                response = self.openai_client.chat.completions.create(
+                    model="gpt-3.5-turbo",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are an expert at app recommendations. Be concise, specific, and user-focused.",
+                        },
+                        {"role": "user", "content": prompt},
+                    ],
+                    max_tokens=500,
+                    temperature=0.7,
+                )
+
+                # Try to parse the JSON from the LLM response
+                content = response.choices[0].message.content.strip()
+                logger.info(f"Raw LLM response content: {content}")
+                # Remove code block markers if present
+                if content.startswith("```"):
+                    content = content.split("```", 1)[-1].strip()
+                if content.lower().startswith("json"):
+                    content = content[4:].strip()
+                # Find the first [ and last ] to extract the JSON array
+                start = content.find("[")
+                end = content.rfind("]") + 1
+                json_str = content[start:end]
+                # Remove trailing commas before closing bracket
+                json_str = re.sub(r",\s*\]", "]", json_str)
+                result = json.loads(json_str)
+                # result: list of {name, reason}
+                # Deduplicate by name, keep first occurrence
+                seen = set()
+                deduped_result = []
+                for item in result:
+                    if item["name"] not in seen:
+                        deduped_result.append(item)
+                        seen.add(item["name"])
+                # Map back to full app info
+                name_to_app = {app["name"]: app for app in candidates}
+                recommendations = []
+                for item in deduped_result:
+                    app = name_to_app.get(item["name"])
+                    if app:
+                        app_copy = app.copy()
+                        app_copy["reason"] = item["reason"]
+                        recommendations.append(app_copy)
+                return recommendations[:top_k]
+            except Exception as e:
+                logger.error(f"LLM rerank/reason failed: {e}")
+                # Fallback to template
+        # Fallback: template-based reason
+        recommendations = []
+        for app in candidates[:top_k]:
+            reason = self._template_chip_reason(user, app)
+            app_copy = app.copy()
+            app_copy["reason"] = reason
+            recommendations.append(app_copy)
+        return recommendations
+
+    def _template_chip_reason(self, user, app):
+        """Generate a template-based reason using chip-based fields."""
+        preferences = user.get("preferences", {})
+        pain_points = preferences.get("pain_points", [])
+        platforms = preferences.get("platforms", [])
+        budget = preferences.get("budget_pref", None)
+        parts = []
+        if pain_points:
+            for pain in pain_points:
+                if pain.lower() in app.get("description", "").lower():
+                    parts.append(f"Helps with: {pain}")
+                    break
+        if platforms:
+            app_platforms = app.get("platforms", [])
+            overlap = set(platforms) & set(app_platforms)
+            if overlap:
+                parts.append(f"Works on your platform: {', '.join(list(overlap))}")
+        if budget == "free-only" and app.get("pricing", "") in ["free", "freemium"]:
+            parts.append("Free or freemium app")
+        if not parts:
+            parts.append("Matches your preferences")
+        return "; ".join(parts)
 
 
 # Example usage

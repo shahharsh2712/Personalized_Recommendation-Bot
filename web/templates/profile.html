@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h2 class="mb-0">User Profile</h2>
+                    {% if session.get('user_email') == user['email'] %}
+                    <a href="{{ url_for('edit_profile', email=user['email']) }}" class="btn btn-primary">
+                        <i class="fas fa-edit"></i> Edit Profile
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted mb-3">Basic Information</h5>
+                            <p><strong>Name:</strong> {{ user['name'] }}</p>
+                            <p><strong>Email:</strong> {{ user['email'] }}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted mb-3">Delivery Settings</h5>
+                            <p>
+                                <strong>Frequency:</strong>
+                                {% if user['preferences']['cadence'] == 'daily' %}
+                                    Daily
+                                {% elif user['preferences']['cadence'] == 'twice_week' %}
+                                    Twice a week
+                                {% else %}
+                                    Weekly
+                                {% endif %}
+                            </p>
+                            <p>
+                                <strong>Channel:</strong>
+                                {{ user['preferences']['channel']|title }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted mb-3">Role & Goals</h5>
+                            {% if user['preferences']['role'] %}
+                            <p><strong>Role:</strong> {{ user['preferences']['role'] }}</p>
+                            {% endif %}
+                            {% if user['preferences']['goal'] %}
+                            <p><strong>Current Goal:</strong> {{ user['preferences']['goal'] }}</p>
+                            {% endif %}
+                            {% if user['preferences']['pain_point'] %}
+                            <p><strong>Biggest Bottleneck:</strong> {{ user['preferences']['pain_point'] }}</p>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted mb-3">Preferences</h5>
+                            <p>
+                                <strong>Budget:</strong>
+                                {% if user['preferences']['budget_pref'] == 'free_only' %}
+                                    Free tools only
+                                {% else %}
+                                    Free + Paid
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+
+                    {% if user['preferences']['interests'] %}
+                    <div class="mb-4">
+                        <h5 class="text-muted mb-3">Interests</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            {% for interest in user['preferences']['interests'] %}
+                            <span class="badge bg-primary">{{ interest }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% if user['preferences']['platforms'] %}
+                    <div class="mb-4">
+                        <h5 class="text-muted mb-3">Platforms</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            {% for platform in user['preferences']['platforms'] %}
+                            <span class="badge bg-secondary">{{ platform }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <div class="text-muted mt-4">
+                        <small>Last updated: {{ user['last_updated'].strftime('%B %d, %Y') if user['last_updated'] else '—' }}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

@@ -21,7 +21,7 @@ class Database:
     def __init__(self):
         # Get MongoDB connection string from environment
         mongo_uri = os.getenv("MONGODB_URI") or "mongodb://localhost:27017/"
-        db_name = os.getenv("RECOMMENDATION_DB_NAME") or "app_recommendations"
+        db_name = os.getenv("MONGODB_DB") or "app_recommendations"
 
         # Debug print
         print(f"[DEBUG] Connecting to MongoDB URI: {mongo_uri}, Database: {db_name}")

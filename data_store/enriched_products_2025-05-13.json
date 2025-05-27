@@ -1,0 +1,895 @@
+[
+  {
+    "id": "953388",
+    "name": "Probo",
+    "tagline": "Compliance for Startups to get SOC2/ISO27001/HIPAA in a week",
+    "description": "Probo is an open-source platform for SOC 2, ISO 27001, HIPAA, and more. If you don't want to lose time doing it, we provide a white-glove service to run everything for you and let you focus on your business. Open-source, transparent, and stress-free.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Artificial Intelligence",
+      "Security"
+    ],
+    "website": "https://www.producthunt.com/r/GDGI6LSRXCJJBW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 262,
+    "product_id": "953388",
+    "detailed_description": "Probo is an open-source compliance platform designed specifically for startups to achieve SOC 2, ISO 27001, and HIPAA compliance efficiently. It offers a tailored approach, fitting compliance needs to the business rather than using generic templates. Probo simplifies the compliance process by providing a hands-off journey, allowing startups to focus on their core business while Probo handles the compliance tasks. The platform includes features like AI-powered policy generation, automated risk assessment, and smart task prioritization. Probo is transparent and community-driven, ensuring no vendor lock-in and allowing users to export their compliance data freely. It aims to help startups unlock enterprise deals, open EU markets, and win U.S. healthcare deals by demonstrating compliance and trustworthiness. Probo also supports compliance for privacy governance and AI adoption in regulated sectors.",
+    "features": [
+      "Tailored Compliance Program: Probo provides a customized checklist that aligns with the startup's specific needs, ensuring only relevant compliance tasks are addressed.",
+      "AI-Powered Policy Generation: Policies are generated based on the startup's technology stack, reducing the need for manual policy creation.",
+      "Automated Risk Assessment: Probo automates the risk assessment process, helping startups identify and mitigate risks efficiently.",
+      "Smart Task Prioritization: Tasks are prioritized based on the startup's risk profile, ensuring critical compliance tasks are addressed first.",
+      "No Vendor Lock-in: Users can export their compliance data at any time, ensuring full control and transparency."
+    ],
+    "pricing": {
+      "model": "Free/Freemium with optional white-glove service",
+      "tiers": [
+        "Free tier: Open-source platform with core compliance features available for free.",
+        "White-glove Service: Probo offers a premium service where they handle the entire compliance process for startups, but specific pricing details are not publicly available."
+      ],
+      "free_trial": "Not explicitly mentioned, but the open-source nature allows for free use of core features.",
+      "additional_info": "The pricing model focuses on providing a free, open-source solution with optional paid services for those who prefer a hands-off compliance experience."
+    },
+    "use_cases": [
+      "Unlocking Enterprise Deals: Probo helps startups achieve compliance standards required by large enterprises, accelerating sales cycles.",
+      "Expanding into EU Markets: By achieving compliance with EU privacy standards, startups can expand their market reach and build trust with privacy-minded buyers.",
+      "Winning U.S. Healthcare Deals: Probo assists startups in clearing regulatory barriers in the U.S. healthcare sector by ensuring HIPAA compliance."
+    ],
+    "target_audience": "Probo is designed for startups and small businesses, particularly those in industries requiring strict compliance standards such as healthcare, finance, and technology.",
+    "embedding_text": "Product: Probo\n\nDescription: Probo is an open-source compliance platform designed specifically for startups to achieve SOC 2, ISO 27001, and HIPAA compliance efficiently. It offers a tailored approach, fitting compliance needs to the business rather than using generic templates. Probo simplifies the compliance process by providing a hands-off journey, allowing startups to focus on their core business while Probo handles the compliance tasks. The platform includes features like AI-powered policy generation, automated risk assessment, and smart task prioritization. Probo is transparent and community-driven, ensuring no vendor lock-in and allowing users to export their compliance data freely. It aims to help startups unlock enterprise deals, open EU markets, and win U.S. healthcare deals by demonstrating compliance and trustworthiness. Probo also supports compliance for privacy governance and AI adoption in regulated sectors.\n\nKey Features:\n- Tailored Compliance Program: Probo provides a customized checklist that aligns with the startup's specific needs, ensuring only relevant compliance tasks are addressed.\n- AI-Powered Policy Generation: Policies are generated based on the startup's technology stack, reducing the need for manual policy creation.\n- Automated Risk Assessment: Probo automates the risk assessment process, helping startups identify and mitigate risks efficiently.\n- Smart Task Prioritization: Tasks are prioritized based on the startup's risk profile, ensuring critical compliance tasks are addressed first.\n- No Vendor Lock-in: Users can export their compliance data at any time, ensuring full control and transparency.\n\nPricing Model: Free/Freemium with optional white-glove service\nPricing Tiers:\n- Free tier: Open-source platform with core compliance features available for free.\n- White-glove Service: Probo offers a premium service where they handle the entire compliance process for startups, but specific pricing details are not publicly available.\nFree Trial: Not explicitly mentioned, but the open-source nature allows for free use of core features.\n\nUse Cases:\n- Unlocking Enterprise Deals: Probo helps startups achieve compliance standards required by large enterprises, accelerating sales cycles.\n- Expanding into EU Markets: By achieving compliance with EU privacy standards, startups can expand their market reach and build trust with privacy-minded buyers.\n- Winning U.S. Healthcare Deals: Probo assists startups in clearing regulatory barriers in the U.S. healthcare sector by ensuring HIPAA compliance.\n\nTarget Audience: Probo is designed for startups and small businesses, particularly those in industries requiring strict compliance standards such as healthcare, finance, and technology.\n\nCategories: Open Source, Artificial Intelligence, Security\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "962878",
+    "name": "Syft AI",
+    "tagline": "Define Your news & choose your topics for personalized feed",
+    "description": "Unlike other news apps, you tell us the exact topics you care about, and we bring you time-saving, unbiased takeaways from the world's most trusted sources.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "News",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/RZIATKQ4XD3LEG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 254,
+    "product_id": "962878",
+    "detailed_description": "Syft AI is a personalized news aggregator that allows users to define their news feed by selecting specific topics of interest. It leverages AI to curate content from trusted sources, providing users with tailored updates in real-time. This approach helps reduce information overload by focusing on relevant news, making it easier for users to stay informed without sifting through numerous sources. Syft AI supports multilingual news access, ensuring users can receive updates in their preferred language. The platform is designed to be user-friendly, with features like customizable channels and real-time notifications. By using natural language processing, Syft AI delivers concise summaries, saving users time and effort. It is particularly useful for those seeking to streamline their news consumption efficiently.",
+    "features": [
+      "Customizable Channels: Users can create personalized news channels based on their interests, ensuring they receive updates that align with their preferences.",
+      "Real-time Updates: Syft AI provides real-time notifications via email or platform alerts, keeping users informed about the latest developments in their chosen topics.",
+      "Diverse Content Sources: The platform aggregates content from various sources, including blogs, social media, and RSS feeds, offering a comprehensive view of news.",
+      "User-Friendly Interface: Designed for easy navigation, Syft AI's interface makes it simple for users to manage their news feeds and stay updated.",
+      "Multilingual Support: Users can access news in their preferred language, sourced from reliable local and global news providers."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Allows users to explore the platform without payment, though specific details on included features are not provided.",
+        "No detailed information is available on paid tiers or premium features."
+      ],
+      "free_trial": "No specific information on a free trial is available, but users can start for free.",
+      "additional_info": "Syft AI offers a 'Get Started for Free' option, but details on paid plans are not currently available."
+    },
+    "use_cases": [
+      "Personalized News Tracking: Syft AI is useful for individuals who want to stay updated on specific topics without being overwhelmed by irrelevant news.",
+      "Multilingual News Access: It is beneficial for users who prefer to read news in their native language, accessing content from both local and global sources.",
+      "Streamlined Information Consumption: Professionals and individuals can use Syft AI to efficiently manage their news intake, focusing on high-quality, relevant content."
+    ],
+    "target_audience": "Syft AI is designed for individuals and professionals seeking to streamline their news consumption efficiently. It is particularly useful for those interested in staying updated on specific topics across various industries, including finance, entertainment, and more.",
+    "embedding_text": "Product: Syft AI\n\nDescription: Syft AI is a personalized news aggregator that allows users to define their news feed by selecting specific topics of interest. It leverages AI to curate content from trusted sources, providing users with tailored updates in real-time. This approach helps reduce information overload by focusing on relevant news, making it easier for users to stay informed without sifting through numerous sources. Syft AI supports multilingual news access, ensuring users can receive updates in their preferred language. The platform is designed to be user-friendly, with features like customizable channels and real-time notifications. By using natural language processing, Syft AI delivers concise summaries, saving users time and effort. It is particularly useful for those seeking to streamline their news consumption efficiently.\n\nKey Features:\n- Customizable Channels: Users can create personalized news channels based on their interests, ensuring they receive updates that align with their preferences.\n- Real-time Updates: Syft AI provides real-time notifications via email or platform alerts, keeping users informed about the latest developments in their chosen topics.\n- Diverse Content Sources: The platform aggregates content from various sources, including blogs, social media, and RSS feeds, offering a comprehensive view of news.\n- User-Friendly Interface: Designed for easy navigation, Syft AI's interface makes it simple for users to manage their news feeds and stay updated.\n- Multilingual Support: Users can access news in their preferred language, sourced from reliable local and global news providers.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Allows users to explore the platform without payment, though specific details on included features are not provided.\n- No detailed information is available on paid tiers or premium features.\nFree Trial: No specific information on a free trial is available, but users can start for free.\n\nUse Cases:\n- Personalized News Tracking: Syft AI is useful for individuals who want to stay updated on specific topics without being overwhelmed by irrelevant news.\n- Multilingual News Access: It is beneficial for users who prefer to read news in their native language, accessing content from both local and global sources.\n- Streamlined Information Consumption: Professionals and individuals can use Syft AI to efficiently manage their news intake, focusing on high-quality, relevant content.\n\nTarget Audience: Syft AI is designed for individuals and professionals seeking to streamline their news consumption efficiently. It is particularly useful for those interested in staying updated on specific topics across various industries, including finance, entertainment, and more.\n\nCategories: Productivity, News, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "959493",
+    "name": "CoLaunchly",
+    "tagline": "Launch your app faster. with zero guesswork",
+    "description": "CoLaunchly is your launch co-pilot made for developers. Instantly get a personalised launch roadmap, content templates, and channel strategy-built to help your product grow from day one.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Marketing",
+      "Developer Tools"
+    ],
+    "website": "https://www.producthunt.com/r/B3MM5CDDCQZYVW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 213,
+    "product_id": "959493",
+    "detailed_description": "CoLaunchly is a launch co-pilot designed specifically for developers and indie founders to help them launch their apps faster and with zero guesswork. It provides a personalized launch roadmap, content templates, and channel strategies tailored to the user's product, whether it's a SaaS, mobile app, or developer tool. The platform eliminates the need for full-time marketing expertise by offering repeatable checklists, high-converting content, and insights on the most effective channels for audience engagement. CoLaunchly helps users save time on writing and organizing launch content, allowing them to focus on shipping their product. It also offers a clear, intuitive checklist system and shares learnings from other developers to refine launch strategies. Overall, it streamlines the entire launch process from idea to execution, making it accessible even for solo developers without marketing backgrounds.[1][2][3][4]",
+    "features": [
+      "Personalized launch roadmap that guides developers step-by-step from idea to launch, removing uncertainty and guesswork.",
+      "High-converting content templates tailored for different launch channels like the App Store and Google Play, saving hours on writing and marketing preparation.",
+      "Repeatable checklists designed specifically for indie developers to keep the launch process organized and on track without bloated tools.",
+      "Insights and analytics on which marketing channels and content types drive the best results for the user's specific audience.",
+      "Community-driven learnings that allow users to discover what worked and what didn’t for other developers, helping to continuously improve their launch playbook."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Includes access to personalized launch roadmaps, basic content templates, and essential checklist features to get started with app launching.",
+        "Tier 1: Details not explicitly provided in the search results.",
+        "Tier 2: Details not explicitly provided in the search results.",
+        "Enterprise: No information available on enterprise pricing or features."
+      ],
+      "free_trial": "Not explicitly mentioned, but the presence of a free tier suggests users can try core features without payment.",
+      "additional_info": "Pricing details beyond the free tier are not publicly available in the provided sources."
+    },
+    "use_cases": [
+      "An indie developer launching their first mobile app who needs a clear, step-by-step marketing and launch plan without hiring a marketing team.",
+      "A solo SaaS founder who wants to save time on creating launch content and needs guidance on which channels to focus on for maximum impact.",
+      "A developer releasing a new feature or dev tool who wants to build momentum and engagement quickly using proven templates and checklists."
+    ],
+    "target_audience": "CoLaunchly is designed for indie developers, solo founders, and small startup teams primarily in the software development industry, including mobile app creators, SaaS builders, and developer tool makers. It targets users who want to launch confidently without extensive marketing expertise, typically small companies or individuals managing product launches independently.",
+    "embedding_text": "Product: CoLaunchly\n\nDescription: CoLaunchly is a launch co-pilot designed specifically for developers and indie founders to help them launch their apps faster and with zero guesswork. It provides a personalized launch roadmap, content templates, and channel strategies tailored to the user's product, whether it's a SaaS, mobile app, or developer tool. The platform eliminates the need for full-time marketing expertise by offering repeatable checklists, high-converting content, and insights on the most effective channels for audience engagement. CoLaunchly helps users save time on writing and organizing launch content, allowing them to focus on shipping their product. It also offers a clear, intuitive checklist system and shares learnings from other developers to refine launch strategies. Overall, it streamlines the entire launch process from idea to execution, making it accessible even for solo developers without marketing backgrounds.[1][2][3][4]\n\nKey Features:\n- Personalized launch roadmap that guides developers step-by-step from idea to launch, removing uncertainty and guesswork.\n- High-converting content templates tailored for different launch channels like the App Store and Google Play, saving hours on writing and marketing preparation.\n- Repeatable checklists designed specifically for indie developers to keep the launch process organized and on track without bloated tools.\n- Insights and analytics on which marketing channels and content types drive the best results for the user's specific audience.\n- Community-driven learnings that allow users to discover what worked and what didn’t for other developers, helping to continuously improve their launch playbook.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Includes access to personalized launch roadmaps, basic content templates, and essential checklist features to get started with app launching.\n- Tier 1: Details not explicitly provided in the search results.\n- Tier 2: Details not explicitly provided in the search results.\n- Enterprise: No information available on enterprise pricing or features.\nFree Trial: Not explicitly mentioned, but the presence of a free tier suggests users can try core features without payment.\n\nUse Cases:\n- An indie developer launching their first mobile app who needs a clear, step-by-step marketing and launch plan without hiring a marketing team.\n- A solo SaaS founder who wants to save time on creating launch content and needs guidance on which channels to focus on for maximum impact.\n- A developer releasing a new feature or dev tool who wants to build momentum and engagement quickly using proven templates and checklists.\n\nTarget Audience: CoLaunchly is designed for indie developers, solo founders, and small startup teams primarily in the software development industry, including mobile app creators, SaaS builders, and developer tool makers. It targets users who want to launch confidently without extensive marketing expertise, typically small companies or individuals managing product launches independently.\n\nCategories: Productivity, Marketing, Developer Tools\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "963721",
+    "name": "AI Meeting Notes by Notion",
+    "tagline": "Perfect meeting memory in Notion",
+    "description": "Focus on the conversation while AI captures every word. Meeting notes are always right where you work, so you can skip the recap and get to work faster. Works on any device and connects with your calendar.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Meetings",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/TNQGHRRWSMFOI2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 199,
+    "product_id": "963721",
+    "detailed_description": "AI Meeting Notes by Notion is designed to enhance meeting productivity by leveraging AI to transcribe conversations, summarize key points, and identify action items. This tool aims to solve the common problem of missed details and inefficient note-taking during meetings. By automating the note-taking process, it allows participants to focus on the discussion rather than recording it. The AI Meeting Notes feature integrates seamlessly with Notion, providing a comprehensive meeting record that includes transcripts, summaries, and action items. This integration helps teams to stay organized and ensures that all important information is captured and easily accessible. The tool is particularly useful for teams looking to streamline their meeting processes and improve collaboration. It supports multiple languages and can be customized to fit different meeting styles. Overall, AI Meeting Notes helps teams to have a 'perfect meeting memory' by ensuring that all critical information is accurately captured and summarized.",
+    "features": [
+      "Live Transcription: AI Meeting Notes can automatically transcribe conversations in real-time, allowing for accurate and immediate recording of meeting discussions. This feature helps ensure that all important points are captured without manual effort.",
+      "Summary Generation: The AI can generate summaries of meetings based on the transcripts and notes, providing a concise overview of key points and decisions made. This helps in quickly reviewing meeting outcomes.",
+      "Action Item Identification: The tool can identify and list action items from the meeting, ensuring that tasks are clearly defined and assigned to team members. This feature aids in task management and follow-up.",
+      "Customizable Meeting Notes: Users can customize the format and content of meeting notes to fit their specific needs, including adding additional details or modifying the summary style.",
+      "Integration with Notion: AI Meeting Notes integrates seamlessly with Notion, allowing users to store and organize meeting records alongside other team documents and projects. This integration enhances team collaboration and information accessibility."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Limited features, possibly including basic note-taking capabilities.",
+        "Tier 1 (Personal): Includes AI Meeting Notes with limited capacity, suitable for small teams or individuals.",
+        "Tier 2 (Team/Enterprise): Offers full AI Meeting Notes features with advanced collaboration tools, suitable for larger teams and organizations.",
+        "Enterprise: Customized plans for large-scale organizations with additional support and features tailored to their needs."
+      ],
+      "free_trial": "Notion typically offers a free trial for its premium features, allowing users to test AI Meeting Notes before committing to a paid plan.",
+      "additional_info": "Pricing details may vary based on the specific Notion plan chosen and the features included in each tier."
+    },
+    "use_cases": [
+      "Team Meetings: AI Meeting Notes is particularly useful for team meetings where multiple action items and decisions need to be tracked. It helps ensure that all team members are on the same page regarding tasks and responsibilities.",
+      "Client Meetings: For client meetings, AI Meeting Notes can help capture important client requests or feedback, ensuring that these are accurately documented and followed up on.",
+      "Project Planning Sessions: During project planning sessions, AI Meeting Notes can assist in documenting project goals, timelines, and responsibilities, providing a clear project roadmap for all stakeholders."
+    ],
+    "target_audience": "AI Meeting Notes by Notion is designed for teams of all sizes across various industries, particularly those that rely heavily on collaboration and efficient meeting processes. It is suitable for roles such as project managers, team leaders, and anyone involved in regular meetings where accurate note-taking is crucial.",
+    "embedding_text": "Product: AI Meeting Notes by Notion\n\nDescription: AI Meeting Notes by Notion is designed to enhance meeting productivity by leveraging AI to transcribe conversations, summarize key points, and identify action items. This tool aims to solve the common problem of missed details and inefficient note-taking during meetings. By automating the note-taking process, it allows participants to focus on the discussion rather than recording it. The AI Meeting Notes feature integrates seamlessly with Notion, providing a comprehensive meeting record that includes transcripts, summaries, and action items. This integration helps teams to stay organized and ensures that all important information is captured and easily accessible. The tool is particularly useful for teams looking to streamline their meeting processes and improve collaboration. It supports multiple languages and can be customized to fit different meeting styles. Overall, AI Meeting Notes helps teams to have a 'perfect meeting memory' by ensuring that all critical information is accurately captured and summarized.\n\nKey Features:\n- Live Transcription: AI Meeting Notes can automatically transcribe conversations in real-time, allowing for accurate and immediate recording of meeting discussions. This feature helps ensure that all important points are captured without manual effort.\n- Summary Generation: The AI can generate summaries of meetings based on the transcripts and notes, providing a concise overview of key points and decisions made. This helps in quickly reviewing meeting outcomes.\n- Action Item Identification: The tool can identify and list action items from the meeting, ensuring that tasks are clearly defined and assigned to team members. This feature aids in task management and follow-up.\n- Customizable Meeting Notes: Users can customize the format and content of meeting notes to fit their specific needs, including adding additional details or modifying the summary style.\n- Integration with Notion: AI Meeting Notes integrates seamlessly with Notion, allowing users to store and organize meeting records alongside other team documents and projects. This integration enhances team collaboration and information accessibility.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Limited features, possibly including basic note-taking capabilities.\n- Tier 1 (Personal): Includes AI Meeting Notes with limited capacity, suitable for small teams or individuals.\n- Tier 2 (Team/Enterprise): Offers full AI Meeting Notes features with advanced collaboration tools, suitable for larger teams and organizations.\n- Enterprise: Customized plans for large-scale organizations with additional support and features tailored to their needs.\nFree Trial: Notion typically offers a free trial for its premium features, allowing users to test AI Meeting Notes before committing to a paid plan.\n\nUse Cases:\n- Team Meetings: AI Meeting Notes is particularly useful for team meetings where multiple action items and decisions need to be tracked. It helps ensure that all team members are on the same page regarding tasks and responsibilities.\n- Client Meetings: For client meetings, AI Meeting Notes can help capture important client requests or feedback, ensuring that these are accurately documented and followed up on.\n- Project Planning Sessions: During project planning sessions, AI Meeting Notes can assist in documenting project goals, timelines, and responsibilities, providing a clear project roadmap for all stakeholders.\n\nTarget Audience: AI Meeting Notes by Notion is designed for teams of all sizes across various industries, particularly those that rely heavily on collaboration and efficient meeting processes. It is suitable for roles such as project managers, team leaders, and anyone involved in regular meetings where accurate note-taking is crucial.\n\nCategories: Productivity, Meetings, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "963753",
+    "name": "AppearOnAI ",
+    "tagline": "Get recommended by ChatGPT, Gemini, and Claude",
+    "description": "AppearOnAI shows how your brand ranks across ChatGPT, Gemini, and Claude, and more—then tells you exactly how to improve. Get your AI Visibility Score, competitor benchmarks, and specific content suggestions.",
+    "category": "Branding",
+    "topics": [
+      "Branding",
+      "Marketing",
+      "SEO"
+    ],
+    "website": "https://www.producthunt.com/r/KOGNWDZBG6OQ46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 153,
+    "product_id": "963753",
+    "detailed_description": "AppearOnAI is a tool designed to help brands improve their visibility and recommendation rates across various AI platforms such as ChatGPT, Gemini, and Claude. It provides insights into how a brand ranks on these platforms and offers actionable advice to enhance its presence. By analyzing a brand's current standing and comparing it with competitors, AppearOnAI helps businesses optimize their content and strategies to increase AI-driven recommendations. This can be particularly beneficial for companies looking to leverage AI for marketing and branding purposes. AppearOnAI aims to bridge the gap between traditional marketing strategies and the emerging AI landscape, ensuring that brands remain relevant and visible in AI-driven conversations. The tool is especially useful in today's digital environment where AI recommendations play a significant role in consumer decision-making. By offering specific content suggestions and competitor benchmarks, AppearOnAI empowers businesses to adapt and thrive in this new landscape.",
+    "features": [
+      "AI Visibility Score: Provides a comprehensive score that reflects a brand's visibility across major AI platforms, helping businesses understand their current standing.",
+      "Competitor Benchmarks: Offers insights into how competitors are performing on AI platforms, allowing for strategic comparisons and improvements.",
+      "Specific Content Suggestions: Generates tailored content recommendations to enhance a brand's visibility and recommendation rates on AI platforms.",
+      "Cross-Platform Analysis: Analyzes a brand's performance across multiple AI platforms, including ChatGPT, Gemini, and Claude, to identify areas for improvement.",
+      "Actionable Improvement Plans: Offers detailed plans to improve a brand's AI visibility based on its current performance and competitor analysis."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Limited access to AI Visibility Score and basic content suggestions",
+        "Tier 1: Basic subscription with access to competitor benchmarks and more detailed content suggestions",
+        "Tier 2: Premium subscription offering advanced analytics, comprehensive improvement plans, and priority support",
+        "Enterprise: Customized solutions for large businesses with extensive analytics and dedicated support"
+      ],
+      "free_trial": "Currently offering a 50% discount for the first three months",
+      "additional_info": "Pricing details are subject to change, and specific tier prices are not publicly disclosed."
+    },
+    "use_cases": [
+      "Marketing Strategy Optimization: AppearOnAI helps businesses refine their marketing strategies to better align with AI-driven recommendations, enhancing brand visibility and customer engagement.",
+      "Competitor Analysis: Useful for companies looking to outperform competitors in AI-driven environments by identifying gaps in their strategies.",
+      "Content Creation: Provides insights to content creators on how to craft content that is more likely to be recommended by AI platforms."
+    ],
+    "target_audience": "AppearOnAI is designed for businesses of all sizes, particularly those in the marketing, branding, and digital content creation industries. It is beneficial for roles such as marketing managers, brand strategists, and content creators who aim to leverage AI for brand promotion and customer engagement.",
+    "embedding_text": "Product: AppearOnAI \n\nDescription: AppearOnAI is a tool designed to help brands improve their visibility and recommendation rates across various AI platforms such as ChatGPT, Gemini, and Claude. It provides insights into how a brand ranks on these platforms and offers actionable advice to enhance its presence. By analyzing a brand's current standing and comparing it with competitors, AppearOnAI helps businesses optimize their content and strategies to increase AI-driven recommendations. This can be particularly beneficial for companies looking to leverage AI for marketing and branding purposes. AppearOnAI aims to bridge the gap between traditional marketing strategies and the emerging AI landscape, ensuring that brands remain relevant and visible in AI-driven conversations. The tool is especially useful in today's digital environment where AI recommendations play a significant role in consumer decision-making. By offering specific content suggestions and competitor benchmarks, AppearOnAI empowers businesses to adapt and thrive in this new landscape.\n\nKey Features:\n- AI Visibility Score: Provides a comprehensive score that reflects a brand's visibility across major AI platforms, helping businesses understand their current standing.\n- Competitor Benchmarks: Offers insights into how competitors are performing on AI platforms, allowing for strategic comparisons and improvements.\n- Specific Content Suggestions: Generates tailored content recommendations to enhance a brand's visibility and recommendation rates on AI platforms.\n- Cross-Platform Analysis: Analyzes a brand's performance across multiple AI platforms, including ChatGPT, Gemini, and Claude, to identify areas for improvement.\n- Actionable Improvement Plans: Offers detailed plans to improve a brand's AI visibility based on its current performance and competitor analysis.\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Limited access to AI Visibility Score and basic content suggestions\n- Tier 1: Basic subscription with access to competitor benchmarks and more detailed content suggestions\n- Tier 2: Premium subscription offering advanced analytics, comprehensive improvement plans, and priority support\n- Enterprise: Customized solutions for large businesses with extensive analytics and dedicated support\nFree Trial: Currently offering a 50% discount for the first three months\n\nUse Cases:\n- Marketing Strategy Optimization: AppearOnAI helps businesses refine their marketing strategies to better align with AI-driven recommendations, enhancing brand visibility and customer engagement.\n- Competitor Analysis: Useful for companies looking to outperform competitors in AI-driven environments by identifying gaps in their strategies.\n- Content Creation: Provides insights to content creators on how to craft content that is more likely to be recommended by AI platforms.\n\nTarget Audience: AppearOnAI is designed for businesses of all sizes, particularly those in the marketing, branding, and digital content creation industries. It is beneficial for roles such as marketing managers, brand strategists, and content creators who aim to leverage AI for brand promotion and customer engagement.\n\nCategories: Branding, Marketing, SEO\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "962527",
+    "name": "Asendia AI",
+    "tagline": "Land your dream job 10x faster with Sarah, your AI job agent",
+    "description": "The first AI career agent that helps jobseekers practice with AI mock interviews, get personalized feedback, track job applications and land dream jobs. With the power of conversational AI, Asendia AI helps job seekers showcase skills and connect globally 💜",
+    "category": "Hiring",
+    "topics": [
+      "Hiring",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/SSQ7RBXOCSVDW3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 151,
+    "product_id": "962527",
+    "detailed_description": "Asendia AI is an advanced AI-powered recruitment platform designed to streamline and revolutionize the hiring process for both recruiters and job seekers. It automates tedious recruitment tasks such as resume screening, job postings, and interview scheduling, reducing recruitment costs by up to 70%. The platform features an AI interviewer named Sarah, which conducts personalized, dynamic interviews 24/7, significantly cutting down interview times by 2-3 hours per applicant. For recruiters, Asendia AI provides in-depth candidate assessments and benchmarking, while job seekers benefit from AI mock interviews, personalized feedback, and application tracking to enhance their chances of landing their dream job. Additionally, Asendia AI offers access to a global talent pool of pre-assessed candidates, enabling companies to find top talent quickly and efficiently. The platform's AI continuously learns and adapts, improving recruitment outcomes over time.",
+    "features": [
+      "AI-powered automation of recruitment tasks such as resume screening, job postings, and interview scheduling, which reduces recruitment costs by 70% and frees up recruiters' time.",
+      "Sarah, the proprietary AI interviewer, conducts personalized interviews 24/7, dynamically generating questions and reducing interview time by 2-3 hours per candidate.",
+      "Comprehensive candidate assessment and benchmarking reports that provide recruiters with deep insights and comparisons to make informed hiring decisions.",
+      "Talent Hub connecting recruiters to a global pool of pre-assessed candidates, allowing for quick and efficient sourcing of top talent worldwide.",
+      "For job seekers, AI mock interviews with personalized feedback and job application tracking to improve interview skills and increase the chances of landing a job."
+    ],
+    "pricing": {
+      "model": "Not explicitly detailed; likely subscription-based with potential free features",
+      "tiers": [
+        "Free tier: Information not explicitly provided, but may include basic job seeker tools such as mock interviews and application tracking.",
+        "Tier 1: Details not publicly available; likely includes enhanced recruiter features such as AI interview automation and candidate benchmarking.",
+        "Tier 2: Details not publicly available; possibly includes full access to Talent Hub and advanced analytics.",
+        "Enterprise: No specific details available; likely offers customized solutions for large organizations with extensive recruitment needs."
+      ],
+      "free_trial": "No explicit information about a free trial was found.",
+      "additional_info": "Pricing details are not publicly disclosed; interested users may need to contact Asendia AI directly for customized pricing and plans."
+    },
+    "use_cases": [
+      "Recruiters at mid to large companies seeking to reduce recruitment costs and accelerate the hiring process by automating resume screening and interviews.",
+      "Job seekers preparing for interviews who want to practice with AI-driven mock interviews and receive personalized feedback to improve performance.",
+      "Global companies looking to source and assess top talent efficiently from a worldwide pool of pre-assessed candidates using AI-powered search and evaluation."
+    ],
+    "target_audience": "Asendia AI is designed for recruiters and hiring managers in mid-sized to large companies across various industries who want to optimize recruitment efficiency and reduce costs. It also targets job seekers who want to improve their interview skills and job application success. The platform supports global employers and candidates, making it suitable for organizations with international hiring needs.",
+    "embedding_text": "Product: Asendia AI\n\nDescription: Asendia AI is an advanced AI-powered recruitment platform designed to streamline and revolutionize the hiring process for both recruiters and job seekers. It automates tedious recruitment tasks such as resume screening, job postings, and interview scheduling, reducing recruitment costs by up to 70%. The platform features an AI interviewer named Sarah, which conducts personalized, dynamic interviews 24/7, significantly cutting down interview times by 2-3 hours per applicant. For recruiters, Asendia AI provides in-depth candidate assessments and benchmarking, while job seekers benefit from AI mock interviews, personalized feedback, and application tracking to enhance their chances of landing their dream job. Additionally, Asendia AI offers access to a global talent pool of pre-assessed candidates, enabling companies to find top talent quickly and efficiently. The platform's AI continuously learns and adapts, improving recruitment outcomes over time.\n\nKey Features:\n- AI-powered automation of recruitment tasks such as resume screening, job postings, and interview scheduling, which reduces recruitment costs by 70% and frees up recruiters' time.\n- Sarah, the proprietary AI interviewer, conducts personalized interviews 24/7, dynamically generating questions and reducing interview time by 2-3 hours per candidate.\n- Comprehensive candidate assessment and benchmarking reports that provide recruiters with deep insights and comparisons to make informed hiring decisions.\n- Talent Hub connecting recruiters to a global pool of pre-assessed candidates, allowing for quick and efficient sourcing of top talent worldwide.\n- For job seekers, AI mock interviews with personalized feedback and job application tracking to improve interview skills and increase the chances of landing a job.\n\nPricing Model: Not explicitly detailed; likely subscription-based with potential free features\nPricing Tiers:\n- Free tier: Information not explicitly provided, but may include basic job seeker tools such as mock interviews and application tracking.\n- Tier 1: Details not publicly available; likely includes enhanced recruiter features such as AI interview automation and candidate benchmarking.\n- Tier 2: Details not publicly available; possibly includes full access to Talent Hub and advanced analytics.\n- Enterprise: No specific details available; likely offers customized solutions for large organizations with extensive recruitment needs.\nFree Trial: No explicit information about a free trial was found.\n\nUse Cases:\n- Recruiters at mid to large companies seeking to reduce recruitment costs and accelerate the hiring process by automating resume screening and interviews.\n- Job seekers preparing for interviews who want to practice with AI-driven mock interviews and receive personalized feedback to improve performance.\n- Global companies looking to source and assess top talent efficiently from a worldwide pool of pre-assessed candidates using AI-powered search and evaluation.\n\nTarget Audience: Asendia AI is designed for recruiters and hiring managers in mid-sized to large companies across various industries who want to optimize recruitment efficiency and reduce costs. It also targets job seekers who want to improve their interview skills and job application success. The platform supports global employers and candidates, making it suitable for organizations with international hiring needs.\n\nCategories: Hiring, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "964463",
+    "name": "PRDKit",
+    "tagline": "AI-powered product specs and GTM artifacts in one place",
+    "description": "PRDKit turns half-baked feature ideas into crisp, structured product specs in minutes. It then auto-spins wireframes, Bolt-ready prototyping instructions, and social-ready snippets—handing PMs & builders a clear path forward, aligned on why & what.",
+    "category": "Prototyping",
+    "topics": [
+      "Prototyping",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/HZFE6P347XIORN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 147,
+    "product_id": "964463",
+    "detailed_description": "PRDKit is an AI-powered tool designed to streamline the process of creating product requirements, user flows, and launch-ready content for product managers. It aims to reduce manual effort and save time by automating the generation of comprehensive product requirement documents (PRDs) from simple prompts or conversations. Additionally, it helps in creating visual wireframes to preview product designs and user flow diagrams for navigation mapping. PRDKit also offers content creation tools to produce social posts, simulated reviews, press releases, and demo scripts. This tool is particularly useful for product managers, UX/UI designers, marketing teams, founders, and enterprise teams looking to enhance their product development and launch processes. By automating these tasks, PRDKit helps teams focus on higher-priority tasks and ensures cross-team alignment. It provides cross-platform access via web, Slack, and soon Microsoft Teams, making it accessible across different work environments.",
+    "features": [
+      "AI-Generated PRDs: Instantly create comprehensive product requirement documents from simple prompts or conversations, which helps in saving time and reducing manual effort.",
+      "Wireframes Generation: Produce visual wireframes to preview product designs, allowing for early visualization and feedback.",
+      "User Flow Diagrams: Generate clear user flow visuals for navigation mapping, enhancing the user experience by identifying potential bottlenecks.",
+      "Content Creation Tools: Automatically produce social posts, simulated reviews, press releases, and demo scripts, streamlining marketing efforts.",
+      "Automated Context Gathering: Analyze your homepage or upload screens to gather product, audience, and business insights, providing valuable data for decision-making."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Limited credits, suitable for small-scale projects or testing the tool.",
+        "No specific tier details available; however, it is known to have limitations on the free plan.",
+        "No detailed pricing tiers available; users may need to contact PRDKit for more information."
+      ],
+      "free_trial": "No specific information about a free trial; however, the free tier allows users to test the tool's capabilities.",
+      "additional_info": "The pricing model is primarily freemium, with limitations on the free plan, such as limited credits."
+    },
+    "use_cases": [
+      "Product Managers: Rapidly generate complete PRDs, wireframes, and user flows to speed up feature planning and cross-team alignment.",
+      "UX/UI Designers: Automatically create wireframes and user flows to visualize design concepts early in the development process.",
+      "Founders & Startups: Turn product ideas into structured documentation and visual assets to communicate with investors and teams."
+    ],
+    "target_audience": "PRDKit is designed for product managers, UX/UI designers, marketing teams, founders, and enterprise teams across various industries. It is particularly useful for startups and small to medium-sized businesses looking to streamline their product development processes.",
+    "embedding_text": "Product: PRDKit\n\nDescription: PRDKit is an AI-powered tool designed to streamline the process of creating product requirements, user flows, and launch-ready content for product managers. It aims to reduce manual effort and save time by automating the generation of comprehensive product requirement documents (PRDs) from simple prompts or conversations. Additionally, it helps in creating visual wireframes to preview product designs and user flow diagrams for navigation mapping. PRDKit also offers content creation tools to produce social posts, simulated reviews, press releases, and demo scripts. This tool is particularly useful for product managers, UX/UI designers, marketing teams, founders, and enterprise teams looking to enhance their product development and launch processes. By automating these tasks, PRDKit helps teams focus on higher-priority tasks and ensures cross-team alignment. It provides cross-platform access via web, Slack, and soon Microsoft Teams, making it accessible across different work environments.\n\nKey Features:\n- AI-Generated PRDs: Instantly create comprehensive product requirement documents from simple prompts or conversations, which helps in saving time and reducing manual effort.\n- Wireframes Generation: Produce visual wireframes to preview product designs, allowing for early visualization and feedback.\n- User Flow Diagrams: Generate clear user flow visuals for navigation mapping, enhancing the user experience by identifying potential bottlenecks.\n- Content Creation Tools: Automatically produce social posts, simulated reviews, press releases, and demo scripts, streamlining marketing efforts.\n- Automated Context Gathering: Analyze your homepage or upload screens to gather product, audience, and business insights, providing valuable data for decision-making.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Limited credits, suitable for small-scale projects or testing the tool.\n- No specific tier details available; however, it is known to have limitations on the free plan.\n- No detailed pricing tiers available; users may need to contact PRDKit for more information.\nFree Trial: No specific information about a free trial; however, the free tier allows users to test the tool's capabilities.\n\nUse Cases:\n- Product Managers: Rapidly generate complete PRDs, wireframes, and user flows to speed up feature planning and cross-team alignment.\n- UX/UI Designers: Automatically create wireframes and user flows to visualize design concepts early in the development process.\n- Founders & Startups: Turn product ideas into structured documentation and visual assets to communicate with investors and teams.\n\nTarget Audience: PRDKit is designed for product managers, UX/UI designers, marketing teams, founders, and enterprise teams across various industries. It is particularly useful for startups and small to medium-sized businesses looking to streamline their product development processes.\n\nCategories: Prototyping, Development\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "964704",
+    "name": "Nayla",
+    "tagline": "The all-in-one AI browser & workspace that works for you",
+    "description": "Nayla is an AI companion that combines a browser and workspace. This combination enables all tabs to talk to each other unlocking the following workflows: - Talk to Nayla during video calls - Infer tasks directly from your inbox - Extract data from the web",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Virtual Assistants"
+    ],
+    "website": "https://www.producthunt.com/r/DBJPN6547H67NZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 138,
+    "product_id": "964704",
+    "detailed_description": "Nayla is an innovative AI browser and workspace designed to streamline productivity by integrating multiple functionalities into a single platform. It allows tabs to communicate with each other, enabling features like inferring tasks from your inbox, extracting data from the web, and facilitating interactions during video calls. Nayla learns user preferences to automate tasks and provide personalized suggestions, making it a proactive assistant for browsing and task management. It captures and organizes content from visited pages, creating a searchable knowledge base. Additionally, Nayla supports voice commands for hands-free browsing and task execution. The platform seamlessly integrates with Google Calendar to keep users informed about upcoming meetings and deadlines. Overall, Nayla aims to enhance user productivity by automating routine tasks and providing intelligent assistance throughout the browsing experience.",
+    "features": [
+      "Infer tasks directly from your inbox: This feature allows Nayla to automatically identify tasks from emails, streamlining workflow management.",
+      "Extract data from the web: Nayla can extract relevant data from web pages, saving time and effort in data collection.",
+      "Talk to Nayla during video calls: Users can interact with Nayla during video calls, enhancing collaboration and productivity.",
+      "Voice command support: Users can command Nayla to search, navigate, summarize pages, or complete tasks using voice, making browsing more intuitive.",
+      "Personalized browsing experience: Nayla tailors search results and suggestions based on user context and preferences, improving the overall browsing experience."
+    ],
+    "pricing": {
+      "model": "Currently, detailed pricing information is not available. However, Nayla is described as having free options.",
+      "tiers": [
+        "Free tier: Includes basic AI features and integration capabilities.",
+        "No specific tier details are available at this time."
+      ],
+      "free_trial": "No specific information about a free trial is provided.",
+      "additional_info": "As Nayla is a newly launched product, detailed pricing structures may be announced in the future."
+    },
+    "use_cases": [
+      "Remote work productivity: Nayla can enhance remote work efficiency by automating tasks, integrating with calendars, and providing AI-driven insights.",
+      "Data research: The ability to extract data from the web and organize it into a searchable knowledge base makes Nayla useful for researchers and analysts.",
+      "Virtual meetings: Nayla's integration with video calls can facilitate more interactive and productive virtual meetings."
+    ],
+    "target_audience": "Nayla is designed for individuals and teams seeking to enhance productivity through AI-driven tools. It is particularly useful for professionals in roles requiring frequent web browsing, task management, and data extraction, such as researchers, analysts, and remote workers.",
+    "embedding_text": "Product: Nayla\n\nDescription: Nayla is an innovative AI browser and workspace designed to streamline productivity by integrating multiple functionalities into a single platform. It allows tabs to communicate with each other, enabling features like inferring tasks from your inbox, extracting data from the web, and facilitating interactions during video calls. Nayla learns user preferences to automate tasks and provide personalized suggestions, making it a proactive assistant for browsing and task management. It captures and organizes content from visited pages, creating a searchable knowledge base. Additionally, Nayla supports voice commands for hands-free browsing and task execution. The platform seamlessly integrates with Google Calendar to keep users informed about upcoming meetings and deadlines. Overall, Nayla aims to enhance user productivity by automating routine tasks and providing intelligent assistance throughout the browsing experience.\n\nKey Features:\n- Infer tasks directly from your inbox: This feature allows Nayla to automatically identify tasks from emails, streamlining workflow management.\n- Extract data from the web: Nayla can extract relevant data from web pages, saving time and effort in data collection.\n- Talk to Nayla during video calls: Users can interact with Nayla during video calls, enhancing collaboration and productivity.\n- Voice command support: Users can command Nayla to search, navigate, summarize pages, or complete tasks using voice, making browsing more intuitive.\n- Personalized browsing experience: Nayla tailors search results and suggestions based on user context and preferences, improving the overall browsing experience.\n\nPricing Model: Currently, detailed pricing information is not available. However, Nayla is described as having free options.\nPricing Tiers:\n- Free tier: Includes basic AI features and integration capabilities.\n- No specific tier details are available at this time.\nFree Trial: No specific information about a free trial is provided.\n\nUse Cases:\n- Remote work productivity: Nayla can enhance remote work efficiency by automating tasks, integrating with calendars, and providing AI-driven insights.\n- Data research: The ability to extract data from the web and organize it into a searchable knowledge base makes Nayla useful for researchers and analysts.\n- Virtual meetings: Nayla's integration with video calls can facilitate more interactive and productive virtual meetings.\n\nTarget Audience: Nayla is designed for individuals and teams seeking to enhance productivity through AI-driven tools. It is particularly useful for professionals in roles requiring frequent web browsing, task management, and data extraction, such as researchers, analysts, and remote workers.\n\nCategories: Productivity, Artificial Intelligence, Virtual Assistants\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "964059",
+    "name": "AI Avatar Videos",
+    "tagline": "AI Avatars with natural expressions and perfect lipsync",
+    "description": "Create hyperrealistic avatars with natural gestures and perfect lipsync. Powered by ZERO SHOT AI LIPSYNC, this means that you don't have to submit any training videos if you want to use to create your AI Clone. Make your AI Avatar videos in minutes.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "Artificial Intelligence",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/ZL3E2TPWRL5AP3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 136,
+    "product_id": "964059",
+    "detailed_description": "AI Avatar Videos are designed to create engaging video content using AI avatars with natural expressions and perfect lip-syncing capabilities. This technology solves the problem of expensive video production by eliminating the need for human actors and complex filming setups. It allows users to create personalized video messages at scale, which is particularly useful for marketing campaigns, sales videos, and educational content. The avatars can be customized to match specific brand identities or personalities, making them versatile for various applications. The product aims to streamline video creation, reduce costs, and enhance viewer engagement through realistic digital avatars. By automating the video production process, businesses can save time and resources while maintaining high-quality output. Additionally, AI avatars can be used across multiple languages and regions, making them ideal for global marketing strategies.",
+    "features": [
+      "AI Avatar Generation: Allows users to create digital avatars that mimic human expressions and movements, enhancing the realism of video content.",
+      "Customization Options: Users can personalize avatars to fit their brand identity or specific roles, ensuring consistency across all video communications.",
+      "Text-to-Speech Technology: Enables avatars to speak in various languages and accents, making content accessible to diverse audiences.",
+      "Lip-Syncing Capabilities: Ensures that the avatars' mouth movements align perfectly with the audio, creating a more immersive viewing experience.",
+      "Video Editing Tools: Provides users with intuitive editing software to refine and finalize their video content without needing extensive video production expertise."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Typically includes limited access to features and a small number of videos per month.",
+        "Tier 1: Basic plan, often priced around $20-$30 per month, offering more features and video creation capabilities.",
+        "Tier 2: Advanced plan, typically priced higher (e.g., $50-$100 per month), with additional features like custom avatars and more video templates.",
+        "Enterprise: Custom pricing for large-scale video production needs, often including personalized support and advanced customization options."
+      ],
+      "free_trial": "Some platforms offer a free trial period to test their features before committing to a paid plan.",
+      "additional_info": "Pricing can vary significantly between platforms, with some offering more affordable options for small businesses or individuals."
+    },
+    "use_cases": [
+      "Marketing Campaigns: AI avatars can be used to create personalized video ads that resonate with target audiences, enhancing brand engagement and conversion rates.",
+      "Sales Videos: Personalized sales videos can be generated quickly, allowing sales teams to communicate more effectively with potential clients.",
+      "Educational Content: AI avatars can help create interactive and engaging educational videos, making learning more accessible and enjoyable for students."
+    ],
+    "target_audience": "AI Avatar Videos are designed for businesses of all sizes, particularly those in marketing, sales, and education sectors. They are useful for roles such as marketing managers, sales representatives, and educators looking to enhance their video content without the high costs associated with traditional video production.",
+    "embedding_text": "Product: AI Avatar Videos\n\nDescription: AI Avatar Videos are designed to create engaging video content using AI avatars with natural expressions and perfect lip-syncing capabilities. This technology solves the problem of expensive video production by eliminating the need for human actors and complex filming setups. It allows users to create personalized video messages at scale, which is particularly useful for marketing campaigns, sales videos, and educational content. The avatars can be customized to match specific brand identities or personalities, making them versatile for various applications. The product aims to streamline video creation, reduce costs, and enhance viewer engagement through realistic digital avatars. By automating the video production process, businesses can save time and resources while maintaining high-quality output. Additionally, AI avatars can be used across multiple languages and regions, making them ideal for global marketing strategies.\n\nKey Features:\n- AI Avatar Generation: Allows users to create digital avatars that mimic human expressions and movements, enhancing the realism of video content.\n- Customization Options: Users can personalize avatars to fit their brand identity or specific roles, ensuring consistency across all video communications.\n- Text-to-Speech Technology: Enables avatars to speak in various languages and accents, making content accessible to diverse audiences.\n- Lip-Syncing Capabilities: Ensures that the avatars' mouth movements align perfectly with the audio, creating a more immersive viewing experience.\n- Video Editing Tools: Provides users with intuitive editing software to refine and finalize their video content without needing extensive video production expertise.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Typically includes limited access to features and a small number of videos per month.\n- Tier 1: Basic plan, often priced around $20-$30 per month, offering more features and video creation capabilities.\n- Tier 2: Advanced plan, typically priced higher (e.g., $50-$100 per month), with additional features like custom avatars and more video templates.\n- Enterprise: Custom pricing for large-scale video production needs, often including personalized support and advanced customization options.\nFree Trial: Some platforms offer a free trial period to test their features before committing to a paid plan.\n\nUse Cases:\n- Marketing Campaigns: AI avatars can be used to create personalized video ads that resonate with target audiences, enhancing brand engagement and conversion rates.\n- Sales Videos: Personalized sales videos can be generated quickly, allowing sales teams to communicate more effectively with potential clients.\n- Educational Content: AI avatars can help create interactive and engaging educational videos, making learning more accessible and enjoyable for students.\n\nTarget Audience: AI Avatar Videos are designed for businesses of all sizes, particularly those in marketing, sales, and education sectors. They are useful for roles such as marketing managers, sales representatives, and educators looking to enhance their video content without the high costs associated with traditional video production.\n\nCategories: Marketing, Artificial Intelligence, Video\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "961212",
+    "name": "Zoho Forms",
+    "tagline": "Your friendly neighbourhood form builder",
+    "description": "Zoho Forms is a powerful online form builder that helps businesses of all sizes collect data, automate workflows, and boost productivity. Create custom forms for any purpose, from lead generation to event registrations with us.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "iOS",
+      "SaaS"
+    ],
+    "website": "https://www.producthunt.com/r/WDCZ4LICKMPSXZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 119,
+    "product_id": "961212",
+    "detailed_description": "Zoho Forms is an online form builder designed to help users create and manage forms efficiently. It offers a range of features to build, share, and automate forms, making it a versatile tool for data collection and workflow management. The platform supports drag-and-drop form creation, allowing users to easily add fields and customize form settings. It also integrates with various payment gateways and supports notifications via email, SMS, and WhatsApp. Zoho Forms solves problems related to form creation complexity, data management, and workflow automation, making it suitable for businesses and individuals alike. It provides a user-friendly interface and supports both web and mobile applications. Additionally, Zoho Forms offers a free version and various paid plans to cater to different user needs.",
+    "features": [
+      "Drag-and-Drop Form Builder: Allows users to easily create forms by dragging and dropping fields, making form creation intuitive and efficient.",
+      "Customizable Form Settings: Users can customize form settings such as thank you pages, form validity, and integrations with other services.",
+      "Payment Integration: Supports integration with payment gateways like PayPal and Stripe, enabling users to collect payments directly through forms.",
+      "Notification System: Offers email, SMS, and WhatsApp notifications to keep users informed about form submissions.",
+      "Workflow Automation: Enables users to automate back-end workflows, streamlining data processing and management."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Not explicitly detailed, but typically includes limited features and submissions.",
+        "Basic: $8/month, includes 1 user, unlimited forms, 10,000 submissions/month, unlimited reports, payment integration, and 500 MB storage.",
+        "Standard: $20/month, includes all Basic features plus 10 users, 25,000 submissions/month, 2 GB storage, approvals, and tasks.",
+        "Professional: $40/month, includes all Standard features plus 75,000 submissions/month and 5 GB storage."
+      ],
+      "free_trial": "Available for testing before purchasing a plan.",
+      "additional_info": "Prices may vary based on local taxes and promotions. Annual plans may offer additional benefits like free access to Zoho Creator for a limited period."
+    },
+    "use_cases": [
+      "Event Registration: Zoho Forms can be used to create event registration forms, allowing organizers to collect attendee information and manage event logistics efficiently.",
+      "Customer Feedback: Businesses can use Zoho Forms to gather customer feedback through surveys, helping them improve products and services.",
+      "HR Onboarding: HR departments can utilize Zoho Forms to streamline new employee onboarding processes by creating forms for collecting necessary information and automating workflows."
+    ],
+    "target_audience": "Zoho Forms is designed for businesses of all sizes, from small startups to large enterprises, as well as individuals who need to create and manage forms. It is particularly useful for roles such as marketing teams, HR departments, and customer service teams across various industries.",
+    "embedding_text": "Product: Zoho Forms\n\nDescription: Zoho Forms is an online form builder designed to help users create and manage forms efficiently. It offers a range of features to build, share, and automate forms, making it a versatile tool for data collection and workflow management. The platform supports drag-and-drop form creation, allowing users to easily add fields and customize form settings. It also integrates with various payment gateways and supports notifications via email, SMS, and WhatsApp. Zoho Forms solves problems related to form creation complexity, data management, and workflow automation, making it suitable for businesses and individuals alike. It provides a user-friendly interface and supports both web and mobile applications. Additionally, Zoho Forms offers a free version and various paid plans to cater to different user needs.\n\nKey Features:\n- Drag-and-Drop Form Builder: Allows users to easily create forms by dragging and dropping fields, making form creation intuitive and efficient.\n- Customizable Form Settings: Users can customize form settings such as thank you pages, form validity, and integrations with other services.\n- Payment Integration: Supports integration with payment gateways like PayPal and Stripe, enabling users to collect payments directly through forms.\n- Notification System: Offers email, SMS, and WhatsApp notifications to keep users informed about form submissions.\n- Workflow Automation: Enables users to automate back-end workflows, streamlining data processing and management.\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Not explicitly detailed, but typically includes limited features and submissions.\n- Basic: $8/month, includes 1 user, unlimited forms, 10,000 submissions/month, unlimited reports, payment integration, and 500 MB storage.\n- Standard: $20/month, includes all Basic features plus 10 users, 25,000 submissions/month, 2 GB storage, approvals, and tasks.\n- Professional: $40/month, includes all Standard features plus 75,000 submissions/month and 5 GB storage.\nFree Trial: Available for testing before purchasing a plan.\n\nUse Cases:\n- Event Registration: Zoho Forms can be used to create event registration forms, allowing organizers to collect attendee information and manage event logistics efficiently.\n- Customer Feedback: Businesses can use Zoho Forms to gather customer feedback through surveys, helping them improve products and services.\n- HR Onboarding: HR departments can utilize Zoho Forms to streamline new employee onboarding processes by creating forms for collecting necessary information and automating workflows.\n\nTarget Audience: Zoho Forms is designed for businesses of all sizes, from small startups to large enterprises, as well as individuals who need to create and manage forms. It is particularly useful for roles such as marketing teams, HR departments, and customer service teams across various industries.\n\nCategories: Android, iOS, SaaS\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "963766",
+    "name": "Zetta",
+    "tagline": "Automated business intelligence platform",
+    "description": "Zetta is an all-in-one data analytics platform featuring a conversational AI Data Analyst, automated insights, powerful dashboards, and a data warehouse. Empower your business teams with data clarity. No data team required.",
+    "category": "Analytics",
+    "topics": [
+      "Analytics",
+      "Business Intelligence",
+      "Data Visualization"
+    ],
+    "website": "https://www.producthunt.com/r/YDY76HVUU5WVZA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 118,
+    "product_id": "963766",
+    "detailed_description": "Zetta is an AI-powered data analytics platform designed to provide businesses with automated insights and a unified view of their data. It integrates diverse data sources seamlessly, offering customizable dashboards and a conversational AI analyst to help users derive actionable insights quickly. This platform eliminates the need for extensive infrastructure or skilled personnel, making data analysis accessible to everyone. Zetta supports businesses of all sizes by offering scalable solutions, from revenue analytics to company-wide analytics. It is particularly beneficial for startups and growing businesses seeking to enhance their data-driven decision-making capabilities. By automating the generation of insights and dashboards, Zetta helps businesses focus on growth rather than data management. The platform also includes a secure data warehouse, ensuring that all data is stored safely and is easily accessible for analysis.",
+    "features": [
+      "Seamless integration of diverse data sources: This feature allows businesses to consolidate data from various platforms into a single, unified view, simplifying data analysis and decision-making.",
+      "Automated insights: Zetta's AI-driven insights automate the process of identifying trends and patterns in data, saving time and reducing the need for manual analysis.",
+      "Customizable dashboards: Users can create personalized dashboards to visualize key performance metrics in real-time, enabling informed strategic decisions.",
+      "Conversational AI analyst: This feature provides instant insights and answers to data-related questions, making complex data analysis accessible to non-technical users.",
+      "Scalable data warehouse: Zetta's data warehouse securely stores and processes large volumes of data, supporting extensive analytics capabilities without requiring significant infrastructure investments."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Not explicitly mentioned, but a 7-day free trial is available to test the platform's capabilities.",
+        "Starter plan: Designed for revenue analytics, specific details on pricing are not provided.",
+        "Growth plan: Offers company-wide analytics, pricing details not specified.",
+        "Enterprise plan: Customized analytics solutions for larger businesses, pricing details not specified."
+      ],
+      "free_trial": "A 7-day free trial is available to explore Zetta's features and capabilities.",
+      "additional_info": "Pricing plans are tailored to meet the needs of businesses at different stages of growth, with a focus on a low flat monthly fee to reduce infrastructure and hiring costs."
+    },
+    "use_cases": [
+      "Analyzing customer data from multiple sources to identify trends and improve user engagement while maintaining a centralized view of key performance metrics.",
+      "Utilizing customizable dashboards to monitor and visualize sales performance in real-time, enabling informed decision-making to drive business growth.",
+      "Leveraging the conversational AI analyst to generate instant insights about operational efficiency, allowing teams to optimize processes without requiring deep data expertise."
+    ],
+    "target_audience": "Zetta is designed for businesses of all sizes, particularly startups and growth-stage companies. It is beneficial for roles such as data analysts, business analysts, and decision-makers across various industries who need to derive actionable insights from their data quickly and efficiently.",
+    "embedding_text": "Product: Zetta\n\nDescription: Zetta is an AI-powered data analytics platform designed to provide businesses with automated insights and a unified view of their data. It integrates diverse data sources seamlessly, offering customizable dashboards and a conversational AI analyst to help users derive actionable insights quickly. This platform eliminates the need for extensive infrastructure or skilled personnel, making data analysis accessible to everyone. Zetta supports businesses of all sizes by offering scalable solutions, from revenue analytics to company-wide analytics. It is particularly beneficial for startups and growing businesses seeking to enhance their data-driven decision-making capabilities. By automating the generation of insights and dashboards, Zetta helps businesses focus on growth rather than data management. The platform also includes a secure data warehouse, ensuring that all data is stored safely and is easily accessible for analysis.\n\nKey Features:\n- Seamless integration of diverse data sources: This feature allows businesses to consolidate data from various platforms into a single, unified view, simplifying data analysis and decision-making.\n- Automated insights: Zetta's AI-driven insights automate the process of identifying trends and patterns in data, saving time and reducing the need for manual analysis.\n- Customizable dashboards: Users can create personalized dashboards to visualize key performance metrics in real-time, enabling informed strategic decisions.\n- Conversational AI analyst: This feature provides instant insights and answers to data-related questions, making complex data analysis accessible to non-technical users.\n- Scalable data warehouse: Zetta's data warehouse securely stores and processes large volumes of data, supporting extensive analytics capabilities without requiring significant infrastructure investments.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Not explicitly mentioned, but a 7-day free trial is available to test the platform's capabilities.\n- Starter plan: Designed for revenue analytics, specific details on pricing are not provided.\n- Growth plan: Offers company-wide analytics, pricing details not specified.\n- Enterprise plan: Customized analytics solutions for larger businesses, pricing details not specified.\nFree Trial: A 7-day free trial is available to explore Zetta's features and capabilities.\n\nUse Cases:\n- Analyzing customer data from multiple sources to identify trends and improve user engagement while maintaining a centralized view of key performance metrics.\n- Utilizing customizable dashboards to monitor and visualize sales performance in real-time, enabling informed decision-making to drive business growth.\n- Leveraging the conversational AI analyst to generate instant insights about operational efficiency, allowing teams to optimize processes without requiring deep data expertise.\n\nTarget Audience: Zetta is designed for businesses of all sizes, particularly startups and growth-stage companies. It is beneficial for roles such as data analysts, business analysts, and decision-makers across various industries who need to derive actionable insights from their data quickly and efficiently.\n\nCategories: Analytics, Business Intelligence, Data Visualization\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "964497",
+    "name": "RADiCAL",
+    "tagline": "AI motion capture meets 3D storytelling",
+    "description": "RADiCAL is a real-time, browser-based platform for AI-powered motion capture and 3D visualization. Capture motion with a phone, animate 3D characters instantly, and collaborate in the cloud. No suits, markers, or software downloads needed. Get started for free",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Artificial Intelligence",
+      "Animation"
+    ],
+    "website": "https://www.producthunt.com/r/R3OM7OSL7TIA4Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 108,
+    "product_id": "964497",
+    "detailed_description": "RADiCAL is a cutting-edge platform that combines AI motion capture with 3D storytelling, allowing users to create animations from 2D videos in real-time. It is designed to be accessible and user-friendly, requiring no specialized equipment like cameras or suits. The platform enables users to capture motion using a smartphone and instantly animate 3D characters, facilitating collaboration in the cloud. RADiCAL solves the problem of complex and expensive traditional motion capture methods by providing a free and easy-to-use alternative. It leverages powerful computer vision technology to detect and reconstruct 3D human motion from 2D content, making it ideal for various creative projects. By democratizing motion capture, RADiCAL opens up new possibilities for artists, animators, and storytellers. It supports real-time multiplayer motion capture and integrates with popular software like Maya for seamless workflow integration.",
+    "features": [
+      "AI-Powered Motion Capture: RADiCAL uses advanced AI to capture motion from 2D videos, allowing users to convert these into 3D animations without the need for specialized hardware.",
+      "Real-Time 3D Visualization: Users can design scenes and environments in real-time, enhancing the creative process with immediate feedback.",
+      "Cloud Collaboration: The platform supports cloud-based collaboration, enabling multiple users to work together on projects from anywhere.",
+      "Browser-Based Interface: RADiCAL operates entirely within a web browser, eliminating the need for software downloads or installations.",
+      "Integration with Popular Software: It integrates with tools like Maya and iClone, allowing for seamless workflow transitions and compatibility with existing creative pipelines."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Offers basic features for creating and animating 3D characters without downloads or specialized equipment.",
+        "No detailed information available for paid tiers; the platform is primarily promoted as free and accessible."
+      ],
+      "free_trial": "No specific free trial mentioned; the platform is available for free use.",
+      "additional_info": "RADiCAL is primarily marketed as a free tool with no downloads required, focusing on accessibility and ease of use."
+    },
+    "use_cases": [
+      "Film and Animation Production: RADiCAL can be used to create realistic character animations for movies, TV shows, or video games by capturing motion from real-world performances.",
+      "Virtual Reality (VR) and Augmented Reality (AR) Experiences: Its real-time motion capture capabilities make it suitable for creating immersive VR/AR experiences with dynamic character movements.",
+      "Educational Content Creation: Teachers and educators can use RADiCAL to create interactive 3D animations for educational purposes, enhancing student engagement and understanding."
+    ],
+    "target_audience": "RADiCAL is designed for a wide range of users, including independent animators, small studios, and larger production companies. It is particularly useful for those in the animation, film, and gaming industries who need accessible and cost-effective motion capture solutions. The platform's ease of use also makes it suitable for educational institutions and hobbyists interested in 3D storytelling.",
+    "embedding_text": "Product: RADiCAL\n\nDescription: RADiCAL is a cutting-edge platform that combines AI motion capture with 3D storytelling, allowing users to create animations from 2D videos in real-time. It is designed to be accessible and user-friendly, requiring no specialized equipment like cameras or suits. The platform enables users to capture motion using a smartphone and instantly animate 3D characters, facilitating collaboration in the cloud. RADiCAL solves the problem of complex and expensive traditional motion capture methods by providing a free and easy-to-use alternative. It leverages powerful computer vision technology to detect and reconstruct 3D human motion from 2D content, making it ideal for various creative projects. By democratizing motion capture, RADiCAL opens up new possibilities for artists, animators, and storytellers. It supports real-time multiplayer motion capture and integrates with popular software like Maya for seamless workflow integration.\n\nKey Features:\n- AI-Powered Motion Capture: RADiCAL uses advanced AI to capture motion from 2D videos, allowing users to convert these into 3D animations without the need for specialized hardware.\n- Real-Time 3D Visualization: Users can design scenes and environments in real-time, enhancing the creative process with immediate feedback.\n- Cloud Collaboration: The platform supports cloud-based collaboration, enabling multiple users to work together on projects from anywhere.\n- Browser-Based Interface: RADiCAL operates entirely within a web browser, eliminating the need for software downloads or installations.\n- Integration with Popular Software: It integrates with tools like Maya and iClone, allowing for seamless workflow transitions and compatibility with existing creative pipelines.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Offers basic features for creating and animating 3D characters without downloads or specialized equipment.\n- No detailed information available for paid tiers; the platform is primarily promoted as free and accessible.\nFree Trial: No specific free trial mentioned; the platform is available for free use.\n\nUse Cases:\n- Film and Animation Production: RADiCAL can be used to create realistic character animations for movies, TV shows, or video games by capturing motion from real-world performances.\n- Virtual Reality (VR) and Augmented Reality (AR) Experiences: Its real-time motion capture capabilities make it suitable for creating immersive VR/AR experiences with dynamic character movements.\n- Educational Content Creation: Teachers and educators can use RADiCAL to create interactive 3D animations for educational purposes, enhancing student engagement and understanding.\n\nTarget Audience: RADiCAL is designed for a wide range of users, including independent animators, small studios, and larger production companies. It is particularly useful for those in the animation, film, and gaming industries who need accessible and cost-effective motion capture solutions. The platform's ease of use also makes it suitable for educational institutions and hobbyists interested in 3D storytelling.\n\nCategories: Design Tools, Artificial Intelligence, Animation\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "964449",
+    "name": "Xogot",
+    "tagline": "Godot-powered game dev for iPad",
+    "description": "Xogot brings the full power of the Godot game engine to iPad. With a native iPad experience designed for touch, you can make, play, and share games wherever inspiration strikes. Xogot gives you everything you need to build 2D and 3D games — all from your iPad.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Games",
+      "Apple"
+    ],
+    "website": "https://www.producthunt.com/r/ETVZMTSPKITLBX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105,
+    "product_id": "964449",
+    "detailed_description": "Xogot is a game development platform that brings the power of the Godot game engine to the iPad, allowing developers to create both 2D and 3D games on the go. It offers a comprehensive suite of tools, including touch-friendly scene editors, an integrated code editor, and a debugger. This setup enables developers to work seamlessly across multiple devices, thanks to compatibility with the desktop Godot editor. Xogot solves the problem of limited game development capabilities on mobile devices by providing a full-fledged development environment. It supports multitasking features like Stage Manager and utilizes Apple Pencil for precise editing. The app is designed to be portable and approachable, making it suitable for both beginners and experienced developers. Xogot is built on Godot 4.4 and includes features like WebAssembly export for easy sharing of games. However, it has limitations such as only supporting GDScript and lacking native GDExtensions due to Apple policies.",
+    "features": [
+      "Touch-friendly 2D and 3D scene editors with native floating toolbars, allowing for intuitive game development on the iPad.",
+      "Integrated code editor with syntax highlighting and autocomplete for GDScript and shaders, enhancing coding efficiency.",
+      "Full debugging experience with features like stepping, variable inspection, and stack-traces, which helps in identifying and fixing errors.",
+      "Support for multitasking with Stage Manager, enabling developers to work across multiple displays and devices.",
+      "Compatibility with external inputs like Bluetooth controllers, keyboards, and trackpads for playtesting, providing a comprehensive testing environment."
+    ],
+    "pricing": {
+      "model": "One-time purchase with future updates",
+      "tiers": [
+        "Free tier: The app is free to download from the App Store, but it requires a one-time purchase to unlock the full editor functionality.",
+        "Tier 1: The purchase includes a year of future updates, after which users can decide whether to continue using the app."
+      ],
+      "free_trial": "There is no specific free trial mentioned; however, the app can be downloaded for free before purchasing the full version.",
+      "additional_info": "The purchase model includes ongoing support for a year, providing access to new features and updates during that period."
+    },
+    "use_cases": [
+      "For indie game developers who want to create games on the go without being tied to a desktop environment, Xogot offers a portable and efficient solution.",
+      "For educators teaching game development, Xogot provides a hands-on, interactive learning experience that can be easily integrated into classroom settings.",
+      "For hobbyists interested in game development, Xogot offers an accessible platform to learn and create games using a familiar iPad interface."
+    ],
+    "target_audience": "Xogot is designed for game developers of all levels, from beginners to professionals, particularly those interested in mobile game development or looking for a portable development environment. It is suitable for individuals and small teams in the game development industry.",
+    "embedding_text": "Product: Xogot\n\nDescription: Xogot is a game development platform that brings the power of the Godot game engine to the iPad, allowing developers to create both 2D and 3D games on the go. It offers a comprehensive suite of tools, including touch-friendly scene editors, an integrated code editor, and a debugger. This setup enables developers to work seamlessly across multiple devices, thanks to compatibility with the desktop Godot editor. Xogot solves the problem of limited game development capabilities on mobile devices by providing a full-fledged development environment. It supports multitasking features like Stage Manager and utilizes Apple Pencil for precise editing. The app is designed to be portable and approachable, making it suitable for both beginners and experienced developers. Xogot is built on Godot 4.4 and includes features like WebAssembly export for easy sharing of games. However, it has limitations such as only supporting GDScript and lacking native GDExtensions due to Apple policies.\n\nKey Features:\n- Touch-friendly 2D and 3D scene editors with native floating toolbars, allowing for intuitive game development on the iPad.\n- Integrated code editor with syntax highlighting and autocomplete for GDScript and shaders, enhancing coding efficiency.\n- Full debugging experience with features like stepping, variable inspection, and stack-traces, which helps in identifying and fixing errors.\n- Support for multitasking with Stage Manager, enabling developers to work across multiple displays and devices.\n- Compatibility with external inputs like Bluetooth controllers, keyboards, and trackpads for playtesting, providing a comprehensive testing environment.\n\nPricing Model: One-time purchase with future updates\nPricing Tiers:\n- Free tier: The app is free to download from the App Store, but it requires a one-time purchase to unlock the full editor functionality.\n- Tier 1: The purchase includes a year of future updates, after which users can decide whether to continue using the app.\nFree Trial: There is no specific free trial mentioned; however, the app can be downloaded for free before purchasing the full version.\n\nUse Cases:\n- For indie game developers who want to create games on the go without being tied to a desktop environment, Xogot offers a portable and efficient solution.\n- For educators teaching game development, Xogot provides a hands-on, interactive learning experience that can be easily integrated into classroom settings.\n- For hobbyists interested in game development, Xogot offers an accessible platform to learn and create games using a familiar iPad interface.\n\nTarget Audience: Xogot is designed for game developers of all levels, from beginners to professionals, particularly those interested in mobile game development or looking for a portable development environment. It is suitable for individuals and small teams in the game development industry.\n\nCategories: Design Tools, Games, Apple\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "955620",
+    "name": "Mealpreper Guide",
+    "tagline": "Meal prep made simple, for real life",
+    "description": "No fluff. No fancy tools. Just real meals. Mealpreper Guide helps you prep once - and feed your crew for days. Tested menus, smart lists, no guesswork. Real food for real people - and real fridges that deserve better than takeout.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "iOS",
+      "Cooking"
+    ],
+    "website": "https://www.producthunt.com/r/YPQEFPTJUP3VP4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 91,
+    "product_id": "955620",
+    "detailed_description": "Mealpreper Guide is designed to simplify meal prep for real-life scenarios, aiming to make planning and organizing meals more efficient. It likely offers features such as meal planning, grocery list management, and possibly recipe organization, similar to other meal planning apps. The main purpose is to help users manage their time better, reduce food waste, and stick to dietary goals. By streamlining meal preparation, it solves problems like last-minute grocery trips and meal planning stress. However, specific details about its functionality are not available in the provided search results. Generally, meal planning apps help users save time and money by organizing recipes and creating grocery lists based on planned meals. They also cater to specific dietary needs and preferences, making them versatile for different lifestyles. Mealpreper Guide likely aims to provide a user-friendly interface for these tasks, making meal prep more accessible and manageable for everyday life.",
+    "features": [
+      "Meal Planning: Allows users to plan meals in advance, potentially including features for dietary restrictions and nutritional goals.",
+      "Grocery List Management: Automatically generates shopping lists based on planned meals, helping users avoid unnecessary purchases.",
+      "Recipe Organization: Provides a centralized place to store and manage recipes, possibly with features for adding photos or links to recipes.",
+      "Customization Options: May include features for customizing meal plans based on personal preferences or dietary needs.",
+      "Integration and Syncing: Could offer real-time syncing with partners or family members for shared meal planning and grocery lists."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available."
+      ],
+      "free_trial": "No details available.",
+      "additional_info": "Pricing details are not provided in the search results."
+    },
+    "use_cases": [
+      "Busy Professionals: Useful for individuals with tight schedules who need to plan meals efficiently to save time and maintain a healthy diet.",
+      "Families: Helps families manage meal planning and grocery shopping by allowing multiple users to sync and share lists.",
+      "Health-Conscious Individuals: Beneficial for those following specific diets or nutritional plans, as it can help them stick to their dietary goals."
+    ],
+    "target_audience": "Mealpreper Guide is likely designed for individuals and families seeking to simplify their meal planning and grocery shopping processes. It could be particularly useful for busy professionals, families with multiple dietary needs, and individuals following specific diets.",
+    "embedding_text": "Product: Mealpreper Guide\n\nDescription: Mealpreper Guide is designed to simplify meal prep for real-life scenarios, aiming to make planning and organizing meals more efficient. It likely offers features such as meal planning, grocery list management, and possibly recipe organization, similar to other meal planning apps. The main purpose is to help users manage their time better, reduce food waste, and stick to dietary goals. By streamlining meal preparation, it solves problems like last-minute grocery trips and meal planning stress. However, specific details about its functionality are not available in the provided search results. Generally, meal planning apps help users save time and money by organizing recipes and creating grocery lists based on planned meals. They also cater to specific dietary needs and preferences, making them versatile for different lifestyles. Mealpreper Guide likely aims to provide a user-friendly interface for these tasks, making meal prep more accessible and manageable for everyday life.\n\nKey Features:\n- Meal Planning: Allows users to plan meals in advance, potentially including features for dietary restrictions and nutritional goals.\n- Grocery List Management: Automatically generates shopping lists based on planned meals, helping users avoid unnecessary purchases.\n- Recipe Organization: Provides a centralized place to store and manage recipes, possibly with features for adding photos or links to recipes.\n- Customization Options: May include features for customizing meal plans based on personal preferences or dietary needs.\n- Integration and Syncing: Could offer real-time syncing with partners or family members for shared meal planning and grocery lists.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available.\nFree Trial: No details available.\n\nUse Cases:\n- Busy Professionals: Useful for individuals with tight schedules who need to plan meals efficiently to save time and maintain a healthy diet.\n- Families: Helps families manage meal planning and grocery shopping by allowing multiple users to sync and share lists.\n- Health-Conscious Individuals: Beneficial for those following specific diets or nutritional plans, as it can help them stick to their dietary goals.\n\nTarget Audience: Mealpreper Guide is likely designed for individuals and families seeking to simplify their meal planning and grocery shopping processes. It could be particularly useful for busy professionals, families with multiple dietary needs, and individuals following specific diets.\n\nCategories: Android, iOS, Cooking\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "963211",
+    "name": "Velin",
+    "tagline": "Build with Replit. Launch with Velin.",
+    "description": "Turn ideas into winning campaigns and market-ready content with Velin's product marketing AI agent. Launch, market and grow with Velin.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/D26JLA6RD7TQ5W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 74,
+    "product_id": "963211",
+    "detailed_description": "Velin is a platform designed to complement Replit by providing a seamless way to launch and manage applications built on the Replit platform. The tagline 'Build with Replit. Launch with Velin.' suggests that Velin focuses on the deployment and management phase of app development, allowing developers to easily transition from development to production. Velin likely solves problems related to scalability, reliability, and ease of deployment for Replit-built applications. However, specific details about Velin's features and functionality are not available in the provided search results, so it is assumed to enhance the deployment process with features like custom domains, analytics, and access controls similar to Replit Deployments. Velin aims to streamline the launch process, ensuring that applications are deployed efficiently and securely. By integrating with Replit, Velin can leverage Replit's AI-powered development environment to offer a comprehensive solution from development to deployment. Velin's role is to ensure that applications are not only built quickly but also launched effectively, making it a valuable tool for developers who want to focus on coding rather than deployment logistics.",
+    "features": [
+      "Seamless Integration with Replit: Velin allows developers to easily deploy applications built on Replit, streamlining the transition from development to production.",
+      "Custom Domain Support: Velin likely supports custom domains, enabling developers to host their applications under their own domain names, enhancing brand identity.",
+      "Real-time Analytics: Velin may offer analytics tools to track app performance and user engagement, helping developers refine their applications based on real-world data.",
+      "Scalability and Reliability: Velin is expected to provide scalable infrastructure to ensure applications remain accessible and perform well under varying loads.",
+      "Security Features: Velin might include security features such as SSL encryption to protect user data and ensure secure connections."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available for Velin."
+      ],
+      "free_trial": "No information available about a free trial.",
+      "additional_info": "Pricing details for Velin are not provided in the search results."
+    },
+    "use_cases": [
+      "Rapid Prototyping: Velin can be useful for developers who need to quickly prototype and launch applications, leveraging Replit's development capabilities.",
+      "Small Business Deployment: Velin is suitable for small businesses looking to deploy web applications quickly without extensive infrastructure setup.",
+      "Educational Projects: Students and educators can use Velin to deploy projects built in Replit, providing a hands-on learning experience in app deployment."
+    ],
+    "target_audience": "Velin is designed for developers who use Replit, particularly those in small to medium-sized businesses or educational settings. It targets individuals and teams looking for a streamlined deployment process for their web applications.",
+    "embedding_text": "Product: Velin\n\nDescription: Velin is a platform designed to complement Replit by providing a seamless way to launch and manage applications built on the Replit platform. The tagline 'Build with Replit. Launch with Velin.' suggests that Velin focuses on the deployment and management phase of app development, allowing developers to easily transition from development to production. Velin likely solves problems related to scalability, reliability, and ease of deployment for Replit-built applications. However, specific details about Velin's features and functionality are not available in the provided search results, so it is assumed to enhance the deployment process with features like custom domains, analytics, and access controls similar to Replit Deployments. Velin aims to streamline the launch process, ensuring that applications are deployed efficiently and securely. By integrating with Replit, Velin can leverage Replit's AI-powered development environment to offer a comprehensive solution from development to deployment. Velin's role is to ensure that applications are not only built quickly but also launched effectively, making it a valuable tool for developers who want to focus on coding rather than deployment logistics.\n\nKey Features:\n- Seamless Integration with Replit: Velin allows developers to easily deploy applications built on Replit, streamlining the transition from development to production.\n- Custom Domain Support: Velin likely supports custom domains, enabling developers to host their applications under their own domain names, enhancing brand identity.\n- Real-time Analytics: Velin may offer analytics tools to track app performance and user engagement, helping developers refine their applications based on real-world data.\n- Scalability and Reliability: Velin is expected to provide scalable infrastructure to ensure applications remain accessible and perform well under varying loads.\n- Security Features: Velin might include security features such as SSL encryption to protect user data and ensure secure connections.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available for Velin.\nFree Trial: No information available about a free trial.\n\nUse Cases:\n- Rapid Prototyping: Velin can be useful for developers who need to quickly prototype and launch applications, leveraging Replit's development capabilities.\n- Small Business Deployment: Velin is suitable for small businesses looking to deploy web applications quickly without extensive infrastructure setup.\n- Educational Projects: Students and educators can use Velin to deploy projects built in Replit, providing a hands-on learning experience in app deployment.\n\nTarget Audience: Velin is designed for developers who use Replit, particularly those in small to medium-sized businesses or educational settings. It targets individuals and teams looking for a streamlined deployment process for their web applications.\n\nCategories: Marketing, SaaS, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "964351",
+    "name": "Sourcery Sentinel",
+    "tagline": "AI Agents that investigate and fix Sentry Issues",
+    "description": "Sentinel is your on call engineer to investigate and fix any issue Sentry detects in your project. Connect to Slack to get instant responses on any Sentry alert with an explanation of what the error is, why the error happened, & what the best fix is.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GRPGG2BO5NNGT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 71,
+    "product_id": "964351",
+    "detailed_description": "Sourcery Sentinel is an AI agent designed to investigate and fix production issues, particularly those reported through Sentry. It aims to quickly identify the root cause of problems and implement fixes. By integrating with GitHub repositories and Sentry, Sentinel can automatically analyze recent issues, prioritize them, and propose solutions. This tool is especially useful for teams looking to streamline their issue resolution process and reduce downtime. Currently, Sentinel is in beta and available by invitation only. It helps developers focus on critical issues while automating the resolution of solvable problems. By leveraging AI, Sentinel enhances the efficiency of development teams in managing and resolving production issues.",
+    "features": [
+      "Automatic Issue Investigation: Sentinel automatically investigates recent issues in Sentry, helping teams prioritize and focus on critical problems.",
+      "Root Cause Analysis: It uses AI to identify the root cause of issues, providing detailed insights into the problem.",
+      "Proposed Solutions: For solvable issues, Sentinel generates proposed fixes and can create pull requests to implement these solutions.",
+      "Integration with GitHub: Seamless integration with GitHub allows Sentinel to analyze codebases and create pull requests for fixes.",
+      "Real-time Feedback: Users can review and provide feedback on proposed solutions, ensuring that fixes meet team standards."
+    ],
+    "pricing": {
+      "model": "Currently in beta and invite-only, with no public pricing information available.",
+      "tiers": [],
+      "free_trial": "No free trial information is available as it is in beta.",
+      "additional_info": "Access is currently limited to those on the waitlist."
+    },
+    "use_cases": [
+      "Reducing Downtime: Sentinel helps teams quickly identify and fix critical production issues, minimizing downtime and improving overall system reliability.",
+      "Streamlining Issue Resolution: By automating the analysis and resolution of solvable issues, Sentinel frees up developer time for more complex problems.",
+      "Enhancing Development Efficiency: It integrates with existing tools like Sentry and GitHub, making it easier for teams to manage and resolve issues within their current workflows."
+    ],
+    "target_audience": "Sourcery Sentinel is designed for development teams, particularly those using Sentry for issue tracking and GitHub for version control. It is suitable for companies of various sizes, especially those with a focus on efficient issue resolution and automation.",
+    "embedding_text": "Product: Sourcery Sentinel\n\nDescription: Sourcery Sentinel is an AI agent designed to investigate and fix production issues, particularly those reported through Sentry. It aims to quickly identify the root cause of problems and implement fixes. By integrating with GitHub repositories and Sentry, Sentinel can automatically analyze recent issues, prioritize them, and propose solutions. This tool is especially useful for teams looking to streamline their issue resolution process and reduce downtime. Currently, Sentinel is in beta and available by invitation only. It helps developers focus on critical issues while automating the resolution of solvable problems. By leveraging AI, Sentinel enhances the efficiency of development teams in managing and resolving production issues.\n\nKey Features:\n- Automatic Issue Investigation: Sentinel automatically investigates recent issues in Sentry, helping teams prioritize and focus on critical problems.\n- Root Cause Analysis: It uses AI to identify the root cause of issues, providing detailed insights into the problem.\n- Proposed Solutions: For solvable issues, Sentinel generates proposed fixes and can create pull requests to implement these solutions.\n- Integration with GitHub: Seamless integration with GitHub allows Sentinel to analyze codebases and create pull requests for fixes.\n- Real-time Feedback: Users can review and provide feedback on proposed solutions, ensuring that fixes meet team standards.\n\nPricing Model: Currently in beta and invite-only, with no public pricing information available.\nFree Trial: No free trial information is available as it is in beta.\n\nUse Cases:\n- Reducing Downtime: Sentinel helps teams quickly identify and fix critical production issues, minimizing downtime and improving overall system reliability.\n- Streamlining Issue Resolution: By automating the analysis and resolution of solvable issues, Sentinel frees up developer time for more complex problems.\n- Enhancing Development Efficiency: It integrates with existing tools like Sentry and GitHub, making it easier for teams to manage and resolve issues within their current workflows.\n\nTarget Audience: Sourcery Sentinel is designed for development teams, particularly those using Sentry for issue tracking and GitHub for version control. It is suitable for companies of various sizes, especially those with a focus on efficient issue resolution and automation.\n\nCategories: Software Engineering, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "961414",
+    "name": "Lyst",
+    "tagline": "Digital Signage Platform",
+    "description": "Transform your screens with Lyst.so, the ultimate digital signage solution. Manage unlimited displays, share real-time content, and control all screens from one intuitive platform.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Marketing",
+      "TV"
+    ],
+    "website": "https://www.producthunt.com/r/DZFCMWH2WIUO7C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 53,
+    "product_id": "961414",
+    "detailed_description": "Lyst is a digital signage platform designed to transform static screens into dynamic, interactive displays. It allows users to manage unlimited displays from a single intuitive platform, enabling real-time content updates. This solution is particularly beneficial for businesses and organizations that frequently update their display content, such as posters, videos, GIFs, and announcements. Lyst solves problems like clunky access controls, black screens during transitions, and the need for additional hardware, making it a cost-effective and efficient choice. It is web-based and also offers an Android TV app, allowing for seamless remote control of multiple screens. Lyst is ideal for environments like offices, cafes, gyms, and community spaces where engaging visual content is crucial. By simplifying digital signage management, Lyst enhances user experience and streamlines content delivery across various settings.",
+    "features": [
+      "Unlimited Display Management: Users can control and update content on multiple screens from a single platform, ensuring consistency and efficiency across all displays.",
+      "Real-Time Content Updates: Lyst allows for instant updates of content, ensuring that information remains current and relevant to the audience.",
+      "Web-Based and Android TV App: The platform is accessible via web browsers and also offers an Android TV app, providing flexibility in how users manage their displays.",
+      "Smooth Transitions: Lyst ensures clean transitions between content, eliminating issues like black screens that can disrupt viewer engagement.",
+      "No Additional Hardware Required: The platform does not necessitate extra hardware for setup or operation, making it a cost-effective solution for digital signage needs."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "No specific free tier information available for Lyst digital signage platform.",
+        "No detailed pricing tiers available for Lyst digital signage platform. However, it is described as a cost-effective solution compared to other digital signage products.",
+        "No enterprise tier details available."
+      ],
+      "free_trial": "No specific information about a free trial for Lyst digital signage platform.",
+      "additional_info": "Lyst is positioned as a practical and effective solution, suggesting it may offer competitive pricing compared to other digital signage platforms."
+    },
+    "use_cases": [
+      "Community Spaces: Lyst is useful in community spaces like TinkerSpace, where frequent updates of posters, videos, and announcements are necessary. It simplifies content management and enhances viewer engagement.",
+      "Retail and Hospitality: Businesses such as restaurants, cafes, and gyms can benefit from Lyst by easily updating menus, promotions, or workout schedules on their digital displays.",
+      "Offices and Corporate Environments: Lyst can be used in offices to display company news, announcements, or motivational content, improving internal communication and employee engagement."
+    ],
+    "target_audience": "Lyst is designed for businesses and organizations of various sizes across different industries, including retail, hospitality, community spaces, and corporate environments. It is particularly suitable for roles such as marketing managers, IT administrators, and facility managers who need to manage digital signage effectively.",
+    "embedding_text": "Product: Lyst\n\nDescription: Lyst is a digital signage platform designed to transform static screens into dynamic, interactive displays. It allows users to manage unlimited displays from a single intuitive platform, enabling real-time content updates. This solution is particularly beneficial for businesses and organizations that frequently update their display content, such as posters, videos, GIFs, and announcements. Lyst solves problems like clunky access controls, black screens during transitions, and the need for additional hardware, making it a cost-effective and efficient choice. It is web-based and also offers an Android TV app, allowing for seamless remote control of multiple screens. Lyst is ideal for environments like offices, cafes, gyms, and community spaces where engaging visual content is crucial. By simplifying digital signage management, Lyst enhances user experience and streamlines content delivery across various settings.\n\nKey Features:\n- Unlimited Display Management: Users can control and update content on multiple screens from a single platform, ensuring consistency and efficiency across all displays.\n- Real-Time Content Updates: Lyst allows for instant updates of content, ensuring that information remains current and relevant to the audience.\n- Web-Based and Android TV App: The platform is accessible via web browsers and also offers an Android TV app, providing flexibility in how users manage their displays.\n- Smooth Transitions: Lyst ensures clean transitions between content, eliminating issues like black screens that can disrupt viewer engagement.\n- No Additional Hardware Required: The platform does not necessitate extra hardware for setup or operation, making it a cost-effective solution for digital signage needs.\n\nPricing Model: Subscription\nPricing Tiers:\n- No specific free tier information available for Lyst digital signage platform.\n- No detailed pricing tiers available for Lyst digital signage platform. However, it is described as a cost-effective solution compared to other digital signage products.\n- No enterprise tier details available.\nFree Trial: No specific information about a free trial for Lyst digital signage platform.\n\nUse Cases:\n- Community Spaces: Lyst is useful in community spaces like TinkerSpace, where frequent updates of posters, videos, and announcements are necessary. It simplifies content management and enhances viewer engagement.\n- Retail and Hospitality: Businesses such as restaurants, cafes, and gyms can benefit from Lyst by easily updating menus, promotions, or workout schedules on their digital displays.\n- Offices and Corporate Environments: Lyst can be used in offices to display company news, announcements, or motivational content, improving internal communication and employee engagement.\n\nTarget Audience: Lyst is designed for businesses and organizations of various sizes across different industries, including retail, hospitality, community spaces, and corporate environments. It is particularly suitable for roles such as marketing managers, IT administrators, and facility managers who need to manage digital signage effectively.\n\nCategories: Productivity, Marketing, TV\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "961445",
+    "name": "Adamik",
+    "tagline": "One API, 60+ Chains, Instant Scale",
+    "description": "Think of Adamik as a universal blockchain interface. Our Unified API abstracts 60+ chains into one consistent format, so you can build, transact, and stake at scale without the complexity.",
+    "category": "Crypto",
+    "topics": [
+      "Crypto",
+      "Web3",
+      "Blockchain"
+    ],
+    "website": "https://www.producthunt.com/r/XX4V5Q44PBY5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 53,
+    "product_id": "961445",
+    "detailed_description": "Adamik is a unified blockchain API that allows developers to interact with over 60 blockchain networks, including Ethereum, Bitcoin, and Cosmos, through a single interface. This simplifies the process of building multichain products by providing standardized endpoints for reading, writing, and staking across different blockchains. The platform eliminates the need for custom code and node maintenance, enabling faster integration and deployment of blockchain applications. It supports various functionalities such as transaction management, account insights, staking, and token interactions. By offering a consistent interface, Adamik helps developers launch products more quickly and capture revenue sooner. The platform is trusted by leading crypto wallets, exchanges, and staking providers.",
+    "features": [
+      "Multi-Chain Support: Adamik provides access to over 60 blockchain networks, allowing developers to interact with multiple chains using a unified API, which simplifies development and reduces complexity.",
+      "Transaction Management: The API offers comprehensive transaction-related functionalities, including encoding, validation, broadcasting, and retrieving transaction details, making it easier to manage transactions across different blockchains.",
+      "Account Management: Developers can retrieve account balances, check token balances, and view transaction history, providing valuable insights into user accounts.",
+      "Staking Support: Adamik includes features for proof-of-stake blockchains, such as staking transactions, unstaking, claiming rewards, and retrieving validator information, which facilitates staking operations.",
+      "Token Interaction: The API enables interactions with different token types, including native currency transfers and token transfers across various blockchain standards, making it versatile for token management."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Offers 10,000 requests per month, suitable for small-scale testing and development.",
+        "No detailed information available for paid tiers; however, the platform likely offers scalable pricing based on usage and enterprise needs."
+      ],
+      "free_trial": "The free tier serves as a trial for testing the API's capabilities.",
+      "additional_info": "Pricing details for paid tiers are not explicitly listed, but the platform likely offers customized plans for larger enterprises."
+    },
+    "use_cases": [
+      "Querying balances across multiple blockchain networks, such as Ethereum and Bitcoin, to provide users with a unified view of their assets.",
+      "Retrieving transaction history and validator information for decentralized applications like dYdX to enhance user experience and transparency.",
+      "Checking pending staking rewards on platforms like Osmosis to help users manage their staking activities efficiently."
+    ],
+    "target_audience": "Adamik is designed for developers and companies involved in the blockchain and cryptocurrency space, particularly those building multichain wallets, exchanges, and staking platforms. It is suitable for both small startups and large enterprises looking to streamline their blockchain operations.",
+    "embedding_text": "Product: Adamik\n\nDescription: Adamik is a unified blockchain API that allows developers to interact with over 60 blockchain networks, including Ethereum, Bitcoin, and Cosmos, through a single interface. This simplifies the process of building multichain products by providing standardized endpoints for reading, writing, and staking across different blockchains. The platform eliminates the need for custom code and node maintenance, enabling faster integration and deployment of blockchain applications. It supports various functionalities such as transaction management, account insights, staking, and token interactions. By offering a consistent interface, Adamik helps developers launch products more quickly and capture revenue sooner. The platform is trusted by leading crypto wallets, exchanges, and staking providers.\n\nKey Features:\n- Multi-Chain Support: Adamik provides access to over 60 blockchain networks, allowing developers to interact with multiple chains using a unified API, which simplifies development and reduces complexity.\n- Transaction Management: The API offers comprehensive transaction-related functionalities, including encoding, validation, broadcasting, and retrieving transaction details, making it easier to manage transactions across different blockchains.\n- Account Management: Developers can retrieve account balances, check token balances, and view transaction history, providing valuable insights into user accounts.\n- Staking Support: Adamik includes features for proof-of-stake blockchains, such as staking transactions, unstaking, claiming rewards, and retrieving validator information, which facilitates staking operations.\n- Token Interaction: The API enables interactions with different token types, including native currency transfers and token transfers across various blockchain standards, making it versatile for token management.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Offers 10,000 requests per month, suitable for small-scale testing and development.\n- No detailed information available for paid tiers; however, the platform likely offers scalable pricing based on usage and enterprise needs.\nFree Trial: The free tier serves as a trial for testing the API's capabilities.\n\nUse Cases:\n- Querying balances across multiple blockchain networks, such as Ethereum and Bitcoin, to provide users with a unified view of their assets.\n- Retrieving transaction history and validator information for decentralized applications like dYdX to enhance user experience and transparency.\n- Checking pending staking rewards on platforms like Osmosis to help users manage their staking activities efficiently.\n\nTarget Audience: Adamik is designed for developers and companies involved in the blockchain and cryptocurrency space, particularly those building multichain wallets, exchanges, and staking platforms. It is suitable for both small startups and large enterprises looking to streamline their blockchain operations.\n\nCategories: Crypto, Web3, Blockchain\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "964695",
+    "name": "10Web - Website Builder API",
+    "tagline": "AI-powered site generation with a single API call",
+    "description": "Developer-first API that turns a single text prompt into a fully-hosted, mobile-ready WordPress site in seconds. Embed white-label site generation, WooCommerce stores, drag-and-drop editing, and hosting directly inside your platform.",
+    "category": "API",
+    "topics": [
+      "API",
+      "WordPress",
+      "Website Builder"
+    ],
+    "website": "https://www.producthunt.com/r/BZDQRIIMMTOWSX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 51,
+    "product_id": "964695",
+    "detailed_description": "10Web's Website Builder API is designed to integrate AI-powered website creation into any platform, allowing users to generate full websites with a single API call. This tool simplifies website creation by providing mobile-optimized sites with managed hosting, ensuring fast and reliable performance. It is fully white-labeled, giving developers full control over the user experience. The API streamlines workflow for agencies and SaaS platforms by automating website generation and management. It supports WooCommerce integration, making it suitable for e-commerce solutions. The generated websites are optimized for PageSpeed and hosted securely on Google Cloud. Users can customize their sites using a drag-and-drop editor and a chat-based AI Co-Pilot, all within the client's ecosystem.",
+    "features": [
+      "AI-powered website generation: Allows users to create mobile-optimized WordPress sites from a short business description in under a minute.",
+      "Managed hosting: Ensures fast and reliable website performance with secure Google Cloud hosting.",
+      "White-labeling: Provides full control over the user experience, allowing customization under the client's brand.",
+      "Drag-and-drop editor and AI Co-Pilot: Enables users to refine layouts, copy, and images without leaving the platform.",
+      "Domain registration and plugin management: Simplifies the process of attaching custom domains and managing plugins through the API."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "API Starter: $7 per website for 20+ websites, includes 3 AI generations with additional generations costing between $0.10 and $0.30.",
+        "API Ultimate: $5 per website for 500+ websites, includes similar features with varying costs for additional generations.",
+        "Enterprise: Custom pricing available for 1000+ websites by contacting the sales team."
+      ],
+      "free_trial": "No specific details about a free trial are provided, but a demo can be requested.",
+      "additional_info": "Pricing varies based on the number of websites generated, with discounts available for annual billing."
+    },
+    "use_cases": [
+      "Agencies and web development companies can use the API to streamline their workflow by automating website creation for clients, reducing manual labor and increasing efficiency.",
+      "SaaS platforms can integrate the API to offer AI-powered website creation as a value-added service to their users, enhancing user experience and retention.",
+      "Domain registrars can leverage the API to provide a seamless website creation experience during the domain registration process, increasing customer satisfaction and loyalty."
+    ],
+    "target_audience": "10Web's Website Builder API is designed for businesses of various sizes, particularly agencies, SaaS platforms, and domain registrars. It is suitable for developers and product managers looking to integrate AI-powered website creation into their existing platforms.",
+    "embedding_text": "Product: 10Web - Website Builder API\n\nDescription: 10Web's Website Builder API is designed to integrate AI-powered website creation into any platform, allowing users to generate full websites with a single API call. This tool simplifies website creation by providing mobile-optimized sites with managed hosting, ensuring fast and reliable performance. It is fully white-labeled, giving developers full control over the user experience. The API streamlines workflow for agencies and SaaS platforms by automating website generation and management. It supports WooCommerce integration, making it suitable for e-commerce solutions. The generated websites are optimized for PageSpeed and hosted securely on Google Cloud. Users can customize their sites using a drag-and-drop editor and a chat-based AI Co-Pilot, all within the client's ecosystem.\n\nKey Features:\n- AI-powered website generation: Allows users to create mobile-optimized WordPress sites from a short business description in under a minute.\n- Managed hosting: Ensures fast and reliable website performance with secure Google Cloud hosting.\n- White-labeling: Provides full control over the user experience, allowing customization under the client's brand.\n- Drag-and-drop editor and AI Co-Pilot: Enables users to refine layouts, copy, and images without leaving the platform.\n- Domain registration and plugin management: Simplifies the process of attaching custom domains and managing plugins through the API.\n\nPricing Model: Subscription\nPricing Tiers:\n- API Starter: $7 per website for 20+ websites, includes 3 AI generations with additional generations costing between $0.10 and $0.30.\n- API Ultimate: $5 per website for 500+ websites, includes similar features with varying costs for additional generations.\n- Enterprise: Custom pricing available for 1000+ websites by contacting the sales team.\nFree Trial: No specific details about a free trial are provided, but a demo can be requested.\n\nUse Cases:\n- Agencies and web development companies can use the API to streamline their workflow by automating website creation for clients, reducing manual labor and increasing efficiency.\n- SaaS platforms can integrate the API to offer AI-powered website creation as a value-added service to their users, enhancing user experience and retention.\n- Domain registrars can leverage the API to provide a seamless website creation experience during the domain registration process, increasing customer satisfaction and loyalty.\n\nTarget Audience: 10Web's Website Builder API is designed for businesses of various sizes, particularly agencies, SaaS platforms, and domain registrars. It is suitable for developers and product managers looking to integrate AI-powered website creation into their existing platforms.\n\nCategories: API, WordPress, Website Builder\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  },
+  {
+    "id": "963305",
+    "name": "WorkFlawless",
+    "tagline": "Scale your business without getting lost in the process!",
+    "description": "Create visual workflows and SOPs in one hub to reduce errors, eliminate bottlenecks and maintain standards. Custom paths automate onboarding for faster training. Our AI helps generate documentation quickly, turning your processes into a competitive advantage.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Task Management",
+      "Business"
+    ],
+    "website": "https://www.producthunt.com/r/GFSS2ANGP7XPPO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 45,
+    "product_id": "963305",
+    "detailed_description": "WorkFlawless is a business process documentation software designed to help organizations scale efficiently by simplifying workflows, standard operating procedures (SOPs), and onboarding processes. It provides intuitive tools for creating, managing, and sharing SOPs, ensuring consistency and clarity across teams. The platform uses a visual workflow builder to convert complex processes into understandable flowcharts, linking each step to relevant SOPs. This approach eliminates confusion and ensures that all team members follow standardized procedures. WorkFlawless also offers AI-driven workflow generation, reducing documentation time significantly. By centralizing documentation and providing version control, WorkFlawless helps businesses maintain quality and precision as they grow. Additionally, it supports customized onboarding paths that automate training sequences, reducing training time while maintaining performance standards.",
+    "features": [
+      "Intuitive Workflow Builder: Allows users to create workflows using drag-and-drop controls, making it easy to visualize and manage processes. This feature helps streamline operations and ensures that responsibilities are clearly defined.",
+      "SOP Creation and Management: Enables users to build comprehensive SOPs quickly and link them directly to workflows, ensuring consistent execution across the organization.",
+      "AI-Driven Workflow Generation: Reduces documentation time by 90% by generating workflows and SOPs in seconds based on plain language descriptions.",
+      "Customizable Paths for Onboarding: Automates training sequences by combining workflows and SOPs into step-by-step guides, reducing training time by 75%.",
+      "Version Control and Centralized Repository: Keeps all workflows and SOPs organized and accessible, allowing for easy tracking of changes and restoration of previous versions."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free Trial: Available, but details about what's included are not specified.",
+        "Starter: $66.00/month (billed annually) or $79.00/month (billed monthly), includes basic features.",
+        "Grow: $116.00/month (billed annually) or $139.00/month (billed monthly), adds more advanced features.",
+        "Scale: $208.00/month (billed annually) or $249.00/month (billed monthly), includes additional features for larger businesses.",
+        "Unlimited: $416.00/month (billed annually) or $499.00/month (billed monthly), offers all features with no limitations."
+      ],
+      "free_trial": "Available, but specific details are not provided.",
+      "additional_info": "Credit card required to get started."
+    },
+    "use_cases": [
+      "Onboarding New Employees: WorkFlawless helps automate the onboarding process by creating customized learning journeys that combine workflows and SOPs, ensuring new employees are quickly integrated into the team.",
+      "Cross-Departmental Projects: The platform is useful for managing complex projects across different departments by providing clear, step-by-step guides and ensuring that all team members are aligned.",
+      "Rolling Out New Initiatives: WorkFlawless supports the rollout of new initiatives by providing structured guidance and ensuring that all processes are standardized and accessible to the relevant teams."
+    ],
+    "target_audience": "WorkFlawless is designed for businesses of various sizes, particularly those looking to scale efficiently. It is suitable for team managers, operations teams, and organizations in industries where process consistency and clarity are crucial.",
+    "embedding_text": "Product: WorkFlawless\n\nDescription: WorkFlawless is a business process documentation software designed to help organizations scale efficiently by simplifying workflows, standard operating procedures (SOPs), and onboarding processes. It provides intuitive tools for creating, managing, and sharing SOPs, ensuring consistency and clarity across teams. The platform uses a visual workflow builder to convert complex processes into understandable flowcharts, linking each step to relevant SOPs. This approach eliminates confusion and ensures that all team members follow standardized procedures. WorkFlawless also offers AI-driven workflow generation, reducing documentation time significantly. By centralizing documentation and providing version control, WorkFlawless helps businesses maintain quality and precision as they grow. Additionally, it supports customized onboarding paths that automate training sequences, reducing training time while maintaining performance standards.\n\nKey Features:\n- Intuitive Workflow Builder: Allows users to create workflows using drag-and-drop controls, making it easy to visualize and manage processes. This feature helps streamline operations and ensures that responsibilities are clearly defined.\n- SOP Creation and Management: Enables users to build comprehensive SOPs quickly and link them directly to workflows, ensuring consistent execution across the organization.\n- AI-Driven Workflow Generation: Reduces documentation time by 90% by generating workflows and SOPs in seconds based on plain language descriptions.\n- Customizable Paths for Onboarding: Automates training sequences by combining workflows and SOPs into step-by-step guides, reducing training time by 75%.\n- Version Control and Centralized Repository: Keeps all workflows and SOPs organized and accessible, allowing for easy tracking of changes and restoration of previous versions.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free Trial: Available, but details about what's included are not specified.\n- Starter: $66.00/month (billed annually) or $79.00/month (billed monthly), includes basic features.\n- Grow: $116.00/month (billed annually) or $139.00/month (billed monthly), adds more advanced features.\n- Scale: $208.00/month (billed annually) or $249.00/month (billed monthly), includes additional features for larger businesses.\n- Unlimited: $416.00/month (billed annually) or $499.00/month (billed monthly), offers all features with no limitations.\nFree Trial: Available, but specific details are not provided.\n\nUse Cases:\n- Onboarding New Employees: WorkFlawless helps automate the onboarding process by creating customized learning journeys that combine workflows and SOPs, ensuring new employees are quickly integrated into the team.\n- Cross-Departmental Projects: The platform is useful for managing complex projects across different departments by providing clear, step-by-step guides and ensuring that all team members are aligned.\n- Rolling Out New Initiatives: WorkFlawless supports the rollout of new initiatives by providing structured guidance and ensuring that all processes are standardized and accessible to the relevant teams.\n\nTarget Audience: WorkFlawless is designed for businesses of various sizes, particularly those looking to scale efficiently. It is suitable for team managers, operations teams, and organizations in industries where process consistency and clarity are crucial.\n\nCategories: Productivity, Task Management, Business\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-13"
+    }
+  }
+]

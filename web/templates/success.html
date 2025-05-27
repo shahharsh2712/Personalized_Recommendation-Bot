@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}All Set!{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div class="mb-4">
+                <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
+            </div>
+            
+            <h1 class="mb-4">You're all set!</h1>
+            
+            <p class="lead mb-4">
+                We'll start sending you personalized recommendations
+                {% if user.preferences.cadence == 'daily' %}
+                    every day
+                {% elif user.preferences.cadence == 'twice_week' %}
+                    twice a week
+                {% else %}
+                    weekly
+                {% endif %}
+                via {{ user.preferences.channel }}.
+            </p>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Your Preferences</h5>
+                    <div class="row">
+                        {% if user.preferences.role %}
+                        <div class="col-md-6 mb-2">
+                            <strong>Role:</strong> {{ user.preferences.role }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if user.preferences.goal %}
+                        <div class="col-md-6 mb-2">
+                            <strong>Goal:</strong> {{ user.preferences.goal }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if user.preferences.pain_point %}
+                        <div class="col-md-6 mb-2">
+                            <strong>Bottleneck:</strong> {{ user.preferences.pain_point }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if user.preferences.interests %}
+                        <div class="col-md-6 mb-2">
+                            <strong>Interests:</strong>
+                            {% for interest in user.preferences.interests %}
+                            <span class="badge bg-primary me-1">{{ interest }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        
+                        {% if user.preferences.platforms %}
+                        <div class="col-md-6 mb-2">
+                            <strong>Platforms:</strong>
+                            {% for platform in user.preferences.platforms %}
+                            <span class="badge bg-secondary me-1">{{ platform }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        
+                        <div class="col-md-6 mb-2">
+                            <strong>Budget:</strong>
+                            {% if user.preferences.budget_pref == 'free_only' %}
+                            Free tools only
+                            {% else %}
+                            Free + Paid
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-muted">
+                You can update your preferences anytime from your profile.
+            </p>
+
+            <div class="mt-4">
+                <a href="{{ url_for('profile', email=user.email) }}" class="btn btn-primary">View Profile</a>
+                <a href="{{ url_for('home') }}" class="btn btn-outline-secondary">Go Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

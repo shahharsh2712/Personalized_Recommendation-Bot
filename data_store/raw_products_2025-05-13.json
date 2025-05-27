@@ -1,0 +1,280 @@
+[
+  {
+    "id": "953388",
+    "name": "Probo",
+    "tagline": "Compliance for Startups to get SOC2/ISO27001/HIPAA in a week",
+    "description": "Probo is an open-source platform for SOC 2, ISO 27001, HIPAA, and more. If you don't want to lose time doing it, we provide a white-glove service to run everything for you and let you focus on your business. Open-source, transparent, and stress-free.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Artificial Intelligence",
+      "Security"
+    ],
+    "website": "https://www.producthunt.com/r/GDGI6LSRXCJJBW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 262
+  },
+  {
+    "id": "962878",
+    "name": "Syft AI",
+    "tagline": "Define Your news & choose your topics for personalized feed",
+    "description": "Unlike other news apps, you tell us the exact topics you care about, and we bring you time-saving, unbiased takeaways from the world's most trusted sources.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "News",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/RZIATKQ4XD3LEG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 254
+  },
+  {
+    "id": "959493",
+    "name": "CoLaunchly",
+    "tagline": "Launch your app faster. with zero guesswork",
+    "description": "CoLaunchly is your launch co-pilot made for developers. Instantly get a personalised launch roadmap, content templates, and channel strategy-built to help your product grow from day one.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Marketing",
+      "Developer Tools"
+    ],
+    "website": "https://www.producthunt.com/r/B3MM5CDDCQZYVW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 213
+  },
+  {
+    "id": "963721",
+    "name": "AI Meeting Notes by Notion",
+    "tagline": "Perfect meeting memory in Notion",
+    "description": "Focus on the conversation while AI captures every word. Meeting notes are always right where you work, so you can skip the recap and get to work faster. Works on any device and connects with your calendar.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Meetings",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/TNQGHRRWSMFOI2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 199
+  },
+  {
+    "id": "963753",
+    "name": "AppearOnAI ",
+    "tagline": "Get recommended by ChatGPT, Gemini, and Claude",
+    "description": "AppearOnAI shows how your brand ranks across ChatGPT, Gemini, and Claude, and more—then tells you exactly how to improve. Get your AI Visibility Score, competitor benchmarks, and specific content suggestions.",
+    "category": "Branding",
+    "topics": [
+      "Branding",
+      "Marketing",
+      "SEO"
+    ],
+    "website": "https://www.producthunt.com/r/KOGNWDZBG6OQ46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 153
+  },
+  {
+    "id": "962527",
+    "name": "Asendia AI",
+    "tagline": "Land your dream job 10x faster with Sarah, your AI job agent",
+    "description": "The first AI career agent that helps jobseekers practice with AI mock interviews, get personalized feedback, track job applications and land dream jobs. With the power of conversational AI, Asendia AI helps job seekers showcase skills and connect globally 💜",
+    "category": "Hiring",
+    "topics": [
+      "Hiring",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/SSQ7RBXOCSVDW3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 151
+  },
+  {
+    "id": "964463",
+    "name": "PRDKit",
+    "tagline": "AI-powered product specs and GTM artifacts in one place",
+    "description": "PRDKit turns half-baked feature ideas into crisp, structured product specs in minutes. It then auto-spins wireframes, Bolt-ready prototyping instructions, and social-ready snippets—handing PMs & builders a clear path forward, aligned on why & what.",
+    "category": "Prototyping",
+    "topics": [
+      "Prototyping",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/HZFE6P347XIORN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 147
+  },
+  {
+    "id": "964704",
+    "name": "Nayla",
+    "tagline": "The all-in-one AI browser & workspace that works for you",
+    "description": "Nayla is an AI companion that combines a browser and workspace. This combination enables all tabs to talk to each other unlocking the following workflows: - Talk to Nayla during video calls - Infer tasks directly from your inbox - Extract data from the web",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Virtual Assistants"
+    ],
+    "website": "https://www.producthunt.com/r/DBJPN6547H67NZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 138
+  },
+  {
+    "id": "964059",
+    "name": "AI Avatar Videos",
+    "tagline": "AI Avatars with natural expressions and perfect lipsync",
+    "description": "Create hyperrealistic avatars with natural gestures and perfect lipsync. Powered by ZERO SHOT AI LIPSYNC, this means that you don't have to submit any training videos if you want to use to create your AI Clone. Make your AI Avatar videos in minutes.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "Artificial Intelligence",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/ZL3E2TPWRL5AP3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 136
+  },
+  {
+    "id": "961212",
+    "name": "Zoho Forms",
+    "tagline": "Your friendly neighbourhood form builder",
+    "description": "Zoho Forms is a powerful online form builder that helps businesses of all sizes collect data, automate workflows, and boost productivity. Create custom forms for any purpose, from lead generation to event registrations with us.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "iOS",
+      "SaaS"
+    ],
+    "website": "https://www.producthunt.com/r/WDCZ4LICKMPSXZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 119
+  },
+  {
+    "id": "963766",
+    "name": "Zetta",
+    "tagline": "Automated business intelligence platform",
+    "description": "Zetta is an all-in-one data analytics platform featuring a conversational AI Data Analyst, automated insights, powerful dashboards, and a data warehouse. Empower your business teams with data clarity. No data team required.",
+    "category": "Analytics",
+    "topics": [
+      "Analytics",
+      "Business Intelligence",
+      "Data Visualization"
+    ],
+    "website": "https://www.producthunt.com/r/YDY76HVUU5WVZA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 118
+  },
+  {
+    "id": "964497",
+    "name": "RADiCAL",
+    "tagline": "AI motion capture meets 3D storytelling",
+    "description": "RADiCAL is a real-time, browser-based platform for AI-powered motion capture and 3D visualization. Capture motion with a phone, animate 3D characters instantly, and collaborate in the cloud. No suits, markers, or software downloads needed. Get started for free",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Artificial Intelligence",
+      "Animation"
+    ],
+    "website": "https://www.producthunt.com/r/R3OM7OSL7TIA4Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 108
+  },
+  {
+    "id": "964449",
+    "name": "Xogot",
+    "tagline": "Godot-powered game dev for iPad",
+    "description": "Xogot brings the full power of the Godot game engine to iPad. With a native iPad experience designed for touch, you can make, play, and share games wherever inspiration strikes. Xogot gives you everything you need to build 2D and 3D games — all from your iPad.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Games",
+      "Apple"
+    ],
+    "website": "https://www.producthunt.com/r/ETVZMTSPKITLBX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105
+  },
+  {
+    "id": "955620",
+    "name": "Mealpreper Guide",
+    "tagline": "Meal prep made simple, for real life",
+    "description": "No fluff. No fancy tools. Just real meals. Mealpreper Guide helps you prep once - and feed your crew for days. Tested menus, smart lists, no guesswork. Real food for real people - and real fridges that deserve better than takeout.",
+    "category": "Android",
+    "topics": [
+      "Android",
+      "iOS",
+      "Cooking"
+    ],
+    "website": "https://www.producthunt.com/r/YPQEFPTJUP3VP4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 91
+  },
+  {
+    "id": "963211",
+    "name": "Velin",
+    "tagline": "Build with Replit. Launch with Velin.",
+    "description": "Turn ideas into winning campaigns and market-ready content with Velin's product marketing AI agent. Launch, market and grow with Velin.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/D26JLA6RD7TQ5W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 74
+  },
+  {
+    "id": "964351",
+    "name": "Sourcery Sentinel",
+    "tagline": "AI Agents that investigate and fix Sentry Issues",
+    "description": "Sentinel is your on call engineer to investigate and fix any issue Sentry detects in your project. Connect to Slack to get instant responses on any Sentry alert with an explanation of what the error is, why the error happened, & what the best fix is.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GRPGG2BO5NNGT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 71
+  },
+  {
+    "id": "961414",
+    "name": "Lyst",
+    "tagline": "Digital Signage Platform",
+    "description": "Transform your screens with Lyst.so, the ultimate digital signage solution. Manage unlimited displays, share real-time content, and control all screens from one intuitive platform.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Marketing",
+      "TV"
+    ],
+    "website": "https://www.producthunt.com/r/DZFCMWH2WIUO7C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 53
+  },
+  {
+    "id": "961445",
+    "name": "Adamik",
+    "tagline": "One API, 60+ Chains, Instant Scale",
+    "description": "Think of Adamik as a universal blockchain interface. Our Unified API abstracts 60+ chains into one consistent format, so you can build, transact, and stake at scale without the complexity.",
+    "category": "Crypto",
+    "topics": [
+      "Crypto",
+      "Web3",
+      "Blockchain"
+    ],
+    "website": "https://www.producthunt.com/r/XX4V5Q44PBY5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 53
+  },
+  {
+    "id": "964695",
+    "name": "10Web - Website Builder API",
+    "tagline": "AI-powered site generation with a single API call",
+    "description": "Developer-first API that turns a single text prompt into a fully-hosted, mobile-ready WordPress site in seconds. Embed white-label site generation, WooCommerce stores, drag-and-drop editing, and hosting directly inside your platform.",
+    "category": "API",
+    "topics": [
+      "API",
+      "WordPress",
+      "Website Builder"
+    ],
+    "website": "https://www.producthunt.com/r/BZDQRIIMMTOWSX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 51
+  },
+  {
+    "id": "963305",
+    "name": "WorkFlawless",
+    "tagline": "Scale your business without getting lost in the process!",
+    "description": "Create visual workflows and SOPs in one hub to reduce errors, eliminate bottlenecks and maintain standards. Custom paths automate onboarding for faster training. Our AI helps generate documentation quickly, turning your processes into a competitive advantage.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Task Management",
+      "Business"
+    ],
+    "website": "https://www.producthunt.com/r/GFSS2ANGP7XPPO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 45
+  }
+]

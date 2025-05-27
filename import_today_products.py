@@ -1,7 +1,7 @@
 import os
 import json
 from datetime import datetime
-from storage.models import ProductStore
+from personalized_recommendations.storage.models import ProductStore
 
 
 def main():

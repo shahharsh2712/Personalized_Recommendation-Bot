@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Profile{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center mb-0">Edit Your Preferences</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <!-- Role -->
+                        <div class="mb-4">
+                            <h5>What do you do?</h5>
+                            <p class="text-muted">(Optional) Pick one or type your own.</p>
+                            <div class="chip-container mb-3">
+                                {% for role in roles %}
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="role" value="{{ role }}" id="role-{{ role }}" {% if user['preferences']['role'] == role %}checked{% endif %}>
+                                    <label class="form-check-label" for="role-{{ role }}">{{ role }}</label>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="role_custom" placeholder="Or type your role..." maxlength="60" value="{{ user['preferences']['role'] if user['preferences']['role'] not in roles else '' }}">
+                            </div>
+                        </div>
+
+                        <!-- Interests -->
+                        <div class="mb-4">
+                            <h5>What are you into these days?</h5>
+                            <p class="text-muted">Pick up to 3 (Optional)</p>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" id="interest-search" placeholder="Type to search more tags...">
+                            </div>
+                            <div class="chip-container">
+                                {% for interest in interests %}
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="interests" value="{{ interest }}" id="interest-{{ interest }}" {% if interest in user['preferences']['interests'] %}checked{% endif %}>
+                                    <label class="form-check-label" for="interest-{{ interest }}">{{ interest }}</label>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <small class="text-muted selected-counter">{{ user['preferences']['interests']|length }} / 3 selected</small>
+                        </div>
+
+                        <!-- Goal -->
+                        <div class="mb-4">
+                            <h5>Your main goal right now</h5>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="goal" placeholder="e.g. 'Ship AI chatbot by July'" maxlength="60" value="{{ user['preferences']['goal'] }}">
+                                <small class="text-muted char-counter">{{ user['preferences']['goal']|length if user['preferences']['goal'] else 0 }}/60</small>
+                            </div>
+                        </div>
+
+                        <!-- Pain Point -->
+                        <div class="mb-4">
+                            <h5>Biggest bottleneck (Optional)</h5>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="pain_point" placeholder="e.g. 'Too many manual prompt tests'" maxlength="60" value="{{ user['preferences']['pain_point'] }}">
+                                <small class="text-muted char-counter">{{ user['preferences']['pain_point']|length if user['preferences']['pain_point'] else 0 }}/60</small>
+                            </div>
+                        </div>
+
+                        <!-- Platforms -->
+                        <div class="mb-4">
+                            <h5>Platforms (pick up to 2)</h5>
+                            <div class="chip-container">
+                                {% for platform in platforms %}
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="platforms" value="{{ platform }}" id="platform-{{ platform }}" {% if platform in user['preferences']['platforms'] %}checked{% endif %}>
+                                    <label class="form-check-label" for="platform-{{ platform }}">{{ platform }}</label>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <small class="text-muted selected-counter">{{ user['preferences']['platforms']|length }} / 2 selected</small>
+                        </div>
+
+                        <!-- Budget -->
+                        <div class="mb-4">
+                            <h5>Budget</h5>
+                            <div class="btn-group w-100" role="group">
+                                <input type="radio" class="btn-check" name="budget_pref" id="budget-free" value="free_only" {% if user['preferences']['budget_pref'] == 'free_only' %}checked{% endif %}>
+                                <label class="btn btn-outline-primary" for="budget-free">Free tools only</label>
+                                
+                                <input type="radio" class="btn-check" name="budget_pref" id="budget-any" value="any" {% if user['preferences']['budget_pref'] == 'any' %}checked{% endif %}>
+                                <label class="btn btn-outline-primary" for="budget-any">Free + Paid</label>
+                            </div>
+                        </div>
+
+                        <!-- Delivery -->
+                        <div class="mb-4">
+                            <h5>Delivery</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Cadence:</label>
+                                    <div class="btn-group w-100" role="group">
+                                        {% for cadence in cadence_options %}
+                                        <input type="radio" class="btn-check" name="cadence" id="cadence-{{ cadence }}" value="{{ cadence }}" {% if user['preferences']['cadence'] == cadence %}checked{% endif %}>
+                                        <label class="btn btn-outline-primary" for="cadence-{{ cadence }}">{{ cadence }}</label>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Channel:</label>
+                                    <div class="btn-group w-100" role="group">
+                                        {% for channel in channel_options %}
+                                        <input type="radio" class="btn-check" name="channel" id="channel-{{ channel }}" value="{{ channel }}" {% if user['preferences']['channel'] == channel %}checked{% endif %}>
+                                        <label class="btn btn-outline-primary" for="channel-{{ channel }}">{{ channel }}</label>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
+                            <a href="{{ url_for('profile', email=user['email']) }}" class="btn btn-outline-secondary">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.chip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-check-inline {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-group {
+    width: 100%;
+}
+
+.btn-group .btn {
+    flex: 1;
+}
+
+.char-counter {
+    display: block;
+    text-align: right;
+    margin-top: 0.25rem;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Character counters
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const counter = input.parentElement.querySelector('.char-counter');
+        if (counter) {
+            input.addEventListener('input', () => {
+                counter.textContent = `${input.value.length}/${input.maxLength}`;
+            });
+        }
+    });
+
+    // Interest search
+    const interestSearch = document.getElementById('interest-search');
+    const interestInputs = document.querySelectorAll('input[name="interests"]');
+    
+    interestSearch.addEventListener('input', () => {
+        const searchTerm = interestSearch.value.toLowerCase();
+        interestInputs.forEach(input => {
+            const label = input.nextElementSibling;
+            const text = label.textContent.toLowerCase();
+            label.parentElement.style.display = text.includes(searchTerm) ? 'inline-block' : 'none';
+        });
+    });
+
+    // Interest counter
+    const interestsContainer = document.querySelector('input[name="interests"]').closest('.mb-4');
+    const interestsCounter = interestsContainer.querySelector('.selected-counter');
+    
+    interestInputs.forEach(input => {
+        input.addEventListener('change', function() {
+            const selected = interestsContainer.querySelectorAll('input[type="checkbox"]:checked').length;
+            interestsCounter.textContent = `${selected} / 3 selected`;
+            
+            if (selected > 3) {
+                this.checked = false;
+                interestsCounter.textContent = `3 / 3 selected`;
+            }
+        });
+    });
+
+    // Platform counter
+    const platformsContainer = document.querySelector('input[name="platforms"]').closest('.mb-4');
+    const platformsCounter = platformsContainer.querySelector('.selected-counter');
+    const platformInputs = platformsContainer.querySelectorAll('input[type="checkbox"]');
+    
+    platformInputs.forEach(input => {
+        input.addEventListener('change', function() {
+            const selected = platformsContainer.querySelectorAll('input[type="checkbox"]:checked').length;
+            platformsCounter.textContent = `${selected} / 2 selected`;
+            
+            if (selected > 2) {
+                this.checked = false;
+                platformsCounter.textContent = `2 / 2 selected`;
+            }
+        });
+    });
+});
+</script>
+{% endblock %} 

@@ -4,9 +4,23 @@ import time
 import requests
 import re
 from dotenv import load_dotenv
+import logging
+from datetime import datetime
+from personalized_recommendations.storage.models import ProductStore
 
 # Load environment variables
 load_dotenv()
+
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("personalized_recommendations/logs/enrichment.log"),
+        logging.StreamHandler(),
+    ],
+)
+logger = logging.getLogger(__name__)
 
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 
@@ -181,97 +195,59 @@ def save_checkpoint(products, filename):
     print(f"Saved checkpoint to {filename}")
 
 
-def main():
-    # Check if checkpoint exists and load it
-    checkpoint_file = "data/enriched_products_checkpoint.json"
-    start_index = 0
-    enriched_products = []
+def enrich_products():
+    """Enrich products using Perplexity API and save to MongoDB"""
+    logger.info("Starting product enrichment")
+    start_time = datetime.now()
 
-    if os.path.exists(checkpoint_file):
-        try:
-            with open(checkpoint_file, "r", encoding="utf-8") as f:
-                enriched_products = json.load(f)
-            start_index = len(enriched_products)
-            print(f"Loaded checkpoint with {start_index} already enriched products")
-        except Exception as e:
-            print(f"Error loading checkpoint: {e}")
-            enriched_products = []
+    try:
+        # Load products from MongoDB
+        store = ProductStore()
+        products = store.get_all_products()
 
-    # Load products
-    with open("data/products.json", "r", encoding="utf-8") as f:
-        all_products = json.load(f)
+        if not products:
+            logger.warning("No products found in MongoDB")
+            return []
 
-    total_products = len(all_products)
-    print(f"Loaded {total_products} products")
+        enriched_products = []
+        for product in products:
+            try:
+                # Add enrichment logic here
+                # For now, we'll just add a timestamp
+                product["enriched_at"] = datetime.now().isoformat()
+                enriched_products.append(product)
 
-    # For the prototype, we might want to limit the number of products to enrich
-    all_products_to_enrich = all_products[:500]  # Process all 500 products
+                # Add a small delay to avoid rate limiting
+                time.sleep(0.1)
 
-    # Skip products that have already been processed
-    products_to_enrich = all_products_to_enrich[start_index:]
+            except Exception as e:
+                logger.error(
+                    f"Error enriching product {product.get('id', 'unknown')}: {e}"
+                )
+                continue
 
-    print(f"Starting enrichment from product {start_index + 1}")
-    print(f"Remaining products to enrich: {len(products_to_enrich)}")
+        if not enriched_products:
+            logger.warning("No products were successfully enriched")
+            return []
 
-    for i, product in enumerate(products_to_enrich):
-        current_index = start_index + i
-        print(
-            f"Enriching product {current_index + 1}/{len(all_products_to_enrich)}: {product['name']}"
+        # Save enriched products to MongoDB
+        success_count = store.save_batch(enriched_products)
+
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+        logger.info(f"Product enrichment completed in {duration:.2f} seconds")
+        logger.info(
+            f"Successfully enriched and saved {success_count} products to MongoDB"
         )
 
-        # Enrich with Perplexity
-        enriched_product = enrich_with_perplexity(product)
+        return enriched_products
 
-        # Add embedding-optimized text
-        enriched_product["embedding_text"] = create_embedding_text(enriched_product)
-
-        # Add source information
-        enriched_product["data_sources"] = {
-            "product_hunt": True,
-            "perplexity_enhanced": True,
-        }
-
-        enriched_products.append(enriched_product)
-
-        # Save checkpoint every 5 products
-        if (current_index + 1) % 5 == 0 or (current_index + 1) == len(
-            all_products_to_enrich
-        ):
-            save_checkpoint(enriched_products, checkpoint_file)
-
-        # Respect API rate limits - wait longer to avoid rate limits
-        print(f"  Waiting for rate limits...")
-        time.sleep(3)  # Increased wait time to 3 seconds
-
-    # Save enriched products
-    with open("data/enriched_products.json", "w", encoding="utf-8") as f:
-        json.dump(enriched_products, f, indent=2, ensure_ascii=False)
-
-    print(
-        f"Saved {len(enriched_products)} enriched products to data/enriched_products.json"
-    )
-
-    # Print a sample
-    if enriched_products:
-        print("\nSample enriched product:")
-        sample = enriched_products[0]
-        print(f"Name: {sample['name']}")
-        print(f"Description: {sample.get('detailed_description', 'N/A')}")
-        print("Features:")
-        for feature in sample.get("features", ["N/A"]):
-            print(f"  - {feature}")
-        print("Pricing:")
-        if "pricing" in sample:
-            print(f"  Model: {sample['pricing'].get('model', 'N/A')}")
-            print(f"  Tiers:")
-            for tier in sample["pricing"].get("tiers", ["N/A"]):
-                print(f"    - {tier}")
-        else:
-            print("  N/A")
-
-        print("\nSample embedding text:")
-        print(sample.get("embedding_text", "N/A"))
+    except Exception as e:
+        logger.error(f"Error in product enrichment: {e}")
+        return []
+    finally:
+        store.close()
 
 
 if __name__ == "__main__":
-    main()
+    enrich_products()

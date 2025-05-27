@@ -1,0 +1,297 @@
+{% extends "base.html" %}
+
+{% block title %}Personalize Your Experience{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="progress mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 0%" id="onboarding-progress"></div>
+            </div>
+
+            <form method="POST" action="{{ url_for('complete_onboarding') }}" id="onboarding-form">
+                <!-- Step 1: Role -->
+                <div class="step" id="step-1">
+                    <h2 class="text-center mb-4">What do you do?</h2>
+                    <p class="text-center text-muted mb-4">(Optional) Pick one or type your own.</p>
+                    
+                    <div class="chip-container mb-4">
+                        {% for role in roles %}
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="role" value="{{ role }}" id="role-{{ role }}">
+                            <label class="form-check-label" for="role-{{ role }}">{{ role }}</label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" name="role_custom" placeholder="Or type your role..." maxlength="60">
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-primary btn-lg next-step">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Interests -->
+                <div class="step" id="step-2" style="display: none;">
+                    <h2 class="text-center mb-4">What are you into these days?</h2>
+                    <p class="text-center text-muted mb-4">Pick up to 3 (Optional)</p>
+                    
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" id="interest-search" placeholder="Type to search more tags...">
+                    </div>
+
+                    <div class="chip-container mb-4">
+                        {% for interest in interests %}
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="interests" value="{{ interest }}" id="interest-{{ interest }}">
+                            <label class="form-check-label" for="interest-{{ interest }}">{{ interest }}</label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                    <small class="text-muted selected-counter">0 / 3 selected</small>
+
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-outline-secondary btn-lg prev-step">Back</button>
+                        <button type="button" class="btn btn-primary btn-lg next-step">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Goal -->
+                <div class="step" id="step-3" style="display: none;">
+                    <h2 class="text-center mb-4">Your main goal right now</h2>
+                    
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" name="goal" placeholder="e.g. 'Ship AI chatbot by July'" maxlength="60">
+                        <small class="text-muted char-counter">0/60</small>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-outline-secondary btn-lg prev-step">Back</button>
+                        <button type="button" class="btn btn-primary btn-lg next-step">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 4: Pain Point -->
+                <div class="step" id="step-4" style="display: none;">
+                    <h2 class="text-center mb-4">Biggest bottleneck (Optional)</h2>
+                    
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" name="pain_point" placeholder="e.g. 'Too many manual prompt tests'" maxlength="60">
+                        <small class="text-muted char-counter">0/60</small>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-outline-secondary btn-lg prev-step">Back</button>
+                        <button type="button" class="btn btn-primary btn-lg next-step">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 5: Basics -->
+                <div class="step" id="step-5" style="display: none;">
+                    <h2 class="text-center mb-4">Almost there!</h2>
+                    
+                    <!-- Platforms -->
+                    <div class="mb-4">
+                        <h5>Platforms (pick up to 2)</h5>
+                        <div class="chip-container">
+                            {% for platform in platforms %}
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="platforms" value="{{ platform }}" id="platform-{{ platform }}">
+                                <label class="form-check-label" for="platform-{{ platform }}">{{ platform }}</label>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <small class="text-muted selected-counter">0 / 2 selected</small>
+                    </div>
+
+                    <!-- Budget -->
+                    <div class="mb-4">
+                        <h5>Budget</h5>
+                        <div class="btn-group w-100" role="group">
+                            <input type="radio" class="btn-check" name="budget_pref" id="budget-free" value="free_only" checked>
+                            <label class="btn btn-outline-primary" for="budget-free">Free tools only</label>
+                            
+                            <input type="radio" class="btn-check" name="budget_pref" id="budget-any" value="any">
+                            <label class="btn btn-outline-primary" for="budget-any">Free + Paid</label>
+                        </div>
+                    </div>
+
+                    <!-- Delivery -->
+                    <div class="mb-4">
+                        <h5>Delivery</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Cadence:</label>
+                                <div class="btn-group w-100" role="group">
+                                    {% for cadence in cadence_options %}
+                                    <input type="radio" class="btn-check" name="cadence" id="cadence-{{ cadence }}" value="{{ cadence }}" {% if loop.first %}checked{% endif %}>
+                                    <label class="btn btn-outline-primary" for="cadence-{{ cadence }}">{{ cadence }}</label>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Channel:</label>
+                                <div class="btn-group w-100" role="group">
+                                    {% for channel in channel_options %}
+                                    <input type="radio" class="btn-check" name="channel" id="channel-{{ channel }}" value="{{ channel }}" {% if loop.first %}checked{% endif %}>
+                                    <label class="btn btn-outline-primary" for="channel-{{ channel }}">{{ channel }}</label>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-outline-secondary btn-lg prev-step">Back</button>
+                        <button type="submit" class="btn btn-primary btn-lg">Show My First Picks</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+.chip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-check-inline {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-group {
+    width: 100%;
+}
+
+.btn-group .btn {
+    flex: 1;
+}
+
+.char-counter {
+    display: block;
+    text-align: right;
+    margin-top: 0.25rem;
+}
+
+.progress {
+    height: 0.5rem;
+    border-radius: 1rem;
+}
+
+.step {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('onboarding-form');
+    const steps = document.querySelectorAll('.step');
+    const progressBar = document.getElementById('onboarding-progress');
+    let currentStep = 1;
+    const totalSteps = steps.length;
+
+    // Update progress bar
+    function updateProgress() {
+        const progress = ((currentStep - 1) / (totalSteps - 1)) * 100;
+        progressBar.style.width = `${progress}%`;
+    }
+
+    // Show step
+    function showStep(stepNumber) {
+        steps.forEach((step, index) => {
+            step.style.display = index + 1 === stepNumber ? 'block' : 'none';
+        });
+        currentStep = stepNumber;
+        updateProgress();
+    }
+
+    // Next step buttons
+    document.querySelectorAll('.next-step').forEach(button => {
+        button.addEventListener('click', () => {
+            showStep(currentStep + 1);
+        });
+    });
+
+    // Previous step buttons
+    document.querySelectorAll('.prev-step').forEach(button => {
+        button.addEventListener('click', () => {
+            showStep(currentStep - 1);
+        });
+    });
+
+    // Character counters
+    document.querySelectorAll('input[type="text"]').forEach(input => {
+        const counter = input.parentElement.querySelector('.char-counter');
+        if (counter) {
+            input.addEventListener('input', () => {
+                counter.textContent = `${input.value.length}/${input.maxLength}`;
+            });
+        }
+    });
+
+    // Interest search
+    const interestSearch = document.getElementById('interest-search');
+    const interestInputs = document.querySelectorAll('input[name="interests"]');
+    
+    interestSearch.addEventListener('input', () => {
+        const searchTerm = interestSearch.value.toLowerCase();
+        interestInputs.forEach(input => {
+            const label = input.nextElementSibling;
+            const text = label.textContent.toLowerCase();
+            label.parentElement.style.display = text.includes(searchTerm) ? 'inline-block' : 'none';
+        });
+    });
+
+    // Interest counter
+    const interestsContainer = document.querySelector('input[name="interests"]').closest('.step');
+    const interestsCounter = interestsContainer.querySelector('.selected-counter');
+    
+    interestInputs.forEach(input => {
+        input.addEventListener('change', function() {
+            const selected = interestsContainer.querySelectorAll('input[type="checkbox"]:checked').length;
+            interestsCounter.textContent = `${selected} / 3 selected`;
+            
+            if (selected > 3) {
+                this.checked = false;
+                interestsCounter.textContent = `3 / 3 selected`;
+            }
+        });
+    });
+
+    // Platform counter
+    const platformsContainer = document.querySelector('input[name="platforms"]').closest('.mb-4');
+    const platformsCounter = platformsContainer.querySelector('.selected-counter');
+    const platformInputs = platformsContainer.querySelectorAll('input[type="checkbox"]');
+    
+    platformInputs.forEach(input => {
+        input.addEventListener('change', function() {
+            const selected = platformsContainer.querySelectorAll('input[type="checkbox"]:checked').length;
+            platformsCounter.textContent = `${selected} / 2 selected`;
+            
+            if (selected > 2) {
+                this.checked = false;
+                platformsCounter.textContent = `2 / 2 selected`;
+            }
+        });
+    });
+
+    // Initialize progress
+    updateProgress();
+});
+</script>
+{% endblock %} 

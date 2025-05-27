@@ -1,23 +1,153 @@
 import json
 import logging
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timedelta
 from bson.objectid import ObjectId
+import os
+from typing import List, Dict, Any, Optional
+from pymongo import MongoClient
+from pymongo.errors import PyMongoError
+from dotenv import load_dotenv
 
 from .database import Database
 
+# Load environment variables
+load_dotenv()
+
 # Setup logging
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("personalized_recommendations/logs/storage.log"),
+        logging.StreamHandler(),
+    ],
 )
 logger = logging.getLogger(__name__)
 
 
 class ProductStore:
-    """Storage for product data"""
+    """MongoDB store for products"""
 
     def __init__(self):
-        self.db = Database()
+        """Initialize MongoDB connection"""
+        try:
+            self.client = MongoClient(os.getenv("MONGODB_URI"))
+            self.db = self.client[os.getenv("MONGODB_DB", "product_recommendations")]
+            self.products = self.db.products
+            logger.info("Successfully connected to MongoDB")
+        except PyMongoError as e:
+            logger.error(f"Failed to connect to MongoDB: {e}")
+            raise
+
+    def close(self):
+        """Close MongoDB connection"""
+        try:
+            self.client.close()
+            logger.info("MongoDB connection closed")
+        except PyMongoError as e:
+            logger.error(f"Error closing MongoDB connection: {e}")
+
+    def get_all_products(self) -> List[Dict[str, Any]]:
+        """Get all products from MongoDB"""
+        try:
+            products = list(self.products.find())
+            logger.info(f"Retrieved {len(products)} products from MongoDB")
+            return products
+        except PyMongoError as e:
+            logger.error(f"Error retrieving products from MongoDB: {e}")
+            return []
+
+    def get_product_by_id(self, product_id: str) -> Optional[Dict[str, Any]]:
+        """Get a product by ID from MongoDB"""
+        try:
+            product = self.products.find_one({"product_id": product_id})
+            if product:
+                logger.info(f"Retrieved product {product_id} from MongoDB")
+            else:
+                logger.warning(f"Product {product_id} not found in MongoDB")
+            return product
+        except Exception as e:
+            logger.error(f"Error retrieving product {product_id} from MongoDB: {e}")
+            return None
+
+    def save_batch(self, products: list) -> int:
+        """Save a batch of products to MongoDB. Returns the number of successfully saved products."""
+        if not products:
+            logger.warning("No products to save.")
+            return 0
+        now = datetime.utcnow()
+        success_count = 0
+        for product in products:
+            # Ensure product_id is present
+            product_id = product.get("product_id") or product.get("id")
+            if not product_id:
+                logger.warning(f"Skipping product with missing product_id: {product}")
+                continue
+            product["product_id"] = str(product_id)
+            product["id"] = str(product_id)  # for backward compatibility
+            product["updated_at"] = now
+            if "created_at" not in product:
+                product["created_at"] = now
+            # Ensure top-level collection_date
+            collection_date = None
+            if "collection_date" in product:
+                collection_date = product["collection_date"]
+            elif "data_sources" in product and isinstance(
+                product["data_sources"], dict
+            ):
+                collection_date = product["data_sources"].get("collection_date")
+            if not collection_date:
+                collection_date = datetime.now().strftime("%Y-%m-%d")
+            product["collection_date"] = collection_date
+            # Validate required fields
+            if not product.get("name") or not product.get("description"):
+                logger.warning(
+                    f"Skipping product with missing name/description: {product}"
+                )
+                continue
+            try:
+                result = self.products.update_one(
+                    {"product_id": product["product_id"]},
+                    {"$set": product},
+                    upsert=True,
+                )
+                if result.upserted_id or result.modified_count > 0:
+                    success_count += 1
+            except Exception as e:
+                logger.error(f"Error saving product {product_id}: {e}")
+        logger.info(f"Saved {success_count} products to MongoDB.")
+        return success_count
+
+    def _validate_product(self, product: Dict[str, Any]) -> bool:
+        """Validate a product has all required fields"""
+        required_fields = ["id", "name", "description"]
+        return all(field in product for field in required_fields)
+
+    def delete_product(self, product_id: str) -> bool:
+        """Delete a product from MongoDB"""
+        try:
+            result = self.products.delete_one({"product_id": product_id})
+            if result.deleted_count > 0:
+                logger.info(f"Deleted product {product_id} from MongoDB")
+                return True
+            else:
+                logger.warning(f"Product {product_id} not found in MongoDB")
+                return False
+        except Exception as e:
+            logger.error(f"Error deleting product {product_id} from MongoDB: {e}")
+            return False
+
+    def delete_all_products(self) -> int:
+        """Delete all products from MongoDB"""
+        try:
+            result = self.products.delete_many({})
+            count = result.deleted_count
+            logger.info(f"Deleted {count} products from MongoDB")
+            return count
+        except PyMongoError as e:
+            logger.error(f"Error deleting all products from MongoDB: {e}")
+            return 0
 
     def save_product(self, product):
         """Save a product to the database"""
@@ -61,8 +191,8 @@ class ProductStore:
                 doc["embedding"] = product["embedding"]
 
             # Upsert (update if exists, insert if not)
-            result = self.db.db.products.update_one(
-                {"product_id": product_id}, {"$set": doc}, upsert=True
+            result = self.products.update_one(
+                {"id": product_id}, {"$set": doc}, upsert=True
             )
 
             if result.modified_count > 0:
@@ -79,16 +209,6 @@ class ProductStore:
             logger.error(f"Error saving product {product.get('name', 'unknown')}: {e}")
             return False
 
-    def save_batch(self, products):
-        """Save a batch of products"""
-        success_count = 0
-        for product in products:
-            if self.save_product(product):
-                success_count += 1
-
-        logger.info(f"Saved {success_count}/{len(products)} products")
-        return success_count
-
     def get_recent_products(self, days=1, limit=20):
         """Get products from the last X days"""
         try:
@@ -103,7 +223,7 @@ class ProductStore:
             )
 
             # Query for recent products
-            cursor = self.db.db.products.find(
+            cursor = self.products.find(
                 {"collection_date": {"$gte": threshold_date}},
                 sort=[("collection_date", -1)],
                 limit=limit,
@@ -127,15 +247,17 @@ class ProductStore:
             if hasattr(embedding, "tolist"):
                 embedding = embedding.tolist()
 
-            # Get today's date in YYYY-MM-DD format
-            today = datetime.now().strftime("%Y-%m-%d")
+            # Get date range (last 7 days)
+            today = datetime.now()
+            seven_days_ago = (today - timedelta(days=7)).strftime("%Y-%m-%d")
+            today_str = today.strftime("%Y-%m-%d")
 
             # Use MongoDB's $function to calculate cosine similarity
             pipeline = [
-                # First match for today's products only
+                # Match products from last 7 days
                 {
                     "$match": {
-                        "collection_date": today,  # Only products collected today
+                        "collection_date": {"$gte": seven_days_ago, "$lte": today_str},
                         "embedding": {"$exists": True, "$ne": []},
                     }
                 },
@@ -173,10 +295,8 @@ class ProductStore:
                 {"$limit": limit},
             ]
 
-            results = list(self.db.db.products.aggregate(pipeline))
-            logger.info(
-                f"Found {len(results)} similar products from today's collection"
-            )
+            results = list(self.products.aggregate(pipeline))
+            logger.info(f"Found {len(results)} similar products from the last 7 days")
             return results
 
         except Exception as e:
@@ -192,7 +312,7 @@ class ProductStore:
                 {"$sort": {"collection_date": -1}},
             ]
 
-            results = list(self.db.db.products.aggregate(pipeline))
+            results = list(self.products.aggregate(pipeline))
             logger.info(f"Found {len(results)} products with dates:")
             for product in results:
                 logger.info(
@@ -210,7 +330,7 @@ class ProductStore:
             today = datetime.now().strftime("%Y-%m-%d")
 
             # Update all products that have embeddings but no collection date
-            result = self.db.db.products.update_many(
+            result = self.products.update_many(
                 {
                     "embedding": {"$exists": True, "$ne": []},
                     "$or": [
@@ -230,68 +350,49 @@ class ProductStore:
             logger.error(f"Error updating collection dates: {e}")
             return 0
 
-    def close(self):
-        """Close database connection"""
-        self.db.close()
-
 
 class UserProfileStore:
     """Storage for user profiles"""
 
     def __init__(self):
-        self.db = Database()
+        self.client = MongoClient(
+            os.getenv("MONGODB_URI", "mongodb://localhost:27017/")
+        )
+        self.db = self.client[os.getenv("MONGODB_DB", "app_recommendations")]
+        self.users = self.db.users
 
     def save_user(self, user):
-        """Save a user profile"""
+        """Save or update a user in the database"""
         try:
-            # Make sure we have an email
-            if "email" not in user:
-                logger.error("User missing email field")
-                return False
-
-            email = user["email"]
-
-            # Convert embedding from numpy array if needed
-            if "embedding" in user and hasattr(user["embedding"], "tolist"):
-                user["embedding"] = user["embedding"].tolist()
-
-            # Add last updated timestamp
-            user["last_updated"] = datetime.now()
-
-            # Upsert (update if exists, insert if not)
-            result = self.db.db.user_profiles.update_one(
-                {"email": email}, {"$set": user}, upsert=True
+            result = self.users.update_one(
+                {"email": user["email"]}, {"$set": user}, upsert=True
             )
-
-            if result.modified_count > 0:
-                logger.info(f"Updated user profile: {email}")
-                return True
-            elif result.upserted_id:
-                logger.info(f"Created new user profile: {email}")
-                return True
-            else:
-                logger.warning(f"User profile unchanged: {email}")
-                return True
-
+            return True
         except Exception as e:
-            logger.error(f"Error saving user {user.get('email', 'unknown')}: {e}")
+            logger.error(f"Error saving user: {e}")
             return False
+
+    def update_user(self, email, update_data):
+        """Update a user's data in the database"""
+        try:
+            result = self.users.update_one({"email": email}, update_data)
+            return result
+        except Exception as e:
+            logger.error(f"Error updating user: {e}")
+            return None
 
     def get_user_by_email(self, email):
         """Get a user by email"""
         try:
-            user = self.db.db.user_profiles.find_one({"email": email})
-            return user
+            return self.users.find_one({"email": email})
         except Exception as e:
-            logger.error(f"Error getting user by email {email}: {e}")
+            logger.error(f"Error getting user: {e}")
             return None
 
     def get_active_users(self):
-        """Get all active users"""
+        """Get all active users (now defined as subscribed: true)"""
         try:
-            users = list(self.db.db.user_profiles.find({"active": True}))
-            logger.info(f"Retrieved {len(users)} active users")
-            return users
+            return list(self.users.find({"subscribed": True}))
         except Exception as e:
             logger.error(f"Error getting active users: {e}")
             return []
@@ -374,8 +475,8 @@ class UserProfileStore:
             return False
 
     def close(self):
-        """Close database connection"""
-        self.db.close()
+        """Close the database connection"""
+        self.client.close()
 
 
 class RecommendationStore:

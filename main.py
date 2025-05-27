@@ -46,7 +46,7 @@ def setup_parser():
 
 def onboard_user(email=None):
     """Interactive user onboarding"""
-    from users.profile import UserProfileManager
+    from personalized_recommendations.users.profile import UserProfileManager
 
     profile_manager = UserProfileManager()
 
@@ -116,7 +116,7 @@ def main():
     try:
         if args.mode == "collect":
             # Collect products
-            from data.collector import ProductCollector
+            from personalized_recommendations.data.collector import ProductCollector
 
             collector = ProductCollector()
             products = collector.process_daily_pipeline()
@@ -124,7 +124,9 @@ def main():
 
         elif args.mode == "recommend":
             # Generate recommendations
-            from recommender.engine import RecommendationEngine
+            from personalized_recommendations.recommender.engine import (
+                RecommendationEngine,
+            )
 
             engine = RecommendationEngine()
 
@@ -145,7 +147,7 @@ def main():
 
         elif args.mode == "email":
             # Send emails
-            from delivery.email_sender import EmailSender
+            from personalized_recommendations.delivery.email_sender import EmailSender
 
             sender = EmailSender()
 
@@ -165,13 +167,13 @@ def main():
 
         elif args.mode == "workflow":
             # Run complete workflow
-            from delivery.scheduler import daily_workflow
+            from personalized_recommendations.delivery.scheduler import daily_workflow
 
             daily_workflow()
 
         elif args.mode == "scheduler":
             # Run scheduler
-            from delivery.scheduler import run_scheduler
+            from personalized_recommendations.delivery.scheduler import run_scheduler
 
             run_scheduler()
 

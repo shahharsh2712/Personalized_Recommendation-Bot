@@ -1,0 +1,895 @@
+[
+  {
+    "id": "969918",
+    "name": "brainrot",
+    "tagline": "the more you brainrot, the more your brain rots",
+    "description": "brainrot is a super simple screen time app. the more you brainrot, the more your brain rots. keep your cute little brain avatar healthy by limiting your screen time.",
+    "category": "iOS",
+    "topics": [
+      "iOS",
+      "Productivity"
+    ],
+    "website": "https://www.producthunt.com/r/37AMHXDVUDK6A4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 447,
+    "product_id": "969918",
+    "detailed_description": "Brainrot is a minimalist iOS screen time app designed to visually motivate users to limit their phone usage by showing a cute brain avatar that deteriorates the more time is spent scrolling on the phone. The app provides a unique, guilt-inducing visual feedback mechanism where the brain avatar fades, cracks, and eventually 'rots' if the user spends excessive time on their device. When the phone is put down, the brain avatar perks back up, encouraging healthier screen habits without relying on traditional metrics like charts or streak badges. Brainrot aims to solve the problem of excessive screen time and digital distraction by making the consequences of overuse immediately visible and emotionally impactful. It is a simple, straightforward tool for users who respond well to visual cues and guilt as motivators to reduce screen time. The app focuses on real-time feedback rather than detailed analytics, making it accessible and easy to use for anyone wanting to manage their digital habits better.",
+    "features": [
+      "Visual brain avatar that deteriorates with increased screen time, providing immediate and intuitive feedback on phone usage to encourage reduced screen time.",
+      "No complex statistics or charts, focusing instead on a simple, engaging visual representation of screen time impact, which reduces user overwhelm and increases motivation.",
+      "Automatic recovery of the brain avatar when the phone is put down, reinforcing positive behavior and encouraging breaks from screen use.",
+      "Minimalist design with no streak badges or gamification elements, appealing to users who prefer straightforward, guilt-based nudges rather than competitive tracking.",
+      "iOS platform compatibility, making it accessible for iPhone users looking for a lightweight and effective screen time management tool."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Full functionality of the app including the brain avatar visual feedback and screen time tracking without ads or additional purchases."
+      ],
+      "free_trial": "Not applicable as the app is free with no mention of trial periods.",
+      "additional_info": "The app is described as bare-bones and simple, with no indication of premium tiers or subscription models."
+    },
+    "use_cases": [
+      "Individuals who want a simple and emotionally engaging way to reduce their phone screen time without dealing with detailed analytics or complex tracking apps.",
+      "Users who respond well to visual guilt cues and want a straightforward reminder to take breaks from their phone usage.",
+      "People looking for a lightweight iOS app to help manage digital distraction and improve focus by limiting excessive scrolling on social media or other apps."
+    ],
+    "target_audience": "The product is designed primarily for individual iOS users, especially those who are prone to excessive phone use and want a simple, visual, and guilt-based nudge to reduce screen time. It appeals to users who prefer minimalistic apps without complex features, likely including students, young adults, and professionals seeking better digital habits.",
+    "embedding_text": "Product: brainrot\n\nDescription: Brainrot is a minimalist iOS screen time app designed to visually motivate users to limit their phone usage by showing a cute brain avatar that deteriorates the more time is spent scrolling on the phone. The app provides a unique, guilt-inducing visual feedback mechanism where the brain avatar fades, cracks, and eventually 'rots' if the user spends excessive time on their device. When the phone is put down, the brain avatar perks back up, encouraging healthier screen habits without relying on traditional metrics like charts or streak badges. Brainrot aims to solve the problem of excessive screen time and digital distraction by making the consequences of overuse immediately visible and emotionally impactful. It is a simple, straightforward tool for users who respond well to visual cues and guilt as motivators to reduce screen time. The app focuses on real-time feedback rather than detailed analytics, making it accessible and easy to use for anyone wanting to manage their digital habits better.\n\nKey Features:\n- Visual brain avatar that deteriorates with increased screen time, providing immediate and intuitive feedback on phone usage to encourage reduced screen time.\n- No complex statistics or charts, focusing instead on a simple, engaging visual representation of screen time impact, which reduces user overwhelm and increases motivation.\n- Automatic recovery of the brain avatar when the phone is put down, reinforcing positive behavior and encouraging breaks from screen use.\n- Minimalist design with no streak badges or gamification elements, appealing to users who prefer straightforward, guilt-based nudges rather than competitive tracking.\n- iOS platform compatibility, making it accessible for iPhone users looking for a lightweight and effective screen time management tool.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Full functionality of the app including the brain avatar visual feedback and screen time tracking without ads or additional purchases.\nFree Trial: Not applicable as the app is free with no mention of trial periods.\n\nUse Cases:\n- Individuals who want a simple and emotionally engaging way to reduce their phone screen time without dealing with detailed analytics or complex tracking apps.\n- Users who respond well to visual guilt cues and want a straightforward reminder to take breaks from their phone usage.\n- People looking for a lightweight iOS app to help manage digital distraction and improve focus by limiting excessive scrolling on social media or other apps.\n\nTarget Audience: The product is designed primarily for individual iOS users, especially those who are prone to excessive phone use and want a simple, visual, and guilt-based nudge to reduce screen time. It appeals to users who prefer minimalistic apps without complex features, likely including students, young adults, and professionals seeking better digital habits.\n\nCategories: iOS, Productivity\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "968783",
+    "name": "Wireframer AI",
+    "tagline": "Smart webite layout generation for fast starts",
+    "description": "Wireframer turns a single prompt into a clean, responsive layout—focused on hierarchy and flow. It provides a solid foundation without locking you into a specific style.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "No-Code",
+      "Web Design"
+    ],
+    "website": "https://www.producthunt.com/r/PSEODAIKOVCXFH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 401,
+    "product_id": "968783",
+    "detailed_description": "Wireframer AI is a tool designed to generate smart website layouts quickly, helping users get started with their web projects efficiently. It leverages AI to automate the process of creating wireframes, which are essential for planning and visualizing the structure and layout of a website. By automating this process, Wireframer AI saves time and effort, allowing users to focus on other aspects of web development. It solves the problem of lengthy design phases by providing instant layouts based on user inputs or predefined templates. This enables rapid prototyping and iteration, which are crucial for agile development methodologies. Wireframer AI is particularly useful for those who need to visualize their ideas quickly and make immediate design decisions. However, specific details about its features and pricing are not available in the provided search results.",
+    "features": [
+      "AI-Powered Layout Generation: Wireframer AI uses advanced algorithms to create website wireframes based on user inputs or predefined templates, allowing for quick visualization of ideas.",
+      "Rapid Prototyping: Enables users to generate multiple layout variations quickly, facilitating rapid design iteration and feedback.",
+      "Customization: Users can specify layout preferences, color themes, and functionality to get tailored designs that meet their needs.",
+      "Export and Publish Options: Allows users to export wireframes in various formats (e.g., PDF, PNG, HTML) and publish them directly to popular web platforms.",
+      "Offline Mode: Enables users to create and edit wireframes without internet access, ensuring productivity even in remote locations."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing information available"
+      ],
+      "free_trial": "No specific information available",
+      "additional_info": "Pricing details are not provided in the search results."
+    },
+    "use_cases": [
+      "Startup Web Development: Wireframer AI is useful for startups needing to quickly prototype and launch web applications, allowing them to test market viability early.",
+      "Agile Web Projects: It supports agile methodologies by enabling rapid iteration and feedback during the design phase.",
+      "Freelance Designers: Freelancers can benefit from Wireframer AI by quickly generating layouts for clients, streamlining their workflow and improving client satisfaction."
+    ],
+    "target_audience": "Wireframer AI is designed for web developers, designers, and entrepreneurs who need to quickly create and prototype website layouts. It is particularly useful for small to medium-sized businesses and startups looking to accelerate their web development process.",
+    "embedding_text": "Product: Wireframer AI\n\nDescription: Wireframer AI is a tool designed to generate smart website layouts quickly, helping users get started with their web projects efficiently. It leverages AI to automate the process of creating wireframes, which are essential for planning and visualizing the structure and layout of a website. By automating this process, Wireframer AI saves time and effort, allowing users to focus on other aspects of web development. It solves the problem of lengthy design phases by providing instant layouts based on user inputs or predefined templates. This enables rapid prototyping and iteration, which are crucial for agile development methodologies. Wireframer AI is particularly useful for those who need to visualize their ideas quickly and make immediate design decisions. However, specific details about its features and pricing are not available in the provided search results.\n\nKey Features:\n- AI-Powered Layout Generation: Wireframer AI uses advanced algorithms to create website wireframes based on user inputs or predefined templates, allowing for quick visualization of ideas.\n- Rapid Prototyping: Enables users to generate multiple layout variations quickly, facilitating rapid design iteration and feedback.\n- Customization: Users can specify layout preferences, color themes, and functionality to get tailored designs that meet their needs.\n- Export and Publish Options: Allows users to export wireframes in various formats (e.g., PDF, PNG, HTML) and publish them directly to popular web platforms.\n- Offline Mode: Enables users to create and edit wireframes without internet access, ensuring productivity even in remote locations.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing information available\nFree Trial: No specific information available\n\nUse Cases:\n- Startup Web Development: Wireframer AI is useful for startups needing to quickly prototype and launch web applications, allowing them to test market viability early.\n- Agile Web Projects: It supports agile methodologies by enabling rapid iteration and feedback during the design phase.\n- Freelance Designers: Freelancers can benefit from Wireframer AI by quickly generating layouts for clients, streamlining their workflow and improving client satisfaction.\n\nTarget Audience: Wireframer AI is designed for web developers, designers, and entrepreneurs who need to quickly create and prototype website layouts. It is particularly useful for small to medium-sized businesses and startups looking to accelerate their web development process.\n\nCategories: Design Tools, No-Code, Web Design\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969936",
+    "name": "AI Search Visibility Monitor",
+    "tagline": "Your AI search ranking tool—for ChatGPT, Gemini, & Claude.",
+    "description": "Track and optimize how your brand appears across ChatGPT, Gemini, and Google AI Overviews. See what AI says about you, benchmark against competitors, and get actionable insights to improve your visibility.",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "SEO",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GQM337DP5WY5BU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 326,
+    "product_id": "969936",
+    "detailed_description": "AI Search Visibility Monitor is a specialized AI search ranking tool designed to track and optimize brand visibility across major AI-powered search engines and chatbots such as ChatGPT, Google Gemini, and Claude. It enables businesses to monitor how frequently and prominently their brand and content appear in AI-generated search results and conversational AI responses. The tool helps identify content gaps, track brand mentions, and analyze citation sources to ensure accurate and favorable representation in AI search outputs. By providing actionable insights, it empowers users to optimize their content strategy to improve AI search rankings and maintain competitive advantage in the evolving AI search landscape. This product addresses the challenge of gaining visibility in AI-driven search environments where traditional SEO metrics may not apply, helping brands stay ahead as AI search traffic surges. It also supports benchmarking against competitors and tracking changes over time to adapt strategies effectively.",
+    "features": [
+      "AI Search Rank Tracking: Monitors brand visibility and ranking across AI search engines like ChatGPT, Gemini, and Claude, allowing users to see where and how their brand appears in AI-generated results.",
+      "Brand Mention Monitoring: Tracks mentions of the brand within AI chatbot responses and generative search overviews, helping users identify opportunities and correct misinformation.",
+      "Content Gap Analysis: Identifies missing or underperforming content areas where the brand is not being surfaced by AI search engines, enabling targeted content optimization.",
+      "Competitive Benchmarking: Compares the brand’s AI search visibility against competitors to understand relative performance and uncover strategic advantages.",
+      "Actionable Insights and Reporting: Provides detailed analytics on AI search trends, citation sources, and visibility changes over time to guide content and marketing strategies."
+    ],
+    "pricing": {
+      "model": "Freemium with subscription options",
+      "tiers": [
+        "Free tier: Includes 100 AI search queries per month across 4 AI search engines, suitable for basic monitoring needs.",
+        "Pro Plan: $199/month, offers unlimited AI search queries on a pay-as-you-use basis, access to 5 AI search engines, and up to 500 Google AI Overviews analyses per month.",
+        "Enterprise: Details not publicly specified, likely available via custom pricing and demo requests."
+      ],
+      "free_trial": "Free plan available with limited queries and engine access; no explicit free trial mentioned but demo requests are possible.",
+      "additional_info": "The Pro plan operates on a pay-as-you-use model, which can be cost-effective for brands requiring large-scale AI search tracking without enterprise-level pricing."
+    },
+    "use_cases": [
+      "A digital marketing team wants to track how their brand is represented in AI chatbot responses like ChatGPT and Google Gemini to ensure accurate information and capitalize on AI search traffic.",
+      "SEO professionals need to identify content gaps where their website is not appearing in AI search results, enabling them to create targeted content to improve AI visibility.",
+      "Brand managers aim to benchmark their AI search presence against competitors to adapt strategies and maintain a competitive edge in emerging AI search platforms."
+    ],
+    "target_audience": "This product is designed for marketing teams, SEO specialists, brand managers, and digital strategists in companies of all sizes, particularly those in industries reliant on online presence and brand reputation. It is suitable for businesses aiming to optimize visibility in AI-driven search environments across sectors such as technology, e-commerce, media, and professional services.",
+    "embedding_text": "Product: AI Search Visibility Monitor\n\nDescription: AI Search Visibility Monitor is a specialized AI search ranking tool designed to track and optimize brand visibility across major AI-powered search engines and chatbots such as ChatGPT, Google Gemini, and Claude. It enables businesses to monitor how frequently and prominently their brand and content appear in AI-generated search results and conversational AI responses. The tool helps identify content gaps, track brand mentions, and analyze citation sources to ensure accurate and favorable representation in AI search outputs. By providing actionable insights, it empowers users to optimize their content strategy to improve AI search rankings and maintain competitive advantage in the evolving AI search landscape. This product addresses the challenge of gaining visibility in AI-driven search environments where traditional SEO metrics may not apply, helping brands stay ahead as AI search traffic surges. It also supports benchmarking against competitors and tracking changes over time to adapt strategies effectively.\n\nKey Features:\n- AI Search Rank Tracking: Monitors brand visibility and ranking across AI search engines like ChatGPT, Gemini, and Claude, allowing users to see where and how their brand appears in AI-generated results.\n- Brand Mention Monitoring: Tracks mentions of the brand within AI chatbot responses and generative search overviews, helping users identify opportunities and correct misinformation.\n- Content Gap Analysis: Identifies missing or underperforming content areas where the brand is not being surfaced by AI search engines, enabling targeted content optimization.\n- Competitive Benchmarking: Compares the brand’s AI search visibility against competitors to understand relative performance and uncover strategic advantages.\n- Actionable Insights and Reporting: Provides detailed analytics on AI search trends, citation sources, and visibility changes over time to guide content and marketing strategies.\n\nPricing Model: Freemium with subscription options\nPricing Tiers:\n- Free tier: Includes 100 AI search queries per month across 4 AI search engines, suitable for basic monitoring needs.\n- Pro Plan: $199/month, offers unlimited AI search queries on a pay-as-you-use basis, access to 5 AI search engines, and up to 500 Google AI Overviews analyses per month.\n- Enterprise: Details not publicly specified, likely available via custom pricing and demo requests.\nFree Trial: Free plan available with limited queries and engine access; no explicit free trial mentioned but demo requests are possible.\n\nUse Cases:\n- A digital marketing team wants to track how their brand is represented in AI chatbot responses like ChatGPT and Google Gemini to ensure accurate information and capitalize on AI search traffic.\n- SEO professionals need to identify content gaps where their website is not appearing in AI search results, enabling them to create targeted content to improve AI visibility.\n- Brand managers aim to benchmark their AI search presence against competitors to adapt strategies and maintain a competitive edge in emerging AI search platforms.\n\nTarget Audience: This product is designed for marketing teams, SEO specialists, brand managers, and digital strategists in companies of all sizes, particularly those in industries reliant on online presence and brand reputation. It is suitable for businesses aiming to optimize visibility in AI-driven search environments across sectors such as technology, e-commerce, media, and professional services.\n\nCategories: Marketing, SEO, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "967699",
+    "name": "OpusClip Thumbnail",
+    "tagline": "Drop you link & create viral YouTube thumbnails in 1 click",
+    "description": "OpusClip Thumbnail is a one-click AI thumbnail generator. You just need to paste in a video link, and we extract key information to automatically generate personalized, high-performing thumbnails that drive clicks. No prompt needed.",
+    "category": "Social Media",
+    "topics": [
+      "Social Media",
+      "Artificial Intelligence",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/EPA2DFDZBFG3SJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 324,
+    "product_id": "967699",
+    "detailed_description": "OpusClip Thumbnail is an AI-powered tool designed to create high-performing YouTube thumbnails in minutes. It addresses the common challenge faced by video creators who lack graphic design skills, allowing them to produce eye-catching thumbnails without manual effort. By leveraging OpenAI's GPT-4o, the tool can generate thumbnails based on the video's genre and contextual details, ensuring they are visually appealing and effective at driving clicks. Users can simply paste their video link or upload the video file to get instant thumbnails. This tool is part of OpusClip's broader mission to streamline content creation processes for millions of creators and businesses. It supports a wide range of visual styles, making it versatile for diverse content types. The tool also facilitates AB testing, which is crucial for optimizing thumbnail performance on YouTube.",
+    "features": [
+      "AI-Powered Generation: Utilizes GPT-4o to generate thumbnails based on video content, ensuring they are relevant and engaging.",
+      "No Design Skills Required: Users can create professional thumbnails without needing graphic design expertise.",
+      "Contextual Understanding: The tool considers the genre and other contextual details of the video to produce fitting thumbnails.",
+      "AB Testing Support: Allows creators to easily test different thumbnails to optimize click-through rates.",
+      "Diverse Visual Styles: Supports a wide range of visual styles to cater to different content types and preferences."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Users can create thumbnails with basic features without any cost."
+      ],
+      "free_trial": "No specific free trial mentioned; the tool is available for free use.",
+      "additional_info": "The tool is promoted as a free service, with no detailed pricing tiers available."
+    },
+    "use_cases": [
+      "Content Creators: Useful for YouTubers who need to quickly create engaging thumbnails without design expertise.",
+      "Marketing Teams: Helps marketing teams optimize their video content's visibility on YouTube by creating high-performing thumbnails.",
+      "Small Businesses: Beneficial for small businesses looking to enhance their video marketing efforts without investing in graphic design resources."
+    ],
+    "target_audience": "OpusClip Thumbnail is designed for content creators, marketing teams, and small businesses across various industries, particularly those who produce video content regularly and need to optimize their YouTube presence.",
+    "embedding_text": "Product: OpusClip Thumbnail\n\nDescription: OpusClip Thumbnail is an AI-powered tool designed to create high-performing YouTube thumbnails in minutes. It addresses the common challenge faced by video creators who lack graphic design skills, allowing them to produce eye-catching thumbnails without manual effort. By leveraging OpenAI's GPT-4o, the tool can generate thumbnails based on the video's genre and contextual details, ensuring they are visually appealing and effective at driving clicks. Users can simply paste their video link or upload the video file to get instant thumbnails. This tool is part of OpusClip's broader mission to streamline content creation processes for millions of creators and businesses. It supports a wide range of visual styles, making it versatile for diverse content types. The tool also facilitates AB testing, which is crucial for optimizing thumbnail performance on YouTube.\n\nKey Features:\n- AI-Powered Generation: Utilizes GPT-4o to generate thumbnails based on video content, ensuring they are relevant and engaging.\n- No Design Skills Required: Users can create professional thumbnails without needing graphic design expertise.\n- Contextual Understanding: The tool considers the genre and other contextual details of the video to produce fitting thumbnails.\n- AB Testing Support: Allows creators to easily test different thumbnails to optimize click-through rates.\n- Diverse Visual Styles: Supports a wide range of visual styles to cater to different content types and preferences.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Users can create thumbnails with basic features without any cost.\nFree Trial: No specific free trial mentioned; the tool is available for free use.\n\nUse Cases:\n- Content Creators: Useful for YouTubers who need to quickly create engaging thumbnails without design expertise.\n- Marketing Teams: Helps marketing teams optimize their video content's visibility on YouTube by creating high-performing thumbnails.\n- Small Businesses: Beneficial for small businesses looking to enhance their video marketing efforts without investing in graphic design resources.\n\nTarget Audience: OpusClip Thumbnail is designed for content creators, marketing teams, and small businesses across various industries, particularly those who produce video content regularly and need to optimize their YouTube presence.\n\nCategories: Social Media, Artificial Intelligence, Video\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969132",
+    "name": "Hatchr",
+    "tagline": "#1 App to Beat Social Anxiety",
+    "description": "Boost your social confidence through daily real-world challenges. Hatchr uses exposure therapy, the gold-standard method, to help you build confidence step by step—track progress, earn streaks, and grow at your pace, but surrounded by a community.",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness",
+      "Productivity",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/7NP77JPTJGM5QS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 248,
+    "product_id": "969132",
+    "detailed_description": "Hatchr is a mobile application specifically designed to help individuals overcome social anxiety by providing practical, science-backed tools and daily challenges. The app was created by people who have personally experienced social anxiety, aiming to offer a solution that feels relatable and supportive rather than clinical or overwhelming. Hatchr focuses on exposure therapy—considered the gold standard for treating social anxiety—by guiding users through real-world social challenges at their own pace. Users can track their confidence and progress over time, reflect on their experiences, and learn how their mind and body respond to social stress. The app is built for younger generations and emphasizes a low-pressure environment, making it easier for users to grow and build confidence without feeling judged. Hatchr aims to make everyday social interactions, such as saying hello, joining calls, or texting back, feel less daunting and more manageable[1][3][2].",
+    "features": [
+      "Daily Exposure Challenges: Users receive tailored, real-world social challenges designed to gradually expose them to anxiety-inducing situations, helping them build confidence through repeated practice[1][3].",
+      "Progress Tracking: The app allows users to monitor their confidence levels and track their progress over time, providing visual feedback and motivation to continue their journey[1][3].",
+      "Reflection Tools: Hatchr encourages users to reflect on their experiences after each challenge, helping them understand their emotional and physical responses to social stress[1].",
+      "Community Support: Users can connect with a community of others facing similar challenges, offering encouragement, shared experiences, and a sense of belonging[3].",
+      "Streaks and Rewards: The app includes gamification elements such as streaks and rewards for consistent participation, which help maintain user engagement and motivation[3]."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Limited access to content and features; may include basic challenges and tracking[1].",
+        "Tier 1: Premium subscription, price not specified, includes full access to all challenges, progress tracking, reflection tools, and community features[1].",
+        "Tier 2: Not specified",
+        "Enterprise: Not available"
+      ],
+      "free_trial": "No explicit mention of a free trial in available sources, but limited free access may be available[1].",
+      "additional_info": "A paid subscription is required to access the full range of content and features. Terms and conditions are available on the App Store[1]."
+    },
+    "use_cases": [
+      "Individuals struggling with initiating conversations or feeling anxious about social interactions can use Hatchr to practice and build confidence through structured, daily challenges[1][3].",
+      "People who overthink or avoid responding to messages or joining calls can benefit from the app’s step-by-step approach to facing and overcoming these fears[1][2].",
+      "Young adults and students who want to improve their social skills in a supportive, low-pressure environment can use Hatchr to gradually expand their comfort zones and track their progress[1][3]."
+    ],
+    "target_audience": "Hatchr is designed for individuals, especially younger generations, who experience social anxiety and want to build confidence in real-world social situations. It is suitable for anyone seeking a practical, science-backed tool to help manage and overcome social fears, regardless of company size, role, or industry[1][3][2].",
+    "embedding_text": "Product: Hatchr\n\nDescription: Hatchr is a mobile application specifically designed to help individuals overcome social anxiety by providing practical, science-backed tools and daily challenges. The app was created by people who have personally experienced social anxiety, aiming to offer a solution that feels relatable and supportive rather than clinical or overwhelming. Hatchr focuses on exposure therapy—considered the gold standard for treating social anxiety—by guiding users through real-world social challenges at their own pace. Users can track their confidence and progress over time, reflect on their experiences, and learn how their mind and body respond to social stress. The app is built for younger generations and emphasizes a low-pressure environment, making it easier for users to grow and build confidence without feeling judged. Hatchr aims to make everyday social interactions, such as saying hello, joining calls, or texting back, feel less daunting and more manageable[1][3][2].\n\nKey Features:\n- Daily Exposure Challenges: Users receive tailored, real-world social challenges designed to gradually expose them to anxiety-inducing situations, helping them build confidence through repeated practice[1][3].\n- Progress Tracking: The app allows users to monitor their confidence levels and track their progress over time, providing visual feedback and motivation to continue their journey[1][3].\n- Reflection Tools: Hatchr encourages users to reflect on their experiences after each challenge, helping them understand their emotional and physical responses to social stress[1].\n- Community Support: Users can connect with a community of others facing similar challenges, offering encouragement, shared experiences, and a sense of belonging[3].\n- Streaks and Rewards: The app includes gamification elements such as streaks and rewards for consistent participation, which help maintain user engagement and motivation[3].\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Limited access to content and features; may include basic challenges and tracking[1].\n- Tier 1: Premium subscription, price not specified, includes full access to all challenges, progress tracking, reflection tools, and community features[1].\n- Tier 2: Not specified\n- Enterprise: Not available\nFree Trial: No explicit mention of a free trial in available sources, but limited free access may be available[1].\n\nUse Cases:\n- Individuals struggling with initiating conversations or feeling anxious about social interactions can use Hatchr to practice and build confidence through structured, daily challenges[1][3].\n- People who overthink or avoid responding to messages or joining calls can benefit from the app’s step-by-step approach to facing and overcoming these fears[1][2].\n- Young adults and students who want to improve their social skills in a supportive, low-pressure environment can use Hatchr to gradually expand their comfort zones and track their progress[1][3].\n\nTarget Audience: Hatchr is designed for individuals, especially younger generations, who experience social anxiety and want to build confidence in real-world social situations. It is suitable for anyone seeking a practical, science-backed tool to help manage and overcome social fears, regardless of company size, role, or industry[1][3][2].\n\nCategories: Health & Fitness, Productivity, Tech\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "970009",
+    "name": "Jinear",
+    "tagline": "Open source Task Manager & Calendar",
+    "description": "Self-hostable, privacy-friendly productivity tool. Jinear is a project management and calendar app for small teams or individuals who prefer to self-host. Originally built for personal use, it's now open source and ready for anyone to use or customize.",
+    "category": "Task Management",
+    "topics": [
+      "Task Management",
+      "Open Source",
+      "Calendar"
+    ],
+    "website": "https://www.producthunt.com/r/RS5PKKPHCAO5LU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 175,
+    "product_id": "970009",
+    "detailed_description": "Jinear is an open-source task manager and calendar designed for individuals and small teams who prioritize self-hosting and privacy. It was originally developed for personal use but is now available for anyone to use or customize. Jinear simplifies project management by integrating task tracking and calendar management into a single platform. It helps users stay organized by allowing them to create, prioritize, and categorize tasks, as well as schedule appointments and set deadlines. The app also supports collaborative project management, enabling teams to delegate tasks and track progress in real-time. With its intuitive interface, Jinear streamlines workflows, ensuring users remain focused and productive. Additionally, it offers intelligent reminders to prevent missed deadlines or appointments.",
+    "features": [
+      "Task Management: Create, organize, and track tasks with ease, allowing users to prioritize and categorize tasks according to their workflow.",
+      "Integrated Calendar: Seamlessly manage events and deadlines by scheduling appointments and planning events, with customizable calendar views.",
+      "Collaborative Project Management: Boost team productivity by delegating tasks, assigning responsibilities, and tracking project progress in real-time.",
+      "Intelligent Reminders: Receive timely notifications for upcoming deadlines and events, ensuring users stay on track.",
+      "Self-Hostable and Privacy-Friendly: Users can host Jinear on their own infrastructure, providing complete control over data privacy."
+    ],
+    "pricing": {
+      "model": "Free (Open Source)",
+      "tiers": [
+        "Free: Includes all features as it is open-source and self-hostable."
+      ],
+      "free_trial": "Not applicable as it is open-source.",
+      "additional_info": "Since Jinear is open-source, there are no subscription fees or tiered pricing models."
+    },
+    "use_cases": [
+      "Small Business Management: Jinear is ideal for small businesses looking to manage tasks and projects efficiently while maintaining control over their data.",
+      "Personal Productivity: Individuals can use Jinear to organize their daily tasks, appointments, and deadlines in a single, intuitive platform.",
+      "Remote Team Collaboration: Teams working remotely can benefit from Jinear's collaborative features to stay aligned and productive."
+    ],
+    "target_audience": "Jinear is designed for individuals and small teams across various industries who value privacy and self-hosting capabilities. It is particularly suitable for those who prefer to manage their data internally.",
+    "embedding_text": "Product: Jinear\n\nDescription: Jinear is an open-source task manager and calendar designed for individuals and small teams who prioritize self-hosting and privacy. It was originally developed for personal use but is now available for anyone to use or customize. Jinear simplifies project management by integrating task tracking and calendar management into a single platform. It helps users stay organized by allowing them to create, prioritize, and categorize tasks, as well as schedule appointments and set deadlines. The app also supports collaborative project management, enabling teams to delegate tasks and track progress in real-time. With its intuitive interface, Jinear streamlines workflows, ensuring users remain focused and productive. Additionally, it offers intelligent reminders to prevent missed deadlines or appointments.\n\nKey Features:\n- Task Management: Create, organize, and track tasks with ease, allowing users to prioritize and categorize tasks according to their workflow.\n- Integrated Calendar: Seamlessly manage events and deadlines by scheduling appointments and planning events, with customizable calendar views.\n- Collaborative Project Management: Boost team productivity by delegating tasks, assigning responsibilities, and tracking project progress in real-time.\n- Intelligent Reminders: Receive timely notifications for upcoming deadlines and events, ensuring users stay on track.\n- Self-Hostable and Privacy-Friendly: Users can host Jinear on their own infrastructure, providing complete control over data privacy.\n\nPricing Model: Free (Open Source)\nPricing Tiers:\n- Free: Includes all features as it is open-source and self-hostable.\nFree Trial: Not applicable as it is open-source.\n\nUse Cases:\n- Small Business Management: Jinear is ideal for small businesses looking to manage tasks and projects efficiently while maintaining control over their data.\n- Personal Productivity: Individuals can use Jinear to organize their daily tasks, appointments, and deadlines in a single, intuitive platform.\n- Remote Team Collaboration: Teams working remotely can benefit from Jinear's collaborative features to stay aligned and productive.\n\nTarget Audience: Jinear is designed for individuals and small teams across various industries who value privacy and self-hosting capabilities. It is particularly suitable for those who prefer to manage their data internally.\n\nCategories: Task Management, Open Source, Calendar\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "968768",
+    "name": "Nanonets Resume Builder",
+    "tagline": "Build resumes that get you hired with AI – free and instant",
+    "description": "Transform your resume in seconds with our free AI resume builder. 🔹Chat based editing 🔹Suggestions tailored to job descriptions 🔹ATS-optimized templates 🔹Ready to download — no signup required.",
+    "category": "Hiring",
+    "topics": [
+      "Hiring",
+      "Artificial Intelligence",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/WD4SXKMBNPNGVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 169,
+    "product_id": "968768",
+    "detailed_description": "Nanonets Resume Builder is an AI-powered tool designed to help users create professional resumes quickly and effortlessly. Its main purpose is to streamline the resume-building process by offering instant, chat-based editing and personalized suggestions tailored to specific job descriptions. The product addresses common challenges faced by job seekers, such as crafting ATS-optimized resumes, overcoming writer’s block, and ensuring resumes are tailored to job requirements. By leveraging artificial intelligence, it provides actionable recommendations and ready-to-use templates, making resume creation accessible to everyone, regardless of experience level. The tool is free to use and requires no signup, making it highly accessible for users who need to update or create resumes on the fly. It is particularly useful for those seeking to improve their chances of getting noticed by recruiters and applicant tracking systems.",
+    "features": [
+      "Chat-based editing: Users can interact with the AI in a conversational manner to edit and refine their resumes, making the process intuitive and user-friendly.",
+      "Job description-tailored suggestions: The AI analyzes job postings and provides personalized recommendations to help users optimize their resumes for specific roles.",
+      "ATS-optimized templates: The tool offers templates designed to be compatible with applicant tracking systems, increasing the likelihood of resumes passing automated screening.",
+      "Instant download: Resumes can be downloaded immediately after creation, with no signup or registration required, saving users time and hassle.",
+      "Free and accessible: The resume builder is completely free to use, with no hidden costs or premium features, making it ideal for all job seekers."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Unlimited resume creation, chat-based editing, job description-tailored suggestions, ATS-optimized templates, instant download, no signup required",
+        "Tier 1: Not applicable (no paid tiers for resume builder as of now)",
+        "Tier 2: Not applicable",
+        "Enterprise: Not applicable"
+      ],
+      "free_trial": "Not applicable (product is entirely free)",
+      "additional_info": "No subscription or one-time purchase required. The resume builder is separate from Nanonets’ other paid document processing services, which may have different pricing models."
+    },
+    "use_cases": [
+      "Recent graduates or entry-level job seekers who need to create their first professional resume quickly and efficiently.",
+      "Experienced professionals looking to update their resumes for new job opportunities, especially when targeting specific job descriptions.",
+      "Career coaches or HR professionals who want to provide clients or candidates with a fast, AI-powered tool for resume optimization."
+    ],
+    "target_audience": "Job seekers of all experience levels, recent graduates, career changers, and HR professionals. The tool is designed for individuals and small teams, but is accessible to anyone needing to create or update a resume, regardless of company size or industry.",
+    "embedding_text": "Product: Nanonets Resume Builder\n\nDescription: Nanonets Resume Builder is an AI-powered tool designed to help users create professional resumes quickly and effortlessly. Its main purpose is to streamline the resume-building process by offering instant, chat-based editing and personalized suggestions tailored to specific job descriptions. The product addresses common challenges faced by job seekers, such as crafting ATS-optimized resumes, overcoming writer’s block, and ensuring resumes are tailored to job requirements. By leveraging artificial intelligence, it provides actionable recommendations and ready-to-use templates, making resume creation accessible to everyone, regardless of experience level. The tool is free to use and requires no signup, making it highly accessible for users who need to update or create resumes on the fly. It is particularly useful for those seeking to improve their chances of getting noticed by recruiters and applicant tracking systems.\n\nKey Features:\n- Chat-based editing: Users can interact with the AI in a conversational manner to edit and refine their resumes, making the process intuitive and user-friendly.\n- Job description-tailored suggestions: The AI analyzes job postings and provides personalized recommendations to help users optimize their resumes for specific roles.\n- ATS-optimized templates: The tool offers templates designed to be compatible with applicant tracking systems, increasing the likelihood of resumes passing automated screening.\n- Instant download: Resumes can be downloaded immediately after creation, with no signup or registration required, saving users time and hassle.\n- Free and accessible: The resume builder is completely free to use, with no hidden costs or premium features, making it ideal for all job seekers.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Unlimited resume creation, chat-based editing, job description-tailored suggestions, ATS-optimized templates, instant download, no signup required\n- Tier 1: Not applicable (no paid tiers for resume builder as of now)\n- Tier 2: Not applicable\n- Enterprise: Not applicable\nFree Trial: Not applicable (product is entirely free)\n\nUse Cases:\n- Recent graduates or entry-level job seekers who need to create their first professional resume quickly and efficiently.\n- Experienced professionals looking to update their resumes for new job opportunities, especially when targeting specific job descriptions.\n- Career coaches or HR professionals who want to provide clients or candidates with a fast, AI-powered tool for resume optimization.\n\nTarget Audience: Job seekers of all experience levels, recent graduates, career changers, and HR professionals. The tool is designed for individuals and small teams, but is accessible to anyone needing to create or update a resume, regardless of company size or industry.\n\nCategories: Hiring, Artificial Intelligence, Tech\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "958899",
+    "name": "Clara ",
+    "tagline": "AI-powered skin insights at your fingertips",
+    "description": "Discover your skin type and concerns with Clara – an AI-powered skin analysis tool. Get personalized skincare recommendations in minutes.",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness",
+      "Analytics",
+      "Beauty"
+    ],
+    "website": "https://www.producthunt.com/r/FQTPOSESB26NRP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 159,
+    "product_id": "958899",
+    "detailed_description": "Clara is an AI-powered skin analysis tool designed to provide users with personalized skincare insights and recommendations. It uses facial analysis technology to identify skin types and concerns, such as pigmentation, acne, and hydration levels. The tool offers a user-friendly interface to help users create customized skincare routines tailored to their specific skin needs. Clara aims to revolutionize skincare by moving away from generic routines and providing science-backed, personalized advice. This approach helps users achieve healthier and more vibrant skin. Clara is accessible via a free service, making it widely available to those interested in improving their skin health. The tool is trusted by over a million users and is praised for its ease of use and effectiveness in addressing various skin concerns.",
+    "features": [
+      "AI-powered skin analysis: Clara uses advanced AI to analyze facial features and identify specific skin concerns, providing detailed insights into skin health.",
+      "Personalized skincare recommendations: Based on the analysis, Clara offers tailored skincare routines and product suggestions to address individual skin issues.",
+      "Facial analysis technology: The tool utilizes a user's phone camera to scan their face, detecting issues like oiliness, pores, and pigmentation.",
+      "Progress tracking: Users can monitor changes in their skin over time, helping them adjust their skincare routines as needed.",
+      "User-friendly interface: Clara's design makes it easy for users to navigate and understand their skin reports and recommendations."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes AI-powered skin analysis, personalized skincare recommendations, and basic tracking features."
+      ],
+      "free_trial": "No specific free trial mentioned; the service is free to use.",
+      "additional_info": "There is no detailed information available about paid tiers or additional pricing models."
+    },
+    "use_cases": [
+      "For individuals with specific skin concerns: Clara is particularly useful for those dealing with acne, pigmentation, or dryness, as it provides targeted advice and product recommendations.",
+      "For busy individuals: The tool is beneficial for those with limited time, as it offers quick and easy-to-understand skincare insights and routines.",
+      "For skincare enthusiasts: Clara appeals to those interested in optimizing their skincare routines with personalized, science-backed advice."
+    ],
+    "target_audience": "Clara is designed for individuals of all skin types, including those with sensitive skin. It is suitable for anyone interested in improving their skin health, regardless of age or gender.",
+    "embedding_text": "Product: Clara \n\nDescription: Clara is an AI-powered skin analysis tool designed to provide users with personalized skincare insights and recommendations. It uses facial analysis technology to identify skin types and concerns, such as pigmentation, acne, and hydration levels. The tool offers a user-friendly interface to help users create customized skincare routines tailored to their specific skin needs. Clara aims to revolutionize skincare by moving away from generic routines and providing science-backed, personalized advice. This approach helps users achieve healthier and more vibrant skin. Clara is accessible via a free service, making it widely available to those interested in improving their skin health. The tool is trusted by over a million users and is praised for its ease of use and effectiveness in addressing various skin concerns.\n\nKey Features:\n- AI-powered skin analysis: Clara uses advanced AI to analyze facial features and identify specific skin concerns, providing detailed insights into skin health.\n- Personalized skincare recommendations: Based on the analysis, Clara offers tailored skincare routines and product suggestions to address individual skin issues.\n- Facial analysis technology: The tool utilizes a user's phone camera to scan their face, detecting issues like oiliness, pores, and pigmentation.\n- Progress tracking: Users can monitor changes in their skin over time, helping them adjust their skincare routines as needed.\n- User-friendly interface: Clara's design makes it easy for users to navigate and understand their skin reports and recommendations.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes AI-powered skin analysis, personalized skincare recommendations, and basic tracking features.\nFree Trial: No specific free trial mentioned; the service is free to use.\n\nUse Cases:\n- For individuals with specific skin concerns: Clara is particularly useful for those dealing with acne, pigmentation, or dryness, as it provides targeted advice and product recommendations.\n- For busy individuals: The tool is beneficial for those with limited time, as it offers quick and easy-to-understand skincare insights and routines.\n- For skincare enthusiasts: Clara appeals to those interested in optimizing their skincare routines with personalized, science-backed advice.\n\nTarget Audience: Clara is designed for individuals of all skin types, including those with sensitive skin. It is suitable for anyone interested in improving their skin health, regardless of age or gender.\n\nCategories: Health & Fitness, Analytics, Beauty\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "968377",
+    "name": "DrDroid",
+    "tagline": "AI teammate for On Call engineers",
+    "description": "DrDroid is your AI agent for production incidents—automating triaging, troubleshooting, and remediation. Integrates with 50+ tools including Datadog, Grafana, Kubernetes, Cloud Providers to help engineers resolve issues faster and save hours every week.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/4TUEQHIJDKA3PD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 158,
+    "product_id": "968377",
+    "detailed_description": "DrDroid is an AI-powered tool designed to assist on-call engineers by automating the triaging, troubleshooting, and remediation of production incidents. It integrates with over 50 monitoring tools, CI/CD tools, logging tools, containers, databases, and more, helping engineers resolve issues faster and save time. DrDroid acts as an AI teammate, providing a centralized interface for managing alerts from various sources and automatically grouping duplicated alerts. It uses AI to debug alerts, hypothesize potential causes, and validate these hypotheses using data logs. This approach significantly speeds up production diagnosis and improves response times for issues. DrDroid also enhances collaboration by integrating with popular communication tools and auto-generating incident reports. Overall, DrDroid aims to streamline incident management processes, reduce alert noise, and improve team coordination during on-call investigations.",
+    "features": [
+      "Automated Triage and Troubleshooting: DrDroid uses AI to quickly identify and analyze issues, reducing manual effort and speeding up resolution times.",
+      "Integration with Multiple Tools: It connects with a wide range of tools, including Datadog, Grafana, Kubernetes, and cloud providers, to provide a comprehensive view of system health.",
+      "AI-Driven Debugging: DrDroid can debug alerts using AI, generating hypotheses for the causes of issues and validating them with data.",
+      "Collaboration and Communication: It integrates with collaboration tools like Slack and Microsoft Teams, ensuring that teams stay informed and aligned during incident investigations.",
+      "Auto-Generated Incident Reports: DrDroid creates detailed incident summaries automatically, simplifying post-mortem reviews and future learnings."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Offers basic features for a limited time (2 months free)",
+        "No specific tier details available; pricing likely varies based on usage and enterprise needs",
+        "Enterprise: Customized plans for large-scale organizations, details not publicly disclosed"
+      ],
+      "free_trial": "2 months free trial available",
+      "additional_info": "Pricing details beyond the free tier are not publicly disclosed, suggesting a need for direct contact with DrDroid for customized plans."
+    },
+    "use_cases": [
+      "Reducing Alert Noise: DrDroid helps on-call engineers manage and prioritize alerts more effectively, reducing the noise and focusing on critical issues.",
+      "Streamlining Incident Response: It automates the initial stages of incident response, allowing teams to respond faster and more efficiently to production issues.",
+      "Enhancing Collaboration: DrDroid facilitates better communication and coordination among teams during incident investigations, ensuring that all stakeholders are informed and aligned."
+    ],
+    "target_audience": "DrDroid is designed for on-call engineers and DevOps teams across various industries, particularly those using cloud services, Kubernetes, and other modern infrastructure tools. It is suitable for companies of all sizes but is especially beneficial for organizations with complex infrastructure setups.",
+    "embedding_text": "Product: DrDroid\n\nDescription: DrDroid is an AI-powered tool designed to assist on-call engineers by automating the triaging, troubleshooting, and remediation of production incidents. It integrates with over 50 monitoring tools, CI/CD tools, logging tools, containers, databases, and more, helping engineers resolve issues faster and save time. DrDroid acts as an AI teammate, providing a centralized interface for managing alerts from various sources and automatically grouping duplicated alerts. It uses AI to debug alerts, hypothesize potential causes, and validate these hypotheses using data logs. This approach significantly speeds up production diagnosis and improves response times for issues. DrDroid also enhances collaboration by integrating with popular communication tools and auto-generating incident reports. Overall, DrDroid aims to streamline incident management processes, reduce alert noise, and improve team coordination during on-call investigations.\n\nKey Features:\n- Automated Triage and Troubleshooting: DrDroid uses AI to quickly identify and analyze issues, reducing manual effort and speeding up resolution times.\n- Integration with Multiple Tools: It connects with a wide range of tools, including Datadog, Grafana, Kubernetes, and cloud providers, to provide a comprehensive view of system health.\n- AI-Driven Debugging: DrDroid can debug alerts using AI, generating hypotheses for the causes of issues and validating them with data.\n- Collaboration and Communication: It integrates with collaboration tools like Slack and Microsoft Teams, ensuring that teams stay informed and aligned during incident investigations.\n- Auto-Generated Incident Reports: DrDroid creates detailed incident summaries automatically, simplifying post-mortem reviews and future learnings.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Offers basic features for a limited time (2 months free)\n- No specific tier details available; pricing likely varies based on usage and enterprise needs\n- Enterprise: Customized plans for large-scale organizations, details not publicly disclosed\nFree Trial: 2 months free trial available\n\nUse Cases:\n- Reducing Alert Noise: DrDroid helps on-call engineers manage and prioritize alerts more effectively, reducing the noise and focusing on critical issues.\n- Streamlining Incident Response: It automates the initial stages of incident response, allowing teams to respond faster and more efficiently to production issues.\n- Enhancing Collaboration: DrDroid facilitates better communication and coordination among teams during incident investigations, ensuring that all stakeholders are informed and aligned.\n\nTarget Audience: DrDroid is designed for on-call engineers and DevOps teams across various industries, particularly those using cloud services, Kubernetes, and other modern infrastructure tools. It is suitable for companies of all sizes but is especially beneficial for organizations with complex infrastructure setups.\n\nCategories: Software Engineering, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969968",
+    "name": "Mottosuitai",
+    "tagline": "Find smoking approved spots in Japan",
+    "description": "This service makes it easier for smokers to find a smoking area with other smokers by putting up a pin📍 in the smoking area! Released from Japan!🇯🇵",
+    "category": "Community",
+    "topics": [
+      "Community"
+    ],
+    "website": "https://www.producthunt.com/r/UUS7IJLXNNJSY2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 134,
+    "product_id": "969968",
+    "detailed_description": "Mottosuitai is a service designed to help smokers in Japan easily locate smoking-approved spots by allowing users to place pins on a map to mark designated smoking areas. The main purpose of Mottosuitai is to create a community-driven map where smokers can find and share information about where it is legal and acceptable to smoke, reducing the hassle of searching for appropriate locations. This product addresses the challenge of navigating Japan's strict smoking regulations, which can vary by city and prefecture, by providing up-to-date, user-generated data. It also fosters a sense of community among smokers by enabling them to connect at shared locations. Mottosuitai is especially useful for travelers and locals who may be unfamiliar with local smoking laws or who want to avoid fines for smoking in prohibited areas. The service is currently free and focuses on simplicity and user collaboration. By leveraging community input, Mottosuitai ensures that the information remains current and relevant for all users.",
+    "features": [
+      "Community-driven map: Users can add pins to mark smoking areas, ensuring the map is constantly updated with the latest information and fostering a collaborative environment.",
+      "Search by prefecture: The service allows users to filter smoking spots by prefecture, making it easy to find relevant locations wherever they are in Japan.",
+      "Real-time updates: As users add or update pins, the map reflects changes immediately, providing accurate and timely data for all users.",
+      "User-friendly interface: The platform is designed for ease of use, allowing anyone to quickly find or add smoking spots without technical expertise.",
+      "Community engagement: Mottosuitai encourages users to connect with other smokers at shared locations, promoting a sense of belonging and shared experience."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: what's included in free version - Full access to map, ability to add and view pins, search by prefecture, and engage with the community.",
+        "Tier 1: name, price, and what's included - Not available at this time.",
+        "Tier 2: name, price, and what's included - Not available at this time.",
+        "Enterprise: details if available - Not available at this time."
+      ],
+      "free_trial": "No free trial required; the service is entirely free.",
+      "additional_info": "There are currently no paid tiers or premium features; all functionality is available to all users."
+    },
+    "use_cases": [
+      "Travelers in Japan: Visitors unfamiliar with local smoking regulations can use Mottosuitai to quickly find legal smoking areas, avoiding fines and respecting local laws.",
+      "Local residents: Smokers in Japan can use the service to discover new or updated smoking spots in their city or prefecture, especially as regulations change.",
+      "Community building: Smokers who want to meet others or share information about smoking areas can use Mottosuitai to connect and collaborate with like-minded individuals."
+    ],
+    "target_audience": "Smokers in Japan, including both locals and travelers, who need to find legal and approved smoking spots. The product is designed for individuals of any age (subject to local smoking age laws), regardless of company size or industry, and is especially useful for those who value community-driven information and real-time updates.",
+    "embedding_text": "Product: Mottosuitai\n\nDescription: Mottosuitai is a service designed to help smokers in Japan easily locate smoking-approved spots by allowing users to place pins on a map to mark designated smoking areas. The main purpose of Mottosuitai is to create a community-driven map where smokers can find and share information about where it is legal and acceptable to smoke, reducing the hassle of searching for appropriate locations. This product addresses the challenge of navigating Japan's strict smoking regulations, which can vary by city and prefecture, by providing up-to-date, user-generated data. It also fosters a sense of community among smokers by enabling them to connect at shared locations. Mottosuitai is especially useful for travelers and locals who may be unfamiliar with local smoking laws or who want to avoid fines for smoking in prohibited areas. The service is currently free and focuses on simplicity and user collaboration. By leveraging community input, Mottosuitai ensures that the information remains current and relevant for all users.\n\nKey Features:\n- Community-driven map: Users can add pins to mark smoking areas, ensuring the map is constantly updated with the latest information and fostering a collaborative environment.\n- Search by prefecture: The service allows users to filter smoking spots by prefecture, making it easy to find relevant locations wherever they are in Japan.\n- Real-time updates: As users add or update pins, the map reflects changes immediately, providing accurate and timely data for all users.\n- User-friendly interface: The platform is designed for ease of use, allowing anyone to quickly find or add smoking spots without technical expertise.\n- Community engagement: Mottosuitai encourages users to connect with other smokers at shared locations, promoting a sense of belonging and shared experience.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: what's included in free version - Full access to map, ability to add and view pins, search by prefecture, and engage with the community.\n- Tier 1: name, price, and what's included - Not available at this time.\n- Tier 2: name, price, and what's included - Not available at this time.\n- Enterprise: details if available - Not available at this time.\nFree Trial: No free trial required; the service is entirely free.\n\nUse Cases:\n- Travelers in Japan: Visitors unfamiliar with local smoking regulations can use Mottosuitai to quickly find legal smoking areas, avoiding fines and respecting local laws.\n- Local residents: Smokers in Japan can use the service to discover new or updated smoking spots in their city or prefecture, especially as regulations change.\n- Community building: Smokers who want to meet others or share information about smoking areas can use Mottosuitai to connect and collaborate with like-minded individuals.\n\nTarget Audience: Smokers in Japan, including both locals and travelers, who need to find legal and approved smoking spots. The product is designed for individuals of any age (subject to local smoking age laws), regardless of company size or industry, and is especially useful for those who value community-driven information and real-time updates.\n\nCategories: Community\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969587",
+    "name": "Timix",
+    "tagline": "Omni Timer for All",
+    "description": "Timix is a modern, flexible timer app with 12 smart triggers—audio, speech, countdowns, HomeKit, and more. Runs on iPhone, iPad, Watch, and Mac. With Siri, Shortcuts, widgets & TimixGPT. Free, ad-free, and built to help you focus your day, your way.",
+    "category": "Health & Fitness",
+    "topics": [
+      "Health & Fitness",
+      "Home Automation",
+      "Inclusivity"
+    ],
+    "website": "https://www.producthunt.com/r/FEE4RHAGQIVBAH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 125,
+    "product_id": "969587",
+    "detailed_description": "Timix is a modern, flexible timer application designed to optimize time management across multiple Apple devices including iPhone, iPad, Mac, and Apple Watch. It features 12 smart triggers such as audio, speech, countdowns, and HomeKit integration, allowing users to customize how and when timers activate and notify. The app supports Siri, Shortcuts, widgets, and TimixGPT, enhancing user interaction and automation capabilities. Timix is ad-free and does not track users, focusing on mindful timing to help users focus and manage their day efficiently. It caters to a wide range of users including fitness enthusiasts, professionals, and students by providing precise and customizable timer sequences. The product aims to solve problems related to distraction, inefficient time use, and lack of flexible timer options on Apple devices. Launched initially in June 2024 and updated in May 2025, Timix emphasizes seamless integration within the Apple ecosystem for a smooth user experience.",
+    "features": [
+      "12 smart triggers including audio, speech, countdowns, and HomeKit integration, enabling highly customizable timer activation and notifications to suit diverse needs.",
+      "Cross-device compatibility with iPhone, iPad, Mac, and Apple Watch, allowing users to manage timers seamlessly across their Apple ecosystem.",
+      "Integration with Siri and Shortcuts for voice control and automation, enhancing ease of use and enabling hands-free timer management.",
+      "Widgets and TimixGPT support for quick access and intelligent timer suggestions, improving productivity and user engagement.",
+      "Ad-free and no tracking policy ensures a privacy-focused experience, allowing users to focus without distractions or concerns about data privacy."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Full access to Timix features including all smart triggers, cross-device support, Siri and Shortcuts integration, widgets, and TimixGPT without ads or tracking."
+      ],
+      "free_trial": "Not applicable as the app is free with no ads or tracking.",
+      "additional_info": "Timix is offered as a free app with no mention of paid tiers or subscriptions, emphasizing accessibility and privacy."
+    },
+    "use_cases": [
+      "Fitness enthusiasts can use Timix to create precise workout intervals with audio and vibration triggers, ensuring effective training sessions without manual timing.",
+      "Professionals can leverage Timix's customizable countdowns and notifications to manage focused work sessions and breaks, improving productivity and time management.",
+      "Students can utilize Timix for study sessions with speech and visual cues to maintain concentration and track time spent on different subjects or tasks."
+    ],
+    "target_audience": "Timix is designed for individual users across various roles such as fitness enthusiasts, professionals, and students who use Apple devices. It is ideal for those seeking a flexible, privacy-focused timer solution integrated deeply within the Apple ecosystem, including users of iPhone, iPad, Mac, and Apple Watch.",
+    "embedding_text": "Product: Timix\n\nDescription: Timix is a modern, flexible timer application designed to optimize time management across multiple Apple devices including iPhone, iPad, Mac, and Apple Watch. It features 12 smart triggers such as audio, speech, countdowns, and HomeKit integration, allowing users to customize how and when timers activate and notify. The app supports Siri, Shortcuts, widgets, and TimixGPT, enhancing user interaction and automation capabilities. Timix is ad-free and does not track users, focusing on mindful timing to help users focus and manage their day efficiently. It caters to a wide range of users including fitness enthusiasts, professionals, and students by providing precise and customizable timer sequences. The product aims to solve problems related to distraction, inefficient time use, and lack of flexible timer options on Apple devices. Launched initially in June 2024 and updated in May 2025, Timix emphasizes seamless integration within the Apple ecosystem for a smooth user experience.\n\nKey Features:\n- 12 smart triggers including audio, speech, countdowns, and HomeKit integration, enabling highly customizable timer activation and notifications to suit diverse needs.\n- Cross-device compatibility with iPhone, iPad, Mac, and Apple Watch, allowing users to manage timers seamlessly across their Apple ecosystem.\n- Integration with Siri and Shortcuts for voice control and automation, enhancing ease of use and enabling hands-free timer management.\n- Widgets and TimixGPT support for quick access and intelligent timer suggestions, improving productivity and user engagement.\n- Ad-free and no tracking policy ensures a privacy-focused experience, allowing users to focus without distractions or concerns about data privacy.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Full access to Timix features including all smart triggers, cross-device support, Siri and Shortcuts integration, widgets, and TimixGPT without ads or tracking.\nFree Trial: Not applicable as the app is free with no ads or tracking.\n\nUse Cases:\n- Fitness enthusiasts can use Timix to create precise workout intervals with audio and vibration triggers, ensuring effective training sessions without manual timing.\n- Professionals can leverage Timix's customizable countdowns and notifications to manage focused work sessions and breaks, improving productivity and time management.\n- Students can utilize Timix for study sessions with speech and visual cues to maintain concentration and track time spent on different subjects or tasks.\n\nTarget Audience: Timix is designed for individual users across various roles such as fitness enthusiasts, professionals, and students who use Apple devices. It is ideal for those seeking a flexible, privacy-focused timer solution integrated deeply within the Apple ecosystem, including users of iPhone, iPad, Mac, and Apple Watch.\n\nCategories: Health & Fitness, Home Automation, Inclusivity\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969974",
+    "name": "Whisper STT Telegram Bot",
+    "tagline": "Transcribe, Summarize, Understand – in seconds",
+    "description": "Whisper Bot transcribes and summarizes audio, video, and links from YouTube, Instagram, VK, Facebook, Rutube, Reddit, Twitter, and Vimeo—right inside Telegram. Outputs accurate text, bullet summaries, and AI answers. Supports 120+ languages.",
+    "category": "Telegram",
+    "topics": [
+      "Telegram",
+      "Productivity",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/4OOOHLKROD4AOK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 125,
+    "product_id": "969974",
+    "detailed_description": "Whisper STT Telegram Bot is a versatile AI-powered tool designed to transcribe, summarize, and provide insights from audio and video content directly within Telegram. It leverages advanced speech-to-text technology to convert voice messages, uploaded media files, and links from platforms like YouTube, Instagram, Twitter, and more into accurate text transcriptions. The bot also generates concise bullet-point summaries and can answer questions about the transcribed content, making it easy to quickly understand and search through audio or video material. Its main purpose is to make multimedia content instantly accessible and actionable for users, saving time and effort in manual transcription and analysis. The bot supports over 120 languages, ensuring broad accessibility for global users. It solves the problem of information overload by enabling users to extract key points and answers from lengthy or complex audio/video sources in seconds.",
+    "features": [
+      "Multi-platform content transcription: Transcribes audio and video from Telegram messages, uploaded files, and links to YouTube, Instagram, Twitter, Facebook, Rutube, Reddit, and Vimeo, making it easy to process content from almost any source[2][5].",
+      "Bullet-point summaries: Generates concise summaries of transcribed content, allowing users to quickly grasp the main points without listening to or watching the entire file[2][5].",
+      "AI-powered Q&A: Answers questions about the transcribed content, providing instant insights and understanding directly within Telegram[2][5].",
+      "Multi-language support: Supports transcription and summarization in over 120 languages, catering to a global audience[2][5].",
+      "Seamless Telegram integration: Works natively within Telegram, enabling users to transcribe, summarize, and ask questions without leaving the app[2][5]."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: New users can transcribe up to 3 files per month at no cost to experience the bot's features[5].",
+        "Tier 1: Not explicitly detailed in available sources; likely involves increased file limits or additional features for a subscription fee[5].",
+        "Tier 2: Not explicitly detailed in available sources.",
+        "Enterprise: Not explicitly detailed in available sources."
+      ],
+      "free_trial": "New users receive a free trial allowing transcription of up to 3 files per month[5].",
+      "additional_info": "Pricing for higher tiers or enterprise use is not specified in available sources. Users are encouraged to contact support for more information[5]."
+    },
+    "use_cases": [
+      "Content creators and journalists can quickly transcribe interviews, podcasts, or video content for editing, subtitling, or repurposing, saving hours of manual work[2][5].",
+      "Business teams can extract key insights and action items from meetings or webinars recorded as audio or video, improving productivity and follow-up[2][5].",
+      "Language learners and educators can use the bot to transcribe and summarize foreign language content, making it easier to study and understand new material[2][5]."
+    ],
+    "target_audience": "Whisper STT Telegram Bot is designed for individuals, content creators, journalists, business teams, educators, and language learners. It is suitable for users of all company sizes and industries who need to quickly transcribe, summarize, or gain insights from audio and video content within Telegram[2][5].",
+    "embedding_text": "Product: Whisper STT Telegram Bot\n\nDescription: Whisper STT Telegram Bot is a versatile AI-powered tool designed to transcribe, summarize, and provide insights from audio and video content directly within Telegram. It leverages advanced speech-to-text technology to convert voice messages, uploaded media files, and links from platforms like YouTube, Instagram, Twitter, and more into accurate text transcriptions. The bot also generates concise bullet-point summaries and can answer questions about the transcribed content, making it easy to quickly understand and search through audio or video material. Its main purpose is to make multimedia content instantly accessible and actionable for users, saving time and effort in manual transcription and analysis. The bot supports over 120 languages, ensuring broad accessibility for global users. It solves the problem of information overload by enabling users to extract key points and answers from lengthy or complex audio/video sources in seconds.\n\nKey Features:\n- Multi-platform content transcription: Transcribes audio and video from Telegram messages, uploaded files, and links to YouTube, Instagram, Twitter, Facebook, Rutube, Reddit, and Vimeo, making it easy to process content from almost any source[2][5].\n- Bullet-point summaries: Generates concise summaries of transcribed content, allowing users to quickly grasp the main points without listening to or watching the entire file[2][5].\n- AI-powered Q&A: Answers questions about the transcribed content, providing instant insights and understanding directly within Telegram[2][5].\n- Multi-language support: Supports transcription and summarization in over 120 languages, catering to a global audience[2][5].\n- Seamless Telegram integration: Works natively within Telegram, enabling users to transcribe, summarize, and ask questions without leaving the app[2][5].\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: New users can transcribe up to 3 files per month at no cost to experience the bot's features[5].\n- Tier 1: Not explicitly detailed in available sources; likely involves increased file limits or additional features for a subscription fee[5].\n- Tier 2: Not explicitly detailed in available sources.\n- Enterprise: Not explicitly detailed in available sources.\nFree Trial: New users receive a free trial allowing transcription of up to 3 files per month[5].\n\nUse Cases:\n- Content creators and journalists can quickly transcribe interviews, podcasts, or video content for editing, subtitling, or repurposing, saving hours of manual work[2][5].\n- Business teams can extract key insights and action items from meetings or webinars recorded as audio or video, improving productivity and follow-up[2][5].\n- Language learners and educators can use the bot to transcribe and summarize foreign language content, making it easier to study and understand new material[2][5].\n\nTarget Audience: Whisper STT Telegram Bot is designed for individuals, content creators, journalists, business teams, educators, and language learners. It is suitable for users of all company sizes and industries who need to quickly transcribe, summarize, or gain insights from audio and video content within Telegram[2][5].\n\nCategories: Telegram, Productivity, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969901",
+    "name": "Orate",
+    "tagline": "A free Hotkey text-to-speech for any highlighted text",
+    "description": "A free menu-bar app that turns any highlighted text into speech with a single hotkey.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Menu Bar Apps",
+      "Audio"
+    ],
+    "website": "https://www.producthunt.com/r/7GPGFXI5WPOE27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 125,
+    "product_id": "969901",
+    "detailed_description": "Orate is a free menu-bar application designed to instantly convert any highlighted text into spoken audio using a single hotkey. Its main purpose is to streamline the process of listening to text content, making it ideal for users who prefer auditory learning or need hands-free access to written information. The product addresses the need for quick, on-demand text-to-speech (TTS) functionality without requiring complex setup or additional software. By integrating directly into the menu bar, Orate provides a seamless and unobtrusive user experience. It is especially useful for multitaskers, individuals with visual impairments, or anyone seeking to reduce screen time. Orate simplifies the workflow for reading articles, emails, or documents aloud, enhancing productivity and accessibility. The app is lightweight and easy to use, making it suitable for both casual and professional users[1][5].",
+    "features": [
+      "Hotkey Activation: Instantly converts any highlighted text to speech with a single keyboard shortcut, enabling rapid and effortless access to TTS functionality[1].",
+      "Menu Bar Integration: Runs unobtrusively from the menu bar, allowing users to keep the app running in the background without cluttering their workspace[1].",
+      "Free to Use: Offers a completely free solution for text-to-speech, making advanced TTS accessible to everyone without financial barriers[1].",
+      "Lightweight and Fast: Designed for quick installation and minimal system resource usage, ensuring smooth performance even on older hardware[5].",
+      "Customizable Speech Options: While the core app is simple, it may integrate with advanced TTS features such as adjustable speaking rate, pitch, and voice selection, depending on the underlying API or future updates[2][3]."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Full access to all current features, including hotkey activation, menu bar integration, and basic TTS functionality[1].",
+        "Tier 1: Not applicable (currently only free tier available)",
+        "Tier 2: Not applicable (currently only free tier available)",
+        "Enterprise: Not applicable (currently only free tier available)"
+      ],
+      "free_trial": "Not applicable (product is entirely free)",
+      "additional_info": "No premium or paid features are currently offered; all functionality is available at no cost[1]."
+    },
+    "use_cases": [
+      "Accessibility: Assists users with visual impairments or reading difficulties by converting on-screen text into spoken words instantly[1].",
+      "Multitasking: Enables users to listen to articles, emails, or documents while performing other tasks, increasing productivity[1].",
+      "Language Learning: Helps language learners improve pronunciation and listening skills by hearing text read aloud in different languages[5]."
+    ],
+    "target_audience": "Orate is designed for individuals and professionals who value productivity and accessibility. It is suitable for students, office workers, content creators, and anyone who frequently reads digital content. The product is especially relevant for users with visual impairments, language learners, and multitaskers seeking efficient ways to consume written information[1][5].",
+    "embedding_text": "Product: Orate\n\nDescription: Orate is a free menu-bar application designed to instantly convert any highlighted text into spoken audio using a single hotkey. Its main purpose is to streamline the process of listening to text content, making it ideal for users who prefer auditory learning or need hands-free access to written information. The product addresses the need for quick, on-demand text-to-speech (TTS) functionality without requiring complex setup or additional software. By integrating directly into the menu bar, Orate provides a seamless and unobtrusive user experience. It is especially useful for multitaskers, individuals with visual impairments, or anyone seeking to reduce screen time. Orate simplifies the workflow for reading articles, emails, or documents aloud, enhancing productivity and accessibility. The app is lightweight and easy to use, making it suitable for both casual and professional users[1][5].\n\nKey Features:\n- Hotkey Activation: Instantly converts any highlighted text to speech with a single keyboard shortcut, enabling rapid and effortless access to TTS functionality[1].\n- Menu Bar Integration: Runs unobtrusively from the menu bar, allowing users to keep the app running in the background without cluttering their workspace[1].\n- Free to Use: Offers a completely free solution for text-to-speech, making advanced TTS accessible to everyone without financial barriers[1].\n- Lightweight and Fast: Designed for quick installation and minimal system resource usage, ensuring smooth performance even on older hardware[5].\n- Customizable Speech Options: While the core app is simple, it may integrate with advanced TTS features such as adjustable speaking rate, pitch, and voice selection, depending on the underlying API or future updates[2][3].\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Full access to all current features, including hotkey activation, menu bar integration, and basic TTS functionality[1].\n- Tier 1: Not applicable (currently only free tier available)\n- Tier 2: Not applicable (currently only free tier available)\n- Enterprise: Not applicable (currently only free tier available)\nFree Trial: Not applicable (product is entirely free)\n\nUse Cases:\n- Accessibility: Assists users with visual impairments or reading difficulties by converting on-screen text into spoken words instantly[1].\n- Multitasking: Enables users to listen to articles, emails, or documents while performing other tasks, increasing productivity[1].\n- Language Learning: Helps language learners improve pronunciation and listening skills by hearing text read aloud in different languages[5].\n\nTarget Audience: Orate is designed for individuals and professionals who value productivity and accessibility. It is suitable for students, office workers, content creators, and anyone who frequently reads digital content. The product is especially relevant for users with visual impairments, language learners, and multitaskers seeking efficient ways to consume written information[1][5].\n\nCategories: Productivity, Menu Bar Apps, Audio\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "970052",
+    "name": "Rork",
+    "tagline": "Vibe code your mobile app, from design to publish",
+    "description": "Rork is a new platform to rapidly prototype, build & publish native mobile apps. Features AI assistance (Rork Agent), design import, in-browser Android emulation & easy Expo-based publishing to iOS/Android.",
+    "category": "Prototyping",
+    "topics": [
+      "Prototyping",
+      "Artificial Intelligence",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/JOCYBTI6K7CE43?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 96,
+    "product_id": "970052",
+    "detailed_description": "Rork is an AI-powered mobile app builder that enables users to create complete, production-ready mobile applications for iOS, Android, and web simply by describing their ideas in natural language—no coding required. The platform automates the entire process from concept to deployment, generating apps with features such as multiple pages, navigation, dashboards, and user authentication. Rork leverages React Native for cross-platform compatibility and integrates with tools like Expo for device testing. Its main purpose is to democratize app development, making it accessible to individuals and businesses without technical expertise. By removing the need for extensive coding knowledge, Rork solves the problem of high barriers to entry in mobile app creation, allowing rapid prototyping and deployment for a wide range of use cases[1][2][4].",
+    "features": [
+      "Text-to-App Generation: Users describe their app idea in plain English, and Rork automatically generates a fully functional mobile app, eliminating the need for manual coding and significantly speeding up development[2][4][5].",
+      "Cross-Platform Compatibility: Apps are built using React Native, ensuring they work seamlessly on both iOS and Android devices, as well as the web, from a single codebase[2][3][5].",
+      "Multi-Screen Support and Navigation: Rork automatically creates apps with multiple pages and intuitive navigation systems, making it easy to design complex user flows without technical skills[1][2][4].",
+      "User Authentication: Built-in login and signup functionality allows for secure user management, enabling apps that require user accounts and personalized experiences[1][2][4].",
+      "Expo Integration and Analytics: Users can test apps on real devices using Expo, and track user data with built-in analytics tools, streamlining both development and post-launch monitoring[2][4]."
+    ],
+    "pricing": {
+      "model": "Subscription/Freemium (exact model not fully detailed in available sources)",
+      "tiers": [
+        "Free tier: Likely includes basic app creation and limited features; exact details not specified in available sources[4].",
+        "Tier 1: Not specified in available sources; check official website for current offerings[4].",
+        "Tier 2: Not specified in available sources; check official website for current offerings[4].",
+        "Enterprise: Not specified in available sources; check official website for current offerings[4]."
+      ],
+      "free_trial": "No explicit information about a free trial; free tier may be available but not confirmed[4].",
+      "additional_info": "Pricing details are not fully disclosed in available sources; users are advised to visit the official website for the latest information[4]."
+    },
+    "use_cases": [
+      "Rapid Prototyping: Entrepreneurs and startups can quickly turn app ideas into working prototypes to validate concepts and gather user feedback before investing in full-scale development[1][2][4].",
+      "Internal Business Tools: Companies can create custom mobile apps for internal processes, such as dashboards, data collection, or workflow management, without relying on IT or external developers[2][4].",
+      "Educational and Community Apps: Educators, community organizers, or non-profits can build apps for learning, event management, or member engagement, even without technical expertise[2][4]."
+    ],
+    "target_audience": "Rork is designed for developers, startups, small to medium-sized businesses, entrepreneurs, and non-technical individuals who want to create mobile apps without coding. It is suitable for a wide range of industries, including tech, education, healthcare, and community organizations, and is ideal for anyone seeking to rapidly prototype or deploy mobile solutions[1][2][4].",
+    "embedding_text": "Product: Rork\n\nDescription: Rork is an AI-powered mobile app builder that enables users to create complete, production-ready mobile applications for iOS, Android, and web simply by describing their ideas in natural language—no coding required. The platform automates the entire process from concept to deployment, generating apps with features such as multiple pages, navigation, dashboards, and user authentication. Rork leverages React Native for cross-platform compatibility and integrates with tools like Expo for device testing. Its main purpose is to democratize app development, making it accessible to individuals and businesses without technical expertise. By removing the need for extensive coding knowledge, Rork solves the problem of high barriers to entry in mobile app creation, allowing rapid prototyping and deployment for a wide range of use cases[1][2][4].\n\nKey Features:\n- Text-to-App Generation: Users describe their app idea in plain English, and Rork automatically generates a fully functional mobile app, eliminating the need for manual coding and significantly speeding up development[2][4][5].\n- Cross-Platform Compatibility: Apps are built using React Native, ensuring they work seamlessly on both iOS and Android devices, as well as the web, from a single codebase[2][3][5].\n- Multi-Screen Support and Navigation: Rork automatically creates apps with multiple pages and intuitive navigation systems, making it easy to design complex user flows without technical skills[1][2][4].\n- User Authentication: Built-in login and signup functionality allows for secure user management, enabling apps that require user accounts and personalized experiences[1][2][4].\n- Expo Integration and Analytics: Users can test apps on real devices using Expo, and track user data with built-in analytics tools, streamlining both development and post-launch monitoring[2][4].\n\nPricing Model: Subscription/Freemium (exact model not fully detailed in available sources)\nPricing Tiers:\n- Free tier: Likely includes basic app creation and limited features; exact details not specified in available sources[4].\n- Tier 1: Not specified in available sources; check official website for current offerings[4].\n- Tier 2: Not specified in available sources; check official website for current offerings[4].\n- Enterprise: Not specified in available sources; check official website for current offerings[4].\nFree Trial: No explicit information about a free trial; free tier may be available but not confirmed[4].\n\nUse Cases:\n- Rapid Prototyping: Entrepreneurs and startups can quickly turn app ideas into working prototypes to validate concepts and gather user feedback before investing in full-scale development[1][2][4].\n- Internal Business Tools: Companies can create custom mobile apps for internal processes, such as dashboards, data collection, or workflow management, without relying on IT or external developers[2][4].\n- Educational and Community Apps: Educators, community organizers, or non-profits can build apps for learning, event management, or member engagement, even without technical expertise[2][4].\n\nTarget Audience: Rork is designed for developers, startups, small to medium-sized businesses, entrepreneurs, and non-technical individuals who want to create mobile apps without coding. It is suitable for a wide range of industries, including tech, education, healthcare, and community organizations, and is ideal for anyone seeking to rapidly prototype or deploy mobile solutions[1][2][4].\n\nCategories: Prototyping, Artificial Intelligence, Development\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "961863",
+    "name": "TradeAI Insights by Finosauras",
+    "tagline": "Analyse your favourite stocks, trades & more",
+    "description": "We are tracking 2000+ stock tips daily from Telegram, PDFs & more - and reveal how accurate the advices really are. Future of trading is data-backed AI & we are building Finosauras to bring trust into the AI-led trading systems.",
+    "category": "Fintech",
+    "topics": [
+      "Fintech",
+      "Artificial Intelligence",
+      "Data & Analytics"
+    ],
+    "website": "https://www.producthunt.com/r/6DYPTNDAATONKF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 68,
+    "product_id": "961863",
+    "detailed_description": "TradeAI Insights by Finosauras is a platform designed to help traders and investors analyze their favorite stocks and trades with actionable intelligence. The main purpose of the product is to provide real-time performance tracking and analytics for stock advisors and trading channels, enabling users to make informed decisions based on verified data. It solves the problem of unreliable or opaque performance data across informal trading groups by aggregating and analyzing thousands of messages from multiple social channels. The platform uses AI to verify trade calls against SEBI-registered advisors and extracts key details such as ticker, position, entry price, stop loss, and target. TradeAI Insights also simulates trade execution to calculate performance metrics like ROI, win rate, and CAGR for each channel and trade. This empowers users to identify trustworthy advisors and optimize their trading strategies with confidence[1][2].",
+    "features": [
+      "Real-time Advisor Performance Tracking: Monitors and displays the ROI, track record, and measured performance of any informal trading channel, helping users know who to trust and make better investment decisions[2].",
+      "AI-Powered Trade Call Verification: Uses artificial intelligence to verify trade calls against SEBI-registered advisors, ensuring accuracy and compliance in the tips provided[2].",
+      "Virtual Trade Execution: Simulates trade execution to track performance metrics such as ROI, win rate, and CAGR, providing a clear picture of how trades would perform in real market conditions[2].",
+      "Comprehensive Dashboard: Offers an intuitive dashboard that aggregates data, trade performance, and analytics, making it easy for users to visualize and interpret results[2].",
+      "Multi-Channel Data Collection: Collects and analyzes thousands of messages from various social channels daily, ensuring a broad and up-to-date dataset for analysis[2]."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Not explicitly detailed, but likely limited access to basic analytics and performance tracking; full feature set may be restricted[2].",
+        "Tier 1: Not specified in available sources; pricing and features for paid tiers are not publicly listed on Finosauras’ main site or blog[2].",
+        "Tier 2: Not specified in available sources; pricing and features for paid tiers are not publicly listed on Finosauras’ main site or blog[2].",
+        "Enterprise: Not specified in available sources; no details provided for enterprise or custom plans[2]."
+      ],
+      "free_trial": "No explicit information about a free trial is available in current sources[2].",
+      "additional_info": "Pricing details for TradeAI Insights by Finosauras are not publicly disclosed as of now; users are encouraged to check the official website for the latest updates[2]."
+    },
+    "use_cases": [
+      "Evaluating Stock Advisors: Traders can use the platform to assess the historical performance and reliability of various stock advisors and trading channels before following their recommendations[2].",
+      "Optimizing Trading Strategies: Investors can analyze simulated trade outcomes and performance metrics to refine their strategies and improve returns[2].",
+      "Monitoring Market Sentiment: By aggregating and analyzing messages from multiple social channels, users can gain insights into market trends and sentiment, aiding in better decision-making[2]."
+    ],
+    "target_audience": "This product is designed for individual traders, retail investors, and trading groups who want to make data-driven decisions in the stock market. It is especially useful for those who follow informal trading channels and seek reliable performance data to guide their investments[2].",
+    "embedding_text": "Product: TradeAI Insights by Finosauras\n\nDescription: TradeAI Insights by Finosauras is a platform designed to help traders and investors analyze their favorite stocks and trades with actionable intelligence. The main purpose of the product is to provide real-time performance tracking and analytics for stock advisors and trading channels, enabling users to make informed decisions based on verified data. It solves the problem of unreliable or opaque performance data across informal trading groups by aggregating and analyzing thousands of messages from multiple social channels. The platform uses AI to verify trade calls against SEBI-registered advisors and extracts key details such as ticker, position, entry price, stop loss, and target. TradeAI Insights also simulates trade execution to calculate performance metrics like ROI, win rate, and CAGR for each channel and trade. This empowers users to identify trustworthy advisors and optimize their trading strategies with confidence[1][2].\n\nKey Features:\n- Real-time Advisor Performance Tracking: Monitors and displays the ROI, track record, and measured performance of any informal trading channel, helping users know who to trust and make better investment decisions[2].\n- AI-Powered Trade Call Verification: Uses artificial intelligence to verify trade calls against SEBI-registered advisors, ensuring accuracy and compliance in the tips provided[2].\n- Virtual Trade Execution: Simulates trade execution to track performance metrics such as ROI, win rate, and CAGR, providing a clear picture of how trades would perform in real market conditions[2].\n- Comprehensive Dashboard: Offers an intuitive dashboard that aggregates data, trade performance, and analytics, making it easy for users to visualize and interpret results[2].\n- Multi-Channel Data Collection: Collects and analyzes thousands of messages from various social channels daily, ensuring a broad and up-to-date dataset for analysis[2].\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Not explicitly detailed, but likely limited access to basic analytics and performance tracking; full feature set may be restricted[2].\n- Tier 1: Not specified in available sources; pricing and features for paid tiers are not publicly listed on Finosauras’ main site or blog[2].\n- Tier 2: Not specified in available sources; pricing and features for paid tiers are not publicly listed on Finosauras’ main site or blog[2].\n- Enterprise: Not specified in available sources; no details provided for enterprise or custom plans[2].\nFree Trial: No explicit information about a free trial is available in current sources[2].\n\nUse Cases:\n- Evaluating Stock Advisors: Traders can use the platform to assess the historical performance and reliability of various stock advisors and trading channels before following their recommendations[2].\n- Optimizing Trading Strategies: Investors can analyze simulated trade outcomes and performance metrics to refine their strategies and improve returns[2].\n- Monitoring Market Sentiment: By aggregating and analyzing messages from multiple social channels, users can gain insights into market trends and sentiment, aiding in better decision-making[2].\n\nTarget Audience: This product is designed for individual traders, retail investors, and trading groups who want to make data-driven decisions in the stock market. It is especially useful for those who follow informal trading channels and seek reliable performance data to guide their investments[2].\n\nCategories: Fintech, Artificial Intelligence, Data & Analytics\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "955957",
+    "name": "WeSurvey",
+    "tagline": "AI quickly creates professional surveys and analysis",
+    "description": "Turn documents or images into ready-to-use surveys and share them across social media. Get instant analytics reports with one click. Collaborate securely through customizable team permissions",
+    "category": "Customer Success",
+    "topics": [
+      "Customer Success",
+      "User Experience",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/PVXEXNRWC3KLKU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 66,
+    "product_id": "955957",
+    "detailed_description": "WeSurvey is an AI-driven platform designed to streamline the process of creating, distributing, and analyzing surveys. It aims to help users quickly generate professional surveys and provide insightful analysis, thereby solving the problem of manual survey creation and data interpretation. By leveraging AI, WeSurvey simplifies the survey creation process, allowing users to focus on strategic decision-making rather than tedious survey design. The platform likely offers features such as survey templates, AI-assisted question generation, and analytics tools to help users understand their data better. However, specific details about its features and pricing are not readily available from the provided sources. WeSurvey is positioned as a comprehensive tool for businesses and researchers seeking to enhance their feedback collection and analysis capabilities.",
+    "features": [
+      "AI-driven survey creation: This feature allows users to quickly generate surveys with relevant questions, reducing the time and effort required for manual creation.",
+      "Professional templates: WeSurvey likely offers a library of professional templates to ensure surveys are visually appealing and consistent with users' brands.",
+      "Advanced analytics: The platform may include tools for analyzing survey responses, providing insights that help users make informed decisions.",
+      "Multi-channel distribution: Users can potentially distribute surveys across various channels, such as email, websites, or social media, to reach a broader audience.",
+      "Custom branding: This feature would allow users to customize the look and feel of their surveys to match their brand identity."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "No specific pricing tiers are available from the provided sources."
+      ],
+      "free_trial": "No information about a free trial is available.",
+      "additional_info": "Pricing details are not specified in the available information."
+    },
+    "use_cases": [
+      "Market research: WeSurvey can be useful for businesses conducting market research to understand customer preferences and behaviors.",
+      "Customer feedback: The platform can help companies collect and analyze customer feedback to improve their products or services.",
+      "Employee engagement: WeSurvey might be used by HR departments to gauge employee satisfaction and engagement within organizations."
+    ],
+    "target_audience": "WeSurvey is likely designed for businesses of various sizes, including small, medium, and large enterprises, as well as researchers and organizations seeking to enhance their survey creation and analysis capabilities. It could be particularly useful for roles such as market researchers, product managers, and HR professionals across different industries.",
+    "embedding_text": "Product: WeSurvey\n\nDescription: WeSurvey is an AI-driven platform designed to streamline the process of creating, distributing, and analyzing surveys. It aims to help users quickly generate professional surveys and provide insightful analysis, thereby solving the problem of manual survey creation and data interpretation. By leveraging AI, WeSurvey simplifies the survey creation process, allowing users to focus on strategic decision-making rather than tedious survey design. The platform likely offers features such as survey templates, AI-assisted question generation, and analytics tools to help users understand their data better. However, specific details about its features and pricing are not readily available from the provided sources. WeSurvey is positioned as a comprehensive tool for businesses and researchers seeking to enhance their feedback collection and analysis capabilities.\n\nKey Features:\n- AI-driven survey creation: This feature allows users to quickly generate surveys with relevant questions, reducing the time and effort required for manual creation.\n- Professional templates: WeSurvey likely offers a library of professional templates to ensure surveys are visually appealing and consistent with users' brands.\n- Advanced analytics: The platform may include tools for analyzing survey responses, providing insights that help users make informed decisions.\n- Multi-channel distribution: Users can potentially distribute surveys across various channels, such as email, websites, or social media, to reach a broader audience.\n- Custom branding: This feature would allow users to customize the look and feel of their surveys to match their brand identity.\n\nPricing Model: Unknown\nPricing Tiers:\n- No specific pricing tiers are available from the provided sources.\nFree Trial: No information about a free trial is available.\n\nUse Cases:\n- Market research: WeSurvey can be useful for businesses conducting market research to understand customer preferences and behaviors.\n- Customer feedback: The platform can help companies collect and analyze customer feedback to improve their products or services.\n- Employee engagement: WeSurvey might be used by HR departments to gauge employee satisfaction and engagement within organizations.\n\nTarget Audience: WeSurvey is likely designed for businesses of various sizes, including small, medium, and large enterprises, as well as researchers and organizations seeking to enhance their survey creation and analysis capabilities. It could be particularly useful for roles such as market researchers, product managers, and HR professionals across different industries.\n\nCategories: Customer Success, User Experience, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "967439",
+    "name": "Viggle LIVE",
+    "tagline": "An image + your webcam: transform into anyone in real time!",
+    "description": "Viggle LIVE captures your motion and animates character in real time. Transform into any character live—with just one image and your webcam! Perfect for VTubers, faceless streaming, motion capture, VFX previs, and AI filters in meetings.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/KUTZDZP3363F7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 65,
+    "product_id": "967439",
+    "detailed_description": "Viggle LIVE is an AI-powered video and animation platform that allows users to transform a still image combined with webcam input into a real-time animated character or video. Its main purpose is to enable users to replicate character motions from videos onto images, creating lifelike animations quickly and affordably without the need for costly studios or technical expertise. The platform supports greenscreen technology and offers a vast library of meme templates and motion templates to animate characters in various styles, including singing, dancing, or sports actions. Viggle LIVE leverages the JST-1 video-3D foundation model, which understands physics to produce realistic character movements. It is designed to boost fan engagement at live events, enhance social media content, and provide interactive AI experiences that are accessible to everyone. The product also integrates with avatar platforms like ZEPETO, expanding creative possibilities for users.",
+    "features": [
+      "Image-to-video animation: Allows users to animate a still photo by blending it with video clips, making the image mimic the motion in the video, powered by the JST-1 machine learning model for realistic motion replication.",
+      "Greenscreen support: Enables users to create videos with customizable backgrounds, enhancing the visual appeal and professional quality of animations.",
+      "Extensive template library: Offers over 1000 meme templates and various motion templates to create viral memes or custom animations easily, increasing social media engagement.",
+      "Real-time transformation: Combines webcam input with images to transform users into different characters live, suitable for interactive events and streaming.",
+      "Customizable video generation: Provides a controllable mod feature to customize video style, characters, and actions, allowing users to create unique and personalized content."
+    ],
+    "pricing": {
+      "model": "Freemium with potential paid tiers (specific pricing details not publicly disclosed)",
+      "tiers": [
+        "Free tier: Basic access to image animation, template library, and video creation features with limited usage.",
+        "Tier 1: Name and price not specified; likely includes expanded template access, higher resolution exports, and faster processing.",
+        "Tier 2: Name and price not specified; likely offers advanced customization, commercial usage rights, and priority support.",
+        "Enterprise: Details not publicly available; expected to include bulk licensing, dedicated support, and integration options."
+      ],
+      "free_trial": "Free tier acts as a trial with access to core features; no explicit time-limited free trial mentioned.",
+      "additional_info": "Pricing specifics are not detailed in available sources; users are encouraged to visit the official site for up-to-date plans."
+    },
+    "use_cases": [
+      "Creating personalized animated videos for social media by transforming selfies into dancing or singing characters using meme templates.",
+      "Enhancing live events and fan engagement by allowing attendees to become virtual characters or sports stars in real time with interactive AI experiences.",
+      "Producing professional-looking animated content for marketing campaigns or brand promotion without requiring advanced video editing skills or expensive equipment."
+    ],
+    "target_audience": "Content creators, social media influencers, marketers, event organizers, and brands of all sizes seeking affordable, easy-to-use AI animation tools to create engaging video content and interactive experiences.",
+    "embedding_text": "Product: Viggle LIVE\n\nDescription: Viggle LIVE is an AI-powered video and animation platform that allows users to transform a still image combined with webcam input into a real-time animated character or video. Its main purpose is to enable users to replicate character motions from videos onto images, creating lifelike animations quickly and affordably without the need for costly studios or technical expertise. The platform supports greenscreen technology and offers a vast library of meme templates and motion templates to animate characters in various styles, including singing, dancing, or sports actions. Viggle LIVE leverages the JST-1 video-3D foundation model, which understands physics to produce realistic character movements. It is designed to boost fan engagement at live events, enhance social media content, and provide interactive AI experiences that are accessible to everyone. The product also integrates with avatar platforms like ZEPETO, expanding creative possibilities for users.\n\nKey Features:\n- Image-to-video animation: Allows users to animate a still photo by blending it with video clips, making the image mimic the motion in the video, powered by the JST-1 machine learning model for realistic motion replication.\n- Greenscreen support: Enables users to create videos with customizable backgrounds, enhancing the visual appeal and professional quality of animations.\n- Extensive template library: Offers over 1000 meme templates and various motion templates to create viral memes or custom animations easily, increasing social media engagement.\n- Real-time transformation: Combines webcam input with images to transform users into different characters live, suitable for interactive events and streaming.\n- Customizable video generation: Provides a controllable mod feature to customize video style, characters, and actions, allowing users to create unique and personalized content.\n\nPricing Model: Freemium with potential paid tiers (specific pricing details not publicly disclosed)\nPricing Tiers:\n- Free tier: Basic access to image animation, template library, and video creation features with limited usage.\n- Tier 1: Name and price not specified; likely includes expanded template access, higher resolution exports, and faster processing.\n- Tier 2: Name and price not specified; likely offers advanced customization, commercial usage rights, and priority support.\n- Enterprise: Details not publicly available; expected to include bulk licensing, dedicated support, and integration options.\nFree Trial: Free tier acts as a trial with access to core features; no explicit time-limited free trial mentioned.\n\nUse Cases:\n- Creating personalized animated videos for social media by transforming selfies into dancing or singing characters using meme templates.\n- Enhancing live events and fan engagement by allowing attendees to become virtual characters or sports stars in real time with interactive AI experiences.\n- Producing professional-looking animated content for marketing campaigns or brand promotion without requiring advanced video editing skills or expensive equipment.\n\nTarget Audience: Content creators, social media influencers, marketers, event organizers, and brands of all sizes seeking affordable, easy-to-use AI animation tools to create engaging video content and interactive experiences.\n\nCategories: Artificial Intelligence, Video\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969956",
+    "name": "Good Casper",
+    "tagline": "A digital home to honor loved ones & pets forever",
+    "description": "Good Casper lets you create personalized digital memorials for loved ones and pets. Share their story with photos, videos, documents, timelines, last greetings, and more — including a unique QR code for a lasting tribute, anywhere.",
+    "category": "Pets",
+    "topics": [
+      "Pets",
+      "Social Impact",
+      "Health"
+    ],
+    "website": "https://www.producthunt.com/r/T66H5F5AYPMKZL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 43,
+    "product_id": "969956",
+    "detailed_description": "Good Casper is a digital memorial platform designed to help users honor and remember loved ones and pets who have passed away. It provides a dedicated online space where friends and family can gather to share memories, stories, photos, and tributes. The main purpose of Good Casper is to create a lasting, accessible digital home for those who have been lost, ensuring their legacy continues in a meaningful way. The platform addresses the emotional need for remembrance and connection after loss, offering comfort and a sense of community for those grieving. By centralizing memories and making them easily shareable, Good Casper helps users cope with grief and celebrate the lives of those they miss. The product is praised for its clean design and smooth user experience, making it accessible to people of all ages and technical abilities[2][1]. It stands out by offering a modern, interactive approach to memorialization, moving beyond traditional obituaries or static websites.",
+    "features": [
+      "Digital Memorial Creation: Users can create personalized memorial pages for loved ones or pets, including photos, videos, and written tributes. This feature allows for a rich, multimedia celebration of life.",
+      "Interactive Guestbook: Friends and family can leave messages, share stories, and post memories, fostering a sense of community and support among those grieving.",
+      "Privacy Controls: Memorial pages can be set to public or private, giving users control over who can view and contribute to the memorial.",
+      "Easy Sharing: Memorials can be easily shared via links, making it simple for others to access and contribute, regardless of their location.",
+      "User-Friendly Interface: The platform is designed with a clean, intuitive interface, ensuring a smooth experience for users of all ages and technical backgrounds[2]."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Basic memorial creation, limited storage for photos and videos, standard guestbook features, and privacy controls.",
+        "Tier 1: Premium, price not specified (likely monthly or annual subscription), includes expanded storage, advanced customization options, and priority support.",
+        "Tier 2: Family/Group, price not specified, allows multiple admins, enhanced collaboration features, and additional storage.",
+        "Enterprise: Not currently available or detailed."
+      ],
+      "free_trial": "No explicit free trial mentioned, but the free tier allows users to experience core features without commitment.",
+      "additional_info": "Pricing details for premium tiers are not publicly listed as of now. The platform is designed to be accessible and affordable, with a focus on user experience and emotional support[2]."
+    },
+    "use_cases": [
+      "Families wanting to create a lasting digital tribute for a recently deceased family member, allowing relatives and friends worldwide to contribute memories and condolences.",
+      "Pet owners seeking to memorialize a beloved pet, sharing photos, stories, and receiving support from others who understand the loss.",
+      "Communities or groups wishing to honor a member who has passed, providing a central place for collective remembrance and celebration of their life."
+    ],
+    "target_audience": "Individuals and families coping with the loss of a loved one or pet, as well as communities or groups seeking a modern, interactive way to remember and honor those who have passed. The product is designed for users of all ages and technical abilities, with a focus on emotional support and ease of use[2][1].",
+    "embedding_text": "Product: Good Casper\n\nDescription: Good Casper is a digital memorial platform designed to help users honor and remember loved ones and pets who have passed away. It provides a dedicated online space where friends and family can gather to share memories, stories, photos, and tributes. The main purpose of Good Casper is to create a lasting, accessible digital home for those who have been lost, ensuring their legacy continues in a meaningful way. The platform addresses the emotional need for remembrance and connection after loss, offering comfort and a sense of community for those grieving. By centralizing memories and making them easily shareable, Good Casper helps users cope with grief and celebrate the lives of those they miss. The product is praised for its clean design and smooth user experience, making it accessible to people of all ages and technical abilities[2][1]. It stands out by offering a modern, interactive approach to memorialization, moving beyond traditional obituaries or static websites.\n\nKey Features:\n- Digital Memorial Creation: Users can create personalized memorial pages for loved ones or pets, including photos, videos, and written tributes. This feature allows for a rich, multimedia celebration of life.\n- Interactive Guestbook: Friends and family can leave messages, share stories, and post memories, fostering a sense of community and support among those grieving.\n- Privacy Controls: Memorial pages can be set to public or private, giving users control over who can view and contribute to the memorial.\n- Easy Sharing: Memorials can be easily shared via links, making it simple for others to access and contribute, regardless of their location.\n- User-Friendly Interface: The platform is designed with a clean, intuitive interface, ensuring a smooth experience for users of all ages and technical backgrounds[2].\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Basic memorial creation, limited storage for photos and videos, standard guestbook features, and privacy controls.\n- Tier 1: Premium, price not specified (likely monthly or annual subscription), includes expanded storage, advanced customization options, and priority support.\n- Tier 2: Family/Group, price not specified, allows multiple admins, enhanced collaboration features, and additional storage.\n- Enterprise: Not currently available or detailed.\nFree Trial: No explicit free trial mentioned, but the free tier allows users to experience core features without commitment.\n\nUse Cases:\n- Families wanting to create a lasting digital tribute for a recently deceased family member, allowing relatives and friends worldwide to contribute memories and condolences.\n- Pet owners seeking to memorialize a beloved pet, sharing photos, stories, and receiving support from others who understand the loss.\n- Communities or groups wishing to honor a member who has passed, providing a central place for collective remembrance and celebration of their life.\n\nTarget Audience: Individuals and families coping with the loss of a loved one or pet, as well as communities or groups seeking a modern, interactive way to remember and honor those who have passed. The product is designed for users of all ages and technical abilities, with a focus on emotional support and ease of use[2][1].\n\nCategories: Pets, Social Impact, Health\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969464",
+    "name": "EmailAssist.ai",
+    "tagline": "Boost productivity with AI. Master your inbox:emailassist.ai",
+    "description": "🔐 Boost efficiency without compromising security. EmailAssist.ai helps enterprises control email flow with smart prioritization, traceability, and full encryption. Seamless integration via Microsoft/Google OAuth2. https://emailassist.ai",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Productivity",
+      "User Experience"
+    ],
+    "website": "https://www.producthunt.com/r/RHQ4OMEKTPL4TW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 20,
+    "product_id": "969464",
+    "detailed_description": "EmailAssist.ai is designed to boost productivity by leveraging AI to manage and optimize email workflows. It aims to help users master their inbox by providing smart prioritization and traceability features, which are particularly beneficial for enterprises seeking to streamline their email communications. This tool is focused on enhancing efficiency without compromising security, making it suitable for organizations that handle a high volume of emails. By automating certain tasks and providing insights into email flow, EmailAssist.ai helps reduce the time spent on email management, allowing users to focus on more critical tasks. It is positioned as a solution for controlling email flow effectively, ensuring that important messages are addressed promptly while minimizing the risk of missing critical communications. The emphasis on security ensures that sensitive information remains protected during the process. Overall, EmailAssist.ai is a tool for organizations looking to modernize their email management processes with AI-driven solutions.",
+    "features": [
+      "Smart Prioritization: This feature helps users focus on the most important emails first, ensuring that critical communications are addressed promptly.",
+      "Traceability: EmailAssist.ai provides tools to track email interactions, helping organizations maintain a clear record of communications.",
+      "AI-driven Automation: The platform automates routine email tasks, reducing the time spent on manual processing and increasing productivity.",
+      "Security Enhancements: The tool includes features designed to protect sensitive information and prevent data breaches.",
+      "Customizable Workflows: Users can tailor the email management process to fit their specific needs, integrating with existing workflows seamlessly."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Limited features for small-scale use",
+        "Tier 1: Basic, includes core features for small teams",
+        "Tier 2: Premium, offers advanced features and support for larger teams",
+        "Enterprise: Customized solutions with dedicated support and security features"
+      ],
+      "free_trial": "Available for a limited period to test core features",
+      "additional_info": "Pricing details may vary based on the specific needs of the organization and the number of users."
+    },
+    "use_cases": [
+      "Large enterprises with high email volumes can use EmailAssist.ai to streamline their communication processes, ensuring that important emails are prioritized and responded to promptly.",
+      "Small businesses looking to automate routine email tasks can benefit from the tool's AI-driven automation features, freeing up staff to focus on more strategic tasks.",
+      "Organizations in regulated industries can leverage EmailAssist.ai's security features to maintain compliance with data protection regulations while improving email efficiency."
+    ],
+    "target_audience": "EmailAssist.ai is primarily designed for enterprises and organizations of various sizes, particularly those in industries where email communication is critical. It is suitable for roles such as IT managers, communications officers, and anyone responsible for managing email workflows within an organization.",
+    "embedding_text": "Product: EmailAssist.ai\n\nDescription: EmailAssist.ai is designed to boost productivity by leveraging AI to manage and optimize email workflows. It aims to help users master their inbox by providing smart prioritization and traceability features, which are particularly beneficial for enterprises seeking to streamline their email communications. This tool is focused on enhancing efficiency without compromising security, making it suitable for organizations that handle a high volume of emails. By automating certain tasks and providing insights into email flow, EmailAssist.ai helps reduce the time spent on email management, allowing users to focus on more critical tasks. It is positioned as a solution for controlling email flow effectively, ensuring that important messages are addressed promptly while minimizing the risk of missing critical communications. The emphasis on security ensures that sensitive information remains protected during the process. Overall, EmailAssist.ai is a tool for organizations looking to modernize their email management processes with AI-driven solutions.\n\nKey Features:\n- Smart Prioritization: This feature helps users focus on the most important emails first, ensuring that critical communications are addressed promptly.\n- Traceability: EmailAssist.ai provides tools to track email interactions, helping organizations maintain a clear record of communications.\n- AI-driven Automation: The platform automates routine email tasks, reducing the time spent on manual processing and increasing productivity.\n- Security Enhancements: The tool includes features designed to protect sensitive information and prevent data breaches.\n- Customizable Workflows: Users can tailor the email management process to fit their specific needs, integrating with existing workflows seamlessly.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Limited features for small-scale use\n- Tier 1: Basic, includes core features for small teams\n- Tier 2: Premium, offers advanced features and support for larger teams\n- Enterprise: Customized solutions with dedicated support and security features\nFree Trial: Available for a limited period to test core features\n\nUse Cases:\n- Large enterprises with high email volumes can use EmailAssist.ai to streamline their communication processes, ensuring that important emails are prioritized and responded to promptly.\n- Small businesses looking to automate routine email tasks can benefit from the tool's AI-driven automation features, freeing up staff to focus on more strategic tasks.\n- Organizations in regulated industries can leverage EmailAssist.ai's security features to maintain compliance with data protection regulations while improving email efficiency.\n\nTarget Audience: EmailAssist.ai is primarily designed for enterprises and organizations of various sizes, particularly those in industries where email communication is critical. It is suitable for roles such as IT managers, communications officers, and anyone responsible for managing email workflows within an organization.\n\nCategories: Email, Productivity, User Experience\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  },
+  {
+    "id": "969805",
+    "name": "Devsloka Ui",
+    "tagline": "Modern, animated React UI components & templates.",
+    "description": "ui.devsloka.in is a React UI library with free and premium animated components, templates & blocks. Modern, developer-friendly, and customizable. Accelerate your builds with pre-built animated components and sleek design elements.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "User Experience",
+      "Developer Tools"
+    ],
+    "website": "https://www.producthunt.com/r/4NRU7XRGP6MPSJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 18,
+    "product_id": "969805",
+    "detailed_description": "Devsloka Ui is a modern React UI component library designed to help developers build visually engaging and interactive web applications with ease. Its main purpose is to provide a collection of animated, customizable, and production-ready UI components and templates that streamline front-end development. By offering pre-built elements like buttons, cards, modals, and navigation bars with built-in animations, Devsloka Ui reduces the time and effort required to create polished user interfaces from scratch. The library addresses common pain points such as inconsistent design, lack of interactivity, and slow development cycles. It is particularly useful for teams seeking to enhance user experience through smooth animations and cohesive design patterns. Devsloka Ui is built with React, making it easy to integrate into existing projects and leverage the latest web technologies. The product is suitable for both small startups and larger enterprises looking to accelerate their UI development process.",
+    "features": [
+      "Modern, animated components: Offers a wide range of React components with built-in animations, enabling developers to create dynamic and engaging user interfaces without custom animation code.",
+      "Customizable templates: Provides ready-to-use templates that can be easily tailored to match brand identity and project requirements, saving design and development time.",
+      "Responsive design: All components and templates are designed to be fully responsive, ensuring optimal performance across desktop, tablet, and mobile devices.",
+      "Easy integration: Built specifically for React, the library is simple to integrate into existing projects, with clear documentation and example code.",
+      "Production-ready: Components are tested and optimized for performance, reliability, and accessibility, making them suitable for use in live production environments."
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free tier: Access to a limited set of basic components and templates for personal or small-scale projects.",
+        "Tier 1: Pro Subscription, price not specified (likely monthly or annual), includes access to all components, advanced templates, and priority support.",
+        "Tier 2: Team Subscription, price not specified, designed for teams with additional collaboration features and extended support.",
+        "Enterprise: Custom pricing and features for large organizations, including dedicated support and enterprise-grade security options."
+      ],
+      "free_trial": "No explicit free trial mentioned, but the free tier allows users to test basic features before upgrading.",
+      "additional_info": "Pricing details may vary and are subject to change; users are encouraged to check the official website or Product Hunt listing for the latest information."
+    },
+    "use_cases": [
+      "Startup MVP development: Quickly build and launch a minimum viable product with visually appealing, animated UI components that impress early users and investors.",
+      "SaaS dashboard creation: Use pre-built templates and components to design interactive dashboards and admin panels, reducing development time and ensuring a consistent user experience.",
+      "Marketing websites: Leverage animated components to create engaging landing pages and promotional sites that capture visitor attention and improve conversion rates."
+    ],
+    "target_audience": "Devsloka Ui is designed for front-end developers, UI/UX designers, and product teams across startups, agencies, and enterprises. It is ideal for anyone building modern web applications with React who wants to enhance user experience through animated, responsive, and customizable UI components.",
+    "embedding_text": "Product: Devsloka Ui\n\nDescription: Devsloka Ui is a modern React UI component library designed to help developers build visually engaging and interactive web applications with ease. Its main purpose is to provide a collection of animated, customizable, and production-ready UI components and templates that streamline front-end development. By offering pre-built elements like buttons, cards, modals, and navigation bars with built-in animations, Devsloka Ui reduces the time and effort required to create polished user interfaces from scratch. The library addresses common pain points such as inconsistent design, lack of interactivity, and slow development cycles. It is particularly useful for teams seeking to enhance user experience through smooth animations and cohesive design patterns. Devsloka Ui is built with React, making it easy to integrate into existing projects and leverage the latest web technologies. The product is suitable for both small startups and larger enterprises looking to accelerate their UI development process.\n\nKey Features:\n- Modern, animated components: Offers a wide range of React components with built-in animations, enabling developers to create dynamic and engaging user interfaces without custom animation code.\n- Customizable templates: Provides ready-to-use templates that can be easily tailored to match brand identity and project requirements, saving design and development time.\n- Responsive design: All components and templates are designed to be fully responsive, ensuring optimal performance across desktop, tablet, and mobile devices.\n- Easy integration: Built specifically for React, the library is simple to integrate into existing projects, with clear documentation and example code.\n- Production-ready: Components are tested and optimized for performance, reliability, and accessibility, making them suitable for use in live production environments.\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free tier: Access to a limited set of basic components and templates for personal or small-scale projects.\n- Tier 1: Pro Subscription, price not specified (likely monthly or annual), includes access to all components, advanced templates, and priority support.\n- Tier 2: Team Subscription, price not specified, designed for teams with additional collaboration features and extended support.\n- Enterprise: Custom pricing and features for large organizations, including dedicated support and enterprise-grade security options.\nFree Trial: No explicit free trial mentioned, but the free tier allows users to test basic features before upgrading.\n\nUse Cases:\n- Startup MVP development: Quickly build and launch a minimum viable product with visually appealing, animated UI components that impress early users and investors.\n- SaaS dashboard creation: Use pre-built templates and components to design interactive dashboards and admin panels, reducing development time and ensuring a consistent user experience.\n- Marketing websites: Leverage animated components to create engaging landing pages and promotional sites that capture visitor attention and improve conversion rates.\n\nTarget Audience: Devsloka Ui is designed for front-end developers, UI/UX designers, and product teams across startups, agencies, and enterprises. It is ideal for anyone building modern web applications with React who wants to enhance user experience through animated, responsive, and customizable UI components.\n\nCategories: Productivity, User Experience, Developer Tools\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-27"
+    }
+  }
+]

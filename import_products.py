@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Import from our modules
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from storage.models import ProductStore
+from personalized_recommendations.storage.models import ProductStore
 
 # Setup logging
 logging.basicConfig(

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Unsubscribed{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h1 class="mb-4">You've been unsubscribed</h1>
+            <p class="lead">{{ user['email'] }}, you will no longer receive recommendation emails from us.</p>
+            <p class="text-muted">You can re-enable emails anytime from your profile settings.</p>
+            <a href="{{ url_for('home') }}" class="btn btn-primary">Back to Home</a>
+        </div>
+    </div>
+</div>
+{% endblock %} 

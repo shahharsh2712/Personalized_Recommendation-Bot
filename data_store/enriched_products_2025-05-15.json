@@ -1,0 +1,907 @@
+[
+  {
+    "id": "490699",
+    "name": "Tolt",
+    "tagline": "All-in-one affiliate marketing software for SaaS startups",
+    "description": "Tolt helps SaaS startups launch and grow affiliate programs. Get automated payouts, fraud protection, seamless integrations (Stripe, Paddle, Chargebee), and a branded affiliate portal. Track performance with detailed reports and drive extra revenue! 🚀",
+    "category": "Marketing",
+    "topics": [
+      "Marketing",
+      "SaaS",
+      "Affiliate marketing"
+    ],
+    "website": "https://www.producthunt.com/r/SZXJGFACIHGBFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 180,
+    "product_id": "490699",
+    "detailed_description": "Tolt is an all-in-one affiliate marketing software designed specifically for SaaS startups. It helps businesses create and manage affiliate and referral programs efficiently, allowing them to expand their customer base and generate revenue through word-of-mouth marketing. Tolt simplifies affiliate management by providing features like branded affiliate portals, seamless integrations with payment systems, and automated payouts. This reduces administrative work and ensures timely rewards for affiliates. By leveraging Tolt, SaaS startups can maximize their growth potential through affiliate marketing. The platform offers real-time analytics and customizable commission structures, enabling businesses to optimize their marketing strategies. Overall, Tolt streamlines the process of launching and managing affiliate programs, making it an essential tool for growing startups.",
+    "features": [
+      "Branded Affiliate Portal: Allows businesses to create a personalized portal for their affiliates, enhancing professionalism and brand consistency. This feature helps affiliates track their performance and sales more effectively.",
+      "Seamless Integrations: Tolt integrates with Stripe, Paddle, and Chargebee, enabling automatic tracking of affiliate-led purchases and subscription renewals. This ensures accurate commission calculations without manual intervention.",
+      "Real-Time Analytics: Provides detailed insights into affiliate performance, allowing businesses to track metrics by affiliate, referral link, or plan ID. This helps in fine-tuning marketing strategies based on real-time data.",
+      "Customizable Commission Rates: Enables businesses to adjust commission rates flexibly, including tiered rewards and bonuses for achieving specific goals. This feature allows for more strategic affiliate management.",
+      "Automated Payouts: Offers manual and auto payouts for affiliates, supporting payment methods like PayPal and Wise. This feature simplifies the process of rewarding affiliates, ensuring timely payments."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free Trial: Offers a 14-day free trial to test the platform's features.",
+        "Basic Tier: Starting at $49 per month, includes core features like affiliate management and tracking.",
+        "Additional Tiers: Details not specified, but generally includes more advanced features and support for larger businesses.",
+        "Enterprise: Custom pricing for large-scale businesses, offering tailored solutions and support."
+      ],
+      "free_trial": "14-day free trial available",
+      "additional_info": "Pricing may vary based on specific needs and the size of the business."
+    },
+    "use_cases": [
+      "Launching an Affiliate Program: Tolt is ideal for SaaS startups looking to launch their first affiliate program. It provides a comprehensive setup process and tools to manage affiliates effectively.",
+      "Scaling Existing Programs: For businesses already running affiliate programs, Tolt offers advanced features to optimize performance, such as customizable commission structures and real-time analytics.",
+      "Enhancing Brand Consistency: Tolt's branded portal feature helps maintain a consistent brand image across all affiliate interactions, enhancing professionalism and trust among partners."
+    ],
+    "target_audience": "Tolt is designed for SaaS startups of various sizes, particularly those looking to leverage affiliate marketing for growth. It is suitable for marketing teams, founders, and growth managers within these startups.",
+    "embedding_text": "Product: Tolt\n\nDescription: Tolt is an all-in-one affiliate marketing software designed specifically for SaaS startups. It helps businesses create and manage affiliate and referral programs efficiently, allowing them to expand their customer base and generate revenue through word-of-mouth marketing. Tolt simplifies affiliate management by providing features like branded affiliate portals, seamless integrations with payment systems, and automated payouts. This reduces administrative work and ensures timely rewards for affiliates. By leveraging Tolt, SaaS startups can maximize their growth potential through affiliate marketing. The platform offers real-time analytics and customizable commission structures, enabling businesses to optimize their marketing strategies. Overall, Tolt streamlines the process of launching and managing affiliate programs, making it an essential tool for growing startups.\n\nKey Features:\n- Branded Affiliate Portal: Allows businesses to create a personalized portal for their affiliates, enhancing professionalism and brand consistency. This feature helps affiliates track their performance and sales more effectively.\n- Seamless Integrations: Tolt integrates with Stripe, Paddle, and Chargebee, enabling automatic tracking of affiliate-led purchases and subscription renewals. This ensures accurate commission calculations without manual intervention.\n- Real-Time Analytics: Provides detailed insights into affiliate performance, allowing businesses to track metrics by affiliate, referral link, or plan ID. This helps in fine-tuning marketing strategies based on real-time data.\n- Customizable Commission Rates: Enables businesses to adjust commission rates flexibly, including tiered rewards and bonuses for achieving specific goals. This feature allows for more strategic affiliate management.\n- Automated Payouts: Offers manual and auto payouts for affiliates, supporting payment methods like PayPal and Wise. This feature simplifies the process of rewarding affiliates, ensuring timely payments.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free Trial: Offers a 14-day free trial to test the platform's features.\n- Basic Tier: Starting at $49 per month, includes core features like affiliate management and tracking.\n- Additional Tiers: Details not specified, but generally includes more advanced features and support for larger businesses.\n- Enterprise: Custom pricing for large-scale businesses, offering tailored solutions and support.\nFree Trial: 14-day free trial available\n\nUse Cases:\n- Launching an Affiliate Program: Tolt is ideal for SaaS startups looking to launch their first affiliate program. It provides a comprehensive setup process and tools to manage affiliates effectively.\n- Scaling Existing Programs: For businesses already running affiliate programs, Tolt offers advanced features to optimize performance, such as customizable commission structures and real-time analytics.\n- Enhancing Brand Consistency: Tolt's branded portal feature helps maintain a consistent brand image across all affiliate interactions, enhancing professionalism and trust among partners.\n\nTarget Audience: Tolt is designed for SaaS startups of various sizes, particularly those looking to leverage affiliate marketing for growth. It is suitable for marketing teams, founders, and growth managers within these startups.\n\nCategories: Marketing, SaaS, Affiliate marketing\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "941021",
+    "name": "Bolto",
+    "tagline": "Find, interview, and hire engineers with AI",
+    "description": "Bolto is an all in one recruiting and HR platform. It uses AI to source, interview, and match software engineers to startups, then enables startups to pay and manage those engineers in the same place.",
+    "category": "Hiring",
+    "topics": [
+      "Hiring",
+      "Artificial Intelligence",
+      "Human Resources"
+    ],
+    "website": "https://www.producthunt.com/r/LATEAGNIMVRGAV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 162,
+    "product_id": "941021",
+    "detailed_description": "There appears to be a misunderstanding regarding the product in question. The URL and tagline you provided reference a product called 'Bolto' focused on finding, interviewing, and hiring engineers with AI. However, the search results and available information point to 'Balto AI,' which is a real-time call guidance and contact center AI software, not a hiring or recruitment platform. Balto AI is designed to assist contact center agents by providing dynamic prompts, compliance checklists, and coaching alerts during customer interactions. It automates call scoring, summarizes conversations, and surfaces actionable insights for supervisors and quality assurance teams. The main purpose of Balto AI is to help contact centers operate more efficiently, reduce QA costs, and improve agent performance through AI-driven real-time support and automation. It solves problems related to slow customer service, manual call scoring, and inefficient agent coaching. If you are seeking information specifically about 'Bolto' for engineering hiring, there is no detailed information available in the provided search results. If you need information about Balto AI for contact centers, please clarify or update your request.",
+    "features": [
+      "Real-Time Guidance: Balto listens to both sides of the conversation and provides agents with dynamic prompts and answers in real-time, helping them resolve customer issues faster and more accurately.",
+      "Automated Call Scoring: The platform automatically scores agent conversations, including compliance and sentiment, reducing QA costs and manual effort.",
+      "After-Call Automation: Balto automatically summarizes conversations and saves notes to the CRM, eliminating manual after-call work for agents.",
+      "AI-Powered Coaching: Identifies which agents need coaching, prepares relevant call data, and surfaces coaching moments for supervisors, streamlining the coaching process.",
+      "Insights and Trends: BaltoGPT and AI-generated trend analysis allow leadership to explore call data in natural language and uncover actionable business insights."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Not available in the provided information.",
+        "Tier 1: Details not specified in the provided information.",
+        "Tier 2: Details not specified in the provided information.",
+        "Enterprise: Details not specified in the provided information."
+      ],
+      "free_trial": "Details not specified in the provided information.",
+      "additional_info": "No specific pricing information is available in the provided search results."
+    },
+    "use_cases": [
+      "Contact Center Efficiency: Balto is used in contact centers to provide real-time support to agents, ensuring faster and more accurate customer service.",
+      "Quality Assurance Automation: QA teams use Balto to automate call scoring and surface compliance issues, reducing manual review time and costs.",
+      "Agent Coaching and Development: Supervisors leverage Balto to quickly identify coaching opportunities and improve agent performance through targeted feedback."
+    ],
+    "target_audience": "Balto AI is designed for contact centers of all sizes, including agents, supervisors, quality assurance teams, and leadership in industries that rely on customer service operations.",
+    "embedding_text": "Product: Bolto\n\nDescription: There appears to be a misunderstanding regarding the product in question. The URL and tagline you provided reference a product called 'Bolto' focused on finding, interviewing, and hiring engineers with AI. However, the search results and available information point to 'Balto AI,' which is a real-time call guidance and contact center AI software, not a hiring or recruitment platform. Balto AI is designed to assist contact center agents by providing dynamic prompts, compliance checklists, and coaching alerts during customer interactions. It automates call scoring, summarizes conversations, and surfaces actionable insights for supervisors and quality assurance teams. The main purpose of Balto AI is to help contact centers operate more efficiently, reduce QA costs, and improve agent performance through AI-driven real-time support and automation. It solves problems related to slow customer service, manual call scoring, and inefficient agent coaching. If you are seeking information specifically about 'Bolto' for engineering hiring, there is no detailed information available in the provided search results. If you need information about Balto AI for contact centers, please clarify or update your request.\n\nKey Features:\n- Real-Time Guidance: Balto listens to both sides of the conversation and provides agents with dynamic prompts and answers in real-time, helping them resolve customer issues faster and more accurately.\n- Automated Call Scoring: The platform automatically scores agent conversations, including compliance and sentiment, reducing QA costs and manual effort.\n- After-Call Automation: Balto automatically summarizes conversations and saves notes to the CRM, eliminating manual after-call work for agents.\n- AI-Powered Coaching: Identifies which agents need coaching, prepares relevant call data, and surfaces coaching moments for supervisors, streamlining the coaching process.\n- Insights and Trends: BaltoGPT and AI-generated trend analysis allow leadership to explore call data in natural language and uncover actionable business insights.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Not available in the provided information.\n- Tier 1: Details not specified in the provided information.\n- Tier 2: Details not specified in the provided information.\n- Enterprise: Details not specified in the provided information.\nFree Trial: Details not specified in the provided information.\n\nUse Cases:\n- Contact Center Efficiency: Balto is used in contact centers to provide real-time support to agents, ensuring faster and more accurate customer service.\n- Quality Assurance Automation: QA teams use Balto to automate call scoring and surface compliance issues, reducing manual review time and costs.\n- Agent Coaching and Development: Supervisors leverage Balto to quickly identify coaching opportunities and improve agent performance through targeted feedback.\n\nTarget Audience: Balto AI is designed for contact centers of all sizes, including agents, supervisors, quality assurance teams, and leadership in industries that rely on customer service operations.\n\nCategories: Hiring, Artificial Intelligence, Human Resources\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "962548",
+    "name": "Plakar",
+    "tagline": "Effortless Open Source Backup Platform",
+    "description": "Plakar is an open-source backup and restore solution designed to simplify data protection for businesses of all sizes. It protects anything—from local files to multi-cloud AI pipelines—while keeping every snapshot lean, encrypted, and instantly recoverable.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "GitHub",
+      "Encryption",
+      "Security"
+    ],
+    "website": "https://www.producthunt.com/r/IH5K5WTRMZRKJA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 157,
+    "product_id": "962548",
+    "detailed_description": "Plakar is an open-source, high-performance backup and restore platform designed to make data protection effortless, secure, and efficient. It supports backing up anything from local files to complex multi-cloud AI pipelines, ensuring data is stored in encrypted, immutable snapshots that are instantly recoverable. Plakar maximizes storage efficiency through advanced deduplication and compression, enabling more restore points with less storage space. It is storage-agnostic and adaptable, working seamlessly with cloud storage, local servers, NAS, SAN, and even tape drives. The platform offers fast incremental backups, verifiable data integrity, and granular restore capabilities accessible via CLI, API, and UI. Plakar is optimized for environments with limited bandwidth and supports distributed backup strategies, making it suitable for diverse infrastructure setups. It is trusted by engineers and enterprises alike, including regulated industries, for modern backup governance and compliance.",
+    "features": [
+      "End-to-end encryption for both data and metadata ensures complete security and privacy of backups.",
+      "Immutable backup repositories prevent tampering, providing reliable and verifiable data integrity.",
+      "Advanced deduplication and compression technology reduce storage consumption, allowing more restore points with less space.",
+      "Cross-storage restore capability enables backing up from one storage type (e.g., S3) and restoring to another (e.g., local filesystem).",
+      "Distributed backup support with manual push/pull synchronization allows backup management even in constrained network environments."
+    ],
+    "pricing": {
+      "model": "Open Source with potential enterprise offerings",
+      "tiers": [
+        "Free tier: Full access to open-source version with CLI, API, and UI for backup and restore functionalities.",
+        "Tier 1: Not publicly detailed; likely includes enhanced support and enterprise features.",
+        "Tier 2: Not publicly detailed; may include advanced compliance, governance, and scalability options.",
+        "Enterprise: Details not specified, but likely includes dedicated support, custom integrations, and compliance certifications."
+      ],
+      "free_trial": "Not applicable as the core product is open source and free to use.",
+      "additional_info": "Plakar is open source and maintained by Plakar Korp, with a focus on self-hosted or cloud-ready deployment. Pricing details beyond the open-source offering are not publicly disclosed."
+    },
+    "use_cases": [
+      "Backing up complex multi-cloud AI pipelines and large datasets with minimal storage overhead and fast recovery.",
+      "Implementing secure, encrypted backups for regulated industries such as finance and healthcare requiring auditability and compliance.",
+      "Deploying distributed backup strategies in environments with limited or manual network synchronization capabilities."
+    ],
+    "target_audience": "Engineers, DevOps, IT, and Security teams in startups to large enterprises, especially those in regulated industries like finance and healthcare, who require secure, scalable, and efficient backup solutions adaptable to diverse storage environments.",
+    "embedding_text": "Product: Plakar\n\nDescription: Plakar is an open-source, high-performance backup and restore platform designed to make data protection effortless, secure, and efficient. It supports backing up anything from local files to complex multi-cloud AI pipelines, ensuring data is stored in encrypted, immutable snapshots that are instantly recoverable. Plakar maximizes storage efficiency through advanced deduplication and compression, enabling more restore points with less storage space. It is storage-agnostic and adaptable, working seamlessly with cloud storage, local servers, NAS, SAN, and even tape drives. The platform offers fast incremental backups, verifiable data integrity, and granular restore capabilities accessible via CLI, API, and UI. Plakar is optimized for environments with limited bandwidth and supports distributed backup strategies, making it suitable for diverse infrastructure setups. It is trusted by engineers and enterprises alike, including regulated industries, for modern backup governance and compliance.\n\nKey Features:\n- End-to-end encryption for both data and metadata ensures complete security and privacy of backups.\n- Immutable backup repositories prevent tampering, providing reliable and verifiable data integrity.\n- Advanced deduplication and compression technology reduce storage consumption, allowing more restore points with less space.\n- Cross-storage restore capability enables backing up from one storage type (e.g., S3) and restoring to another (e.g., local filesystem).\n- Distributed backup support with manual push/pull synchronization allows backup management even in constrained network environments.\n\nPricing Model: Open Source with potential enterprise offerings\nPricing Tiers:\n- Free tier: Full access to open-source version with CLI, API, and UI for backup and restore functionalities.\n- Tier 1: Not publicly detailed; likely includes enhanced support and enterprise features.\n- Tier 2: Not publicly detailed; may include advanced compliance, governance, and scalability options.\n- Enterprise: Details not specified, but likely includes dedicated support, custom integrations, and compliance certifications.\nFree Trial: Not applicable as the core product is open source and free to use.\n\nUse Cases:\n- Backing up complex multi-cloud AI pipelines and large datasets with minimal storage overhead and fast recovery.\n- Implementing secure, encrypted backups for regulated industries such as finance and healthcare requiring auditability and compliance.\n- Deploying distributed backup strategies in environments with limited or manual network synchronization capabilities.\n\nTarget Audience: Engineers, DevOps, IT, and Security teams in startups to large enterprises, especially those in regulated industries like finance and healthcare, who require secure, scalable, and efficient backup solutions adaptable to diverse storage environments.\n\nCategories: Open Source, GitHub, Encryption, Security\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965535",
+    "name": "Granola 2.0",
+    "tagline": "A second brain for your team",
+    "description": "Introducing the next chapter for Granola: bringing all your team's conversations into one place, and unlocking them with AI",
+    "category": "Notes",
+    "topics": [
+      "Notes",
+      "Meetings",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/VDYTTPTMUOR7V2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 144,
+    "product_id": "965535",
+    "detailed_description": "Granola 2.0 is designed as a 'second brain' for teams, integrating all team conversations into one platform and leveraging AI to unlock insights. It enhances meeting notes by transcribing conversations and making them searchable and queryable with AI. This allows teams to analyze trends and make data-driven decisions. Granola is particularly useful for extracting valuable information from daily conversations, which often contain the most relevant data about a company's operations. It helps teams like sales leaders, product managers, and recruiters to quickly identify patterns and solve problems. By centralizing meeting data, Granola streamlines collaboration and decision-making processes. It also provides customizable templates for common meeting types, ensuring notes are in the format teams need. Granola aims to become a core tool for effective team collaboration in the future.",
+    "features": [
+      "AI-enhanced meeting notes: Granola transcribes meetings and enhances raw notes with AI, providing detailed and organized information for teams.",
+      "Searchable transcripts: The platform allows users to search through meeting transcripts, enabling quick access to specific discussions or decisions.",
+      "Customizable templates: Granola offers templates for different meeting types, ensuring that notes are structured and relevant to the team's needs.",
+      "AI-driven insights: Granola uses AI to analyze meeting data, helping teams identify trends and solve problems more efficiently.",
+      "Integration and sharing: Users can easily share notes across various platforms, facilitating collaboration and communication."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Includes basic features like note-taking and sharing, but details on specific limitations are not provided.",
+        "Tier 1: Specific details about paid tiers are not available, but Granola likely offers additional features and support for paid users.",
+        "Enterprise: Customized solutions for large organizations, including advanced AI capabilities and dedicated support."
+      ],
+      "free_trial": "No specific information about a free trial is available, but users can likely try the free tier to experience basic features.",
+      "additional_info": "Granola recently raised $43M to further develop its AI workspace, indicating potential for expanded features and pricing options in the future."
+    },
+    "use_cases": [
+      "Sales teams can use Granola to analyze why deals are being lost by querying meeting transcripts and identifying common objections or issues.",
+      "Product managers can leverage Granola to identify recurring UX issues by analyzing meeting data and feedback from users.",
+      "Recruiters can diagnose where interviews are stalling by reviewing transcripts and identifying patterns in candidate interactions."
+    ],
+    "target_audience": "Granola 2.0 is designed for teams across various industries, particularly those with frequent meetings and a need for efficient collaboration and data analysis. It is suitable for companies of all sizes, from small startups to large enterprises, and is beneficial for roles such as sales leaders, product managers, and recruiters.",
+    "embedding_text": "Product: Granola 2.0\n\nDescription: Granola 2.0 is designed as a 'second brain' for teams, integrating all team conversations into one platform and leveraging AI to unlock insights. It enhances meeting notes by transcribing conversations and making them searchable and queryable with AI. This allows teams to analyze trends and make data-driven decisions. Granola is particularly useful for extracting valuable information from daily conversations, which often contain the most relevant data about a company's operations. It helps teams like sales leaders, product managers, and recruiters to quickly identify patterns and solve problems. By centralizing meeting data, Granola streamlines collaboration and decision-making processes. It also provides customizable templates for common meeting types, ensuring notes are in the format teams need. Granola aims to become a core tool for effective team collaboration in the future.\n\nKey Features:\n- AI-enhanced meeting notes: Granola transcribes meetings and enhances raw notes with AI, providing detailed and organized information for teams.\n- Searchable transcripts: The platform allows users to search through meeting transcripts, enabling quick access to specific discussions or decisions.\n- Customizable templates: Granola offers templates for different meeting types, ensuring that notes are structured and relevant to the team's needs.\n- AI-driven insights: Granola uses AI to analyze meeting data, helping teams identify trends and solve problems more efficiently.\n- Integration and sharing: Users can easily share notes across various platforms, facilitating collaboration and communication.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Includes basic features like note-taking and sharing, but details on specific limitations are not provided.\n- Tier 1: Specific details about paid tiers are not available, but Granola likely offers additional features and support for paid users.\n- Enterprise: Customized solutions for large organizations, including advanced AI capabilities and dedicated support.\nFree Trial: No specific information about a free trial is available, but users can likely try the free tier to experience basic features.\n\nUse Cases:\n- Sales teams can use Granola to analyze why deals are being lost by querying meeting transcripts and identifying common objections or issues.\n- Product managers can leverage Granola to identify recurring UX issues by analyzing meeting data and feedback from users.\n- Recruiters can diagnose where interviews are stalling by reviewing transcripts and identifying patterns in candidate interactions.\n\nTarget Audience: Granola 2.0 is designed for teams across various industries, particularly those with frequent meetings and a need for efficient collaboration and data analysis. It is suitable for companies of all sizes, from small startups to large enterprises, and is beneficial for roles such as sales leaders, product managers, and recruiters.\n\nCategories: Notes, Meetings, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "964762",
+    "name": "Flowise",
+    "tagline": "Build AI Agents, Visually",
+    "description": "Open source Generative AI development platform for building AI agents & LLM workflows.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "Artificial Intelligence",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/4GTRSGU44VRGNR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 142,
+    "product_id": "964762",
+    "detailed_description": "Flowise is an open-source generative AI development platform designed to build AI agents and LLM workflows visually. It provides modular building blocks for creating simple compositional workflows to complex autonomous agents. Flowise supports multi-agent systems, chat assistants, and human-in-the-loop feedback, allowing users to review and approve tasks performed by agents. The platform offers tools like execution traces, observability, and flow validation to optimize performance and minimize errors. Flowise is used by major companies such as Thermo Fisher and Deloitte, indicating its scalability and reliability. It supports both cloud and on-premises deployments, making it versatile for various enterprise needs. Flowise aims to simplify AI development by allowing users to build AI agents from just an idea, generating a draft for them to work with.",
+    "features": [
+      "Modular Building Blocks: Flowise provides modular components to build any agentic system, from simple workflows to autonomous agents, allowing for flexible and scalable AI development.",
+      "Multi-Agent Systems: Users can create complex workflows distributed across multiple coordinated agents, enabling sophisticated AI applications.",
+      "Chat Assistants and LLM Flows: Flowise supports the creation of single-agent systems, chatbots, and LLM flows with advanced techniques like Graph RAG and reranking.",
+      "Human in the Loop: This feature allows humans to review and approve tasks performed by agents, ensuring accuracy and reliability in AI-driven processes.",
+      "Observability and Flow Validation: Flowise offers full execution traces and flow validation to help debug issues, optimize performance, and minimize configuration errors."
+    ],
+    "pricing": {
+      "model": "Open-source with potential enterprise support",
+      "tiers": [
+        "Free: Open-source version available for download and use, with community support.",
+        "Enterprise: Details not explicitly provided, but Flowise is used by large companies like Thermo Fisher and Deloitte, suggesting customized enterprise solutions."
+      ],
+      "free_trial": "No specific free trial mentioned; however, users can try it out for free on Flowise Cloud.",
+      "additional_info": "Flowise is open-source, which means users can access and modify the code freely. Enterprise support may be available for large-scale deployments."
+    },
+    "use_cases": [
+      "Building No-Code SQL Chatbots: Flowise can be used to create chatbots that interact with SQL databases without requiring extensive coding knowledge.",
+      "Developing Multi-Agent Systems: Flowise is ideal for creating complex workflows involving multiple AI agents, useful in scenarios like autonomous vehicles or smart home automation.",
+      "Creating LLM Apps: Users can build applications using large language models (LLMs) with Flowise, enabling advanced text processing and generation capabilities."
+    ],
+    "target_audience": "Flowise is designed for developers and organizations looking to build AI applications, particularly those interested in visual development tools. It is suitable for companies of all sizes, from startups to large enterprises like Fortune 500 companies, across various industries such as technology, healthcare, and finance.",
+    "embedding_text": "Product: Flowise\n\nDescription: Flowise is an open-source generative AI development platform designed to build AI agents and LLM workflows visually. It provides modular building blocks for creating simple compositional workflows to complex autonomous agents. Flowise supports multi-agent systems, chat assistants, and human-in-the-loop feedback, allowing users to review and approve tasks performed by agents. The platform offers tools like execution traces, observability, and flow validation to optimize performance and minimize errors. Flowise is used by major companies such as Thermo Fisher and Deloitte, indicating its scalability and reliability. It supports both cloud and on-premises deployments, making it versatile for various enterprise needs. Flowise aims to simplify AI development by allowing users to build AI agents from just an idea, generating a draft for them to work with.\n\nKey Features:\n- Modular Building Blocks: Flowise provides modular components to build any agentic system, from simple workflows to autonomous agents, allowing for flexible and scalable AI development.\n- Multi-Agent Systems: Users can create complex workflows distributed across multiple coordinated agents, enabling sophisticated AI applications.\n- Chat Assistants and LLM Flows: Flowise supports the creation of single-agent systems, chatbots, and LLM flows with advanced techniques like Graph RAG and reranking.\n- Human in the Loop: This feature allows humans to review and approve tasks performed by agents, ensuring accuracy and reliability in AI-driven processes.\n- Observability and Flow Validation: Flowise offers full execution traces and flow validation to help debug issues, optimize performance, and minimize configuration errors.\n\nPricing Model: Open-source with potential enterprise support\nPricing Tiers:\n- Free: Open-source version available for download and use, with community support.\n- Enterprise: Details not explicitly provided, but Flowise is used by large companies like Thermo Fisher and Deloitte, suggesting customized enterprise solutions.\nFree Trial: No specific free trial mentioned; however, users can try it out for free on Flowise Cloud.\n\nUse Cases:\n- Building No-Code SQL Chatbots: Flowise can be used to create chatbots that interact with SQL databases without requiring extensive coding knowledge.\n- Developing Multi-Agent Systems: Flowise is ideal for creating complex workflows involving multiple AI agents, useful in scenarios like autonomous vehicles or smart home automation.\n- Creating LLM Apps: Users can build applications using large language models (LLMs) with Flowise, enabling advanced text processing and generation capabilities.\n\nTarget Audience: Flowise is designed for developers and organizations looking to build AI applications, particularly those interested in visual development tools. It is suitable for companies of all sizes, from startups to large enterprises like Fortune 500 companies, across various industries such as technology, healthcare, and finance.\n\nCategories: Open Source, Developer Tools, Artificial Intelligence, GitHub\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965334",
+    "name": "OpenMemory MCP",
+    "tagline": "Your private, local memory layer for all AI tools",
+    "description": "OpenMemory MCP is a private, local-first memory layer with a built-in UI, compatible with all MCP-clients. It ensures all memory stays local, structured, and under your control with no cloud sync or external storage.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Artificial Intelligence",
+      "GitHub",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/Q3HJVUSINRU47R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 121,
+    "product_id": "965334",
+    "detailed_description": "OpenMemory MCP is a private, local-first memory layer designed to provide a shared, persistent memory infrastructure for AI tools that support the Model Context Protocol (MCP). It enables AI clients to store, retrieve, and manage memory objects locally on the user's machine, ensuring data sovereignty and privacy by avoiding cloud storage. The system uses a vector store backend (Qdrant) for semantic indexing of memories, allowing efficient and meaningful memory search and retrieval. It supports full audit logging and fine-grained access control, including the ability to pause or revoke client access at the application or memory level. OpenMemory MCP runs on local infrastructure using Docker, Postgres, and Qdrant, and includes a built-in UI for memory visibility, auditing, and manual control. By providing a unified memory layer across different AI tools, it solves the problem of context loss and fragmented memory in AI workflows, enabling seamless context handoff and persistent learning across sessions and applications.",
+    "features": [
+      "Private, local-first architecture that stores all memory data on the user's machine, ensuring complete data privacy and no external cloud dependency.",
+      "Vector-backed memory storage using Qdrant, enabling semantic indexing and efficient retrieval of memories based on meaning rather than just keywords.",
+      "Full support for the Model Context Protocol (MCP) with standard memory operations such as add_memories, search_memory, list_memories, and delete_all_memories, promoting interoperability across MCP-compatible AI clients.",
+      "Built-in UI for observability, auditing, and manual control of memory data, allowing users to monitor memory usage and manage access permissions easily.",
+      "Fine-grained access control and audit logs that allow pausing or revoking client access at the application or memory level, enhancing security and governance."
+    ],
+    "pricing": {
+      "model": "Open-source / Free to use",
+      "tiers": [
+        "Free tier: Full access to all core features including local memory storage, vector indexing, built-in UI, and audit controls with no cloud sync.",
+        "Tier 1: Not applicable - product is open-source and free.",
+        "Tier 2: Not applicable - product is open-source and free.",
+        "Enterprise: No specific enterprise pricing publicly available; as an open-source solution, it can be self-hosted and customized for enterprise needs."
+      ],
+      "free_trial": "Not applicable as the product is open-source and free to use.",
+      "additional_info": "Users deploy OpenMemory MCP on their own infrastructure using Docker, Postgres, and Qdrant, with no mandatory cloud components."
+    },
+    "use_cases": [
+      "Developers building AI assistants that require persistent, shared memory across multiple tools and sessions to maintain context and improve user experience.",
+      "Organizations needing to keep sensitive AI interaction data fully private and local, avoiding cloud storage due to compliance or security requirements.",
+      "Teams using multiple MCP-compatible AI clients who want a unified memory layer to enable seamless context sharing and continuity across different applications."
+    ],
+    "target_audience": "OpenMemory MCP is designed for AI developers, data scientists, and organizations of any size who require a private, local memory solution for AI tools. It is particularly suited for industries with strict data privacy needs such as healthcare, finance, and enterprise software, as well as open-source enthusiasts and teams building complex AI workflows that benefit from persistent, shared context.",
+    "embedding_text": "Product: OpenMemory MCP\n\nDescription: OpenMemory MCP is a private, local-first memory layer designed to provide a shared, persistent memory infrastructure for AI tools that support the Model Context Protocol (MCP). It enables AI clients to store, retrieve, and manage memory objects locally on the user's machine, ensuring data sovereignty and privacy by avoiding cloud storage. The system uses a vector store backend (Qdrant) for semantic indexing of memories, allowing efficient and meaningful memory search and retrieval. It supports full audit logging and fine-grained access control, including the ability to pause or revoke client access at the application or memory level. OpenMemory MCP runs on local infrastructure using Docker, Postgres, and Qdrant, and includes a built-in UI for memory visibility, auditing, and manual control. By providing a unified memory layer across different AI tools, it solves the problem of context loss and fragmented memory in AI workflows, enabling seamless context handoff and persistent learning across sessions and applications.\n\nKey Features:\n- Private, local-first architecture that stores all memory data on the user's machine, ensuring complete data privacy and no external cloud dependency.\n- Vector-backed memory storage using Qdrant, enabling semantic indexing and efficient retrieval of memories based on meaning rather than just keywords.\n- Full support for the Model Context Protocol (MCP) with standard memory operations such as add_memories, search_memory, list_memories, and delete_all_memories, promoting interoperability across MCP-compatible AI clients.\n- Built-in UI for observability, auditing, and manual control of memory data, allowing users to monitor memory usage and manage access permissions easily.\n- Fine-grained access control and audit logs that allow pausing or revoking client access at the application or memory level, enhancing security and governance.\n\nPricing Model: Open-source / Free to use\nPricing Tiers:\n- Free tier: Full access to all core features including local memory storage, vector indexing, built-in UI, and audit controls with no cloud sync.\n- Tier 1: Not applicable - product is open-source and free.\n- Tier 2: Not applicable - product is open-source and free.\n- Enterprise: No specific enterprise pricing publicly available; as an open-source solution, it can be self-hosted and customized for enterprise needs.\nFree Trial: Not applicable as the product is open-source and free to use.\n\nUse Cases:\n- Developers building AI assistants that require persistent, shared memory across multiple tools and sessions to maintain context and improve user experience.\n- Organizations needing to keep sensitive AI interaction data fully private and local, avoiding cloud storage due to compliance or security requirements.\n- Teams using multiple MCP-compatible AI clients who want a unified memory layer to enable seamless context sharing and continuity across different applications.\n\nTarget Audience: OpenMemory MCP is designed for AI developers, data scientists, and organizations of any size who require a private, local memory solution for AI tools. It is particularly suited for industries with strict data privacy needs such as healthcare, finance, and enterprise software, as well as open-source enthusiasts and teams building complex AI workflows that benefit from persistent, shared context.\n\nCategories: Open Source, Artificial Intelligence, GitHub, Development\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965345",
+    "name": "HubSpot Meeting Scheduler in Email",
+    "tagline": "More meetings. Less drop-offs.",
+    "description": "Mailmodo presents the Hubspot meeting widget in interactive emails, which allows - 📅 Prospects to book meetings inside the email 📈 Removes all redirects, landing pages, or drop-offs 💌 10X demos, onboarding sessions, support calls.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Email Marketing",
+      "SaaS"
+    ],
+    "website": "https://www.producthunt.com/r/2LLB2JAH2GLEOJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 119,
+    "product_id": "965345",
+    "detailed_description": "HubSpot Meeting Scheduler is designed to streamline the process of scheduling meetings by eliminating the back-and-forth communication typically involved in finding a suitable time slot. It allows prospects to book meetings directly with team members using a shareable link, ensuring that meetings are scheduled efficiently and reducing drop-offs. The tool integrates seamlessly with Google and Office 365 calendars, ensuring real-time availability and preventing double-booking. It also automates meeting preparation and follow-up with an AI assistant, enhancing productivity and improving the overall meeting experience. By integrating with HubSpot's CRM, it provides a comprehensive view of each prospect's journey, facilitating better lead management and nurturing. The tagline 'More meetings. Less drop-offs' highlights its focus on increasing meeting conversions while minimizing cancellations or no-shows. Overall, it enhances collaboration and communication among team members and with clients, making it a valuable tool for sales and marketing teams.",
+    "features": [
+      "Shareable Meeting Links: Allows prospects to book meetings directly with team members, reducing the need for lengthy email exchanges and ensuring a smoother scheduling process.",
+      "Calendar Integration: Seamlessly integrates with Google and Office 365 calendars to ensure real-time availability and prevent double-booking, making scheduling more efficient.",
+      "AI Meeting Assistant: Automates meeting preparation and follow-up, enhancing productivity and ensuring that all necessary steps are taken before and after meetings.",
+      "CRM Integration: Automatically logs interactions in HubSpot's CRM, providing a complete view of each prospect's journey and facilitating better lead management.",
+      "Automated Follow-ups: Triggers automated follow-up emails or notifications, ensuring that leads receive timely and relevant information, which helps in maintaining a consistent and personalized approach."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Includes basic meeting scheduling features, integration with HubSpot CRM, and limited automation capabilities.",
+        "Tier 1 (Starter): Typically includes more advanced features like additional automation and customization options, though specific details may vary.",
+        "Tier 2 (Pro/Professional): Offers more comprehensive features, including advanced CRM integration, more automation options, and possibly more users or meetings.",
+        "Enterprise: Customized solutions for large businesses, including advanced support, security, and scalability options."
+      ],
+      "free_trial": "No specific free trial mentioned, but the free tier is available without a credit card requirement.",
+      "additional_info": "Pricing details can vary based on the specific plan and features chosen, with more advanced tiers offering additional functionality and support."
+    },
+    "use_cases": [
+      "Sales Teams: Useful for sales teams to efficiently schedule meetings with prospects, automate follow-ups, and manage leads more effectively.",
+      "Marketing Teams: Beneficial for marketing teams to streamline event scheduling, such as webinars or product demos, and ensure consistent communication with attendees.",
+      "Customer Success Teams: Helps customer success teams to schedule regular check-ins with clients, ensuring timely support and improving customer satisfaction."
+    ],
+    "target_audience": "HubSpot Meeting Scheduler is designed for businesses of all sizes, particularly those in sales, marketing, and customer success roles across various industries. It is especially beneficial for teams that frequently schedule meetings with clients or prospects.",
+    "embedding_text": "Product: HubSpot Meeting Scheduler in Email\n\nDescription: HubSpot Meeting Scheduler is designed to streamline the process of scheduling meetings by eliminating the back-and-forth communication typically involved in finding a suitable time slot. It allows prospects to book meetings directly with team members using a shareable link, ensuring that meetings are scheduled efficiently and reducing drop-offs. The tool integrates seamlessly with Google and Office 365 calendars, ensuring real-time availability and preventing double-booking. It also automates meeting preparation and follow-up with an AI assistant, enhancing productivity and improving the overall meeting experience. By integrating with HubSpot's CRM, it provides a comprehensive view of each prospect's journey, facilitating better lead management and nurturing. The tagline 'More meetings. Less drop-offs' highlights its focus on increasing meeting conversions while minimizing cancellations or no-shows. Overall, it enhances collaboration and communication among team members and with clients, making it a valuable tool for sales and marketing teams.\n\nKey Features:\n- Shareable Meeting Links: Allows prospects to book meetings directly with team members, reducing the need for lengthy email exchanges and ensuring a smoother scheduling process.\n- Calendar Integration: Seamlessly integrates with Google and Office 365 calendars to ensure real-time availability and prevent double-booking, making scheduling more efficient.\n- AI Meeting Assistant: Automates meeting preparation and follow-up, enhancing productivity and ensuring that all necessary steps are taken before and after meetings.\n- CRM Integration: Automatically logs interactions in HubSpot's CRM, providing a complete view of each prospect's journey and facilitating better lead management.\n- Automated Follow-ups: Triggers automated follow-up emails or notifications, ensuring that leads receive timely and relevant information, which helps in maintaining a consistent and personalized approach.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Includes basic meeting scheduling features, integration with HubSpot CRM, and limited automation capabilities.\n- Tier 1 (Starter): Typically includes more advanced features like additional automation and customization options, though specific details may vary.\n- Tier 2 (Pro/Professional): Offers more comprehensive features, including advanced CRM integration, more automation options, and possibly more users or meetings.\n- Enterprise: Customized solutions for large businesses, including advanced support, security, and scalability options.\nFree Trial: No specific free trial mentioned, but the free tier is available without a credit card requirement.\n\nUse Cases:\n- Sales Teams: Useful for sales teams to efficiently schedule meetings with prospects, automate follow-ups, and manage leads more effectively.\n- Marketing Teams: Beneficial for marketing teams to streamline event scheduling, such as webinars or product demos, and ensure consistent communication with attendees.\n- Customer Success Teams: Helps customer success teams to schedule regular check-ins with clients, ensuring timely support and improving customer satisfaction.\n\nTarget Audience: HubSpot Meeting Scheduler is designed for businesses of all sizes, particularly those in sales, marketing, and customer success roles across various industries. It is especially beneficial for teams that frequently schedule meetings with clients or prospects.\n\nCategories: Email, Email Marketing, SaaS\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965528",
+    "name": "Mukh.1",
+    "tagline": "Automate work with AI Agents",
+    "description": "Mukh.1 is a no‑code visual builder that lets you drag‑drop AI agents, RAG, tools and multi‑agent workflows. Launch in minutes, monitor and scale across 2,500+ integrations, enterprise‑ready, MENA‑first. Click. Create. Automate. Join us - Start for Free Today.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "No-Code"
+    ],
+    "website": "https://www.producthunt.com/r/MVYOCHYSK6R7KN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 118,
+    "product_id": "965528",
+    "detailed_description": "Mukh.1 is a no-code visual builder designed to automate work using AI agents. It allows users to create and manage workflows by dragging and dropping elements, making it accessible to those without extensive coding knowledge. The platform integrates with various apps and platforms, enabling seamless automation across different systems. Mukh.1 aims to simplify workflows, reduce errors, and free up time for more strategic tasks. It supports the creation of conversational agents and multi-agent workflows, which can be used for tasks like data processing, reporting, and notifications. By automating routine tasks, Mukh.1 helps increase operational efficiency and reduce complexity in workflows.",
+    "features": [
+      "AI-Powered Automation: Mukh.1 uses AI to automate tasks, allowing users to focus on higher-value activities. This feature simplifies complex workflows and reduces manual errors.",
+      "No-Code Interface: The platform offers a drag-and-drop interface, making it easy for users to create and manage AI agents without needing to write code.",
+      "Multi-Agent Workflows: Users can construct complex workflows using multiple agents, which can be supervised and coordinated to achieve specific business outcomes.",
+      "Conversational Agents: Mukh.1 supports the creation of conversational agents that can interact with websites and extract information, enhancing data collection and processing capabilities.",
+      "Integration with Apps: The platform seamlessly integrates with over 2,500 apps and platforms, allowing users to automate tasks across different systems and tools."
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Limited features and usage, suitable for small-scale automation tasks",
+        "Tier 1: Basic, includes more features and support for small businesses",
+        "Tier 2: Pro, offers advanced features and support for larger businesses",
+        "Enterprise: Customized solutions for large enterprises with extensive automation needs"
+      ],
+      "free_trial": "Available for testing the platform's capabilities before committing to a paid plan",
+      "additional_info": "Pricing details are not explicitly listed on the provided sources, but it typically follows a tiered subscription model based on the scale of automation and support required."
+    },
+    "use_cases": [
+      "Automating Data Processing: Mukh.1 can be used to automate data extraction, processing, and reporting tasks, freeing up time for data analysis and strategic decision-making.",
+      "Enhancing Customer Service: The conversational agents can be used to automate customer service interactions, providing quick and efficient support to customers.",
+      "Streamlining Workflows: By automating routine tasks, Mukh.1 helps organizations streamline their workflows, reducing errors and increasing productivity."
+    ],
+    "target_audience": "Mukh.1 is designed for businesses of all sizes, particularly those looking to automate repetitive tasks and improve operational efficiency. It is suitable for roles such as operations managers, IT professionals, and business analysts across various industries.",
+    "embedding_text": "Product: Mukh.1\n\nDescription: Mukh.1 is a no-code visual builder designed to automate work using AI agents. It allows users to create and manage workflows by dragging and dropping elements, making it accessible to those without extensive coding knowledge. The platform integrates with various apps and platforms, enabling seamless automation across different systems. Mukh.1 aims to simplify workflows, reduce errors, and free up time for more strategic tasks. It supports the creation of conversational agents and multi-agent workflows, which can be used for tasks like data processing, reporting, and notifications. By automating routine tasks, Mukh.1 helps increase operational efficiency and reduce complexity in workflows.\n\nKey Features:\n- AI-Powered Automation: Mukh.1 uses AI to automate tasks, allowing users to focus on higher-value activities. This feature simplifies complex workflows and reduces manual errors.\n- No-Code Interface: The platform offers a drag-and-drop interface, making it easy for users to create and manage AI agents without needing to write code.\n- Multi-Agent Workflows: Users can construct complex workflows using multiple agents, which can be supervised and coordinated to achieve specific business outcomes.\n- Conversational Agents: Mukh.1 supports the creation of conversational agents that can interact with websites and extract information, enhancing data collection and processing capabilities.\n- Integration with Apps: The platform seamlessly integrates with over 2,500 apps and platforms, allowing users to automate tasks across different systems and tools.\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Limited features and usage, suitable for small-scale automation tasks\n- Tier 1: Basic, includes more features and support for small businesses\n- Tier 2: Pro, offers advanced features and support for larger businesses\n- Enterprise: Customized solutions for large enterprises with extensive automation needs\nFree Trial: Available for testing the platform's capabilities before committing to a paid plan\n\nUse Cases:\n- Automating Data Processing: Mukh.1 can be used to automate data extraction, processing, and reporting tasks, freeing up time for data analysis and strategic decision-making.\n- Enhancing Customer Service: The conversational agents can be used to automate customer service interactions, providing quick and efficient support to customers.\n- Streamlining Workflows: By automating routine tasks, Mukh.1 helps organizations streamline their workflows, reducing errors and increasing productivity.\n\nTarget Audience: Mukh.1 is designed for businesses of all sizes, particularly those looking to automate repetitive tasks and improve operational efficiency. It is suitable for roles such as operations managers, IT professionals, and business analysts across various industries.\n\nCategories: Productivity, Artificial Intelligence, No-Code\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "962798",
+    "name": "Files Magic AI ",
+    "tagline": "AI based Files Organization for macOS",
+    "description": "Don't have time to organize ? Introducing Files Magic AI - Your AI File Organizer for mac.Files Magic AI is your AI file assistant that instantly Organizes all your files with AI and removes clutter and automatically keeps your selected folders organized.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Tech"
+    ],
+    "website": "https://www.producthunt.com/r/TUZPV77QULODL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 118,
+    "product_id": "962798",
+    "detailed_description": "Files Magic AI is an AI-based file organization tool designed specifically for macOS. Its main purpose is to help users automatically organize and manage their files using artificial intelligence, reducing the time and effort required to sort through large volumes of documents, images, and other file types. By leveraging AI, it can intelligently categorize files, making it easier to locate and maintain a clean file system. This product addresses common problems such as cluttered desktops, inefficient manual file sorting, and difficulty in finding files quickly. It enhances productivity by streamlining file management and supports macOS users who need a smarter way to handle their digital workspace. The AI-driven approach ensures continuous learning and adaptation to user preferences over time. Overall, Files Magic AI aims to transform file organization into a seamless, automated process for Mac users.",
+    "features": [
+      "AI-powered automatic file categorization that intelligently sorts files into relevant folders, saving users time and effort in manual organization.",
+      "Smart tagging and metadata extraction to enhance searchability and quick retrieval of files based on content and context.",
+      "Integration with macOS native file system for seamless operation without disrupting existing workflows.",
+      "Continuous learning algorithm that adapts to user behavior and preferences to improve file organization accuracy over time.",
+      "User-friendly interface designed for macOS that allows easy customization and control over file organization rules and settings."
+    ],
+    "pricing": {
+      "model": "Freemium with in-app purchases and subscription options",
+      "tiers": [
+        "Free tier: Basic file organization features with limited AI capabilities and standard support.",
+        "Magic+ (1 Month): $1.99, includes enhanced AI features and priority support.",
+        "Magic+ (6 Months): $4.99, mid-term subscription with full AI features and updates.",
+        "Magic+ (1 Year): $11.90, full access to all AI organization tools and premium support.",
+        "Magic+ (Lifetime): $14.99, one-time purchase for unlimited access to all features.",
+        "Magic Unlimited (1 Month): $2.99, includes unlimited AI usage and advanced customization.",
+        "Magic Unlimited (6 Months): $8.99, mid-term unlimited plan with all premium features.",
+        "Magic Unlimited (Lifetime): $14.99, lifetime access to unlimited AI organization capabilities."
+      ],
+      "free_trial": "The app is free to download and use with basic features; premium features are available through in-app purchases and subscriptions, but no explicit free trial period is mentioned.",
+      "additional_info": "Some in-app purchases and subscriptions support Family Sharing, allowing sharing with family members."
+    },
+    "use_cases": [
+      "A freelance graphic designer managing thousands of project files and images who needs to quickly organize and retrieve assets without manual sorting.",
+      "A business professional who accumulates numerous documents and reports daily and requires an automated system to keep files categorized and accessible.",
+      "A macOS user with a cluttered desktop and downloads folder who wants to maintain a clean and organized file system effortlessly using AI."
+    ],
+    "target_audience": "This product is designed for individual macOS users including freelancers, creatives, business professionals, and small to medium-sized teams who require efficient file management. It is suitable for users who handle large volumes of files regularly and seek to improve productivity through automation. The tool is ideal for those in industries such as design, software development, content creation, and office administration.",
+    "embedding_text": "Product: Files Magic AI \n\nDescription: Files Magic AI is an AI-based file organization tool designed specifically for macOS. Its main purpose is to help users automatically organize and manage their files using artificial intelligence, reducing the time and effort required to sort through large volumes of documents, images, and other file types. By leveraging AI, it can intelligently categorize files, making it easier to locate and maintain a clean file system. This product addresses common problems such as cluttered desktops, inefficient manual file sorting, and difficulty in finding files quickly. It enhances productivity by streamlining file management and supports macOS users who need a smarter way to handle their digital workspace. The AI-driven approach ensures continuous learning and adaptation to user preferences over time. Overall, Files Magic AI aims to transform file organization into a seamless, automated process for Mac users.\n\nKey Features:\n- AI-powered automatic file categorization that intelligently sorts files into relevant folders, saving users time and effort in manual organization.\n- Smart tagging and metadata extraction to enhance searchability and quick retrieval of files based on content and context.\n- Integration with macOS native file system for seamless operation without disrupting existing workflows.\n- Continuous learning algorithm that adapts to user behavior and preferences to improve file organization accuracy over time.\n- User-friendly interface designed for macOS that allows easy customization and control over file organization rules and settings.\n\nPricing Model: Freemium with in-app purchases and subscription options\nPricing Tiers:\n- Free tier: Basic file organization features with limited AI capabilities and standard support.\n- Magic+ (1 Month): $1.99, includes enhanced AI features and priority support.\n- Magic+ (6 Months): $4.99, mid-term subscription with full AI features and updates.\n- Magic+ (1 Year): $11.90, full access to all AI organization tools and premium support.\n- Magic+ (Lifetime): $14.99, one-time purchase for unlimited access to all features.\n- Magic Unlimited (1 Month): $2.99, includes unlimited AI usage and advanced customization.\n- Magic Unlimited (6 Months): $8.99, mid-term unlimited plan with all premium features.\n- Magic Unlimited (Lifetime): $14.99, lifetime access to unlimited AI organization capabilities.\nFree Trial: The app is free to download and use with basic features; premium features are available through in-app purchases and subscriptions, but no explicit free trial period is mentioned.\n\nUse Cases:\n- A freelance graphic designer managing thousands of project files and images who needs to quickly organize and retrieve assets without manual sorting.\n- A business professional who accumulates numerous documents and reports daily and requires an automated system to keep files categorized and accessible.\n- A macOS user with a cluttered desktop and downloads folder who wants to maintain a clean and organized file system effortlessly using AI.\n\nTarget Audience: This product is designed for individual macOS users including freelancers, creatives, business professionals, and small to medium-sized teams who require efficient file management. It is suitable for users who handle large volumes of files regularly and seek to improve productivity through automation. The tool is ideal for those in industries such as design, software development, content creation, and office administration.\n\nCategories: Productivity, Artificial Intelligence, Tech\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "964508",
+    "name": "1Stroke",
+    "tagline": "Right click and reply with AI",
+    "description": "Right-click any text field, select \"Reply with AI\" and 1Stroke generates context-aware responses for emails, chats, social media, or reviews. 100% customizable to match your tone and brand. Try it free—works everywhere you type online.",
+    "category": "Chrome Extensions",
+    "topics": [
+      "Chrome Extensions",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/MC3WKBI2ZS36W4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 115,
+    "product_id": "964508",
+    "detailed_description": "1Stroke is an innovative tool designed to simplify and streamline online communication by leveraging AI to generate context-aware responses. Users can right-click on any text field and select 'Reply with AI' to create instant, personalized responses for emails, chats, social media, or reviews. This tool is fully customizable, allowing users to match their tone and brand voice seamlessly. It aims to reduce the time spent on crafting responses, making it ideal for individuals and businesses seeking to enhance productivity and maintain consistency across various digital platforms.",
+    "features": [
+      "Context-aware responses: 1Stroke uses AI to analyze the context of the conversation and generate responses that are relevant and appropriate.",
+      "Customization: Users can adjust the tone and style of the responses to fit their personal or brand voice, ensuring consistency across different communication channels.",
+      "Multi-platform compatibility: 1Stroke works across various platforms, including emails, social media, and chat applications, making it versatile for different communication needs.",
+      "Efficiency: By automating the response generation process, users can save time and focus on more critical tasks.",
+      "Accessibility: The tool is accessible via a simple right-click option, making it easy to use without needing to navigate through multiple menus or apps."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: Offers basic features for generating AI responses, suitable for casual users.",
+        "No specific tier details available: The product is newly launched, and detailed pricing tiers may not be fully disclosed yet."
+      ],
+      "free_trial": "1Stroke is available for free trial, allowing users to test its features before deciding on any paid upgrades.",
+      "additional_info": "As a new product, detailed pricing information might evolve over time as it gains more traction and user feedback."
+    },
+    "use_cases": [
+      "Customer Service: 1Stroke can be used by customer service teams to quickly respond to customer inquiries across multiple platforms, ensuring timely and personalized communication.",
+      "Social Media Management: For social media managers, 1Stroke helps in crafting consistent and engaging responses to comments and messages, enhancing brand interaction.",
+      "Personal Productivity: Individuals can use 1Stroke to streamline their personal communication, such as responding to emails or social media messages more efficiently."
+    ],
+    "target_audience": "1Stroke is designed for individuals and businesses of all sizes, particularly those who frequently engage in online communication. It is suitable for roles such as customer service representatives, social media managers, and anyone looking to enhance their digital communication efficiency.",
+    "embedding_text": "Product: 1Stroke\n\nDescription: 1Stroke is an innovative tool designed to simplify and streamline online communication by leveraging AI to generate context-aware responses. Users can right-click on any text field and select 'Reply with AI' to create instant, personalized responses for emails, chats, social media, or reviews. This tool is fully customizable, allowing users to match their tone and brand voice seamlessly. It aims to reduce the time spent on crafting responses, making it ideal for individuals and businesses seeking to enhance productivity and maintain consistency across various digital platforms.\n\nKey Features:\n- Context-aware responses: 1Stroke uses AI to analyze the context of the conversation and generate responses that are relevant and appropriate.\n- Customization: Users can adjust the tone and style of the responses to fit their personal or brand voice, ensuring consistency across different communication channels.\n- Multi-platform compatibility: 1Stroke works across various platforms, including emails, social media, and chat applications, making it versatile for different communication needs.\n- Efficiency: By automating the response generation process, users can save time and focus on more critical tasks.\n- Accessibility: The tool is accessible via a simple right-click option, making it easy to use without needing to navigate through multiple menus or apps.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: Offers basic features for generating AI responses, suitable for casual users.\n- No specific tier details available: The product is newly launched, and detailed pricing tiers may not be fully disclosed yet.\nFree Trial: 1Stroke is available for free trial, allowing users to test its features before deciding on any paid upgrades.\n\nUse Cases:\n- Customer Service: 1Stroke can be used by customer service teams to quickly respond to customer inquiries across multiple platforms, ensuring timely and personalized communication.\n- Social Media Management: For social media managers, 1Stroke helps in crafting consistent and engaging responses to comments and messages, enhancing brand interaction.\n- Personal Productivity: Individuals can use 1Stroke to streamline their personal communication, such as responding to emails or social media messages more efficiently.\n\nTarget Audience: 1Stroke is designed for individuals and businesses of all sizes, particularly those who frequently engage in online communication. It is suitable for roles such as customer service representatives, social media managers, and anyone looking to enhance their digital communication efficiency.\n\nCategories: Chrome Extensions, SaaS, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965516",
+    "name": "PhraseClip",
+    "tagline": "Improve your vocabulary as you browse the web",
+    "description": "Browsing the web in a non-native language? PhraseClip lets you highlight any word or phrase and see an instant translation right on the page. Every lookup is automatically saved to your personal dictionary with an example sentence and audio pronunciation.",
+    "category": "Education",
+    "topics": [
+      "Education",
+      "Languages",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/LOIQYJ3NEIWGUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 108,
+    "product_id": "965516",
+    "detailed_description": "PhraseClip is a browser extension designed to help users improve their vocabulary seamlessly while browsing the web. It allows users to instantly translate any word or phrase on any website and automatically saves these lookups to a personal dictionary without the need to switch tabs. Each saved word includes a sample sentence and audio pronunciation to provide better context and aid learning. The extension offers tools to organize saved words with tags and filters, and reinforces memory through interactive flashcard quizzes and daily reminders. PhraseClip supports multiple native languages for translation and is primarily compatible with Google Chrome. It aims to turn casual reading into an effective language learning experience by integrating translation, saving, and practice into one smooth workflow. The product is offered as a one-time purchase with lifetime access, including all future updates and support.",
+    "features": [
+      "Instant translation and auto-saving of any word or phrase on web pages without switching tabs, enabling seamless vocabulary building.",
+      "Example sentences automatically generated for each saved word to provide contextual understanding and improve retention.",
+      "Audio pronunciation for every saved word to help users learn correct pronunciation alongside meaning.",
+      "Organizational tools such as tagging and filtering to manage and categorize vocabulary lists efficiently.",
+      "Interactive flashcard quizzes with daily streak reminders to reinforce active recall and ensure long-term memory retention."
+    ],
+    "pricing": {
+      "model": "One-time purchase with lifetime access",
+      "tiers": [
+        "No free tier available; product requires payment for access",
+        "Lifetime Access: Special early adopter price for unlimited use of all features, including future updates and 24-hour email support",
+        "No additional paid tiers or subscription plans mentioned",
+        "No enterprise pricing details available"
+      ],
+      "free_trial": "30-day money-back guarantee allowing users to try the product risk-free",
+      "additional_info": "No recurring fees or subscriptions; just a single payment for lifetime access"
+    },
+    "use_cases": [
+      "Language learners browsing foreign language websites who want to quickly translate unfamiliar words and save them for later study.",
+      "Students and professionals aiming to expand their vocabulary efficiently while reading articles, research, or online content without interrupting their workflow.",
+      "Anyone interested in passive language acquisition by integrating vocabulary learning into everyday web browsing with minimal effort."
+    ],
+    "target_audience": "PhraseClip is designed for individual language learners, students, and professionals who read web content in foreign languages. It suits users comfortable with Google Chrome and interested in self-directed vocabulary improvement. The product targets users across various industries and education levels who want to enhance their language skills without formal classes or extensive study sessions.",
+    "embedding_text": "Product: PhraseClip\n\nDescription: PhraseClip is a browser extension designed to help users improve their vocabulary seamlessly while browsing the web. It allows users to instantly translate any word or phrase on any website and automatically saves these lookups to a personal dictionary without the need to switch tabs. Each saved word includes a sample sentence and audio pronunciation to provide better context and aid learning. The extension offers tools to organize saved words with tags and filters, and reinforces memory through interactive flashcard quizzes and daily reminders. PhraseClip supports multiple native languages for translation and is primarily compatible with Google Chrome. It aims to turn casual reading into an effective language learning experience by integrating translation, saving, and practice into one smooth workflow. The product is offered as a one-time purchase with lifetime access, including all future updates and support.\n\nKey Features:\n- Instant translation and auto-saving of any word or phrase on web pages without switching tabs, enabling seamless vocabulary building.\n- Example sentences automatically generated for each saved word to provide contextual understanding and improve retention.\n- Audio pronunciation for every saved word to help users learn correct pronunciation alongside meaning.\n- Organizational tools such as tagging and filtering to manage and categorize vocabulary lists efficiently.\n- Interactive flashcard quizzes with daily streak reminders to reinforce active recall and ensure long-term memory retention.\n\nPricing Model: One-time purchase with lifetime access\nPricing Tiers:\n- No free tier available; product requires payment for access\n- Lifetime Access: Special early adopter price for unlimited use of all features, including future updates and 24-hour email support\n- No additional paid tiers or subscription plans mentioned\n- No enterprise pricing details available\nFree Trial: 30-day money-back guarantee allowing users to try the product risk-free\n\nUse Cases:\n- Language learners browsing foreign language websites who want to quickly translate unfamiliar words and save them for later study.\n- Students and professionals aiming to expand their vocabulary efficiently while reading articles, research, or online content without interrupting their workflow.\n- Anyone interested in passive language acquisition by integrating vocabulary learning into everyday web browsing with minimal effort.\n\nTarget Audience: PhraseClip is designed for individual language learners, students, and professionals who read web content in foreign languages. It suits users comfortable with Google Chrome and interested in self-directed vocabulary improvement. The product targets users across various industries and education levels who want to enhance their language skills without formal classes or extensive study sessions.\n\nCategories: Education, Languages, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965344",
+    "name": "PixVerse V4.5",
+    "tagline": "Cinematic AI video with pro camera controls & fusion",
+    "description": "PixVerse V4.5 elevates AI video creation with 20+ cinematic camera controls, multi-element reference & fusion, and smoother handling of complex movements for more cinematic results.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Video Art",
+      "Video"
+    ],
+    "website": "https://www.producthunt.com/r/WTZDLBSZNZV2GG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105,
+    "product_id": "965344",
+    "detailed_description": "PixVerse V4.5 is an advanced AI video generation platform that transforms text prompts or photos into cinematic AI videos with professional camera controls and fusion capabilities. It enables users to create high-quality, dynamic videos from static images or simple text inputs, offering over 20 cinematic camera controls and multi-element fusion for seamless transitions and smooth handling of complex scenes. The platform supports resolutions up to 1080p, with some scenes allowing 4K upscaling, and can generate videos within seconds. PixVerse V4.5 is designed to enhance social media content creation, marketing campaigns, and creative projects by producing engaging, realistic animations that captivate audiences. Its intuitive interface and powerful AI technology make it accessible for content creators, marketers, and casual users alike, helping them boost engagement and create viral moments across platforms like TikTok, Instagram, and Twitter.",
+    "features": [
+      "Over 20 cinematic camera controls that allow users to customize video movements and angles, enhancing the storytelling and visual appeal of AI-generated videos.",
+      "Fusion feature enabling multi-element reference and seamless transitions between different video scenes or effects, resulting in smoother and more complex video compositions.",
+      "High-resolution video output options including 720p and 1080p, with some scenes supporting 4K upscaling, ensuring professional-quality video content.",
+      "Fast video generation capability, producing 5 to 8-second videos within approximately 5 seconds, which accelerates content creation workflows.",
+      "Versatile input support allowing users to create videos from text descriptions or by uploading photos, including selfies, portraits, and group images, broadening creative possibilities."
+    ],
+    "pricing": {
+      "model": "Pay-per-use with video generation costs based on duration, resolution, and motion smoothness",
+      "tiers": [
+        "Free tier: Not explicitly detailed, but trial or demo options may be available on the platform",
+        "Tier 1: Basic 5-second video at 360p resolution with normal motion costs $0.45 per video",
+        "Tier 2: Higher resolution and smooth motion options available, e.g., 5-second 1080p video with normal motion costs $1.20 per video",
+        "Enterprise: No specific enterprise pricing publicly available; likely custom pricing for large-scale or commercial use"
+      ],
+      "free_trial": "No explicit free trial details found, but users can try the platform online which may include limited free usage or demo videos",
+      "additional_info": "Pricing varies by video length (5 or 8 seconds), resolution (360p to 1080p), and motion type (normal or smooth), allowing flexible cost management based on user needs."
+    },
+    "use_cases": [
+      "Content creators producing engaging social media videos with cinematic effects to increase audience interaction and viral potential.",
+      "Marketers generating promotional video content quickly from product images or campaign text to enhance digital advertising efforts.",
+      "Individuals or hobbyists transforming personal photos into dynamic AI videos for fun, storytelling, or sharing memorable moments on social platforms."
+    ],
+    "target_audience": "PixVerse V4.5 is designed for content creators, social media influencers, digital marketers, and creative professionals across industries such as entertainment, advertising, and media. It suits individuals and companies of all sizes who seek to produce high-quality AI-generated video content efficiently, including small businesses, marketing agencies, and social media managers.",
+    "embedding_text": "Product: PixVerse V4.5\n\nDescription: PixVerse V4.5 is an advanced AI video generation platform that transforms text prompts or photos into cinematic AI videos with professional camera controls and fusion capabilities. It enables users to create high-quality, dynamic videos from static images or simple text inputs, offering over 20 cinematic camera controls and multi-element fusion for seamless transitions and smooth handling of complex scenes. The platform supports resolutions up to 1080p, with some scenes allowing 4K upscaling, and can generate videos within seconds. PixVerse V4.5 is designed to enhance social media content creation, marketing campaigns, and creative projects by producing engaging, realistic animations that captivate audiences. Its intuitive interface and powerful AI technology make it accessible for content creators, marketers, and casual users alike, helping them boost engagement and create viral moments across platforms like TikTok, Instagram, and Twitter.\n\nKey Features:\n- Over 20 cinematic camera controls that allow users to customize video movements and angles, enhancing the storytelling and visual appeal of AI-generated videos.\n- Fusion feature enabling multi-element reference and seamless transitions between different video scenes or effects, resulting in smoother and more complex video compositions.\n- High-resolution video output options including 720p and 1080p, with some scenes supporting 4K upscaling, ensuring professional-quality video content.\n- Fast video generation capability, producing 5 to 8-second videos within approximately 5 seconds, which accelerates content creation workflows.\n- Versatile input support allowing users to create videos from text descriptions or by uploading photos, including selfies, portraits, and group images, broadening creative possibilities.\n\nPricing Model: Pay-per-use with video generation costs based on duration, resolution, and motion smoothness\nPricing Tiers:\n- Free tier: Not explicitly detailed, but trial or demo options may be available on the platform\n- Tier 1: Basic 5-second video at 360p resolution with normal motion costs $0.45 per video\n- Tier 2: Higher resolution and smooth motion options available, e.g., 5-second 1080p video with normal motion costs $1.20 per video\n- Enterprise: No specific enterprise pricing publicly available; likely custom pricing for large-scale or commercial use\nFree Trial: No explicit free trial details found, but users can try the platform online which may include limited free usage or demo videos\n\nUse Cases:\n- Content creators producing engaging social media videos with cinematic effects to increase audience interaction and viral potential.\n- Marketers generating promotional video content quickly from product images or campaign text to enhance digital advertising efforts.\n- Individuals or hobbyists transforming personal photos into dynamic AI videos for fun, storytelling, or sharing memorable moments on social platforms.\n\nTarget Audience: PixVerse V4.5 is designed for content creators, social media influencers, digital marketers, and creative professionals across industries such as entertainment, advertising, and media. It suits individuals and companies of all sizes who seek to produce high-quality AI-generated video content efficiently, including small businesses, marketing agencies, and social media managers.\n\nCategories: Artificial Intelligence, Video Art, Video\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965471",
+    "name": "Friendzone",
+    "tagline": "Privacy-first second brain for relationships",
+    "description": "Friendzone is your personal CRM, crafted to deepen relationships with those who matter most. Don't let busy schedules weaken your bonds. With timely reminders and organized conversation tracking, Friendzone acts as your second brain for relationships.",
+    "category": "iOS",
+    "topics": [
+      "iOS",
+      "Productivity",
+      "CRM"
+    ],
+    "website": "https://www.producthunt.com/r/SLAAMVIZGYLWSB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 103,
+    "product_id": "965471",
+    "detailed_description": "Friendzone is a privacy-first personal CRM designed to help users nurture their relationships by acting as a 'second brain' for friendships. It offers timely reminders and organized conversation tracking, ensuring that important details about friends are never forgotten. This tool is particularly useful for individuals with busy schedules who want to maintain strong bonds with their friends and family. Friendzone helps capture, organize, and remember everything from conversations to gift ideas, making it effortless to be a thoughtful friend. It emphasizes privacy, ensuring that personal data is handled securely. By using Friendzone, users can build a rich history of their friendships and stay connected with ease. The app is available on iOS and offers a free trial period to test its features.",
+    "features": [
+      "Timely Reminders: Friendzone allows users to set reminders for important events like birthdays, anniversaries, or follow-ups, ensuring they never miss a chance to connect with friends.",
+      "Organized Conversation Tracking: Users can keep track of conversations and plans effortlessly, saving topics for future catch-ups and building a detailed history of friendships.",
+      "Smarter Note Organization: Powerful tags like 'Gift Idea' or 'In Person' can be added to notes, making it easy to find specific information instantly.",
+      "Privacy-First Approach: Friendzone prioritizes user privacy, ensuring that personal data is securely managed and protected.",
+      "Effortless Thoughtfulness: By capturing and organizing details about friends, Friendzone helps users be more thoughtful and attentive in their relationships."
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: includes basic features like note-taking and limited reminders",
+        "No specific tier details available; however, a 14-day free trial is offered to test premium features"
+      ],
+      "free_trial": "A 14-day free trial is available for users to experience premium features before deciding on a subscription.",
+      "additional_info": "Detailed pricing tiers and premium features are not explicitly listed, but the app offers a free trial to explore its capabilities."
+    },
+    "use_cases": [
+      "Staying Connected with Friends: Friendzone is useful for maintaining strong friendships by keeping track of important dates and conversations.",
+      "Professional Networking: While primarily designed for personal relationships, Friendzone can also be used to track professional connections and follow-ups.",
+      "Family Relationships: It helps family members stay updated on each other's lives, especially for those living apart or with busy schedules."
+    ],
+    "target_audience": "Friendzone is designed for individuals who value maintaining strong personal relationships, including friends, family, and potentially professional contacts. It is particularly beneficial for those with busy schedules who need help keeping track of important details and events.",
+    "embedding_text": "Product: Friendzone\n\nDescription: Friendzone is a privacy-first personal CRM designed to help users nurture their relationships by acting as a 'second brain' for friendships. It offers timely reminders and organized conversation tracking, ensuring that important details about friends are never forgotten. This tool is particularly useful for individuals with busy schedules who want to maintain strong bonds with their friends and family. Friendzone helps capture, organize, and remember everything from conversations to gift ideas, making it effortless to be a thoughtful friend. It emphasizes privacy, ensuring that personal data is handled securely. By using Friendzone, users can build a rich history of their friendships and stay connected with ease. The app is available on iOS and offers a free trial period to test its features.\n\nKey Features:\n- Timely Reminders: Friendzone allows users to set reminders for important events like birthdays, anniversaries, or follow-ups, ensuring they never miss a chance to connect with friends.\n- Organized Conversation Tracking: Users can keep track of conversations and plans effortlessly, saving topics for future catch-ups and building a detailed history of friendships.\n- Smarter Note Organization: Powerful tags like 'Gift Idea' or 'In Person' can be added to notes, making it easy to find specific information instantly.\n- Privacy-First Approach: Friendzone prioritizes user privacy, ensuring that personal data is securely managed and protected.\n- Effortless Thoughtfulness: By capturing and organizing details about friends, Friendzone helps users be more thoughtful and attentive in their relationships.\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: includes basic features like note-taking and limited reminders\n- No specific tier details available; however, a 14-day free trial is offered to test premium features\nFree Trial: A 14-day free trial is available for users to experience premium features before deciding on a subscription.\n\nUse Cases:\n- Staying Connected with Friends: Friendzone is useful for maintaining strong friendships by keeping track of important dates and conversations.\n- Professional Networking: While primarily designed for personal relationships, Friendzone can also be used to track professional connections and follow-ups.\n- Family Relationships: It helps family members stay updated on each other's lives, especially for those living apart or with busy schedules.\n\nTarget Audience: Friendzone is designed for individuals who value maintaining strong personal relationships, including friends, family, and potentially professional contacts. It is particularly beneficial for those with busy schedules who need help keeping track of important details and events.\n\nCategories: iOS, Productivity, CRM\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965281",
+    "name": "RustScan",
+    "tagline": "Fast and developer-friendly Rust contract security scanner",
+    "description": "Introducing RustScan by CredShields — go to security scanner for smart contracts built on Rust. The framework designed for speed, precision and deep threat analysis. Start securing your Rust-based contracts with confidence.",
+    "category": "Crypto",
+    "topics": [
+      "Crypto",
+      "Developer Tools",
+      "Blockchain"
+    ],
+    "website": "https://www.producthunt.com/r/QVM55Z2LV7C6XR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 101,
+    "product_id": "965281",
+    "detailed_description": "RustScan is a fast and developer-friendly security scanner designed specifically for smart contracts built on Rust. It aims to provide speed, precision, and deep threat analysis to secure Rust-based contracts. By focusing on these aspects, RustScan helps developers identify vulnerabilities early in the development process, ensuring the security and reliability of their contracts. This tool is particularly useful in the blockchain and cryptocurrency sectors, where security is paramount. RustScan's comprehensive contract scanning and precise vulnerability detection capabilities make it an essential tool for developers working with Rust-based smart contracts. It also offers audit reporting, which helps in maintaining compliance and transparency. Overall, RustScan is designed to enhance the security posture of Rust-based projects by providing a robust and efficient scanning solution.",
+    "features": [
+      "Comprehensive Contract Scanning: RustScan thoroughly examines smart contracts for potential vulnerabilities, ensuring that developers can identify and address security issues early on.",
+      "Precise Vulnerability Detection: The tool is designed to accurately detect vulnerabilities in Rust-based contracts, helping developers to secure their applications effectively.",
+      "Audit Reporting: RustScan provides detailed reports on the security status of contracts, which is crucial for maintaining compliance and transparency in blockchain projects.",
+      "Permission-less Web3 Security Layer: RustScan operates as a permission-less layer, allowing it to integrate seamlessly with various Web3 applications without requiring specific permissions.",
+      "Speed and Efficiency: RustScan is optimized for speed, enabling developers to quickly scan and secure their contracts without significant delays in the development process."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes comprehensive contract scanning, precise vulnerability detection, and audit reporting."
+      ],
+      "free_trial": "Not applicable as it is free.",
+      "additional_info": "Currently, RustScan is offered as a free tool, making it accessible to all developers without additional costs."
+    },
+    "use_cases": [
+      "Smart Contract Development: RustScan is particularly useful for developers creating smart contracts on Rust-based platforms. It helps ensure that contracts are secure and free from vulnerabilities before deployment.",
+      "Blockchain Security Audits: The tool can be used by security auditors to thoroughly examine Rust-based smart contracts for potential security risks, enhancing the overall security of blockchain applications.",
+      "Web3 Application Security: RustScan can be integrated into Web3 applications to provide a robust security layer, protecting against vulnerabilities in Rust-based contracts."
+    ],
+    "target_audience": "RustScan is designed for developers working on Rust-based smart contracts, especially those in the blockchain and cryptocurrency industries. It is suitable for both small and large-scale projects, catering to individual developers, startups, and enterprises involved in Web3 development.",
+    "embedding_text": "Product: RustScan\n\nDescription: RustScan is a fast and developer-friendly security scanner designed specifically for smart contracts built on Rust. It aims to provide speed, precision, and deep threat analysis to secure Rust-based contracts. By focusing on these aspects, RustScan helps developers identify vulnerabilities early in the development process, ensuring the security and reliability of their contracts. This tool is particularly useful in the blockchain and cryptocurrency sectors, where security is paramount. RustScan's comprehensive contract scanning and precise vulnerability detection capabilities make it an essential tool for developers working with Rust-based smart contracts. It also offers audit reporting, which helps in maintaining compliance and transparency. Overall, RustScan is designed to enhance the security posture of Rust-based projects by providing a robust and efficient scanning solution.\n\nKey Features:\n- Comprehensive Contract Scanning: RustScan thoroughly examines smart contracts for potential vulnerabilities, ensuring that developers can identify and address security issues early on.\n- Precise Vulnerability Detection: The tool is designed to accurately detect vulnerabilities in Rust-based contracts, helping developers to secure their applications effectively.\n- Audit Reporting: RustScan provides detailed reports on the security status of contracts, which is crucial for maintaining compliance and transparency in blockchain projects.\n- Permission-less Web3 Security Layer: RustScan operates as a permission-less layer, allowing it to integrate seamlessly with various Web3 applications without requiring specific permissions.\n- Speed and Efficiency: RustScan is optimized for speed, enabling developers to quickly scan and secure their contracts without significant delays in the development process.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes comprehensive contract scanning, precise vulnerability detection, and audit reporting.\nFree Trial: Not applicable as it is free.\n\nUse Cases:\n- Smart Contract Development: RustScan is particularly useful for developers creating smart contracts on Rust-based platforms. It helps ensure that contracts are secure and free from vulnerabilities before deployment.\n- Blockchain Security Audits: The tool can be used by security auditors to thoroughly examine Rust-based smart contracts for potential security risks, enhancing the overall security of blockchain applications.\n- Web3 Application Security: RustScan can be integrated into Web3 applications to provide a robust security layer, protecting against vulnerabilities in Rust-based contracts.\n\nTarget Audience: RustScan is designed for developers working on Rust-based smart contracts, especially those in the blockchain and cryptocurrency industries. It is suitable for both small and large-scale projects, catering to individual developers, startups, and enterprises involved in Web3 development.\n\nCategories: Crypto, Developer Tools, Blockchain\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965531",
+    "name": "Museboard",
+    "tagline": "Moodboarding made simple—for creators, by a creator",
+    "description": "Museboard is a fast, no-login moodboard tool built for visual creators. Drag, drop, and share your ideas instantly no clutter, just clarity. Whether you're planning a shoot, a brand, or a vibe, Museboard turns inspiration into execution, effortlessly.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "Productivity"
+    ],
+    "website": "https://www.producthunt.com/r/6P3NG75AXK5VV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 98,
+    "product_id": "965531",
+    "detailed_description": "Museboard is a fast and intuitive moodboarding tool designed specifically for visual creators. It allows users to drag, drop, and share their ideas instantly without the need for login or clutter, providing clarity and simplicity in the creative process. This tool is ideal for planning shoots, brands, or capturing a specific vibe, turning inspiration into actionable execution. By streamlining the moodboarding process, Museboard helps creators focus on their vision without unnecessary complexity. It is built by a creator for creators, ensuring it meets the needs of those in the visual arts. Museboard's simplicity and ease of use make it accessible to a wide range of users, from beginners to professionals. It is particularly beneficial for those who need to quickly visualize and communicate their ideas to others.",
+    "features": [
+      "Drag-and-drop functionality: This feature allows users to easily add images and elements to their moodboard, making it simple to visualize and arrange ideas.",
+      "No-login access: Users can start creating moodboards immediately without needing to sign up or log in, reducing barriers to entry.",
+      "Instant sharing: Once a moodboard is created, it can be shared quickly with others, facilitating collaboration and feedback.",
+      "Clutter-free interface: The tool is designed to provide a clean and organized workspace, helping users maintain focus on their creative vision.",
+      "Free usage: Museboard is available for free, making it accessible to anyone looking to create moodboards without incurring costs."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Includes full access to drag-and-drop functionality, instant sharing, and a clutter-free interface without any cost."
+      ],
+      "free_trial": "Not applicable, as Museboard is entirely free to use.",
+      "additional_info": "There are no additional costs or tiers available for Museboard at this time."
+    },
+    "use_cases": [
+      "Planning a photoshoot: Museboard can be used to quickly gather inspiration and visualize the aesthetic and mood of a photoshoot, helping to ensure that all elements align with the desired vision.",
+      "Developing a brand identity: By creating a moodboard, businesses can effectively communicate their brand's tone and style to designers and stakeholders, ensuring consistency across all marketing materials.",
+      "Capturing a specific vibe for an event: Museboard is useful for event planners who need to convey the atmosphere and style of an event to vendors and participants."
+    ],
+    "target_audience": "Museboard is designed for visual creators, including photographers, designers, event planners, and anyone involved in creative projects who need to quickly and effectively communicate their ideas and vision.",
+    "embedding_text": "Product: Museboard\n\nDescription: Museboard is a fast and intuitive moodboarding tool designed specifically for visual creators. It allows users to drag, drop, and share their ideas instantly without the need for login or clutter, providing clarity and simplicity in the creative process. This tool is ideal for planning shoots, brands, or capturing a specific vibe, turning inspiration into actionable execution. By streamlining the moodboarding process, Museboard helps creators focus on their vision without unnecessary complexity. It is built by a creator for creators, ensuring it meets the needs of those in the visual arts. Museboard's simplicity and ease of use make it accessible to a wide range of users, from beginners to professionals. It is particularly beneficial for those who need to quickly visualize and communicate their ideas to others.\n\nKey Features:\n- Drag-and-drop functionality: This feature allows users to easily add images and elements to their moodboard, making it simple to visualize and arrange ideas.\n- No-login access: Users can start creating moodboards immediately without needing to sign up or log in, reducing barriers to entry.\n- Instant sharing: Once a moodboard is created, it can be shared quickly with others, facilitating collaboration and feedback.\n- Clutter-free interface: The tool is designed to provide a clean and organized workspace, helping users maintain focus on their creative vision.\n- Free usage: Museboard is available for free, making it accessible to anyone looking to create moodboards without incurring costs.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Includes full access to drag-and-drop functionality, instant sharing, and a clutter-free interface without any cost.\nFree Trial: Not applicable, as Museboard is entirely free to use.\n\nUse Cases:\n- Planning a photoshoot: Museboard can be used to quickly gather inspiration and visualize the aesthetic and mood of a photoshoot, helping to ensure that all elements align with the desired vision.\n- Developing a brand identity: By creating a moodboard, businesses can effectively communicate their brand's tone and style to designers and stakeholders, ensuring consistency across all marketing materials.\n- Capturing a specific vibe for an event: Museboard is useful for event planners who need to convey the atmosphere and style of an event to vendors and participants.\n\nTarget Audience: Museboard is designed for visual creators, including photographers, designers, event planners, and anyone involved in creative projects who need to quickly and effectively communicate their ideas and vision.\n\nCategories: Design Tools, Productivity\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "964623",
+    "name": "Joyn",
+    "tagline": "Align product teams with the people closest to customers",
+    "description": "Real-time customer signals for product. Automated progress updates for the field. All within your existing tools.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Maker Tools"
+    ],
+    "website": "https://www.producthunt.com/r/Z5JMBZWWZT52GF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 94,
+    "product_id": "964623",
+    "detailed_description": "Joyn is an AI-driven platform designed to align product teams with the people closest to customers by automatically connecting data across development and customer tools. It provides real-time customer signals and automated progress updates within existing tools, enabling visibility into feature development, bug fixes, and release timelines. Joyn creates knowledge graphs tailored to the organization to keep context internal and ensures data privacy by encrypting data and not using it to train large language models. The platform helps avoid surprises in product changes by detecting trending topics and issues, consolidates information from multiple tools into a single source of truth, and summarizes product progress across releases and projects. It is particularly useful for engineering leaders and customer-facing teams to stay informed and aligned on customer-impacting features and initiatives. Joyn integrates with tools like GitHub to automate progress summaries, context mapping, and personalized insights, improving communication and prioritization across teams.",
+    "features": [
+      "Automated progress summaries across releases and projects that save time and keep teams updated without manual tracking.",
+      "Context mapping across multiple data sources linked to specific topics, ensuring relevant information is easily accessible and connected.",
+      "Personalized insights on trending and followed topics to help teams focus on what matters most to customers and the business.",
+      "Integration with existing tools such as GitHub, Slack, and ticketing systems to centralize product and engineering progress data.",
+      "Strong data privacy and security measures, including encryption from day one and control over what data is tracked, ensuring organizational data remains safe and private."
+    ],
+    "pricing": {
+      "model": "Subscription with free options",
+      "tiers": [
+        "Free tier: Connect GitHub repositories and access basic trending topic reports and progress summaries for free.",
+        "Tier 1: Details not publicly specified; likely includes enhanced integrations and advanced insights.",
+        "Tier 2: Details not publicly specified; likely tailored for larger teams with more features.",
+        "Enterprise: Custom plans available with dedicated support and advanced security features."
+      ],
+      "free_trial": "Access to initial trending topic reports and basic features is available via a waitlist sign-up, effectively serving as a free trial.",
+      "additional_info": "Users need admin access to GitHub to approve integration. Pricing details beyond the free tier are not publicly disclosed and may require contacting Joyn for custom plans."
+    },
+    "use_cases": [
+      "Engineering leaders needing real-time visibility into feature development and release progress to avoid surprises and improve planning.",
+      "Customer-facing teams requiring automated updates and insights about product changes and customer feedback without manually checking multiple tools.",
+      "Product teams aiming to connect development work with customer impact by linking revenue data and customer signals to prioritize features effectively."
+    ],
+    "target_audience": "Joyn is designed for product and engineering teams within organizations of various sizes, especially those with cross-functional teams including R&D and customer-facing roles. It is suitable for companies in technology and software development sectors that require alignment between development progress and customer insights, including startups to enterprises looking for secure, integrated product management solutions.",
+    "embedding_text": "Product: Joyn\n\nDescription: Joyn is an AI-driven platform designed to align product teams with the people closest to customers by automatically connecting data across development and customer tools. It provides real-time customer signals and automated progress updates within existing tools, enabling visibility into feature development, bug fixes, and release timelines. Joyn creates knowledge graphs tailored to the organization to keep context internal and ensures data privacy by encrypting data and not using it to train large language models. The platform helps avoid surprises in product changes by detecting trending topics and issues, consolidates information from multiple tools into a single source of truth, and summarizes product progress across releases and projects. It is particularly useful for engineering leaders and customer-facing teams to stay informed and aligned on customer-impacting features and initiatives. Joyn integrates with tools like GitHub to automate progress summaries, context mapping, and personalized insights, improving communication and prioritization across teams.\n\nKey Features:\n- Automated progress summaries across releases and projects that save time and keep teams updated without manual tracking.\n- Context mapping across multiple data sources linked to specific topics, ensuring relevant information is easily accessible and connected.\n- Personalized insights on trending and followed topics to help teams focus on what matters most to customers and the business.\n- Integration with existing tools such as GitHub, Slack, and ticketing systems to centralize product and engineering progress data.\n- Strong data privacy and security measures, including encryption from day one and control over what data is tracked, ensuring organizational data remains safe and private.\n\nPricing Model: Subscription with free options\nPricing Tiers:\n- Free tier: Connect GitHub repositories and access basic trending topic reports and progress summaries for free.\n- Tier 1: Details not publicly specified; likely includes enhanced integrations and advanced insights.\n- Tier 2: Details not publicly specified; likely tailored for larger teams with more features.\n- Enterprise: Custom plans available with dedicated support and advanced security features.\nFree Trial: Access to initial trending topic reports and basic features is available via a waitlist sign-up, effectively serving as a free trial.\n\nUse Cases:\n- Engineering leaders needing real-time visibility into feature development and release progress to avoid surprises and improve planning.\n- Customer-facing teams requiring automated updates and insights about product changes and customer feedback without manually checking multiple tools.\n- Product teams aiming to connect development work with customer impact by linking revenue data and customer signals to prioritize features effectively.\n\nTarget Audience: Joyn is designed for product and engineering teams within organizations of various sizes, especially those with cross-functional teams including R&D and customer-facing roles. It is suitable for companies in technology and software development sectors that require alignment between development progress and customer insights, including startups to enterprises looking for secure, integrated product management solutions.\n\nCategories: Productivity, Artificial Intelligence, Maker Tools\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965089",
+    "name": "Phala Cloud",
+    "tagline": "Zero-trust cloud for safe AGI",
+    "description": "Build and run safe AGI on Phala Cloud— a zero-trust confidential compute platform for AI teams. Spin up TEE CPU & GPUs in seconds, keep AI encrypted end-to-end. Get 30 days of free credits on launch.",
+    "category": "Developer Tools",
+    "topics": [
+      "Developer Tools",
+      "Artificial Intelligence",
+      "GitHub",
+      "SDK"
+    ],
+    "website": "https://www.producthunt.com/r/XKFPYOAZGSZHZ7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 92,
+    "product_id": "965089",
+    "detailed_description": "Phala Cloud is a zero-trust confidential compute platform designed specifically for AI teams to build and run safe Artificial General Intelligence (AGI). It enables users to spin up Trusted Execution Environment (TEE) CPUs and GPUs within seconds, ensuring that AI computations remain encrypted end-to-end. The platform leverages a hybrid infrastructure combining TEEs, Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and blockchain game theory to create a new root-of-trust that is auditable and tamper-proof. Phala Cloud facilitates secure, privacy-preserving off-chain computations with verifiable integrity, allowing developers to migrate existing workloads easily and run serverless edge functions in secure environments. It also supports seamless integration from Web2 to Web3, enabling AI applications to interact with smart contracts across blockchains. By providing cryptographic proof of computation correctness via on-chain attestation, Phala Cloud addresses fundamental challenges in privacy, security, and trust in AI and Web3 ecosystems.",
+    "features": [
+      "Zero-trust confidential compute platform that ensures AI computations are encrypted end-to-end, protecting sensitive data and models from exposure.",
+      "Instant provisioning of TEE CPUs and GPUs, allowing AI teams to quickly deploy secure compute resources tailored for confidential AI workloads.",
+      "Support for Docker and VM migration into TEEs, enabling developers to easily transition existing applications into a zero-trust environment without extensive rework.",
+      "On-chain attestation and auditable logs for off-chain computations, providing verifiable proof of execution integrity and tamper-proof results.",
+      "Serverless edge functions with privacy-preserving templates that run in secure TEEs, simplifying the development of decentralized, confidential AI and Web3 applications."
+    ],
+    "pricing": {
+      "model": "Freemium with free credits",
+      "tiers": [
+        "Free tier: Includes 30 days of free credits to explore and use the platform's TEE CPU & GPU resources for AI workloads.",
+        "Tier 1: Details not publicly specified; likely pay-as-you-go or subscription-based access to additional compute resources beyond free credits.",
+        "Tier 2: Not specified in available information.",
+        "Enterprise: Not detailed publicly; likely custom pricing and support for large-scale or specialized deployments."
+      ],
+      "free_trial": "30 days of free credits available at launch to allow users to test and build on the platform without initial cost.",
+      "additional_info": "Pricing beyond free credits is not explicitly disclosed; users may need to contact Phala Cloud for detailed plans or enterprise solutions."
+    },
+    "use_cases": [
+      "Deploying confidential AI agents that require tamper-proof execution and privacy, such as autonomous decision-making systems in sensitive environments.",
+      "Running privacy-preserving off-chain computations for decentralized finance (DeFi) applications, including MEV defense and private oracles.",
+      "Migrating existing AI workloads or Web2 applications into a secure, zero-trust cloud environment to leverage blockchain integration and verifiable computation."
+    ],
+    "target_audience": "AI development teams, blockchain developers, and organizations working on Web3 applications who require secure, privacy-preserving compute environments. Suitable for startups to enterprises in industries such as artificial intelligence, decentralized finance, and privacy-focused software development.",
+    "embedding_text": "Product: Phala Cloud\n\nDescription: Phala Cloud is a zero-trust confidential compute platform designed specifically for AI teams to build and run safe Artificial General Intelligence (AGI). It enables users to spin up Trusted Execution Environment (TEE) CPUs and GPUs within seconds, ensuring that AI computations remain encrypted end-to-end. The platform leverages a hybrid infrastructure combining TEEs, Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and blockchain game theory to create a new root-of-trust that is auditable and tamper-proof. Phala Cloud facilitates secure, privacy-preserving off-chain computations with verifiable integrity, allowing developers to migrate existing workloads easily and run serverless edge functions in secure environments. It also supports seamless integration from Web2 to Web3, enabling AI applications to interact with smart contracts across blockchains. By providing cryptographic proof of computation correctness via on-chain attestation, Phala Cloud addresses fundamental challenges in privacy, security, and trust in AI and Web3 ecosystems.\n\nKey Features:\n- Zero-trust confidential compute platform that ensures AI computations are encrypted end-to-end, protecting sensitive data and models from exposure.\n- Instant provisioning of TEE CPUs and GPUs, allowing AI teams to quickly deploy secure compute resources tailored for confidential AI workloads.\n- Support for Docker and VM migration into TEEs, enabling developers to easily transition existing applications into a zero-trust environment without extensive rework.\n- On-chain attestation and auditable logs for off-chain computations, providing verifiable proof of execution integrity and tamper-proof results.\n- Serverless edge functions with privacy-preserving templates that run in secure TEEs, simplifying the development of decentralized, confidential AI and Web3 applications.\n\nPricing Model: Freemium with free credits\nPricing Tiers:\n- Free tier: Includes 30 days of free credits to explore and use the platform's TEE CPU & GPU resources for AI workloads.\n- Tier 1: Details not publicly specified; likely pay-as-you-go or subscription-based access to additional compute resources beyond free credits.\n- Tier 2: Not specified in available information.\n- Enterprise: Not detailed publicly; likely custom pricing and support for large-scale or specialized deployments.\nFree Trial: 30 days of free credits available at launch to allow users to test and build on the platform without initial cost.\n\nUse Cases:\n- Deploying confidential AI agents that require tamper-proof execution and privacy, such as autonomous decision-making systems in sensitive environments.\n- Running privacy-preserving off-chain computations for decentralized finance (DeFi) applications, including MEV defense and private oracles.\n- Migrating existing AI workloads or Web2 applications into a secure, zero-trust cloud environment to leverage blockchain integration and verifiable computation.\n\nTarget Audience: AI development teams, blockchain developers, and organizations working on Web3 applications who require secure, privacy-preserving compute environments. Suitable for startups to enterprises in industries such as artificial intelligence, decentralized finance, and privacy-focused software development.\n\nCategories: Developer Tools, Artificial Intelligence, GitHub, SDK\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965231",
+    "name": "Material 3 Expressive",
+    "tagline": "Build more engaging, easy-to-use products",
+    "description": "Start building with Material 3 Expressive. Material’s latest evolution helps you make products even more engaging and easier to use.",
+    "category": "Design Tools",
+    "topics": [
+      "Design Tools",
+      "SaaS"
+    ],
+    "website": "https://www.producthunt.com/r/KJ2AXGEVKVXH6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 88,
+    "product_id": "965231",
+    "detailed_description": "Material 3 Expressive is a design update for Android and Wear OS, focusing on enhancing user experience through personalization, smoother interactions, and intuitive design elements. It builds upon the foundation of Material You, offering expanded customization options and more fluid animations to make interactions feel personal and engaging. The update includes dynamic color themes, responsive components, and refreshed typography, allowing users to personalize their device's appearance more granularly. It also introduces features like Live Updates for real-time notifications and reworked system elements for better usability. Material 3 Expressive aims to evoke positive emotions and improve usability by leveraging expressive design principles such as color, shape, size, motion, and containment. This update is designed to make Android devices more stylish and user-friendly, with a focus on personal style and helpful glanceable information. By enhancing visual personality and interaction fluidity, Material 3 Expressive seeks to create a more engaging and responsive user experience across various devices and apps.",
+    "features": [
+      "Dynamic Color Themes: Allows users to personalize their device's appearance with more granular control over colors, extending into popular Google apps like Photos and Gmail.",
+      "Responsive Components: Enhances user interaction with springy, natural movements in animations, adding subtle delight to interactions like dismissing notifications.",
+      "Refreshed Typography: Improves readability and visual appeal with updated font styles and sizes, contributing to a more intuitive interface.",
+      "Live Updates: Keeps real-time progress notifications visible and glanceable without needing to open apps, enhancing user convenience.",
+      "Reworked System Elements: Includes redesigned volume sliders and Quick Settings panels with depth effects like subtle blurs, providing better visual context and interactivity."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free: Material 3 Expressive is integrated into Android and Wear OS updates, available to all users without additional cost."
+      ],
+      "free_trial": "Not applicable as it is a design update rather than a standalone product.",
+      "additional_info": "Material 3 Expressive is part of Google's ongoing effort to enhance Android and Wear OS, and as such, it does not have a separate pricing model."
+    },
+    "use_cases": [
+      "Developers can leverage Material 3 Expressive to create more engaging and user-friendly apps by incorporating its design principles and features, enhancing overall app usability and user satisfaction.",
+      "Users can benefit from the personalized and intuitive interface when using their Android devices for daily tasks, such as managing notifications or customizing their home screen.",
+      "Designers can apply the expressive design principles of Material 3 Expressive to craft visually appealing and interactive interfaces for various digital products beyond Android."
+    ],
+    "target_audience": "Material 3 Expressive is designed for Android and Wear OS users, developers, and designers across various industries. It is particularly beneficial for those interested in creating or using personalized, intuitive, and engaging digital interfaces.",
+    "embedding_text": "Product: Material 3 Expressive\n\nDescription: Material 3 Expressive is a design update for Android and Wear OS, focusing on enhancing user experience through personalization, smoother interactions, and intuitive design elements. It builds upon the foundation of Material You, offering expanded customization options and more fluid animations to make interactions feel personal and engaging. The update includes dynamic color themes, responsive components, and refreshed typography, allowing users to personalize their device's appearance more granularly. It also introduces features like Live Updates for real-time notifications and reworked system elements for better usability. Material 3 Expressive aims to evoke positive emotions and improve usability by leveraging expressive design principles such as color, shape, size, motion, and containment. This update is designed to make Android devices more stylish and user-friendly, with a focus on personal style and helpful glanceable information. By enhancing visual personality and interaction fluidity, Material 3 Expressive seeks to create a more engaging and responsive user experience across various devices and apps.\n\nKey Features:\n- Dynamic Color Themes: Allows users to personalize their device's appearance with more granular control over colors, extending into popular Google apps like Photos and Gmail.\n- Responsive Components: Enhances user interaction with springy, natural movements in animations, adding subtle delight to interactions like dismissing notifications.\n- Refreshed Typography: Improves readability and visual appeal with updated font styles and sizes, contributing to a more intuitive interface.\n- Live Updates: Keeps real-time progress notifications visible and glanceable without needing to open apps, enhancing user convenience.\n- Reworked System Elements: Includes redesigned volume sliders and Quick Settings panels with depth effects like subtle blurs, providing better visual context and interactivity.\n\nPricing Model: Free\nPricing Tiers:\n- Free: Material 3 Expressive is integrated into Android and Wear OS updates, available to all users without additional cost.\nFree Trial: Not applicable as it is a design update rather than a standalone product.\n\nUse Cases:\n- Developers can leverage Material 3 Expressive to create more engaging and user-friendly apps by incorporating its design principles and features, enhancing overall app usability and user satisfaction.\n- Users can benefit from the personalized and intuitive interface when using their Android devices for daily tasks, such as managing notifications or customizing their home screen.\n- Designers can apply the expressive design principles of Material 3 Expressive to craft visually appealing and interactive interfaces for various digital products beyond Android.\n\nTarget Audience: Material 3 Expressive is designed for Android and Wear OS users, developers, and designers across various industries. It is particularly beneficial for those interested in creating or using personalized, intuitive, and engaging digital interfaces.\n\nCategories: Design Tools, SaaS\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "965484",
+    "name": "Macrodata Refinement Application",
+    "tagline": "Uncover hidden emotions with Macrodata Refinement",
+    "description": "Users navigate a retro interface to categorize numbers into Woe, Frolic, Dread, and Malice, blending analysis with intuition in a unique, immersive experience.",
+    "category": "Work In Progress ",
+    "topics": [
+      "Work In Progress "
+    ],
+    "website": "https://www.producthunt.com/r/JTA4YGWUSACR47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 87,
+    "product_id": "965484",
+    "detailed_description": "Macrodata Refinement Application is a unique tool inspired by the concept of refining large datasets into meaningful and actionable information. It simulates the process of sorting and categorizing clusters of numbers, each associated with different emotional responses, into designated bins to achieve a balanced and refined dataset. The application challenges users to manage complex data files by identifying patterns and emotions linked to specific data clusters, such as melancholy, joy, fear, and rage. It incorporates data cleaning, pattern recognition, and strategic decision-making to optimize data quality and accuracy. The product is designed to help users master data management skills through an engaging and interactive experience, making it accessible to both beginners and experienced data handlers. It also features cross-platform compatibility, including Linux and Raspberry Pi, and offers a debug mode for advanced settings exploration. The application is inspired by a fictional context but provides practical insights into data refinement techniques and emotional data analysis.",
+    "features": [
+      "Emotional Data Categorization: Sorts data clusters into five bins based on four emotional categories (melancholy, joy, fear, rage), helping users understand emotional data patterns.",
+      "Data Cleaning Algorithms: Provides tools to handle missing, inconsistent, or noisy data, improving the accuracy and quality of refined datasets.",
+      "Predictive Analysis Models: Incorporates machine learning techniques to predict and optimize data refinement outcomes, enhancing decision-making.",
+      "Cross-Platform Compatibility: Supports compilation and use on multiple platforms including Linux and Raspberry Pi, increasing accessibility for diverse users.",
+      "Interactive and Strategic Gameplay: Engages users with challenges like time constraints and resource management, fostering strategic thinking in data handling."
+    ],
+    "pricing": {
+      "model": "Free",
+      "tiers": [
+        "Free tier: Full access to the macrodata refinement simulation game and tools without cost"
+      ],
+      "free_trial": "Not applicable as the product is free to use",
+      "additional_info": "The application is available as a free browser-based game and open-source project, allowing users to explore and modify the code."
+    },
+    "use_cases": [
+      "Training data analysts and data scientists in data cleaning, categorization, and refinement techniques through an interactive simulation.",
+      "Educational tool for teaching emotional data analysis and pattern recognition in datasets for academic or professional development.",
+      "Engagement and skill-building for users interested in data management, machine learning basics, and strategic decision-making under constraints."
+    ],
+    "target_audience": "Data analysts, data scientists, educators, students, and enthusiasts in data management and machine learning fields; suitable for individuals and organizations interested in training or gamified learning experiences related to data refinement.",
+    "embedding_text": "Product: Macrodata Refinement Application\n\nDescription: Macrodata Refinement Application is a unique tool inspired by the concept of refining large datasets into meaningful and actionable information. It simulates the process of sorting and categorizing clusters of numbers, each associated with different emotional responses, into designated bins to achieve a balanced and refined dataset. The application challenges users to manage complex data files by identifying patterns and emotions linked to specific data clusters, such as melancholy, joy, fear, and rage. It incorporates data cleaning, pattern recognition, and strategic decision-making to optimize data quality and accuracy. The product is designed to help users master data management skills through an engaging and interactive experience, making it accessible to both beginners and experienced data handlers. It also features cross-platform compatibility, including Linux and Raspberry Pi, and offers a debug mode for advanced settings exploration. The application is inspired by a fictional context but provides practical insights into data refinement techniques and emotional data analysis.\n\nKey Features:\n- Emotional Data Categorization: Sorts data clusters into five bins based on four emotional categories (melancholy, joy, fear, rage), helping users understand emotional data patterns.\n- Data Cleaning Algorithms: Provides tools to handle missing, inconsistent, or noisy data, improving the accuracy and quality of refined datasets.\n- Predictive Analysis Models: Incorporates machine learning techniques to predict and optimize data refinement outcomes, enhancing decision-making.\n- Cross-Platform Compatibility: Supports compilation and use on multiple platforms including Linux and Raspberry Pi, increasing accessibility for diverse users.\n- Interactive and Strategic Gameplay: Engages users with challenges like time constraints and resource management, fostering strategic thinking in data handling.\n\nPricing Model: Free\nPricing Tiers:\n- Free tier: Full access to the macrodata refinement simulation game and tools without cost\nFree Trial: Not applicable as the product is free to use\n\nUse Cases:\n- Training data analysts and data scientists in data cleaning, categorization, and refinement techniques through an interactive simulation.\n- Educational tool for teaching emotional data analysis and pattern recognition in datasets for academic or professional development.\n- Engagement and skill-building for users interested in data management, machine learning basics, and strategic decision-making under constraints.\n\nTarget Audience: Data analysts, data scientists, educators, students, and enthusiasts in data management and machine learning fields; suitable for individuals and organizations interested in training or gamified learning experiences related to data refinement.\n\nCategories: Work In Progress \n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  },
+  {
+    "id": "940218",
+    "name": "LilysAI",
+    "tagline": "Cursor for Information Addicts",
+    "description": "Drowning in information, you're likely missing valuable insights. LilysAI instantly extracts key takeaways from YouTube, PDFs, and articles—letting you dive deeper with one-click tools like mind maps and more. Reading alone just isn't enough anymore.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "SaaS",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/GHJSTYYU6776KD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 201,
+    "product_id": "940218",
+    "detailed_description": "LilysAI is a productivity tool designed as a 'Cursor for Information Addicts' that helps users quickly access, summarize, and manage large volumes of information efficiently. It leverages advanced AI technologies, including GPT-4o, to generate high-quality summaries and notes, enabling users to digest complex content faster and with better clarity. The product aims to solve the problem of information overload by providing unlimited summaries and enhanced note-taking capabilities, making it easier for users to stay organized and informed. LilysAI is suitable for individuals who need to process vast amounts of data regularly, such as researchers, students, and professionals. By automating the summarization process, it saves time and improves productivity. The platform offers different quality tiers of summaries and notes, catering to varying user needs and preferences. Overall, LilysAI enhances information consumption by making it more manageable and accessible.",
+    "features": [
+      "Unlimited summaries for all users, allowing continuous access to condensed information without restrictions, which helps manage large volumes of content efficiently.",
+      "Upgraded quality summaries and notes using GPT-4o technology, providing more accurate and insightful content for users who require deeper understanding.",
+      "Perfect Notes feature that generates detailed and organized notes from summarized content, aiding in better retention and review of information.",
+      "User-friendly interface designed for quick navigation and easy access to summaries, reducing the time spent searching for key information.",
+      "Flexible subscription plans that offer different levels of service quality and features, allowing users to choose according to their specific needs and budget."
+    ],
+    "pricing": {
+      "model": "Freemium with subscription tiers",
+      "tiers": [
+        "Free tier: Includes unlimited summaries at no cost, providing basic summarization capabilities.",
+        "Starter: Priced at $6.99 per month, offers upgraded quality with unlimited Perfect Notes powered by GPT-4o.",
+        "Basic: Popular tier with advanced AI features for deeper content analysis (exact pricing not specified in search results).",
+        "Enterprise: Not explicitly detailed in the available information."
+      ],
+      "free_trial": "Free tier provides unlimited summaries without time limitation; no explicit free trial mentioned for paid tiers but starter and basic tiers imply upgrade options.",
+      "additional_info": "Pricing is competitive and designed to cater to different user needs, with the free tier allowing broad access and paid tiers enhancing quality and features."
+    },
+    "use_cases": [
+      "Researchers and academics who need to quickly summarize and extract key points from large volumes of scientific papers and articles.",
+      "Students who want to efficiently review and organize study materials and lecture notes without spending excessive time reading full texts.",
+      "Professionals and knowledge workers who require fast access to summarized reports, news, and documents to make informed decisions promptly."
+    ],
+    "target_audience": "LilysAI is designed for individuals and professionals who consume large amounts of information regularly, including researchers, students, knowledge workers, and information professionals across various industries. It suits small to medium-sized teams and solo users who prioritize productivity and efficient information management.",
+    "embedding_text": "Product: LilysAI\n\nDescription: LilysAI is a productivity tool designed as a 'Cursor for Information Addicts' that helps users quickly access, summarize, and manage large volumes of information efficiently. It leverages advanced AI technologies, including GPT-4o, to generate high-quality summaries and notes, enabling users to digest complex content faster and with better clarity. The product aims to solve the problem of information overload by providing unlimited summaries and enhanced note-taking capabilities, making it easier for users to stay organized and informed. LilysAI is suitable for individuals who need to process vast amounts of data regularly, such as researchers, students, and professionals. By automating the summarization process, it saves time and improves productivity. The platform offers different quality tiers of summaries and notes, catering to varying user needs and preferences. Overall, LilysAI enhances information consumption by making it more manageable and accessible.\n\nKey Features:\n- Unlimited summaries for all users, allowing continuous access to condensed information without restrictions, which helps manage large volumes of content efficiently.\n- Upgraded quality summaries and notes using GPT-4o technology, providing more accurate and insightful content for users who require deeper understanding.\n- Perfect Notes feature that generates detailed and organized notes from summarized content, aiding in better retention and review of information.\n- User-friendly interface designed for quick navigation and easy access to summaries, reducing the time spent searching for key information.\n- Flexible subscription plans that offer different levels of service quality and features, allowing users to choose according to their specific needs and budget.\n\nPricing Model: Freemium with subscription tiers\nPricing Tiers:\n- Free tier: Includes unlimited summaries at no cost, providing basic summarization capabilities.\n- Starter: Priced at $6.99 per month, offers upgraded quality with unlimited Perfect Notes powered by GPT-4o.\n- Basic: Popular tier with advanced AI features for deeper content analysis (exact pricing not specified in search results).\n- Enterprise: Not explicitly detailed in the available information.\nFree Trial: Free tier provides unlimited summaries without time limitation; no explicit free trial mentioned for paid tiers but starter and basic tiers imply upgrade options.\n\nUse Cases:\n- Researchers and academics who need to quickly summarize and extract key points from large volumes of scientific papers and articles.\n- Students who want to efficiently review and organize study materials and lecture notes without spending excessive time reading full texts.\n- Professionals and knowledge workers who require fast access to summarized reports, news, and documents to make informed decisions promptly.\n\nTarget Audience: LilysAI is designed for individuals and professionals who consume large amounts of information regularly, including researchers, students, knowledge workers, and information professionals across various industries. It suits small to medium-sized teams and solo users who prioritize productivity and efficient information management.\n\nCategories: Productivity, SaaS, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2025-05-15"
+    }
+  }
+]

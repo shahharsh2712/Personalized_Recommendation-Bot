@@ -4,12 +4,13 @@ import numpy as np
 from datetime import datetime
 from dotenv import load_dotenv
 from openai import OpenAI
+import json
 
 # Import from our modules
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from storage.models import UserProfileStore
+from personalized_recommendations.storage.models import UserProfileStore
 
 # Load environment variables
 load_dotenv()
@@ -28,114 +29,199 @@ class UserProfileManager:
         self.store = UserProfileStore()
         self.openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.embedding_model = "text-embedding-3-small"
+        self.CHIP_EMBEDDINGS = {
+            "roles": {
+                "Developer": "Software Developer",
+                "Indie Hacker": "Indie Hacker",
+                "Product Manager": "Product Manager",
+                "Marketer": "Digital Marketer",
+                "Designer": "UI/UX Designer",
+                "Student": "Student",
+            },
+            "interests": {
+                "AI Art": "AI Art and Generation",
+                "Productivity": "Productivity Tools",
+                "Health": "Health and Wellness",
+                "Fin-tech": "Financial Technology",
+                "Gaming": "Gaming and Entertainment",
+                "Ed-tech": "Educational Technology",
+            },
+            "platforms": {
+                "Web": "Web Browser",
+                "macOS": "Apple macOS",
+                "Windows": "Microsoft Windows",
+                "VS Code": "Visual Studio Code",
+                "iOS": "Apple iOS",
+                "Android": "Google Android",
+            },
+        }
+        # Initialize embeddings cache
+        self._embeddings_cache = {}
+        # Load pre-computed embeddings for chips
+        self._load_chip_embeddings()
 
-    def create_user(self, email, name, preferences=None, active=True):
-        """Create a new user profile"""
-        if not email or not name:
-            logger.error("Email and name are required")
-            return False
+    def _load_chip_embeddings(self):
+        """Load pre-computed embeddings for chips from cache or compute them."""
+        # Create a cache file path
+        cache_file = os.path.join(os.path.dirname(__file__), 'chip_embeddings_cache.json')
+        
+        # Try to load from cache first
+        if os.path.exists(cache_file):
+            try:
+                with open(cache_file, 'r') as f:
+                    self._embeddings_cache = json.load(f)
+                logger.info("Loaded chip embeddings from cache")
+                return
+            except Exception as e:
+                logger.warning(f"Failed to load embeddings cache: {e}")
 
-        # Create user document
+        # If cache doesn't exist or failed to load, compute embeddings
+        logger.info("Computing chip embeddings...")
+        for category, items in self.CHIP_EMBEDDINGS.items():
+            for key, value in items.items():
+                if value not in self._embeddings_cache:
+                    embedding = self._get_embedding(value)
+                    if embedding:
+                        self._embeddings_cache[value] = embedding
+
+        # Save to cache
+        try:
+            with open(cache_file, 'w') as f:
+                json.dump(self._embeddings_cache, f)
+            logger.info("Saved chip embeddings to cache")
+        except Exception as e:
+            logger.warning(f"Failed to save embeddings cache: {e}")
+
+    def create_user(self, email, name, preferences=None):
+        """Create a new user with the given preferences."""
+        if not preferences:
+            preferences = {
+                "role": None,
+                "goal": None,
+                "pain_point": None,
+                "interests": [],
+                "platforms": [],
+                "budget_pref": "any",
+                "cadence": "daily",
+                "channel": "email",
+            }
         user = {
             "email": email,
             "name": name,
-            "preferences": preferences or {},
-            "active": active,
-            "created_at": datetime.now(),
+            "preferences": preferences,
+            "embedding": self._calculate_user_vector(preferences),
+            "created_at": datetime.utcnow(),
+            "last_updated": datetime.utcnow(),
+            "subscribed": True,
         }
-
-        # Generate embedding if preferences exist
-        if preferences:
-            embedding = self._generate_preference_embedding(preferences)
-            if embedding is not None:
-                user["embedding"] = embedding
-
-        # Save to database
         return self.store.save_user(user)
 
     def update_preferences(self, email, preferences):
-        """Update a user's preferences"""
-        # Get existing user
-        user = self.store.get_user_by_email(email)
-        if not user:
-            logger.error(f"User not found: {email}")
-            return False
+        """Update user preferences and regenerate embedding."""
+        user_vector = self._calculate_user_vector(preferences)
+        # Ensure we don't accidentally remove the 'subscribed' field
+        user = self.get_user(email)
+        subscribed = user.get("subscribed", True) if user else True
+        result = self.store.update_user(
+            email,
+            {
+                "$set": {
+                    "preferences": preferences,
+                    "embedding": user_vector,
+                    "last_updated": datetime.utcnow(),
+                    "subscribed": subscribed,
+                }
+            },
+        )
+        return result.modified_count > 0
 
-        # Update preferences
-        user["preferences"] = preferences
+    def _calculate_user_vector(self, preferences):
+        """Calculate user vector using weighted formula:
+        user_vec = 0.35·pain + 0.25·goal + 0.20·role + 0.15·mean(interests) + 0.05·mean(platforms)
+        """
+        # Initialize components and their weights
+        components = {
+            'pain_point': (0.35, None),
+            'goal': (0.25, None),
+            'role': (0.20, None),
+            'interests': (0.15, None),
+            'platforms': (0.05, None)
+        }
 
-        # Generate new embedding
-        embedding = self._generate_preference_embedding(preferences)
-        if embedding is not None:
-            user["embedding"] = embedding
+        # Get embeddings for each component
+        if preferences.get('pain_point'):
+            vector = self._get_embedding(preferences['pain_point'])
+            if vector is not None:
+                components['pain_point'] = (0.35, vector)
 
-        # Save updated user
-        return self.store.save_user(user)
+        if preferences.get('goal'):
+            vector = self._get_embedding(preferences['goal'])
+            if vector is not None:
+                components['goal'] = (0.25, vector)
 
-    def _generate_preference_embedding(self, preferences):
-        """Generate embedding for user preferences"""
-        # Create text from preferences
-        text = self._create_preference_text(preferences)
+        if preferences.get('role'):
+            role_text = self.CHIP_EMBEDDINGS['roles'].get(preferences['role'], preferences['role'])
+            vector = self._get_embedding(role_text)
+            if vector is not None:
+                components['role'] = (0.20, vector)
+
+        # Get interest vectors
+        if preferences.get('interests'):
+            interest_vectors = []
+            for interest in preferences['interests']:
+                interest_text = self.CHIP_EMBEDDINGS['interests'].get(interest, interest)
+                vector = self._get_embedding(interest_text)
+                if vector is not None:
+                    interest_vectors.append(vector)
+            if interest_vectors:
+                components['interests'] = (0.15, np.mean(interest_vectors, axis=0))
+
+        # Get platform vectors
+        if preferences.get('platforms'):
+            platform_vectors = []
+            for platform in preferences['platforms']:
+                platform_text = self.CHIP_EMBEDDINGS['platforms'].get(platform, platform)
+                vector = self._get_embedding(platform_text)
+                if vector is not None:
+                    platform_vectors.append(vector)
+            if platform_vectors:
+                components['platforms'] = (0.05, np.mean(platform_vectors, axis=0))
+
+        # Filter out components with no vectors
+        valid_components = [(weight, vector) for weight, vector in components.values() if vector is not None]
+        
+        if not valid_components:
+            return None
+
+        # Normalize weights based on available components
+        total_weight = sum(weight for weight, _ in valid_components)
+        normalized_components = [(weight/total_weight, vector) for weight, vector in valid_components]
+
+        # Calculate weighted sum
+        user_vector = np.zeros_like(normalized_components[0][1], dtype=np.float32)
+        for weight, vector in normalized_components:
+            user_vector += vector * weight
+
+        return user_vector.tolist()
+
+    def _get_embedding(self, text):
+        """Generate embedding for a given text"""
+        # Check cache first
+        if text in self._embeddings_cache:
+            # Always convert to numpy array (float32) when returning from cache
+            return np.array(self._embeddings_cache[text], dtype=np.float32)
 
         try:
-            # Generate embedding using OpenAI
             response = self.openai_client.embeddings.create(
                 input=text, model=self.embedding_model
             )
-
             embedding = response.data[0].embedding
-            logger.info(f"Generated embedding with {len(embedding)} dimensions")
-            return embedding
-
+            # Cache the result
+            self._embeddings_cache[text] = embedding
+            return np.array(embedding, dtype=np.float32)
         except Exception as e:
-            logger.error(f"Error generating preference embedding: {e}")
+            logger.error(f"Error generating embedding: {e}")
             return None
-
-    def _create_preference_text(self, preferences):
-        """Convert preferences to text for embedding"""
-        text_parts = []
-
-        # Add interests
-        if "interests" in preferences and preferences["interests"]:
-            interests = preferences["interests"]
-            text_parts.append(f"User is interested in: {', '.join(interests)}")
-
-        # Add preferred categories
-        if (
-            "preferred_categories" in preferences
-            and preferences["preferred_categories"]
-        ):
-            categories = preferences["preferred_categories"]
-            text_parts.append(f"User prefers app categories: {', '.join(categories)}")
-
-        # Add role/profession
-        if "profession" in preferences and preferences["profession"]:
-            text_parts.append(f"User's profession is: {preferences['profession']}")
-
-        # Add favorite tools
-        if "favorite_tools" in preferences and preferences["favorite_tools"]:
-            tools = preferences["favorite_tools"]
-            text_parts.append(f"User's favorite tools: {', '.join(tools)}")
-
-        # Add goals
-        if "goals" in preferences and preferences["goals"]:
-            goals = preferences["goals"]
-            text_parts.append("User's goals:")
-            for goal in goals:
-                text_parts.append(f"- {goal}")
-
-        # Add pain points
-        if "pain_points" in preferences and preferences["pain_points"]:
-            pain_points = preferences["pain_points"]
-            text_parts.append("User's pain points:")
-            for point in pain_points:
-                text_parts.append(f"- {point}")
-
-        # Add free text description
-        if "description" in preferences and preferences["description"]:
-            text_parts.append(f"Additional information: {preferences['description']}")
-
-        return "\n".join(text_parts)
 
     def get_user(self, email):
         """Get a user by email"""
