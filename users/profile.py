@@ -3,12 +3,11 @@ import logging
 import numpy as np
 from datetime import datetime
 from dotenv import load_dotenv
-from openai import OpenAI
-
 # Import from our modules
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from embeddings.provider import generate_embedding
 from storage.models import UserProfileStore
 
 # Load environment variables
@@ -26,8 +25,6 @@ class UserProfileManager:
 
     def __init__(self):
         self.store = UserProfileStore()
-        self.openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        self.embedding_model = "text-embedding-3-small"
 
     def create_user(self, email, name, preferences=None, active=True):
         """Create a new user profile"""
@@ -77,19 +74,12 @@ class UserProfileManager:
         # Create text from preferences
         text = self._create_preference_text(preferences)
 
-        try:
-            # Generate embedding using OpenAI
-            response = self.openai_client.embeddings.create(
-                input=text, model=self.embedding_model
-            )
-
-            embedding = response.data[0].embedding
+        embedding = generate_embedding(text)
+        if embedding:
             logger.info(f"Generated embedding with {len(embedding)} dimensions")
-            return embedding
-
-        except Exception as e:
-            logger.error(f"Error generating preference embedding: {e}")
-            return None
+        else:
+            logger.error("Error generating preference embedding")
+        return embedding
 
     def _create_preference_text(self, preferences):
         """Convert preferences to text for embedding"""

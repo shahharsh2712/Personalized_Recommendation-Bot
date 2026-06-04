@@ -1,24 +1,10 @@
 import json
 import os
+import sys
 import time
-from openai import OpenAI
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-
-# Initialize OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
-
-def generate_embedding(text):
-    """Generate embedding for a text using OpenAI's API"""
-    try:
-        response = client.embeddings.create(model="text-embedding-3-small", input=text)
-        return response.data[0].embedding
-    except Exception as e:
-        print(f"Error generating embedding: {e}")
-        return None
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from embeddings.provider import generate_embedding  # noqa: E402
 
 
 def main():

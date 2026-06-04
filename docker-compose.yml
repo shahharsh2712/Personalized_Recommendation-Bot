@@ -1,0 +1,57 @@
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    ports:
+      - "27017:27017"
+
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+
+  web:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/
+      OLLAMA_BASE_URL: http://ollama:11434
+      EMBEDDING_PROVIDER: ollama
+    ports:
+      - "5000:5000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 90s
+    depends_on:
+      - mongo
+      - ollama
+    volumes:
+      - ./data_store:/app/data_store
+      - ./src/data:/app/src/data
+
+  # Daily pipeline: collect → recommend → email (optional; enable when ready)
+  # scheduler:
+  #   build: .
+  #   env_file: .env
+  #   environment:
+  #     MONGODB_URI: mongodb://mongo:27017/
+  #     OLLAMA_BASE_URL: http://ollama:11434
+  #   depends_on:
+  #     - mongo
+  #     - ollama
+  #     - web
+  #   entrypoint: ["python", "main.py", "--mode", "scheduler"]
+  #   restart: unless-stopped
+
+volumes:
+  mongo_data:
+  ollama_data:

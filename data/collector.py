@@ -5,10 +5,13 @@ import logging
 import time
 from datetime import datetime
 
+# Project paths
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_STORE_DIR = os.path.join(_project_root, "data_store")
+LOGS_DIR = os.path.join(_project_root, "logs")
+
 # Add the src directory to path so we can import existing modules
-sys.path.append(
-    os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "src")
-)
+sys.path.insert(0, os.path.join(_project_root, "src"))
 
 # Import from existing codebase
 from fetch_products import fetch_products, process_products
@@ -27,9 +30,8 @@ class ProductCollector:
     """Collects product data from Product Hunt, reusing existing functionality"""
 
     def __init__(self):
-        # Create necessary directories
-        os.makedirs("personalized_recommendations/data_store", exist_ok=True)
-        os.makedirs("personalized_recommendations/logs", exist_ok=True)
+        os.makedirs(DATA_STORE_DIR, exist_ok=True)
+        os.makedirs(LOGS_DIR, exist_ok=True)
 
     def collect_daily_products(self, max_products=20):
         """Collect today's new products from Product Hunt"""
@@ -76,8 +78,8 @@ class ProductCollector:
         logger.info(f"Collected {len(all_products)} products for {date_string}")
 
         # Save raw products for this date
-        output_file = (
-            f"personalized_recommendations/data_store/raw_products_{date_string}.json"
+        output_file = os.path.join(
+            DATA_STORE_DIR, f"raw_products_{date_string}.json"
         )
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(all_products, f, indent=2, ensure_ascii=False)
@@ -121,7 +123,9 @@ class ProductCollector:
 
         # Save enriched products
         date_string = datetime.now().strftime("%Y-%m-%d")
-        output_file = f"personalized_recommendations/data_store/enriched_products_{date_string}.json"
+        output_file = os.path.join(
+            DATA_STORE_DIR, f"enriched_products_{date_string}.json"
+        )
 
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(enriched_products, f, indent=2, ensure_ascii=False)
@@ -163,7 +167,9 @@ class ProductCollector:
 
         # Save products with embeddings
         date_string = datetime.now().strftime("%Y-%m-%d")
-        output_file = f"personalized_recommendations/data_store/products_with_embeddings_{date_string}.json"
+        output_file = os.path.join(
+            DATA_STORE_DIR, f"products_with_embeddings_{date_string}.json"
+        )
 
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(products_with_embeddings, f, indent=2, ensure_ascii=False)

@@ -8,14 +8,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Setup logging directory
-os.makedirs("personalized_recommendations/logs", exist_ok=True)
+os.makedirs("logs", exist_ok=True)
 
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("personalized_recommendations/logs/main.log"),
+        logging.FileHandler("logs/main.log"),
         logging.StreamHandler(),
     ],
 )

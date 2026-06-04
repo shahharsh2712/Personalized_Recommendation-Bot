@@ -1,0 +1,76 @@
+{
+  "1": {
+    "user_id": "1",
+    "email": "shahharsh2712@gmail.com",
+    "created_at": "2026-06-04T01:12:59.606912",
+    "updated_at": "2026-06-04T09:46:13.977919",
+    "name": "Harsh Shah",
+    "job_role": "AI Engineer",
+    "industry": "Technology",
+    "company_size": "1",
+    "interests": [
+      "productivity"
+    ],
+    "tools_used": [
+      "slack"
+    ],
+    "challenges": [
+      "time management",
+      "customer support"
+    ],
+    "budget_preference": "freemium",
+    "last_login": "2026-06-04T01:12:59.606912",
+    "recommendation_history": [
+      {
+        "query": "ai tools ecommender",
+        "timestamp": "2026-06-04T09:46:13.977919",
+        "results": [
+          "Augment Agent"
+        ]
+      }
+    ],
+    "product_interactions": {},
+    "common_tasks": [
+      "data_analysis"
+    ],
+    "improvement_areas": [
+      "productivity"
+    ],
+    "workflow_description": "I struggle wth staying updated with latest AI tools",
+    "ideal_solution": "I need a tool that would help me stay updated with ai tools requirements",
+    "assessment_completeness": 100
+  },
+  "2": {
+    "user_id": "2",
+    "email": "shahharsh0227@gmail.com",
+    "created_at": "2026-06-04T17:05:00.727252",
+    "updated_at": "2026-06-04T17:07:26.781340",
+    "name": "Harsh Shah",
+    "job_role": "Marketing Manager",
+    "industry": "Marketing",
+    "company_size": "2-10",
+    "interests": [
+      "productivity",
+      "automation"
+    ],
+    "tools_used": [
+      "Trello"
+    ],
+    "challenges": [
+      "customer support"
+    ],
+    "budget_preference": "freemium",
+    "last_login": "2026-06-04T17:05:00.727252",
+    "recommendation_history": [],
+    "product_interactions": {},
+    "common_tasks": [
+      "content_creation"
+    ],
+    "improvement_areas": [
+      "efficiency"
+    ],
+    "workflow_description": "I manage a team of  designers",
+    "ideal_solution": "I need a tool that would help me automate social media posting",
+    "assessment_completeness": 100
+  }
+}

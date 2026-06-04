@@ -1,0 +1,6 @@
+# HTTP only on port 80 — use your VPS public IP: http://1.2.3.4
+# Copy to Caddyfile on the server: cp deploy/Caddyfile.ip deploy/Caddyfile
+
+:80 {
+    reverse_proxy web:5000
+}

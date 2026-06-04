@@ -1,0 +1,280 @@
+[
+  {
+    "id": "1159756",
+    "name": "InsForge Backend Branching",
+    "tagline": "Git style branching for your backend",
+    "description": "Git-style branching for your entire backend. Spin off a branch to get a full, isolated copy of everything: your database, storage, auth, edge functions, and more, ready for your agents to experiment on without touching production.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/QFEQQG4XV2YKOJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 348
+  },
+  {
+    "id": "1149728",
+    "name": "Elentaria",
+    "tagline": "Your GTM: from diagnosis to execution",
+    "description": "Elentaria is the AI operator for B2B: it analyzes your business, scores 22 channels, ships the plan that fits, and learns what moved revenue so it can make the next week sharper. Every week, on your stack, in your voice.",
+    "category": "Sales",
+    "topics": [
+      "Sales",
+      "Marketing"
+    ],
+    "website": "https://www.producthunt.com/r/UJ3FSZT2ZNWJMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 298
+  },
+  {
+    "id": "1161070",
+    "name": "superlog",
+    "tagline": "Make your product bug-free",
+    "description": "Superlog is an open-source autonomous observability tool. It installs itself and fixes the bugs it finds. With a single prompt, it instruments your repository with OpenTelemetry and keeps it up-to-date. When something breaks, it groups noisy issues into a single incident and posts one mergeable PR in Slack. Unlike Datadog or Sentry, there's no setup, no alert fatigue, and no manual fixing. Your telemetry stays vendor-neutral, so you keep full control of your data.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Software Engineering",
+      "Developer Tools",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/KQWSEFIXSXKGGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 298
+  },
+  {
+    "id": "1160971",
+    "name": "Franz 6",
+    "tagline": "All your messaging apps in one window — with private AI",
+    "description": "WhatsApp, Slack, Signal, Telegram, Gmail, Outlook and 75+ services in one fast desktop app — no more juggling ten browser tabs. Franz 6 adds a built-in AI assistant that summarizes long chats, transcribes voice notes, triages your inbox and drafts replies — all on-device, so your conversations stay private (EU-hosted Cloud optional). 1M+ downloads. Free, cross-platform, made in Vienna. Winner: Product Hunt Golden Kitty, Desktop App of the Year 2016.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Productivity",
+      "Messaging"
+    ],
+    "website": "https://www.producthunt.com/r/FS4OANAZV3TTIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 182
+  },
+  {
+    "id": "1162051",
+    "name": "Replicas",
+    "tagline": "Run Claude Code and Codex in the cloud",
+    "description": "Run background coding agents from anywhere. Spawn Claude Code or Codex in a VM with code and tooling ready to go. Hand off tasks from Slack, Linear, or GitHub Replicas runs Claude Code, Codex, or any coding agent in the cloud. Agents run in isolated VMs with real dev environments, and you can bring your own subscriptions and API keys. Trigger tasks from Slack, Linear, or GitHub and come back to a PR ready to review.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/D44IQTTKSR3U2U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 165
+  },
+  {
+    "id": "1161963",
+    "name": "Hermes Desktop",
+    "tagline": "The agent that grows with you",
+    "description": "Hermes Desktop — the open-source agent that grows with you, now a native app for macOS, Windows, and Linux. By Nous Research.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "Artificial Intelligence",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/T2RBMD4EF5MIAF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 146
+  },
+  {
+    "id": "1119517",
+    "name": "Spectron",
+    "tagline": "Agent memory you can trust",
+    "description": "Spectron is agent memory built on one ACID substrate. Graph, vectors, documents, and structured rows commit in one transaction. Every fact carries provenance. Corrections supersede, never overwrite. Hybrid retrieval fuses vectors, graph, BM25, and keywords. Traces feed back into ranking. Tri-temporal facts, multi-tenant scopes, and MCP support. No stitched stores. No sync pipelines.",
+    "category": "Developer Tools",
+    "topics": [
+      "Developer Tools",
+      "Artificial Intelligence",
+      "Database"
+    ],
+    "website": "https://www.producthunt.com/r/4TGR6AA6CJ6U7H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 144
+  },
+  {
+    "id": "1158294",
+    "name": "Walkable",
+    "tagline": "Safety-first walking navigation to walk the safest routes",
+    "description": "Safety-first walking navigation. Tired of maps sending you through dark or empty streets just to save 3 minutes? Walkable shows you the safest routes in real time using a Walkable Score that considers lighting, foot traffic, time of day, and live safety signals (including crime activity data) Choose between Safest, Balanced, or Fastest routes, then walk with confidence. Designed for women, parents, and travelers who refuse to trade safety for speed.",
+    "category": "Travel",
+    "topics": [
+      "Travel",
+      "Maps",
+      "Lifestyle"
+    ],
+    "website": "https://www.producthunt.com/r/CWQH4HXTI7JKXQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 131
+  },
+  {
+    "id": "1160559",
+    "name": "Uselink",
+    "tagline": "host your html, share the link, and get comments",
+    "description": "uselink turns any HTML or Markdown into a clean link you control. paste a doc, get a url under your handle, decide who can read and who can comment. readers reply in threads with no account, which Google Docs and Notion can't do. interactive HTML actually runs. add a password, an expiry, or a view limit, and keep every version. new this launch: a visual editor to edit live pages with no code, and an MCP server so Claude, Cursor, or n8n can publish for you.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/D4YQ3R4NJ5JHI3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 117
+  },
+  {
+    "id": "1161965",
+    "name": "Town",
+    "tagline": "The assistant that learns how you work, then gets to work. ",
+    "description": "Town is the unusually helpful AI assistant. It learns how you work, not the other way around: your voice, your people, your patterns. It works where you do, across email, calendar, docs, and messages. It drafts your replies, handles your scheduling, and builds routines for the work you repeat. The more it learns, the more it does on its own, so your time goes to the work only you can do.o big ideas.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Calendar",
+      "Virtual Assistants"
+    ],
+    "website": "https://www.producthunt.com/r/P7BSWU656UAUTZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 107
+  },
+  {
+    "id": "1162181",
+    "name": "Composer",
+    "tagline": "Multiplayer markdown for you, your team, and your agents.",
+    "description": "Composer is a real-time, multiplayer markdown editor where people and agents can work side-by-side. Instantly share markdown generated by your agent with teammates, edit in real time, leave comments, suggestions, and share context. Your agents join as true collaborators, working directly alongside you and your team.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Notes",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/DQVHE2OCJEC7RE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105
+  },
+  {
+    "id": "1161524",
+    "name": "Forward",
+    "tagline": "Installs your API into a customer's codebase in one command",
+    "description": "Forward is an AI forward-deployed engineer that integrates your API directly into your customers' codebases. Instead of 50-page docs, users run one command. Forward analyzes their repo, writes the integration on a new branch, runs tests, and opens a PR for review. Built for API and SDK companies to eliminate churn between signup and the first successful call. It learns your house style and ensures safety through build validation—all while saving users hours of manual wiring.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/FVQ726U6FWBKGH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 99
+  },
+  {
+    "id": "1161872",
+    "name": "Devin Desktop",
+    "tagline": "Manage fleets of local and cloud agents from one surface",
+    "description": "Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/NG6BZD7FNUESY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 98
+  },
+  {
+    "id": "1161388",
+    "name": "Brand Context API",
+    "tagline": "Ship AI that stays on-brand",
+    "description": "Brand Context API keeps your AI on-brand by returning a company's brand identity in one call: voice, mission, products, audience. With this structured data, your product ships output that's grounded from the first prompt.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/MGLNG4FWENN4R4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 98
+  },
+  {
+    "id": "1161395",
+    "name": "Carbone Skill for AI",
+    "tagline": "Teach your AI to build document templates",
+    "description": "Carbone is a universal document-generation engine: feed it a template file and JSON file, and it produces pixel-perfect documents at scale. The Carbone Skill teaches AI assistants like Claude or ChatGPT the entire Carbone templating language. Describe what you want in plain language and your AI writes correct Carbone syntax, builds templates in DOCX, XLSX, PPTX, HTML or PDF, and validates tags before you render automatically at scale.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Marketing automation"
+    ],
+    "website": "https://www.producthunt.com/r/4KYO2RLLYEVOH6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 95
+  },
+  {
+    "id": "1161835",
+    "name": "FolderPlus",
+    "tagline": "Peek inside any folder without opening it",
+    "description": "Preview folders and archives the way Quick Look was meant to work. FolderPlus supercharges your Mac's Quick Look with rich, instant previews for folders and compressed archives. Just press Space on any folder or ZIP file to see exactly what's inside—no clicking, no waiting, no extracting. It's the missing feature Quick Look always should have had, built natively for macOS and designed to disappear into your everyday workflow.",
+    "category": "Mac",
+    "topics": [
+      "Mac",
+      "Productivity"
+    ],
+    "website": "https://www.producthunt.com/r/7D4XT2F5L5AXP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 94
+  },
+  {
+    "id": "1161523",
+    "name": "RadianceKit",
+    "tagline": "Turn photos into 3D Gaussian Splats on your Mac",
+    "description": "RadianceKit is the first native macOS app for 3D Gaussian Splatting. Drop in photos or video of any object or scene — it aligns the cameras, trains the model, and renders a photorealistic 3D reconstruction, all locally on your Mac's GPU. No Python, no CUDA, no cloud. Simple Mode for one-click results, Scene-Class Presets (Render/Outdoor/Indoor), and full Expert control. Export to 6 formats, orbit videos, and web viewers. M1+, $7.99 one-time, 3-day trial.",
+    "category": "Mac",
+    "topics": [
+      "Mac",
+      "Design Tools",
+      "Photography"
+    ],
+    "website": "https://www.producthunt.com/r/ZEZXSNTW54TP46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 90
+  },
+  {
+    "id": "1161519",
+    "name": "Handler",
+    "tagline": "Review AI edits like stacked PRs at generation time.",
+    "description": "Every edit the agent proposes arrives with a built-in explanation and its own chat. Ask why, what it touches, or tell it to redo it. None of it derails the main agent.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/DOBDR7NSHZ534H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 89
+  },
+  {
+    "id": "1162093",
+    "name": "Dropstone 1.5",
+    "tagline": "2× Claude Code Pro's usage at $15/mo",
+    "description": "Dropstone 1.5 is our monthly re-baseline release. We test the top AI coding models every month and rebuild the runtime on whichever wins. This month: DeepSeek V4 Flash, V4 Pro, and Moonshot Kimi K2.6 all hosted in the US, nothing stored on our side. $15/month gets you about 450 deep coding sessions a week. Roughly twice what Claude Code Pro delivers at $20. Full technical report with the cost math and benchmarks: blankline.org/research/dropstone-1-5",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/RSRH54C7JBIDRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 88
+  },
+  {
+    "id": "1161669",
+    "name": "TaskGPT ",
+    "tagline": "Voice agent for MacOS",
+    "description": "Command your Mac with your Voice, Uses your OpenAPI/Anthropic API key stored on your machine, we own no servers and do not retain any of your data.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Audio"
+    ],
+    "website": "https://www.producthunt.com/r/Q4GLZ6BQXGHBNP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 85
+  }
+]

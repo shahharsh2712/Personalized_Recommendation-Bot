@@ -127,15 +127,10 @@ class ProductStore:
             if hasattr(embedding, "tolist"):
                 embedding = embedding.tolist()
 
-            # Get today's date in YYYY-MM-DD format
-            today = datetime.now().strftime("%Y-%m-%d")
-
             # Use MongoDB's $function to calculate cosine similarity
             pipeline = [
-                # First match for today's products only
                 {
                     "$match": {
-                        "collection_date": today,  # Only products collected today
                         "embedding": {"$exists": True, "$ne": []},
                     }
                 },

@@ -1,0 +1,6 @@
+# Replace YOUR_DOMAIN.com with your real domain (A record → server IP).
+# For IP-only access without a domain, use deploy/Caddyfile.ip instead.
+
+YOUR_DOMAIN.com {
+    reverse_proxy web:5000
+}

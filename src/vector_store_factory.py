@@ -1,33 +1,27 @@
 import os
-from vector_store import SimpleVectorStore
+
+from app_paths import SRC_DATA_DIR
 from improved_vector_store import ImprovedVectorStore
+from vector_store import SimpleVectorStore
 
 
 def get_vector_store(use_improved=True, fallback=True):
-    """Factory function to get the appropriate vector store
+    """Return a vector store instance from src/data/."""
+    improved_path = os.path.join(SRC_DATA_DIR, "improved_vector_store.pkl")
+    simple_path = os.path.join(SRC_DATA_DIR, "vector_store.pkl")
 
-    Args:
-        use_improved: Whether to try using the improved store
-        fallback: Whether to fall back to the original if improved is not available
+    if use_improved and os.path.exists(improved_path):
+        try:
+            return ImprovedVectorStore.load(improved_path)
+        except Exception as e:
+            print(f"Error loading improved vector store: {e}")
+            if not fallback:
+                raise
+            print("Falling back to original vector store")
 
-    Returns:
-        A vector store instance
-    """
-    if use_improved:
-        # Try to load improved store
-        if os.path.exists("data/improved_vector_store.pkl"):
-            try:
-                return ImprovedVectorStore.load("data/improved_vector_store.pkl")
-            except Exception as e:
-                print(f"Error loading improved vector store: {e}")
-                if not fallback:
-                    raise
-                print("Falling back to original vector store")
-        elif not fallback:
-            raise FileNotFoundError("Improved vector store not found")
+    if os.path.exists(simple_path):
+        return SimpleVectorStore.load(simple_path)
 
-    # Fall back to original store
-    if os.path.exists("data/vector_store.pkl"):
-        return SimpleVectorStore.load("data/vector_store.pkl")
-
-    raise FileNotFoundError("No vector store found")
+    raise FileNotFoundError(
+        f"No vector store found in {SRC_DATA_DIR}. Run setup_frontend_data.ensure_vector_store() first."
+    )

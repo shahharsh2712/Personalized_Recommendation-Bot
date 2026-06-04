@@ -13,12 +13,14 @@ from delivery.email_sender import EmailSender
 # Load environment variables
 load_dotenv()
 
+os.makedirs("logs", exist_ok=True)
+
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("personalized_recommendations/logs/scheduler.log"),
+        logging.FileHandler("logs/scheduler.log"),
         logging.StreamHandler(),
     ],
 )

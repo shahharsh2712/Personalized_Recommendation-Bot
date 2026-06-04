@@ -1,0 +1,42 @@
+# Render.com — free, no credit card. See DEPLOY-NO-CARD.md
+# Dashboard: https://dashboard.render.com → New → Blueprint
+
+services:
+  - type: web
+    name: personalized-rec-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt gunicorn
+    startCommand: bash scripts/render_start.sh
+    healthCheckPath: /
+    envVars:
+      - key: PYTHONPATH
+        value: /opt/render/project/src:/opt/render/project
+      - key: PYTHONUNBUFFERED
+        value: "true"
+      - key: SKIP_OLLAMA_WAIT
+        value: "1"
+      - key: LIGHTWEIGHT_DEPLOY
+        value: "1"
+      - key: EMBEDDING_PROVIDER
+        value: none
+      - key: MONGODB_URI
+        sync: false
+      - key: RECOMMENDATION_DB_NAME
+        value: app_recommendations
+      - key: EMAIL_PROVIDER
+        value: smtp
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: SENDER_EMAIL
+        sync: false
+      - key: PERPLEXITY_API_KEY
+        sync: false
+      - key: PRODUCT_HUNT_DEVELOPER_TOKEN
+        sync: false

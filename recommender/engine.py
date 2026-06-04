@@ -37,17 +37,21 @@ class RecommendationEngine:
             logger.error(f"User not found: {user_email}")
             return []
 
-        # Check if user has embedding
-        if "embedding" not in user:
-            logger.error(f"User {user_email} has no embedding")
+        preferences = user.get("preferences", {})
+
+        if user.get("embedding"):
+            similar_products = self.product_store.find_similar_products(
+                user["embedding"], limit=top_k
+            )
+        else:
+            logger.warning(
+                f"User {user_email} has no embedding; using preference-based matching"
+            )
+            similar_products = self._find_products_by_preferences(preferences, top_k)
+
+        if not similar_products:
+            logger.error(f"No products found for user: {user_email}")
             return []
-
-        user_embedding = user["embedding"]
-
-        # Find similar products
-        similar_products = self.product_store.find_similar_products(
-            user_embedding, limit=top_k
-        )
 
         # Format recommendations
         recommendations = self._format_recommendations(user, similar_products)
@@ -58,6 +62,60 @@ class RecommendationEngine:
         self.user_store.save_recommendation(user_id, recommendations, today)
 
         return recommendations
+
+    def _preference_search_terms(self, preferences):
+        terms = []
+        for key in (
+            "interests",
+            "preferred_categories",
+            "profession",
+            "favorite_tools",
+            "pain_points",
+            "goals",
+        ):
+            value = preferences.get(key)
+            if isinstance(value, list):
+                terms.extend(str(v).lower() for v in value if v)
+            elif value:
+                terms.append(str(value).lower())
+        if preferences.get("description"):
+            terms.extend(
+                w.lower()
+                for w in preferences["description"].split()
+                if len(w) > 3
+            )
+        return list(dict.fromkeys(terms))
+
+    def _find_products_by_preferences(self, preferences, limit=5):
+        """Match products by profile keywords when OpenAI user embedding is missing."""
+        terms = self._preference_search_terms(preferences)
+        cursor = self.product_store.db.db.products.find(
+            {"embedding": {"$exists": True, "$ne": []}}
+        )
+
+        scored = []
+        for product in cursor:
+            text = " ".join(
+                [
+                    product.get("name", ""),
+                    product.get("tagline", ""),
+                    product.get("description", ""),
+                    " ".join(product.get("categories", []) or []),
+                    " ".join(product.get("topics", []) or []),
+                ]
+            ).lower()
+            if not terms:
+                continue
+            matches = sum(1 for term in terms if term in text)
+            if matches:
+                product["similarity"] = matches / len(terms)
+                scored.append(product)
+
+        scored.sort(key=lambda x: x.get("similarity", 0), reverse=True)
+        if scored:
+            return scored[:limit]
+
+        return self.product_store.get_recent_products(days=30, limit=limit)
 
     def _format_recommendations(self, user, products):
         """Format products as personalized recommendations"""

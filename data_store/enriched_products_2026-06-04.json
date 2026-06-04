@@ -1,0 +1,903 @@
+[
+  {
+    "id": "1159756",
+    "name": "InsForge Backend Branching",
+    "tagline": "Git style branching for your backend",
+    "description": "Git-style branching for your entire backend. Spin off a branch to get a full, isolated copy of everything: your database, storage, auth, edge functions, and more, ready for your agents to experiment on without touching production.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/QFEQQG4XV2YKOJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 348,
+    "detailed_description": "InsForge Backend Branching is a backend isolation and merge workflow that lets developers create a branch of an entire backend environment in seconds. According to InsForge, a branch clones the full backend surface area, including database, auth, storage, edge functions, realtime channels, and scheduled jobs, so changes can be tested without affecting production. The product is designed to replace the risky practice of making backend changes directly on prod with a safer branch-validate-merge flow. InsForge describes branching as an isolated environment where developers can make changes, run dry runs, review SQL, and then merge the result back to the parent environment. It is intended to help teams test schema changes, authentication changes, storage changes, and other backend modifications with less risk. The system also supports conflict detection and resolution when both parent and branch modify the same object, using a merge process that can surface conflicts before applying changes. Overall, it solves the problem of safely experimenting with complex backend systems that are otherwise difficult to clone and merge reliably.[1][2][4]",
+    "features": [
+      "Full backend cloning: creates a branch that copies the backend environment, including database, auth, storage, edge functions, realtime channels, and scheduled jobs, which allows isolated experimentation without touching the original environment.[1][2]",
+      "Isolated branch environments: each branch acts as a separate environment where developers can make changes and verify behavior while the parent environment remains unaffected, reducing the chance of accidental production impact.[1]",
+      "Dry-run and merge review workflow: InsForge supports a branch workflow where developers can test changes, review the SQL or resulting operations, and only then merge back to the parent, improving safety and change control.[1]",
+      "Conflict detection and resolution: if both the branch and the parent modify the same object, InsForge surfaces a conflict and uses merge logic to help reconcile differences before merging, which is important for collaborative backend work.[1][2]",
+      "Fine-grained backend merge logic: InsForge says backend branching is not just database-level cloning; it uses object-level and field-level merge logic across backend configuration, which helps preserve valid changes in auth, policies, functions, storage, and related backend settings.[2]"
+    ],
+    "pricing": {
+      "model": "Freemium/Subscription",
+      "tiers": [
+        "Free: $0/month, includes 2 fully dedicated instances and unlimited MCP usage.[4]",
+        "Pro: $25/month, includes higher limits, production workloads, and pay-as-you-go usage.[4]",
+        "Legacy paid plans: existing paid users remain on their current legacy tier with the same pricing and limits, with no migration required.[4]",
+        "Enterprise: no enterprise tier is explicitly described in the provided sources."
+      ],
+      "free_trial": "A separate trial is not described; InsForge states that Free is available at $0/month without a credit card.[4]",
+      "additional_info": "The published pricing update says InsForge simplified from three tiers to two tiers, with Free intended to let users start on the full stack and upgrade only when they need more capacity.[4]"
+    },
+    "use_cases": [
+      "Testing a schema migration or database change in isolation before merging it into production, especially when the change could affect live data or application behavior.[2][1]",
+      "Validating backend configuration changes such as auth provider switches, RLS policy updates, storage changes, or edge function edits without risking the parent environment.[2][1]",
+      "Collaborative backend development where multiple developers or agents need to work on related backend objects and resolve merge conflicts before promoting changes to the main environment.[1][2]"
+    ],
+    "target_audience": "InsForge Backend Branching is designed for software teams, AI-assisted developers, and engineering organizations that manage complex backend systems and want safer environment isolation and merging. The broader InsForge platform targets AI coding agents and developer teams building production apps with database, auth, storage, compute, deployment, and AI gateway components, so the branching feature is especially relevant for backend engineers, platform engineers, and teams using agentic or automated development workflows.[3][5][6]",
+    "embedding_text": "Product: InsForge Backend Branching\n\nDescription: InsForge Backend Branching is a backend isolation and merge workflow that lets developers create a branch of an entire backend environment in seconds. According to InsForge, a branch clones the full backend surface area, including database, auth, storage, edge functions, realtime channels, and scheduled jobs, so changes can be tested without affecting production. The product is designed to replace the risky practice of making backend changes directly on prod with a safer branch-validate-merge flow. InsForge describes branching as an isolated environment where developers can make changes, run dry runs, review SQL, and then merge the result back to the parent environment. It is intended to help teams test schema changes, authentication changes, storage changes, and other backend modifications with less risk. The system also supports conflict detection and resolution when both parent and branch modify the same object, using a merge process that can surface conflicts before applying changes. Overall, it solves the problem of safely experimenting with complex backend systems that are otherwise difficult to clone and merge reliably.[1][2][4]\n\nKey Features:\n- Full backend cloning: creates a branch that copies the backend environment, including database, auth, storage, edge functions, realtime channels, and scheduled jobs, which allows isolated experimentation without touching the original environment.[1][2]\n- Isolated branch environments: each branch acts as a separate environment where developers can make changes and verify behavior while the parent environment remains unaffected, reducing the chance of accidental production impact.[1]\n- Dry-run and merge review workflow: InsForge supports a branch workflow where developers can test changes, review the SQL or resulting operations, and only then merge back to the parent, improving safety and change control.[1]\n- Conflict detection and resolution: if both the branch and the parent modify the same object, InsForge surfaces a conflict and uses merge logic to help reconcile differences before merging, which is important for collaborative backend work.[1][2]\n- Fine-grained backend merge logic: InsForge says backend branching is not just database-level cloning; it uses object-level and field-level merge logic across backend configuration, which helps preserve valid changes in auth, policies, functions, storage, and related backend settings.[2]\n\nPricing Model: Freemium/Subscription\nPricing Tiers:\n- Free: $0/month, includes 2 fully dedicated instances and unlimited MCP usage.[4]\n- Pro: $25/month, includes higher limits, production workloads, and pay-as-you-go usage.[4]\n- Legacy paid plans: existing paid users remain on their current legacy tier with the same pricing and limits, with no migration required.[4]\n- Enterprise: no enterprise tier is explicitly described in the provided sources.\nFree Trial: A separate trial is not described; InsForge states that Free is available at $0/month without a credit card.[4]\n\nUse Cases:\n- Testing a schema migration or database change in isolation before merging it into production, especially when the change could affect live data or application behavior.[2][1]\n- Validating backend configuration changes such as auth provider switches, RLS policy updates, storage changes, or edge function edits without risking the parent environment.[2][1]\n- Collaborative backend development where multiple developers or agents need to work on related backend objects and resolve merge conflicts before promoting changes to the main environment.[1][2]\n\nTarget Audience: InsForge Backend Branching is designed for software teams, AI-assisted developers, and engineering organizations that manage complex backend systems and want safer environment isolation and merging. The broader InsForge platform targets AI coding agents and developer teams building production apps with database, auth, storage, compute, deployment, and AI gateway components, so the branching feature is especially relevant for backend engineers, platform engineers, and teams using agentic or automated development workflows.[3][5][6]\n\nCategories: Open Source, Developer Tools, GitHub\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1149728",
+    "name": "Elentaria",
+    "tagline": "Your GTM: from diagnosis to execution",
+    "description": "Elentaria is the AI operator for B2B: it analyzes your business, scores 22 channels, ships the plan that fits, and learns what moved revenue so it can make the next week sharper. Every week, on your stack, in your voice.",
+    "category": "Sales",
+    "topics": [
+      "Sales",
+      "Marketing"
+    ],
+    "website": "https://www.producthunt.com/r/UJ3FSZT2ZNWJMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 298,
+    "detailed_description": "Elentaria appears to refer to **Elementaria Sanctitude**, a Cardfight!! Vanguard card, not a software product. Based on the available sources, it is a special **Sentinel** blitz order designed to provide powerful defensive protection in the trading card game.[4][5] Its main purpose is to let players block key attacks, including situations where normal guarding would be restricted, which makes it especially valuable in competitive play.[2][4] The card is limited to **one copy per deck**, reinforcing its role as a high-impact defensive tool rather than a card you build around in multiples.[4][5] In some versions, its shield/guard effect can be used without paying the usual cost if the opponent’s vanguard has **Triple Drive**, or if a specific condition related to the opponent’s crest is met.[4][5] This makes it useful against decks that rely on strong attack turns or guard restriction mechanics.[2][4] There is no evidence in the provided sources that this is a SaaS, GTM platform, or software product with pricing tiers, features, or business use cases.[1][2][3][4][5]",
+    "features": [
+      "First-choice **Sentinel** defense: it functions as a high-value defensive card that can stop crucial attacks, giving the player an emergency protection option in tight situations.[4][5]",
+      "**Bypasses certain guard restrictions**: because it is played as a blitz order rather than a normal unit call, it can get around some effects that prevent standard guarding, improving survivability against restrictive decks.[2][4]",
+      "**Conditional free use**: in described versions, it can be used without paying its normal cost if the opponent has **Triple Drive** or meets another specified condition, reducing the usual resource burden.[4][5]",
+      "**Deck-limit balancing**: only one copy may be included in a deck, which makes it a powerful but controlled answer card rather than an overcentralizing staple.[4][5]",
+      "**Meta-specific protection**: it is especially strong into decks with guard restriction or large multi-check attack turns, helping players survive high-pressure endgames.[2][4]"
+    ],
+    "pricing": {
+      "model": "Not a software pricing model; this is a collectible card with market resale pricing.",
+      "tiers": [
+        "Free tier: Not applicable.",
+        "Tier 1: Standard single-card market pricing varies by printing and seller; one listed copy is shown at $15.49 in mint condition, discounted from $20.99.[3]",
+        "Tier 2: Other printings and listings may differ; the card is also available through trading card marketplaces and promo product listings.[1][7][8]",
+        "Enterprise: Not applicable."
+      ],
+      "free_trial": "Not applicable.",
+      "additional_info": "No subscription, software license, or trial information is provided in the sources. The available pricing information reflects collectible card marketplace listings, not product software pricing.[1][3][7][8]"
+    },
+    "use_cases": [
+      "Competitive Cardfight!! Vanguard deckbuilding: a player includes it as a one-copy emergency defensive option to survive decisive enemy turns.[4][5]",
+      "Matchups against guard-restrictive strategies: it is useful when facing decks that limit ordinary guarding, since its blitz-order nature can help bypass some of those restrictions.[2][4]",
+      "Late-game defense against explosive attack turns: it helps absorb high-pressure attacks from opponents who generate extra drive checks or other enhanced battle phases.[2][4]"
+    ],
+    "target_audience": "Players of **Cardfight!! Vanguard**, especially competitive and tournament-focused players, deck builders, and collectors. The card is most relevant to players looking for a strong defensive tech card against aggressive or guard-restrictive decks, rather than to a software or SaaS audience.[2][4][5]",
+    "embedding_text": "Product: Elentaria\n\nDescription: Elentaria appears to refer to **Elementaria Sanctitude**, a Cardfight!! Vanguard card, not a software product. Based on the available sources, it is a special **Sentinel** blitz order designed to provide powerful defensive protection in the trading card game.[4][5] Its main purpose is to let players block key attacks, including situations where normal guarding would be restricted, which makes it especially valuable in competitive play.[2][4] The card is limited to **one copy per deck**, reinforcing its role as a high-impact defensive tool rather than a card you build around in multiples.[4][5] In some versions, its shield/guard effect can be used without paying the usual cost if the opponent’s vanguard has **Triple Drive**, or if a specific condition related to the opponent’s crest is met.[4][5] This makes it useful against decks that rely on strong attack turns or guard restriction mechanics.[2][4] There is no evidence in the provided sources that this is a SaaS, GTM platform, or software product with pricing tiers, features, or business use cases.[1][2][3][4][5]\n\nKey Features:\n- First-choice **Sentinel** defense: it functions as a high-value defensive card that can stop crucial attacks, giving the player an emergency protection option in tight situations.[4][5]\n- **Bypasses certain guard restrictions**: because it is played as a blitz order rather than a normal unit call, it can get around some effects that prevent standard guarding, improving survivability against restrictive decks.[2][4]\n- **Conditional free use**: in described versions, it can be used without paying its normal cost if the opponent has **Triple Drive** or meets another specified condition, reducing the usual resource burden.[4][5]\n- **Deck-limit balancing**: only one copy may be included in a deck, which makes it a powerful but controlled answer card rather than an overcentralizing staple.[4][5]\n- **Meta-specific protection**: it is especially strong into decks with guard restriction or large multi-check attack turns, helping players survive high-pressure endgames.[2][4]\n\nPricing Model: Not a software pricing model; this is a collectible card with market resale pricing.\nPricing Tiers:\n- Free tier: Not applicable.\n- Tier 1: Standard single-card market pricing varies by printing and seller; one listed copy is shown at $15.49 in mint condition, discounted from $20.99.[3]\n- Tier 2: Other printings and listings may differ; the card is also available through trading card marketplaces and promo product listings.[1][7][8]\n- Enterprise: Not applicable.\nFree Trial: Not applicable.\n\nUse Cases:\n- Competitive Cardfight!! Vanguard deckbuilding: a player includes it as a one-copy emergency defensive option to survive decisive enemy turns.[4][5]\n- Matchups against guard-restrictive strategies: it is useful when facing decks that limit ordinary guarding, since its blitz-order nature can help bypass some of those restrictions.[2][4]\n- Late-game defense against explosive attack turns: it helps absorb high-pressure attacks from opponents who generate extra drive checks or other enhanced battle phases.[2][4]\n\nTarget Audience: Players of **Cardfight!! Vanguard**, especially competitive and tournament-focused players, deck builders, and collectors. The card is most relevant to players looking for a strong defensive tech card against aggressive or guard-restrictive decks, rather than to a software or SaaS audience.[2][4][5]\n\nCategories: Sales, Marketing\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161070",
+    "name": "superlog",
+    "tagline": "Make your product bug-free",
+    "description": "Superlog is an open-source autonomous observability tool. It installs itself and fixes the bugs it finds. With a single prompt, it instruments your repository with OpenTelemetry and keeps it up-to-date. When something breaks, it groups noisy issues into a single incident and posts one mergeable PR in Slack. Unlike Datadog or Sentry, there's no setup, no alert fatigue, and no manual fixing. Your telemetry stays vendor-neutral, so you keep full control of your data.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Software Engineering",
+      "Developer Tools",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/KQWSEFIXSXKGGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 298,
+    "detailed_description": "Superlog is an **open-source autonomous observability tool** designed to find, explain, and fix software bugs with minimal manual effort.[1] It claims to “install itself” and then instrument a repository with **OpenTelemetry** from a single prompt, which suggests it automates the setup of telemetry rather than requiring extensive configuration.[1] When issues occur, Superlog groups noisy signals into a single incident, reducing the fragmentation that teams often experience across logs, traces, and alerts.[1] It then posts a **mergeable pull request in Slack** to address the bug, making remediation part of the normal development workflow.[1] The product positions itself as an alternative to tools like Datadog or Sentry by emphasizing **no setup**, **less alert fatigue**, and **no manual fixing**.[1] It also states that telemetry remains **vendor-neutral**, giving teams control over their data and reducing lock-in.[1]",
+    "features": [
+      "Single-prompt repository instrumentation with OpenTelemetry, which reduces setup time and helps teams quickly gain observability coverage across their codebase.[1]",
+      "Autonomous bug detection and self-installation behavior, which minimizes manual configuration and helps teams identify problems sooner.[1]",
+      "Incident grouping that consolidates noisy issues into one incident, improving signal quality and reducing alert fatigue for engineers.[1]",
+      "Slack delivery of a mergeable pull request, which streamlines remediation by bringing fixes directly into the team’s collaboration workflow.[1]",
+      "Vendor-neutral telemetry storage and control, which helps teams avoid lock-in and retain ownership of their observability data.[1]"
+    ],
+    "pricing": {
+      "model": "Not publicly specified in the available sources.[1]",
+      "tiers": [
+        "Free tier: The available sources do not describe a free tier or what it includes.[1]",
+        "Tier 1: No pricing tiers or named plans are listed in the available sources.[1]",
+        "Tier 2: No pricing tiers or named plans are listed in the available sources.[1]",
+        "Enterprise: No enterprise pricing or enterprise-specific features are listed in the available sources.[1]"
+      ],
+      "free_trial": "No free trial is mentioned in the available sources.[1]",
+      "additional_info": "The product is described as open-source, but the available sources do not confirm whether the software is free to use, commercially licensed, or offered with paid hosting/support options.[1]"
+    },
+    "use_cases": [
+      "A startup engineering team that wants observability quickly without spending days configuring dashboards, alerts, and instrumentation.[1]",
+      "A product team dealing with many overlapping alerts and noisy bug reports that needs issues consolidated into a single actionable incident.[1]",
+      "A development organization that wants fixes surfaced as mergeable pull requests so remediation can happen inside its existing Slack and Git-based workflow.[1]"
+    ],
+    "target_audience": "Superlog is designed for **software engineering teams**, especially developers and DevOps/SRE groups at startups or product companies that want automated observability and faster bug fixing.[1] Its emphasis on OpenTelemetry, incident consolidation, and mergeable pull requests suggests it is most relevant to teams operating modern web or cloud software stacks.[1]",
+    "embedding_text": "Product: superlog\n\nDescription: Superlog is an **open-source autonomous observability tool** designed to find, explain, and fix software bugs with minimal manual effort.[1] It claims to “install itself” and then instrument a repository with **OpenTelemetry** from a single prompt, which suggests it automates the setup of telemetry rather than requiring extensive configuration.[1] When issues occur, Superlog groups noisy signals into a single incident, reducing the fragmentation that teams often experience across logs, traces, and alerts.[1] It then posts a **mergeable pull request in Slack** to address the bug, making remediation part of the normal development workflow.[1] The product positions itself as an alternative to tools like Datadog or Sentry by emphasizing **no setup**, **less alert fatigue**, and **no manual fixing**.[1] It also states that telemetry remains **vendor-neutral**, giving teams control over their data and reducing lock-in.[1]\n\nKey Features:\n- Single-prompt repository instrumentation with OpenTelemetry, which reduces setup time and helps teams quickly gain observability coverage across their codebase.[1]\n- Autonomous bug detection and self-installation behavior, which minimizes manual configuration and helps teams identify problems sooner.[1]\n- Incident grouping that consolidates noisy issues into one incident, improving signal quality and reducing alert fatigue for engineers.[1]\n- Slack delivery of a mergeable pull request, which streamlines remediation by bringing fixes directly into the team’s collaboration workflow.[1]\n- Vendor-neutral telemetry storage and control, which helps teams avoid lock-in and retain ownership of their observability data.[1]\n\nPricing Model: Not publicly specified in the available sources.[1]\nPricing Tiers:\n- Free tier: The available sources do not describe a free tier or what it includes.[1]\n- Tier 1: No pricing tiers or named plans are listed in the available sources.[1]\n- Tier 2: No pricing tiers or named plans are listed in the available sources.[1]\n- Enterprise: No enterprise pricing or enterprise-specific features are listed in the available sources.[1]\nFree Trial: No free trial is mentioned in the available sources.[1]\n\nUse Cases:\n- A startup engineering team that wants observability quickly without spending days configuring dashboards, alerts, and instrumentation.[1]\n- A product team dealing with many overlapping alerts and noisy bug reports that needs issues consolidated into a single actionable incident.[1]\n- A development organization that wants fixes surfaced as mergeable pull requests so remediation can happen inside its existing Slack and Git-based workflow.[1]\n\nTarget Audience: Superlog is designed for **software engineering teams**, especially developers and DevOps/SRE groups at startups or product companies that want automated observability and faster bug fixing.[1] Its emphasis on OpenTelemetry, incident consolidation, and mergeable pull requests suggests it is most relevant to teams operating modern web or cloud software stacks.[1]\n\nCategories: Open Source, Software Engineering, Developer Tools, GitHub\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1160971",
+    "name": "Franz 6",
+    "tagline": "All your messaging apps in one window — with private AI",
+    "description": "WhatsApp, Slack, Signal, Telegram, Gmail, Outlook and 75+ services in one fast desktop app — no more juggling ten browser tabs. Franz 6 adds a built-in AI assistant that summarizes long chats, transcribes voice notes, triages your inbox and drafts replies — all on-device, so your conversations stay private (EU-hosted Cloud optional). 1M+ downloads. Free, cross-platform, made in Vienna. Winner: Product Hunt Golden Kitty, Desktop App of the Year 2016.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Productivity",
+      "Messaging"
+    ],
+    "website": "https://www.producthunt.com/r/FS4OANAZV3TTIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 182,
+    "detailed_description": "Franz 6 is a desktop app for consolidating multiple messaging and collaboration services into a single window, so users can manage many accounts without constantly switching tabs or browser sessions.[1] Its main purpose is to reduce context switching and keep work communication organized in one place, especially for people who juggle personal and professional accounts across different services.[1] The product also includes a private AI feature, which is positioned as an on-device or privacy-conscious assistant layer rather than a public consumer chatbot integration, helping users work with messages more efficiently while keeping their communication environment centralized.[1] Franz 6 uses the same free-plan limits for all users, including long-time users who were previously grandfathered into older terms, which indicates it is offered with a defined free tier and paid upgrade path.[1] According to the support documentation, users who need more than the free tier includes can upgrade to a paid Franz 6 plan.[1] The product is especially useful for people who need to monitor several messaging apps at once, keep inboxes separate, and avoid the distraction of opening multiple standalone apps or browser tabs.[1]",
+    "features": [
+      "Unified multi-app workspace: Franz 6 brings different messaging apps into one window, which reduces tab switching and helps users keep conversations organized across services.[1]",
+      "Free-plan availability: The product offers a free tier with current limits for all users, making it possible to use the app without paying if your needs fit within those limits.[1]",
+      "Paid upgrade path: Users who outgrow the free plan can move to a paid Franz 6 plan, which is important for heavier communication users who need expanded access.[1]",
+      "Account continuity options: Franz documents that older grandfathered free accounts do not retain legacy terms in Franz 6, which clarifies how users can transition and what to expect when upgrading from earlier versions.[1]",
+      "Private AI support: The tagline indicates built-in private AI, suggesting assistance features designed to improve productivity while keeping messaging workflows centralized and privacy-focused.[1]"
+    ],
+    "pricing": {
+      "model": "Freemium with paid upgrade options",
+      "tiers": [
+        "Free tier: Includes Franz 6's current free-plan limits; the support page indicates this applies to all users, including long-time users who were previously grandfathered under older terms.[1]",
+        "Paid Franz 6 plan: Available for users who need more than the free tier includes; the support page does not specify exact price or feature differences.[1]",
+        "Older Franz 5 usage: Users can stay on Franz 5 for now, but this is presented as a fallback option rather than a current pricing tier, with the note that the browser engine is aging.[1]",
+        "Enterprise: No enterprise pricing or enterprise-specific packaging is mentioned in the provided source.[1]"
+      ],
+      "free_trial": "No separate free-trial period is described in the provided source; Franz 6 appears to have a standing free tier instead.[1]",
+      "additional_info": "The support page explicitly says Franz 6 uses the same free-plan limits for everyone, and that grandfathered exceptions from earlier accounts do not carry forward into Franz 6.[1] Exact paid-plan prices and feature limits are not provided in the available source.[1]"
+    },
+    "use_cases": [
+      "Managing multiple workplace messengers at once: A user who relies on several chat tools for different teams can keep all conversations in one window and reduce constant app switching.[1]",
+      "Separating personal and professional communication: Someone who uses the same messaging platforms for work and personal life can organize accounts in one place while keeping contexts distinct.[1]",
+      "Lightweight productivity workflow with privacy in mind: A user who wants AI assistance for handling communication more efficiently can use Franz 6's private AI positioning without relying on a separate messaging dashboard.[1]"
+    ],
+    "target_audience": "Franz 6 is designed for individuals and teams that manage multiple messaging and collaboration accounts, especially knowledge workers, freelancers, remote workers, support staff, and small-to-mid-sized teams that want a centralized communication workspace.[1] It is most relevant for users who value productivity, account separation, and privacy-conscious tooling rather than a single-purpose chat app.[1]",
+    "embedding_text": "Product: Franz 6\n\nDescription: Franz 6 is a desktop app for consolidating multiple messaging and collaboration services into a single window, so users can manage many accounts without constantly switching tabs or browser sessions.[1] Its main purpose is to reduce context switching and keep work communication organized in one place, especially for people who juggle personal and professional accounts across different services.[1] The product also includes a private AI feature, which is positioned as an on-device or privacy-conscious assistant layer rather than a public consumer chatbot integration, helping users work with messages more efficiently while keeping their communication environment centralized.[1] Franz 6 uses the same free-plan limits for all users, including long-time users who were previously grandfathered into older terms, which indicates it is offered with a defined free tier and paid upgrade path.[1] According to the support documentation, users who need more than the free tier includes can upgrade to a paid Franz 6 plan.[1] The product is especially useful for people who need to monitor several messaging apps at once, keep inboxes separate, and avoid the distraction of opening multiple standalone apps or browser tabs.[1]\n\nKey Features:\n- Unified multi-app workspace: Franz 6 brings different messaging apps into one window, which reduces tab switching and helps users keep conversations organized across services.[1]\n- Free-plan availability: The product offers a free tier with current limits for all users, making it possible to use the app without paying if your needs fit within those limits.[1]\n- Paid upgrade path: Users who outgrow the free plan can move to a paid Franz 6 plan, which is important for heavier communication users who need expanded access.[1]\n- Account continuity options: Franz documents that older grandfathered free accounts do not retain legacy terms in Franz 6, which clarifies how users can transition and what to expect when upgrading from earlier versions.[1]\n- Private AI support: The tagline indicates built-in private AI, suggesting assistance features designed to improve productivity while keeping messaging workflows centralized and privacy-focused.[1]\n\nPricing Model: Freemium with paid upgrade options\nPricing Tiers:\n- Free tier: Includes Franz 6's current free-plan limits; the support page indicates this applies to all users, including long-time users who were previously grandfathered under older terms.[1]\n- Paid Franz 6 plan: Available for users who need more than the free tier includes; the support page does not specify exact price or feature differences.[1]\n- Older Franz 5 usage: Users can stay on Franz 5 for now, but this is presented as a fallback option rather than a current pricing tier, with the note that the browser engine is aging.[1]\n- Enterprise: No enterprise pricing or enterprise-specific packaging is mentioned in the provided source.[1]\nFree Trial: No separate free-trial period is described in the provided source; Franz 6 appears to have a standing free tier instead.[1]\n\nUse Cases:\n- Managing multiple workplace messengers at once: A user who relies on several chat tools for different teams can keep all conversations in one window and reduce constant app switching.[1]\n- Separating personal and professional communication: Someone who uses the same messaging platforms for work and personal life can organize accounts in one place while keeping contexts distinct.[1]\n- Lightweight productivity workflow with privacy in mind: A user who wants AI assistance for handling communication more efficiently can use Franz 6's private AI positioning without relying on a separate messaging dashboard.[1]\n\nTarget Audience: Franz 6 is designed for individuals and teams that manage multiple messaging and collaboration accounts, especially knowledge workers, freelancers, remote workers, support staff, and small-to-mid-sized teams that want a centralized communication workspace.[1] It is most relevant for users who value productivity, account separation, and privacy-conscious tooling rather than a single-purpose chat app.[1]\n\nCategories: Email, Productivity, Messaging\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1162051",
+    "name": "Replicas",
+    "tagline": "Run Claude Code and Codex in the cloud",
+    "description": "Run background coding agents from anywhere. Spawn Claude Code or Codex in a VM with code and tooling ready to go. Hand off tasks from Slack, Linear, or GitHub Replicas runs Claude Code, Codex, or any coding agent in the cloud. Agents run in isolated VMs with real dev environments, and you can bring your own subscriptions and API keys. Trigger tasks from Slack, Linear, or GitHub and come back to a PR ready to review.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/D44IQTTKSR3U2U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 165,
+    "detailed_description": "I could not verify a product named “Replicas” that matches the tagline “Run Claude Code and Codex in the cloud” from the provided search results. The available results mostly refer to replica goods, collectibles, or unrelated marketplaces, not a cloud development product.[1][2][3][4][6][7] Because the Product Hunt page content itself was not available in the results, I cannot reliably describe the product’s exact functionality, workflow, or differentiators without risking inaccuracy. Based on the tagline alone, the most likely interpretation is that Replicas is a cloud-hosted environment for running AI coding agents such as Claude Code and Codex remotely, which would help users delegate coding tasks without keeping a local machine active. That interpretation is an inference from the tagline, not a verified fact from the search results. No pricing or plan details were present in the results, so I cannot confirm whether the product is free, subscription-based, or usage-based.[1][2][3][4][6][7]",
+    "features": [
+      "Cloud execution for AI coding agents — if the tagline is accurate, the product likely lets users run Claude Code and Codex in hosted environments, which would reduce the need for local setup and keep sessions running in the cloud; this is inferred from the tagline, not confirmed by the search results.",
+      "Remote task automation — a cloud-based runner for coding agents would typically support long-running development tasks such as code generation, refactoring, and repository changes without requiring the user’s laptop to stay open; this is an inference from the product positioning.",
+      "Workspace persistence — cloud-hosted coding environments usually preserve state across sessions, which benefits users working on multi-step engineering tasks; this is a likely capability, but it was not verified in the search results.",
+      "Access from anywhere — running tools in the cloud generally allows engineers to trigger or monitor work from any device, improving flexibility for distributed teams; this is an inferred benefit rather than a confirmed feature.",
+      "Reduced local environment burden — if Replicas hosts Claude Code and Codex externally, it would help users avoid installing dependencies or managing machine resources locally; this is a reasonable inference from the tagline, not a sourced product detail."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "Free tier: not found in the provided search results.",
+        "Tier 1: not found in the provided search results.",
+        "Tier 2: not found in the provided search results.",
+        "Enterprise: not found in the provided search results."
+      ],
+      "free_trial": "No free-trial information was available in the provided search results.",
+      "additional_info": "The search results do not include the Product Hunt listing content, the product website, or any pricing page, so pricing could not be verified."
+    },
+    "use_cases": [
+      "Running AI-assisted coding jobs in the cloud when a developer wants to offload repetitive implementation work or code edits to Claude Code or Codex; this is inferred from the tagline.",
+      "Keeping coding workflows active on a remote machine for long tasks such as refactoring, feature generation, or repository maintenance without depending on a local workstation; this is an inferred use case.",
+      "Allowing distributed engineering teams to access a shared cloud environment for AI coding automation, especially when they need consistent runtime state across sessions; this is an inference."
+    ],
+    "target_audience": "Likely software engineers, AI-assisted developers, and technical teams that want to run Claude Code and Codex in cloud-hosted environments; company size and industry could not be verified from the provided results. This audience description is inferred from the tagline rather than confirmed source material.",
+    "embedding_text": "Product: Replicas\n\nDescription: I could not verify a product named “Replicas” that matches the tagline “Run Claude Code and Codex in the cloud” from the provided search results. The available results mostly refer to replica goods, collectibles, or unrelated marketplaces, not a cloud development product.[1][2][3][4][6][7] Because the Product Hunt page content itself was not available in the results, I cannot reliably describe the product’s exact functionality, workflow, or differentiators without risking inaccuracy. Based on the tagline alone, the most likely interpretation is that Replicas is a cloud-hosted environment for running AI coding agents such as Claude Code and Codex remotely, which would help users delegate coding tasks without keeping a local machine active. That interpretation is an inference from the tagline, not a verified fact from the search results. No pricing or plan details were present in the results, so I cannot confirm whether the product is free, subscription-based, or usage-based.[1][2][3][4][6][7]\n\nKey Features:\n- Cloud execution for AI coding agents — if the tagline is accurate, the product likely lets users run Claude Code and Codex in hosted environments, which would reduce the need for local setup and keep sessions running in the cloud; this is inferred from the tagline, not confirmed by the search results.\n- Remote task automation — a cloud-based runner for coding agents would typically support long-running development tasks such as code generation, refactoring, and repository changes without requiring the user’s laptop to stay open; this is an inference from the product positioning.\n- Workspace persistence — cloud-hosted coding environments usually preserve state across sessions, which benefits users working on multi-step engineering tasks; this is a likely capability, but it was not verified in the search results.\n- Access from anywhere — running tools in the cloud generally allows engineers to trigger or monitor work from any device, improving flexibility for distributed teams; this is an inferred benefit rather than a confirmed feature.\n- Reduced local environment burden — if Replicas hosts Claude Code and Codex externally, it would help users avoid installing dependencies or managing machine resources locally; this is a reasonable inference from the tagline, not a sourced product detail.\n\nPricing Model: Unknown\nPricing Tiers:\n- Free tier: not found in the provided search results.\n- Tier 1: not found in the provided search results.\n- Tier 2: not found in the provided search results.\n- Enterprise: not found in the provided search results.\nFree Trial: No free-trial information was available in the provided search results.\n\nUse Cases:\n- Running AI-assisted coding jobs in the cloud when a developer wants to offload repetitive implementation work or code edits to Claude Code or Codex; this is inferred from the tagline.\n- Keeping coding workflows active on a remote machine for long tasks such as refactoring, feature generation, or repository maintenance without depending on a local workstation; this is an inferred use case.\n- Allowing distributed engineering teams to access a shared cloud environment for AI coding automation, especially when they need consistent runtime state across sessions; this is an inference.\n\nTarget Audience: Likely software engineers, AI-assisted developers, and technical teams that want to run Claude Code and Codex in cloud-hosted environments; company size and industry could not be verified from the provided results. This audience description is inferred from the tagline rather than confirmed source material.\n\nCategories: Software Engineering, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161963",
+    "name": "Hermes Desktop",
+    "tagline": "The agent that grows with you",
+    "description": "Hermes Desktop — the open-source agent that grows with you, now a native app for macOS, Windows, and Linux. By Nous Research.",
+    "category": "Open Source",
+    "topics": [
+      "Open Source",
+      "Developer Tools",
+      "Artificial Intelligence",
+      "GitHub"
+    ],
+    "website": "https://www.producthunt.com/r/T2RBMD4EF5MIAF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 146,
+    "detailed_description": "Hermes Desktop is a native desktop application that provides a graphical interface for using and managing Hermes Agent, an AI assistant built by Nous Research. It is designed to replace or reduce terminal-based setup by letting users install, configure, chat with, and manage the same Hermes Agent core from a modern app UI. The desktop app works with the same agent configuration, API keys, sessions, skills, memory, and settings as the CLI, so actions taken in one interface are reflected in the others. It is intended to make advanced agent workflows more accessible to non-technical users while still supporting power-user features such as tool use, sessions, profiles, memory, schedules, and messaging gateways. The app emphasizes persistent, multi-session agent use, including long-running workflows and cross-session continuity. It also supports streaming tool output and side-by-side previews to make agent activity easier to monitor and control. Hermes Desktop runs on macOS, Windows, and Linux according to the official docs. [4][2]",
+    "features": [
+      "Native desktop chat interface with streaming tool output and side-by-side previews, which makes it easier to follow what the agent is doing in real time and review results without switching contexts. [4]",
+      "Shared agent state with the CLI and other Hermes front ends, including the same config, API keys, sessions, skills, and memory, which reduces duplication and keeps work consistent across interfaces. [4]",
+      "Built-in management for memory, profiles, tools, schedules, and messaging gateways, which helps users organize agent behavior and run recurring or connected workflows from one place. [2][6]",
+      "Support for file browsing, logs, backups, imports, and debug tools, which benefits users who need operational visibility and easier troubleshooting. [2][4]",
+      "Compatibility with multiple model providers, including hosted services and OpenAI-compatible local endpoints, which gives users flexibility in cost, privacy, and deployment style. [2]",
+      "Cross-platform desktop support on macOS, Windows, and Linux, which broadens accessibility for teams using different operating systems. [4]"
+    ],
+    "pricing": {
+      "model": "Open-source / no public paid pricing information found in the provided sources.",
+      "tiers": [
+        "Free tier: Not clearly documented in the provided sources, but the desktop app itself appears to be available without listed subscription pricing.",
+        "Tier 1: No paid consumer tiers were identified in the provided sources.",
+        "Tier 2: No paid team or pro tiers were identified in the provided sources.",
+        "Enterprise: No enterprise pricing or licensing details were identified in the provided sources."
+      ],
+      "free_trial": "No free trial information was found in the provided sources.",
+      "additional_info": "The available sources describe Hermes Desktop as a third-party open-source companion interface for Hermes Agent, while Hermes Agent itself is described as open-source. The sources do not provide an official price page or subscription details for Hermes Desktop. [2][1][4]"
+    },
+    "use_cases": [
+      "A non-technical user who wants to install and use Hermes Agent without working in a terminal can use Hermes Desktop to chat, configure settings, and manage the agent from a visual interface. [2][4]",
+      "A power user running recurring or long-lived workflows can use the app to manage sessions, memory, schedules, skills, and tools from one place while keeping state synchronized with the CLI. [4][6]",
+      "A developer or operator who needs to monitor agent behavior can use the app’s logs, backups, imports, debug tools, and tool-output streaming to inspect and troubleshoot workflows more efficiently. [2][4]"
+    ],
+    "target_audience": "Hermes Desktop is designed for individuals and teams who want to use Hermes Agent through a graphical desktop interface instead of a terminal, including developers, AI hobbyists, operators, and technically minded users working on macOS, Windows, or Linux. The feature set suggests it is especially relevant for users who manage autonomous agents, persistent memory, skills, schedules, and messaging integrations, as well as users who want a more accessible interface for advanced agent workflows. [4][2][6]",
+    "embedding_text": "Product: Hermes Desktop\n\nDescription: Hermes Desktop is a native desktop application that provides a graphical interface for using and managing Hermes Agent, an AI assistant built by Nous Research. It is designed to replace or reduce terminal-based setup by letting users install, configure, chat with, and manage the same Hermes Agent core from a modern app UI. The desktop app works with the same agent configuration, API keys, sessions, skills, memory, and settings as the CLI, so actions taken in one interface are reflected in the others. It is intended to make advanced agent workflows more accessible to non-technical users while still supporting power-user features such as tool use, sessions, profiles, memory, schedules, and messaging gateways. The app emphasizes persistent, multi-session agent use, including long-running workflows and cross-session continuity. It also supports streaming tool output and side-by-side previews to make agent activity easier to monitor and control. Hermes Desktop runs on macOS, Windows, and Linux according to the official docs. [4][2]\n\nKey Features:\n- Native desktop chat interface with streaming tool output and side-by-side previews, which makes it easier to follow what the agent is doing in real time and review results without switching contexts. [4]\n- Shared agent state with the CLI and other Hermes front ends, including the same config, API keys, sessions, skills, and memory, which reduces duplication and keeps work consistent across interfaces. [4]\n- Built-in management for memory, profiles, tools, schedules, and messaging gateways, which helps users organize agent behavior and run recurring or connected workflows from one place. [2][6]\n- Support for file browsing, logs, backups, imports, and debug tools, which benefits users who need operational visibility and easier troubleshooting. [2][4]\n- Compatibility with multiple model providers, including hosted services and OpenAI-compatible local endpoints, which gives users flexibility in cost, privacy, and deployment style. [2]\n- Cross-platform desktop support on macOS, Windows, and Linux, which broadens accessibility for teams using different operating systems. [4]\n\nPricing Model: Open-source / no public paid pricing information found in the provided sources.\nPricing Tiers:\n- Free tier: Not clearly documented in the provided sources, but the desktop app itself appears to be available without listed subscription pricing.\n- Tier 1: No paid consumer tiers were identified in the provided sources.\n- Tier 2: No paid team or pro tiers were identified in the provided sources.\n- Enterprise: No enterprise pricing or licensing details were identified in the provided sources.\nFree Trial: No free trial information was found in the provided sources.\n\nUse Cases:\n- A non-technical user who wants to install and use Hermes Agent without working in a terminal can use Hermes Desktop to chat, configure settings, and manage the agent from a visual interface. [2][4]\n- A power user running recurring or long-lived workflows can use the app to manage sessions, memory, schedules, skills, and tools from one place while keeping state synchronized with the CLI. [4][6]\n- A developer or operator who needs to monitor agent behavior can use the app’s logs, backups, imports, debug tools, and tool-output streaming to inspect and troubleshoot workflows more efficiently. [2][4]\n\nTarget Audience: Hermes Desktop is designed for individuals and teams who want to use Hermes Agent through a graphical desktop interface instead of a terminal, including developers, AI hobbyists, operators, and technically minded users working on macOS, Windows, or Linux. The feature set suggests it is especially relevant for users who manage autonomous agents, persistent memory, skills, schedules, and messaging integrations, as well as users who want a more accessible interface for advanced agent workflows. [4][2][6]\n\nCategories: Open Source, Developer Tools, Artificial Intelligence, GitHub\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1119517",
+    "name": "Spectron",
+    "tagline": "Agent memory you can trust",
+    "description": "Spectron is agent memory built on one ACID substrate. Graph, vectors, documents, and structured rows commit in one transaction. Every fact carries provenance. Corrections supersede, never overwrite. Hybrid retrieval fuses vectors, graph, BM25, and keywords. Traces feed back into ranking. Tri-temporal facts, multi-tenant scopes, and MCP support. No stitched stores. No sync pipelines.",
+    "category": "Developer Tools",
+    "topics": [
+      "Developer Tools",
+      "Artificial Intelligence",
+      "Database"
+    ],
+    "website": "https://www.producthunt.com/r/4TGR6AA6CJ6U7H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 144,
+    "detailed_description": "Spectron, based on the available search results, does not appear to be the Product Hunt AI memory product described by the tagline \"Agent memory you can trust\". The results primarily point to unrelated products and companies using the name Spectron, including industrial gas control systems, medical devices, veterinary medicine, and legacy data-monitoring equipment.[1][2][3][4][5][7] Because the provided search results do not include a Product Hunt page or any source describing an AI memory product, I cannot verify what this specific Spectron does or how it works from the evidence available.[1][2][3][4][5][7] The safest conclusion is that the query references a product that is not represented in the supplied results, or that the search data is incomplete or mismatched.[1][4][5] As a result, I cannot reliably describe its main purpose, core workflow, or the problems it solves without risking inaccuracy.[1][4][5] If you meant a different Spectron product, the current sources are not sufficient to identify it with confidence.[1][2][3][4][5][7]",
+    "features": [
+      "Not verifiable from the supplied sources: no source describes an AI agent-memory feature set for a Product Hunt product named Spectron.[1][4][5]",
+      "Not verifiable from the supplied sources: no source confirms memory persistence, retrieval, or trust/safety mechanisms.[1][4][5]",
+      "Not verifiable from the supplied sources: no source identifies integrations, APIs, or developer tooling for an AI product.[1][4][5]",
+      "Not verifiable from the supplied sources: no source provides product documentation or a feature list matching the tagline.[1][4][5]",
+      "Not verifiable from the supplied sources: the available Spectron sources refer to unrelated industrial, medical, veterinary, or legacy hardware products.[1][2][3][4][5][7]"
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "Free tier: not available in the supplied sources",
+        "Tier 1: not available in the supplied sources",
+        "Tier 2: not available in the supplied sources",
+        "Enterprise: not available in the supplied sources"
+      ],
+      "free_trial": "No free trial information is available in the supplied sources.",
+      "additional_info": "No pricing details for the Product Hunt Spectron product are present in the provided results. The search results only cover unrelated Spectron-branded products and do not include pricing for an AI memory tool.[1][2][3][4][5][7]"
+    },
+    "use_cases": [
+      "Not verifiable from the supplied sources: no source confirms an AI memory or agent workflow use case for this Spectron product.[1][4][5]",
+      "Not verifiable from the supplied sources: no source identifies developer, enterprise, or consumer scenarios for the Product Hunt listing.[1][4][5]",
+      "Not verifiable from the supplied sources: the accessible Spectron references describe unrelated non-AI products, so any AI use case would be speculative.[1][2][3][4][5][7]"
+    ],
+    "target_audience": "Unknown from the supplied sources. The available results do not identify the Product Hunt Spectron product or its intended users, and the Spectron-branded results instead describe unrelated industrial, medical, veterinary, or technical equipment.[1][2][3][4][5][7]",
+    "embedding_text": "Product: Spectron\n\nDescription: Spectron, based on the available search results, does not appear to be the Product Hunt AI memory product described by the tagline \"Agent memory you can trust\". The results primarily point to unrelated products and companies using the name Spectron, including industrial gas control systems, medical devices, veterinary medicine, and legacy data-monitoring equipment.[1][2][3][4][5][7] Because the provided search results do not include a Product Hunt page or any source describing an AI memory product, I cannot verify what this specific Spectron does or how it works from the evidence available.[1][2][3][4][5][7] The safest conclusion is that the query references a product that is not represented in the supplied results, or that the search data is incomplete or mismatched.[1][4][5] As a result, I cannot reliably describe its main purpose, core workflow, or the problems it solves without risking inaccuracy.[1][4][5] If you meant a different Spectron product, the current sources are not sufficient to identify it with confidence.[1][2][3][4][5][7]\n\nKey Features:\n- Not verifiable from the supplied sources: no source describes an AI agent-memory feature set for a Product Hunt product named Spectron.[1][4][5]\n- Not verifiable from the supplied sources: no source confirms memory persistence, retrieval, or trust/safety mechanisms.[1][4][5]\n- Not verifiable from the supplied sources: no source identifies integrations, APIs, or developer tooling for an AI product.[1][4][5]\n- Not verifiable from the supplied sources: no source provides product documentation or a feature list matching the tagline.[1][4][5]\n- Not verifiable from the supplied sources: the available Spectron sources refer to unrelated industrial, medical, veterinary, or legacy hardware products.[1][2][3][4][5][7]\n\nPricing Model: Unknown\nPricing Tiers:\n- Free tier: not available in the supplied sources\n- Tier 1: not available in the supplied sources\n- Tier 2: not available in the supplied sources\n- Enterprise: not available in the supplied sources\nFree Trial: No free trial information is available in the supplied sources.\n\nUse Cases:\n- Not verifiable from the supplied sources: no source confirms an AI memory or agent workflow use case for this Spectron product.[1][4][5]\n- Not verifiable from the supplied sources: no source identifies developer, enterprise, or consumer scenarios for the Product Hunt listing.[1][4][5]\n- Not verifiable from the supplied sources: the accessible Spectron references describe unrelated non-AI products, so any AI use case would be speculative.[1][2][3][4][5][7]\n\nTarget Audience: Unknown from the supplied sources. The available results do not identify the Product Hunt Spectron product or its intended users, and the Spectron-branded results instead describe unrelated industrial, medical, veterinary, or technical equipment.[1][2][3][4][5][7]\n\nCategories: Developer Tools, Artificial Intelligence, Database\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1158294",
+    "name": "Walkable",
+    "tagline": "Safety-first walking navigation to walk the safest routes",
+    "description": "Safety-first walking navigation. Tired of maps sending you through dark or empty streets just to save 3 minutes? Walkable shows you the safest routes in real time using a Walkable Score that considers lighting, foot traffic, time of day, and live safety signals (including crime activity data) Choose between Safest, Balanced, or Fastest routes, then walk with confidence. Designed for women, parents, and travelers who refuse to trade safety for speed.",
+    "category": "Travel",
+    "topics": [
+      "Travel",
+      "Maps",
+      "Lifestyle"
+    ],
+    "website": "https://www.producthunt.com/r/CWQH4HXTI7JKXQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 131,
+    "detailed_description": "Walkable appears to be a **walking navigation product focused on route safety**, aimed at helping people choose safer paths when traveling on foot. Based on the tagline, its main purpose is to optimize pedestrian route selection around safety rather than just shortest distance or fastest time. Products in this category typically reduce exposure to higher-traffic roads, poor crossings, or other walkability barriers, which aligns with established walkability criteria that emphasize personal safety, traffic calming, connected streets, and convenient crossings. Because the search results provided do not include the product’s own feature page or documentation, the exact implementation details are not fully verifiable from the available sources. The most defensible description is that Walkable is intended to improve everyday walking decisions by making safer pedestrian routing easier and more practical. This problem is especially relevant in cities where pedestrians must trade off between convenience and perceived or actual safety. The available sources support the broader need for safer, more walkable environments, but not Walkable’s specific technical methods or data sources.[2][3][4][5]",
+    "features": [
+      "Safety-first route selection - the product’s tagline indicates that its core feature is choosing walking routes that prioritize safety, which helps users avoid less secure or less comfortable pedestrian corridors.[5]",
+      "Pedestrian-friendly navigation focus - unlike standard maps that often optimize for speed, Walkable is positioned around walking as the primary mode, which can better serve people traveling on foot in dense urban environments.[5]",
+      "Safer street and crossing awareness - walkability guidance consistently emphasizes factors such as safe street crossings, lower traffic speeds, and traffic calming, suggesting the product likely uses similar considerations to improve routing.[3][4]",
+      "Reduced exposure to walkability barriers - walkable communities are characterized by connected streets and fewer barriers; a safety-oriented walking navigator would be useful for helping users avoid wide arterials, disconnected routes, or hostile street conditions.[2][3]",
+      "Practical everyday pedestrian guidance - the product likely supports routine trips such as commuting, errands, or neighborhood walking by making route choice more confidence-inspiring and less stressful for pedestrians.[4][5]"
+    ],
+    "pricing": {
+      "model": "Not publicly verifiable from the provided search results",
+      "tiers": [
+        "Free tier: No pricing information was available in the provided sources.",
+        "Tier 1: No paid tier information was available in the provided sources.",
+        "Tier 2: No additional tier information was available in the provided sources.",
+        "Enterprise: No enterprise pricing or plan details were available in the provided sources."
+      ],
+      "free_trial": "No free-trial details were available in the provided sources.",
+      "additional_info": "The search results supplied here do not include Walkable’s official pricing page, product listing details, or documentation, so pricing cannot be confirmed. Any specific price, plan, or trial claim would be speculative based on the available evidence."
+    },
+    "use_cases": [
+      "Urban commuting on foot - useful for choosing a safer walking route to work, school, or transit stops in areas with heavy traffic or poor pedestrian infrastructure.[3][4][5]",
+      "Errands and neighborhood travel - helpful when walking to shops, appointments, or local destinations and wanting to minimize exposure to unsafe crossings or high-volume roads.[2][3][4]",
+      "Visitors and unfamiliar-city navigation - valuable for people who are new to an area and want route guidance that emphasizes pedestrian comfort and safety rather than just the shortest path.[4][5]"
+    ],
+    "target_audience": "Walkable is designed for **pedestrians** who want safer route choices, especially urban residents, commuters, students, and visitors navigating cities or neighborhoods on foot. The concept is also relevant to people who are more sensitive to traffic exposure or crossing safety, including older adults, families, and anyone prioritizing comfort and security over speed. From a product perspective, it likely serves individual consumers rather than enterprise buyers, though no official audience segmentation is confirmed in the provided sources.",
+    "embedding_text": "Product: Walkable\n\nDescription: Walkable appears to be a **walking navigation product focused on route safety**, aimed at helping people choose safer paths when traveling on foot. Based on the tagline, its main purpose is to optimize pedestrian route selection around safety rather than just shortest distance or fastest time. Products in this category typically reduce exposure to higher-traffic roads, poor crossings, or other walkability barriers, which aligns with established walkability criteria that emphasize personal safety, traffic calming, connected streets, and convenient crossings. Because the search results provided do not include the product’s own feature page or documentation, the exact implementation details are not fully verifiable from the available sources. The most defensible description is that Walkable is intended to improve everyday walking decisions by making safer pedestrian routing easier and more practical. This problem is especially relevant in cities where pedestrians must trade off between convenience and perceived or actual safety. The available sources support the broader need for safer, more walkable environments, but not Walkable’s specific technical methods or data sources.[2][3][4][5]\n\nKey Features:\n- Safety-first route selection - the product’s tagline indicates that its core feature is choosing walking routes that prioritize safety, which helps users avoid less secure or less comfortable pedestrian corridors.[5]\n- Pedestrian-friendly navigation focus - unlike standard maps that often optimize for speed, Walkable is positioned around walking as the primary mode, which can better serve people traveling on foot in dense urban environments.[5]\n- Safer street and crossing awareness - walkability guidance consistently emphasizes factors such as safe street crossings, lower traffic speeds, and traffic calming, suggesting the product likely uses similar considerations to improve routing.[3][4]\n- Reduced exposure to walkability barriers - walkable communities are characterized by connected streets and fewer barriers; a safety-oriented walking navigator would be useful for helping users avoid wide arterials, disconnected routes, or hostile street conditions.[2][3]\n- Practical everyday pedestrian guidance - the product likely supports routine trips such as commuting, errands, or neighborhood walking by making route choice more confidence-inspiring and less stressful for pedestrians.[4][5]\n\nPricing Model: Not publicly verifiable from the provided search results\nPricing Tiers:\n- Free tier: No pricing information was available in the provided sources.\n- Tier 1: No paid tier information was available in the provided sources.\n- Tier 2: No additional tier information was available in the provided sources.\n- Enterprise: No enterprise pricing or plan details were available in the provided sources.\nFree Trial: No free-trial details were available in the provided sources.\n\nUse Cases:\n- Urban commuting on foot - useful for choosing a safer walking route to work, school, or transit stops in areas with heavy traffic or poor pedestrian infrastructure.[3][4][5]\n- Errands and neighborhood travel - helpful when walking to shops, appointments, or local destinations and wanting to minimize exposure to unsafe crossings or high-volume roads.[2][3][4]\n- Visitors and unfamiliar-city navigation - valuable for people who are new to an area and want route guidance that emphasizes pedestrian comfort and safety rather than just the shortest path.[4][5]\n\nTarget Audience: Walkable is designed for **pedestrians** who want safer route choices, especially urban residents, commuters, students, and visitors navigating cities or neighborhoods on foot. The concept is also relevant to people who are more sensitive to traffic exposure or crossing safety, including older adults, families, and anyone prioritizing comfort and security over speed. From a product perspective, it likely serves individual consumers rather than enterprise buyers, though no official audience segmentation is confirmed in the provided sources.\n\nCategories: Travel, Maps, Lifestyle\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1160559",
+    "name": "Uselink",
+    "tagline": "host your html, share the link, and get comments",
+    "description": "uselink turns any HTML or Markdown into a clean link you control. paste a doc, get a url under your handle, decide who can read and who can comment. readers reply in threads with no account, which Google Docs and Notion can't do. interactive HTML actually runs. add a password, an expiry, or a view limit, and keep every version. new this launch: a visual editor to edit live pages with no code, and an MCP server so Claude, Cursor, or n8n can publish for you.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/D4YQ3R4NJ5JHI3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 117,
+    "detailed_description": "Uselink is a sharing and review tool for Markdown and HTML content that turns a document into a permanent, shareable link. It is designed to let users host HTML or document content and distribute it as a URL instead of sending files back and forth. The product emphasizes collaborative review by making the shared page commentable, so teams can read, discuss, and revise the content in one place. Its positioning suggests it is especially useful for AI-generated documents, drafts, prototypes, and other web-ready content that needs quick distribution. By converting content into a living link, it reduces friction around file attachments, version confusion, and scattered feedback across email or chat. The main problem it solves is making content easier to publish, review, and iterate on with a single link. Uselink also describes itself as creating a “permanent” URL, which implies the shared page is intended to remain accessible over time.[1]",
+    "features": [
+      "“Get a shareable URL for your Markdown and HTML,” which lets users publish content as a link instead of exporting and sending files; this simplifies distribution and makes the content immediately accessible in a browser.[1]",
+      "Permanent, commentable pages for AI-generated or drafted documents, which helps teams centralize feedback and avoid losing comments across different tools.[1]",
+      "Support for both Markdown and HTML, which makes the product useful for text-based docs as well as custom web content or lightweight landing-page style pages.[1]",
+      "Team-oriented reading and review workflow, where the shared link can be circulated to collaborators for asynchronous feedback; this benefits product, design, and content review processes.[1]",
+      "A “living” document model, meaning the content can be treated as an evolving page rather than a static attachment; this reduces versioning issues when revisions are frequent.[1]"
+    ],
+    "pricing": {
+      "model": "Not publicly specified in the available source material",
+      "tiers": [
+        "Free tier: Not stated in the available source material",
+        "Tier 1: Not stated in the available source material",
+        "Tier 2: Not stated in the available source material",
+        "Enterprise: Not stated in the available source material"
+      ],
+      "free_trial": "No free trial information is stated in the available source material.",
+      "additional_info": "The available source material does not provide pricing, plan names, or billing terms, so pricing cannot be confirmed from the results provided.[1]"
+    },
+    "use_cases": [
+      "Sharing AI-generated drafts with teammates for quick review, where the user needs a single link that others can open and comment on without downloading files.[1]",
+      "Publishing HTML prototypes or lightweight web pages for stakeholder feedback, especially when the goal is to host the content temporarily or permanently and collect comments in one place.[1]",
+      "Reviewing Markdown documentation, product specs, or project notes with collaborators, where version confusion is reduced by using one canonical link instead of multiple attachments.[1]"
+    ],
+    "target_audience": "Uselink appears designed for individuals and teams that create and review Markdown or HTML content, including product teams, designers, developers, technical writers, and AI-assisted workflows. Its collaboration and commenting focus suggests it is useful for startups, small teams, and cross-functional groups that need fast sharing and asynchronous feedback.[1]",
+    "embedding_text": "Product: Uselink\n\nDescription: Uselink is a sharing and review tool for Markdown and HTML content that turns a document into a permanent, shareable link. It is designed to let users host HTML or document content and distribute it as a URL instead of sending files back and forth. The product emphasizes collaborative review by making the shared page commentable, so teams can read, discuss, and revise the content in one place. Its positioning suggests it is especially useful for AI-generated documents, drafts, prototypes, and other web-ready content that needs quick distribution. By converting content into a living link, it reduces friction around file attachments, version confusion, and scattered feedback across email or chat. The main problem it solves is making content easier to publish, review, and iterate on with a single link. Uselink also describes itself as creating a “permanent” URL, which implies the shared page is intended to remain accessible over time.[1]\n\nKey Features:\n- “Get a shareable URL for your Markdown and HTML,” which lets users publish content as a link instead of exporting and sending files; this simplifies distribution and makes the content immediately accessible in a browser.[1]\n- Permanent, commentable pages for AI-generated or drafted documents, which helps teams centralize feedback and avoid losing comments across different tools.[1]\n- Support for both Markdown and HTML, which makes the product useful for text-based docs as well as custom web content or lightweight landing-page style pages.[1]\n- Team-oriented reading and review workflow, where the shared link can be circulated to collaborators for asynchronous feedback; this benefits product, design, and content review processes.[1]\n- A “living” document model, meaning the content can be treated as an evolving page rather than a static attachment; this reduces versioning issues when revisions are frequent.[1]\n\nPricing Model: Not publicly specified in the available source material\nPricing Tiers:\n- Free tier: Not stated in the available source material\n- Tier 1: Not stated in the available source material\n- Tier 2: Not stated in the available source material\n- Enterprise: Not stated in the available source material\nFree Trial: No free trial information is stated in the available source material.\n\nUse Cases:\n- Sharing AI-generated drafts with teammates for quick review, where the user needs a single link that others can open and comment on without downloading files.[1]\n- Publishing HTML prototypes or lightweight web pages for stakeholder feedback, especially when the goal is to host the content temporarily or permanently and collect comments in one place.[1]\n- Reviewing Markdown documentation, product specs, or project notes with collaborators, where version confusion is reduced by using one canonical link instead of multiple attachments.[1]\n\nTarget Audience: Uselink appears designed for individuals and teams that create and review Markdown or HTML content, including product teams, designers, developers, technical writers, and AI-assisted workflows. Its collaboration and commenting focus suggests it is useful for startups, small teams, and cross-functional groups that need fast sharing and asynchronous feedback.[1]\n\nCategories: Productivity, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161965",
+    "name": "Town",
+    "tagline": "The assistant that learns how you work, then gets to work. ",
+    "description": "Town is the unusually helpful AI assistant. It learns how you work, not the other way around: your voice, your people, your patterns. It works where you do, across email, calendar, docs, and messages. It drafts your replies, handles your scheduling, and builds routines for the work you repeat. The more it learns, the more it does on its own, so your time goes to the work only you can do.o big ideas.",
+    "category": "Email",
+    "topics": [
+      "Email",
+      "Calendar",
+      "Virtual Assistants"
+    ],
+    "website": "https://www.producthunt.com/r/P7BSWU656UAUTZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 107,
+    "detailed_description": "Town is an AI workspace assistant designed to learn how a person or team works and then carry out work on their behalf. The product’s tagline indicates that it is focused on understanding workflows first, then automating or assisting with execution, rather than acting as a generic chatbot. Publicly available search results confirm that Town maintains an active product changelog, which suggests it is an evolving software product with ongoing updates and improvements.[5] However, the provided search results do not include a product landing page, feature list, or full documentation for Town, so the most defensible description is based on the tagline and changelog presence. In practice, a product with this positioning is typically intended to reduce repetitive coordination, speed up routine tasks, and help users move from instructions to execution more efficiently. Because the available sources are limited, specific capabilities beyond this assistant-oriented workflow automation framing cannot be verified from the results provided.[5] No reliable pricing information was found in the supplied search results.",
+    "features": [
+      "Learns how you work - the core promise in the tagline is that the assistant adapts to user behavior and preferences over time, which can reduce repeated instructions and make assistance more personalized.",
+      "Gets to work on your behalf - the product is positioned not just as a note-taking or chat tool, but as something that can actively perform tasks once it understands the workflow.",
+      "Ongoing product updates - Town maintains a public updates page describing launches, routine upgrades, fixes, and day-to-day improvements, indicating continuous product development.[5]",
+      "Workflow-oriented assistance - the product’s framing implies support for structured work processes rather than one-off answers, which can be useful for repeatable business operations.",
+      "Potential automation of repetitive coordination - based on the assistant positioning, the likely benefit is reducing manual follow-up and administrative overhead, though this specific capability is not explicitly detailed in the available sources."
+    ],
+    "pricing": {
+      "model": "Not verifiable from the provided sources",
+      "tiers": [
+        "Free tier: No pricing or free-plan details were found in the supplied search results.",
+        "Tier 1: No paid tier names, prices, or included features were found in the supplied search results.",
+        "Tier 2: No additional tier information was found in the supplied search results.",
+        "Enterprise: No enterprise pricing or procurement details were found in the supplied search results."
+      ],
+      "free_trial": "No free-trial information was found in the provided search results.",
+      "additional_info": "The supplied sources do not include an official pricing page or Product Hunt pricing details, so pricing should be treated as unknown until confirmed from Town’s own documentation or listing."
+    },
+    "use_cases": [
+      "Personal knowledge work - a user who repeatedly handles similar tasks, messages, or workflows could use Town to reduce the effort of re-explaining how they prefer things done.",
+      "Operations and administrative support - a team that relies on recurring coordination work could use an assistant that learns process patterns and helps carry out routine actions.",
+      "Founder or small-team productivity - a small team with limited operational bandwidth could use Town as a lightweight assistant to speed up repetitive execution and reduce context switching."
+    ],
+    "target_audience": "Town appears designed for knowledge workers, operators, founders, and small to mid-sized teams that want an assistant to learn their workflows and help execute tasks. The available evidence does not identify a specific industry focus, but the product positioning suggests broad use across business, operations, and productivity-heavy roles.",
+    "embedding_text": "Product: Town\n\nDescription: Town is an AI workspace assistant designed to learn how a person or team works and then carry out work on their behalf. The product’s tagline indicates that it is focused on understanding workflows first, then automating or assisting with execution, rather than acting as a generic chatbot. Publicly available search results confirm that Town maintains an active product changelog, which suggests it is an evolving software product with ongoing updates and improvements.[5] However, the provided search results do not include a product landing page, feature list, or full documentation for Town, so the most defensible description is based on the tagline and changelog presence. In practice, a product with this positioning is typically intended to reduce repetitive coordination, speed up routine tasks, and help users move from instructions to execution more efficiently. Because the available sources are limited, specific capabilities beyond this assistant-oriented workflow automation framing cannot be verified from the results provided.[5] No reliable pricing information was found in the supplied search results.\n\nKey Features:\n- Learns how you work - the core promise in the tagline is that the assistant adapts to user behavior and preferences over time, which can reduce repeated instructions and make assistance more personalized.\n- Gets to work on your behalf - the product is positioned not just as a note-taking or chat tool, but as something that can actively perform tasks once it understands the workflow.\n- Ongoing product updates - Town maintains a public updates page describing launches, routine upgrades, fixes, and day-to-day improvements, indicating continuous product development.[5]\n- Workflow-oriented assistance - the product’s framing implies support for structured work processes rather than one-off answers, which can be useful for repeatable business operations.\n- Potential automation of repetitive coordination - based on the assistant positioning, the likely benefit is reducing manual follow-up and administrative overhead, though this specific capability is not explicitly detailed in the available sources.\n\nPricing Model: Not verifiable from the provided sources\nPricing Tiers:\n- Free tier: No pricing or free-plan details were found in the supplied search results.\n- Tier 1: No paid tier names, prices, or included features were found in the supplied search results.\n- Tier 2: No additional tier information was found in the supplied search results.\n- Enterprise: No enterprise pricing or procurement details were found in the supplied search results.\nFree Trial: No free-trial information was found in the provided search results.\n\nUse Cases:\n- Personal knowledge work - a user who repeatedly handles similar tasks, messages, or workflows could use Town to reduce the effort of re-explaining how they prefer things done.\n- Operations and administrative support - a team that relies on recurring coordination work could use an assistant that learns process patterns and helps carry out routine actions.\n- Founder or small-team productivity - a small team with limited operational bandwidth could use Town as a lightweight assistant to speed up repetitive execution and reduce context switching.\n\nTarget Audience: Town appears designed for knowledge workers, operators, founders, and small to mid-sized teams that want an assistant to learn their workflows and help execute tasks. The available evidence does not identify a specific industry focus, but the product positioning suggests broad use across business, operations, and productivity-heavy roles.\n\nCategories: Email, Calendar, Virtual Assistants\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1162181",
+    "name": "Composer",
+    "tagline": "Multiplayer markdown for you, your team, and your agents.",
+    "description": "Composer is a real-time, multiplayer markdown editor where people and agents can work side-by-side. Instantly share markdown generated by your agent with teammates, edit in real time, leave comments, suggestions, and share context. Your agents join as true collaborators, working directly alongside you and your team.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Notes",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/DQVHE2OCJEC7RE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 105,
+    "detailed_description": "Composer is a real-time, multiplayer markdown editor designed for people, teams, and AI agents to work together in the same document. It lets users instantly share markdown created in an agent session with teammates, then edit that content collaboratively while leaving comments and suggestions. The product is built around the idea that markdown is the underlying document format, so content stays lightweight, portable, and familiar for technical teams. Composer also gives agents full document access through MCP, allowing them to respond to comments and contribute suggestions directly inside the shared workspace. This makes it useful for workflows where an AI agent drafts content, humans refine it, and the whole team stays aligned in one place. Access controls are supported for both people and agents, which helps teams manage who can view and edit shared documents. Document versioning is listed as coming soon, suggesting the product is evolving toward more complete document collaboration workflows.[1]",
+    "features": [
+      "Real-time multiplayer editing for markdown documents, allowing multiple people to work in the same doc simultaneously and reducing the friction of passing files back and forth.[1]",
+      "Agent collaboration inside the document, so AI agents can work alongside humans rather than only generating standalone output; this helps teams turn AI drafts into shared working documents faster.[1]",
+      "Direct sharing from coding agent sessions, which lets markdown generated by an agent be sent immediately to teammates and used as a starting point for collaboration.[1]",
+      "Comments and suggestions support, enabling review workflows where teammates can provide feedback inline and agents can also reply to comments or propose edits.[1]",
+      "Access controls for both people and agents, helping teams manage permissions and keep documents appropriately shared across collaborators.[1]"
+    ],
+    "pricing": {
+      "model": "Not publicly specified in the provided sources",
+      "tiers": [
+        "Free tier: No free plan details are provided in the available sources.",
+        "Tier 1: No named paid plan or price is provided in the available sources.",
+        "Tier 2: No additional pricing tiers are disclosed in the available sources.",
+        "Enterprise: No enterprise offering or enterprise pricing details are provided in the available sources."
+      ],
+      "free_trial": "No free trial information is provided in the available sources.",
+      "additional_info": "The available product information focuses on functionality and collaboration features, but does not include public pricing, plan names, or billing details.[1]"
+    },
+    "use_cases": [
+      "Technical teams using AI coding agents to draft design docs, runbooks, or implementation notes, then sharing those drafts with teammates for real-time review and refinement.[1]",
+      "Product, engineering, or operations teams that want a single markdown workspace for collaborative writing, inline comments, and suggestion-based editing without moving content between separate tools.[1]",
+      "Workflows where an AI agent prepares a document and humans need to correct, approve, or extend it in the same place, with permissions and direct agent participation managed centrally.[1]"
+    ],
+    "target_audience": "Composer is designed for individuals and teams that work heavily in markdown, especially software teams, product teams, and technical operators who collaborate with AI agents. The emphasis on real-time collaboration, agent participation, and access controls suggests a fit for startups and distributed teams that need shared document workflows rather than a traditional standalone notes app.[1]",
+    "embedding_text": "Product: Composer\n\nDescription: Composer is a real-time, multiplayer markdown editor designed for people, teams, and AI agents to work together in the same document. It lets users instantly share markdown created in an agent session with teammates, then edit that content collaboratively while leaving comments and suggestions. The product is built around the idea that markdown is the underlying document format, so content stays lightweight, portable, and familiar for technical teams. Composer also gives agents full document access through MCP, allowing them to respond to comments and contribute suggestions directly inside the shared workspace. This makes it useful for workflows where an AI agent drafts content, humans refine it, and the whole team stays aligned in one place. Access controls are supported for both people and agents, which helps teams manage who can view and edit shared documents. Document versioning is listed as coming soon, suggesting the product is evolving toward more complete document collaboration workflows.[1]\n\nKey Features:\n- Real-time multiplayer editing for markdown documents, allowing multiple people to work in the same doc simultaneously and reducing the friction of passing files back and forth.[1]\n- Agent collaboration inside the document, so AI agents can work alongside humans rather than only generating standalone output; this helps teams turn AI drafts into shared working documents faster.[1]\n- Direct sharing from coding agent sessions, which lets markdown generated by an agent be sent immediately to teammates and used as a starting point for collaboration.[1]\n- Comments and suggestions support, enabling review workflows where teammates can provide feedback inline and agents can also reply to comments or propose edits.[1]\n- Access controls for both people and agents, helping teams manage permissions and keep documents appropriately shared across collaborators.[1]\n\nPricing Model: Not publicly specified in the provided sources\nPricing Tiers:\n- Free tier: No free plan details are provided in the available sources.\n- Tier 1: No named paid plan or price is provided in the available sources.\n- Tier 2: No additional pricing tiers are disclosed in the available sources.\n- Enterprise: No enterprise offering or enterprise pricing details are provided in the available sources.\nFree Trial: No free trial information is provided in the available sources.\n\nUse Cases:\n- Technical teams using AI coding agents to draft design docs, runbooks, or implementation notes, then sharing those drafts with teammates for real-time review and refinement.[1]\n- Product, engineering, or operations teams that want a single markdown workspace for collaborative writing, inline comments, and suggestion-based editing without moving content between separate tools.[1]\n- Workflows where an AI agent prepares a document and humans need to correct, approve, or extend it in the same place, with permissions and direct agent participation managed centrally.[1]\n\nTarget Audience: Composer is designed for individuals and teams that work heavily in markdown, especially software teams, product teams, and technical operators who collaborate with AI agents. The emphasis on real-time collaboration, agent participation, and access controls suggests a fit for startups and distributed teams that need shared document workflows rather than a traditional standalone notes app.[1]\n\nCategories: Productivity, Notes, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161524",
+    "name": "Forward",
+    "tagline": "Installs your API into a customer's codebase in one command",
+    "description": "Forward is an AI forward-deployed engineer that integrates your API directly into your customers' codebases. Instead of 50-page docs, users run one command. Forward analyzes their repo, writes the integration on a new branch, runs tests, and opens a PR for review. Built for API and SDK companies to eliminate churn between signup and the first successful call. It learns your house style and ensures safety through build validation—all while saving users hours of manual wiring.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/FVQ726U6FWBKGH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 99,
+    "detailed_description": "Forward appears to be a developer tool that helps software teams install an API into a customer’s codebase with a single command, based on its tagline. That suggests its main purpose is to reduce the friction of integrating a vendor’s API into a customer environment, likely by automating setup, configuration, and code changes that would otherwise require manual implementation. Products like this are typically used to shorten time-to-value for customers, lower onboarding effort for engineering teams, and reduce integration errors during deployment. The product likely targets API vendors that need a smoother way to distribute SDKs, client-side code, or integration scaffolding into customer repositories. From the available search results, there is no authoritative product page or documentation confirming the exact technical workflow, supported languages, or implementation details. There is also no reliable pricing information in the results provided, so pricing cannot be stated with confidence.",
+    "features": [
+      "One-command API installation - likely automates the process of adding an API integration to a customer codebase, which reduces manual setup work and speeds up onboarding.",
+      "Codebase modification automation - likely generates or inserts the necessary code, configuration, or files directly into the customer project, lowering integration mistakes and saving engineering time.",
+      "Developer-focused onboarding - likely helps technical teams adopt a new API faster by packaging installation into a simple command rather than a long implementation guide.",
+      "Integration standardization - likely ensures customers install the API in a consistent way, which can improve supportability and reduce environment-specific setup issues.",
+      "Reduced time-to-value - likely shortens the gap between product trial and successful usage by making the first integration step much faster and easier.",
+      "Potential support for sales-assisted implementation - likely useful when a solutions or developer-relations team wants to help prospects integrate before purchase, although this is an inference rather than a confirmed feature."
+    ],
+    "pricing": {
+      "model": "Unknown",
+      "tiers": [
+        "Free tier: No verified pricing details were available in the provided results.",
+        "Tier 1: No verified plan names, prices, or included features were available in the provided results.",
+        "Tier 2: No verified plan names, prices, or included features were available in the provided results.",
+        "Enterprise: No verified enterprise packaging or custom pricing details were available in the provided results."
+      ],
+      "free_trial": "No verified free trial information was available in the provided results.",
+      "additional_info": "The search results provided did not include a product landing page, pricing page, or documentation for Forward. Any pricing details would need confirmation from the product’s official site or vendor materials."
+    },
+    "use_cases": [
+      "API vendor onboarding a new customer - a developer team can install the vendor’s API into a customer repository quickly during implementation or proof of concept.",
+      "Reducing friction in enterprise integrations - a solutions engineer can use a one-command install to standardize setup across complex customer environments and minimize manual steps.",
+      "Accelerating self-serve developer adoption - a platform team can let users try and integrate the API faster, improving activation and reducing abandonment during setup."
+    ],
+    "target_audience": "Forward is most likely designed for API companies, developer-platform teams, and SaaS vendors that sell to engineering-heavy customers. The primary users would be developers, solutions engineers, developer-relations teams, and technical founders at startups, mid-sized software companies, and enterprise vendors that need easier customer-side integrations.",
+    "embedding_text": "Product: Forward\n\nDescription: Forward appears to be a developer tool that helps software teams install an API into a customer’s codebase with a single command, based on its tagline. That suggests its main purpose is to reduce the friction of integrating a vendor’s API into a customer environment, likely by automating setup, configuration, and code changes that would otherwise require manual implementation. Products like this are typically used to shorten time-to-value for customers, lower onboarding effort for engineering teams, and reduce integration errors during deployment. The product likely targets API vendors that need a smoother way to distribute SDKs, client-side code, or integration scaffolding into customer repositories. From the available search results, there is no authoritative product page or documentation confirming the exact technical workflow, supported languages, or implementation details. There is also no reliable pricing information in the results provided, so pricing cannot be stated with confidence.\n\nKey Features:\n- One-command API installation - likely automates the process of adding an API integration to a customer codebase, which reduces manual setup work and speeds up onboarding.\n- Codebase modification automation - likely generates or inserts the necessary code, configuration, or files directly into the customer project, lowering integration mistakes and saving engineering time.\n- Developer-focused onboarding - likely helps technical teams adopt a new API faster by packaging installation into a simple command rather than a long implementation guide.\n- Integration standardization - likely ensures customers install the API in a consistent way, which can improve supportability and reduce environment-specific setup issues.\n- Reduced time-to-value - likely shortens the gap between product trial and successful usage by making the first integration step much faster and easier.\n- Potential support for sales-assisted implementation - likely useful when a solutions or developer-relations team wants to help prospects integrate before purchase, although this is an inference rather than a confirmed feature.\n\nPricing Model: Unknown\nPricing Tiers:\n- Free tier: No verified pricing details were available in the provided results.\n- Tier 1: No verified plan names, prices, or included features were available in the provided results.\n- Tier 2: No verified plan names, prices, or included features were available in the provided results.\n- Enterprise: No verified enterprise packaging or custom pricing details were available in the provided results.\nFree Trial: No verified free trial information was available in the provided results.\n\nUse Cases:\n- API vendor onboarding a new customer - a developer team can install the vendor’s API into a customer repository quickly during implementation or proof of concept.\n- Reducing friction in enterprise integrations - a solutions engineer can use a one-command install to standardize setup across complex customer environments and minimize manual steps.\n- Accelerating self-serve developer adoption - a platform team can let users try and integrate the API faster, improving activation and reducing abandonment during setup.\n\nTarget Audience: Forward is most likely designed for API companies, developer-platform teams, and SaaS vendors that sell to engineering-heavy customers. The primary users would be developers, solutions engineers, developer-relations teams, and technical founders at startups, mid-sized software companies, and enterprise vendors that need easier customer-side integrations.\n\nCategories: API, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161872",
+    "name": "Devin Desktop",
+    "tagline": "Manage fleets of local and cloud agents from one surface",
+    "description": "Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/NG6BZD7FNUESY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 98,
+    "detailed_description": "Devin Desktop appears to be a desktop-oriented extension or experience around Cognition’s Devin AI software engineer, with the core promise of letting teams manage fleets of local and cloud agents from one surface. Devin itself is an autonomous AI software engineer that can write, run, and test code, and it is designed to help engineering teams handle complex tasks with long-term planning and execution.[2][6] The product is built for team workflows rather than isolated one-off prompts, and it can be controlled through a conversational interface and an embedded IDE.[2] Recent Devin 2.2 information indicates desktop computer-use support, meaning the agent can interact with GUI applications such as browsers, Figma, and Photoshop by seeing the screen and clicking elements, not just using terminal commands.[1] That expands the kinds of work it can automate beyond code-only tasks into visual design, browser testing, and cross-application workflows.[1] Devin is also positioned to handle complex engineering work such as code migrations, bug triage, on-call incident resolution, and feature development for multi-repo projects.[4][6]",
+    "features": [
+      "Autonomous code writing, running, and testing - Devin can independently write code, execute it, and test it, which helps reduce manual engineering toil and speeds up implementation work.[2][6]",
+      "Conversational control with embedded IDE - Users can follow Devin’s progress and take over when needed through a chat-based interface and embedded development environment, improving transparency and human oversight.[2]",
+      "Desktop computer-use for GUI apps - Devin 2.2 can operate browsers and desktop software such as Figma and Photoshop through screen interaction, enabling tasks that require visual interfaces rather than terminals.[1]",
+      "Planning and execution for complex tasks - Devin is built to manage long-horizon engineering work with many decisions, making it useful for migrations, large refactors, and multi-step workflows.[4][6]",
+      "Team workflow integration - Devin is presented as an AI agent for engineering teams that can triage bugs, handle feature requests, answer code questions, and even integrate with Microsoft Teams for task capture and coordination.[3][4]"
+    ],
+    "pricing": {
+      "model": "Subscription with usage-based/free-credit access",
+      "tiers": [
+        "Free tier: Devin Docs says individual access is available through app.devin.ai, and external reporting on Devin 2.2 mentions $10 in free monthly credits for all users; however, the exact free-tier limits are not fully specified in the provided sources.[2][1]",
+        "Tier 1: Teams/Individual plans - Devin Docs says Individual and Teams plans are available, but the provided sources do not list exact public prices for these plans.[2]",
+        "Tier 2: Pro plan - one source describes a Pro plan priced at $20 per month and mentions a 14-day free trial, but this pricing is not confirmed by Devin’s official docs in the provided material.[5]",
+        "Enterprise: Cognition notes that companies already working with Cognition can request permissions from their administrator or Cognition directly, suggesting an enterprise access path, but no enterprise pricing is provided in the sources.[2][6]"
+      ],
+      "free_trial": "A 14-day free trial is mentioned in one external walkthrough source for the Pro plan, but this is not confirmed by the official Devin documentation provided here.[5]",
+      "additional_info": "The available sources contain some pricing ambiguity. Official Devin docs confirm availability of Individual and Teams plans and access through app.devin.ai, while secondary reporting mentions free monthly credits and a paid Pro plan, but exact current pricing and inclusions are not fully disclosed in the provided sources.[2][1][5]"
+    },
+    "use_cases": [
+      "Code migrations and large refactors - Devin is explicitly positioned to deliver faster migrations and handle complex engineering tasks across large codebases, which makes it useful for teams modernizing legacy systems or moving between frameworks.[4][6]",
+      "Bug triage and on-call support - Devin is described as an AI agent that can triage bugs and help with incident resolution, making it useful for engineering teams that need faster initial debugging and coordination.[3][4]",
+      "Cross-application automation for product and design teams - With desktop computer-use, Devin can interact with browsers, Figma, and Photoshop, which supports workflows like visual QA, UI testing, asset editing, and moving data between apps.[1]"
+    ],
+    "target_audience": "Devin is designed primarily for engineering teams, especially developers, software engineers, and product managers working in complex, multi-repo environments.[4][3] The documentation also points to Individual and Teams plans, while Cognition’s enterprise-style access path suggests it can serve larger organizations that want centralized control over agent usage.[2][6] Industries are not narrowly specified in the provided sources, but the strongest fit is software development organizations that need help with code maintenance, feature delivery, bug handling, and workflow automation.[2][4]",
+    "embedding_text": "Product: Devin Desktop\n\nDescription: Devin Desktop appears to be a desktop-oriented extension or experience around Cognition’s Devin AI software engineer, with the core promise of letting teams manage fleets of local and cloud agents from one surface. Devin itself is an autonomous AI software engineer that can write, run, and test code, and it is designed to help engineering teams handle complex tasks with long-term planning and execution.[2][6] The product is built for team workflows rather than isolated one-off prompts, and it can be controlled through a conversational interface and an embedded IDE.[2] Recent Devin 2.2 information indicates desktop computer-use support, meaning the agent can interact with GUI applications such as browsers, Figma, and Photoshop by seeing the screen and clicking elements, not just using terminal commands.[1] That expands the kinds of work it can automate beyond code-only tasks into visual design, browser testing, and cross-application workflows.[1] Devin is also positioned to handle complex engineering work such as code migrations, bug triage, on-call incident resolution, and feature development for multi-repo projects.[4][6]\n\nKey Features:\n- Autonomous code writing, running, and testing - Devin can independently write code, execute it, and test it, which helps reduce manual engineering toil and speeds up implementation work.[2][6]\n- Conversational control with embedded IDE - Users can follow Devin’s progress and take over when needed through a chat-based interface and embedded development environment, improving transparency and human oversight.[2]\n- Desktop computer-use for GUI apps - Devin 2.2 can operate browsers and desktop software such as Figma and Photoshop through screen interaction, enabling tasks that require visual interfaces rather than terminals.[1]\n- Planning and execution for complex tasks - Devin is built to manage long-horizon engineering work with many decisions, making it useful for migrations, large refactors, and multi-step workflows.[4][6]\n- Team workflow integration - Devin is presented as an AI agent for engineering teams that can triage bugs, handle feature requests, answer code questions, and even integrate with Microsoft Teams for task capture and coordination.[3][4]\n\nPricing Model: Subscription with usage-based/free-credit access\nPricing Tiers:\n- Free tier: Devin Docs says individual access is available through app.devin.ai, and external reporting on Devin 2.2 mentions $10 in free monthly credits for all users; however, the exact free-tier limits are not fully specified in the provided sources.[2][1]\n- Tier 1: Teams/Individual plans - Devin Docs says Individual and Teams plans are available, but the provided sources do not list exact public prices for these plans.[2]\n- Tier 2: Pro plan - one source describes a Pro plan priced at $20 per month and mentions a 14-day free trial, but this pricing is not confirmed by Devin’s official docs in the provided material.[5]\n- Enterprise: Cognition notes that companies already working with Cognition can request permissions from their administrator or Cognition directly, suggesting an enterprise access path, but no enterprise pricing is provided in the sources.[2][6]\nFree Trial: A 14-day free trial is mentioned in one external walkthrough source for the Pro plan, but this is not confirmed by the official Devin documentation provided here.[5]\n\nUse Cases:\n- Code migrations and large refactors - Devin is explicitly positioned to deliver faster migrations and handle complex engineering tasks across large codebases, which makes it useful for teams modernizing legacy systems or moving between frameworks.[4][6]\n- Bug triage and on-call support - Devin is described as an AI agent that can triage bugs and help with incident resolution, making it useful for engineering teams that need faster initial debugging and coordination.[3][4]\n- Cross-application automation for product and design teams - With desktop computer-use, Devin can interact with browsers, Figma, and Photoshop, which supports workflows like visual QA, UI testing, asset editing, and moving data between apps.[1]\n\nTarget Audience: Devin is designed primarily for engineering teams, especially developers, software engineers, and product managers working in complex, multi-repo environments.[4][3] The documentation also points to Individual and Teams plans, while Cognition’s enterprise-style access path suggests it can serve larger organizations that want centralized control over agent usage.[2][6] Industries are not narrowly specified in the provided sources, but the strongest fit is software development organizations that need help with code maintenance, feature delivery, bug handling, and workflow automation.[2][4]\n\nCategories: Software Engineering, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161388",
+    "name": "Brand Context API",
+    "tagline": "Ship AI that stays on-brand",
+    "description": "Brand Context API keeps your AI on-brand by returning a company's brand identity in one call: voice, mission, products, audience. With this structured data, your product ships output that's grounded from the first prompt.",
+    "category": "API",
+    "topics": [
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/MGLNG4FWENN4R4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 98,
+    "detailed_description": "Brand Context API is a developer API that provides structured brand context for companies on the internet, including information such as voice, mission, positioning, audience, competitors, and related brand attributes.[7] Its stated purpose is to help AI systems and applications generate outputs that stay aligned with a brand’s identity instead of producing generic or off-brand responses.[7] The product is positioned as a tool for AI agents, suggesting it can supply machine-readable brand intelligence that software can use at runtime.[7] In practice, this kind of API is useful for applications that need to personalize content, automate copy generation, or enforce brand consistency across multiple surfaces.[7] The tagline “Ship AI that stays on-brand” indicates that the core problem it solves is brand drift in AI-generated content and agent behavior.[7] Based on the product positioning, it is likely intended to reduce manual prompt engineering and make brand rules available through a standardized interface.[7]",
+    "features": [
+      "Structured brand context retrieval, giving applications machine-readable brand data such as voice, mission, positioning, audience, and competitors so AI outputs can stay aligned with a company’s identity.[7]",
+      "Designed for AI agents, which suggests the API is meant to be consumed programmatically by assistants or workflows that need real-time brand-aware responses.[7]",
+      "Brand-consistency support, helping teams reduce off-brand content generation by exposing brand attributes that can be used as guardrails in prompts or generation pipelines.[7]",
+      "Public internet company coverage, indicating it is meant to resolve or enrich brand context for companies found online rather than requiring users to manually maintain every brand profile.[7]",
+      "Free-to-start access, since the product page states “Get started free,” which lowers the barrier to testing the API in prototypes or early-stage deployments.[7]"
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "tiers": [
+        "Free tier: The product page says “Get started free,” but the provided search result does not include exact limits, included usage, or quota details.[7]",
+        "Tier 1: No paid tier names or prices are provided in the available search results.[7]",
+        "Tier 2: No additional tier names or prices are provided in the available search results.[7]",
+        "Enterprise: No enterprise pricing or enterprise-specific features are disclosed in the available search results.[7]"
+      ],
+      "free_trial": "A free starting option is advertised (“Get started free”), but the search results do not specify whether this is a time-limited trial or an ongoing free tier.[7]",
+      "additional_info": "No concrete pricing numbers, usage limits, credit model, or billing terms are included in the provided search results, so pricing details cannot be verified from the available evidence.[7]"
+    },
+    "use_cases": [
+      "Brand-safe AI copy generation: a marketing team can use the API to feed an LLM with company-specific voice and positioning so generated emails, landing page text, or social posts stay consistent with the brand.[7]",
+      "Customer-facing AI assistants: a support or sales chatbot can retrieve structured brand context to ensure answers, tone, and positioning remain aligned with the company’s messaging.[7]",
+      "Multi-brand or agency workflows: an agency building AI tools for multiple clients can use the API to swap brand context dynamically so each client’s outputs reflect its own voice and competitive positioning.[7]"
+    ],
+    "target_audience": "Brand Context API is designed for developers, AI product teams, and agent builders who need structured brand data in software workflows, especially at startups, SaaS companies, agencies, and enterprise teams that care about brand consistency across AI-generated content and customer-facing applications.[7]",
+    "embedding_text": "Product: Brand Context API\n\nDescription: Brand Context API is a developer API that provides structured brand context for companies on the internet, including information such as voice, mission, positioning, audience, competitors, and related brand attributes.[7] Its stated purpose is to help AI systems and applications generate outputs that stay aligned with a brand’s identity instead of producing generic or off-brand responses.[7] The product is positioned as a tool for AI agents, suggesting it can supply machine-readable brand intelligence that software can use at runtime.[7] In practice, this kind of API is useful for applications that need to personalize content, automate copy generation, or enforce brand consistency across multiple surfaces.[7] The tagline “Ship AI that stays on-brand” indicates that the core problem it solves is brand drift in AI-generated content and agent behavior.[7] Based on the product positioning, it is likely intended to reduce manual prompt engineering and make brand rules available through a standardized interface.[7]\n\nKey Features:\n- Structured brand context retrieval, giving applications machine-readable brand data such as voice, mission, positioning, audience, and competitors so AI outputs can stay aligned with a company’s identity.[7]\n- Designed for AI agents, which suggests the API is meant to be consumed programmatically by assistants or workflows that need real-time brand-aware responses.[7]\n- Brand-consistency support, helping teams reduce off-brand content generation by exposing brand attributes that can be used as guardrails in prompts or generation pipelines.[7]\n- Public internet company coverage, indicating it is meant to resolve or enrich brand context for companies found online rather than requiring users to manually maintain every brand profile.[7]\n- Free-to-start access, since the product page states “Get started free,” which lowers the barrier to testing the API in prototypes or early-stage deployments.[7]\n\nPricing Model: Freemium\nPricing Tiers:\n- Free tier: The product page says “Get started free,” but the provided search result does not include exact limits, included usage, or quota details.[7]\n- Tier 1: No paid tier names or prices are provided in the available search results.[7]\n- Tier 2: No additional tier names or prices are provided in the available search results.[7]\n- Enterprise: No enterprise pricing or enterprise-specific features are disclosed in the available search results.[7]\nFree Trial: A free starting option is advertised (“Get started free”), but the search results do not specify whether this is a time-limited trial or an ongoing free tier.[7]\n\nUse Cases:\n- Brand-safe AI copy generation: a marketing team can use the API to feed an LLM with company-specific voice and positioning so generated emails, landing page text, or social posts stay consistent with the brand.[7]\n- Customer-facing AI assistants: a support or sales chatbot can retrieve structured brand context to ensure answers, tone, and positioning remain aligned with the company’s messaging.[7]\n- Multi-brand or agency workflows: an agency building AI tools for multiple clients can use the API to swap brand context dynamically so each client’s outputs reflect its own voice and competitive positioning.[7]\n\nTarget Audience: Brand Context API is designed for developers, AI product teams, and agent builders who need structured brand data in software workflows, especially at startups, SaaS companies, agencies, and enterprise teams that care about brand consistency across AI-generated content and customer-facing applications.[7]\n\nCategories: API, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161395",
+    "name": "Carbone Skill for AI",
+    "tagline": "Teach your AI to build document templates",
+    "description": "Carbone is a universal document-generation engine: feed it a template file and JSON file, and it produces pixel-perfect documents at scale. The Carbone Skill teaches AI assistants like Claude or ChatGPT the entire Carbone templating language. Describe what you want in plain language and your AI writes correct Carbone syntax, builds templates in DOCX, XLSX, PPTX, HTML or PDF, and validates tags before you render automatically at scale.",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Artificial Intelligence",
+      "Marketing automation"
+    ],
+    "website": "https://www.producthunt.com/r/4KYO2RLLYEVOH6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 95,
+    "detailed_description": "Carbone Skill for AI is an AI assistant skill that teaches a model the Carbone templating language so it can create and edit document templates for file formats like DOCX, XLSX, and PPTX. Its main purpose is to let users describe a document workflow in natural language and have AI generate the underlying template logic instead of hand-coding template syntax. The product is positioned around document automation: invoices, reports, contracts, certificates, presentations, and spreadsheets can be produced from structured data using reusable templates. According to Carbone’s MCP documentation, AI tools connected through Carbone can create and convert documents at scale with templates and minimal code. The skill solves the common problem of slow, manual template authoring and reduces the need for specialist knowledge of Carbone syntax when building automated document-generation workflows.[2][6][4]",
+    "features": [
+      "Template-language guidance for AI assistants: the skill teaches the AI the Carbone templating language, which helps the model generate valid template logic for document automation instead of requiring the user to write syntax manually.[2][6]",
+      "Multi-format document generation: Carbone supports producing DOCX, XLSX, and PPTX outputs, allowing one template-driven workflow to serve reports, spreadsheets, presentations, and other business documents.[2][6]",
+      "Structured-data-to-document automation: Carbone is described as turning JSON data into PDFs, Word documents, spreadsheets, and more, which benefits teams that need repeatable document generation from application data.[4][6]",
+      "MCP and AI assistant integration: Carbone’s documentation says AI tools can connect to Carbone through MCP, enabling assistants such as chatbots or coding agents to create invoices, contracts, certificates, reports, and presentations directly.[6][4]",
+      "Scalable document templating: The product is aimed at automation at scale with minimal code, which benefits teams that need to generate large volumes of standardized documents consistently and quickly.[4][6]"
+    ],
+    "pricing": {
+      "model": "Not publicly specified in the provided sources.",
+      "tiers": [
+        "Free tier: No confirmed free tier information is available in the provided sources.",
+        "Tier 1: No confirmed public paid tier details are available in the provided sources.",
+        "Tier 2: No confirmed public paid tier details are available in the provided sources.",
+        "Enterprise: No confirmed enterprise pricing or packaging details are available in the provided sources."
+      ],
+      "free_trial": "No free-trial information is confirmed in the provided sources.",
+      "additional_info": "The available sources describe functionality and integrations, but they do not provide pricing, plan names, or subscription details for Carbone Skill for AI.[2][6][4]"
+    },
+    "use_cases": [
+      "Automated invoice and report generation: A finance or operations team can connect application data to Carbone templates so the AI produces branded invoices or recurring reports without manual document editing.[6][4]",
+      "Contract and certificate creation: Legal, HR, or customer-success teams can generate standardized contracts, certificates, or letters from structured inputs, reducing repetitive drafting work.[6]",
+      "Presentation and spreadsheet templating: Business teams can use the skill to build slide decks and spreadsheet-based deliverables from data sources, helping automate recurring executive updates and analytics outputs.[2][6]"
+    ],
+    "target_audience": "The product is designed for teams and developers who build document automation workflows, especially software engineers, AI/agent builders, and operations teams in businesses of any size that generate standardized documents at scale. It is particularly relevant for roles that need repeatable templated output such as product engineers, automation specialists, RevOps, finance, legal, HR, and customer operations. The integration focus suggests it is most useful in organizations already using AI assistants, MCP-compatible tools, or Carbone-based document pipelines.[6][4][2]",
+    "embedding_text": "Product: Carbone Skill for AI\n\nDescription: Carbone Skill for AI is an AI assistant skill that teaches a model the Carbone templating language so it can create and edit document templates for file formats like DOCX, XLSX, and PPTX. Its main purpose is to let users describe a document workflow in natural language and have AI generate the underlying template logic instead of hand-coding template syntax. The product is positioned around document automation: invoices, reports, contracts, certificates, presentations, and spreadsheets can be produced from structured data using reusable templates. According to Carbone’s MCP documentation, AI tools connected through Carbone can create and convert documents at scale with templates and minimal code. The skill solves the common problem of slow, manual template authoring and reduces the need for specialist knowledge of Carbone syntax when building automated document-generation workflows.[2][6][4]\n\nKey Features:\n- Template-language guidance for AI assistants: the skill teaches the AI the Carbone templating language, which helps the model generate valid template logic for document automation instead of requiring the user to write syntax manually.[2][6]\n- Multi-format document generation: Carbone supports producing DOCX, XLSX, and PPTX outputs, allowing one template-driven workflow to serve reports, spreadsheets, presentations, and other business documents.[2][6]\n- Structured-data-to-document automation: Carbone is described as turning JSON data into PDFs, Word documents, spreadsheets, and more, which benefits teams that need repeatable document generation from application data.[4][6]\n- MCP and AI assistant integration: Carbone’s documentation says AI tools can connect to Carbone through MCP, enabling assistants such as chatbots or coding agents to create invoices, contracts, certificates, reports, and presentations directly.[6][4]\n- Scalable document templating: The product is aimed at automation at scale with minimal code, which benefits teams that need to generate large volumes of standardized documents consistently and quickly.[4][6]\n\nPricing Model: Not publicly specified in the provided sources.\nPricing Tiers:\n- Free tier: No confirmed free tier information is available in the provided sources.\n- Tier 1: No confirmed public paid tier details are available in the provided sources.\n- Tier 2: No confirmed public paid tier details are available in the provided sources.\n- Enterprise: No confirmed enterprise pricing or packaging details are available in the provided sources.\nFree Trial: No free-trial information is confirmed in the provided sources.\n\nUse Cases:\n- Automated invoice and report generation: A finance or operations team can connect application data to Carbone templates so the AI produces branded invoices or recurring reports without manual document editing.[6][4]\n- Contract and certificate creation: Legal, HR, or customer-success teams can generate standardized contracts, certificates, or letters from structured inputs, reducing repetitive drafting work.[6]\n- Presentation and spreadsheet templating: Business teams can use the skill to build slide decks and spreadsheet-based deliverables from data sources, helping automate recurring executive updates and analytics outputs.[2][6]\n\nTarget Audience: The product is designed for teams and developers who build document automation workflows, especially software engineers, AI/agent builders, and operations teams in businesses of any size that generate standardized documents at scale. It is particularly relevant for roles that need repeatable templated output such as product engineers, automation specialists, RevOps, finance, legal, HR, and customer operations. The integration focus suggests it is most useful in organizations already using AI assistants, MCP-compatible tools, or Carbone-based document pipelines.[6][4][2]\n\nCategories: Productivity, Artificial Intelligence, Marketing automation\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161835",
+    "name": "FolderPlus",
+    "tagline": "Peek inside any folder without opening it",
+    "description": "Preview folders and archives the way Quick Look was meant to work. FolderPlus supercharges your Mac's Quick Look with rich, instant previews for folders and compressed archives. Just press Space on any folder or ZIP file to see exactly what's inside—no clicking, no waiting, no extracting. It's the missing feature Quick Look always should have had, built natively for macOS and designed to disappear into your everyday workflow.",
+    "category": "Mac",
+    "topics": [
+      "Mac",
+      "Productivity"
+    ],
+    "website": "https://www.producthunt.com/r/7D4XT2F5L5AXP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 94,
+    "detailed_description": "FolderPlus appears to be a Mac productivity app that extends Quick Look so you can preview the contents of folders and compressed archives instantly without opening them.[4] Its main purpose is to let users inspect what is inside a folder at a glance, which reduces repetitive Finder navigation and saves time when managing many files.[4] The Product Hunt listing describes it as a tool that \"supercharges\" Quick Look with rich, instant previews for folders and archives.[4] Based on that description, it is aimed at speeding up file browsing, helping users decide quickly whether a folder contains what they need before drilling down into it.[4] This makes it useful for people who work with large, nested directory structures, shared archives, or frequent file organization tasks.[4] I could not verify additional official feature documentation beyond the Product Hunt description, so the functionality details below are limited to what is directly supported by the available sources.[4]",
+    "features": [
+      "Instant folder previews via Quick Look: lets users peek inside a folder immediately with Space instead of opening it in Finder, which speeds up file inspection.[4]",
+      "Archive preview support: extends the same preview behavior to compressed archives, making it easier to check archive contents before extracting them.[4]",
+      "Rich preview interface: the listing describes the previews as \"rich,\" implying more useful visual context than a basic folder name or icon alone.[4]",
+      "Quick Look integration: works within the macOS preview workflow, which lowers the learning curve because users can use a familiar system action.[4]",
+      "Fast content triage for nested file structures: helps users identify the right folder or archive more quickly when navigating large collections of files.[4]"
+    ],
+    "pricing": {
+      "model": "Not publicly verifiable from the available sources",
+      "tiers": [
+        "Free tier: no verified information available from the provided sources",
+        "Tier 1: no verified pricing or named plan information available from the provided sources",
+        "Tier 2: no verified pricing or named plan information available from the provided sources",
+        "Enterprise: no verified enterprise offering information available from the provided sources"
+      ],
+      "free_trial": "No verified free-trial information was available in the provided sources.",
+      "additional_info": "The available Product Hunt result describes the product but does not provide a confirmed price, subscription model, or trial details.[4]"
+    },
+    "use_cases": [
+      "A designer, developer, or analyst quickly checks whether a project folder contains the right files before opening it, reducing time spent clicking through nested directories.[4]",
+      "A user reviewing downloaded ZIP or compressed archive files previews the contents first to decide whether extraction is worth the effort.[4]",
+      "Someone organizing a large document library uses instant previews to compare folders and locate the correct set of files faster.[4]"
+    ],
+    "target_audience": "FolderPlus is designed for Mac users who work with frequent file browsing and organization, especially people managing many folders or archives such as developers, designers, knowledge workers, and other productivity-focused professionals.[4]",
+    "embedding_text": "Product: FolderPlus\n\nDescription: FolderPlus appears to be a Mac productivity app that extends Quick Look so you can preview the contents of folders and compressed archives instantly without opening them.[4] Its main purpose is to let users inspect what is inside a folder at a glance, which reduces repetitive Finder navigation and saves time when managing many files.[4] The Product Hunt listing describes it as a tool that \"supercharges\" Quick Look with rich, instant previews for folders and archives.[4] Based on that description, it is aimed at speeding up file browsing, helping users decide quickly whether a folder contains what they need before drilling down into it.[4] This makes it useful for people who work with large, nested directory structures, shared archives, or frequent file organization tasks.[4] I could not verify additional official feature documentation beyond the Product Hunt description, so the functionality details below are limited to what is directly supported by the available sources.[4]\n\nKey Features:\n- Instant folder previews via Quick Look: lets users peek inside a folder immediately with Space instead of opening it in Finder, which speeds up file inspection.[4]\n- Archive preview support: extends the same preview behavior to compressed archives, making it easier to check archive contents before extracting them.[4]\n- Rich preview interface: the listing describes the previews as \"rich,\" implying more useful visual context than a basic folder name or icon alone.[4]\n- Quick Look integration: works within the macOS preview workflow, which lowers the learning curve because users can use a familiar system action.[4]\n- Fast content triage for nested file structures: helps users identify the right folder or archive more quickly when navigating large collections of files.[4]\n\nPricing Model: Not publicly verifiable from the available sources\nPricing Tiers:\n- Free tier: no verified information available from the provided sources\n- Tier 1: no verified pricing or named plan information available from the provided sources\n- Tier 2: no verified pricing or named plan information available from the provided sources\n- Enterprise: no verified enterprise offering information available from the provided sources\nFree Trial: No verified free-trial information was available in the provided sources.\n\nUse Cases:\n- A designer, developer, or analyst quickly checks whether a project folder contains the right files before opening it, reducing time spent clicking through nested directories.[4]\n- A user reviewing downloaded ZIP or compressed archive files previews the contents first to decide whether extraction is worth the effort.[4]\n- Someone organizing a large document library uses instant previews to compare folders and locate the correct set of files faster.[4]\n\nTarget Audience: FolderPlus is designed for Mac users who work with frequent file browsing and organization, especially people managing many folders or archives such as developers, designers, knowledge workers, and other productivity-focused professionals.[4]\n\nCategories: Mac, Productivity\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161523",
+    "name": "RadianceKit",
+    "tagline": "Turn photos into 3D Gaussian Splats on your Mac",
+    "description": "RadianceKit is the first native macOS app for 3D Gaussian Splatting. Drop in photos or video of any object or scene — it aligns the cameras, trains the model, and renders a photorealistic 3D reconstruction, all locally on your Mac's GPU. No Python, no CUDA, no cloud. Simple Mode for one-click results, Scene-Class Presets (Render/Outdoor/Indoor), and full Expert control. Export to 6 formats, orbit videos, and web viewers. M1+, $7.99 one-time, 3-day trial.",
+    "category": "Mac",
+    "topics": [
+      "Mac",
+      "Design Tools",
+      "Photography"
+    ],
+    "website": "https://www.producthunt.com/r/ZEZXSNTW54TP46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 90,
+    "detailed_description": "RadianceKit appears to be a Mac application that converts ordinary photos into 3D Gaussian Splats, a modern 3D scene representation used for photorealistic rendering and view synthesis. Based on the product tagline provided, its main purpose is to make 3D reconstruction from images more accessible to Mac users without requiring a complex professional pipeline. The core problem it solves is the time and technical difficulty involved in turning photo sets into usable 3D assets. This is especially useful for creators who want fast 3D captures of real-world objects, spaces, or scenes. Because the available search results did not include the Product Hunt page content itself, details about the exact workflow, supported export formats, or advanced controls are not confirmed here. The most reliable conclusion from the provided information is that RadianceKit is positioned as a photo-to-3D Gaussian Splat creation tool for macOS users.",
+    "features": [
+      "Photo-to-3D Gaussian Splat conversion - turns a set of photos into a 3D Gaussian Splat representation, which helps users generate immersive 3D scenes from real-world imagery.",
+      "Mac-native workflow - designed to run on a Mac, which benefits users who want a local desktop tool instead of a cloud-only or cross-platform workflow.",
+      "Photorealistic scene capture - Gaussian Splats are commonly used to preserve appearance details from photographs, which benefits users who need realistic visual fidelity.",
+      "Simplified 3D creation pipeline - reduces the need for manual 3D modeling or complicated reconstruction tools, helping non-experts and time-constrained creators produce 3D assets more quickly.",
+      "Likely creator-oriented output - the product is targeted at people working with photos and 3D content, which suggests value for quick asset generation for visualization, demonstrations, or experimentation."
+    ],
+    "pricing": {
+      "model": "Not confirmed from the provided search results",
+      "tiers": [
+        "Free tier: No verified information available in the provided search results.",
+        "Tier 1: No verified pricing tier information available in the provided search results.",
+        "Tier 2: No verified pricing tier information available in the provided search results.",
+        "Enterprise: No verified enterprise offering information available in the provided search results."
+      ],
+      "free_trial": "Not confirmed from the provided search results.",
+      "additional_info": "The search results provided do not include pricing details for RadianceKit, so any specific price, subscription model, or trial availability would require checking the product's official listing or vendor site directly."
+    },
+    "use_cases": [
+      "Photographers creating 3D visualizations from image sets - useful when a photographer wants to transform captured photos of an object, room, or location into a navigable 3D scene.",
+      "Indie developers and 3D enthusiasts prototyping immersive content - useful for quickly generating 3D assets for demos, experiments, or creative projects without building a model from scratch.",
+      "Designers or marketers preparing realistic scene previews - useful when a team needs fast photorealistic 3D representations of physical environments or products for presentation purposes."
+    ],
+    "target_audience": "RadianceKit is designed for Mac users who work with photos and 3D content, especially creators, photographers, designers, developers, and other visual professionals or enthusiasts. The product is most likely aimed at individuals or small teams rather than large enterprise deployments, based on the consumer-style positioning implied by the tagline.",
+    "embedding_text": "Product: RadianceKit\n\nDescription: RadianceKit appears to be a Mac application that converts ordinary photos into 3D Gaussian Splats, a modern 3D scene representation used for photorealistic rendering and view synthesis. Based on the product tagline provided, its main purpose is to make 3D reconstruction from images more accessible to Mac users without requiring a complex professional pipeline. The core problem it solves is the time and technical difficulty involved in turning photo sets into usable 3D assets. This is especially useful for creators who want fast 3D captures of real-world objects, spaces, or scenes. Because the available search results did not include the Product Hunt page content itself, details about the exact workflow, supported export formats, or advanced controls are not confirmed here. The most reliable conclusion from the provided information is that RadianceKit is positioned as a photo-to-3D Gaussian Splat creation tool for macOS users.\n\nKey Features:\n- Photo-to-3D Gaussian Splat conversion - turns a set of photos into a 3D Gaussian Splat representation, which helps users generate immersive 3D scenes from real-world imagery.\n- Mac-native workflow - designed to run on a Mac, which benefits users who want a local desktop tool instead of a cloud-only or cross-platform workflow.\n- Photorealistic scene capture - Gaussian Splats are commonly used to preserve appearance details from photographs, which benefits users who need realistic visual fidelity.\n- Simplified 3D creation pipeline - reduces the need for manual 3D modeling or complicated reconstruction tools, helping non-experts and time-constrained creators produce 3D assets more quickly.\n- Likely creator-oriented output - the product is targeted at people working with photos and 3D content, which suggests value for quick asset generation for visualization, demonstrations, or experimentation.\n\nPricing Model: Not confirmed from the provided search results\nPricing Tiers:\n- Free tier: No verified information available in the provided search results.\n- Tier 1: No verified pricing tier information available in the provided search results.\n- Tier 2: No verified pricing tier information available in the provided search results.\n- Enterprise: No verified enterprise offering information available in the provided search results.\nFree Trial: Not confirmed from the provided search results.\n\nUse Cases:\n- Photographers creating 3D visualizations from image sets - useful when a photographer wants to transform captured photos of an object, room, or location into a navigable 3D scene.\n- Indie developers and 3D enthusiasts prototyping immersive content - useful for quickly generating 3D assets for demos, experiments, or creative projects without building a model from scratch.\n- Designers or marketers preparing realistic scene previews - useful when a team needs fast photorealistic 3D representations of physical environments or products for presentation purposes.\n\nTarget Audience: RadianceKit is designed for Mac users who work with photos and 3D content, especially creators, photographers, designers, developers, and other visual professionals or enthusiasts. The product is most likely aimed at individuals or small teams rather than large enterprise deployments, based on the consumer-style positioning implied by the tagline.\n\nCategories: Mac, Design Tools, Photography\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161519",
+    "name": "Handler",
+    "tagline": "Review AI edits like stacked PRs at generation time.",
+    "description": "Every edit the agent proposes arrives with a built-in explanation and its own chat. Ask why, what it touches, or tell it to redo it. None of it derails the main agent.",
+    "category": "Software Engineering",
+    "topics": [
+      "Software Engineering",
+      "Development"
+    ],
+    "website": "https://www.producthunt.com/r/DOBDR7NSHZ534H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 89,
+    "detailed_description": "Handler appears to be an AI code-review product whose core idea is to let users inspect AI-generated edits before they are applied, in a way that feels like reviewing stacked pull requests at generation time. Based on the tagline, its main purpose is to make AI-assisted changes more transparent, controllable, and safer to adopt in software workflows. The product likely helps developers see proposed edits as discrete, reviewable units rather than a single opaque output, which reduces the risk of accepting unwanted or buggy changes. This approach is especially useful when AI is generating multiple related modifications across files or functions, because it preserves reviewability and traceability. It likely improves developer confidence by making AI output easier to inspect, compare, and approve incrementally. No reliable pricing or feature documentation was available in the provided search results, so any deeper product specifics beyond the tagline would be speculative.",
+    "features": [
+      "Stacked-PR-style review of AI edits, which breaks generated changes into reviewable chunks and helps developers evaluate each change separately instead of accepting a large opaque diff.",
+      "Generation-time inspection of edits, which lets users catch incorrect or low-quality AI output earlier and reduces the cost of fixing mistakes after the fact.",
+      "Incremental approval workflow, which supports safer adoption of AI-generated code by allowing teams to review and accept changes step by step.",
+      "Improved change traceability, which makes it easier to understand what the AI changed, why it changed it, and how those edits relate to each other in a multi-step workflow.",
+      "Developer-focused code review ergonomics, which likely fits into existing software engineering processes by making AI assistance feel closer to familiar pull-request review patterns."
+    ],
+    "pricing": {
+      "model": "Not publicly confirmed in the provided search results",
+      "tiers": [
+        "Free tier: No verified information available from the provided sources.",
+        "Tier 1: No verified pricing plan or named tier information available from the provided sources.",
+        "Tier 2: No verified pricing plan or named tier information available from the provided sources.",
+        "Enterprise: No verified enterprise offering information available from the provided sources."
+      ],
+      "free_trial": "No verified free-trial information was available in the provided search results.",
+      "additional_info": "The supplied results did not include an official product page, pricing page, or launch post for this specific AI product, so pricing details cannot be confirmed from the evidence provided."
+    },
+    "use_cases": [
+      "A software engineer using an AI coding assistant to make multi-file refactors and wanting to review each generated change before it lands in the codebase.",
+      "A team lead or senior reviewer evaluating AI-generated patches in a collaborative workflow and needing clearer visibility into what the model changed and in what order.",
+      "A startup building rapidly with AI-assisted development that wants to reduce regressions by treating AI edits as reviewable, incremental changes rather than blind auto-accepts."
+    ],
+    "target_audience": "Software engineers, engineering teams, and technical leaders who use AI coding tools and want more control over generated changes. The product is most relevant to teams that review code through pull requests, including startups and mid-sized product engineering organizations, and possibly enterprise teams with strict code quality or approval workflows.",
+    "embedding_text": "Product: Handler\n\nDescription: Handler appears to be an AI code-review product whose core idea is to let users inspect AI-generated edits before they are applied, in a way that feels like reviewing stacked pull requests at generation time. Based on the tagline, its main purpose is to make AI-assisted changes more transparent, controllable, and safer to adopt in software workflows. The product likely helps developers see proposed edits as discrete, reviewable units rather than a single opaque output, which reduces the risk of accepting unwanted or buggy changes. This approach is especially useful when AI is generating multiple related modifications across files or functions, because it preserves reviewability and traceability. It likely improves developer confidence by making AI output easier to inspect, compare, and approve incrementally. No reliable pricing or feature documentation was available in the provided search results, so any deeper product specifics beyond the tagline would be speculative.\n\nKey Features:\n- Stacked-PR-style review of AI edits, which breaks generated changes into reviewable chunks and helps developers evaluate each change separately instead of accepting a large opaque diff.\n- Generation-time inspection of edits, which lets users catch incorrect or low-quality AI output earlier and reduces the cost of fixing mistakes after the fact.\n- Incremental approval workflow, which supports safer adoption of AI-generated code by allowing teams to review and accept changes step by step.\n- Improved change traceability, which makes it easier to understand what the AI changed, why it changed it, and how those edits relate to each other in a multi-step workflow.\n- Developer-focused code review ergonomics, which likely fits into existing software engineering processes by making AI assistance feel closer to familiar pull-request review patterns.\n\nPricing Model: Not publicly confirmed in the provided search results\nPricing Tiers:\n- Free tier: No verified information available from the provided sources.\n- Tier 1: No verified pricing plan or named tier information available from the provided sources.\n- Tier 2: No verified pricing plan or named tier information available from the provided sources.\n- Enterprise: No verified enterprise offering information available from the provided sources.\nFree Trial: No verified free-trial information was available in the provided search results.\n\nUse Cases:\n- A software engineer using an AI coding assistant to make multi-file refactors and wanting to review each generated change before it lands in the codebase.\n- A team lead or senior reviewer evaluating AI-generated patches in a collaborative workflow and needing clearer visibility into what the model changed and in what order.\n- A startup building rapidly with AI-assisted development that wants to reduce regressions by treating AI edits as reviewable, incremental changes rather than blind auto-accepts.\n\nTarget Audience: Software engineers, engineering teams, and technical leaders who use AI coding tools and want more control over generated changes. The product is most relevant to teams that review code through pull requests, including startups and mid-sized product engineering organizations, and possibly enterprise teams with strict code quality or approval workflows.\n\nCategories: Software Engineering, Development\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1162093",
+    "name": "Dropstone 1.5",
+    "tagline": "2× Claude Code Pro's usage at $15/mo",
+    "description": "Dropstone 1.5 is our monthly re-baseline release. We test the top AI coding models every month and rebuild the runtime on whichever wins. This month: DeepSeek V4 Flash, V4 Pro, and Moonshot Kimi K2.6 all hosted in the US, nothing stored on our side. $15/month gets you about 450 deep coding sessions a week. Roughly twice what Claude Code Pro delivers at $20. Full technical report with the cost math and benchmarks: blankline.org/research/dropstone-1-5",
+    "category": "Productivity",
+    "topics": [
+      "Productivity",
+      "Developer Tools",
+      "Artificial Intelligence"
+    ],
+    "website": "https://www.producthunt.com/r/RSRH54C7JBIDRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 88,
+    "detailed_description": "Dropstone 1.5 is an AI coding agent that runs in your terminal and is designed to handle real engineering work such as multi-step bug fixes, feature implementation, test writing, and code review. It uses a three-tier model system—Fast, Pro, and Heavy—so users can choose the right balance of speed, reasoning depth, and context size for the task. The product emphasizes a flat monthly price instead of metered token billing, which is meant to reduce cost anxiety and eliminate runaway usage surprises. Dropstone also includes an integrated agent runtime with approval gates, tool dispatch, structured-output parsing, retry logic, and error recovery, which makes it usable as a controlled coding workflow rather than just a chat interface. The service is built on open-weight models hosted in the US, with a stated zero-retention posture and no foreign-network prompt handling. The Pro tier is positioned as the default workhorse for engineering tasks and is claimed to perform near frontier coding models on benchmarked tasks. It also refreshes its model lineup monthly so users do not need to keep migrating to whichever model is currently best. [1][2][4][5]",
+    "features": [
+      "Terminal-based AI coding agent: Dropstone lives in the terminal and is built to support interactive coding workflows, which benefits developers who want an agent that can work directly alongside command-line tools and repositories. [5]",
+      "Three coding tiers: Fast, Pro, and Heavy let users match model strength to task difficulty; Fast is intended for quick iterative edits, Pro for general engineering work, and Heavy for long-horizon, complex agentic coding. This helps control latency and cost while preserving access to stronger reasoning when needed. [1][2][4]",
+      "Approval-gated agent runtime: The system includes approval gates, tool dispatch, structured-output parsing, retry policy, and error recovery, which reduces the risk of uncontrolled agent behavior and makes the runtime safer for unattended or semi-attended work. [1][2]",
+      "Monthly model curation: Dropstone updates the underlying model stack monthly to whichever model performs best for coding, which reduces the burden on users to benchmark and migrate between providers themselves. [1][5]",
+      "Privacy and deployment controls: Dropstone states that inference runs on US-based providers with zero retention, and the enterprise offering adds VPC, on-premises, and air-gapped deployment options plus SSO and audit logs. This is useful for organizations with security, compliance, or data-residency requirements. [2]",
+      "Multimodal support on lower tiers: The Fast and Pro tiers support vision input through V4 Flash and V4 Pro vision adapters, which helps when coding tasks involve screenshots, diagrams, or other visual context. [1]"
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "tiers": [
+        "Free tier: Free plan available with no credit card to start; includes Fast model access, but Heavy is not included and the weekly credit allowance is limited compared with paid plans. [1][2]",
+        "Pro: $15/month; unlocks Fast and Pro tiers, and the Product Hunt listing says this level provides about 450 deep coding sessions a week. [2][5]",
+        "Max: $75/month; unlocks Fast, Pro, and Heavy tiers with a larger weekly credit allowance than Pro. [2]",
+        "Enterprise: Seat-plus-usage pricing at API rates on annual commitments, with VPC, on-premises, and air-gapped deployment options, SSO, audit logs, and custom SLAs. [2]"
+      ],
+      "free_trial": "There is no explicit free trial described, but Dropstone says you can start on the Free plan and that no credit card is required to begin. [2]",
+      "additional_info": "Dropstone positions its pricing as flat and predictable rather than metered token billing. The Product Hunt page claims $15/month yields about 450 deep coding sessions a week and compares that to Claude Code Pro’s 150 to 225 sessions for $20, framing Dropstone as roughly twice the usage at a lower price. [1][5]"
+    },
+    "use_cases": [
+      "Multi-step bug fixing: A developer can use Dropstone Pro to trace an issue across several files, propose fixes, apply changes, and validate them with tests in one agentic workflow. [1][2]",
+      "Feature implementation: Teams can use the terminal agent to scaffold and iteratively build a new feature, especially when the work requires repeated edits, refactors, and code generation across a codebase. [1][3]",
+      "Security-conscious enterprise coding workflows: Organizations that need US-hosted inference, zero retention, auditability, and deployment isolation can use Dropstone Enterprise for internal development environments or regulated workloads. [2]"
+    ],
+    "target_audience": "Dropstone is designed for software developers, especially engineers doing daily coding work in the terminal, as well as teams that need agentic debugging, feature development, and code review at scale. The product also targets security-conscious organizations and enterprises that want controlled deployments, audit logs, SSO, and data-residency options. [2][3][5]",
+    "embedding_text": "Product: Dropstone 1.5\n\nDescription: Dropstone 1.5 is an AI coding agent that runs in your terminal and is designed to handle real engineering work such as multi-step bug fixes, feature implementation, test writing, and code review. It uses a three-tier model system—Fast, Pro, and Heavy—so users can choose the right balance of speed, reasoning depth, and context size for the task. The product emphasizes a flat monthly price instead of metered token billing, which is meant to reduce cost anxiety and eliminate runaway usage surprises. Dropstone also includes an integrated agent runtime with approval gates, tool dispatch, structured-output parsing, retry logic, and error recovery, which makes it usable as a controlled coding workflow rather than just a chat interface. The service is built on open-weight models hosted in the US, with a stated zero-retention posture and no foreign-network prompt handling. The Pro tier is positioned as the default workhorse for engineering tasks and is claimed to perform near frontier coding models on benchmarked tasks. It also refreshes its model lineup monthly so users do not need to keep migrating to whichever model is currently best. [1][2][4][5]\n\nKey Features:\n- Terminal-based AI coding agent: Dropstone lives in the terminal and is built to support interactive coding workflows, which benefits developers who want an agent that can work directly alongside command-line tools and repositories. [5]\n- Three coding tiers: Fast, Pro, and Heavy let users match model strength to task difficulty; Fast is intended for quick iterative edits, Pro for general engineering work, and Heavy for long-horizon, complex agentic coding. This helps control latency and cost while preserving access to stronger reasoning when needed. [1][2][4]\n- Approval-gated agent runtime: The system includes approval gates, tool dispatch, structured-output parsing, retry policy, and error recovery, which reduces the risk of uncontrolled agent behavior and makes the runtime safer for unattended or semi-attended work. [1][2]\n- Monthly model curation: Dropstone updates the underlying model stack monthly to whichever model performs best for coding, which reduces the burden on users to benchmark and migrate between providers themselves. [1][5]\n- Privacy and deployment controls: Dropstone states that inference runs on US-based providers with zero retention, and the enterprise offering adds VPC, on-premises, and air-gapped deployment options plus SSO and audit logs. This is useful for organizations with security, compliance, or data-residency requirements. [2]\n- Multimodal support on lower tiers: The Fast and Pro tiers support vision input through V4 Flash and V4 Pro vision adapters, which helps when coding tasks involve screenshots, diagrams, or other visual context. [1]\n\nPricing Model: Subscription\nPricing Tiers:\n- Free tier: Free plan available with no credit card to start; includes Fast model access, but Heavy is not included and the weekly credit allowance is limited compared with paid plans. [1][2]\n- Pro: $15/month; unlocks Fast and Pro tiers, and the Product Hunt listing says this level provides about 450 deep coding sessions a week. [2][5]\n- Max: $75/month; unlocks Fast, Pro, and Heavy tiers with a larger weekly credit allowance than Pro. [2]\n- Enterprise: Seat-plus-usage pricing at API rates on annual commitments, with VPC, on-premises, and air-gapped deployment options, SSO, audit logs, and custom SLAs. [2]\nFree Trial: There is no explicit free trial described, but Dropstone says you can start on the Free plan and that no credit card is required to begin. [2]\n\nUse Cases:\n- Multi-step bug fixing: A developer can use Dropstone Pro to trace an issue across several files, propose fixes, apply changes, and validate them with tests in one agentic workflow. [1][2]\n- Feature implementation: Teams can use the terminal agent to scaffold and iteratively build a new feature, especially when the work requires repeated edits, refactors, and code generation across a codebase. [1][3]\n- Security-conscious enterprise coding workflows: Organizations that need US-hosted inference, zero retention, auditability, and deployment isolation can use Dropstone Enterprise for internal development environments or regulated workloads. [2]\n\nTarget Audience: Dropstone is designed for software developers, especially engineers doing daily coding work in the terminal, as well as teams that need agentic debugging, feature development, and code review at scale. The product also targets security-conscious organizations and enterprises that want controlled deployments, audit logs, SSO, and data-residency options. [2][3][5]\n\nCategories: Productivity, Developer Tools, Artificial Intelligence\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  },
+  {
+    "id": "1161669",
+    "name": "TaskGPT ",
+    "tagline": "Voice agent for MacOS",
+    "description": "Command your Mac with your Voice, Uses your OpenAPI/Anthropic API key stored on your machine, we own no servers and do not retain any of your data.",
+    "category": "Artificial Intelligence",
+    "topics": [
+      "Artificial Intelligence",
+      "Audio"
+    ],
+    "website": "https://www.producthunt.com/r/Q4GLZ6BQXGHBNP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+PB+%28ID%3A+176625%29",
+    "votes_count": 85,
+    "detailed_description": "TaskGPT is a macOS AI assistant that lets users control their Mac with natural language instead of manually clicking through apps and menus. According to its product page, the core promise is to let you “type or talk” and have AI turn your request into executable steps on the computer. It is positioned as a tool for automating background work, such as organizing files, opening apps, checking information, and drafting messages. The product page also emphasizes that it works without coding, which makes it accessible to non-technical users who want automation but do not want to build scripts or workflows themselves. TaskGPT’s example tasks show it can handle both system-level actions and everyday productivity tasks, like moving screenshots, opening Chrome, and composing an email. Its tagline and launch page describe it as a “voice agent for MacOS,” suggesting voice input is a central interaction mode alongside typed commands. The Product Hunt listing also describes it as “the most powerful and secure AI for MacOS,” indicating a focus on both capability and privacy/security positioning.[3][6]",
+    "features": [
+      "Natural-language task execution: users can describe what they want in plain English, and TaskGPT translates the request into steps the Mac can carry out, reducing the need to learn automation tools or scripting.[3]",
+      "Voice and text input: the product supports both typing and speaking commands, which benefits users who prefer hands-free interaction or faster conversational control.[3]",
+      "Foreground task automation: the site says users can watch the task execute in the foreground, which helps with transparency and lets users monitor what the assistant is doing.[3]",
+      "Mac app and system control: example use cases include opening Chrome, putting the computer to sleep, and managing desktop files, showing that the tool is intended to operate across applications and system actions.[3]",
+      "No-code automation for everyday work: TaskGPT is marketed as requiring no coding, making it useful for people who want productivity automation without building shortcuts, scripts, or complex integrations.[3]"
+    ],
+    "pricing": {
+      "model": "Not clearly disclosed in the available sources.",
+      "tiers": [
+        "Free tier: not stated in the available sources",
+        "Tier 1: not stated in the available sources",
+        "Tier 2: not stated in the available sources",
+        "Enterprise: not stated in the available sources"
+      ],
+      "free_trial": "No free-trial information is provided in the available sources.",
+      "additional_info": "The available sources show a download call-to-action and a Product Hunt listing, but they do not provide reliable pricing details such as subscription levels, one-time purchase pricing, or trial terms.[3][6]"
+    },
+    "use_cases": [
+      "File organization on a Mac: for example, moving screenshots from the Desktop into a folder based on age, which is useful for users who want to clean up and maintain files without manual sorting.[3]",
+      "Information lookup and app launching: for example, opening Chrome and checking a market index like the S&P 500, which helps users combine web access and routine actions in one command.[3]",
+      "Communication drafting and routine assistance: for example, composing an out-of-office email, which is useful for professionals who want to draft common messages quickly and then edit them as needed.[3]"
+    ],
+    "target_audience": "TaskGPT appears designed for Mac users who want AI-driven automation without coding, especially knowledge workers, founders, freelancers, and productivity-focused professionals. The examples suggest it is suitable for individuals and small teams that regularly handle repetitive desktop tasks, file management, browser-based work, and email drafting on macOS.[3][6]",
+    "embedding_text": "Product: TaskGPT \n\nDescription: TaskGPT is a macOS AI assistant that lets users control their Mac with natural language instead of manually clicking through apps and menus. According to its product page, the core promise is to let you “type or talk” and have AI turn your request into executable steps on the computer. It is positioned as a tool for automating background work, such as organizing files, opening apps, checking information, and drafting messages. The product page also emphasizes that it works without coding, which makes it accessible to non-technical users who want automation but do not want to build scripts or workflows themselves. TaskGPT’s example tasks show it can handle both system-level actions and everyday productivity tasks, like moving screenshots, opening Chrome, and composing an email. Its tagline and launch page describe it as a “voice agent for MacOS,” suggesting voice input is a central interaction mode alongside typed commands. The Product Hunt listing also describes it as “the most powerful and secure AI for MacOS,” indicating a focus on both capability and privacy/security positioning.[3][6]\n\nKey Features:\n- Natural-language task execution: users can describe what they want in plain English, and TaskGPT translates the request into steps the Mac can carry out, reducing the need to learn automation tools or scripting.[3]\n- Voice and text input: the product supports both typing and speaking commands, which benefits users who prefer hands-free interaction or faster conversational control.[3]\n- Foreground task automation: the site says users can watch the task execute in the foreground, which helps with transparency and lets users monitor what the assistant is doing.[3]\n- Mac app and system control: example use cases include opening Chrome, putting the computer to sleep, and managing desktop files, showing that the tool is intended to operate across applications and system actions.[3]\n- No-code automation for everyday work: TaskGPT is marketed as requiring no coding, making it useful for people who want productivity automation without building shortcuts, scripts, or complex integrations.[3]\n\nPricing Model: Not clearly disclosed in the available sources.\nPricing Tiers:\n- Free tier: not stated in the available sources\n- Tier 1: not stated in the available sources\n- Tier 2: not stated in the available sources\n- Enterprise: not stated in the available sources\nFree Trial: No free-trial information is provided in the available sources.\n\nUse Cases:\n- File organization on a Mac: for example, moving screenshots from the Desktop into a folder based on age, which is useful for users who want to clean up and maintain files without manual sorting.[3]\n- Information lookup and app launching: for example, opening Chrome and checking a market index like the S&P 500, which helps users combine web access and routine actions in one command.[3]\n- Communication drafting and routine assistance: for example, composing an out-of-office email, which is useful for professionals who want to draft common messages quickly and then edit them as needed.[3]\n\nTarget Audience: TaskGPT appears designed for Mac users who want AI-driven automation without coding, especially knowledge workers, founders, freelancers, and productivity-focused professionals. The examples suggest it is suitable for individuals and small teams that regularly handle repetitive desktop tasks, file management, browser-based work, and email drafting on macOS.[3][6]\n\nCategories: Artificial Intelligence, Audio\n",
+    "data_sources": {
+      "product_hunt": true,
+      "perplexity_enhanced": true,
+      "collection_date": "2026-06-04"
+    }
+  }
+]

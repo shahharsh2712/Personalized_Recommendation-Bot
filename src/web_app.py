@@ -1,3 +1,15 @@
+import os
+import sys
+
+from dotenv import load_dotenv
+
+# Load .env from project root and run with src as working directory
+SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SRC_DIR)
+load_dotenv(os.path.join(PROJECT_ROOT, ".env"))
+os.chdir(SRC_DIR)
+sys.path.insert(0, SRC_DIR)
+
 from flask import (
     Flask,
     request,
@@ -10,8 +22,8 @@ from flask import (
 from recommendation_api import get_recommendations
 from models.user_profile import UserProfile
 from repositories.user_repository import UserRepository
+from mongo_sync import sync_profile_to_mongodb
 import auth
-import os
 from datetime import datetime
 import json
 from openai import OpenAI
@@ -72,8 +84,13 @@ def login():
         # Create session and set cookie
         token = auth.create_session(user_data["user_id"])
 
-        # Redirect to dashboard
-        response = make_response(redirect(url_for("dashboard")))
+        profile = user_repository.get_profile(user_data["user_id"])
+        next_url = (
+            "profile_setup"
+            if profile and profile.assessment_completeness < 30
+            else "dashboard"
+        )
+        response = make_response(redirect(url_for(next_url)))
         response.set_cookie(
             "session_token", token, httponly=True, max_age=60 * 60 * 24 * 7
         )  # 7 days
@@ -101,7 +118,8 @@ def signup():
         try:
             user_id = user_repository.create_user(email, password_hash, name)
 
-            # Create session and set cookie
+            sync_profile_to_mongodb(user_repository.get_profile(user_id))
+
             token = auth.create_session(user_id)
 
             # Redirect to profile setup
@@ -176,8 +194,9 @@ def profile_setup():
             (filled_fields / possible_fields) * 100
         )
 
-        # Update the profile with the new data
         user_repository.update_profile(user.user_id, profile_data)
+        updated = user_repository.get_profile(user.user_id)
+        sync_profile_to_mongodb(updated)
 
         return redirect(url_for("dashboard"))
 
@@ -204,12 +223,12 @@ def api_recommendations():
     # Get user for personalization (if logged in)
     user = get_current_user()
 
-    # Pass the user profile to the recommendation function when available
     results = get_recommendations(query, user_profile=user)
 
-    # If the user is logged in, record the recommendation in their history
-    if user:
-        # Add the recommendations to the user's history
+    if "error" in results:
+        return jsonify(results), 503
+
+    if user and results.get("recommendations"):
         profile_data = {
             "recommendation_history": user.recommendation_history
             + [
@@ -301,7 +320,8 @@ you've already mentioned, focus on answering those specific questions.
     product_info = ""
     for i, product in enumerate(results["recommendations"], 1):
         product_info += f"{i}. {product['name']}: {product['tagline']}\n"
-        product_info += f"   {product['description'][:200]}...\n"
+        desc = (product.get("description") or "")[:200]
+        product_info += f"   {desc}...\n"
         product_info += f"   Website: {product['website']}\n\n"
         last_products.append(product["name"])
 
@@ -343,9 +363,7 @@ Explain briefly why each tool might be helpful and suggest which one(s) might be
 
         assistant_response = response.choices[0].message.content
 
-        # Record in user history if logged in
-        if user:
-            # Add the recommendations to the user's history
+        if user and results.get("recommendations"):
             profile_data = {
                 "recommendation_history": user.recommendation_history
                 + [
@@ -358,8 +376,9 @@ Explain briefly why each tool might be helpful and suggest which one(s) might be
             }
             user_repository.update_profile(user.user_id, profile_data)
 
-        # Generate quick reply suggestions
-        quick_replies = generate_quick_replies(user_message, results["recommendations"])
+        quick_replies = generate_quick_replies(
+            user_message, results.get("recommendations", [])
+        )
 
         return jsonify({"response": assistant_response, "quick_replies": quick_replies})
 
@@ -425,4 +444,9 @@ def generate_quick_replies(query, recommendations):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    from setup_frontend_data import ensure_vector_store
+
+    ensure_vector_store()
+    print("Frontend running at http://127.0.0.1:5000")
+    print("Flow: /signup -> /profile/setup -> /dashboard")
+    app.run(debug=True, host="127.0.0.1", port=5000, use_reloader=False)

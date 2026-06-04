@@ -295,3 +295,74 @@
 2025-05-11 17:53:50,132 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 2025-05-11 17:53:50,633 - ERROR - Error in product collection job: [Errno 2] No such file or directory: 'data_store/products_with_embeddings_2025-05-11.json'
 2025-05-11 17:53:50,634 - WARNING - No products collected, skipping recommendation and email steps
+2026-06-04 00:45:46,397 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 00:45:46,447 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 00:45:46,495 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 00:45:46,954 - INFO - Retrieved 1 active users
+2026-06-04 00:45:46,955 - INFO - Found 1 active users
+2026-06-04 00:45:46,955 - INFO - Generating recommendations for demo@local.test
+2026-06-04 00:45:47,008 - INFO - Found 5 similar products from today's collection
+2026-06-04 00:45:47,012 - INFO - Saved recommendations for user 6a20691d431315706eefbf57 on 2026-06-04
+2026-06-04 00:45:47,013 - INFO - Generated 5 recommendations for demo@local.test
+2026-06-04 00:45:47,013 - INFO - Successfully generated recommendations for 1/1 users
+2026-06-04 00:45:47,015 - INFO - Database connection closed
+2026-06-04 00:45:47,017 - INFO - Database connection closed
+2026-06-04 00:45:47,019 - INFO - Database connection closed
+2026-06-04 00:45:51,133 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 00:45:51,162 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 00:45:51,214 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 00:45:51,265 - INFO - Retrieved 1 active users
+2026-06-04 00:45:51,266 - INFO - Found 1 active users for email delivery
+2026-06-04 00:45:52,270 - ERROR - Error sending email to demo@local.test: HTTP Error 401: Unauthorized
+2026-06-04 00:45:52,270 - INFO - Successfully sent recommendation emails to 0/1 users
+2026-06-04 00:45:52,276 - INFO - Database connection closed
+2026-06-04 00:45:52,279 - INFO - Database connection closed
+2026-06-04 17:24:04,390 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:04,409 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:04,422 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:04,809 - ERROR - User shahharsh0227@gmail.com has no embedding
+2026-06-04 17:24:04,811 - INFO - Database connection closed
+2026-06-04 17:24:04,812 - INFO - Database connection closed
+2026-06-04 17:24:04,814 - INFO - Database connection closed
+2026-06-04 17:24:33,211 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:33,230 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:33,257 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:33,639 - WARNING - User shahharsh0227@gmail.com has no embedding; using preference-based matching
+2026-06-04 17:24:33,658 - INFO - Saved recommendations for user 6a2162e59a2709a78550de62 on 2026-06-04
+2026-06-04 17:24:33,659 - INFO - Database connection closed
+2026-06-04 17:24:33,661 - INFO - Database connection closed
+2026-06-04 17:24:33,663 - INFO - Database connection closed
+2026-06-04 17:24:39,039 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:39,073 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:39,107 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 17:24:42,578 - INFO - Email sent via SMTP to shahharsh0227@gmail.com
+2026-06-04 17:24:42,585 - INFO - Logged email delivery to shahharsh0227@gmail.com on 2026-06-04
+2026-06-04 17:24:42,589 - INFO - Database connection closed
+2026-06-04 17:24:42,590 - INFO - Database connection closed
+2026-06-04 20:54:16,411 - ERROR - Error in main: No module named 'bson'
+2026-06-04 20:54:17,036 - ERROR - Error in main: No module named 'bson'
+2026-06-04 20:55:28,774 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 20:55:28,816 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 20:55:28,864 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 20:55:29,004 - INFO - Found 5 similar products from today's collection
+2026-06-04 20:55:29,012 - INFO - Saved recommendations for user 6a2162e59a2709a78550de62 on 2026-06-04
+2026-06-04 20:55:29,015 - INFO - Database connection closed
+2026-06-04 20:55:29,016 - INFO - Database connection closed
+2026-06-04 20:55:29,018 - INFO - Database connection closed
+2026-06-04 20:55:34,975 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 20:55:35,016 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 20:55:35,063 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 20:55:38,617 - INFO - Email sent via SMTP to shahharsh0227@gmail.com
+2026-06-04 20:55:38,625 - ERROR - Error logging email delivery to shahharsh0227@gmail.com: E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "6a2162e59a2709a78550de62", date: "2026-06-04" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: app_recommendations.email_deliveries index: user_id_1_date_1 dup key: { user_id: "6a2162e59a2709a78550de62", date: "2026-06-04" }', 'keyPattern': {'user_id': 1, 'date': 1}, 'keyValue': {'user_id': '6a2162e59a2709a78550de62', 'date': '2026-06-04'}}
+2026-06-04 20:55:38,626 - INFO - Database connection closed
+2026-06-04 20:55:38,628 - INFO - Database connection closed
+2026-06-04 23:58:27,880 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 23:58:27,976 - INFO - Created products collection with indexes
+2026-06-04 23:58:28,019 - INFO - Created user_profiles collection with indexes
+2026-06-04 23:58:28,063 - INFO - Created recommendations collection with indexes
+2026-06-04 23:58:28,102 - INFO - Created email_deliveries collection with indexes
+2026-06-04 23:58:28,102 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 23:58:28,126 - INFO - [DEBUG] Connecting to MongoDB URI: mongodb://localhost:27017/, Database: app_recommendations
+2026-06-04 23:58:28,154 - INFO - Database connection closed
+2026-06-04 23:58:28,156 - INFO - Database connection closed
+2026-06-04 23:58:28,158 - INFO - Database connection closed

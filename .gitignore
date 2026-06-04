@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 *.class
@@ -19,6 +19,9 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Local tunnel binary (share.ps1 downloads this)
+tools/
 
 # Virtual Environment
 venv/

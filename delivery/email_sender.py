@@ -1,11 +1,13 @@
 import os
 import logging
+import smtplib
 import sys
 from datetime import datetime
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
 from dotenv import load_dotenv
 import jinja2
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail, Email, To, Content, Personalization, HtmlContent
 
 # Import from our modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -22,13 +24,17 @@ logger = logging.getLogger(__name__)
 
 
 class EmailSender:
-    """Sends personalized recommendation emails to users using SendGrid"""
+    """Sends personalized recommendation emails via SMTP (Gmail) or SendGrid."""
 
     def __init__(self):
-        # SendGrid configuration
-        self.sendgrid_api_key = os.getenv("SENDGRID_API_KEY")
+        self.provider = (os.getenv("EMAIL_PROVIDER") or "smtp").lower()
         self.sender_email = os.getenv("SENDER_EMAIL")
         self.sender_name = os.getenv("SENDER_NAME", "App Recommendations")
+        self.sendgrid_api_key = os.getenv("SENDGRID_API_KEY")
+        self.smtp_host = os.getenv("SMTP_HOST", "smtp.gmail.com")
+        self.smtp_port = int(os.getenv("SMTP_PORT", "587"))
+        self.smtp_user = os.getenv("SMTP_USER") or self.sender_email
+        self.smtp_password = os.getenv("SMTP_PASSWORD")
 
         # Template engine
         self.template_loader = jinja2.FileSystemLoader(
@@ -75,48 +81,65 @@ class EmailSender:
 
         return success
 
+    def _render_email_html(self, user, recommendations):
+        template = self.template_env.get_template("recommendation_email.html")
+        return template.render(
+            user_name=user["name"],
+            recommendations=recommendations[:5],
+            date=datetime.now().strftime("%B %d, %Y"),
+            unsubscribe_link=f"https://yourapp.com/unsubscribe?email={user['email']}",
+        )
+
+    def _send_via_smtp(self, to_email, subject, html_content):
+        if not self.smtp_password:
+            raise ValueError("SMTP_PASSWORD is not set in .env")
+        if not self.sender_email:
+            raise ValueError("SENDER_EMAIL is not set in .env")
+
+        message = MIMEMultipart("alternative")
+        message["Subject"] = subject
+        message["From"] = f"{self.sender_name} <{self.sender_email}>"
+        message["To"] = to_email
+        message.attach(MIMEText(html_content, "html"))
+
+        with smtplib.SMTP(self.smtp_host, self.smtp_port, timeout=30) as server:
+            server.ehlo()
+            server.starttls()
+            server.ehlo()
+            server.login(self.smtp_user, self.smtp_password)
+            server.sendmail(self.sender_email, [to_email], message.as_string())
+
+        logger.info(f"Email sent via SMTP to {to_email}")
+        return True
+
+    def _send_via_sendgrid(self, to_email, subject, html_content):
+        from sendgrid import SendGridAPIClient
+        from sendgrid.helpers.mail import Mail, Email, To, HtmlContent
+
+        message = Mail(
+            from_email=Email(self.sender_email, self.sender_name),
+            to_emails=To(to_email),
+            subject=subject,
+            html_content=HtmlContent(html_content),
+        )
+        response = SendGridAPIClient(self.sendgrid_api_key).send(message)
+        if response.status_code in [200, 201, 202]:
+            logger.info(
+                f"Email sent via SendGrid to {to_email} (status {response.status_code})"
+            )
+            return True
+        logger.error(f"SendGrid failed: status {response.status_code}")
+        return False
+
     def _send_recommendation_email(self, user, recommendations):
-        """Create and send a personalized recommendation email using SendGrid"""
         try:
-            # Get the email template
-            template = self.template_env.get_template("recommendation_email.html")
-
-            # Render the template with data
-            html_content = template.render(
-                user_name=user["name"],
-                recommendations=recommendations[:5],  # Limit to top 5
-                date=datetime.now().strftime("%B %d, %Y"),
-                unsubscribe_link=f"https://yourapp.com/unsubscribe?email={user['email']}",
-            )
-
-            # Create SendGrid message
-            from_email = Email(self.sender_email, self.sender_name)
-            to_email = To(user["email"])
+            html_content = self._render_email_html(user, recommendations)
             subject = f"Your App Recommendations for {datetime.now().strftime('%b %d')}"
-            content = HtmlContent(html_content)
+            to_email = user["email"]
 
-            message = Mail(
-                from_email=from_email,
-                to_emails=to_email,
-                subject=subject,
-                html_content=content,
-            )
-
-            # Send email via SendGrid
-            sg = SendGridAPIClient(self.sendgrid_api_key)
-            response = sg.send(message)
-
-            # Check if email was sent successfully
-            if response.status_code in [200, 201, 202]:
-                logger.info(
-                    f"Email sent successfully to {user['email']} (status code: {response.status_code})"
-                )
-                return True
-            else:
-                logger.error(
-                    f"Failed to send email: status code {response.status_code}"
-                )
-                return False
+            if self.provider == "sendgrid":
+                return self._send_via_sendgrid(to_email, subject, html_content)
+            return self._send_via_smtp(to_email, subject, html_content)
 
         except Exception as e:
             logger.error(f"Error sending email to {user['email']}: {e}")
@@ -232,11 +255,12 @@ if __name__ == "__main__":
 </body>
 </html>""")
 
-    # Check for SendGrid API key
-    if not os.getenv("SENDGRID_API_KEY"):
-        logger.error(
-            "SendGrid API key not found in environment variables. Please add SENDGRID_API_KEY to your .env file."
-        )
+    provider = (os.getenv("EMAIL_PROVIDER") or "smtp").lower()
+    if provider == "sendgrid" and not os.getenv("SENDGRID_API_KEY"):
+        logger.error("EMAIL_PROVIDER=sendgrid requires SENDGRID_API_KEY in .env")
+        sys.exit(1)
+    if provider == "smtp" and not os.getenv("SMTP_PASSWORD"):
+        logger.error("EMAIL_PROVIDER=smtp requires SMTP_PASSWORD (Gmail app password) in .env")
         sys.exit(1)
 
     email_sender = EmailSender()

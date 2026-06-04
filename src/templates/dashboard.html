@@ -158,12 +158,17 @@
             document.getElementById('results').innerHTML = '';
             
             fetch('/api/recommendations?query=' + encodeURIComponent(query))
-                .then(response => response.json())
-                .then(data => {
+                .then(response => response.json().then(data => ({ ok: response.ok, data })))
+                .then(({ ok, data }) => {
                     document.getElementById('loading').style.display = 'none';
                     
-                    if (data.error) {
-                        document.getElementById('results').innerHTML = `<p>Error: ${data.error}</p>`;
+                    if (!ok || data.error) {
+                        document.getElementById('results').innerHTML = `<p>Error: ${data.error || 'Search failed'}</p>`;
+                        return;
+                    }
+                    
+                    if (!data.recommendations || !data.recommendations.length) {
+                        document.getElementById('results').innerHTML = '<p>No products found. Try a different search.</p>';
                         return;
                     }
                     
