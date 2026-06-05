@@ -38,8 +38,11 @@ app.secret_key = os.urandom(24)  # Generate a random secret key
 # Initialize user repository
 user_repository = UserRepository()
 
-# Initialize OpenAI client
-openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+def _get_openai_client():
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        return None
+    return OpenAI(api_key=api_key)
 
 
 # Authentication middleware
@@ -353,6 +356,15 @@ Explain briefly why each tool might be helpful and suggest which one(s) might be
     messages.append({"role": "user", "content": prompt})
 
     try:
+        openai_client = _get_openai_client()
+        if openai_client is None:
+            # Lightweight deploys (Render free) run without OpenAI.
+            return jsonify(
+                {
+                    "response": "Chat is disabled on this deployment because OPENAI_API_KEY is not set. You can still use search and recommendations."
+                }
+            )
+
         # Get response from OpenAI
         response = openai_client.chat.completions.create(
             model="gpt-3.5-turbo",
