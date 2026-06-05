@@ -10,6 +10,8 @@ services:
     startCommand: bash scripts/render_start.sh
     healthCheckPath: /
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.11
       - key: PYTHONPATH
         value: /opt/render/project/src:/opt/render/project
       - key: PYTHONUNBUFFERED
