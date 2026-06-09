@@ -1,5 +1,7 @@
+import logging
 import os
 import sys
+import threading
 
 from dotenv import load_dotenv
 
@@ -8,7 +10,10 @@ SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SRC_DIR)
 load_dotenv(os.path.join(PROJECT_ROOT, ".env"))
 os.chdir(SRC_DIR)
+sys.path.insert(0, PROJECT_ROOT)
 sys.path.insert(0, SRC_DIR)
+
+logger = logging.getLogger(__name__)
 
 from flask import (
     Flask,
@@ -63,6 +68,20 @@ def get_current_user():
 @app.context_processor
 def inject_user():
     return {"current_user": get_current_user()}
+
+
+def _send_welcome_email_async(user_email):
+    """Generate recommendations and send welcome email without blocking the response."""
+
+    def _task():
+        try:
+            from delivery.welcome import send_welcome_email
+
+            send_welcome_email(user_email)
+        except Exception as e:
+            logger.error("Background welcome email failed for %s: %s", user_email, e)
+
+    threading.Thread(target=_task, daemon=True).start()
 
 
 # Original route now checks for logged-in user
@@ -205,7 +224,8 @@ def profile_setup():
 
         user_repository.update_profile(user.user_id, profile_data)
         updated = user_repository.get_profile(user.user_id)
-        sync_profile_to_mongodb(updated)
+        if sync_profile_to_mongodb(updated):
+            _send_welcome_email_async(updated.email)
 
         return redirect(url_for("dashboard"))
 

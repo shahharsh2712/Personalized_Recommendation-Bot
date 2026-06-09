@@ -18,9 +18,15 @@
 <body>
     <div class="container">
         <div class="header">
+            {% if is_welcome %}
+            <h1>Welcome to RecBot!</h1>
+            <p>Hello {{ user_name }},</p>
+            <p>Thanks for completing your profile. Based on your preferences, here are your first personalized tool recommendations:</p>
+            {% else %}
             <h1>Your App Recommendations</h1>
             <p>Hello {{ user_name }},</p>
             <p>Here are your personalized app recommendations for {{ date }}:</p>
+            {% endif %}
         </div>
         
         {% for rec in recommendations %}

@@ -81,12 +81,13 @@ class EmailSender:
 
         return success
 
-    def _render_email_html(self, user, recommendations):
+    def _render_email_html(self, user, recommendations, is_welcome=False):
         template = self.template_env.get_template("recommendation_email.html")
         return template.render(
             user_name=user["name"],
             recommendations=recommendations[:5],
             date=datetime.now().strftime("%B %d, %Y"),
+            is_welcome=is_welcome,
             unsubscribe_link=f"https://yourapp.com/unsubscribe?email={user['email']}",
         )
 
@@ -131,10 +132,15 @@ class EmailSender:
         logger.error(f"SendGrid failed: status {response.status_code}")
         return False
 
-    def _send_recommendation_email(self, user, recommendations):
+    def _send_recommendation_email(self, user, recommendations, is_welcome=False):
         try:
-            html_content = self._render_email_html(user, recommendations)
-            subject = f"Your App Recommendations for {datetime.now().strftime('%b %d')}"
+            html_content = self._render_email_html(
+                user, recommendations, is_welcome=is_welcome
+            )
+            if is_welcome:
+                subject = f"Welcome to RecBot — your first recommendations"
+            else:
+                subject = f"Your App Recommendations for {datetime.now().strftime('%b %d')}"
             to_email = user["email"]
 
             if self.provider == "sendgrid":
@@ -144,6 +150,22 @@ class EmailSender:
         except Exception as e:
             logger.error(f"Error sending email to {user['email']}: {e}")
             return False
+
+    def send_welcome_email(self, user_email, recommendations):
+        """Send one-time welcome email with pre-generated recommendations."""
+        user = self.user_store.get_user_by_email(user_email)
+        if not user:
+            logger.error(f"User not found: {user_email}")
+            return False
+
+        success = self._send_recommendation_email(user, recommendations, is_welcome=True)
+        if success:
+            self.rec_store.log_email_delivery(
+                str(user["_id"]),
+                user_email,
+                "Welcome to RecBot — your first recommendations",
+            )
+        return success
 
     def send_daily_recommendation_emails(self):
         """Send recommendation emails to all active users"""
