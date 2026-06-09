@@ -1,0 +1,13 @@
+# Use free MongoDB Atlas instead of Docker mongo (saves RAM on a small VM).
+# Set MONGODB_URI in .env to your Atlas connection string, then:
+#   docker compose -f docker-compose.yml -f docker-compose.atlas.yml -f docker-compose.prod.yml up -d --build ollama web caddy
+
+services:
+  mongo:
+    profiles: ["never"]
+
+  web:
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+    depends_on:
+      - ollama

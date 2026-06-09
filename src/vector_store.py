@@ -16,27 +16,35 @@ class SimpleVectorStore:
             self.embeddings.append(product["embedding"])
 
     def search(self, query_embedding, top_k=5):
-        """Search for products similar to the query embedding"""
-        if not self.embeddings:
+        """Search for products similar to the query embedding."""
+        if not self.embeddings or not query_embedding:
             return []
 
-        # Convert embeddings to numpy array for efficient computation
-        embeddings_array = np.array(self.embeddings)
-        query_array = np.array(query_embedding)
+        query_dim = len(query_embedding)
+        compatible = [
+            (i, emb)
+            for i, emb in enumerate(self.embeddings)
+            if emb and len(emb) == query_dim
+        ]
+        if not compatible:
+            return []
 
-        # Calculate cosine similarity
+        indices, embeddings = zip(*compatible)
+        embeddings_array = np.array(embeddings, dtype=np.float32)
+        query_array = np.array(query_embedding, dtype=np.float32)
+
         similarities = cosine_similarity([query_array], embeddings_array)[0]
+        top_local = similarities.argsort()[-top_k:][::-1]
 
-        # Get indices of top_k most similar products
-        top_indices = similarities.argsort()[-top_k:][::-1]
-
-        # Return top_k products with their similarity scores
         results = []
-        for idx in top_indices:
+        for local_idx in top_local:
+            product_idx = indices[local_idx]
             results.append(
-                {"product": self.products[idx], "similarity": float(similarities[idx])}
+                {
+                    "product": self.products[product_idx],
+                    "similarity": float(similarities[local_idx]),
+                }
             )
-
         return results
 
     def save(self, filename):

@@ -1,0 +1,11 @@
+venv
+.env
+.git
+__pycache__
+*.pyc
+.pytest_cache
+.cursor
+personalized_recommendations
+logs
+*.log
+.DS_Store

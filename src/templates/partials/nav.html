@@ -1,0 +1,18 @@
+<nav class="top-nav" aria-label="Main navigation">
+    <div class="top-nav__inner">
+        <a href="/" class="top-nav__logo">Rec<span>Bot</span></a>
+        <div class="top-nav__links">
+            <a href="/">Home</a>
+            <a href="/chat">Chat</a>
+            {% if current_user %}
+                <a href="/dashboard">Dashboard</a>
+                <a href="/profile/setup">Profile</a>
+                <span class="top-nav__user">{{ current_user.name or 'User' }}</span>
+                <a href="/logout">Logout</a>
+            {% else %}
+                <a href="/login">Login</a>
+                <a href="/signup" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.8125rem;">Sign up</a>
+            {% endif %}
+        </div>
+    </div>
+</nav>

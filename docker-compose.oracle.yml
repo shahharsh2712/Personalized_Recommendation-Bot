@@ -1,0 +1,19 @@
+# Tuned for Oracle Cloud Always Free ARM (~12 GB RAM allocation).
+#   docker compose -f docker-compose.yml -f docker-compose.oracle.yml -f docker-compose.prod.yml up -d --build
+
+services:
+  web:
+    ports: []
+    environment:
+      GUNICORN_WORKERS: 1
+      GUNICORN_THREADS: 2
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+
+  ollama:
+    deploy:
+      resources:
+        limits:
+          memory: 5G

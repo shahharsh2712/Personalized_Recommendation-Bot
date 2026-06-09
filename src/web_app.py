@@ -38,6 +38,7 @@ app.secret_key = os.urandom(24)  # Generate a random secret key
 # Initialize user repository
 user_repository = UserRepository()
 
+
 def _get_openai_client():
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
@@ -57,6 +58,11 @@ def get_current_user():
         return None
 
     return user_repository.get_profile(user_id)
+
+
+@app.context_processor
+def inject_user():
+    return {"current_user": get_current_user()}
 
 
 # Original route now checks for logged-in user

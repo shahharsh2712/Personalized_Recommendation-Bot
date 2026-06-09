@@ -1,37 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sign Up - Product Recommendation System</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
-    <div class="container">
-        <h1>Create Account</h1>
-        
-        <div class="form-container">
-            <form method="post" action="/signup">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                {% if error %}
-                <div class="error">{{ error }}</div>
-                {% endif %}
-                <button type="submit" class="btn primary">Create Account</button>
-            </form>
-        </div>
-        
-        <div class="alt-action">
-            Already have an account? <a href="/login">Login</a>
+{% extends "layouts/auth.html" %}
+
+{% block title %}Sign Up{% endblock %}
+{% block hero_title %}Discover tools built for you{% endblock %}
+{% block hero_subtitle %}Create a free account and get recommendations tailored to your role and workflow.{% endblock %}
+{% block form_title %}Create your account{% endblock %}
+{% block form_subtitle %}Start finding the right software in minutes.{% endblock %}
+
+{% block form_content %}
+{% include "partials/flash.html" %}
+<form method="post" action="/signup">
+    <div class="form-group">
+        <label class="form-label" for="name">Full name</label>
+        <input class="form-input" type="text" id="name" name="name" placeholder="Harsh Shah" required autocomplete="name">
+    </div>
+    <div class="form-group">
+        <label class="form-label" for="email">Email</label>
+        <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+    </div>
+    <div class="form-group">
+        <label class="form-label" for="password">Password</label>
+        <div class="password-field">
+            <input class="form-input" type="password" id="password" name="password" placeholder="Create a password" required autocomplete="new-password">
+            <button type="button" class="password-toggle" data-password-toggle="password" aria-label="Show password">Show</button>
         </div>
     </div>
-</body>
-</html>
+    <button type="submit" class="btn btn-primary btn-block">Create account</button>
+</form>
+{% endblock %}
+
+{% block form_footer %}
+Already have an account? <a href="/login">Log in</a>
+{% endblock %}

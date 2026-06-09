@@ -1,199 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Your Dashboard - Product Recommendation System</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
-    <div class="header">
-        <h1>Your Dashboard</h1>
-        <div class="auth-links">
-            <a href="/">Home</a>
-            <a href="/profile/setup">Edit Profile</a>
-            <a href="/logout">Logout</a>
-        </div>
+{% extends "layouts/app.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Welcome, {{ user.name or 'there' }}</h1>
+    <p>Search for products tailored to your profile.</p>
+</div>
+
+<div class="app-grid">
+    <div class="app-grid__main">
+        {% include "partials/search_hero.html" %}
     </div>
-    
-    <div class="dashboard-section">
-        <h2>Welcome, {{ user.name or 'User' }}</h2>
-        
-        <div class="search-container">
-            <input type="text" id="query" placeholder="What kind of product are you looking for?">
-            <button onclick="getRecommendations()">Search</button>
-        </div>
-        
-        <div id="loading" class="loading" style="display: none;">Searching for products...</div>
-        <div id="results"></div>
+    <div class="app-grid__sidebar">
+        {% include "partials/profile_sidebar.html" %}
     </div>
-    
-    <div class="dashboard-section">
-        <h2>Your Profile</h2>
-        <div class="profile-card">
-            {% if user.job_role or user.industry or user.company_size %}
-                <div class="profile-item">
-                    <span class="label">Job:</span> {{ user.job_role or 'Not specified' }}
-                    {% if user.industry %} in {{ user.industry }}{% endif %}
-                    {% if user.company_size %} (Company size: {{ user.company_size }}){% endif %}
-                </div>
-            {% endif %}
-            
-            {% if user.interests %}
-                <div class="profile-item">
-                    <span class="label">Interests:</span>
-                    <div>
-                        {% for interest in user.interests %}
-                            <span class="tag">{{ interest }}</span>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endif %}
-            
-            {% if user.tools_used %}
-                <div class="profile-item">
-                    <span class="label">Tools you use:</span>
-                    <div>
-                        {% for tool in user.tools_used %}
-                            <span class="tag">{{ tool }}</span>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endif %}
-            
-            {% if user.challenges %}
-                <div class="profile-item">
-                    <span class="label">Challenges:</span>
-                    <div>
-                        {% for challenge in user.challenges %}
-                            <span class="tag">{{ challenge }}</span>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endif %}
-            
-            {% if user.budget_preference %}
-                <div class="profile-item">
-                    <span class="label">Budget preference:</span> {{ user.budget_preference }}
-                </div>
-            {% endif %}
-            
-            <!-- NEW CODE: Add the new profile fields here -->
-            {% if user.common_tasks %}
-                <div class="profile-item">
-                    <span class="label">Common tasks:</span>
-                    <div>
-                        {% for task in user.common_tasks %}
-                            <span class="tag">{{ task | replace('_', ' ') | title }}</span>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endif %}
+</div>
+{% endblock %}
 
-            {% if user.improvement_areas %}
-                <div class="profile-item">
-                    <span class="label">Looking to improve:</span>
-                    <div>
-                        {% for area in user.improvement_areas %}
-                            <span class="tag">{{ area | replace('_', ' ') | title }}</span>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endif %}
-
-            {% if user.workflow_description %}
-                <div class="profile-item">
-                    <span class="label">Workflow description:</span>
-                    <p>{{ user.workflow_description }}</p>
-                </div>
-            {% endif %}
-
-            {% if user.ideal_solution %}
-                <div class="profile-item">
-                    <span class="label">Ideal solution:</span>
-                    <p>{{ user.ideal_solution }}</p>
-                </div>
-            {% endif %}
-
-            <!-- Add profile completeness bar -->
-            <div class="profile-item">
-                <span class="label">Profile completeness:</span>
-                <div class="progress-bar">
-                    <div class="progress" style="width: {{ user.assessment_completeness or 0 }}%"></div>
-                </div>
-                <span class="percentage">{{ user.assessment_completeness or 0 }}%</span>
-            </div>
-            <!-- END NEW CODE -->
-            
-            {% if not user.job_role and not user.interests and not user.tools_used %}
-                <p>Your profile is not complete. <a href="/profile/setup">Complete your profile</a> to get personalized recommendations.</p>
-            {% endif %}
-        </div>
-    </div>
-    
-    {% if user.recommendation_history %}
-        <div class="dashboard-section">
-            <h2>Your Search History</h2>
-            {% for item in user.recommendation_history | reverse %}
-                <div class="history-item">
-                    <div>
-                        <strong>Searched for:</strong> {{ item.query }}
-                        <span class="timestamp">{{ item.timestamp }}</span>
-                    </div>
-                    <div class="product-list">
-                        <strong>Top results:</strong>
-                        {% for result in item.results %}
-                            {{ result }}{% if not loop.last %}, {% endif %}
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    {% endif %}
-    
-    <script>
-        function getRecommendations() {
-            const query = document.getElementById('query').value;
-            if (!query) return;
-            
-            document.getElementById('loading').style.display = 'block';
-            document.getElementById('results').innerHTML = '';
-            
-            fetch('/api/recommendations?query=' + encodeURIComponent(query))
-                .then(response => response.json().then(data => ({ ok: response.ok, data })))
-                .then(({ ok, data }) => {
-                    document.getElementById('loading').style.display = 'none';
-                    
-                    if (!ok || data.error) {
-                        document.getElementById('results').innerHTML = `<p>Error: ${data.error || 'Search failed'}</p>`;
-                        return;
-                    }
-                    
-                    if (!data.recommendations || !data.recommendations.length) {
-                        document.getElementById('results').innerHTML = '<p>No products found. Try a different search.</p>';
-                        return;
-                    }
-                    
-                    let html = '';
-                    data.recommendations.forEach(rec => {
-                        html += `
-                            <div class="product">
-                                <h3>${rec.name}</h3>
-                                <p>${rec.tagline}</p>
-                                <p>${rec.description}</p>
-                                <p><a href="${rec.website}" target="_blank">Visit Website</a></p>
-                                <p class="similarity">Similarity: ${(rec.similarity_score * 100).toFixed(1)}%</p>
-                            </div>
-                        `;
-                    });
-                    
-                    document.getElementById('results').innerHTML = html;
-                });
-        }
-        
-        document.getElementById('query').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                getRecommendations();
-            }
-        });
-    </script>
-</body>
-</html>
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/search.js') }}"></script>
+{% endblock %}

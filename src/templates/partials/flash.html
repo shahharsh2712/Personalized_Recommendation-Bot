@@ -1,0 +1,13 @@
+{% if error %}
+<div class="alert alert-error" role="alert">
+    <span aria-hidden="true">⚠</span>
+    <span>{{ error }}</span>
+</div>
+{% endif %}
+
+{% if success %}
+<div class="alert alert-success" role="alert">
+    <span aria-hidden="true">✓</span>
+    <span>{{ success }}</span>
+</div>
+{% endif %}

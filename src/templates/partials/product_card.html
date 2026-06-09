@@ -1,0 +1,15 @@
+{# Used via JS rendering; kept as reference for structure #}
+<div class="product-card">
+    <div class="product-card__header">
+        <h3 class="product-card__title">{{ name }}</h3>
+        {% if similarity_score %}
+        <span class="match-score">{{ (similarity_score * 100)|round(1) }}% match</span>
+        {% endif %}
+    </div>
+    {% if tagline %}<p class="product-card__tagline">{{ tagline }}</p>{% endif %}
+    {% if description %}<p class="product-card__desc">{{ description }}</p>{% endif %}
+    <div class="product-card__footer">
+        {% if budget_tier %}<span class="badge">{{ budget_tier }}</span>{% endif %}
+        {% if website %}<a href="{{ website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.8125rem;">Visit site</a>{% endif %}
+    </div>
+</div>

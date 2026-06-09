@@ -38,12 +38,21 @@ def _ollama_embedding(text):
         json={"model": OLLAMA_EMBED_MODEL, "input": text},
         timeout=120,
     )
+    if response.status_code == 404:
+        response = requests.post(
+            f"{OLLAMA_BASE_URL}/api/embeddings",
+            json={"model": OLLAMA_EMBED_MODEL, "prompt": text},
+            timeout=120,
+        )
     response.raise_for_status()
     data = response.json()
-    embeddings = data.get("embeddings") or []
-    if not embeddings:
-        raise ValueError("Ollama returned empty embeddings")
-    return embeddings[0]
+    embeddings = data.get("embeddings")
+    if embeddings:
+        return embeddings[0]
+    embedding = data.get("embedding")
+    if embedding:
+        return embedding
+    raise ValueError("Ollama returned empty embeddings")
 
 
 def _openai_embedding(text):

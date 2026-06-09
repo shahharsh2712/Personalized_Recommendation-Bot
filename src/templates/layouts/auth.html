@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="auth-layout">
+    <div class="auth-hero">
+        <div class="auth-hero__brand">Rec<span>Bot</span></div>
+        <h1>{% block hero_title %}Find the right tools for your work{% endblock %}</h1>
+        <p>{% block hero_subtitle %}Personalized software recommendations based on your role, workflow, and goals.{% endblock %}</p>
+        <ul class="auth-hero__features">
+            <li>Tailored product matches for your industry</li>
+            <li>Search powered by your profile preferences</li>
+            <li>Weekly discoveries delivered to your inbox</li>
+        </ul>
+    </div>
+    <div class="auth-panel">
+        <div class="auth-card card">
+            <h2>{% block form_title %}{% endblock %}</h2>
+            <p class="auth-card__subtitle">{% block form_subtitle %}{% endblock %}</p>
+            {% block form_content %}{% endblock %}
+            <div class="auth-card__footer">
+                {% block form_footer %}{% endblock %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

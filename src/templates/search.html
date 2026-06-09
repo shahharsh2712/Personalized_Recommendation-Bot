@@ -1,89 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Product Recommendation System</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <style>
-        /* Fallback styles in case the external CSS doesn't load */
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .search-container { margin-bottom: 30px; }
-        input[type="text"] { width: 70%; padding: 10px; font-size: 16px; }
-        button { padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
-        .product { border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 5px; }
-        .product h3 { margin-top: 0; }
-        .similarity { color: #666; font-size: 14px; }
-        .loading { display: none; margin-top: 20px; }
-        .auth-links { text-align: right; margin-bottom: 20px; }
-        .auth-links a { margin-left: 15px; text-decoration: none; color: #4CAF50; }
-    </style>
-</head>
-<body>
-    <!-- Add login/signup links at the top -->
-    <div class="auth-links">
-        <a href="/">Home</a>
-        <a href="/chat">Chat Assistant</a>
-        <a href="/login">Login</a>
-        <a href="/signup">Sign Up</a>
-    </div>
+{% extends "layouts/app.html" %}
 
-    <h1>Product Recommendation System</h1>
-    
-    <div class="search-container">
-        <input type="text" id="query" placeholder="What kind of product are you looking for?">
-        <button onclick="getRecommendations()">Search</button>
+{% block title %}Search{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Find the right tools</h1>
+    <p>Search our catalog of products matched to your needs.</p>
+</div>
+
+{% include "partials/search_hero.html" %}
+
+<div class="empty-state" id="search-hint">
+    <p class="empty-state__title">Try a search to get started</p>
+    <p>Describe what you're looking for or pick an example below.</p>
+    <div class="example-queries">
+        <button type="button" class="example-query" data-query="project management for remote teams">Project management for remote teams</button>
+        <button type="button" class="example-query" data-query="AI note taking app">AI note taking app</button>
+        <button type="button" class="example-query" data-query="customer support automation">Customer support automation</button>
     </div>
-    
-    <div id="loading" class="loading">Searching for products...</div>
-    
-    <div id="results"></div>
-    
-    <script>
-        // Existing JavaScript code
-        function getRecommendations() {
-            const query = document.getElementById('query').value;
-            if (!query) return;
-            
-            document.getElementById('loading').style.display = 'block';
-            document.getElementById('results').innerHTML = '';
-            
-            fetch('/api/recommendations?query=' + encodeURIComponent(query))
-                .then(response => response.json().then(data => ({ ok: response.ok, data })))
-                .then(({ ok, data }) => {
-                    document.getElementById('loading').style.display = 'none';
-                    
-                    if (!ok || data.error) {
-                        document.getElementById('results').innerHTML = `<p>Error: ${data.error || 'Search failed'}</p>`;
-                        return;
-                    }
-                    
-                    if (!data.recommendations || !data.recommendations.length) {
-                        document.getElementById('results').innerHTML = '<p>No products found. Try a different search.</p>';
-                        return;
-                    }
-                    
-                    let html = '';
-                    data.recommendations.forEach(rec => {
-                        html += `
-                            <div class="product">
-                                <h3>${rec.name}</h3>
-                                <p>${rec.tagline}</p>
-                                <p>${rec.description}</p>
-                                <p><a href="${rec.website}" target="_blank">Visit Website</a></p>
-                                <p class="similarity">Similarity: ${(rec.similarity_score * 100).toFixed(1)}%</p>
-                            </div>
-                        `;
-                    });
-                    
-                    document.getElementById('results').innerHTML = html;
-                });
-        }
-        
-        // Allow pressing Enter to search
-        document.getElementById('query').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                getRecommendations();
-            }
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/search.js') }}"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const results = document.getElementById("results");
+    const hint = document.getElementById("search-hint");
+    const origGet = window.getRecommendations;
+    window.getRecommendations = function() {
+        if (hint) hint.style.display = "none";
+        origGet();
+    };
+    document.querySelectorAll(".example-query").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.getElementById("query").value = btn.dataset.query;
+            window.getRecommendations();
         });
-    </script>
-</body>
-</html>
+    });
+});
+</script>
+{% endblock %}

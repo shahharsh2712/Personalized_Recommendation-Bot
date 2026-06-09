@@ -1,258 +1,142 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Product Discovery Chat - Find the Right Tools</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <!-- Add login/signup/navigation links at the top -->
-    <div class="auth-links">
-        <a href="/">Home</a>
-        {% if user %}
-            <a href="/dashboard">Dashboard</a>
-            <a href="/logout">Logout</a>
-        {% else %}
-            <a href="/login">Login</a>
-            <a href="/signup">Sign Up</a>
-        {% endif %}
-    </div>
+{% extends "layouts/app.html" %}
 
-    <h1>Product Discovery Chat</h1>
+{% block title %}Chat{% endblock %}
+
+{% block content %}
+<div class="chat-page">
+    <div class="page-header">
+        <h1>Product Discovery Chat</h1>
+        <p>Ask questions and get tool recommendations in conversation.</p>
+    </div>
 
     <div class="chat-container">
         <div id="chat-messages" class="chat-messages">
             <div class="message assistant">
                 <div class="message-content">
-                    <p>Hi there! I'm your product discovery assistant. I can help you find the right tools for your needs. What are you looking for today?</p>
+                    <p>Hi there! I'm your product discovery assistant. What are you looking for today?</p>
                 </div>
             </div>
         </div>
-        
         <div class="chat-input-container">
-            <input type="text" id="user-input" placeholder="Ask about tools or products..." autofocus>
-            <button id="send-button">Send</button>
+            <input type="text" id="user-input" placeholder="Ask about tools or products..." autofocus aria-label="Chat message">
+            <button type="button" id="send-button" aria-label="Send message">Send</button>
         </div>
     </div>
+</div>
+{% endblock %}
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const chatMessages = document.getElementById('chat-messages');
-            const userInput = document.getElementById('user-input');
-            const sendButton = document.getElementById('send-button');
-            
-            // Store conversation history
-            let conversationHistory = [];
-            
-            sendButton.addEventListener('click', function() {
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const chatMessages = document.getElementById('chat-messages');
+    const userInput = document.getElementById('user-input');
+    const sendButton = document.getElementById('send-button');
+    let conversationHistory = [];
+
+    sendButton.addEventListener('click', sendMessage);
+    userInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') sendMessage();
+    });
+
+    function sendMessage() {
+        const message = userInput.value.trim();
+        if (!message) return;
+        addMessage('user', message);
+        conversationHistory.push({ role: 'user', content: message });
+        userInput.value = '';
+
+        const loadingDiv = document.createElement('div');
+        loadingDiv.className = 'message assistant typing';
+        loadingDiv.innerHTML = '<div class="message-content"><p>Thinking...</p></div>';
+        loadingDiv.id = 'typing-indicator';
+        chatMessages.appendChild(loadingDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+        fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: message, history: conversationHistory.slice(-10) }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('typing-indicator')?.remove();
+            addMessage('assistant', data.response);
+            conversationHistory.push({ role: 'assistant', content: data.response });
+            if (data.quick_replies?.length) addQuickReplies(data.quick_replies);
+        })
+        .catch(() => {
+            document.getElementById('typing-indicator')?.remove();
+            addMessage('assistant', "I'm sorry, there was an error. Please try again.");
+        });
+    }
+
+    function addMessage(role, content) {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = 'message ' + role;
+        const messageId = 'msg_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        messageDiv.id = messageId;
+        content = content.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+        const paragraphs = content.split('\n').filter(p => p.trim() !== '');
+        const formattedContent = paragraphs.map(p => '<p>' + p + '</p>').join('');
+
+        if (role === 'assistant') {
+            messageDiv.innerHTML = '<div class="message-content">' + formattedContent + '</div>' +
+                '<div class="message-feedback"><span>Was this helpful?</span>' +
+                '<button type="button" class="feedback-btn" aria-label="Helpful" onclick="provideFeedback(\'' + messageId + '\', \'helpful\')">👍</button>' +
+                '<button type="button" class="feedback-btn" aria-label="Not helpful" onclick="provideFeedback(\'' + messageId + '\', \'not_helpful\')">👎</button></div>';
+        } else {
+            messageDiv.innerHTML = '<div class="message-content">' + formattedContent + '</div>';
+        }
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function addQuickReplies(replies) {
+        const quickRepliesDiv = document.createElement('div');
+        quickRepliesDiv.className = 'quick-replies';
+        quickRepliesDiv.innerHTML = '<p class="quick-replies-heading">Suggested questions:</p>';
+        replies.forEach(reply => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'quick-reply';
+            button.textContent = reply;
+            button.addEventListener('click', function() {
+                userInput.value = reply;
+                quickRepliesDiv.remove();
                 sendMessage();
             });
-            
-            userInput.addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    sendMessage();
-                }
-            });
-            
-            function sendMessage() {
-                const message = userInput.value.trim();
-                if (!message) return;
-                
-                // Add user message to chat
-                addMessage('user', message);
-                
-                // Add to conversation history
-                conversationHistory.push({
-                    role: 'user',
-                    content: message
-                });
-                
-                // Clear input
-                userInput.value = '';
-                
-                // Show loading indicator
-                const loadingDiv = document.createElement('div');
-                loadingDiv.className = 'message assistant typing';
-                loadingDiv.innerHTML = `<div class="message-content"><p>Thinking...</p></div>`;
-                loadingDiv.id = 'typing-indicator';
-                chatMessages.appendChild(loadingDiv);
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-                
-                // Call API
-                fetch('/api/chat', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        message: message,
-                        history: conversationHistory.slice(-10) // Send last 5 exchanges (up to 10 messages)
-                    }),
-                })
-                .then(response => response.json())
-                .then(data => {
-                    // Remove loading indicator
-                    const typingIndicator = document.getElementById('typing-indicator');
-                    if (typingIndicator) {
-                        typingIndicator.remove();
-                    }
-                    
-                    // Add assistant response
-                    addMessage('assistant', data.response);
-                    
-                    // Add response to conversation history
-                    conversationHistory.push({
-                        role: 'assistant',
-                        content: data.response
-                    });
-                    
-                    // Add quick replies if available
-                    if (data.quick_replies && data.quick_replies.length > 0) {
-                        addQuickReplies(data.quick_replies);
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    
-                    // Remove loading indicator
-                    const typingIndicator = document.getElementById('typing-indicator');
-                    if (typingIndicator) {
-                        typingIndicator.remove();
-                    }
-                    
-                    // Add error message
-                    addMessage('assistant', "I'm sorry, there was an error processing your request. Please try again.");
-                });
-            }
-            
-            function addMessage(role, content) {
-                const messageDiv = document.createElement('div');
-                messageDiv.className = `message ${role}`;
-                
-                // Generate a unique message ID
-                const messageId = 'msg_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-                messageDiv.id = messageId;
-                
-                // Format content with basic HTML parsing
-                // Convert URLs to links
-                content = content.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank">$1</a>');
-                
-                // Convert line breaks to paragraphs
-                const paragraphs = content.split('\n').filter(p => p.trim() !== '');
-                const formattedContent = paragraphs.map(p => `<p>${p}</p>`).join('');
-                
-                // Create message container with feedback buttons for assistant messages
-                if (role === 'assistant') {
-                    messageDiv.innerHTML = `
-                        <div class="message-content">${formattedContent}</div>
-                        <div class="message-feedback">
-                            <span>Was this helpful?</span>
-                            <button class="feedback-btn helpful" onclick="provideFeedback('${messageId}', 'helpful')">👍</button>
-                            <button class="feedback-btn not-helpful" onclick="provideFeedback('${messageId}', 'not_helpful')">👎</button>
-                        </div>
-                    `;
-                } else {
-                    messageDiv.innerHTML = `<div class="message-content">${formattedContent}</div>`;
-                }
-                
-                chatMessages.appendChild(messageDiv);
-                
-                // Scroll to bottom
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-            }
-            
-            function addQuickReplies(replies) {
-                // Create quick replies container
-                const quickRepliesDiv = document.createElement('div');
-                quickRepliesDiv.className = 'quick-replies';
-                
-                // Add a heading
-                const heading = document.createElement('p');
-                heading.className = 'quick-replies-heading';
-                heading.textContent = 'Suggested questions:';
-                quickRepliesDiv.appendChild(heading);
-                
-                // Add each reply as a button
-                replies.forEach(reply => {
-                    const button = document.createElement('button');
-                    button.className = 'quick-reply';
-                    button.textContent = reply;
-                    button.addEventListener('click', function() {
-                        // Fill the input with the clicked reply
-                        userInput.value = reply;
-                        // Remove the quick replies
-                        quickRepliesDiv.remove();
-                        // Send the message
-                        sendMessage();
-                    });
-                    quickRepliesDiv.appendChild(button);
-                });
-                
-                chatMessages.appendChild(quickRepliesDiv);
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-            }
-            
-            // Add functions for feedback handling
-            window.provideFeedback = function(messageId, feedbackType) {
-                const messageElement = document.getElementById(messageId);
-                if (!messageElement) return;
-                
-                // Get the content of the message
-                const content = messageElement.querySelector('.message-content').textContent;
-                
-                // Show thank you message and possibly a comment field
-                const feedbackElement = messageElement.querySelector('.message-feedback');
-                
-                if (feedbackType === 'not_helpful') {
-                    // For negative feedback, ask for more details
-                    feedbackElement.innerHTML = `
-                        <span>Thanks for your feedback!</span>
-                        <textarea id="feedback-comment-${messageId}" placeholder="How could this be improved? (optional)"></textarea>
-                        <button onclick="submitFeedbackComment('${messageId}', '${feedbackType}')">Submit</button>
-                    `;
-                } else {
-                    // For positive feedback, just show thanks
-                    feedbackElement.innerHTML = `<span>Thanks for your feedback!</span>`;
-                    
-                    // Send the feedback to the server
-                    sendFeedback(messageId, feedbackType, '');
-                }
-            };
-            
-            window.submitFeedbackComment = function(messageId, feedbackType) {
-                const commentElement = document.getElementById(`feedback-comment-${messageId}`);
-                const comments = commentElement ? commentElement.value : '';
-                
-                // Update the feedback element
-                const messageElement = document.getElementById(messageId);
-                const feedbackElement = messageElement.querySelector('.message-feedback');
-                feedbackElement.innerHTML = `<span>Thanks for your feedback!</span>`;
-                
-                // Send the feedback to the server
-                sendFeedback(messageId, feedbackType, comments);
-            };
-            
-            function sendFeedback(messageId, feedbackType, comments) {
-                fetch('/api/feedback', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        message_id: messageId,
-                        type: feedbackType,
-                        comments: comments
-                    }),
-                })
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Feedback sent successfully');
-                })
-                .catch(error => {
-                    console.error('Error sending feedback:', error);
-                });
-            }
+            quickRepliesDiv.appendChild(button);
         });
-    </script>
-</body>
-</html>
+        chatMessages.appendChild(quickRepliesDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    window.provideFeedback = function(messageId, feedbackType) {
+        const messageElement = document.getElementById(messageId);
+        if (!messageElement) return;
+        const feedbackElement = messageElement.querySelector('.message-feedback');
+        if (feedbackType === 'not_helpful') {
+            feedbackElement.innerHTML = '<span>Thanks!</span><textarea id="feedback-comment-' + messageId + '" placeholder="How could this be improved?"></textarea>' +
+                '<button type="button" class="btn btn-primary" style="padding:0.4rem 0.8rem;font-size:0.8125rem;" onclick="submitFeedbackComment(\'' + messageId + '\', \'' + feedbackType + '\')">Submit</button>';
+        } else {
+            feedbackElement.innerHTML = '<span>Thanks for your feedback!</span>';
+            sendFeedback(messageId, feedbackType, '');
+        }
+    };
+
+    window.submitFeedbackComment = function(messageId, feedbackType) {
+        const commentElement = document.getElementById('feedback-comment-' + messageId);
+        document.getElementById(messageId).querySelector('.message-feedback').innerHTML = '<span>Thanks for your feedback!</span>';
+        sendFeedback(messageId, feedbackType, commentElement ? commentElement.value : '');
+    };
+
+    function sendFeedback(messageId, feedbackType, comments) {
+        fetch('/api/feedback', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message_id: messageId, type: feedbackType, comments: comments }),
+        }).catch(err => console.error('Feedback error:', err));
+    }
+});
+</script>
+{% endblock %}

@@ -13,7 +13,7 @@ def _load_products_from_data_store():
     products = []
     seen_ids = set()
 
-    for filename in sorted(os.listdir(PROJECT_DATA_STORE)):
+    for filename in sorted(os.listdir(PROJECT_DATA_STORE), reverse=True):
         if not (
             filename.startswith("products_with_embeddings_") and filename.endswith(".json")
         ):

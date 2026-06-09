@@ -1,0 +1,86 @@
+<div class="profile-sidebar">
+    <div class="card">
+        <h3 style="font-size: 1rem; margin-bottom: 1rem;">Your Profile</h3>
+
+        {% if user.job_role or user.industry or user.company_size %}
+        <div class="profile-item">
+            <span class="label">Job</span>
+            {{ user.job_role or 'Not specified' }}
+            {% if user.industry %} · {{ user.industry }}{% endif %}
+            {% if user.company_size %} · {{ user.company_size }}{% endif %}
+        </div>
+        {% endif %}
+
+        {% if user.interests %}
+        <div class="profile-item">
+            <span class="label">Interests</span>
+            {% for interest in user.interests %}<span class="tag">{{ interest }}</span>{% endfor %}
+        </div>
+        {% endif %}
+
+        {% if user.tools_used %}
+        <div class="profile-item">
+            <span class="label">Tools</span>
+            {% for tool in user.tools_used %}<span class="tag">{{ tool }}</span>{% endfor %}
+        </div>
+        {% endif %}
+
+        {% if user.challenges %}
+        <div class="profile-item">
+            <span class="label">Challenges</span>
+            {% for challenge in user.challenges %}<span class="tag">{{ challenge }}</span>{% endfor %}
+        </div>
+        {% endif %}
+
+        {% if user.budget_preference %}
+        <div class="profile-item">
+            <span class="label">Budget</span>
+            {{ user.budget_preference }}
+        </div>
+        {% endif %}
+
+        {% if user.common_tasks %}
+        <div class="profile-item">
+            <span class="label">Common tasks</span>
+            {% for task in user.common_tasks %}<span class="tag">{{ task | replace('_', ' ') | title }}</span>{% endfor %}
+        </div>
+        {% endif %}
+
+        {% if user.improvement_areas %}
+        <div class="profile-item">
+            <span class="label">Improve</span>
+            {% for area in user.improvement_areas %}<span class="tag">{{ area | replace('_', ' ') | title }}</span>{% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="profile-item">
+            <span class="label">Completeness</span>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: {{ user.assessment_completeness or 0 }}%"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: var(--color-text-muted);">{{ user.assessment_completeness or 0 }}%</span>
+        </div>
+
+        {% if not user.job_role and not user.interests %}
+        <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-top: 1rem;">
+            <a href="/profile/setup">Complete your profile</a> for better matches.
+        </p>
+        {% else %}
+        <a href="/profile/setup" style="font-size: 0.8125rem;">Edit profile</a>
+        {% endif %}
+    </div>
+
+    {% if user.recommendation_history %}
+    <div class="card" style="margin-top: 1rem;">
+        <h3 style="font-size: 1rem; margin-bottom: 1rem;">Recent searches</h3>
+        {% for item in user.recommendation_history | reverse %}
+        {% if loop.index <= 5 %}
+        <div class="history-item">
+            <strong>{{ item.query }}</strong>
+            <span class="timestamp">{{ item.timestamp }}</span>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>

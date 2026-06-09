@@ -180,11 +180,12 @@ def get_recommendations(query, user_profile=None, top_k=5):
     if query_embedding:
         vector_store = _get_vector_store()
         results = vector_store.search(query_embedding, top_k=top_k * 2)
-    else:
+
+    if not query_embedding or not results:
         results = _keyword_fallback_search(enhanced_query, top_k=top_k)
         if not results:
             return {
-                "error": "Could not generate recommendations. Check your OpenAI API key and billing."
+                "error": "Could not generate recommendations. Try a different search or check your embedding setup."
             }
 
     recommendations = []
